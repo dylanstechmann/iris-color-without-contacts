@@ -87,6 +87,19 @@ A separate 36-month serial-photography study of 22 latanoprost-treated patients 
 
 U.S. prescribing information describes the added iris pigmentation as likely permanent after treatment is discontinued. Human follow-up reports support persistence: a latanoprost clinical report found no change in induced pigmentation in patients followed for two years after stopping, and a separate case with serial photographs found no appreciable fading over five years. These are withdrawal observations, not tests of a future pigment-removal intervention; the five-year report is one patient.
 
+A different anterior-eye pigment compartment has a slow human trajectory after disease-directed treatment. In 21 eyes from 11 people with pigment-dispersion disease, visible trabecular-meshwork pigmentation scores declined from a median of 16 at baseline to 12 over 15 years after laser peripheral iridotomy or trabeculectomy; the cohort was small and uncontrolled. Intraocular pressure also fell, but the study graded visible meshwork pigmentation rather than chemically measuring pigment mass or tracking its final destination. The meshwork is a downstream drainage tissue, not the anterior iris stroma that determines visible eye color; these procedures are not a nonsurgical cosmetic reversal route. This observation supports a narrow inference that pigment in a downstream ocular depot can attenuate slowly when the disease process is addressed, while leaving iris-color reversal unanswered. [Zhou et al., 2021](https://pubmed.ncbi.nlm.nih.gov/34397796/).
+
+```mermaid
+flowchart LR
+    PI["Posterior iris pigment epithelium<br/>in pigment-dispersion disease"] --> AQ["Released granules enter<br/>aqueous pathways"]
+    AQ --> TM["Trabecular meshwork<br/>receives downstream pigment"]
+    TX["H: 21 eyes / 11 patients;<br/>LPI or trabeculectomy"] --> SCORE["Visible TM score:<br/>median 16 → 12 by year 15"]
+    TX -.-> PRESS["IOP also fell;<br/>disease-directed outcome"]
+    TM --> SCORE
+    SCORE -.-> DEST["G: pigment mass and final<br/>destination not measured"]
+    SCORE -.-> TARGET["Different compartment from the<br/>anterior-stromal eye-color target"]
+```
+
 An adjacent-tissue comparison underscores why this cannot be generalized across the body. In one case, latanoprost-associated periocular skin darkening visibly improved within a month of stopping and was significantly lighter by two months, consistent with the turnover of the epidermis. That single skin case neither demonstrates iris reversal nor a treatment for it. [U.S. label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f4e73059-5ba0-4d73-9ea1-09d8d654e844), [Wistrand et al., 1997](https://pubmed.ncbi.nlm.nih.gov/9154289/), [Camras et al., 2000](https://pubmed.ncbi.nlm.nih.gov/10708238/), [Wand et al., 2001](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/265847).
 
 The OCA-1B pilot above followed other tissues after nitisinone stopped: plasma tyrosine returned to baseline, the hair eumelanin marker was near baseline at safety follow-up, and the pheomelanin marker remained lower. One participant restarted during follow-up, and no post-discontinuation iris-transillumination return endpoint was reported. This is partial biochemical follow-up in a disease pilot, not evidence of a reversible iris-color cycle. [One-year nitisinone pilot in OCA-1B](https://insight.jci.org/articles/view/124387).
