@@ -323,6 +323,21 @@ A 2026 high-resolution analysis of **seven postmortem human locus-coeruleus samp
 
 Oxidative pigment loss also needs a product-and-function assessment. In isolated pigment granules from human cadaveric retinal pigment epithelium, oxidative melanin breakdown yielded water-soluble carbonyl-containing products; the product fractions generated superoxide under blue light in vitro. The authors frame this as potential phototoxicity. Separately, oxidative bleaching of synthetic DOPA-melanin altered antioxidant/redox properties and increased singlet-oxygen photogeneration. These are isolated-granule and synthetic-pigment models, not evidence that a designed intervention would harm living tissue; they establish that decreased absorbance alone is an incomplete safety endpoint. [Dontsov et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37685907/), [Mokrzyński et al., 2024](https://pubmed.ncbi.nlm.nih.gov/38803190/).
 
+A 2023 study extends this safety question to natural human hair-derived pigment: experimental photodegradation increased melanosome photoreactivity and lowered antioxidant capacity, and loaded HaCaT keratinocytes exposed to UV–visible light showed more cell death, mitochondrial depolarization, and lipid peroxidation. This is not an intact-follicle or living-person treatment study. Read alongside the 2026 ex-vivo human-skin finding—visible darkening concurrent with melanin-marker changes interpreted as oxidation, degradation, and cross-linking—it shows why a color shift cannot stand in for either pigment mass or function. The RPE, hair-pigment, and skin experiments are different model systems and do not establish a shared clearance route. None tracks a proposed intervention's products out of a living tissue or measures recovery after withdrawal. [Mokrzyński et al., 2023](https://doi.org/10.1016/j.jphotobiol.2023.112704), [Ito et al., 2026](https://doi.org/10.3390/ijms27093973).
+
+```mermaid
+flowchart TB
+    S["P: ex-vivo human skin + UVA1"] --> S1["Visible darkening with HPLC marker shifts<br/>interpreted as oxidation, degradation,<br/>and cross-linking"]
+    H["P: experimentally photodegraded<br/>human hair-derived melanosomes"] --> H1["Photoreactivity increased;<br/>antioxidant capacity decreased"]
+    H1 --> HC["P: melanosome-loaded keratinocytes + UV–Vis<br/>cell death, mitochondrial depolarization,<br/>and lipid hydroperoxides increased"]
+    R["P: isolated human RPE pigment granules<br/>oxidized by superoxide"] --> R1["Water-soluble carbonyl-containing products;<br/>blue-light superoxide generation in vitro"]
+    S1 -.-> G["G: mass balance, product destination,<br/>photoprotection/function, and recovery<br/>after withdrawal remain unshown"]
+    HC -.-> G
+    R1 -.-> G
+```
+
+
+
 ```mermaid
 flowchart TD
     P["Observed color or pigment marker"] --> A["Identify pigment and storage compartment"]
