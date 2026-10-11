@@ -24,6 +24,8 @@ flowchart LR
 
 **Inference:** a true return to an individual's blue baseline likely requires restoration of the anterior stroma's low-pigment state and its optical presentation. Merely stopping new melanin production would not establish either outcome. This requirement follows from the observed pigment differences and persistence of medication-associated iris darkening; it has not been demonstrated as an intervention.
 
+An inherited HERC2–OCA2 regulatory variant strongly predicts natural blue/brown iris-color differences, but the functional enhancer study used cultured epidermal melanocytes and the same locus also associates with skin and hair pigmentation. This is explanatory genetics, not evidence of an adult iris-specific reversible switch. [Atlas diagram and evidence](tissue-pigment-atlas.md#5-the-original-iris-cycle).
+
 ## Evidence for increasing pigmentation
 
 Clinical experience with latanoprost shows that adult iris pigmentation can increase in some eyes, through more melanin in existing stromal melanocytes. The effect has occurred mainly in mixed-color irides. Current UK product information reports no observed change in uniformly blue eyes in the cited studies.
