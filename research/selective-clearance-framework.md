@@ -187,6 +187,32 @@ The iris provides an ocular example of this distinction. In a vitiligo-model mou
 
 [Iris pigment-dispersion models](https://pmc.ncbi.nlm.nih.gov/articles/PMC7847180/), [human nodal anthracosis cases](https://pmc.ncbi.nlm.nih.gov/articles/PMC3920429/), [surface corneocyte study](https://pubmed.ncbi.nlm.nih.gov/8881670/), [human skin-and-node tattoo study](https://doi.org/10.1038/s41598-017-11721-z), [mouse tattoo-ink immune study](https://doi.org/10.1073/pnas.2510392122), [model critique](https://doi.org/10.1073/pnas.2611211123), [author reply](https://doi.org/10.1073/pnas.2613440123), [tattoo pigment in regional nodes after dermabrasion](https://pubmed.ncbi.nlm.nih.gov/32650854/), [mouse liver biodistribution study](https://pubmed.ncbi.nlm.nih.gov/28486229/), [tattoo laser biopsy study](https://doi.org/10.1111/1523-1747.ep12478570), [argyria biopsies after laser](https://pmc.ncbi.nlm.nih.gov/articles/PMC9309704/), [melanosis-coli model](https://pmc.ncbi.nlm.nih.gov/articles/PMC1880689/), [human ultrastructure](https://pubmed.ncbi.nlm.nih.gov/8367190/), [melanosis-coli clinical course](https://pubmed.ncbi.nlm.nih.gov/36849146/), [single-case follow-up](https://pmc.ncbi.nlm.nih.gov/articles/PMC11402352/).
 
+## Tissue access is not cell or pigment selectivity
+
+A route can expose an organ without selectively reaching its pigment-bearing cells. Concentration may vary among compartments inside one organ, and a visible response does not establish where a compound acted.
+
+```mermaid
+flowchart TB
+    R["Exposure route"] --> L["Local / topical"]
+    L --> S["Skin: surface manipulation reduced<br/>model pigment while barrier loss rose"]
+    L --> G["Gingiva: topical human studies<br/>measured lightness, not pigment export"]
+    L --> E["Eye drops: drug reaches several<br/>ocular tissues; profiles vary by compound"]
+    R --> SYS["Systemic"]
+    SYS --> M["One precursor shift in OCA-1B:<br/>skin, hair, and iris responses differed"]
+    R --> B["Compartment barriers / gradients"]
+    B --> C["Cochlea: injury-associated barrier leakage<br/>increased systemic drug entry"]
+    B --> C2["Local cochlear drug exposure<br/>was not uniform across compartments"]
+    S --> Q["Access or appearance ≠<br/>pigment-selective modulation"]
+    G --> Q
+    E --> Q
+    M --> Q
+    C --> Q
+    C2 --> Q
+    Q --> T["Still needed: pigment-cell exposure,<br/>direct burden and fate, tissue function,<br/>spatial selectivity, and return"]
+```
+
+The examples are route and pharmacokinetic evidence, not pigment treatments. A human one-dose ocular study detected glaucoma agents in multiple tissues, including iris/ciliary body; a separate radiotracer study in pigmented rabbits detected drug-related radioactivity in anterior and posterior eye tissues and recovered 99.5% of dose radioactivity in urine and feces by seven days. That radioactivity tracks drug and metabolites, not melanin. In guinea pigs, noise-related blood-labyrinth-barrier leakage increased systemic dexamethasone entry, while locally applied gentamicin showed nonuniform distribution in inner-ear fluid compartments. These injury- or compound-specific results do not establish safe access for pigment modulation. [Human ocular PK](https://pubmed.ncbi.nlm.nih.gov/22136089/), [Tajika et al., 2011](https://pubmed.ncbi.nlm.nih.gov/21118027/), [Ke et al., 2024](https://pubmed.ncbi.nlm.nih.gov/37987231/), [Salt et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27725177/).
+
 ## Mechanism classes and their current reach
 
 | Mechanism class | What it changes | Evidence examples in the atlas | What it does not establish |
