@@ -454,12 +454,8 @@ flowchart LR
 
 Many current papers answer one or two levels. A cellular mechanism does not imply an established clinical option; a clinical treatment for one disease does not imply a cosmetic option for healthy tissue. The source register labels study models so these evidence levels remain visible.
 
-## Next literature-review steps
+## Updating this framework
 
-1. For each tissue in the atlas, identify the relevant pigment molecule, producing cell, storage compartment, and normal physiological role.
-2. Classify the evidence by endpoint: synthesis, transfer, actual pigment burden, appearance, function, export, or reversibility.
-3. Record whether the study uses human tissue, cultured human cells, another cell model, animals, observational clinical data, or a controlled clinical intervention.
-4. Track unassessed tissues separately from negative results.
-5. Update the evidence map when a study demonstrates a later step in the ladder, rather than inferring it from an earlier marker.
+Keep tissue-specific study summaries in the [atlas](tissue-pigment-atlas.md) and [evidence register](pigment-evidence-register.md). Update this framework when new evidence changes a shared mechanism, material-fate principle, or evidence-ladder assessment; the original iris-cycle question remains in [bidirectional iris reversibility](bidirectional-reversibility.md).
 
-This framework is literature organization, not a treatment design. Its current evidence supports tissue-specific research questions; it does not establish a body-wide pigment-clearance capability.
+This framework is literature organization, not a treatment design. The reviewed evidence does not establish a body-wide pigment-clearance capability.
