@@ -10,7 +10,7 @@ A modulator need not change DNA. Pharmacologic and gene-regulatory biology are r
 
 ## Current assessment
 
-Adult iris darkening has been observed as a side effect of some glaucoma medicines. It demonstrates a drug-associated appearance shift in susceptible eyes, not a controllable cosmetic color switch; small human morphometry links darkening with larger anterior-border melanin granules but does not show a rise in total granule counts or later clearance. [Cracknell et al., 2007](https://pubmed.ncbi.nlm.nih.gov/17292473/). Responses depend on the starting iris: current product information reports no observed change in uniformly blue eyes in the cited studies. [Xalatan product information](https://www.medicines.org.uk/emc/product/1616/smpc)
+Adult iris darkening has been observed as a side effect of some glaucoma medicines. It demonstrates a drug-associated appearance shift in susceptible eyes, not a controllable cosmetic color switch; small human morphometry links darkening with larger anterior-border melanin granules but does not show a rise in total granule counts or later clearance. [Cracknell et al., 2007](https://pubmed.ncbi.nlm.nih.gov/17292473/). Responses depend on the starting iris: current product information reports no observed change in uniformly blue eyes in the cited studies. [Xalatan product information](https://www.medicines.org.uk/emc/product/1616/smpc) A separate POAG surgical series found no latanoprost-associated increase in trabecular-meshwork pigmentation even though four treated specimens had documented iris darkening; it did not trace pigment to a final destination. [Cracknell et al., 2006](https://pubmed.ncbi.nlm.nih.gov/16297910/).
 
 Direct human uveal-cell and donor-iris studies show that new melanin production can be modulated in experimental models. One small rabbit study reported lower final iris melanin when an inhibitor accompanied an inducing drug, but involved three animals in the relevant cohort, had a numerical discrepancy between the abstract and table, and did not measure pigment after withdrawal. These data support preclinical production modulation, not human pigment clearance or a reversible color cycle. [Drago et al., 1999](https://pubmed.ncbi.nlm.nih.gov/9986745/), [Lindsey et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11405836/), [Sadiq et al., 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9674870/)
 
@@ -26,7 +26,7 @@ The broader pigment review suggests a shared **control framework**—identify th
 
 ## Research notes
 
-- [Tissue pigment atlas: fifty-three diagrams covering skin, gums, eyes, and other body compartments](research/tissue-pigment-atlas.md)
+- [Tissue pigment atlas: fifty-four diagrams covering skin, gums, eyes, and other body compartments](research/tissue-pigment-atlas.md)
 - [Framework for selective pigment clearance](research/selective-clearance-framework.md)
 - [Pigment evidence register: models, endpoints, clinical indications, and limitations](research/pigment-evidence-register.md)
 - [Bidirectional modulation and the reversibility requirement](research/bidirectional-reversibility.md)
