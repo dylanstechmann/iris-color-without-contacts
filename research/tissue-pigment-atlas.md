@@ -630,7 +630,7 @@ flowchart LR
     P2 -.-> G
     P["P: mouse tattoo-ink study"] --> L["Ink particles in liver Kupffer cells<br/>after one year"]
     L -.-> G
-    H["H: 2025 human tattoo study;<br/>24 adults, soluble tracer-spiked ink"] --> HT["Tracers / metabolites in urine;<br/>iodide and a PABA metabolite in plasma"]
+    TR["H: 2025 human tattoo study;<br/>24 adults, soluble tracer-spiked ink"] --> HT["Tracers / metabolites in urine;<br/>iodide and a PABA metabolite in plasma"]
     HT -.-> G
     A["Silver deposits in argyria"] --> Y["X: laser in one human case"]
     Y --> S["H: smaller particles and lower<br/>silver signal in treated-skin biopsy"]
