@@ -1057,7 +1057,9 @@ flowchart TD
 
 ### Cell identity creates an intra-iris selectivity constraint
 
-A 2025 single-cell study of native adult human iris tissue from three donors resolved stromal melanocytes, non-melanocytic stroma, macrophages, vessels, and iris muscle. It also reported pigment and pigmentation-gene expression in iris muscle. The cell map is useful for defining what a selectivity claim would need to test; it is not evidence that changing those genes clears pigment.
+A 2025 single-cell study of native adult human iris tissue from three donors resolved stromal melanocytes, non-melanocytic stroma, macrophages, vessels, and iris muscle. Iris muscle also contained pigment and expressed pigmentation-associated genes including DCT, MITF, and LHX2. A candidate keyed only to one of those genes therefore cannot be assumed to act only in stromal melanocytes; pupil-control function is a separate endpoint.
+
+The same study developed an eye-like SEAM culture from human pluripotent stem cells. It produced pigmented ocular zones and presumptive PAX6+/ACTA2+ iris-muscle cells, averaging 7.6% of cells in quantified cultures. Single-cell profiles shared some adult iris-muscle markers, but the model-derived cells lacked the mature smooth-muscle markers MYH11 and MYLK. This is a developmental model, not a complete adult iris, and the study did not test pigment modulation. **Inference:** SEAM may help test cell-resolved selectivity, but it is not yet evidence of pigment clearance or a validated color-modulation model. [Makovoz et al., 2025](https://doi.org/10.1038/s41467-025-65653-8).
 
 ```mermaid
 flowchart LR
@@ -1067,13 +1069,18 @@ flowchart LR
     C --> O["Non-melanocytic stroma,<br/>macrophages, vessels"]
     S --> T["Desired visible-pigment<br/>cell population"]
     M --> F["Preserve pupil-control<br/>muscle function"]
-    S --> G["Inference: DCT / MITF expression<br/>alone does not prove cell selectivity"]
+    S --> G["Inference: pigment genes<br/>alone do not prove selectivity"]
     M --> G
     O --> G
-    G --> E["G: cell-resolved perturbation,<br/>pigment fate, and function tests"]
+    PSC["P: hPSC-derived SEAM<br/>eye-like model"] --> Z["Pigmented zones + presumptive<br/>PAX6+/ACTA2+ iris-muscle cells<br/>(~7.6% of quantified cells)"]
+    Z --> IMM["Immature muscle-like cells:<br/>MYH11 / MYLK absent"]
+    PSC --> DEV["Developmental model,<br/>not a complete adult iris"]
+    G --> E["G: cell-resolved pigment perturbation,<br/>clearance, and function tests"]
+    IMM --> E
+    DEV --> E
 ```
 
-The paper is a three-donor cell-identity study, not a pigment-modulation experiment. Because iris muscle also expresses pigmentation-associated genes, the inference is that a candidate based only on such a gene cannot be assumed to act only in stromal melanocytes. Any proposed anterior-iris selectivity would need to distinguish melanocyte effects from iris-muscle and other cell effects while preserving pupil function. [Makovoz et al., 2025](https://doi.org/10.1038/s41467-025-65653-8).
+The paper maps both the target cell population and a potential human-relevant model context; neither part measures pigment loss or export. Any proposed anterior-iris selectivity would need to distinguish melanocyte effects from iris-muscle and other cell effects while preserving pupil function. [Makovoz et al., 2025](https://doi.org/10.1038/s41467-025-65653-8).
 
 Topical ocular access is distinct from pigment clearance. In pigmented rabbits, a single radiolabeled difluprednate eye-drop exposure produced drug-related radioactivity in cornea, iris/ciliary body, conjunctiva, and anterior and posterior retina/choroid; 99.5% of dose radioactivity was recovered in urine and feces by seven days. This tracks the ophthalmic drug and its metabolites, not melanin or pigment fragments, and is not evidence of pigment export. [Tajika et al., 2011](https://pubmed.ncbi.nlm.nih.gov/21118027/).
 
