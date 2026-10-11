@@ -95,6 +95,8 @@ The endpoint also matters: a mouse keratinocyte study found that lysosomal/Rab7B
 
 **Inference:** these findings justify studying pigment turnover as a distinct mechanism. They do not establish selective adult iris clearance, preservation of vision, or the return from an induced brown iris to its original blue.
 
+A 2026 single-center study also reports PDT plus recombinant mussel-mucin dressing for post-inflammatory skin hyperpigmentation. It is a clinical, disease-context appearance signal, not evidence for healthy-skin shade control or iris clearance. The report has conflicting randomization descriptions and internally inconsistent OD, recurrence, adverse-event, and DLQI values; its correction changes figure labels only. It measures neither chemical pigment fate nor return to baseline. This adjacent skin result does not close the iris-specific gap. [Nie et al., 2026](https://doi.org/10.3389/fmed.2025.1654474); [correction](https://doi.org/10.3389/fmed.2026.1831015).
+
 ## What “selective” would need to mean
 
 Molecular selectivity is only one requirement. A substance that interacts with a pigment-making enzyme is not automatically selective for the anterior iris or safe elsewhere in the eye.
