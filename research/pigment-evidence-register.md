@@ -88,6 +88,12 @@ This is a scoped source register, not a systematic review or a global audit of p
 
 ## Eyes
 
+The uveal-cell literature supports modulation of new synthesis in preclinical systems. A separate ocular-surface pigment compartment is the corneal limbus, where melanocytes and melanin-bearing basal epithelial cells were found in human donor tissue.
+
+| Source | Evidence type / model | Endpoint and limit |
+| --- | --- | --- |
+| [Higa et al., 2005](https://pubmed.ncbi.nlm.nih.gov/16080916/) | Human corneal-limbus whole mounts and serial sections; cytospin cell estimates in three samples | Melanin granules were observed in basal K19-positive epithelial cells; sporadic dendritic MART1-positive melanocytes were identified. Defines an ocular-surface niche near corneal epithelial progenitors, distinct from iris pigment; no pigment-turnover or clearance endpoint. |
+
 The uveal-cell literature supports modulation of new synthesis in preclinical systems. Human morphometry links drug-associated darkening with larger anterior-border melanin granules, without a demonstrated increase in granule counts. Serial iris-photo density measures also moved in both directions in one small treated cohort, but were not pigment assays. Human iris ultrastructure shows turnover-like morphology and clump cells that can engulf free granules, but this evidence does not quantify net pigment loss or follow its destination. Longitudinal natural-history studies show that some people have iris-color grade shifts after childhood, including lightening in a subset of adult women, but they did not quantify melanin or follow pigment fate. Aged human iris specimens show melanosome complexes, with clinical significance unresolved. The rabbit study is suggestive for suppression during an induced response, but its small groups, internal numeric discrepancy, and missing baseline/washout measurements prevent a claim of established-pigment clearance or reversible human color change.
 
 | Source | Evidence type / model | Endpoint and limit |
