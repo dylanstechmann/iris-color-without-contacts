@@ -646,7 +646,27 @@ flowchart TD
 
 Bilirubin is a useful narrow comparator because both hepatic handling and whole-body tracer recovery have been measured in people. In 13 healthy adults, an injected unconjugated-bilirubin tracer was followed for seven days; mean cumulative radioactivity recovered in feces and urine was 96% of the dose. A separate human donor-liver and primary-hepatocyte study linked UGT1A1 abundance with bilirubin-conjugating activity and documented substantial donor variation. These studies describe a specialized route for bilirubin. They do not show selective clearance of stored melanin or lipofuscin, or a way to change skin, gum, or iris color. Tooth whitening and removal of external tattoo ink remain different capabilities; FDA states that it has not approved tattoo-removal creams. [Berk et al., human tracer study](https://www.jci.org/articles/view/106184), [Ritter et al., human liver UGT1A1 study](https://pubmed.ncbi.nlm.nih.gov/10421657/), [NIH jaundice information](https://newsinhealth.nih.gov/2022/10/recognizing-jaundice), [ADA tooth whitening](https://www.ada.org/resources/ada-library/oral-health-topics/whitening), [FDA tattoo removal](https://www.fda.gov/consumers/consumer-updates/tattoo-removal-options-and-results), [NHLBI hemoglobin and red cells](https://www.nhlbi.nih.gov/health/anemia/causes).
 
-### Melanuria: pathological pigment traffic, not a normal clearance route
+### Normal urinary melanogenic markers and unresolved tissue-pigment fate
+
+```mermaid
+flowchart LR
+    M["Melanocytes making pigment<br/>and related pathway products"] --> S["Some intermediates / metabolites<br/>enter circulation and urine"]
+    S --> N["Healthy-subject studies<br/>detect urinary markers"]
+    N --> I["Marker levels can reflect<br/>skin pigment-forming activity"]
+    U["Urine sample"] --> A["Laboratory permanganate oxidation<br/>or hydrolysis"]
+    A --> P["PTCA / 4-AHP assay markers"]
+    P -.-> Q["Generated during analysis;<br/>not proof of in-vivo pigment fragments"]
+    T["Stored melanin in a tissue"] -.->|not traced| X["Direct tissue-to-urine<br/>mass balance is not established"]
+    N --> E["Normal pathway-product excretion is evidenced;<br/>clearance of an existing tissue pool remains unresolved"]
+    H["1993 report of soluble melanin-like<br/>material in healthy urine"] --> C["Source specificity uncertain;<br/>precursors can polymerize in urine"]
+    C --> X
+```
+
+Normal physiology includes urinary output of melanogenesis-related products. In healthy people across skin types, urinary 6-hydroxy-5-methoxyindole-2-carboxylic acid differed with skin pigmentation while 5-S-cysteinyldopa did not; a separate comparison identified another urinary indole as the best marker of skin pigment formation. A later method study measured eumelanin-related PTCA and other markers in urine from 10 control subjects, but generated PTCA through permanganate oxidation of the urine sample. These studies support normal excretion of melanin-pathway products and detectable urinary pigment-related signal. They do not trace previously stored pigment from a named tissue into urine, quantify tissue-to-body mass balance, or demonstrate selective removal. [Wirestrand et al., 1985](https://pubmed.ncbi.nlm.nih.gov/2413694/), [Westerhof et al., 1987](https://doi.org/10.1111/1523-1747.ep12580422), [Wakamatsu et al., 2006](https://pubmed.ncbi.nlm.nih.gov/16524432/).
+
+A small 1993 biochemical report interpreted spectroscopy and isolation results as soluble melanins in healthy adults' urine. Its abstract reports precipitation after prolonged acid treatment and notes that melanin-like material can also form in urine in vitro when precursors oxidatively polymerize. Without chemical source attribution or tracing a tissue pigment pool into urine, this finding does not establish a physiological route for clearing stored skin or iris melanin. [Hegedus and Nayak, 1993](https://pubmed.ncbi.nlm.nih.gov/7511438/).
+
+### Melanuria in metastatic melanoma: pathological release, not a clearance model
 
 ```mermaid
 flowchart TD
@@ -655,13 +675,9 @@ flowchart TD
     P --> G["Pathological high-burden event;<br/>not selective cosmetic clearance"]
     U["Urine sample analyzed in a lab"] --> A["Chemical oxidation / hydrolysis<br/>produces assay markers PTCA / 4-AHP"]
     A --> E["Assay markers do not trace<br/>in-vivo pigment breakdown and export"]
-    H["1993 healthy-adult report"] --> Q["Soluble melanin-like material claimed;<br/>precursors can polymerize in urine in vitro"]
-    Q --> R["Source attribution to stored<br/>tissue pigment remains uncertain"]
 ```
 
 Metastatic melanoma is a rare pathological comparator for pigment-related material reaching blood and urine. In one study, urinary PTCA, 4-AHP, and melanogenesis-related markers were higher in 45 melanoma patients than in 10 controls. PTCA and 4-AHP are measured after chemically processing the urine sample, so these assays do not show that the same products formed in vivo or came from normal tissue stores. One clinical report documented diffuse darkening of skin, nails, and oral mucosa together with melanuria. A separate case of metastatic melanoma with melanuria had intratubular melanin deposits and tubular injury on kidney histology. This is not evidence that normal skin, gum, or iris melanin can be selectively mobilized for safe renal excretion. [Wakamatsu et al., 2006](https://pubmed.ncbi.nlm.nih.gov/16524432/), [Takasaki et al., 2003](https://pubmed.ncbi.nlm.nih.gov/12950724/), [Piana and Longo, 2019](https://www.nejm.org/doi/full/10.1056/NEJMicm1810151), [acute kidney injury case, 2008](https://pubmed.ncbi.nlm.nih.gov/18572978/).
-
-A 1993 biochemical report interpreted spectroscopy and isolation results as soluble melanins in healthy adults' urine. Its abstract also notes that melanin-like material can form in urine in vitro when precursors oxidatively polymerize. Without tracing a tissue pigment pool into urine, this older report does not establish a physiological route for clearing stored skin or iris melanin. [Hegedus and Nayak, 1993](https://pubmed.ncbi.nlm.nih.gov/7511438/).
 
 ## 11. Systemic exposures can affect several tissues
 
