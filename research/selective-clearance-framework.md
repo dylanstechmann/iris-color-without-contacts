@@ -27,6 +27,18 @@ flowchart TD
 
 Each arrow is a separate research question. Lowering new synthesis changes the input to a pigment pool. It does not by itself demonstrate that material already stored in the tissue has disappeared. Likewise, loss of a melanosome protein, a lower optical signal, or a lighter-looking surface does not alone establish molecular pigment removal. In a mouse keratinocyte model, proteins on incorporated melanosomes degraded while melanin content remained unchanged. A skin-cell study and a separate melanophagy study provide mechanism-level evidence for melanosome degradation in specific models; neither establishes the same process in every tissue. [Endpoint study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10739166/), [human skin-cell study](https://doi.org/10.1111/pcmr.12838), [melanophagy study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10998605/).
 
+## Surface-cell export is a distinct route
+
+In a renewing epithelium, pigment still held inside cells could leave with shed cells. That is biologically different from digesting pigment in place or reducing new synthesis. It remains an inference about material fate unless the pigment itself is followed out of the tissue and tissue function is checked.
+
+| Compartment | Human evidence in this review | What it does not establish |
+| --- | --- | --- |
+| **Epidermis** | A six-person study estimated turnover from fading of UVA-induced forearm pigmentation. | A direct mass balance for native melanin pools, selective clearance, or a method transferable to other skin sites. |
+| **Gingiva / buccal mucosa** | Human biopsy labeling studies measured site-dependent S-phase proliferation; buccal mucosa labeling exceeded mandibular gingiva in one study. | Full transit time, melanin carried by shed cells, or a controllable oral pigment-clearance route. |
+| **Adult iris** | In the examined adult iris specimens, PCNA and Ki-67 staining did not show positive nuclei. | Zero turnover over a lifetime, pigment disposal, or a route for returning iris color to baseline. |
+
+The comparison illustrates why renewal rate and pigment-clearance rate cannot be treated as the same endpoint. The skin study used a color-fading proxy; oral studies measured proliferation; iris histology was a snapshot. None of these measurements alone tracks pigment mass through source tissue, shed material, and functional recovery. [Maeda, 2017](https://www.mdpi.com/2079-9284/4/4/47), [Thomson et al., 1999](https://pubmed.ncbi.nlm.nih.gov/10577752/), [Thomson et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11684035/), [Pfeiffer et al., 2001](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/265260).
+
 ## Mechanism classes and their current reach
 
 | Mechanism class | What it changes | Evidence examples in the atlas | What it does not establish |
