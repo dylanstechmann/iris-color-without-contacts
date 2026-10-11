@@ -96,7 +96,7 @@ A separate ocular-surface pigment compartment is the corneal limbus, where melan
 | Source | Evidence type / model | Endpoint and limit |
 | --- | --- | --- |
 | [Higa et al., 2005](https://pubmed.ncbi.nlm.nih.gov/16080916/) | Human corneal-limbus whole mounts and serial sections; cytospin cell estimates in three samples | Melanin granules were observed in basal K19-positive epithelial cells; sporadic dendritic MART1-positive melanocytes were identified. Defines an ocular-surface niche near corneal epithelial progenitors, distinct from iris pigment; no pigment-turnover or clearance endpoint. |
-  
+
 ### Retinal pigment epithelium (RPE)
 
 | Source | Evidence type / model | Endpoint and limit |
