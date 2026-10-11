@@ -88,7 +88,7 @@ This is a scoped source register, not a systematic review or a global audit of p
 
 ## Eyes
 
-The uveal-cell literature supports modulation of new synthesis in preclinical systems. A separate ocular-surface pigment compartment is the corneal limbus, where melanocytes and melanin-bearing basal epithelial cells were found in human donor tissue.
+A separate ocular-surface pigment compartment is the corneal limbus, where melanocytes and melanin-bearing basal epithelial cells were found in human donor tissue. [Higa et al., 2005](https://pubmed.ncbi.nlm.nih.gov/16080916/).
 
 | Source | Evidence type / model | Endpoint and limit |
 | --- | --- | --- |
