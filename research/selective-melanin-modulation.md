@@ -57,7 +57,7 @@ Sources: [Drago et al.](https://pubmed.ncbi.nlm.nih.gov/9986745/), [human iris o
 
 ## Stored-pigment degradation evidence outside the iris
 
-The broader [tissue pigment atlas](tissue-pigment-atlas.md) includes a real research foothold for existing pigment. A primary study in cultured human melanocytes and melanosome-containing keratinocytes reported melanosome degradation with lighter cell pellets. This is preclinical skin-cell evidence, not a human iris-clearing result. [Kim et al., 2020](https://doi.org/10.1111/pcmr.12838).
+The broader [tissue pigment atlas](tissue-pigment-atlas.md) includes a real research foothold for existing pigment. A primary study in cultured human melanocytes and melanosome-containing keratinocytes reported melanosome degradation with lighter cell pellets. This is preclinical skin-cell evidence, not a human iris-clearing result. [Kim et al., 2020](https://doi.org/10.1111/pcmr.12838). A 2025 preclinical study reported reduced melanin accumulation with autophagy activation in normal human melanocytes and 3D MelanoDerm equivalents. Its company sponsorship, melanoma-cell experiments, and small technical replicate counts belong in the interpretation; there was no human treatment or iris study. [Geyfman et al., 2025](https://pubmed.ncbi.nlm.nih.gov/39305105/).
 
 A 2024 study described **melanophagy**, selective autophagy of melanosomes, mainly in a mouse melanoma-cell model. Its transferred-melanosome keratinocyte comparison did not show the same depigmentation effect. Tissue and cell compartment therefore matter before any proposed extrapolation. [Primary study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10998605/).
 
