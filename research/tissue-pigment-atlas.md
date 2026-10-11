@@ -190,6 +190,28 @@ A later human-cell study found that the synthetic autophagy inducer PTPD-12 incr
 
 The 2024 melanophagy study identified selective melanosome-autophagy machinery mainly in a mouse melanoma-cell model; the same effect was not reproduced in its transferred-melanosome keratinocyte model. This reinforces the need to specify cell compartment. [Melanophagy study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10998605/). A 2025 preclinical study also reported reduced melanin accumulation and increased autophagy in normal human melanocytes and 3D MelanoDerm skin equivalents; mechanistic work also used melanoma cells. The work was industry-sponsored and did not test a treatment in people. [Geyfman et al., 2025](https://pubmed.ncbi.nlm.nih.gov/39305105/).
 
+### Noninvasive imaging separates epidermal amount from its depth profile
+
+Two complementary human studies show that skin melanin can be followed in vivo at cellular and layer scales. Peña et al. developed a 3D multiphoton Pseudo-FLIM analysis that segments the epidermis and estimates both a global melanin-density fraction and a depth profile across 12 thickness-normalized layers. The method was compared with conventional FLIM and phasor analyses in synthetic melanin, human melanocyte/keratinocyte cocultures, and human skin. The authors report that the in-vivo density measure tracks skin-color ITA and agrees with prior ex-vivo histology/HPLC evidence across constitutive pigmentation; these are cross-method and population-level comparisons, not paired serial HPLC assays of the same treated tissue. The paper reanalyzed several human cohorts, including 37 women in its constitutive-pigmentation study and an occlusive retinoid time course. [Peña et al., 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC8803839/).
+
+In the 20-person retinoid occlusion study, multiphoton melanin density in living epidermis was lower on the retinol-treated area at days 12, 18, and 32; day 32 was 20 days after the 12-day exposure ended. The retinoic-acid area showed a significant decrease only at day 12. The retinol-associated signal remained lower at the last observation, so this is a monitored one-direction response, not a demonstrated return-to-baseline cycle. A separate one-year study of 30 women found that retinoids limited the seasonal ascent of melanin into suprabasal epidermal layers; the authors interpret the pattern mainly through epidermal renewal. Layer redistribution and turnover can change the measured optical density without showing chemical destruction or safe export of pigment. [Tancrède-Bohin et al., 2015](https://pubmed.ncbi.nlm.nih.gov/25220296/), [Tancrède-Bohin et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7754381/).
+
+A 2025 single-center observational melasma study used in-vivo two-photon microscopy (TPM) to score epidermal melanin by layer before and during treatment. Of 60 participants, 53 completed 12 weeks; five stopped because of hydroquinone allergy and two were lost to follow-up. Scores fell in all five epidermal layers among completers, alongside fewer activated melanocytes. The treatment phase had no untreated comparator, and the studied lesions were a disease model. The investigators discuss several possible mechanisms, including reduced synthesis, melanosome degradation, and melanocyte injury; their imaging outcome does not distinguish among these or track pigment products leaving tissue. TPM therefore strengthens **noninvasive treatment-response monitoring**, not proof of selective melanin-core clearance or reversibility. Its field of view and imaging depth are limited. [Ning et al., 2025](https://doi.org/10.1001/jamadermatol.2025.2790).
+
+HPLC measurement of melanin degradation markers in a harvested sample is more chemically specific, but it destroys the sample and loses spatial distribution. Multiphoton imaging supplies the complementary in-vivo layer map, while appearance measures remain separate. Neither endpoint alone accounts for breakdown products, export, neighboring compartments, skin function, or post-treatment return.
+
+```mermaid
+flowchart LR
+    A["Appearance<br/>colorimetry, photographs, clinical scores"] --> B["In-vivo multiphoton imaging<br/>3D epidermal signal + depth profile"]
+    B --> C["Layer-aware response<br/>distribution can shift while<br/>global density stays similar"]
+    B --> D["Human treatment monitoring<br/>retinoid and melasma signals fall"]
+    E["Cross-checks<br/>synthetic melanin, cell coculture,<br/>FLIM / phasor comparisons"] --> B
+    F["Ex-vivo HPLC<br/>chemical marker estimate in<br/>a destructively sampled specimen"] --> G["Different endpoints; neither is<br/>pigment-fate accounting"]
+    C --> G
+    D --> G
+    G --> H["Still needed for a clearance claim:<br/>polymer mass balance, product identity,<br/>export, tissue function, selectivity,<br/>and return after withdrawal"]
+```
+
 ### Epidermal pigment has cell-specific storage and exit routes
 
 ```mermaid
