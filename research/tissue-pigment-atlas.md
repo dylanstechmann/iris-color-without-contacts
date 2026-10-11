@@ -1082,6 +1082,8 @@ flowchart LR
 
 Topical ocular access is distinct from pigment clearance. In pigmented rabbits, a single radiolabeled difluprednate eye-drop exposure produced drug-related radioactivity in cornea, iris/ciliary body, conjunctiva, and anterior and posterior retina/choroid; 99.5% of dose radioactivity was recovered in urine and feces by seven days. This tracks the ophthalmic drug and its metabolites, not melanin or pigment fragments, and is not evidence of pigment export. [Tajika et al., 2011](https://pubmed.ncbi.nlm.nih.gov/21118027/).
 
+Human donor-tissue studies also identify a separate pigmented corneal limbus: basal K19-positive epithelial cells contain melanin caps, with sporadic dendritic melanocytes among them. This is an ocular-surface niche adjacent to corneal epithelial progenitors, not the central clear cornea or the visible iris target; the study did not examine pigment turnover or clearance. [Higa et al., 2005](https://pubmed.ncbi.nlm.nih.gov/16080916/).
+
 ### Aqueous pigment is measurable, but it is not clearance
 
 In primary pigment-dispersion syndrome (PDS), a human study directly counted melanin granules in aqueous humor: the mean was 2.9 ± 3.7 granules per 0.075 mm³ in 42 eyes from 21 patients, compared with 0.2 ± 0.3 in 40 age- and sex-matched control eyes. Pharmacologic pupil dilation raised the PDS mean to 6.3 ± 5.3; counts also correlated with iris transillumination and corneal Krukenberg spindle. This confirms a measurable fluid-borne pigment compartment under disease conditions. The pigment is released from the posterior iris pigment epithelium and deposits on anterior-segment structures, including the trabecular meshwork. That is redistribution with potential outflow harm, not proof that pigment has left the eye or been safely eliminated. It is also not evidence that the visible anterior-stromal color target can be cleared selectively. [Küchle et al., 1998](https://pubmed.ncbi.nlm.nih.gov/9744376/).
@@ -1150,12 +1152,6 @@ flowchart LR
     D1 --> G
 ```
 
-
-A focused literature search for this update did not locate a primary study testing IP3R2-mediated melanophagy in human iris stromal melanocytes or iris pigment epithelium. This is a search-bounded evidence gap, not proof the biology is absent. Skin-cell findings should not be assumed to transfer: human ocular melanocytes and RPE differ in melanogenic properties, and the hypoxic ARPE-19 result concerns another compartment and function. [Smith-Thomas et al., 1996](https://pubmed.ncbi.nlm.nih.gov/8950502/), [Saurav et al., 2026](https://doi.org/10.1371/journal.pbio.3003971), [Xu et al., 2025](https://doi.org/10.1016/j.bbrc.2025.151857).
-
-Mouse clump-cell observations separate pigment uptake from clearance. In a vitiligo model, iris/ciliary clump cells accumulated large melanin-containing phagosomes, but gross iris pigmentation did not progressively decline over the animals' lives. In a separate Col18a1-deficient model, posterior IPE disruption released pigment and macrophage-like cells migrated out of the iris, lined the retinal surface, and sometimes penetrated the retina. A mouse strain survey also found small age-associated pigment dispersion in wild-type C57BL/6J irides. These models document phagocytosis and, under pathology, movement of pigment-bearing cells; they do not identify melanin breakdown products or safe export. [Boissy et al., 1987](https://pubmed.ncbi.nlm.nih.gov/3578491/), [Marneros and Olsen, 2003](https://pubmed.ncbi.nlm.nih.gov/12766032/), [Anderson et al., 2008](https://pubmed.ncbi.nlm.nih.gov/18715234/).
-
-Human donor-tissue studies also identify a separate pigmented corneal limbus: basal K19-positive epithelial cells contain melanin caps, with sporadic dendritic melanocytes among them. This is an ocular-surface niche adjacent to corneal epithelial progenitors, not the central clear cornea or the visible iris target; the study did not examine pigment turnover or clearance. [Higa et al., 2005](https://pubmed.ncbi.nlm.nih.gov/16080916/).
 
 ### Retinal pigment epithelium: distinct pigments can be co-lost during lipofuscin turnover
 
@@ -1371,6 +1367,10 @@ flowchart LR
     H -.-> I["G: no chemical melanin fate,<br/>export, tissue mass balance,<br/>or cell-preserving control"]
     J["Human anterior iris stroma"] -.-> I
 ```
+
+Mouse clump-cell observations separate pigment uptake from clearance. In a vitiligo model, iris/ciliary clump cells accumulated large melanin-containing phagosomes, but gross iris pigmentation did not progressively decline over the animals' lives. In a separate Col18a1-deficient model, posterior IPE disruption released pigment and macrophage-like cells migrated out of the iris, lined the retinal surface, and sometimes penetrated the retina. A mouse strain survey also found small age-associated pigment dispersion in wild-type C57BL/6J irides. These models document phagocytosis and, under pathology, movement of pigment-bearing cells; they do not identify melanin breakdown products or safe export. [Boissy et al., 1987](https://pubmed.ncbi.nlm.nih.gov/3578491/), [Marneros and Olsen, 2003](https://pubmed.ncbi.nlm.nih.gov/12766032/), [Anderson et al., 2008](https://pubmed.ncbi.nlm.nih.gov/18715234/).
+
+A focused literature search for this update did not locate a primary study testing IP3R2-mediated melanophagy in human iris stromal melanocytes or iris pigment epithelium. This is a search-bounded evidence gap, not proof the biology is absent. Skin-cell findings should not be assumed to transfer: human ocular melanocytes and RPE differ in melanogenic properties, and the hypoxic ARPE-19 result concerns another compartment and function. [Smith-Thomas et al., 1996](https://pubmed.ncbi.nlm.nih.gov/8950502/), [Saurav et al., 2026](https://doi.org/10.1371/journal.pbio.3003971), [Xu et al., 2025](https://doi.org/10.1016/j.bbrc.2025.151857).
 
 ### Disease-associated iris depigmentation can later repigment
 
