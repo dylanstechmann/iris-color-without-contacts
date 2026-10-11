@@ -201,6 +201,9 @@ A 2025 single-center observational melasma study used in-vivo two-photon microsc
 HPLC measurement of melanin degradation markers in a harvested sample is more chemically specific, but it destroys the sample and loses spatial distribution. Multiphoton imaging supplies the complementary in-vivo layer map, while appearance measures remain separate. Neither endpoint alone accounts for breakdown products, export, neighboring compartments, skin function, or post-treatment return.
 
 ```mermaid
+A small human biopsy study shows what chemical pigment assays can add—and where they stop. Five people with vitiligo had biopsies from depigmented and repigmented patches after PUVA; HPLC quantified eumelanin and pheomelanin separately, and pigment remained detectable in long-standing depigmented lesions. Because samples were taken after treatment and the clinical context was disease-related repigmentation, the study is not a before/after clearance experiment and does not trace pigment products or export. [Parsad et al., 2003](https://pubmed.ncbi.nlm.nih.gov/14510999/).
+
+```mermaid
 flowchart LR
     A["Appearance<br/>colorimetry, photographs, clinical scores"] --> B["In-vivo multiphoton imaging<br/>3D epidermal signal + depth profile"]
     B --> C["Layer-aware response<br/>distribution can shift while<br/>global density stays similar"]
