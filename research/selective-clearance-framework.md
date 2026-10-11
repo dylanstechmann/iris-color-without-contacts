@@ -38,6 +38,40 @@ Each arrow is a separate research question. Lowering new synthesis changes the i
 | **Remove material from the body** | Systemic burden of a specific chemical | Phlebotomy or chelation for diagnosed iron overload | Pigment-selective clearance within a chosen tissue or cosmetic color change |
 | **Fragment or remove a deposit physically** | An external pigment or pigmented tissue may be fragmented or physically removed | Tattoo-removal devices; surgical/ablative gum procedures | Preservation of native pigment cells, reversibility, or suitability for functional tissues such as the iris |
 
+
+## Stored pigment may resist degradation—and carry a function
+
+Two findings that can look contradictory set a boundary on the model. Electron microscopy and tomography of **human skin in situ** found clusters of melanin cores in keratinocytes that were nonacidic and nondegradative, consistent with storage or protection. By contrast, cultured human skin-cell systems have shown melanosome degradation under some conditions. These results concern different biological contexts; the culture result cannot be generalized to every pigment store in intact skin. [Human in-situ ultrastructure](https://pubmed.ncbi.nlm.nih.gov/29054596/), [cultured-cell study](https://pubmed.ncbi.nlm.nih.gov/31659857/).
+
+Stored skin melanin also has a native function. Human skin explants showed fewer UV-induced DNA photoproducts in epidermal cells with supranuclear melanin caps. In an experimental human-melanocore model, physically disrupted cores had weaker antioxidant and photoprotective properties than intact cores. This does not quantify harm from a hypothetical controlled intervention, but it means pigment quantity, appearance, and protective function must be measured separately. [Human skin explants](https://pubmed.ncbi.nlm.nih.gov/9579550/), [melanocore integrity model](https://pmc.ncbi.nlm.nih.gov/articles/PMC6056223/).
+
+Neuromelanin is a stronger warning against assuming that pigment is inert waste. Human substantia-nigra tissue studies describe long-lived neuromelanin organelles with reduced lysosomal machinery and accumulated undegraded proteins and lipids. Separate human-brain chemistry research finds that neuromelanin binds metals and arises partly from reactive quinone chemistry. These findings do not show what an intervention would release; they make the fate of co-stored cargo a required research question. [Human organelle study](https://pubmed.ncbi.nlm.nih.gov/29900402/), [human-brain pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/18988735/).
+
+```mermaid
+flowchart TD
+    P["Observed color or pigment marker"] --> A["Identify pigment and storage compartment"]
+    A --> B{"How is it stored in this tissue?"}
+    B --> C["Human epidermis in situ:<br/>some stores are nonacidic<br/>and nondegradative"]
+    B --> D["Cultured skin models:<br/>degradation in some contexts"]
+    B --> E["Human neuromelanin organelles:<br/>slow-turnover stores with retained cargo"]
+    C --> F["One generic autophagy switch<br/>cannot describe every compartment"]
+    D --> F
+    E --> G["Dismantling raises a cargo-fate question"]
+    F --> H["Hypothesis: address the tissue<br/>→ match processing to substrate<br/>→ contain/export products → stop"]
+    G --> H
+    H --> I["Measure pigment, appearance,<br/>tissue function and recovery"]
+```
+
+This suggests a **shared research-control architecture**, not one universal melanin-removal molecule:
+
+1. **Address:** identify the target pigment, cell type, and storage compartment.
+2. **Process:** match the conceptual mechanism to that substrate and compartment; reducing new synthesis is not stored-pigment clearance.
+3. **Handle products:** determine how pigment fragments and associated cargo remain contained, are metabolized, or leave the tissue.
+4. **Preserve function:** measure the tissue's normal protective, sensory, or metabolic role alongside pigment burden and appearance.
+5. **Stop and recover:** establish a controlled endpoint, return toward baseline, and repeatability without cumulative loss.
+
+The tissue-specific implications are uneven: skin has mechanistic culture evidence but a storage/function constraint in intact tissue; gums have small human modulation studies but no established reversible selective-clearance system; the visible anterior iris has no demonstrated clearance method, and retinal pigment-epithelium findings do not transfer to it; brain neuromelanin is chiefly a cargo-handling and function question, not a cosmetic target. These are evidence boundaries, not proposed procedures.
+
 The alkaptonuria example matters because clinical human evidence links a lower chemical precursor to partial regression of an accumulated pigment deposit. It remains a disease-specific pathway: the deposit is not melanin, measured regression was incomplete, and this finding does not supply a general formula for other tissues. [Pigment regression cohort](https://pubmed.ncbi.nlm.nih.gov/32904992/), [randomized disease trial](https://pubmed.ncbi.nlm.nih.gov/32822600/).
 
 ## A tissue-specific feasibility matrix
