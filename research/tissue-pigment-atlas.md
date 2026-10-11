@@ -238,8 +238,12 @@ flowchart LR
     M["Melanocyte makes melanosomes"] --> T["Melanosomes / melanocores transfer<br/>to epidermal keratinocytes"]
     T --> K["Keratinocyte stores transferred pigment"]
     K --> C["Supranuclear cap<br/>contributes to UV protection"]
-    K --> A["P: lysosomal / autophagic processing<br/>with CTSV involvement"]
-    A --> R["P: cultured human skin substitutes<br/>and ex-vivo skin show lower measured<br/>melanin with activation; higher with inhibition"]
+    K --> MK["P: transferred melanocore enters<br/>a melanokerasome storage lysosome"]
+    MK --> RETAIN["Mature compartment is weakly degradative<br/>and retains melanin"]
+    K --> A["P: autophagy / lysosomal perturbation<br/>changes melanin measures in models"]
+    A --> R["P: cultured skin and ex-vivo models<br/>show lower measured melanin with<br/>activation; higher with inhibition"]
+    MK -.-> CORE["G: direct melanin-core cleavage,<br/>product fate and tissue exit"]
+    R -.-> CORE
     K --> S["Keratinocyte differentiation<br/>and surface-cell shedding"]
     S --> O["Pigment-bearing corneocytes leave<br/>at the skin surface during renewal"]
     BASAL["H: basal keratinocyte mitoses<br/>observed in human epidermis"] -.-> PART["Proposed asymmetric<br/>melanin-organelle partition"]
@@ -259,6 +263,8 @@ flowchart LR
 ```
 
 The skin result is therefore both promising and constrained. Keratinocyte-specific processing is a plausible research target because melanosomes are transferred into these surface cells and natural epidermal renewal carries pigment-bearing corneocytes outward. However, cultured tissue shows pathway responsiveness, not selective extraction from healthy living skin. Autophagy and lysosomal activity also support keratinocyte differentiation, while the melanin cap helps protect nuclear DNA from UV injury. Pigment reduction would need to be evaluated alongside barrier/differentiation, photoprotection, breakdown-product fate, and actual export—not color alone. [Human epidermal differentiation study](https://pubmed.ncbi.nlm.nih.gov/29526763/), [human skin explant photoprotection](https://pubmed.ncbi.nlm.nih.gov/9579550/), [melanocore integrity model](https://pmc.ncbi.nlm.nih.gov/articles/PMC6056223/).
+
+A 2025 mechanistic study adds a storage route: in keratinocyte models, melanin-containing phagosomes matured through endosomal stages, fused with lysosomes, and formed melanokerasomes. Mature melanokerasomes retained undigested cargo and were weakly degradative; a reconstructed human pigmented epidermis supplied ultrastructural evidence for the compartment. This does not show that every epidermal melanin pool is indestructible. It does mean that lysosomal markers or melanosomal-protein loss cannot, by themselves, establish breakdown of the melanin polymer. The models demonstrate storage and positioning for photoprotection, not a living-person clearance route. [Neto et al., 2025](https://pubmed.ncbi.nlm.nih.gov/39303907/).
 
 A 2023 pigmented full-thickness human skin-equivalent model offers a separate physical-removal comparison. The construct accumulated melanin in the stratum corneum as culture time lengthened; ten tape strips then made the model lighter and reduced measured tissue melanin staining/index, while TEWL increased, indicating impaired barrier function. This shows that removing pigment-bearing surface layers changes color and model-level pigment measures at the cost of barrier integrity. It does not show a selective biological clearance route, pigment fate on the removed strips, or a safe intervention in living people. [Goncalves et al., 2023](https://doi.org/10.1002/btm2.10415).
 
@@ -322,6 +328,11 @@ flowchart TD
     A["Oral color / pigmentation"] --> B["Physiologic gingival melanin"]
     A --> C["Other causes<br/>Inflammation, drugs, external deposits or lesions"]
     B --> V["H: oral melanin detection varies<br/>among six sampled sites"]
+    B --> ORAL["H: melanin granules occur<br/>in gingival keratinocytes"]
+    ORAL --> SHED["H: oral cells leave the surface;<br/>melanin in exiting cells is unmeasured"]
+    ORAL -.-> ORG["G: oral storage organelle and<br/>intracellular melanin fate unknown"]
+    SHED -.-> G
+    ORG -.-> G
     V --> X["Do not generalize gum findings<br/>to every oral mucosa"]
     B --> TP["H: topical-only human evidence"]
     TP --> T1["2009: double-masked split-mouth study,<br/>n = 73; AS-G vs placebo"]
@@ -352,6 +363,8 @@ Scalpel and ablative-laser studies concern removal of pigmented epithelium; recu
 Ultrastructural examination of 60 normal human gingival specimens found melanin granules in keratinocytes and reported fewer observed granules in prickle cells toward the superficial layers. This is a depth gradient, not a measurement of total melanin being destroyed or exported. Exfoliative-cytology studies have sampled oral surface cells, but their endpoints leave the pigment question open: a study of gingival smears from 20 clinically healthy men measured keratinization and cell morphology, while a separate seven-person cheek-cell study found granules that stained like keratohyalin and proposed they were normal granules or their disintegration products. Neither study quantified melanin in shed cells. The cheek-only ultrastructure study does not close the gingival pigment-export gap. [Squier and Waterhouse, 1967](https://doi.org/10.1016/0003-9969(67)90148-3), [Matsui, 1959](https://www.jstage.jst.go.jp/article/joma1947/71/9-2/71_9-2_6089/_article/-char/en), [van Wyk and van der Vyver, 1983](https://pubmed.ncbi.nlm.nih.gov/6192233/).
 
 A histochemical study of 95 autopsies sampled six oral sites and found marked site variation: melanin was detected in 28.4% of mandibular gingival samples and 51.6% of labial samples; 24.2% of subjects had no detectable pigment at any sampled oral site. This supports treating gingiva as a distinct compartment rather than assuming one oral-mucosa baseline. The study measured presence, not pigment export or function. [Barrett and Beynon, 1991](https://pubmed.ncbi.nlm.nih.gov/1747076/).
+
+The skin–gum comparison exposes a key evidence gap. Both tissues contain melanin-bearing keratinocytes, but the skin literature includes cell and reconstructed-epidermis evidence about autophagic processing and melanokerasome storage; the gingival studies reviewed here have not established an equivalent oral storage compartment or direct melanin-core degradation. Shared epithelial structure is not proof of shared pigment fate. Oral epithelial turnover is measurable, but without quantifying pigment in shed cells or saliva it does not establish net melanin export. This is a gap in the reviewed evidence, not proof that oral keratinocytes lack these pathways. [Neto et al., 2025](https://pubmed.ncbi.nlm.nih.gov/39303907/), [gingival ultrastructure](https://doi.org/10.1016/0003-9969(67)90148-3), [human oral epithelial output](https://pubmed.ncbi.nlm.nih.gov/12711376/).
 
 ### Gum measurements stop short of pigment export
 
