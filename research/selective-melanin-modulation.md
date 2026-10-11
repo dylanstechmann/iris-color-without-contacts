@@ -39,9 +39,11 @@ A histological study of 51 human irides found no significant difference in strom
 | Modulate melanin synthesis, including the tyrosinase pathway | Production of new pigment | Would the existing adult pigment pool decline enough to change appearance? |
 | Modulate upstream pigment regulation | Activity of pigment-producing cells | Can the effect be limited to the intended tissue and remain predictable? |
 | Change melanosome handling or normal turnover | Storage or persistence of existing pigment | Is there a viable, nondestructive pathway with acceptable ocular consequences? |
-| Modify gene expression or DNA | Longer-lasting changes in pigment biology | Would an adult phenotype change predictably, and could unwanted effects be controlled? |
+| Modify gene expression or DNA | Longer-lasting changes in pigment biology | The inherited HERC2 rs12913832–OCA2 regulatory locus strongly predicts natural iris color; enhancer function was demonstrated in cultured epidermal melanocytes, and the locus also associates with skin/hair pigmentation. | These findings explain inherited variation, not an adult iris-only switch, a safe edit, or a reversible color cycle. |
 
 These are research categories. The table does not nominate a drug, genetic target design, formulation, dose, or administration route.
+
+The HERC2 rs12913832 enhancer is an important example of **inherited regulation**, not evidence that a DNA edit is needed or that the same switch could be operated reversibly in an adult. Functional experiments showed allele-dependent enhancer activity and OCA2-promoter looping in cultured neonatal human epidermal melanocytes; they did not test adult iris cells. The variant is also associated with skin and hair color. The [tissue atlas](tissue-pigment-atlas.md#5-the-original-iris-cycle) diagrams the evidence and its tissue limits. [Sturm et al., 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC2427173/), [Visser et al., 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC3290780/), [Branicki et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19208107/).
 
 ## What the evidence establishes
 
