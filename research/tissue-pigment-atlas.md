@@ -426,6 +426,22 @@ A 2025 mechanistic study adds a storage route: in keratinocyte models, melanin-c
 
 A 2023 pigmented full-thickness human skin-equivalent model offers a separate physical-removal comparison. The construct accumulated melanin in the stratum corneum as culture time lengthened; ten tape strips then made the model lighter and reduced measured tissue melanin staining/index, while TEWL increased, indicating impaired barrier function. This shows that removing pigment-bearing surface layers changes color and model-level pigment measures at the cost of barrier integrity. It does not show a selective biological clearance route, pigment fate on the removed strips, or a safe intervention in living people. [Goncalves et al., 2023](https://doi.org/10.1002/btm2.10415).
 
+### Oxidative excitation is not melanin clearance
+
+```mermaid
+flowchart LR
+    U["P: UV-exposed ex-vivo porcine skin"] --> L["Lipid peroxidation and<br/>organic-radical signals"]
+    L --> C["HPLC-MS identified short-chain<br/>carbonyl species, including formaldehyde<br/>and acetaldehyde"]
+    C --> M["Authors propose energy transfer<br/>to melanin and secondary<br/>excited melanin states"]
+    M --> S["Possible oxidative stress<br/>after UV exposure ends"]
+    M -.-> G["G: no measured melanin-mass loss,<br/>product export, or in-vivo safety"]
+    S -.-> G
+```
+
+An ex-vivo porcine-skin study detected UV-associated lipid-peroxidation radicals and short-chain carbonyl species, including formaldehyde and acetaldehyde. The authors proposed that triplet-excited carbonyls can transfer energy to melanin and create secondary excited states, potentially extending oxidative stress beyond the exposure. This is a mechanistic safety consideration, not a pigment-clearance result: the study did not measure loss of melanin mass, degradation products leaving tissue, DNA injury, or an effect in living people. [Pospíšil et al., 2025](https://pubmed.ncbi.nlm.nih.gov/41088527/).
+
+
+
 ```mermaid
 flowchart TD
     B["B16 mouse melanoma cells"] --> F["Isolated melanosome-enriched fraction"]
