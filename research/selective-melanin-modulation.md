@@ -54,6 +54,16 @@ This makes pigment amount and chemistry in the **visible anterior iris compartme
 
 **Evidence implication:** the project needs both a tissue-pigment measurement and a standardized visible-color endpoint. The literature does not define a pigment threshold that would produce a chosen shade such as dark brown.
 
+**Withdrawal is not the same as reversal.** U.S. latanoprost labeling says drug-associated iris pigmentation is likely to be permanent after discontinuation. Human follow-up reported no observed fading over two years, and one serial-photograph case found no appreciable change over five years. The same label notes that eyelid/periorbital pigmentation can reverse in some patients. These are glaucoma-treatment observations and adjacent-tissue comparisons, not a cosmetic intervention or a demonstrated pigment-clearance route. [U.S. latanoprost label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f4e73059-5ba0-4d73-9ea1-09d8d654e844), [Camras et al., 2000](https://pubmed.ncbi.nlm.nih.gov/10708238/).
+
+```mermaid
+flowchart LR
+    A["Latanoprost-associated pigment increase"] --> I["Iris stroma:<br/>likely persists after stopping;<br/>one case unchanged over 5 years"]
+    A --> P["Periorbital skin / lashes:<br/>some changes reported reversible"]
+    I --> N["Stopping the signal does not establish<br/>iris pigment removal or return to baseline"]
+    P --> T["Withdrawal behavior depends on tissue;<br/>do not infer iris clearance from skin"]
+```
+
 Longitudinal studies show that some people have graded iris-color changes after early childhood, including lightening in an adult subset. The Louisville Twin Study found changes of at least two color-grade units in 3.8%–8.6% of white twins between ages 6 and under 24 across 3–9-year intervals; 9% of a followed adult-mother subset lightened by at least two units. A 27-year former-schoolchild cohort reported both lightening and darkening, but its overall age-related change was not statistically significant. These appearance studies did not quantify melanin or trace its fate. In aged cataract-surgery irides, electron microscopy found melanosome complexes, with clinical significance unresolved. Natural-history variation and age-related morphology therefore do not establish selective pigment degradation or export. [Bito et al., 1997](https://pubmed.ncbi.nlm.nih.gov/9152135/), [Meyer-König, 1977](https://doi.org/10.1016/S0047-2484(77)80099-7), [Sugita et al., 1986](https://pubmed.ncbi.nlm.nih.gov/3761741/).
 
 ## Mechanism-level possibilities
