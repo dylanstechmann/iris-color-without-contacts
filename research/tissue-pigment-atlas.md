@@ -1372,6 +1372,23 @@ The application reports a 14-day ex-vivo murine-iris experiment with six treated
 
 This is a preliminary patent-disclosed ex-vivo signal. It has no peer-reviewed replication, living-animal efficacy, human intervention, ocular-function or photoprotection result, compartment-specific targeting result, or post-withdrawal recovery data. The application also notes that OCA2 is expressed in both stromal melanocytes and the iris pigment epithelium, leaving cell-compartment selectivity unresolved. [WO2024201471A1](https://patents.google.com/patent/WO2024201471A1/en), [U.S. publication 20260286365A1](https://patents.justia.com/patent/20260286365), [atlas evidence register](pigment-evidence-register.md).
 
+OCA2 biology also creates a safety and selectivity constraint. In melanocyte models, OCA2 contributes to an anion channel in the melanosome and affects organelle pH; changing OCA2 therefore perturbs melanosome physiology, not a pigment-specific disposal step. OCA2-related albinism and the broader albinism spectrum show that reduced pigment can involve skin, hair, and ocular tissues, while albinism can include iris transillumination, light sensitivity, retinal/foveal developmental findings, and visual-pathway differences. These are congenital disease phenotypes and do not predict the effect of partial, temporary modulation in an adult. They do show why a color-only result is insufficient: a future ocular study would need to measure cell-compartment exposure, stray-light transmission, photophobia, pupil function, RPE exposure, retinal structure, vision, and recovery. [Bellono et al., 2014](https://elifesciences.org/articles/04543), [GeneReviews: Oculocutaneous Albinism and Ocular Albinism Overview](https://www.ncbi.nlm.nih.gov/books/NBK590568/).
+
+```mermaid
+flowchart LR
+    O["OCA2 modulation"] --> ORG["P: melanosomal anion conductance<br/>and pH regulation"]
+    ORG --> SYN["Pigment production can change<br/>in model systems"]
+    H["Inherited albinism evidence"] --> VIS["H: reduced ocular pigment can coexist<br/>with iris transillumination / photophobia<br/>and developmental retinal or visual findings"]
+    O -.-> T["OCA2 is expressed in more than<br/>visible anterior stromal melanocytes"]
+    T --> IPE["Iris pigment epithelium"]
+    T --> RPE["Retinal pigment epithelium"]
+    SYN --> C["Color alone is not a<br/>safety or selectivity endpoint"]
+    VIS --> C
+    IPE --> C
+    RPE --> C
+    C --> E["Required evidence: compartment exposure,<br/>stray-light / photophobia, retinal<br/>and visual function, and recovery"]
+```
+
 ```mermaid
 flowchart LR
     P["Patent application: OCA2 expression modulation<br/>RNAi concept; not DNA editing"]
