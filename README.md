@@ -16,6 +16,8 @@ Direct human uveal-cell and donor-iris studies show that new melanin production 
 
 The return direction is a separate problem. Human follow-up found no fading after stopping over two years, and one case documented persistence over five years. A separate periocular-skin case lightened after stopping, showing that pigment fate differs by tissue. Lowering new melanin production would not necessarily reduce pigment already present. U.S. labeling describes added iris pigmentation as likely permanent. [Two-year clinical report](https://pubmed.ncbi.nlm.nih.gov/9154289/), [five-year case](https://pubmed.ncbi.nlm.nih.gov/10708238/), [periocular-skin case](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/265847), [U.S. prescribing information](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f4e73059-5ba0-4d73-9ea1-09d8d654e844)
 
+A rare disease counterexample shows that iris-stromal appearance can repigment: two previously reported BADI patients repigmented over four years, and a separate case report described repigmentation after three years. BADI also involves pigment entering the anterior chamber and depositing in the drainage angle; its cause is unknown, and some patients experienced pressure elevation. These cases lack pigment-mass or destination measurements and do not demonstrate controlled, safe cosmetic reversal. [Tugal-Tutkun et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19545903/), [Atilgan et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6056785/)
+
 The full blue → dark brown → blue sequence remains hypothetical. FDA currently states that there are no approved eye drops to change eye color. [FDA](https://www.fda.gov/drugs/buying-using-medicine-safely/what-you-should-know-about-eye-drops)
 
 New skin-imaging studies sharpen the measurement question: 3D multiphoton methods can estimate epidermal melanin density and its layer distribution in vivo. In a 20-person retinoid occlusion study, the measured density remained lower through the final day-32 scan, 20 days after exposure ended; that is a one-direction treatment response, not return to baseline. A 2025 melasma study likewise found lower layer-specific TPM scores among 53 completers, but had no untreated treatment-phase comparator. Neither study measured where pigment products went. [Tancrède-Bohin et al., 2015](https://pubmed.ncbi.nlm.nih.gov/25220296/), [Ning et al., 2025](https://doi.org/10.1001/jamadermatol.2025.2790).
@@ -24,7 +26,7 @@ The broader pigment review suggests a shared **control framework**—identify th
 
 ## Research notes
 
-- [Tissue pigment atlas: forty-two diagrams covering skin, gums, eyes, and other body compartments](research/tissue-pigment-atlas.md)
+- [Tissue pigment atlas: forty-three diagrams covering skin, gums, eyes, and other body compartments](research/tissue-pigment-atlas.md)
 - [Framework for selective pigment clearance](research/selective-clearance-framework.md)
 - [Pigment evidence register: models, endpoints, clinical indications, and limitations](research/pigment-evidence-register.md)
 - [Bidirectional modulation and the reversibility requirement](research/bidirectional-reversibility.md)
