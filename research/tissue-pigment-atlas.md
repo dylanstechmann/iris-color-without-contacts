@@ -217,6 +217,28 @@ flowchart TD
 
 Bilirubin-related yellowing follows a different metabolic pathway from melanin. Tooth whitening and removal of externally introduced tattoo pigment are also distinct capabilities. FDA states that it has not approved tattoo-removal creams. [NIH jaundice information](https://newsinhealth.nih.gov/2022/10/recognizing-jaundice), [ADA tooth whitening](https://www.ada.org/resources/ada-library/oral-health-topics/whitening), [FDA tattoo removal](https://www.fda.gov/consumers/consumer-updates/tattoo-removal-options-and-results), [NHLBI hemoglobin and red cells](https://www.nhlbi.nih.gov/health/anemia/causes).
 
+## 11. Systemic exposures can affect several tissues
+
+```mermaid
+flowchart TD
+    A["Systemic exposure or metabolic precursor"] --> B["Visible change at one or more sites"]
+    B --> C["H: separate medication-related reports<br/>skin, oral mucosa, sclera, nails, teeth"]
+    B --> D["C: porphyrin disorders<br/>precursors can build up in liver or bone marrow"]
+    C --> E["Tissue chemistry may differ<br/>melanin, iron-containing or drug-derived material"]
+    D --> F["Effects can show in skin<br/>or the nervous system"]
+    C --> G["Stopping an initiating drug"]
+    G --> H["Some human cases: gradual change over years"]
+    G --> I["Other sites / cases: pigment may persist"]
+    C --> X["X: limited laser reports for<br/>specific skin deposits"]
+    E -.-> U["G: no demonstrated single method<br/>to clear all affected tissues"]
+```
+
+Separate human reports document minocycline-associated discoloration in skin, oral mucosa (including gums), sclera, nails, teeth and other tissues. Tissue analyses show why a shared cause does not guarantee one shared pigment: particular skin and nail deposits have contained iron and calcium, while different patterns can involve melanin. In one case with broad skin and scleral involvement, color slowly moved toward normal over several years after the drug was stopped; a scleral case series reports that pigmentation can also persist. These are adverse-effect observations and case reports, not a controlled or selectable cosmetic color cycle. [Multi-tissue case reports](https://pubmed.ncbi.nlm.nih.gov/9512163/), [skin/gum/nail/sclera case](https://pubmed.ncbi.nlm.nih.gov/36158857/), [skin and nail tissue analysis](https://pubmed.ncbi.nlm.nih.gov/3158285/), [scleral follow-up series](https://pubmed.ncbi.nlm.nih.gov/9186432/).
+
+Porphyria gives a different systems map: depending on type, porphyrins or precursors may accumulate in liver or bone marrow while symptoms affect skin, nervous system, or both. Its disease-specific management is not an example of selectively clearing visible melanin. [NIDDK overview](https://www.niddk.nih.gov/health-information/liver-disease/porphyria).
+
+Silver deposition in argyria is another distinct substrate. Published skin-laser reports are limited clinical case reports; they do not establish a noninvasive whole-body clearance system. [Systematic review](https://pubmed.ncbi.nlm.nih.gov/25845405/).
+
 ## Research requirements shared across tissues
 
 A future selective-clearance claim would need to identify the pigment chemically; locate it in the relevant cells or extracellular compartment; measure actual pigment loss separately from reduced synthesis or marker loss; account for breakdown products; and show preservation of tissue function.

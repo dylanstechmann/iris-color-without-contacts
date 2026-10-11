@@ -18,7 +18,7 @@ The full blue → dark brown → blue sequence remains hypothetical. FDA current
 
 ## Research notes
 
-- [Tissue pigment atlas: ten diagrams covering skin, gums, eyes, and other body compartments](research/tissue-pigment-atlas.md)
+- [Tissue pigment atlas: eleven diagrams covering skin, gums, eyes, and other body compartments](research/tissue-pigment-atlas.md)
 - [Framework for selective pigment clearance](research/selective-clearance-framework.md)
 - [Pigment evidence register: models, endpoints, clinical indications, and limitations](research/pigment-evidence-register.md)
 - [Bidirectional modulation and the reversibility requirement](research/bidirectional-reversibility.md)

@@ -54,6 +54,17 @@ This is a scoped source register, not a systematic review or a global audit of p
 | [Tosti et al., 1994](https://pubmed.ncbi.nlm.nih.gov/8040399/) | Human nail-matrix histology | Melanocyte anatomy and pigment-making enzymes. |
 | [Drug-induced melanonychia report, 2019](https://pubmed.ncbi.nlm.nih.gov/31220366/) | Human procedural case report | Insufficient to establish general cosmetic nail-pigment clearance. |
 
+## Systemic and secondary pigmentation
+
+| Source | Evidence type / model | Endpoint and limit |
+| --- | --- | --- |
+| [Multi-tissue minocycline case](https://pubmed.ncbi.nlm.nih.gov/9512163/) | Human ophthalmic case report | Skin, sclera, teeth, palate, ears and nailbeds in one patient; mechanism and course after cessation unclear. |
+| [Skin, gum, sclera and nail case](https://pubmed.ncbi.nlm.nih.gov/36158857/) | Human case report | Multiple visibly affected tissues; case report, not predictable across people. |
+| [Skin and nail tissue analysis](https://pubmed.ncbi.nlm.nih.gov/3158285/) | Human histology and elemental analysis | Deposits included iron and calcium; one medication can produce different tissue signatures. |
+| [Scleral pigmentation report](https://pubmed.ncbi.nlm.nih.gov/9186432/) | Human case series and spontaneous reports | Some minocycline-associated scleral deposits may resolve over years; others may persist. |
+| [NIDDK porphyria overview](https://www.niddk.nih.gov/health-information/liver-disease/porphyria) | Official disease information | Porphyrin/precursor buildup can occur in liver or bone marrow with effects in skin and/or nervous system. |
+| [Argyria laser review](https://pubmed.ncbi.nlm.nih.gov/25845405/) | Review of six human case reports/series | Selected skin-laser reports; not evidence of noninvasive systemic silver clearance. |
+
 ## Internal tissues and other pigment classes
 
 | Source | Evidence type / model | Endpoint and limit |
