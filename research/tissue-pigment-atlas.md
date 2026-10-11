@@ -44,6 +44,38 @@ flowchart TD
     F --> F1["Separate targets and methods<br/>No universal pigment-clearing system established"]
 ```
 
+### Current intervention map: what can be changed now
+
+This map separates a visible change, disease-directed care, and demonstrated removal of stored pigment. “Available” is indication-specific; a clinical score or color shift does not establish pigment mass loss.
+
+```mermaid
+flowchart TB
+    Q["Pigment or appearance outcome"]
+    Q --> S["Epidermal skin"]
+    S --> S1["C: disease-specific treatment<br/>Vitiligo repigmentation; EPP photoprotection"]
+    S --> S2["P/H: model-based pigment modulation<br/>No healthy-skin shade cycle established"]
+    Q --> G["Gingiva"]
+    G --> G1["H: topical AS-G studies<br/>Short-term lightness / clinical scores"]
+    G --> G2["X: laser or epithelial-removal procedures<br/>Appearance can change; repigmentation occurs"]
+    G1 --> G3["G: standalone selective clearance,<br/>mass balance, and return not shown"]
+    G2 --> G3
+    Q --> H["Hair"]
+    H --> H1["Cosmetic shaft dyes / bleaches<br/>Change existing fiber chemistry"]
+    H --> H2["P/H: follicle pigment research<br/>No controlled in-vivo reversible cycle"]
+    Q --> E["Eye"]
+    E --> E1["Anterior iris: H drug-associated darkening<br/>No established nonsurgical reversible color change"]
+    E --> E2["RPE: disease-directed bisretinoid research<br/>A separate target from visible iris melanin"]
+    Q --> V["Other pigment-bearing tissues"]
+    V --> V1["C: disease-directed treatment for<br/>some abnormal deposits, such as iron overload"]
+    V --> V2["P/H: tissue-specific processing studies<br/>in brain, viscera, cochlea, and mucosa"]
+    V --> V3["G: no general selective cosmetic<br/>pigment-clearance method established"]
+    Q --> D["Dermal tattoo / selected metal deposits"]
+    D --> D1["X: local laser procedures can alter deposits"]
+    D1 --> D2["A procedure is not nonprocedural control;<br/>fragmentation does not establish final body fate"]
+```
+
+In the United States, the Opzelura label covers repigmentation treatment for nonsegmental vitiligo, while the Scenesse label covers increased pain-free light exposure in adults with erythropoietic protoporphyria. These are specified disease indications, not cosmetic shade-control products. The 73-person gingival ascorbyl-glucoside trial measured lightness, not melanin mass or export. [FDA Opzelura label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215309s007lbl.pdf), [FDA Scenesse label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/210797s007lbl.pdf), [Shimada et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19186973/). For the ocular compartment distinction and iris evidence, see [Section 4](#4-eyes-separate-compartments) and [Section 5](#5-the-original-iris-cycle).
+
 ### Comparison by tissue
 
 | Tissue / compartment | Relevant pigment or color source | What is available or demonstrated | What remains unestablished |
