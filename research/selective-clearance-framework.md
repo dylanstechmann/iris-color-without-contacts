@@ -47,6 +47,8 @@ Stored skin melanin also has a native function. Human skin explants showed fewer
 
 Neuromelanin is a stronger warning against assuming that pigment is inert waste. Human substantia-nigra tissue studies describe long-lived neuromelanin organelles with reduced lysosomal machinery and accumulated undegraded proteins and lipids. Separate human-brain chemistry research finds that neuromelanin binds metals and arises partly from reactive quinone chemistry. These findings do not show what an intervention would release; they make the fate of co-stored cargo a required research question. [Human organelle study](https://pubmed.ncbi.nlm.nih.gov/29900402/), [human-brain pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/18988735/).
 
+A 2026 high-resolution analysis of **seven postmortem human locus-coeruleus samples** mapped Al, Ca, and Fe mainly to the neuromelanin pigment compartment, distinct from the organelle's protein matrix and lipid bodies. Its small observational sample and semi-quantitative aging trends refine the cargo map; they do not establish a clearance route or predict what a controlled intervention would do. [Berro et al., 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13408184/).
+
 ```mermaid
 flowchart TD
     P["Observed color or pigment marker"] --> A["Identify pigment and storage compartment"]
