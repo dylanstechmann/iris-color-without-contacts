@@ -1353,6 +1353,7 @@ flowchart TD
     F["P: 12-rabbit, six-month study<br/>reported lower endpoint melanin in one<br/>inhibitor + inducer cohort vs inducer alone"]
     F --> F1["n=3 in that cohort; 'blue' was an ear-marked<br/>group, and abstract/table values conflict"]
     G["P: inhibitor-only rabbit cohort"] --> G1["No significant between-eye difference<br/>in measured endpoint melanin"]
+    M["P: tracer + ultrastructure in mice<br/>support new iris melanosomes at 1 year"] --> M1["Adult mouse synthesis signal;<br/>not net pigment turnover or clearance"]
     B --> H["G: established anterior-stromal pigment<br/>not shown to be cleared"]
     E --> H
     F1 --> H
@@ -1361,6 +1362,8 @@ flowchart TD
 ```
 
 The human-cell evidence makes **new-pigment production** a real experimental control point: cultured donor-derived uveal melanocytes make melanin; cell-culture signals can increase melanin and tyrosinase activity; and α-methyl-p-tyrosine prevented a latanoprost-induced synthesis increase. In a separate 7-day donor-iris organ culture, tyrosinase mRNA rose in 6 of 30 culture sets, with five responders from brown irides and one from a hazel iris; none of the blue-iris cultures responded. Neighboring epithelial cells and fibroblasts can also alter ocular melanocyte enzyme activity in culture, with results dependent on cell type and culture conditions. [Hu et al., 1995](https://pubmed.ncbi.nlm.nih.gov/7706042/), [Hu et al., 1997](https://pubmed.ncbi.nlm.nih.gov/9196391/), [Drago et al., 1999](https://pubmed.ncbi.nlm.nih.gov/9986745/), [Lindsey et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11405836/), [Smith-Thomas et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11549114/), [Smith-Thomas et al., 2004](https://pubmed.ncbi.nlm.nih.gov/15051478/).
+
+A mouse tracer study supplies an adult-animal boundary condition. After administration of ³H-methimazole, a false melanin precursor, microautoradiography detected selective incorporation in uveal melanocytes and iris pigment epithelium; immature melanosomes were also seen in iris cells of one-year-old mice. This supports ongoing de novo synthesis in adult mouse iris compartments. It did not quantify net pigment turnover, degradation of pre-existing melanin, export, or a human rate. [Lindquist et al., 1998](https://pubmed.ncbi.nlm.nih.gov/9778406/).
 
 Target-selectivity caveat: the 1999 study calls its α-methyl-p-tyrosine preparation a tyrosinase inhibitor, while current U.S. labeling for metyrosine describes tyrosine-hydroxylase inhibition as its established pharmacology in catecholamine biosynthesis. The ocular experiments do not establish an iris-specific target or a melanin-only effect. [DailyMed metyrosine label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1b7897b4-7681-4b99-8883-d5dc33f86c01).
 
