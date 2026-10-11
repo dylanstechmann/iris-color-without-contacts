@@ -325,7 +325,25 @@ Cosmetic photoablative iris-laser treatment is a procedural comparator, not a se
 
 A small 1983 ophthalmic report of people with vitiligo described linear pigment deposition in both corneas in one patient after a year of monobenzone use. Among 15 additional patients, 11 of whom used monobenzone, two had conjunctival melanosis; the authors said these findings might be related to use. This uncontrolled report cannot establish causality or risk frequency, but it illustrates why unintended ocular effects must be examined when a skin-directed intervention is not proven tissue-confined. It is not evidence for an iris-lightening route. [Hedges et al., 1983](https://pubmed.ncbi.nlm.nih.gov/6849655/).
 
-**Pigment fate is part of the eye constraint.** In pigment-dispersion disease, granules released from the posterior iris pigment epithelium can travel through aqueous pathways and accumulate in the trabecular meshwork. Porcine models show impaired meshwork-cell phagocytosis/migration and reduced outflow after pigment exposure. A small human follow-up cohort found that meshwork pigmentation can attenuate over time after treatment for this disease; it does not establish a nonprocedural cosmetic clearance route. This pathology involves the posterior epithelium, distinct from the anterior stromal color target. [Human PDS cohort](https://pubmed.ncbi.nlm.nih.gov/34397796/), [trabecular-meshwork cell model](https://pmc.ncbi.nlm.nih.gov/articles/PMC7847180/), [porcine outflow model](https://pmc.ncbi.nlm.nih.gov/articles/PMC5915754/).
+**Pigment fate is part of the eye constraint.** In pigment-dispersion disease, granules released from the posterior iris pigment epithelium can travel through aqueous pathways and accumulate in the trabecular meshwork. Porcine models show impaired meshwork-cell phagocytosis/migration and reduced outflow after pigment exposure. A 15-year follow-up of 21 treated eyes in 11 patients found the median trabecular-meshwork pigmentation score fell from 16 at baseline to 12; quadrant-specific clinical grading reductions ranged from 18% to 37%. Ten eyes had laser peripheral iridotomy and eleven had trabeculectomy. These were cause-directed clinical interventions for pigment-dispersion disease. The score measured visible meshwork pigmentation, not pigment mass or its destination, and the procedures do not establish a nonprocedural cosmetic clearance route. This pathway concerns posterior-epithelial pigment and the drainage angle, distinct from the anterior stromal color target. [Human PDS cohort](https://pubmed.ncbi.nlm.nih.gov/34397796/), [trabecular-meshwork cell model](https://pmc.ncbi.nlm.nih.gov/articles/PMC7847180/), [porcine outflow model](https://pmc.ncbi.nlm.nih.gov/articles/PMC5915754/).
+
+### Posterior-iris pigment transport is not anterior-iris clearance
+
+```mermaid
+flowchart LR
+    IPE["Posterior iris pigment epithelium"]
+    --> PDS["H: pigment released in<br/>pigment-dispersion disease"]
+    --> AH["Aqueous flow carries granules"]
+    --> TM["Trabecular meshwork<br/>receives pigment"]
+    TM --> OUT["P: porcine models show<br/>reduced phagocytosis / migration<br/>and impaired outflow"]
+    TX["H: 15-year follow-up after<br/>LPI or trabeculectomy;<br/>21 eyes in 11 patients"]
+    --> SCORE["Visible meshwork score fell:<br/>median 16 to 12;<br/>quadrant reductions 18–37%"]
+    SCORE -.-> LIMIT["G: pigment mass, final destination,<br/>and whole-body balance not measured"]
+    TX -.-> LIMIT
+    LIMIT -.-> IRIS["No evidence of anterior-stromal<br/>color reversal"]
+```
+
+The longitudinal score is a useful sign that pigment appearance in the drainage compartment can change after the source process is treated. It does not reveal whether macrophages degraded, moved, or exported the pigment, and the study did not measure a cosmetic iris-color endpoint. [Zhou et al., 2021](https://pubmed.ncbi.nlm.nih.gov/34397796/), [trabecular-meshwork cell model](https://pmc.ncbi.nlm.nih.gov/articles/PMC7847180/).
 
 For the RPE, a 2014 cell/mouse study reduced **selected bisretinoids**, with substrate-specific limitations. A 2023 mouse study reported lipofuscin degradation involving melanin; subsequent scientific discussion addressed alternative pathways and the limits of a universal melanin-required interpretation. These are retinal research mechanisms, not evidence of iris-color reversal. [2014 study](https://pmc.ncbi.nlm.nih.gov/articles/PMC3986126/), [2023 study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10194005/), [comment](https://pmc.ncbi.nlm.nih.gov/articles/PMC10622903/), [reply](https://pmc.ncbi.nlm.nih.gov/articles/PMC10622899/).
 
