@@ -60,7 +60,7 @@ flowchart TD
 | **Choroid / ciliary body** | Uveal melanocytes and pigmented epithelial compartments | Human/anatomical mapping. | A demonstrated selective cosmetic clearing method in the reviewed sources. |
 | **Inner ear / cochlea** | Melanin in stria-vascularis intermediate melanocytes and Rosenthal's canal | **H:** human temporal-bone mapping. **P:** matched pigmented/albino mice show an age-related endocochlear-potential difference. | Selective pigment reduction with preserved cochlear homeostasis or hearing; human pigment amount was not associated with thresholds in the studied sample. |
 | **Conjunctiva / episclera** | Surface or deeper melanocytic lesions and other deposits | Human clinical/pathological evidence; a postburn laser case report. | A general reversible molecular color modulator. |
-| **Brain neurons** | Neuromelanin; lipofuscin is a separate residual-material class | Human tissue studies characterize neuromelanin organelles. | Safe selective clinical clearance, preservation of bound substances, or a cosmetic application. |
+| **Brain neurons** | Neuromelanin; lipofuscin is a separate residual-material class | **H:** a small normal-aging human substantia-nigra series found more extracellular neuromelanin and higher microglial phagocytic activity with age, without pronounced neuroinflammation. **P:** TFEB lowered intracellular neuromelanin and improved function/pathology in a rat overproduction model; microglia phagocytosed and degraded human neuromelanin in vitro. | No human brain/body mass balance or demonstrated safe clearance. Extracellular neuromelanin can activate microglia and injure dopaminergic neurons in preclinical models; no cosmetic or iris application. |
 | **Leptomeninges** | Melanin in non-neuronal meningeal melanocytes | **H:** human histology places most cells over the ventrolateral medulla; normal pigment can be visible on T2 MRI. | Selective removal, safe disposition, or extrapolation to neuronal neuromelanin. |
 | **Heart / liver / adrenal cells** | Lipofuscin | Human tissue studies document accumulation; **P:** cardiac clearance research in old rats. | A selective human visceral lipofuscin-removal treatment demonstrated by this source set. |
 | **Heart / pulmonary-vein melanocyte-like cells** | Human DCT-positive cells; cardiac melanosomes demonstrated in mice | **H:** melanocyte-like cells identified in human atria and pulmonary veins. **P:** mouse cell/pathway models show rhythm effects with DCT deficiency or cell loss. | A quantified human cardiac melanin store, causal link between pigment amount and human arrhythmia, or any clearance method. |
@@ -586,16 +586,27 @@ flowchart TD
     BO --> NM["Pigment compartment<br/>Al, Ca, Fe mapped in human LC"]
     BO --> PM["Protein matrix"]
     BO --> LB["Lipid bodies"]
-    BO --> BG["G: selective clinical clearance"]
+    BO --> TF["P: TFEB lowered intracellular NM<br/>in a human-like NM rat model"]
+    TF --> X["Lysosomal exocytosis observed in cells;<br/>in-vivo exported fraction not measured"]
+    X --> E["Extracellular neuromelanin"]
+    E --> M["P: microglia phagocytose and<br/>degrade human NM in vitro"]
+    E --> I["P: extracellular NM activates microglia"]
+    I --> N["Oxidative / inflammatory mediators;<br/>dopaminergic injury in culture and rat models"]
+    M -.-> G["G: brain/body pigment fate,<br/>safe cargo disposition and export unresolved"]
+    X -.-> G
     L["Lipofuscin in long-lived cells<br/>Heart, liver, adrenal and neural compartments"]
     L --> R["P: lower cardiac burden in old rats"]
     L --> A["Delivery toward degradative compartments"]
     A --> S["Successful substrate breakdown / disposal"]
     A --> F["Processing failure<br/>Accumulation can increase"]
-    S -.-> G["G: selective human tissue clearance<br/>with function preserved"]
+    S -.-> G2["G: selective human tissue clearance<br/>with function preserved"]
 ```
 
-Human brain research characterizes neuromelanin-containing organelles; this is not a demonstrated clinical clearance intervention. A 2026 elemental-mapping study of seven postmortem locus-coeruleus samples localized several metals mainly to the pigment compartment, alongside a protein matrix and lipid bodies. The sample is small and observational; it sharpens the cargo map but cannot predict a clearance intervention. Human tissue studies also document lipofuscin in cardiac, hepatic and adrenal cells. A cardiac study reported reduced burden in old rats. Separately, stressed human fibroblast cultures accumulated more lipofuscin when autophagy was activated under impaired processing. **Increasing autophagy is not sufficient evidence that every pigment will be cleared.** [Neuromelanin organelle study](https://pubmed.ncbi.nlm.nih.gov/29900402/), [human locus-coeruleus elemental map](https://pmc.ncbi.nlm.nih.gov/articles/PMC13408184/), [human visceral-tissue study](https://pubmed.ncbi.nlm.nih.gov/7206299/), [old-rat cardiac study](https://www.sciencedirect.com/science/article/pii/S0014482721001178), [human fibroblast study](https://pubmed.ncbi.nlm.nih.gov/37438887/).
+Human neuromelanin-containing organelles are long-lived and hold a melanic matrix, lipids, proteins and metals. In a small postmortem study of 12 neurologically normal people aged 25–78, extracellular neuromelanin accumulations were present in both age groups and more numerous with age; microglial phagocytic activity also rose, without pronounced neuroinflammation. This is evidence for an age-associated extracellular pool, not proof that material leaves the brain or body. A 2026 elemental-mapping study of seven postmortem locus-coeruleus samples localized several metals mainly to the pigment compartment, alongside a protein matrix and lipid bodies. [Korzhevskii et al., 2021](https://pmc.ncbi.nlm.nih.gov/articles/PMC8419629/), [human locus-coeruleus elemental map](https://pmc.ncbi.nlm.nih.gov/articles/PMC13408184/), [neuromelanin organelle study](https://pubmed.ncbi.nlm.nih.gov/29900402/).
+
+A 2019 rat model that induced human-like neuromelanin found that TFEB enhancement lowered intracellular pigment density and attenuated neurodegeneration and motor impairment. The work also detected TFEB-induced lysosomal exocytosis in neuromelanin-producing cells, but did not quantify how much pigment was exported in vivo or track its destination. This is a model-specific result in a pathological overproduction context, not a human clearance method. Separately, purified human neuromelanin was phagocytosed and degraded by microglia in vitro, while extracellular neuromelanin activated microglia and promoted dopaminergic injury in culture and after injection into rat brain. A lower signal inside a neuron can therefore coexist with material entering a potentially harmful extracellular or immune-cell compartment. [Carballo-Carbajal et al., 2019](https://doi.org/10.1038/s41467-019-08858-y), [Zhang et al., 2011](https://pubmed.ncbi.nlm.nih.gov/19957214/).
+
+Human tissue studies also document lipofuscin in cardiac, hepatic and adrenal cells. A cardiac study reported reduced burden in old rats. Separately, stressed human fibroblast cultures accumulated more lipofuscin when autophagy was activated under impaired processing. **Increasing autophagy is not sufficient evidence that every pigment will be cleared.** [human visceral-tissue study](https://pubmed.ncbi.nlm.nih.gov/7206299/), [old-rat cardiac study](https://www.sciencedirect.com/science/article/pii/S0014482721001178), [human fibroblast study](https://pubmed.ncbi.nlm.nih.gov/37438887/).
 
 ## 8. Iron deposits: an existing disease-treatment example
 
