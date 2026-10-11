@@ -17,8 +17,9 @@ The evidence is uneven across tissues. The atlas labels clinical care, human res
 
 ## Next research gate
 
-The immediate, evidence-grounded step is an assay-only feasibility phase using donated eyes: determine whether uncultured anterior stroma and posterior iris pigment epithelium can be separated with bounded carryover, and whether melanin-marker chemistry is sensitive and reliable in those iris fractions. Only after that gate passes should paired optical-imaging and chemical calibration be considered. A successful calibration would validate a measurement; it would not show safe pigment removal or a return to baseline.
+**Next concrete action: check specimen access.** An academic or medical eye-research partner should ask an [EyeFind-listed eye bank](https://www.arvo.org/researcher-resources/eyefind-research-tissue/eyefind-search) whether it can supply research-consented whole globes or iris-containing anterior segments, with relevant donor and postmortem metadata, and confirm availability and cost. A corneal rim alone is not an iris specimen. If suitable human tissue is available, the first lab stage is an assay-only feasibility phase: test compartment separation, carryover, and matrix-specific assay sensitivity and recovery. Only if that gate passes should paired optical-imaging and chemical calibration be considered. Calibration would validate a measurement; it would not show safe pigment removal or a return to baseline.
 
+Postmortem animal eyes obtained as byproducts or through research tissue repositories may help develop handling and imaging methods, but they cannot substitute for human iris validation. This initial project does not call for animals to be killed or manipulated for specimens. See the [proposal's specimen-access notes](research/iris-measurement-validation-proposal.md#1-sample-and-scope).
 ## Research map
 
 - [Tissue pigment atlas](research/tissue-pigment-atlas.md) — tissue-by-tissue evidence and diagrams for eyes, skin, gums, hair, and other pigment-bearing compartments.
