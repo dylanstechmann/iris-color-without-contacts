@@ -32,18 +32,20 @@ A 2026 systematic review/meta-analysis of disease-associated BADI and BAIT also 
 
 A histological study of 51 human irides found no significant difference in stromal melanocyte number or density among blue, hazel, and brown eyes. Chemical analysis of microdissected human irides found that the anterior stromal fraction and posterior iris pigment epithelium have different melanin profiles; blue irides had very low measured pigment. In culture, growing human uveal melanocytes shifted toward pheomelanic pigmentation, while cultures after senescence showed increased pigment content, mainly eumelanin. These culture-stage changes do not measure pigment turnover in an intact adult iris. [Human iris histology](https://pubmed.ncbi.nlm.nih.gov/8602782/), [human iris pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/).
 
-A separate ESR/chemical-degradation study of postmortem whole irides found about 40% more measured melanin in its brown-eye group than in the other sampled color groups. The result is cross-sectional and combines iris compartments; it does not specify the pigment level required for a dark-brown appearance in the anterior stroma. Its reported age-associated signal was a small decrease in iron normalized to melanin in light-blue irides, not evidence that total iris melanin declines with age. [Wielgus and Sarna, 2005](https://pubmed.ncbi.nlm.nih.gov/16280011/).
+Two quantitative donor studies do not give the same headline result for whole-iris melanin. Menon et al. (1992) reported no statistically significant difference between blue- and brown-eye iris melanin; the study separately quantified iris, ciliary body, and RPE–choroid by tissue mass and for each whole tissue. Wielgus and Sarna (2005), using ESR/chemical-degradation analysis of postmortem irides, reported about 40% more measured melanin in the brown-eye group than in the other sampled color groups. Both are whole-iris comparisons, not measurements of the visible anterior stroma. The accessible Menon abstract lacks sample counts and enough assay detail to reconcile the difference. Neither study establishes a dark-brown anterior-stromal target. The 2005 age signal was a small decrease in iron normalized to melanin in light-blue irides, not a measured decline in total iris melanin. Adult iris turnover and net clearance remain unknown. [Menon et al., 1992](https://pubmed.ncbi.nlm.nih.gov/1402293/), [Wielgus and Sarna, 2005](https://pubmed.ncbi.nlm.nih.gov/16280011/).
 
 ```mermaid
-flowchart LR
-    W["H: postmortem whole-iris<br/>ESR / chemical assay"] --> B["Brown-eye group:<br/>about 40% more measured melanin<br/>than other sampled color groups"]
-    W --> A["Age-associated finding:<br/>small decrease in iron normalized<br/>to melanin in light-blue irides"]
-    B -.-> T["G: no quantitative target for<br/>dark-brown anterior-stromal color"]
-    A -.-> R["G: adult iris melanin turnover<br/>and net clearance rate unknown"]
-    T --> M["Need serial, compartment-specific<br/>pigment and appearance measures"]
-    R --> M
+flowchart TD
+    H["H: quantitative donor whole-iris comparisons"]
+    H --> M["Menon et al., 1992:<br/>no statistically significant blue–brown<br/>difference in iris melanin"]
+    H --> W["Wielgus and Sarna, 2005:<br/>brown group about 40% more measured melanin<br/>than other sampled color groups"]
+    M --> C["Headline results are not concordant;<br/>accessible abstract lacks details to reconcile"]
+    W --> C
+    C --> T["G: neither isolates visible anterior stroma<br/>or defines a dark-brown target"]
+    T --> N["Need compartment-specific pigment<br/>and standardized serial color measures"]
+    W --> A["2005 age signal: lower iron/melanin<br/>in light-blue donors, not lower total melanin"]
+    R["G: adult iris turnover and net<br/>clearance rate remain unknown"] --> N
 ```
-
 This makes pigment amount and chemistry in the **visible anterior iris compartment** the relevant research target; posterior epithelial pigment and cell counts are not substitutes for that endpoint.
 
 **Evidence implication:** the project needs both a tissue-pigment measurement and a standardized visible-color endpoint. The literature does not define a pigment threshold that would produce a chosen shade such as dark brown.
