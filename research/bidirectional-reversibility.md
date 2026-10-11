@@ -72,7 +72,7 @@ This framework is tissue-specific. Skin, gingiva, retinal pigment epithelium, an
 
 The reviewed evidence forms two largely separate streams: noninvasive image-derived signals—including cross-sectional PS-AS-OCT and older optical-model estimates—and destructive human-iris chemistry by compartment. I found no study pairing standardized optical measurement of an intact human iris with chemical assay of the **same eye's** anterior stroma and posterior iris pigment epithelium (IPE). This is a gap in the reviewed literature, not proof that no unindexed work exists. [Imaging studies](tissue-pigment-atlas.md#iris-imaging-repeatability-is-not-the-same-as-clearance-sensitivity), [Prota et al., 1998](https://pubmed.ncbi.nlm.nih.gov/9778410/).
 
-A high-value next feasibility study would image donated intact human eyes under standardized conditions, then separate anterior stroma from IPE and chemically quantify eumelanin and pheomelanin in each fraction. It should account for postmortem interval, preservation, and tissue geometry, and prespecify repeatability and agreement across iris colors. This would validate a measurement only; it would not establish a safe living-tissue intervention, pigment clearance, or return to baseline.
+The proposed design, including paired optical acquisition, compartment-specific chemical assays, confounder controls, analysis, and stop/advance rules, is in the [donor-eye measurement-validation proposal](iris-measurement-validation-proposal.md). A successful result would validate a cross-sectional measurement only; it would not establish serial sensitivity in living eyes, safe pigment clearance, or return to baseline.
 
 ## Working conclusion
 
