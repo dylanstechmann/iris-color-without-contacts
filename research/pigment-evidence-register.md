@@ -409,6 +409,7 @@ The uveal-cell literature supports modulation of new synthesis in preclinical sy
 
 | Source | Evidence type / model | Endpoint and limit |
 | --- | --- | --- |
+| [Jones, 1979](https://pubmed.ncbi.nlm.nih.gov/287951/) | Histologic assessment of melanin distribution in 35 postmortem vulvectomy specimens; compared with melanosis vulvae and melanoma-in-situ | Described vulvar melanosis as an exaggeration of normal melanin distribution. Historical, anatomically selected specimens; not a population prevalence estimate, vaginal-mucosa map, pigment-mass trajectory, or clearance study. |
 | [De Giorgi et al., 2020](https://pubmed.ncbi.nlm.nih.gov/32785609/) | Single-center longitudinal cohort of 129 patients with vulvar melanosis; 5–20 years of follow-up | About 30% of lesions enlarged or changed color before stabilizing; no malignant evolution observed. Appearance natural history, not measured pigment clearance. |
 | [Tran et al., 2013](https://pubmed.ncbi.nlm.nih.gov/24300541/) | Prospective histologic assessment of 2,118 cervices with visible pigmented lesions | 33 lesions (1.6%); most were blue nevi, with one melanotic macule. Visible lesions are not equivalent to normal diffuse pigmentation or a clearance target. |
 | [Osamura et al., 1980](https://pubmed.ncbi.nlm.nih.gov/7405906/) | Histochemical and electron-microscopic study of two endocervical cases | Confirmed melanin-containing cells in endocervical specimens; no pigment in endocervical epithelium. Case-level finding, no clearance or function endpoint. |
