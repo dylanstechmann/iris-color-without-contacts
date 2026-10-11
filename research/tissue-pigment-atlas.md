@@ -198,15 +198,18 @@ A single generalized-argyria case provides stronger local tissue measurements: a
 flowchart TD
     A["Oral color / pigmentation"] --> B["Physiologic gingival melanin"]
     A --> C["Other causes<br/>Inflammation, drugs, external deposits or lesions"]
-    B --> T["H: small topical-modulation trial"]
-    T -.-> G["G: predictable noninvasive<br/>selective pigment clearance"]
+    B --> T["H: topical ascorbic-acid gel alone<br/>small trial; clinical index not significant at 1 month"]
+    T -.-> G["G: predictable topical-only<br/>selective pigment clearance"]
     B --> I["H + X: intramucosal injections<br/>Invasive despite nonsurgical terminology"]
+    B --> L["H + X: 2026 trial, n = 20<br/>topical AS-G added after diode laser"]
+    L --> D9["9-month clinical pigmentation score<br/>favored adjunct; laser in both groups"]
+    D9 -.-> C9["Repigmentation/follow-up appearance<br/>not a pigment-mass or export measure"]
     B --> S["X: scalpel / ablative laser<br/>Pigmented epithelium removed"]
     S --> R["Healing and possible repigmentation"]
-    C --> D["Cause-specific assessment<br/>Not automatically a melanin-clearance target"]
+    C --> O["Cause-specific assessment<br/>Not automatically a melanin-clearance target"]
 ```
 
-In a 20-person randomized study, topical ascorbic-acid gel had no significant pigmentation-index improvement at one month, whereas injections had an earlier response. Both groups showed reduced melanin-stained area fraction at six months. Its small size and lack of a placebo group limit the conclusion. It supports a **human-research** label, not a proven routinely available gum-lightening product. [Trial](https://pubmed.ncbi.nlm.nih.gov/33966113/).
+In a 20-person randomized study, topical ascorbic-acid gel alone did not significantly improve the pigmentation index at one month, whereas the injection arm had an earlier response; both groups showed lower melanin-stained area fraction at six months. The study was small and had no placebo arm. A 2026 randomized study of 20 participants found a lower nine-month clinical pigmentation score when topical ascorbyl glucoside was added after diode-laser depigmentation than after laser alone. Both arms received laser, and the study assessed a clinical score rather than pigment mass or fate. It therefore does not establish topical-only depigmentation or a pigment-export route. These are **human-research** findings, not proof of a routinely available, predictable gum-color controller. [El-Mofty et al.](https://pubmed.ncbi.nlm.nih.gov/33966113/), [Gudur et al.](https://pubmed.ncbi.nlm.nih.gov/42147661/).
 
 Scalpel and ablative-laser studies concern removal of pigmented epithelium; recurrence is a relevant outcome. These are procedural comparisons, distinct from preservation of the existing tissue through molecular modulation. Oral pathology also distinguishes melanocytic pigmentation from deposits such as amalgam tattoos. [Procedure trial](https://pubmed.ncbi.nlm.nih.gov/31983845/), [oral pathology series](https://pmc.ncbi.nlm.nih.gov/articles/PMC8141314/). Red, swollen, bleeding gums belong to an inflammatory branch. [NIDCR](https://www.nidcr.nih.gov/health-info/gum-disease).
 
