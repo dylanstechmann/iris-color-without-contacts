@@ -952,7 +952,7 @@ flowchart TD
     A["Clinical color endpoints<br/>relative lightness or oral pigmentation index"] --> B["Observed appearance shift<br/>in selected human studies"]
     C["Histology after treatment<br/>area fraction of melanin-forming cells<br/>lower in both active groups at month 6"] --> D["Observed cell-area endpoint"]
     E["Oral keratinocyte renewal"] -.-> F["Oral review describes melanin 'dust'<br/>in desquamating surface cells"]
-    F -.-> G["Review-level claim; direct shed-gingival-cell<br/>melanin / salivary flux not measured in reviewed sources"]
+    F -.-> R["Review-level mechanism; no direct oral<br/>shed-cell pigment flux measured"]
     S["Human-skin Fontana–Masson findings"] -.-> T["Diffuse stratum-corneum staining can reflect<br/>nonspecific silver deposition"]
     T -.-> U["Skin-specific caution; does not adjudicate<br/>the oral claim"]
     U -.-> G
@@ -960,9 +960,9 @@ flowchart TD
     J["Gingivectomy<br/>5 cases; pigmented tissue excised"] --> K["Melanocytes migrated / divided<br/>days 6–7; keratinocyte pigment by day 50"]
     K --> L["Repigmentation returned to baseline<br/>within 1.5–3 years in this series"]
     L -.-> G
-    B --> G["Available measurements<br/>do not establish pigment fate"]
+    B --> G["No chemical total-melanin mass balance,<br/>salivary export measurement,<br/>or post-use return endpoint found"]
     D --> G
-    F -.-> G["No chemical total-melanin mass balance,<br/>salivary export measurement,<br/>or post-use return endpoint found"]
+    F -.-> G
 ```
 
 
