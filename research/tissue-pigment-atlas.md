@@ -28,9 +28,13 @@ flowchart TD
     A --> D["Brain and visceral cells<br/>Neuromelanin or lipofuscin"]
     A --> E["Disease-related deposits<br/>Iron, bilirubin or ochronotic pigment"]
     A --> F["Other coloration<br/>External pigments, tooth stains, blood"]
+    A --> G["Inner ear / cochlea<br/>Strial melanin"]
+    A --> H["Leptomeninges<br/>Melanin-bearing melanocytes"]
     B --> B1["Skin: C for specific disorders<br/>Gums: limited H<br/>Hair/nail biological control: G"]
     C --> C1["Iris reversal: G<br/>RPE clearance mechanisms: P"]
     D --> D1["Mechanistic studies: P / human tissue<br/>General selective clearance: G"]
+    G --> G1["H tissue mapping; P mouse function data<br/>Selective reduction: G"]
+    H --> H1["H normal anatomy / imaging<br/>Selective clearance: G"]
     E --> E1["C for certain diagnosed diseases<br/>Different chemistry and mechanisms"]
     F --> F1["Separate targets and methods<br/>No universal pigment-clearing system established"]
 ```
