@@ -20,6 +20,8 @@ A simple conceptual accounting model is:
 
 This is a qualitative model, not a measured human rate equation. If an intervention lowers synthesis while existing pigment has little effective turnover, the iris might not become visibly lighter. The literature reviewed here does not establish a safe clearance mechanism or a predictable lightening timescale for a normal adult iris.
 
+A tracer study in mice detected ongoing iris melanin synthesis at ages through one year and immature melanosomes in adult iris melanocytes and pigment epithelial cells. This is evidence for new pigment formation in adult mice, not a measured net turnover rate, clearance route, or human iris result. It leaves the stored-pigment problem unresolved. [Lindquist et al., 1998](https://pubmed.ncbi.nlm.nih.gov/9778406/).
+
 Pigment loss caused by cell damage or release of cellular debris would fail the research objective, even if the iris appeared lighter.
 
 That distinction matters clinically: human case reports after cosmetic photoablative iris-laser treatment describe pigment dispersion and secondary pigmentary glaucoma. In one severe bilateral case, the patient presented after four sessions with intraocular pressures of 50 and 42 mmHg; visual-field defects and glare remained at follow-up despite urgent treatment. These reports establish possible serious harm, not its frequency. The procedure is a useful safety comparator, not a candidate for selective nonsurgical modulation. [Ning et al.](https://pubmed.ncbi.nlm.nih.gov/33449587/), [Swampillai et al.](https://pubmed.ncbi.nlm.nih.gov/36175318/), [Liu et al.](https://pubmed.ncbi.nlm.nih.gov/37771388/).
