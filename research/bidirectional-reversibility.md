@@ -28,6 +28,8 @@ Skin shedding is not a demonstrated iris-reversal route. Human studies measured 
 
 **Existing pigment = accumulated synthesis minus normal turnover or clearance.**
 
+Measure iris appearance and pigment burden separately. A small in-situ human skin comparison found that visible tanning could occur without a significant increase in measured melanin under UVA alone. That result illustrates the distinction between color and pigment mass; it does not establish an iris optical mechanism. A future iris claim would need standardized appearance measurements alongside a direct pigment endpoint. [Choi et al., 2010](https://pubmed.ncbi.nlm.nih.gov/20147966/).
+
 Reversing a regulatory signal is not necessarily enough to reverse this accumulated pigment. A theoretical system would need evidence for both the pigment-increasing direction and a nondestructive route back to the starting pigment state.
 
 The implementation is left unspecified. Permanent DNA alteration is not a prerequisite; reversible regulation is a conceptual possibility whose tissue effects and pigment kinetics would still need to be demonstrated.
