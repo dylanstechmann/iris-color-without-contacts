@@ -8,7 +8,21 @@
 
 This is a hypothetical research objective. It is more demanding than demonstrating a one-way pigment change or showing that a biochemical signal can be switched off.
 
-Blue irides contain less melanin in the front layers than brown irides. Human histology found similar stromal melanocyte counts across blue, hazel, and brown irides, while chemical analysis found different pigment profiles between the visible stroma and posterior iris pigment epithelium. The target is therefore the pigment state of the anterior stroma and its visible color outcome, not melanocyte count or total pigment across the whole eye. The literature does not specify a measured threshold for a chosen shade. [Human iris histology](https://pubmed.ncbi.nlm.nih.gov/8602782/), [human iris pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/), [MedlinePlus Genetics](https://medlineplus.gov/genetics/understanding/traits/eyecolor/)
+Human chemical analysis found very low pigment content in blue irides and differences in both melanin type and pigment profile across iris color groups. Separate histology found no significant difference in stromal melanocyte counts among blue, hazel, and brown groups. The relevant target is therefore the pigment state of the visible anterior stroma, not melanocyte count or total pigment across the whole eye. The literature does not specify a measured threshold for a chosen shade. [Human iris histology](https://pubmed.ncbi.nlm.nih.gov/8602782/), [human iris pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/), [MedlinePlus Genetics](https://medlineplus.gov/genetics/understanding/traits/eyecolor/)
+
+```mermaid
+flowchart LR
+    A["Original blue appearance"] --> B["Anterior stromal pigment state"]
+    B --> C["Low measured pigment in blue irides"]
+    B --> D["Pigment chemistry and spatial pattern"]
+    E["Darkening signal"] --> F["Pigment state changes in responsive eyes"]
+    F --> G["Signal stops"]
+    G -.-> H["Stored pigment may persist"]
+    H -.-> I["Return requires baseline pigment burden<br/>and optical appearance"]
+    D -.-> I
+```
+
+**Inference:** a true return to an individual's blue baseline likely requires restoration of the anterior stroma's low-pigment state and its optical presentation. Merely stopping new melanin production would not establish either outcome. This requirement follows from the observed pigment differences and persistence of medication-associated iris darkening; it has not been demonstrated as an intervention.
 
 ## Evidence for increasing pigmentation
 
