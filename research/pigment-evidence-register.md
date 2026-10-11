@@ -72,6 +72,8 @@ This is a scoped source register, not a systematic review or a global audit of p
 | [Ito et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7404343/) | HPLC method validation using synthetic melanins, animal/human hair, and human epidermis | Chemically generated marker compounds quantify melanin amount/type in harvested samples; assay-generated products are not evidence of in-vivo catabolites or pigment export. |
 | [One-year nitisinone pilot in OCA-1B, 2019](https://insight.jci.org/articles/view/124387) | Five adults with molecularly confirmed OCA-1B; 12 months of systemic treatment plus safety follow-up | Inner-bicep melanin index increased by 1.72 points at month 12 (95% CI 0.03–3.41; p=.047); only one of five had a qualitative visible skin change. Outer-forearm change was not statistically significant. Disease-specific, small, systemic pilot; not a cosmetic skin-control or reversal study. |
 
+| [Kim et al., 2022](https://doi.org/10.3390/molecules27020454) | UV-B-induced skin-hyperpigmentation mouse model; RF exposure with follow-up through 28 days while UV-B continued | LYVE-1/VEGF-C lymphatic signals rose and tyrosinase activity fell; later skin Fontana–Masson staining and melanin-containing macrophage signals were lower. Results text/Fig. 4 report increased lymph-node Fontana–Masson staining after RF, while the abstract reports decreased node melanin. Reduced synthesis confounds an export interpretation. No skin-to-node tracer, node exit, or whole-body mass balance; not human evidence or a noninvasive cosmetic method. |
+
 ## Gums, oral mucosa, and teeth
 
 | Source | Evidence type / model | Endpoint and limit |
