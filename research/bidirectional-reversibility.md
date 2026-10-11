@@ -32,6 +32,24 @@ Direct experiments in cultured human uveal melanocytes show that new melanin syn
 
 Clinical experience with latanoprost shows that adult iris pigmentation can increase in some eyes, through more melanin in existing stromal melanocytes. The effect has occurred mainly in mixed-color irides. Current UK product information reports no observed change in uniformly blue eyes in the cited studies.
 
+A small human albinism pilot adds a cross-tissue comparator. Five adults with OCA-1B received a systemic tyrosine-pathway intervention intended to increase pigmentation. Plasma tyrosine rose roughly tenfold; inner-bicep skin reflectometry rose modestly, and four participants reported hair darkening. The iris did not follow that pattern: the primary iris-transillumination endpoint was summarized as showing no significant favorable change, while an exploratory analysis pooling both eyes showed about a one-point increase in transillumination (p=.01), directionally consistent with less iris pigment and concentrated in two participants. Transillumination is an optical proxy, not chemical pigment mass; the authors treated all analyses as exploratory and did not adjust for multiple comparisons. The study was a small OCA-1B pilot, not a controlled color-change experiment in healthy eyes. [One-year nitisinone pilot in OCA-1B](https://insight.jci.org/articles/view/124387).
+
+```mermaid
+flowchart LR
+    A["OCA-1B pilot<br/>systemic tyrosine shift"] --> B["Skin: modest inner-bicep<br/>reflectometry increase"]
+    A --> C["Hair: 4 of 5 reported darkening;<br/>eumelanin marker increased"]
+    A --> D["Iris: primary transillumination<br/>endpoint showed no significant<br/>favorable response"]
+    D --> E["Exploratory paired-eye analysis:<br/>about +1 TI point (p = .01),<br/>mainly two participants"]
+    A --> F["After stopping:<br/>plasma tyrosine normalized"]
+    F --> G["Hair eumelanin marker neared baseline;<br/>pheomelanin marker remained lower"]
+    F --> H["Iris return after washout<br/>was not established"]
+    B --> I["Systemic input change did not<br/>produce a common tissue response<br/>or a reversible iris-color cycle"]
+    C --> I
+    E --> I
+    G --> I
+    H --> I
+```
+
 Together, the cell, organ-culture, animal, and clinical observations support a pigment-production pathway that can be modulated in some ocular models. They do not establish a reliable conversion of uniformly blue human eyes to dark brown, control of a chosen shade, reduction of stored pigment, or reversibility. [Current Xalatan product information](https://www.medicines.org.uk/emc/product/1616/smpc)
 
 Small human iris-morphometry studies offer a candidate explanation for the appearance endpoint: two latanoprost-darkened eyes and a later series of 15 darkened cases had larger melanin granules in the anterior border, without a demonstrated increase in total granule number. The studies did not measure total melanin mass, identify chemical degradation, or test a way to reverse granule size. This makes color appearance and pigment amount separate targets. [Cracknell et al., 2003](https://pubmed.ncbi.nlm.nih.gov/14609560/), [Cracknell et al., 2007](https://pubmed.ncbi.nlm.nih.gov/17292473/).
@@ -43,6 +61,8 @@ A separate 36-month serial-photography study of 22 latanoprost-treated patients 
 U.S. prescribing information describes the added iris pigmentation as likely permanent after treatment is discontinued. Human follow-up reports support persistence: a latanoprost clinical report found no change in induced pigmentation in patients followed for two years after stopping, and a separate case with serial photographs found no appreciable fading over five years. These are withdrawal observations, not tests of a future pigment-removal intervention; the five-year report is one patient.
 
 An adjacent-tissue comparison underscores why this cannot be generalized across the body. In one case, latanoprost-associated periocular skin darkening visibly improved within a month of stopping and was significantly lighter by two months, consistent with the turnover of the epidermis. That single skin case neither demonstrates iris reversal nor a treatment for it. [U.S. label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f4e73059-5ba0-4d73-9ea1-09d8d654e844), [Wistrand et al., 1997](https://pubmed.ncbi.nlm.nih.gov/9154289/), [Camras et al., 2000](https://pubmed.ncbi.nlm.nih.gov/10708238/), [Wand et al., 2001](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/265847).
+
+The OCA-1B pilot above followed other tissues after nitisinone stopped: plasma tyrosine returned to baseline, the hair eumelanin marker was near baseline at safety follow-up, and the pheomelanin marker remained lower. One participant restarted during follow-up, and no post-discontinuation iris-transillumination return endpoint was reported. This is partial biochemical follow-up in a disease pilot, not evidence of a reversible iris-color cycle. [One-year nitisinone pilot in OCA-1B](https://insight.jci.org/articles/view/124387).
 
 Natural-history studies report iris-color shifts after childhood, including lightening in some adults. In the Louisville Twin Study, 3.8%–8.6% of white twins changed at least two color-grade units between ages 6 and under 24 across 3–9-year intervals; 9% of a followed adult-mother subset lightened by at least two units. A 27-year follow-up of former schoolchildren reported both lightening and darkening, but the overall change was not statistically significant. These were color grades, not melanin-mass or pigment-fate measurements. Electron microscopy of iris specimens from cataract patients aged 70–84 found melanosome complexes, with clinical significance unresolved. Natural shifts show appearance can vary, but they do not demonstrate active clearance or a controlled return to an earlier color. [Bito et al., 1997](https://pubmed.ncbi.nlm.nih.gov/9152135/), [Meyer-König, 1977](https://doi.org/10.1016/S0047-2484(77)80099-7), [Sugita et al., 1986](https://pubmed.ncbi.nlm.nih.gov/3761741/).
 
@@ -86,6 +106,6 @@ These are conceptual evidence requirements, not a procedure or clinical protocol
 
 ## Working conclusion
 
-The research scope is **reversible bidirectional iris pigmentation**, rather than lightening alone. Existing evidence is stronger for a drug-associated darkening signal in susceptible eyes and modulation of new pigment in models than for a controlled reduction of established pigment. The complete blue → dark brown → blue sequence remains unproven.
+The research scope is **reversible bidirectional iris pigmentation**, rather than lightening alone. A small OCA-1B pilot shows that a systemic precursor shift can produce different skin, hair, and iris outcomes, but it did not demonstrate a favorable primary iris response or post-washout iris return. Existing evidence remains stronger for a drug-associated darkening signal in susceptible eyes and modulation of new pigment in models than for a controlled reduction of established pigment. The complete blue → dark brown → blue sequence remains unproven.
 
 FDA states that there are no approved eye drops to change eye color. [FDA consumer guidance](https://www.fda.gov/drugs/buying-using-medicine-safely/what-you-should-know-about-eye-drops)
