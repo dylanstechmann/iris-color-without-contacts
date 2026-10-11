@@ -197,6 +197,10 @@ flowchart LR
     A --> R["P: cultured human skin substitutes<br/>and ex-vivo skin show lower measured<br/>melanin with activation; higher with inhibition"]
     K --> S["Keratinocyte differentiation<br/>and surface-cell shedding"]
     S --> O["Pigment-bearing corneocytes leave<br/>at the skin surface during renewal"]
+    BASAL["H: basal keratinocyte mitoses<br/>observed in human epidermis"] -.-> PART["Proposed asymmetric<br/>melanin-organelle partition"]
+    PART -.-> RETAIN["Non-differentiating daughter retains<br/>most pigment in basal layer"]
+    PART -.-> ASCEND["Differentiating daughter ascends<br/>with less pigment"]
+    ASCEND -.-> S
     HSE["P: pigmented full-thickness<br/>skin-equivalent model"] --> STRIP["10 tape strips removed<br/>upper stratum corneum"]
     STRIP --> STRIP_OUT["P: model lightened; measured<br/>melanin signal and index fell"]
     STRIP --> TEWL["P: TEWL rose;<br/>barrier function compromised"]
@@ -229,7 +233,7 @@ A 2026 in-vitro study loaded normal human epidermal keratinocytes with melanosom
 
 **Melanosome breakdown is not automatically melanin-polymer breakdown:** in a mouse keratinocyte assay, Rab7B/42- and LAMP1-positive compartments degraded melanosomal proteins, but cellular melanin content did not fall even after two weeks. Classic isolated-organelle work also distinguished degradable melanosome constituents from the resistant melanin core. Thus, loss of PMEL/TYR or other organelle markers alone cannot establish pigment clearance. [Marubashi and Fukuda, 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC10739166/), [Otaki and Seiji, 1971](https://pubmed.ncbi.nlm.nih.gov/5556529/).
 
-This does not fully resolve the contrary tissue-model results: autophagy manipulation lowered total measured melanin in human skin substitutes/ex-vivo skin, and a 2026 loaded-human-keratinocyte model reported lower melanin absorbance with a proposed lysosomal-oxidative sequence. Different models and endpoints may capture different processes. Direct polymer cleavage, chemically identified products, and their export from intact living human tissue remain unresolved. [Murase et al., 2013](https://doi.org/10.1038/jid.2013.165), [Zhao et al., 2026](https://doi.org/10.1111/jocd.70770).
+This does not fully resolve the contrasting tissue-model results: autophagy manipulation lowered total measured melanin in human skin substitutes/ex-vivo skin, and a 2026 loaded-human-keratinocyte model reported lower melanin absorbance with a proposed lysosomal-oxidative sequence. A preliminary human-histology study proposed asymmetric inheritance of melanin organelles during basal keratinocyte mitosis as one explanation for strong basal retention; it cautions that sparse melanin in upper layers alone does not prove melanin-polymer degradation. The inheritance proposal does not exclude degradation in other cells or models. Direct polymer cleavage, chemically identified products, and their export from intact living human tissue remain unresolved. [Murase et al., 2013](https://doi.org/10.1038/jid.2013.165), [Joly-Tonetti et al., 2018](https://doi.org/10.1111/bjd.16926), [Zhao et al., 2026](https://doi.org/10.1111/jocd.70770).
 
 **Appearance versus pigment mass:** In a small human in-situ comparison designed to produce comparable visible tanning, UVA alone did not significantly increase measured melanin, whereas UVB-containing exposures did. This shows that visible skin color can change without a corresponding increase in pigment mass. It is skin-specific evidence; it does not establish the same optical mechanism or a clearance route in the iris. [Choi et al., 2010](https://pubmed.ncbi.nlm.nih.gov/20147966/).
 
