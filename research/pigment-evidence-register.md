@@ -108,7 +108,7 @@ This is a scoped source register, not a systematic review or a global audit of p
 | [FDA hair dyes](https://www.fda.gov/cosmetics/cosmetic-products/hair-dyes) | Official cosmetic information | Marketed shaft cosmetics; product availability does not imply safe use on other tissues. |
 | [Grosvenor et al., 2018](https://doi.org/10.1111/ics.12495) | Ex vivo human hair fibers | Pigment degradation accompanied fiber damage; not living-follicle manipulation. |
 | [Sun et al., 2023](https://www.nature.com/articles/s41586-023-05960-6) | Mouse follicle stem-cell research | Stem-cell states and niche behavior; no selectable human cosmetic controller. |
-| [Rosenberg et al., 2021](https://elifesciences.org/articles/67437) | Observational human hair study | Pigment loss/regain in individual hairs; not an intervention trial. |
+| [Rosenberg et al., 2021](https://elifesciences.org/articles/67437) | Human observational study; digitized 397 hairs from 14 healthy donors and mapped pigment patterns along individual shafts | Rare within-shaft gray/white-to-repigmented transitions occurred within a growth phase, including scalp, pubic, and beard hairs. Supports spontaneous follicle-production plasticity; not an intervention, causal stress mechanism, or clearance of pigment from another tissue. |
 | [Tosti et al., 1994](https://pubmed.ncbi.nlm.nih.gov/8040399/) | Human nail-matrix histology | Melanocyte anatomy and pigment-making enzymes. |
 | [Drug-induced melanonychia report, 2019](https://pubmed.ncbi.nlm.nih.gov/31220366/) | Human procedural case report | Insufficient to establish general cosmetic nail-pigment clearance. |
 
