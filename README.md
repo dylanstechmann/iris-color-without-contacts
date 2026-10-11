@@ -18,11 +18,15 @@ The full blue → dark brown → blue sequence remains hypothetical. FDA current
 
 ## Research notes
 
+- [Tissue pigment atlas: ten diagrams covering skin, gums, eyes, and other body compartments](research/tissue-pigment-atlas.md)
+- [Pigment evidence register: models, endpoints, clinical indications, and limitations](research/pigment-evidence-register.md)
 - [Bidirectional modulation and the reversibility requirement](research/bidirectional-reversibility.md)
 - [Selective melanin modulation: mechanisms, evidence, and gaps](research/selective-melanin-modulation.md)
 - [Why cosmetic hair-follicle pigmentation merits a separate project](research/hair-scope.md)
 
 ## Research scope
+
+A companion atlas maps selective pigment clearance across major body compartments. It distinguishes clinical treatment of specific disorders, human research, preclinical mechanisms, procedural comparisons, and unassessed tissues. This broader context supports the iris project; it does not establish one mechanism for every pigment or tissue.
 
 The intended outcome is a cosmetic change in natural iris pigmentation without contact lenses or surgery. The research will examine:
 

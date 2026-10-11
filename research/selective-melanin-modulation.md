@@ -45,6 +45,16 @@ These are research categories. The table does not nominate a drug, genetic targe
 
 Sources: [Drago et al.](https://pubmed.ncbi.nlm.nih.gov/9986745/), [human iris organ culture](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/266799), [fibroblast-dependent response](https://pubmed.ncbi.nlm.nih.gov/15051478/), [iris toxicity study](https://pmc.ncbi.nlm.nih.gov/articles/PMC5563078/), [FDA](https://www.fda.gov/drugs/buying-using-medicine-safely/what-you-should-know-about-eye-drops).
 
+## Stored-pigment degradation evidence outside the iris
+
+The broader [tissue pigment atlas](tissue-pigment-atlas.md) includes a real research foothold for existing pigment. A primary study in cultured human melanocytes and melanosome-containing keratinocytes reported melanosome degradation with lighter cell pellets. This is preclinical skin-cell evidence, not a human iris-clearing result. [Kim et al., 2020](https://doi.org/10.1111/pcmr.12838).
+
+A 2024 study described **melanophagy**, selective autophagy of melanosomes, mainly in a mouse melanoma-cell model. Its transferred-melanosome keratinocyte comparison did not show the same depigmentation effect. Tissue and cell compartment therefore matter before any proposed extrapolation. [Primary study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10998605/).
+
+The endpoint also matters: a separate mouse keratinocyte study found degradation of melanosome-associated proteins without a decrease in melanin content. Organelle-marker loss is not automatically stored-pigment clearance. [Primary study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10739166/).
+
+**Inference:** these findings justify studying pigment turnover as a distinct mechanism. They do not establish selective adult iris clearance, preservation of vision, or the return from an induced brown iris to its original blue.
+
 ## What “selective” would need to mean
 
 Molecular selectivity is only one requirement. A substance that interacts with a pigment-making enzyme is not automatically selective for the anterior iris or safe elsewhere in the eye.
