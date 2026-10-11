@@ -49,6 +49,7 @@ This is a scoped source register, not a systematic review or a global audit of p
 | [Thomson et al., 1999](https://pubmed.ncbi.nlm.nih.gov/10577752/) | In-vitro labeling of 105 samples of clinically normal human oral mucosa from several sites | S-phase labeling varied by oral site; measures proliferation, not full epithelial transit or melanin fate. |
 | [Thomson et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11684035/) | In-vitro labeling of 110 human mandibular gingiva and buccal mucosa samples | Buccal mucosa had a higher S-phase labeling index than mandibular gingiva; this is not a complete turnover-time or pigment-export measurement. |
 | [Squier and Waterhouse, 1967](https://doi.org/10.1016/0003-9969(67)90148-3) | Light and electron microscopy of 60 normal human gingival specimens | Melanin granules were observed in gingival keratinocytes; does not quantify melanin in exfoliated cells or establish clearance. |
+| [Barrett and Beynon, 1991](https://pubmed.ncbi.nlm.nih.gov/1747076/) | Histochemical analysis of six oral mucosal sites in 95 human autopsies | Melanin detection varied by site; 24.2% had no detectable melanin at any sampled oral site. Establishes baseline heterogeneity, not pigment export or clearance. |
 
 ## Colon mucosa
 
