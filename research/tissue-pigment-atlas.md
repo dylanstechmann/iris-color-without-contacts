@@ -58,7 +58,7 @@ flowchart TD
 | **Teeth** | Extrinsic stains and intrinsic chromogens | Dental cleaning/whitening methods exist. | Evidence that tooth whitening demonstrates clearance of living-tissue melanin. |
 | **Skeletal muscle / adipose / bone / tendon / other mucosa** | Must be specified by tissue, cell and actual deposit | **Coverage gap:** no dedicated clearance evidence assessment here. | Any claim that this atlas establishes a method for every bodily tissue. |
 
-Sources and model details are linked in the sections below and in the [evidence register](pigment-evidence-register.md).
+Sources and model details are linked in the sections below and in the [evidence register](pigment-evidence-register.md). The shared criteria for evaluating a tissue-specific clearance claim are in the [selective clearance framework](selective-clearance-framework.md).
 
 ## 2. Skin: production, transfer, clearance, and repigmentation
 

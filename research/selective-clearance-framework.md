@@ -1,0 +1,91 @@
+# A framework for selective pigment clearance
+
+*Conceptual research note; evidence status linked to the [tissue pigment atlas](tissue-pigment-atlas.md) and [source register](pigment-evidence-register.md). Reviewed October 11, 2026.*
+
+## The central question
+
+Could an intervention reduce an existing pigment burden in a chosen tissue, leave the surrounding cells functional, and then stop at a controlled endpoint?
+
+The answer cannot be one generic “melanin removal” mechanism. A colored deposit may be melanin in a melanosome, a mixture of residual lipids and proteins in a lipofuscin granule, iron in storage complexes, a homogentisic-acid-derived polymer in connective tissue, bilirubin circulating after red-cell breakdown, or external ink held in dermal cells. Their chemistry, location, physiology, and paths out of tissue differ.
+
+A useful high-level hypothesis is a **shared control framework with tissue- and substrate-specific clearance mechanisms**. One universal treatment across all bodily tissues is not supported by the reviewed evidence.
+
+## Clearance is a chain of distinct outcomes
+
+```mermaid
+flowchart TD
+    V["Visible color or tissue signal"] --> I["Identify chemical substrate"]
+    I --> L["Locate it: extracellular, cell, organelle or blood"]
+    L --> C["Choose an evidence-backed mechanism class"]
+    C --> P["Measure actual pigment burden"]
+    P --> F["Check cell and tissue function"]
+    F --> X["Account for breakdown and export"]
+    X --> R["Assess return to baseline and repeatability"]
+    P -.-> M["Marker or appearance change alone<br/>may not equal pigment removal"]
+    F -.-> D["Pigment loss through cell injury<br/>does not meet selective-clearance goal"]
+```
+
+Each arrow is a separate research question. Lowering new synthesis changes the input to a pigment pool. It does not by itself demonstrate that material already stored in the tissue has disappeared. Likewise, loss of a melanosome protein, a lower optical signal, or a lighter-looking surface does not alone establish molecular pigment removal. In a mouse keratinocyte model, proteins on incorporated melanosomes degraded while melanin content remained unchanged. A skin-cell study and a separate melanophagy study provide mechanism-level evidence for melanosome degradation in specific models; neither establishes the same process in every tissue. [Endpoint study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10739166/), [human skin-cell study](https://doi.org/10.1111/pcmr.12838), [melanophagy study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10998605/).
+
+## Mechanism classes and their current reach
+
+| Mechanism class | What it changes | Evidence examples in the atlas | What it does not establish |
+| --- | --- | --- | --- |
+| **Reduce new pigment production** | The rate of new pigment formation | Short-term facial melasma treatment; reduced homogentisic-acid production in alkaptonuria | Removal of established pigment, healthy-body shade control, or a reversible iris cycle |
+| **Change transfer or packaging** | Movement or storage of pigment between or within cells | Melanosome transfer studies in skin models; human facial appearance studies | Digestion of the melanin molecule itself or the same behavior in oral or ocular tissue |
+| **Increase intracellular degradation** | Breakdown of a pigment organelle or its contents | Melanosome degradation in cultured human skin cells; melanophagy in a largely mouse melanoma-cell system; selected retinal bisretinoid reduction in cell/mouse research | A shared lysosomal route for melanin, lipofuscin, and other pigments |
+| **Lower a disease precursor** | Formation of a pathologic deposit over time; may allow partial regression | Alkaptonuria studies report reduced precursor, slower progression, and partial regression in measured eye/ear pigmentation | Complete removal, arbitrary control, or transfer to physiologic iris melanin |
+| **Remove material from the body** | Systemic burden of a specific chemical | Phlebotomy or chelation for diagnosed iron overload | Pigment-selective clearance within a chosen tissue or cosmetic color change |
+| **Fragment or remove a deposit physically** | An external pigment or pigmented tissue may be fragmented or physically removed | Tattoo-removal devices; surgical/ablative gum procedures | Preservation of native pigment cells, reversibility, or suitability for functional tissues such as the iris |
+
+The alkaptonuria example matters because clinical human evidence links a lower chemical precursor to partial regression of an accumulated pigment deposit. It remains a disease-specific pathway: the deposit is not melanin, measured regression was incomplete, and this finding does not supply a general formula for other tissues. [Pigment regression cohort](https://pubmed.ncbi.nlm.nih.gov/32904992/), [randomized disease trial](https://pubmed.ncbi.nlm.nih.gov/32822600/).
+
+## A tissue-specific feasibility matrix
+
+A candidate target needs evidence at every level below. A strong result at one level cannot substitute for another.
+
+| Evidence level | Question to resolve | Example distinction |
+| --- | --- | --- |
+| **Identity** | Which molecule or mixture creates the measured color? | Iris stromal melanin, RPE bisretinoids, and bilirubin are different targets. |
+| **Compartment** | Is it outside cells, in the cytoplasm, in a named organelle, or in the circulation? | Anterior iris stroma and posterior iris pigment epithelium are separate compartments. |
+| **Access** | Can the intended tissue be affected without comparable effects in neighboring or distant tissues? | Skin-cell culture does not demonstrate access limited to the iris. |
+| **Mechanism** | Does the intervention inhibit new production, digest existing material, change optical presentation, or physically remove pigment-bearing tissue? | A synthesis marker can fall while stored pigment remains. |
+| **Material fate** | What happens to intact pigment, fragments, metabolites, and cellular debris? | Fragmentation with inflammation is not the same endpoint as controlled cellular disposal. |
+| **Function** | Does the tissue keep its normal protective, sensory, structural, or metabolic role? | RPE and iris pigment lie in different visual-function contexts. |
+| **Selectivity** | Is the effect confined to intended tissue, pigment subtype, and range? | Removing excess iron systemically for disease is not selective cosmetic targeting of one tissue. |
+| **Control and recovery** | Can the change stop at a chosen level, return to baseline, and repeat? | Persistent iris darkening after stopping a drug does not show reversibility. |
+
+For the original iris goal, the main unanswered transitions are **controlled darkening of a uniformly blue iris**, **selective removal of pigment already present**, and **restoration of the original optical appearance**. Separately changing a biological pigment measurement would not automatically restore visible blue.
+
+## Evidence ladder for a proposed clearance claim
+
+```mermaid
+flowchart LR
+    A["Conceptual hypothesis"] --> B["Biochemical effect"]
+    B --> C["Existing pigment quantity falls"]
+    C --> D["Intended tissue changes appearance"]
+    D --> E["Tissue cells remain functional"]
+    E --> F["Material is safely processed or exported"]
+    F --> G["Effect stops and baseline returns"]
+    G --> H["Repeat cycle without cumulative loss"]
+    B -.-> X["Not evidence of later steps"]
+```
+
+- **Biochemical effect:** activity or expression of a pathway changes.
+- **Pigment quantity:** direct measurement shows less of the stored substrate, not only less synthesis or fewer organelle markers.
+- **Appearance:** the named tissue changes in a controlled, spatially uniform way.
+- **Function:** the intended pigment-bearing cells and surrounding tissue retain their roles.
+- **Material fate:** the products are processed, contained, or exported without harmful accumulation.
+- **Return and repetition:** a stopping mechanism restores the person's baseline and remains effective across cycles.
+
+Many current papers answer one or two levels. A cellular mechanism does not imply an established clinical option; a clinical treatment for one disease does not imply a cosmetic option for healthy tissue. The source register labels study models so these evidence levels remain visible.
+
+## Next literature-review steps
+
+1. For each tissue in the atlas, identify the relevant pigment molecule, producing cell, storage compartment, and normal physiological role.
+2. Classify the evidence by endpoint: synthesis, transfer, actual pigment burden, appearance, function, export, or reversibility.
+3. Record whether the study uses human tissue, cultured human cells, another cell model, animals, observational clinical data, or a controlled clinical intervention.
+4. Track unassessed tissues separately from negative results.
+5. Update the evidence map when a study demonstrates a later step in the ladder, rather than inferring it from an earlier marker.
+
+This framework is literature organization, not a treatment design. Its current evidence supports tissue-specific research questions; it does not establish a body-wide pigment-clearance capability.
