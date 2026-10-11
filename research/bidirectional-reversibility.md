@@ -81,6 +81,6 @@ These are conceptual evidence requirements, not a procedure or clinical protocol
 
 ## Working conclusion
 
-The research scope is **reversible bidirectional iris pigmentation**, rather than lightening alone. Existing evidence is stronger for increased pigmentation in susceptible eyes than for a controlled reduction of established pigment. The complete blue → dark brown → blue sequence remains unproven.
+The research scope is **reversible bidirectional iris pigmentation**, rather than lightening alone. Existing evidence is stronger for a drug-associated darkening signal in susceptible eyes and modulation of new pigment in models than for a controlled reduction of established pigment. The complete blue → dark brown → blue sequence remains unproven.
 
 FDA states that there are no approved eye drops to change eye color. [FDA consumer guidance](https://www.fda.gov/drugs/buying-using-medicine-safely/what-you-should-know-about-eye-drops)
