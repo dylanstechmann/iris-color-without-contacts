@@ -102,6 +102,8 @@ flowchart TD
 
 This distinction defines the next evidence gate: show chemical loss of the melanin core itself, identify breakdown products, measure their fate outside the target compartment, and preserve the tissue's normal function. A lower color or organelle-protein signal is not enough.
 
+A 2026 vitiligo study shows why lower pigmentation cannot be read as pigment clearance: laminin-332 exposure shifted primary human melanocytes toward a dedifferentiation-like, low-melanogenic state, while pathway modulation partly restored melanocyte identity and pigmentation in reconstructed skin and ex-vivo patient explants. Patient explants came from two people; no living-person cosmetic intervention, chemical pigment-product/export balance, or washout/repeat test was performed. This is cell-state and synthesis plasticity, not evidence of removal of stored melanin. [Yang et al., 2026](https://doi.org/10.1038/s41467-026-72064-w).
+
 ## Appearance and pigment burden require separate endpoints
 
 ```mermaid
