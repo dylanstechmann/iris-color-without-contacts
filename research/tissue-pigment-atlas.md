@@ -158,6 +158,9 @@ The labels describe different kinds of evidence: **C** is indication-specific cl
 | **Colon mucosa** | Lipofuscin-like pigment in lamina-propria macrophages in melanosis coli; the name does not mean ordinary melanin | **H:** human histology identifies pigment-laden macrophages; observational cases document endoscopic disappearance after the inducing anthraquinone exposure ends. | Direct pigment mass/export after resolution, a selective intervention, or transfer to other pigments and organs. |
 | **Prostate** | Lipofuscin is common in benign epithelium; rare true stromal melanocytic lesions are also reported | **H:** a surgical series and separate case reports (details in the subsection below). | No selective pigment-reduction or return method. |
 | **Urinary bladder** | Rare focal pigmentation; reports describe more than one pigment | **H:** isolated case reports (details in the subsection below). | Normal prevalence, controlled clearance, and return. |
+| **Fallopian tube** | Macrophage pigment described under tubal melanosis/pigmentosis labels; chemistry varies | **H:** pigmentosis tubae appeared in one surgical pathology series; details below. | Normal-population prevalence, selective reduction, and return. |
+| **Ovary / peritoneum** | Rare lesion-associated macrophage pigment; reports include melanin and iron-rich or lipofuscin-like material | **H:** case series and case reports, often tied to cysts or other pathology (details below). | A normal pigment baseline or controllable native store. |
+| **Testis / paratestis** | One report of a melanin-like pigmented pseudotumor | **H:** single case report (details below). | Pigment identity, prevalence, function, and selective reduction. |
 | **Esophageal mucosa** | Rare melanocytic proliferation with melanin deposition in squamous mucosa | **H:** human case reports/series document esophageal melanocytosis and distinguish it from melanoma. | Natural history, selective clearance, or generalization to other mucosal surfaces. |
 | **Other mucosa** | Site-specific melanin in melanocytes or epithelial cells; many different surfaces | **H:** oral, nasal, laryngeal, vulvar, cervical, anorectal, and rare esophageal findings have been described, but study designs and compartments differ. | No selective clearance assessment; vaginal baseline data rely on a small historical autopsy series, and many other mucosal sites remain underassessed. |
 
@@ -193,6 +196,25 @@ flowchart LR
 ```
 
 One prostate surgical-specimen series found benign epithelial pigment in 86 of 150 specimens and identified it as lipofuscin by histochemical, fluorescence, and ultrastructural findings. Separate rare stromal melanocytic lesions contain melanosomes, so those reports describe a different pigment-bearing compartment. In the bladder, isolated reports include melanin-confirmed mucosal pigmentation and a separate case whose PAS-positive granules were considered suggestive of lipofuscin. A paired bladder/prostate case confirmed melanin in the bladder, but the prostate pigment was not independently characterized with special stains. These case reports do not establish normal prevalence or a controllable store. No selective, function-preserving reduction or return method is established in the reviewed evidence. [Brennick et al., 1994](https://pubmed.ncbi.nlm.nih.gov/7513501/), [Botticelli et al., 1989](https://pubmed.ncbi.nlm.nih.gov/2744060/), [Tran et al., 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11066798/), [Cao et al., 2024](https://doi.org/10.1177/10668969231166301).
+
+### Other reproductive and serosal tissues: pigment names can mislead
+
+```mermaid
+flowchart LR
+    FT["Fallopian tube"] --> F1["H: pigmentosis tubae in a surgical series;<br/>pigment may be hemosiderin or lipofuscin-like"]
+    OV["Ovary / tubo-ovarian cysts"] --> O1["H: rare melanosis reports;<br/>pigmented histiocytes in case series"]
+    PE["Peritoneum / omentum"] --> P1["H: secondary pigment after cyst rupture;<br/>melanin in one case, iron-rich non-melanin in another"]
+    TE["Testis / paratestis"] --> T1["H: one melanin-like pigmented<br/>pseudotumor report"]
+    F1 --> ID["Dark appearance and ‘melanosis’<br/>do not establish pigment chemistry"]
+    O1 --> ID
+    P1 --> ID
+    T1 --> ID
+    ID --> GAP["G: normal baseline, selective reduction,<br/>safe disposition, and return remain unestablished"]
+```
+
+A histologic review of 287 surgically removed fallopian tubes recorded pigmentosis tubae in about 5% of specimens; the lesion was described as hemosiderin-laden macrophages. Other tubal reports use similar names for lipofuscin-like macrophage pigment, including a radiotherapy-associated case and cases associated with endometriosis. These are selected pathology specimens, not a general-population pigment map. [Hunt and Lynn, 2002](https://pubmed.ncbi.nlm.nih.gov/12171494/), [Herrera et al., 1983](https://pubmed.ncbi.nlm.nih.gov/6823399/), [2010 tubal melanosis report](https://pubmed.ncbi.nlm.nih.gov/20407324/).
+
+A five-case tubo-ovarian report described pigmented histiocytes in lesions associated with mature teratoma or serous cystadenoma, as well as tubal melanosis with otherwise normal ovarian histology. Peritoneal reports after ovarian-cyst rupture are also chemically mixed: one ultrastructural case supported melanin in macrophages; another found an iron-rich pigment that lacked the tested histochemical features of both melanin and hemosiderin. A single testicular/paratesticular report described a melanin-like pigmented pseudotumor. These findings are pathology signals, not evidence of normal stores or reversible tissue control. [Rath et al., 2022](https://pubmed.ncbi.nlm.nih.gov/35074993/), [Fukushima et al., 1984](https://pubmed.ncbi.nlm.nih.gov/6724791/), [Jaworski et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11603224/), [Sitland et al., 2002](https://pubmed.ncbi.nlm.nih.gov/12431327/).
 
 ### Pancreas, kidney, spleen, and airways: distinct internal deposits
 
