@@ -54,7 +54,7 @@ flowchart TD
 | **Lips and other oral mucosa** | Melanocytic and nonmelanocytic pigmentation | **H:** human pathology evidence identifies different causes and compartments. | Transfer of gum-study results to all oral surfaces or other mucosa. |
 | **Hair follicles / hair shaft** | Pigment deposited during fiber growth | Marketed shaft dyes/bleaches exist; **P/H:** follicle biology and observational human repigmentation. | Selectable reversible control of living human follicles; clearing a shaft is different from changing future growth. |
 | **Nail matrix / plate** | Melanin can be deposited into the nail plate | Human anatomy evidence; isolated procedural case reports for specific causes. | A validated general topical cosmetic modulator or stored-pigment clearance system. |
-| **Anterior iris / stroma** | Melanin in stromal melanocytes plus tissue optics | Drug-associated darkening is documented; **X:** cosmetic photoablative laser cases report pigment dispersion and secondary glaucoma. | Controlled blue → brown → original blue; selective nondestructive clearance. |
+| **Anterior iris / stroma** | Melanin in stromal melanocytes plus tissue optics | Drug-associated darkening is documented; **P:** human uveal-cell and donor-iris models modulate new melanogenesis; one small rabbit study reported inhibition of induced pigmentation. **X:** cosmetic photoablative laser cases report pigment dispersion and secondary glaucoma. | Human evidence for controlled blue → brown → original blue; selective nondestructive clearance of established pigment. |
 | **Posterior iris pigment epithelium** | Dense pigment, chemically distinguishable from the stroma | Human anatomical and chemical mapping. | Selective cosmetic clearing; this is not interchangeable with the visible anterior target. |
 | **Retinal pigment epithelium (RPE)** | Functional melanin plus lipofuscin/bisretinoids | **P:** reduction of selected bisretinoids and model-specific lipofuscin degradation. | General human retinal pigment clearance or cosmetic iris-color application. |
 | **Choroid / ciliary body** | Uveal melanocytes and pigmented epithelial compartments | Human/anatomical mapping. | A demonstrated selective cosmetic clearing method in the reviewed sources. |
@@ -315,7 +315,7 @@ flowchart TD
     E --> D["Choroid and ciliary body<br/>Separate functional tissues"]
     E --> F["Conjunctiva / episclera<br/>Cause-dependent surface pigmentation"]
     E --> Y["Yellow whites of eyes<br/>Bilirubin branch"]
-    A --> A1["Darkening side effect documented<br/>Selective reversible clearance: G"]
+    A --> A1["H: darkening side effect documented<br/>P: new melanogenesis modulated in models<br/>Selective reversible clearance: G"]
     B --> B1["Cosmetic clearance: G"]
     B --> P["P: pathological pigment release<br/>from posterior iris epithelium"]
     P --> Q["Pigment enters aqueous pathways"]
@@ -379,6 +379,28 @@ Human fetal RPE cultures provide evidence concerning melanin's photoprotective r
 ## 5. The original iris cycle
 
 Human iris chemistry found very low pigment content in blue irides and variation in melanin type across color groups. Histology found no significant difference in stromal melanocyte counts among blue, hazel, and brown irides. **Inference:** a return-to-blue claim should measure the visible anterior-stromal pigment state and standardized optical appearance; melanocyte counts or a whole-eye pigment measure alone are inadequate endpoints. [Iris histology](https://pubmed.ncbi.nlm.nih.gov/8602782/), [human iris pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/).
+
+### Human uveal melanocytes can modulate new pigment production
+
+```mermaid
+flowchart TD
+    A["P: cultured human uveal melanocytes<br/>retain melanogenic capacity"] --> B["P: cAMP / protein kinase C signals<br/>increase melanin and tyrosinase in vitro"]
+    C["P: latanoprost increased new melanin;<br/>tyrosinase inhibition blocked the induced increment"] --> B
+    D["P: human donor-iris organ culture<br/>tyrosinase mRNA rose in 6 of 30 sets"]
+    D --> E["Five responders were brown,<br/>one hazel; none of the blue cultures responded"]
+    F["P: 12-rabbit, six-month study<br/>reported lower endpoint melanin in one<br/>inhibitor + inducer cohort vs inducer alone"]
+    F --> F1["n=3 in that cohort; 'blue' was an ear-marked<br/>group, and abstract/table values conflict"]
+    G["P: inhibitor-only rabbit cohort"] --> G1["No significant between-eye difference<br/>in measured endpoint melanin"]
+    B --> H["G: established anterior-stromal pigment<br/>not shown to be cleared"]
+    E --> H
+    F1 --> H
+    G1 --> H
+    H --> I["G: human iris lightening, safe pigment fate,<br/>washout return, and repeatable color cycle"]
+```
+
+The human-cell evidence makes **new-pigment production** a real experimental control point: cultured donor-derived uveal melanocytes make melanin; cell-culture signals can increase melanin and tyrosinase activity; and a tyrosinase inhibitor prevented a latanoprost-induced synthesis increase. In a separate 7-day donor-iris organ culture, tyrosinase mRNA rose in 6 of 30 culture sets, with five responders from brown irides and one from a hazel iris; none of the blue-iris cultures responded. Neighboring epithelial cells and fibroblasts can also alter ocular melanocyte enzyme activity in culture, with results dependent on cell type and culture conditions. [Hu et al., 1995](https://pubmed.ncbi.nlm.nih.gov/7706042/), [Hu et al., 1997](https://pubmed.ncbi.nlm.nih.gov/9196391/), [Drago et al., 1999](https://pubmed.ncbi.nlm.nih.gov/9986745/), [Lindsey et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11405836/), [Smith-Thomas et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11549114/), [Smith-Thomas et al., 2004](https://pubmed.ncbi.nlm.nih.gov/15051478/).
+
+A 2022 rabbit study provides a low-confidence in-vivo signal for suppressing an induced pigment increase. In one cohort of three rabbits, a co-treated eye had a lower endpoint melanin measurement than the fellow eye exposed to the pigment-inducing drug alone (9.56 vs 13.73 μg/g; p=.022). The study also reported mixed photographic outcomes and no significant endpoint melanin difference between eyes in its inhibitor-only cohort. Its group names came from colors painted on the rabbits' ears, not iris color. The abstract reports 3.73 μg/g for the control eye while the results text and table report 13.73 μg/g. The small sample, internal value discrepancy, lack of a baseline tissue assay, no post-withdrawal follow-up, and systemic signs in the inhibitor-only cohort limit inference and safety claims. This is evidence about inhibition during an induced response, not proof that stored pigment was actively degraded or exported. No human iris-lightening result or return-to-blue cycle was tested. [Sadiq et al., 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9674870/).
 
 ### Inherited HERC2–OCA2 regulation is not adult iris control
 
