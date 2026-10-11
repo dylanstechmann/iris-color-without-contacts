@@ -48,7 +48,7 @@ flowchart TD
 
 | Tissue / compartment | Relevant pigment or color source | What is available or demonstrated | What remains unestablished |
 | --- | --- | --- | --- |
-| **Epidermal skin** | Melanin in melanocytes and keratinocytes | **C:** facial melasma treatment and vitiligo repigmentation; **C + X:** afamelanotide implant increases skin eumelanin for adult EPP. **P:** autophagy activation lowered measured melanin and inhibition raised it in cultured human skin substitutes and ex-vivo human skin; cell studies implicate lysosomal processing/CTSV. A 2026 human-keratinocyte model also reported lower absorbance after uptake of mouse melanoma-derived melanosomes. | These are models, not a living-person cosmetic cycle. No washout return, safe selective control, full product/export balance, or preservation of photoprotection has been demonstrated. The 2026 model does not establish intact-tissue clearance. |
+| **Epidermal skin** | Melanin in melanocytes and keratinocytes | **C:** facial melasma treatment and vitiligo repigmentation; **C + X:** afamelanotide implant increases skin eumelanin for adult EPP. **P:** autophagy activation lowered measured melanin and inhibition raised it in cultured human skin substitutes and ex-vivo human skin; cell studies implicate lysosomal processing/CTSV. A 2023 pigmented full-thickness skin-equivalent model lightened after tape stripping, with lower melanin measures but higher transepidermal water loss (TEWL). A 2026 human-keratinocyte model also reported lower absorbance after uptake of mouse melanoma-derived melanosomes. | These are models, not a living-person cosmetic cycle. Tape stripping physically removes the surface barrier; none demonstrates safe selective control, washout return, full product/export balance, or preserved photoprotection. The 2026 loaded-cell model does not establish intact-tissue clearance. [Goncalves et al., 2023](https://doi.org/10.1002/btm2.10415) |
 | **Dermis** | Native melanin, tattoo ink, and deposited metals are different targets | **H:** ashy-dermatosis biopsies identify melanosome-retaining fibroblasts and macrophages. **X:** FDA-cleared tattoo-removal lasers; human biopsies document pigment fragmentation and cell injury. | Selective nonprocedural clearance of native melanin or proof that a deposit left the body. |
 | **Gums** | Physiologic epithelial melanin, among other causes of discoloration | **H:** a 73-person double-masked split-mouth study reported that topical ascorbyl-glucoside gel improved a relative lightness endpoint versus placebo by week 4; a separate 20-person gel-vs-injection comparison found no significant one-month index change with gel. **X:** epithelial depigmentation procedures. | Pigment mass/export, post-use persistence or return, and a predictable reversible gum-color controller remain unestablished. |
 | **Lips and other oral mucosa** | Melanocytic and nonmelanocytic pigmentation | **H:** human pathology evidence identifies different causes and compartments. | Transfer of gum-study results to all oral surfaces or other mucosa. |
@@ -197,6 +197,10 @@ flowchart LR
     A --> R["P: cultured human skin substitutes<br/>and ex-vivo skin show lower measured<br/>melanin with activation; higher with inhibition"]
     K --> S["Keratinocyte differentiation<br/>and surface-cell shedding"]
     S --> O["Pigment-bearing corneocytes leave<br/>at the skin surface during renewal"]
+    HSE["P: pigmented full-thickness<br/>skin-equivalent model"] --> STRIP["10 tape strips removed<br/>upper stratum corneum"]
+    STRIP --> STRIP_OUT["P: model lightened; measured<br/>melanin signal and index fell"]
+    STRIP --> TEWL["P: TEWL rose;<br/>barrier function compromised"]
+    STRIP_OUT -.-> STRIP_GAP["G: physical layer removal in vitro,<br/>not selective clearance in living skin"]
     R -.-> F["G: no living-person cosmetic cycle,<br/>washout return, or whole-tissue<br/>product/export mass balance"]
     R -.-> P["H/P: intact melanin-cap structure<br/>supports photoprotection in skin models"]
     P -.-> F
@@ -206,6 +210,8 @@ flowchart LR
 ```
 
 The skin result is therefore both promising and constrained. Keratinocyte-specific processing is a plausible research target because melanosomes are transferred into these surface cells and natural epidermal renewal carries pigment-bearing corneocytes outward. However, cultured tissue shows pathway responsiveness, not selective extraction from healthy living skin. Autophagy and lysosomal activity also support keratinocyte differentiation, while the melanin cap helps protect nuclear DNA from UV injury. Pigment reduction would need to be evaluated alongside barrier/differentiation, photoprotection, breakdown-product fate, and actual export—not color alone. [Human epidermal differentiation study](https://pubmed.ncbi.nlm.nih.gov/29526763/), [human skin explant photoprotection](https://pubmed.ncbi.nlm.nih.gov/9579550/), [melanocore integrity model](https://pmc.ncbi.nlm.nih.gov/articles/PMC6056223/).
+
+A 2023 pigmented full-thickness human skin-equivalent model offers a separate physical-removal comparison. The construct accumulated melanin in the stratum corneum as culture time lengthened; ten tape strips then made the model lighter and reduced measured tissue melanin staining/index, while TEWL increased, indicating impaired barrier function. This shows that removing pigment-bearing surface layers changes color and model-level pigment measures at the cost of barrier integrity. It does not show a selective biological clearance route, pigment fate on the removed strips, or a safe intervention in living people. [Goncalves et al., 2023](https://doi.org/10.1002/btm2.10415).
 
 ```mermaid
 flowchart TD
