@@ -583,6 +583,39 @@ A 20-year single-center cohort followed 129 patients with vulvar melanosis for 5
 
 In a surgical-pathology anorectal series, 24 control specimens had low densities of melanocytes that varied by glandular versus squamous compartment and by stain; controls included some hemorrhoids and other pathology, so they are not a population survey. These data identify a local cell population and support compartment-specific diagnosis, not a healthy-tissue color treatment. Dedicated normal vaginal-pigment prevalence was not established by the sources reviewed here. [Nazarian et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27247367/).
 
+## 19. Human pigment trajectories after intervention
+
+A visible color change after stopping an intervention can mean several different things: a signal stopped, active disease returned, pigment-bearing cells were replaced, pigment itself fell, or only the optical appearance changed. These outcomes are not interchangeable. The cases below show how strongly the trajectory depends on the tissue, pigment chemistry, and intervention.
+
+```mermaid
+flowchart LR
+    A["Human pigment trajectory after an intervention"] --> B["Anterior iris<br/>drug withdrawn"]
+    B --> B1["No appreciable fading at 2 years;<br/>one case followed for 5 years"]
+    A --> C["Periocular skin<br/>drug withdrawn"]
+    C --> C1["Visible lightening by 2 months;<br/>single case"]
+    A --> D["Facial melasma<br/>active treatment ended"]
+    D --> D1["All 21 follow-up completers<br/>had reappearance by 12 weeks"]
+    A --> E["Gingiva<br/>pigmented epithelium removed"]
+    E --> E1["Repigmentation by 9 months<br/>in many participants"]
+    A --> F["Alkaptonuria<br/>precursor lowered"]
+    F --> F1["Partial eye / ear regression;<br/>ear-cartilage pigment also measured"]
+    B1 --> G["Appearance observations do not<br/>measure pigment mass or destination"]
+    C1 --> G
+    D1 --> G
+    E1 --> G
+    F1 --> H["A measured reduction in one<br/>disease-specific pigment system"]
+```
+
+| Tissue and human evidence | What was observed | What the endpoint establishes—and does not |
+| --- | --- | --- |
+| **Anterior iris:** latanoprost-associated darkening after discontinuation | Clinical follow-up reported no observed change over two years; one serial-photograph case showed no appreciable fading over five years. | The drug-associated appearance persisted after the signal stopped in these observations. This was not an active clearance test or a direct chemical measurement of iris pigment. [Wistrand et al., 1997](https://pubmed.ncbi.nlm.nih.gov/9154289/), [Camras et al., 2000](https://pubmed.ncbi.nlm.nih.gov/10708238/). |
+| **Periocular skin:** pigmentation after latanoprost discontinuation | A single case visibly improved within one month and was significantly lighter by two months. | Appearance can change after withdrawal in adjacent skin. The case did not measure pigment mass and cannot establish a route for the non-shedding iris stroma. [Wand et al., 2001](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/265847). |
+| **Facial skin:** treated melasma followed after treatment stopped | In a split-face randomized trial, 28 participants completed 12 weeks of treatment and 21 completed a further 12-week follow-up; all 21 follow-up completers had reappearance of pigmentation by the end. | This is recurrence of an active pigmentary condition after treatment, not proof that the same stored pigment returned, and not return to an individual's original healthy baseline. [Split-face randomized trial](https://pubmed.ncbi.nlm.nih.gov/33017045/). |
+| **Gingiva:** surgical de-epithelialization for physiologic pigmentation | In a 20-person study, repigmentation was observed by nine months in 85.71% of the wheatish-complexioned group and all dark-complexioned participants; none was reported in the fair-complexioned group. | This is clinical repigmentation after removal of surface tissue. It is not a noninvasive reversal study, and neither pigment mass nor the source of repigmenting cells was measured. [Kaur et al., 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC3110462/). |
+| **Eye and ear tissues in alkaptonuria:** homogentisic-acid precursor lowering | An observational human study reported partial regression of photographed eye/ear pigmentation and lower pigment in an ear-cartilage biopsy. | This is the clearest reviewed human example of measured reduction in an existing tissue pigment burden, but it concerns disease-specific ochronotic pigment, is partial, and does not show melanin clearance. [Ranganath et al., 2020](https://pubmed.ncbi.nlm.nih.gov/32904992/). |
+
+**Inference:** human evidence supports several distinct trajectories—persistence, recurrence, visible fading, repigmentation, and partial measured loss. It does not support one shared “color off switch.” The strongest reviewed example of measured stored-pigment reduction is tied to a specific precursor–deposit system in alkaptonuria. That result cannot be generalized to native melanin in skin, gums, iris, or other organs. A useful clearance claim needs both a tissue-appropriate appearance endpoint and a direct pigment amount/chemistry or disposition endpoint, plus function and recovery measurements.
+
 ## Research requirements shared across tissues
 
 A future selective-clearance claim would need to identify the pigment chemically; locate it in the relevant cells or extracellular compartment; measure actual pigment loss separately from reduced synthesis or marker loss; account for breakdown products; and show preservation of tissue function.
