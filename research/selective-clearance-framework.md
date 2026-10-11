@@ -84,12 +84,14 @@ A candidate target needs evidence at every level below. A strong result at one l
 | **Compartment** | Is it outside cells, in the cytoplasm, in a named organelle, or in the circulation? | Anterior iris stroma and posterior iris pigment epithelium are separate compartments. |
 | **Access** | Can the intended tissue be affected without comparable effects in neighboring or distant tissues? | Skin-cell culture does not demonstrate access limited to the iris. |
 | **Mechanism** | Does the intervention inhibit new production, digest existing material, change optical presentation, or physically remove pigment-bearing tissue? | A synthesis marker can fall while stored pigment remains. |
-| **Material fate** | What happens to intact pigment, fragments, metabolites, and cellular debris? | Fragmentation with inflammation is not the same endpoint as controlled cellular disposal. |
+| **Material fate** | What happens to intact pigment, fragments, metabolites, and cellular debris? | Iris pigment released into aqueous pathways may reach outflow tissues; redistribution is not demonstrated removal. |
 | **Function** | Does the tissue keep its normal protective, sensory, structural, or metabolic role? | RPE and iris pigment lie in different visual-function contexts. |
 | **Selectivity** | Is the effect confined to intended tissue, pigment subtype, and range? | Removing excess iron systemically for disease is not selective cosmetic targeting of one tissue. |
 | **Control and recovery** | Can the change stop at a chosen level, return to baseline, and repeat? | Persistent iris darkening after stopping a drug does not show reversibility. |
 
 For the original iris goal, the main unanswered transitions are **controlled darkening of a uniformly blue iris**, **selective removal of pigment already present**, and **restoration of the original optical appearance**. Separately changing a biological pigment measurement would not automatically restore visible blue.
+
+The eye illustrates why **release is not the same as safe export**. In pigment-dispersion disease, pigment released from the **posterior iris pigment epithelium** enters aqueous pathways and can accumulate in the trabecular meshwork. Primary porcine models report that pigment exposure can impair trabecular-meshwork cell phagocytosis and migration, reduce outflow facility, and raise pressure. This is a pathological model of a different iris compartment; it is not evidence that a hypothetical anterior-stromal intervention would cause the same disease. It does establish downstream pigment disposition and eye function as separate endpoints. [Trabecular-meshwork cell model](https://pmc.ncbi.nlm.nih.gov/articles/PMC7847180/), [porcine pressure/outflow model](https://pmc.ncbi.nlm.nih.gov/articles/PMC5915754/).
 
 ## Evidence ladder for a proposed clearance claim
 
