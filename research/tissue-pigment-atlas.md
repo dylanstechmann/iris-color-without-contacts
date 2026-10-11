@@ -123,11 +123,14 @@ flowchart LR
     M --> P["H: lipofuscin identified<br/>in a histopathology study"]
     P --> C["Visible melanosis-coli<br/>appearance on colonoscopy"]
     X -.-> S["Exposure cessation"]
+    S -.-> M2["P: guinea-pig model: pigmented<br/>macrophages migrate to regional nodes"]
+    M2 --> N["Pigmented macrophages in nodes;<br/>local lamina-propria cells fall"]
     S -.-> R["H: endoscopic disappearance<br/>reported in selected cases"]
-    R -.-> G["G: pigment mass, cell fate,<br/>and net export not measured"]
+    M2 -.-> G["G: human lymph-node fate and<br/>whole-body pigment balance unmeasured"]
+    R -.-> G
 ```
 
-The condition's name is misleading for this project: a human histopathology study identified the colonic macrophage pigment as lipofuscin, not melanin. A retrospective colonoscopy review identified 10 disappearance cases among 216 melanosis-coli cases; 4 of the 10 had stopped anthranoid use before disappearance was observed. A separate single-patient report documented endoscopic disappearance seven months after senna cessation, without follow-up biopsy to measure the pigment or trace its fate. This is evidence of cause-associated appearance resolution in one colonic condition, not proof of a selective pigment-clearing mechanism or a result transferable to iris, skin, or other pigments. [Human histopathology study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4581826/), [longitudinal clinical course study](https://pubmed.ncbi.nlm.nih.gov/36849146/), [single-case endoscopic follow-up](https://pmc.ncbi.nlm.nih.gov/articles/PMC11402352/).
+The condition's name is misleading for this project: human histopathology identifies the colonic macrophage pigment as lipofuscin, not melanin. Human biopsies show apoptotic epithelial bodies being taken up by macrophages and processed into pigment in the lamina propria. In a guinea-pig model, stopping danthron exposure was followed by migration of pigment-laden macrophages to regional lymph nodes and sequential loss of those cells from the lamina propria. This suggests a tissue-specific cellular-export route, not chemical removal of lipofuscin from the body. Human clinical evidence is limited to appearance: a retrospective review found 10 disappearance cases among 216 cases, with 4 of those 10 having stopped anthranoid use before disappearance was detected; one additional case showed endoscopic disappearance seven months after senna cessation without a follow-up biopsy. No human study in this source set tracked the pigment into lymph nodes or established a whole-body mass balance. It is not evidence for a general clearance mechanism or a result transferable to iris, skin, or other pigments. [Human ultrastructure study](https://pubmed.ncbi.nlm.nih.gov/8367190/), [guinea-pig model](https://pmc.ncbi.nlm.nih.gov/articles/PMC1880689/), [human histopathology study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4581826/), [longitudinal clinical course study](https://pubmed.ncbi.nlm.nih.gov/36849146/), [single-case endoscopic follow-up](https://pmc.ncbi.nlm.nih.gov/articles/PMC11402352/).
 
 Sources and model details are linked in the sections below and in the [evidence register](pigment-evidence-register.md). The shared criteria for evaluating a tissue-specific clearance claim are in the [selective clearance framework](selective-clearance-framework.md).
 
