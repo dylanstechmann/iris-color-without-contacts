@@ -36,8 +36,8 @@ This is a scoped source register, not a systematic review or a global audit of p
 
 | Source | Evidence type / model | Endpoint and limit |
 | --- | --- | --- |
-| [Imesch et al., 1996](https://pubmed.ncbi.nlm.nih.gov/8602783/) | Human iris electron microscopy | Stromal melanocyte/melanosome relation to color; anatomical evidence. |
-| [Prota et al., 1998](https://pubmed.ncbi.nlm.nih.gov/9778410/) | Human iris microdissection and pigment chemistry | Stromal and posterior epithelial pigment fractions differ. |
+| [Imesch et al., 1996](https://pubmed.ncbi.nlm.nih.gov/8602782/) | Histology of 51 human irides | Stromal melanocyte counts/density did not significantly differ among blue, hazel, and brown groups; cell number is not the main color variable. |
+| [Prota et al., 1998](https://pubmed.ncbi.nlm.nih.gov/9778410/) | Human iris microdissection and pigment chemistry | Stromal and posterior epithelial pigment profiles differ; blue irides had very low measured pigment, and cultured cells changed composition with growth/senescence. |
 | [UK Xalatan SmPC](https://www.medicines.org.uk/emc/product/1616/smpc) | Official product information | Susceptibility to drug-associated darkening differs by starting color; cited uniformly blue group had no observed change. |
 | [U.S. Xalatan label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f4e73059-5ba0-4d73-9ea1-09d8d654e844) | Official U.S. prescribing information | Increased iris pigment may persist; stopping the drug is not an established reversal method. |
 | [FDA eye-drop information](https://www.fda.gov/drugs/buying-using-medicine-safely/what-you-should-know-about-eye-drops) | Official U.S. regulatory information | No approved eye-color-changing drops. |
