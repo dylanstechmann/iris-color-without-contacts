@@ -283,6 +283,21 @@ Cosmetic photoablative iris-laser treatment is a procedural comparator, not a se
 
 For the RPE, a 2014 cell/mouse study reduced **selected bisretinoids**, with substrate-specific limitations. A 2023 mouse study reported lipofuscin degradation involving melanin; subsequent scientific discussion addressed alternative pathways and the limits of a universal melanin-required interpretation. These are retinal research mechanisms, not evidence of iris-color reversal. [2014 study](https://pmc.ncbi.nlm.nih.gov/articles/PMC3986126/), [2023 study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10194005/), [comment](https://pmc.ncbi.nlm.nih.gov/articles/PMC10622903/), [reply](https://pmc.ncbi.nlm.nih.gov/articles/PMC10622899/).
 
+### Oxidative breakdown can alter melanin and produce photoreactive products
+
+```mermaid
+flowchart TD
+    H["H: RPE pigment granules isolated<br/>from human donor eyes"] --> O["Oxidative breakdown studied<br/>in isolated-granule assays"]
+    O --> P["Water-soluble melanin products<br/>with carbonyl signals identified"]
+    P --> S["Blue-light-exposed product fractions<br/>generated superoxide in vitro"]
+    D["Synthetic DOPA-melanin model"] --> B["Oxidative bleaching changed<br/>antioxidant/redox properties"]
+    B --> R["Higher singlet-oxygen photogeneration<br/>in UVA / short-visible light assays"]
+    S --> G["G: safe disposition, living-tissue function,<br/>and selective clearance not established"]
+    R --> G
+```
+
+An oxidative breakdown route may lower melanin's optical signal while changing the pigment and producing new material. Dontsov et al. isolated RPE pigment granules from human cadaver eyes and identified water-soluble melanin-degradation products in granule assays; the oxidized products included carbonyl-reactive material and generated superoxide under blue-light exposure in vitro. The authors describe potential phototoxicity, not demonstrated clinical harm. A separate synthetic DOPA-melanin study found oxidative bleaching changed redox/antioxidant properties and increased singlet-oxygen photogeneration. These results show why degradation must be assessed alongside product identity, disposition, and tissue function; neither study tested a pigment-clearing intervention in living people, and neither is evidence for iris reversibility. [Dontsov et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37685907/), [Mokrzyński et al., 2024](https://pubmed.ncbi.nlm.nih.gov/38803190/).
+
 Human fetal RPE cultures provide evidence concerning melanin's photoprotective role. Choroid mapping, epithelial anatomy, and ocular-surface pathology are separate evidence categories. [RPE study](https://pmc.ncbi.nlm.nih.gov/articles/PMC1157035/), [human choroid study](https://pmc.ncbi.nlm.nih.gov/articles/PMC6901595/), [NLM epithelial definition](https://www.ncbi.nlm.nih.gov/mesh/D010857), [conjunctival case report](https://pmc.ncbi.nlm.nih.gov/articles/PMC4251888/).
 
 ## 5. The original iris cycle
