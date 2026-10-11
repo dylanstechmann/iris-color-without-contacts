@@ -29,6 +29,8 @@ Postmortem animal eyes from existing byproduct or repository sources could help 
 
 Include human irides across visible colors, including blue/light, mixed, and brown. Record donor history, age, postmortem interval, preservation, and ocular pathology. Analyze paired eyes from one donor as clustered observations rather than independent donors. Set sample size after a pilot estimates assay and imaging variability; do not choose it from color categories alone.
 
+Automation, specimen logistics, and cost comparisons are detailed in the [automated remote-lab operating model](automated-lab-operating-model.md).
+
 ### 2. Paired optical measurements
 
 Before dissection, acquire:
