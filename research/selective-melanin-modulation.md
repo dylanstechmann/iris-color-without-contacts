@@ -30,7 +30,21 @@ A 2026 systematic review/meta-analysis of disease-associated BADI and BAIT also 
 
 ## Iris color is not a melanocyte-count switch
 
-A histological study of 51 human irides found no significant difference in stromal melanocyte number or density among blue, hazel, and brown eyes. Chemical analysis of microdissected human irides found that the anterior stromal fraction and posterior iris pigment epithelium have different melanin profiles; blue irides had very low measured pigment. In culture, growing human uveal melanocytes shifted toward pheomelanic pigmentation, while cultures after senescence showed increased pigment content, mainly eumelanin. These culture-stage changes do not measure pigment turnover in an intact adult iris. This points to pigment amount and chemistry in the **visible anterior iris compartment** as the relevant research target; posterior epithelial pigment and cell counts are not substitutes for that endpoint. [Human iris histology](https://pubmed.ncbi.nlm.nih.gov/8602782/), [human iris pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/).
+A histological study of 51 human irides found no significant difference in stromal melanocyte number or density among blue, hazel, and brown eyes. Chemical analysis of microdissected human irides found that the anterior stromal fraction and posterior iris pigment epithelium have different melanin profiles; blue irides had very low measured pigment. In culture, growing human uveal melanocytes shifted toward pheomelanic pigmentation, while cultures after senescence showed increased pigment content, mainly eumelanin. These culture-stage changes do not measure pigment turnover in an intact adult iris. [Human iris histology](https://pubmed.ncbi.nlm.nih.gov/8602782/), [human iris pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/).
+
+A separate ESR/chemical-degradation study of postmortem whole irides found about 40% more measured melanin in its brown-eye group than in the other sampled color groups. The result is cross-sectional and combines iris compartments; it does not specify the pigment level required for a dark-brown appearance in the anterior stroma. Its reported age-associated signal was a small decrease in iron normalized to melanin in light-blue irides, not evidence that total iris melanin declines with age. [Wielgus and Sarna, 2005](https://pubmed.ncbi.nlm.nih.gov/16280011/).
+
+```mermaid
+flowchart LR
+    W["H: postmortem whole-iris<br/>ESR / chemical assay"] --> B["Brown-eye group:<br/>about 40% more measured melanin<br/>than other sampled color groups"]
+    W --> A["Age-associated finding:<br/>small decrease in iron normalized<br/>to melanin in light-blue irides"]
+    B -.-> T["G: no quantitative target for<br/>dark-brown anterior-stromal color"]
+    A -.-> R["G: adult iris melanin turnover<br/>and net clearance rate unknown"]
+    T --> M["Need serial, compartment-specific<br/>pigment and appearance measures"]
+    R --> M
+```
+
+This makes pigment amount and chemistry in the **visible anterior iris compartment** the relevant research target; posterior epithelial pigment and cell counts are not substitutes for that endpoint.
 
 **Evidence implication:** the project needs both a tissue-pigment measurement and a standardized visible-color endpoint. The literature does not define a pigment threshold that would produce a chosen shade such as dark brown.
 
