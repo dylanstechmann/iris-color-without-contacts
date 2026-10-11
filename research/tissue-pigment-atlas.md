@@ -1866,7 +1866,7 @@ Laryngeal findings are sparse and sampling-dependent. A 1976 report found melano
 
 ```mermaid
 flowchart TD
-    G["Genital mucosa"] --> V0["Vulva: 35 postmortem specimens<br/>assessed for baseline melanin distribution"]
+    G["Genital mucosa"] --> V0["H: vulva; 35 postmortem specimens<br/>assessed for baseline melanin distribution"]
     V0 --> V0N["Vulvar melanosis described as<br/>an exaggeration of normal distribution"]
     V0N -.-> N
     G --> V["Vulvar melanosis cohort<br/>129 patients; long follow-up"]
@@ -1887,7 +1887,7 @@ flowchart TD
     XN --> N
 ```
 
-A 20-year single-center cohort followed 129 patients with vulvar melanosis for 5–20 years. About 30% of lesions enlarged or changed color before stabilizing; no malignant evolution was documented. This is natural history of visible lesions, not a test of deliberate removal or pigment mass. An older autopsy histology study assessed melanin distribution in 35 vulvectomy specimens and described vulvar melanosis as an exaggeration of the normal distribution. This provides limited baseline vulvar histology, not a population prevalence estimate, a vaginal-mucosa map, or a pigment-clearance result. [Jones, 1979](https://pubmed.ncbi.nlm.nih.gov/287951/). A prospective cervical series found visible pigmented lesions in 33 of 2,118 cervices; most were blue nevi, and one was a melanotic macule. A two-case endocervical report confirmed melanin-containing cells but found no pigment in the endocervical epithelium. [Vulvar cohort](https://pubmed.ncbi.nlm.nih.gov/32785609/), [cervical lesions](https://pubmed.ncbi.nlm.nih.gov/24300541/), [endocervical cases](https://pubmed.ncbi.nlm.nih.gov/7405906/).
+A 20-year single-center cohort followed 129 patients with vulvar melanosis for 5–20 years. About 30% of lesions enlarged or changed color before stabilizing; no malignant evolution was documented. This is natural history of visible lesions, not a test of deliberate removal or pigment mass. An older human autopsy histology study assessed melanin distribution in 35 vulvectomy specimens and described vulvar melanosis as an exaggeration of the normal distribution. This provides limited baseline vulvar histology, not a population prevalence estimate, a vaginal-mucosa map, or a pigment-clearance result. [Jones, 1979](https://pubmed.ncbi.nlm.nih.gov/287951/). A prospective cervical series found visible pigmented lesions in 33 of 2,118 cervices; most were blue nevi, and one was a melanotic macule. A two-case endocervical report confirmed melanin-containing cells but found no pigment in the endocervical epithelium. [Vulvar cohort](https://pubmed.ncbi.nlm.nih.gov/32785609/), [cervical lesions](https://pubmed.ncbi.nlm.nih.gov/24300541/), [endocervical cases](https://pubmed.ncbi.nlm.nih.gov/7405906/).
 
 In a surgical-pathology anorectal series, 24 control specimens had low densities of melanocytes that varied by glandular versus squamous compartment and by stain; controls included some hemorrhoids and other pathology, so they are not a population survey. These data identify a local cell population and support compartment-specific diagnosis, not a healthy-tissue color treatment. Dedicated normal vaginal-pigment prevalence was not established by the sources reviewed here. [Nazarian et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27247367/).
 
