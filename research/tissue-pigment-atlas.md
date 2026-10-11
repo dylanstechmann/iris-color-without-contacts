@@ -54,7 +54,7 @@ flowchart TD
 | **Lips and other oral mucosa** | Melanocytic and nonmelanocytic pigmentation | **H:** human pathology evidence identifies different causes and compartments. | Transfer of gum-study results to all oral surfaces or other mucosa. |
 | **Hair follicles / hair shaft** | Pigment deposited during fiber growth | Marketed shaft dyes/bleaches exist; **P/H:** follicle biology and observational human repigmentation. | Selectable reversible control of living human follicles; clearing a shaft is different from changing future growth. |
 | **Nail matrix / plate** | Melanin can be deposited into the nail plate | Human anatomy evidence; isolated procedural case reports for specific causes. | A validated general topical cosmetic modulator or stored-pigment clearance system. |
-| **Anterior iris / stroma** | Melanin in stromal melanocytes plus tissue optics | Drug-associated darkening is documented; **P:** human uveal-cell and donor-iris models modulate new melanogenesis; one small rabbit study reported inhibition of induced pigmentation. **X:** cosmetic photoablative laser cases report pigment dispersion and secondary glaucoma. | Human evidence for controlled blue → brown → original blue; selective nondestructive clearance of established pigment. |
+| **Anterior iris / stroma** | Melanin in stromal melanocytes plus tissue optics | Drug-associated darkening is documented; **H:** stromal clump cells and ultrastructural turnover-like features are observed, but net pigment loss was not measured. **P:** human uveal-cell and donor-iris models modulate new melanogenesis; one small rabbit study reported inhibition of induced pigmentation. **X:** cosmetic photoablative laser cases report pigment dispersion and secondary glaucoma. | Human evidence for controlled blue → brown → original blue; selective nondestructive clearance of established pigment. |
 | **Posterior iris pigment epithelium** | Dense pigment, chemically distinguishable from the stroma | Human anatomical and chemical mapping. | Selective cosmetic clearing; this is not interchangeable with the visible anterior target. |
 | **Retinal pigment epithelium (RPE)** | Functional melanin plus lipofuscin/bisretinoids | **P:** reduction of selected bisretinoids and model-specific lipofuscin degradation. | General human retinal pigment clearance or cosmetic iris-color application. |
 | **Choroid / ciliary body** | Uveal melanocytes and pigmented epithelial compartments | Human/anatomical mapping. | A demonstrated selective cosmetic clearing method in the reviewed sources. |
@@ -397,6 +397,27 @@ flowchart TD
 ```
 
 Longitudinal color-grading studies show that a minority of people have iris-color shifts after early childhood, including lightening in some adults. In the Louisville Twin Study, 1,513 individuals were assessed and 1,386 were examined at least twice; among white twins from age 6 to under 24, 3.8%–8.6% changed at least two color-grade units over 3–9-year intervals. In a separate adult-mother subset, 9% lightened by at least two units. A 27-year follow-up of former schoolchildren reported lightening in 24.3% and darkening in 17.2% of 594 re-examined participants, but the overall age-related change was not statistically significant. These studies graded visible color and did not measure iris melanin amount or destination. Electron microscopy of iris specimens from cataract patients aged 70–84 found melanosome complexes in stromal melanocytes; the authors left the clinical significance unresolved. These observations show that appearance and cell ultrastructure can vary with age. They do not establish degradation or export of established pigment, a controllable lightening mechanism, or a return-to-baseline cycle. [Bito et al., 1997](https://pubmed.ncbi.nlm.nih.gov/9152135/), [Meyer-König, 1977](https://doi.org/10.1016/S0047-2484(77)80099-7), [Sugita et al., 1986](https://pubmed.ncbi.nlm.nih.gov/3761741/).
+
+### Human iris ultrastructure shows pigment processing, not net clearance
+
+```mermaid
+flowchart TD
+    H["H: 31 human peripheral iridectomy specimens<br/>from a 6-month paired-eye study"] --> T["Turnover graded from electron-microscope<br/>morphology—not pigment mass"]
+    T --> T1["4/30 specimens: obvious features;<br/>6/30: no features observed"]
+    H --> C["Clump cells marked in 10 specimens;<br/>virtually absent in the others"]
+    C --> F["Stromal clump cells are described<br/>as phagocytes that engulf debris,<br/>including free melanin granules"]
+    F -.-> D["Intracellular breakdown and final<br/>pigment destination were not measured"]
+    H --> R["Free stromal granules were rare,<br/>not abundant, and unrelated to treatment;<br/>authors suspected handling / surgery artifact"]
+    H --> X["One eye visibly darkened;<br/>clump cells were obvious, but its<br/>turnover score was below some specimens"]
+    T1 -.-> G["G: net anterior-stromal pigment loss,<br/>safe export, and fading remain unshown"]
+    D -.-> G
+    R -.-> G
+    X -.-> G
+```
+
+The Mainz II study is a human biological foothold, not a reversal result. Seventeen glaucoma patients were recruited; 14 completed six months of unilateral latanoprost, and 31 peripheral iris specimens were examined by masked light and electron microscopy. The investigators scored premelanosomes, immature or partly melanized granules, and morphological signs such as giant granules or clumping as “turnover.” Only 4 of 30 scored specimens showed obvious turnover features, while 6 showed none. Clump cells were marked in 10 of 31 specimens and virtually absent in others; these stromal phagocytes are known to engulf debris, including free melanin granules. The study did not track what happened after engulfment or measure total pigment balance. Extracellular granules were rare and not abundant, were not associated with latanoprost, and the authors suspected some may have been released during surgery or tissue processing. The one eye with marked visible darkening had obvious clump cells, but its stromal turnover score was lower than in some other specimens. Thus, uptake and turnover-like morphology are plausible processes to investigate; neither is proof that pigment mass leaves the iris or that color would lighten. [Pfeiffer et al., 2003 (Mainz II)](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/414988).
+
+A 1993 review of adult vertebrate eye pigmentation likewise concluded that the amount of melanin turnover in iris, choroid, and retinal pigment epithelium was unknown. Its comparative literature and animal ultrastructure help explain the question, but do not provide a human iris clearance rate. [Schraermeyer, 1993](https://pubmed.ncbi.nlm.nih.gov/8248016/).
 
 ### Human uveal melanocytes can modulate new pigment production
 
