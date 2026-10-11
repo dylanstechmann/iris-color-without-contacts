@@ -76,6 +76,47 @@ flowchart TB
 
 In the United States, the Opzelura label covers repigmentation treatment for nonsegmental vitiligo, while the Scenesse label covers increased pain-free light exposure in adults with erythropoietic protoporphyria. These labels specify disease indications and provide no healthy-tissue shade-control indication. The 73-person gingival ascorbyl-glucoside trial measured lightness, not melanin mass or export. [FDA Opzelura label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215309s007lbl.pdf), [FDA Scenesse label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/210797s007lbl.pdf), [Shimada et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19186973/). For the ocular compartment distinction and iris evidence, see [Section 4](#4-eyes-separate-compartments) and [Section 5](#5-the-original-iris-cycle).
 
+### Tissue-by-tissue availability: present evidence and the missing capability
+
+```mermaid
+flowchart TB
+    A["What can currently change pigment or appearance?"]
+    A --> S["Epidermal skin"]
+    S --> S1["C: vitiligo repigmentation; EPP photoprotection-related pigment increase<br/>P: stored-melanin reduction signals in models"]
+    S1 --> SG["G: healthy-skin cosmetic shade cycle,<br/>pigment fate, and return"]
+    A --> G["Gingiva"]
+    G --> G1["H: short-term color-score / lightness findings<br/>X: depigmentation procedures"]
+    G1 --> GG["G: stand-alone pigment-mass removal<br/>and predictable return"]
+    A --> D["Dermis"]
+    D --> D1["X: tattoo lasers fragment exogenous ink<br/>H: pigment also found in draining nodes"]
+    D1 --> DG["G: native-melanin clearance or<br/>whole-body ink mass balance"]
+    A --> H["Hair"]
+    H --> H1["Cosmetic dyes / bleach alter existing shaft<br/>P/H: follicle biology, no controlled in-vivo cycle"]
+    A --> I["Anterior iris"]
+    I --> I1["H: drug-associated darkening in some eyes<br/>FDA: no approved eye-color drops"]
+    I1 --> IG["G: selective pigment decrease<br/>and return to baseline"]
+    A --> R["Retinal pigment epithelium"]
+    R --> R1["P: selected bisretinoid / lipofuscin work<br/>This is a different target from iris melanin"]
+    A --> B["Brain neuromelanin"]
+    B --> B1["P: animal and cell mechanisms<br/>safe destination / human clearance unshown"]
+    A --> C["Iron-overload organs"]
+    C --> C1["C: disease-directed iron depletion or chelation<br/>not arbitrary cosmetic pigment targeting"]
+    A --> O["Ochronotic connective tissues"]
+    O --> O1["C/H: precursor reduction; partial regression reported<br/>pigment chemistry is tissue-specific"]
+    A --> CO["Colon (melanosis coli)"]
+    CO --> CO1["H: visible finding can resolve after trigger withdrawal<br/>lipofuscin-like pigment fate is untraced"]
+    A --> X["Cochlea, meninges, heart, viscera,<br/>and many mucosal sites"]
+    X --> X1["H/P: tissue mapping and mechanism studies<br/>G: selective cosmetic clearance"]
+    SG --> NEED
+    GG --> NEED
+    DG --> NEED
+    IG --> NEED
+    X1 --> NEED
+    NEED["Across tissues: lower appearance or a cell marker<br/>is not enough; measure pigment burden, destination,<br/>function, and return separately"]
+```
+
+The labels describe different kinds of evidence: **C** is indication-specific clinical care, **H** is human research or observation, **P** is preclinical work, **X** is a procedure, and **G** is an unestablished capability. Current U.S. examples include ruxolitinib for nonsegmental vitiligo, afamelanotide for EPP, and cleared laser devices for tattoo lightening/removal; these address distinct conditions or exogenous ink. The FDA states there are no approved eye drops to change iris color. [Opzelura label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215309s007lbl.pdf), [Scenesse label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/210797s007lbl.pdf), [FDA tattoo-removal information](https://www.fda.gov/consumers/consumer-updates/tattoo-removal-options-and-results), [FDA eye-drop guidance](https://www.fda.gov/drugs/buying-using-medicine-safely/what-you-should-know-about-eye-drops).
+
 ### Comparison by tissue
 
 | Tissue / compartment | Relevant pigment or color source | What is available or demonstrated | What remains unestablished |
