@@ -20,7 +20,7 @@ The evidence is uneven across tissues. The atlas labels clinical care, human res
 - [Tissue pigment atlas](research/tissue-pigment-atlas.md) — tissue-by-tissue evidence and diagrams for eyes, skin, gums, hair, and other pigment-bearing compartments.
 - [Pigment evidence register](research/pigment-evidence-register.md) — concise study records with models, endpoints, and limits.
 - [Bidirectional iris reversibility](research/bidirectional-reversibility.md) — the iris-specific evidence and what a true return-to-baseline cycle would need to show.
-- [Selective-clearance framework](research/selective-clearance-framework.md) — cross-tissue accounting and measurement framework.
+- [Selective-clearance framework](research/selective-clearance-framework.md) — shared clearance concepts, material-fate accounting, and the evidence ladder; tissue summaries live in the atlas and register.
 - [Hair scope](research/hair-scope.md) — separate research question for cosmetic follicle pigmentation.
 
 ## Scope
