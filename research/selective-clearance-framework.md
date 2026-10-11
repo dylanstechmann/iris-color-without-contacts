@@ -337,6 +337,8 @@ The tissue-specific implications are uneven: skin has the strongest current mech
 
 The alkaptonuria example matters because clinical human evidence links a lower chemical precursor to partial regression of an accumulated pigment deposit. It remains a disease-specific pathway: the deposit is not melanin, measured regression was incomplete, and this finding does not supply a general formula for other tissues. [Pigment regression cohort](https://pubmed.ncbi.nlm.nih.gov/32904992/), [randomized disease trial](https://pubmed.ncbi.nlm.nih.gov/32822600/).
 
+The cochlea is a useful reminder not to treat pigment burden and pigment-cell presence as interchangeable. A developmental mouse comparison found normal baseline hearing in albinos without melanin but severe hearing impairment when cochlear melanocytes were absent; an intense-noise guinea-pig study still found greater injury in albinos. A later outbred developmental model found auditory impairment even when Kir4.1-positive strial intermediate cells remained, implicating other neural lineages and synapses. These findings do not test adult pigment clearance. They show why a tissue-specific feasibility claim must measure the pigment, the pigment-bearing cell, the cell's local role, and the organ's function separately. [Motohashi et al., 1994](https://pubmed.ncbi.nlm.nih.gov/7852195/), [Kawaguchi, 1992](https://pubmed.ncbi.nlm.nih.gov/1602357/), [Tan et al., 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11762213/).
+
 ## Evidence requirements for tissue-specific feasibility
 
 A candidate target needs evidence at every level below. A strong result at one level cannot substitute for another.
