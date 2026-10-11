@@ -22,6 +22,12 @@ This is a qualitative model, not a measured human rate equation. If an intervent
 
 Pigment loss caused by cell damage or release of cellular debris would fail the research objective, even if the iris appeared lighter.
 
+## Iris color is not a melanocyte-count switch
+
+A histological study of 51 human irides found no significant difference in stromal melanocyte number or density among blue, hazel, and brown eyes. Chemical analysis of microdissected human irides found that the anterior stromal fraction and posterior iris pigment epithelium have different melanin profiles; blue irides had very low measured pigment, and cultured uveal melanocytes changed pigment composition as they grew and aged. This points to pigment amount and chemistry in the **visible anterior iris compartment** as the relevant research target; posterior epithelial pigment and cell counts are not substitutes for that endpoint. [Human iris histology](https://pubmed.ncbi.nlm.nih.gov/8602782/), [human iris pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/).
+
+**Evidence implication:** the project needs both a tissue-pigment measurement and a standardized visible-color endpoint. The literature does not define a pigment threshold that would produce a chosen shade such as dark brown.
+
 ## Mechanism-level possibilities
 
 | Concept | What it might change in theory | Main unresolved question |
