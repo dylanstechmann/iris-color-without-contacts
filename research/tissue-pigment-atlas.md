@@ -50,7 +50,7 @@ flowchart TD
 | --- | --- | --- | --- |
 | **Epidermal skin** | Melanin in melanocytes and keratinocytes | **C:** facial melasma treatment and vitiligo repigmentation; **C + X:** afamelanotide implant increases skin eumelanin for adult EPP. **P:** autophagy activation lowered measured melanin and inhibition raised it in cultured human skin substitutes and ex-vivo human skin; cell studies implicate lysosomal processing/CTSV. A 2026 human-keratinocyte model also reported lower absorbance after uptake of mouse melanoma-derived melanosomes. | These are models, not a living-person cosmetic cycle. No washout return, safe selective control, full product/export balance, or preservation of photoprotection has been demonstrated. The 2026 model does not establish intact-tissue clearance. |
 | **Dermis** | Native melanin, tattoo ink, and deposited metals are different targets | **H:** ashy-dermatosis biopsies identify melanosome-retaining fibroblasts and macrophages. **X:** FDA-cleared tattoo-removal lasers; human biopsies document pigment fragmentation and cell injury. | Selective nonprocedural clearance of native melanin or proof that a deposit left the body. |
-| **Gums** | Physiologic epithelial melanin, among other causes of discoloration | **H:** small topical ascorbic-acid trial; stronger early response in an injection comparison arm. **X:** epithelial depigmentation procedures. | A routinely established topical, selective, reversible gum-color controller. |
+| **Gums** | Physiologic epithelial melanin, among other causes of discoloration | **H:** a 73-person double-masked split-mouth study reported that topical ascorbyl-glucoside gel improved a relative lightness endpoint versus placebo by week 4; a separate 20-person gel-vs-injection comparison found no significant one-month index change with gel. **X:** epithelial depigmentation procedures. | Pigment mass/export, post-use persistence or return, and a predictable reversible gum-color controller remain unestablished. |
 | **Lips and other oral mucosa** | Melanocytic and nonmelanocytic pigmentation | **H:** human pathology evidence identifies different causes and compartments. | Transfer of gum-study results to all oral surfaces or other mucosa. |
 | **Hair follicles / hair shaft** | Pigment deposited during fiber growth | Marketed shaft dyes/bleaches exist; **P/H:** follicle biology and observational human repigmentation. | Selectable reversible control of living human follicles; clearing a shaft is different from changing future growth. |
 | **Nail matrix / plate** | Melanin can be deposited into the nail plate | Human anatomy evidence; isolated procedural case reports for specific causes. | A validated general topical cosmetic modulator or stored-pigment clearance system. |
@@ -256,18 +256,25 @@ flowchart TD
     A --> C["Other causes<br/>Inflammation, drugs, external deposits or lesions"]
     B --> V["H: oral melanin detection varies<br/>among six sampled sites"]
     V --> X["Do not generalize gum findings<br/>to every oral mucosa"]
-    B --> T["H: topical ascorbic-acid gel alone<br/>small trial; clinical index not significant at 1 month"]
-    T -.-> G["G: predictable topical-only<br/>selective pigment clearance"]
-    B --> I["H + X: intramucosal injections<br/>Invasive despite nonsurgical terminology"]
+    B --> TP["H: topical-only human evidence"]
+    TP --> T1["2009: double-masked split-mouth study,<br/>n = 73; AS-G vs placebo"]
+    T1 --> T2["Relative gingival lightness endpoint<br/>favored AS-G by week 4"]
+    TP --> T3["2021: n = 20; topical gel vs injection<br/>gel index not significant at month 1"]
+    T3 --> T4["Melanin-stained area fraction fell<br/>in both groups at month 6"]
+    T2 -.-> G["G: no post-use return, pigment-mass<br/>or product/export assessment"]
+    T4 -.-> G
+    B --> I["H + X: intramucosal injections<br/>invasive despite no tissue excision"]
     B --> L["H + X: 2026 trial, n = 20<br/>topical AS-G added after diode laser"]
     L --> D9["9-month clinical pigmentation score<br/>favored adjunct; laser in both groups"]
-    D9 -.-> C9["Repigmentation/follow-up appearance<br/>not a pigment-mass or export measure"]
-    B --> S["X: scalpel / ablative laser<br/>Pigmented epithelium removed"]
+    D9 -.-> G
+    B --> S["X: scalpel / ablative laser<br/>pigmented epithelium removed"]
     S --> R["Healing and possible repigmentation"]
-    C --> O["Cause-specific assessment<br/>Not automatically a melanin-clearance target"]
+    C --> O["Cause-specific assessment<br/>not automatically a melanin-clearance target"]
 ```
 
-In a 20-person randomized study, topical ascorbic-acid gel alone did not significantly improve the pigmentation index at one month, whereas the injection arm had an earlier response; both groups showed lower melanin-stained area fraction at six months. The study was small and had no placebo arm. A 2026 randomized study of 20 participants found a lower nine-month clinical pigmentation score when topical ascorbyl glucoside was added after diode-laser depigmentation than after laser alone. Both arms received laser, and the study assessed a clinical score rather than pigment mass or fate. It therefore does not establish topical-only depigmentation or a pigment-export route. These are **human-research** findings, not proof of a routinely available, predictable gum-color controller. [El-Mofty et al.](https://pubmed.ncbi.nlm.nih.gov/33966113/), [Gudur et al.](https://pubmed.ncbi.nlm.nih.gov/42147661/).
+Gingiva now has a small but meaningful topical-only human evidence signal. In a double-masked, split-mouth study of 73 people, a topical ascorbyl-glucoside gel was compared with placebo for 12 weeks; the abstract reports a significant relative difference in the spectrophotometric gingival-lightness endpoint by week 4. This is a visible-color outcome, not a pigment mass or export measurement, and the paper does not establish what happened after treatment stopped. [Shimada et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19186973/).
+
+Results differ across studies and endpoints. A separate randomized study with 20 participants found no significant one-month pigmentation-index change in the topical-gel group, while its injection group responded earlier; the melanin-stained area fraction was lower at six months in both groups. A 2026 randomized study of 20 participants found a lower nine-month clinical pigmentation score when topical ascorbyl glucoside was added after diode-laser depigmentation than after laser alone. Both arms received laser, and the study measured a clinical score rather than pigment mass or fate. Together, these studies justify tracking noninvasive topical modulation as a research lead for gingiva, but do not establish a predictable reversible color controller or a pigment-export route. [El-Mofty et al.](https://pubmed.ncbi.nlm.nih.gov/33966113/), [Gudur et al.](https://pubmed.ncbi.nlm.nih.gov/42147661/).
 
 Scalpel and ablative-laser studies concern removal of pigmented epithelium; recurrence is a relevant outcome. These are procedural comparisons, distinct from preservation of the existing tissue through molecular modulation. Oral pathology also distinguishes melanocytic pigmentation from deposits such as amalgam tattoos. [Procedure trial](https://pubmed.ncbi.nlm.nih.gov/31983845/), [oral pathology series](https://pmc.ncbi.nlm.nih.gov/articles/PMC8141314/). Red, swollen, bleeding gums belong to an inflammatory branch. [NIDCR](https://www.nidcr.nih.gov/health-info/gum-disease).
 
