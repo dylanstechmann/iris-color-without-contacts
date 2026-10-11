@@ -1030,6 +1030,17 @@ A separate 2025 ARPE-19 cell study exposed RPE cells to 1% oxygen. Hypoxia incre
 
 In rhesus-monkey RPE, electron microscopy found fewer melanosomes with age and lysosome-like organelles containing melanin in different stages of loss. The authors interpreted these as autophagic melano-lysosomes and considered the decline potentially detrimental because RPE melanin protects against light toxicity and oxidative stress. This is age-associated animal tissue evidence, not a controlled intervention. [Gouras et al., 2011](https://pubmed.ncbi.nlm.nih.gov/22056912/).
 
+Developmental mouse work adds a compartment-specific stability clue. In Rab38-deficient “chocolate” mice and tyrosinase-deficient albino mice, RPE melanosome maturation was largely complete before birth. Premelanosomes that failed to deposit melanin were unstable; immature RPE melanosomes carried cathepsin D, leading the authors to propose that melanin deposition protects a maturing organelle from lumenal acid hydrolases. This is loss of unpigmented developmental precursors, not a method for selectively removing mature pigment from an adult eye. The result also cautions that pigment loss could alter organelle stability and RPE function. [Lopes et al., 2007](https://pmc.ncbi.nlm.nih.gov/articles/PMC1995718/).
+
+```mermaid
+flowchart LR
+    D["P: RPE melanosome maturation<br/>largely complete before birth"] --> M["Tyrosinase delivery +<br/>melanin deposition"]
+    M -.-> S["Proposed: deposited melanin<br/>stabilizes the maturing organelle<br/>against acid hydrolases"]
+    R["P: Rab38-deficient or<br/>tyrosinase-deficient mice"] --> U["Unpigmented premelanosomes<br/>are unstable during development"]
+    U --> L["Fewer mature RPE melanosomes"]
+    L -.-> G["G: this does not establish<br/>selective loss of mature adult RPE pigment,<br/>safe export, or return"]
+```
+
 Oxidation can destroy RPE melanin chemically, but that does not establish safe clearance. Dontsov et al. generated melanin-decay products by exposing isolated human and bovine RPE melanosomes to superoxide. A later human donor-granule study found water-soluble products after visible-light exposure of isolated melanolipofuscin; some products could generate superoxide under light in the study's assays. These were isolated-granule experiments, not treatment of living eyes, and the target melanin normally screens light and contributes antioxidant protection. [Dontsov et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28941459/), [Dontsov et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37685907/).
 
 A measurement foothold does not yet solve the monitoring problem. A 2025 study used high-resolution and super-resolution autofluorescence imaging in retinal sections from seven human donors aged 80–89; near-infrared signals at selected wavelengths were associated mainly with melanolipofuscin in the RPE cell body, while melanosomes in apical processes also emitted near-infrared signal. This is a histologic basis for interpreting a potential imaging marker, not a validated live measure of pigment mass or longitudinal clearance. [Jauch et al., 2025](https://pubmed.ncbi.nlm.nih.gov/41159652/).
