@@ -527,7 +527,9 @@ flowchart TD
     B2 -.-> B3["G: longitudinal pigment change,<br/>disposition, or cosmetic clearance"]
     B --> P["P: pathological pigment release<br/>from posterior iris epithelium"]
     P --> Q["Pigment enters aqueous pathways"]
-    Q --> T["Trabecular meshwork<br/>receives pigment"]
+    Q --> Q1["H: PDS study counted aqueous<br/>melanin granules in 42 eyes / 21 patients<br/>vs 40 control eyes"]
+    Q1 --> Q2["PDS mean: 2.9 ± 3.7 undilated,<br/>6.3 ± 5.3 after dilation;<br/>controls: 0.2 ± 0.3 per 0.075 mm³"]
+    Q2 --> T["Trabecular meshwork<br/>receives pigment"]
     T --> T1["Outflow impairment in models;<br/>secondary glaucoma reported after cosmetic laser"]
     L["X: cosmetic photoablative iris laser"] --> Q
     L --> L1["H: case reports of serious<br/>pigmentary glaucoma"]
@@ -550,6 +552,10 @@ flowchart TD
 Topical ocular access is distinct from pigment clearance. In pigmented rabbits, a single radiolabeled difluprednate eye-drop exposure produced drug-related radioactivity in cornea, iris/ciliary body, conjunctiva, and anterior and posterior retina/choroid; 99.5% of dose radioactivity was recovered in urine and feces by seven days. This tracks the ophthalmic drug and its metabolites, not melanin or pigment fragments, and is not evidence of pigment export. [Tajika et al., 2011](https://pubmed.ncbi.nlm.nih.gov/21118027/).
 
 Human iris microscopy and chemical microdissection distinguish anterior/stromal pigmentation from the posterior pigment epithelium. These compartments cannot be combined into one clearance target. PS-AS-OCT offers a measurement hypothesis for both layers: one cross-sectional study found that entropy-derived stromal MCR tracked CIE L*a*b* photo-color values among 88 participants with brown irides, while a separate study mapped posterior IPE depolarization regionally in 105 healthy Japanese adults. These are distinct compartments and cohorts. Neither iris study followed a pigment-changing intervention or validated serial signal changes against chemical pigment change; the brown-iris cohort also does not establish performance for an initially blue iris. A 2026 retrospective PS-OCT study provides an adjacent-choroid precedent: in 15 eyes from 8 acute VKH patients, choroidal polarimetric entropy rose from 0.296 ± 0.047 to 0.350 ± 0.075 one month after treatment (p=.001), while RPE entropy did not significantly change. This is a small disease cohort; inflammation and treatment-related structural recovery may affect the signal, and this is neither chemical pigment mass nor iris validation. The imaging readout is therefore a candidate noninvasive proxy for future monitoring, not proof of reversible iris pigment clearance. [Li et al., 2025 online / 2026 print](https://pubmed.ncbi.nlm.nih.gov/41432634/), [Li et al., 2025 IPE mapping](https://pubmed.ncbi.nlm.nih.gov/40131585/), [Oshiro et al., 2026](https://pubmed.ncbi.nlm.nih.gov/41533903/), [PS-OCT melanin-suspension calibration study](https://pmc.ncbi.nlm.nih.gov/articles/PMC7658243/).
+
+### Aqueous pigment is measurable, but it is not clearance
+
+In primary pigment-dispersion syndrome (PDS), a human study directly counted melanin granules in aqueous humor: the mean was 2.9 ± 3.7 granules per 0.075 mm³ in 42 eyes from 21 patients, compared with 0.2 ± 0.3 in 40 age- and sex-matched control eyes. Pharmacologic pupil dilation raised the PDS mean to 6.3 ± 5.3; counts also correlated with iris transillumination and corneal Krukenberg spindle. This confirms a measurable fluid-borne pigment compartment under disease conditions. The pigment is released from the posterior iris pigment epithelium and deposits on anterior-segment structures, including the trabecular meshwork. That is redistribution with potential outflow harm, not proof that pigment has left the eye or been safely eliminated. It is also not evidence that the visible anterior-stromal color target can be cleared selectively. [Küchle et al., 1998](https://pubmed.ncbi.nlm.nih.gov/9744376/).
 
 ### Iris imaging repeatability is not the same as clearance sensitivity
 
