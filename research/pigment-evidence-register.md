@@ -21,6 +21,7 @@ This is a scoped source register, not a systematic review or a global audit of p
 | [Melanophagy study, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC10998605/) | Mainly mouse B16F10 melanoma-cell model; transferred-melanosome keratinocyte comparison | Melanophagy machinery; compartment-dependent findings. Does not establish a human treatment. |
 | [Marubashi and Fukuda, 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC10739166/) | Mouse melanocyte/keratinocyte models | Melanosomal protein degradation without altered melanin content; endpoint distinction. |
 | [FDA tattoo removal](https://www.fda.gov/consumers/consumer-updates/tattoo-removal-options-and-results) | Official U.S. device/consumer information | Cleared laser devices; no approved removal creams. Exogenous dermal pigment is distinct from native melanin. |
+| [Maeda, 2017](https://www.mdpi.com/2079-9284/4/4/47) | Small human study, six men; inner forearm | Fading of UVA-induced pigmentation used as an epidermal-turnover proxy (36.2 ± 6.2 days); not a direct mass balance for all stored melanin or selective clearance. |
 
 ## Gums, oral mucosa, and teeth
 
@@ -31,6 +32,8 @@ This is a scoped source register, not a systematic review or a global audit of p
 | [Oral pigmented-lesion series](https://pmc.ncbi.nlm.nih.gov/articles/PMC8141314/) | Retrospective human pathology series | Melanocytic and nonmelanocytic diagnoses; biopsy selection cannot estimate population prevalence. |
 | [NIDCR gum disease](https://www.nidcr.nih.gov/health-info/gum-disease) | Official health information | Inflammatory gum signs belong to a separate cause branch. |
 | [ADA whitening](https://www.ada.org/resources/ada-library/oral-health-topics/whitening) | Official professional clinical information | Dental stains/chromogens and whitening; not evidence for living-tissue melanin clearance. |
+| [Thomson et al., 1999](https://pubmed.ncbi.nlm.nih.gov/10577752/) | In-vitro labeling of 105 samples of clinically normal human oral mucosa from several sites | S-phase labeling varied by oral site; measures proliferation, not full epithelial transit or melanin fate. |
+| [Thomson et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11684035/) | In-vitro labeling of 110 human mandibular gingiva and buccal mucosa samples | Buccal mucosa had a higher S-phase labeling index than mandibular gingiva; this is not a complete turnover-time or pigment-export measurement. |
 
 ## Eyes
 
@@ -41,6 +44,7 @@ This is a scoped source register, not a systematic review or a global audit of p
 | [UK Xalatan SmPC](https://www.medicines.org.uk/emc/product/1616/smpc) | Official product information | Susceptibility to drug-associated darkening differs by starting color; cited uniformly blue group had no observed change. |
 | [U.S. Xalatan label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f4e73059-5ba0-4d73-9ea1-09d8d654e844) | Official U.S. prescribing information | Increased iris pigment may persist; stopping the drug is not an established reversal method. |
 | [FDA eye-drop information](https://www.fda.gov/drugs/buying-using-medicine-safely/what-you-should-know-about-eye-drops) | Official U.S. regulatory information | No approved eye-color-changing drops. |
+| [Pfeiffer et al., 2001 (Mainz I)](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/265260) | Human adult-eye and iris immunohistochemistry with PCNA and Ki-67 | No positive nuclei were observed in examined adult iris samples; a histological snapshot does not establish lifetime turnover or pigment export. |
 | [Impact of pigment dispersion on trabecular meshwork cells, 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC7847180/) | Primary porcine trabecular-meshwork cell model | Pigment exposure reduced phagocytosis and migration and increased cell contraction; not a human cosmetic-clearance study. |
 | [IOP elevation precedes phagocytosis decline, 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC5915754/) | Porcine ex-vivo pigment-dispersion model | Pigment exposure reduced outflow and raised pressure before phagocytosis declined; effects are model-specific. |
 | [Zhou et al., 2021](https://pubmed.ncbi.nlm.nih.gov/34397796/) | Human 15-year follow-up of 21 eyes in 11 patients with pigment-dispersion disease after clinical treatment | Trabecular-meshwork pigmentation attenuated over time; small treated disease cohort, not evidence for cosmetic iris clearance. |
