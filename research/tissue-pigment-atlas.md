@@ -1502,9 +1502,15 @@ flowchart LR
     N --> E["Normal pathway-product excretion is evidenced;<br/>clearance of an existing tissue pool remains unresolved"]
     H["1993 report of soluble melanin-like<br/>material in healthy urine"] --> C["Source specificity uncertain;<br/>precursors can polymerize in urine"]
     C --> X
+    TR["H: 13C-tyrosine tracing<br/>in live melanocytes"] --> FL["Labels newly synthesized<br/>melanin-pathway metabolites"]
+    FL -.-> OLD["Does not label melanin<br/>already stored before the tracer"]
+    OLD -.-> NEED["G: validated resident-pigment label<br/>plus product, output, and function tracking"]
+    NEED -.-> X
 ```
 
 Normal physiology includes urinary output of melanogenesis-related products. In healthy people across skin types, urinary 6-hydroxy-5-methoxyindole-2-carboxylic acid differed with skin pigmentation while 5-S-cysteinyldopa did not; a separate comparison identified another urinary indole as the best marker of skin pigment formation. A later method study measured eumelanin-related PTCA and other markers in urine from 10 control subjects, but generated PTCA through permanganate oxidation of the urine sample. These studies support normal excretion of melanin-pathway products and detectable urinary pigment-related signal. They do not trace previously stored pigment from a named tissue into urine, quantify tissue-to-body mass balance, or demonstrate selective removal. [Wirestrand et al., 1985](https://pubmed.ncbi.nlm.nih.gov/2413694/), [Westerhof et al., 1987](https://doi.org/10.1111/1523-1747.ep12580422), [Wakamatsu et al., 2006](https://pubmed.ncbi.nlm.nih.gov/16524432/).
+
+A 2021 stable-isotope method used labeled tyrosine in live melanocytes to measure newly synthesized eumelanin- and pheomelanin-pathway metabolites and distinguish changes in synthesis from changes in intracellular degradation. It labels the new pathway flux; it does not label the melanin already stored before the tracer. This is useful for separating the input side of the pigment balance, but not for proving removal of a pre-existing tissue pool. A future clearance model would need a validated label in resident pigment, then track label loss from the target compartment into identified products or outputs while measuring tissue function. That is a measurement requirement, not an established human method. [Chen et al., 2021](https://pubmed.ncbi.nlm.nih.gov/33549605/).
 
 A small 1993 biochemical report interpreted spectroscopy and isolation results as soluble melanins in healthy adults' urine. Its abstract reports precipitation after prolonged acid treatment and notes that melanin-like material can also form in urine in vitro when precursors oxidatively polymerize. Without chemical source attribution or tracing a tissue pigment pool into urine, this finding does not establish a physiological route for clearing stored skin or iris melanin. [Hegedus and Nayak, 1993](https://pubmed.ncbi.nlm.nih.gov/7511438/).
 
