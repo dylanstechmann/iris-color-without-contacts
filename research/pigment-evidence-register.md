@@ -24,6 +24,8 @@ This is a scoped source register, not a systematic review or a global audit of p
 | [Maeda, 2017](https://www.mdpi.com/2079-9284/4/4/47) | Small human study, six men; inner forearm | Fading of UVA-induced pigmentation used as an epidermal-turnover proxy (36.2 ± 6.2 days); not a direct mass balance for all stored melanin or selective clearance. |
 | [Lu et al., 1996](https://pubmed.ncbi.nlm.nih.gov/8881670/) | Human surface corneocytes from exposed and unexposed skin; image analysis | Melanin granules were measured in surface corneocytes and varied with phototype and exposure; documents a superficial pigment pool, not selective removal from the full epidermis. |
 | [Matsunaka et al., 2017](https://doi.org/10.1111/srt.12309) | Human tape-sampled outer stratum corneum; HPLC; 10 healthy subjects plus a four-person time course | Chemically quantified eumelanin and pheomelanin in surface samples over time; a surface-pool measurement, not whole-tissue mass balance or a clearance intervention. |
+| [Choi et al., 2010](https://pubmed.ncbi.nlm.nih.gov/20147966/) | Human in-situ comparison, six subjects with phototypes II–III | Similar visible tanning across exposure conditions did not correspond to the same melanin response; UVA alone produced no significant melanin increase, whereas UVB-containing conditions did. Appearance is not a direct pigment-mass endpoint. |
+| [Ito et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7404343/) | HPLC method validation using synthetic melanins, animal/human hair, and human epidermis | Chemically generated marker compounds quantify melanin amount/type in harvested samples; assay-generated products are not evidence of in-vivo catabolites or pigment export. |
 
 ## Gums, oral mucosa, and teeth
 
