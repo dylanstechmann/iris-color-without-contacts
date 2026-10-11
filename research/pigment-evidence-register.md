@@ -90,6 +90,8 @@ This is a scoped source register, not a systematic review or a global audit of p
 
 | Source | Evidence type / model | Endpoint and limit |
 | --- | --- | --- |
+| [Berk et al., 1969](https://www.jci.org/articles/view/106184) | Human tracer study; 13 healthy adults injected with unconjugated [14C]bilirubin | Mean 96% cumulative recovery of injected radioactivity in feces and urine over 7 days. Defines a bilirubin-specific whole-body tracer endpoint; does not establish clearance of melanin, lipofuscin, or any other stored pigment. |
+| [Ritter et al., 1999](https://pubmed.ncbi.nlm.nih.gov/10421657/) | Human donor livers and corresponding primary hepatocyte cultures | UGT1A1 protein correlated with liver bilirubin-glucuronidating activity; donor levels varied substantially. Supports a specialized hepatic route, not a cosmetic modulator or transferable pigment-clearance mechanism. |
 | [Multi-tissue minocycline case](https://pubmed.ncbi.nlm.nih.gov/9512163/) | Human ophthalmic case report | Skin, sclera, teeth, palate, ears and nailbeds in one patient; mechanism and course after cessation unclear. |
 | [Skin, gum, sclera and nail case](https://pubmed.ncbi.nlm.nih.gov/36158857/) | Human case report | Multiple visibly affected tissues; case report, not predictable across people. |
 | [Skin and nail tissue analysis](https://pubmed.ncbi.nlm.nih.gov/3158285/) | Human histology and elemental analysis | Deposits included iron and calcium; one medication can produce different tissue signatures. |
