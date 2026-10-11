@@ -630,17 +630,21 @@ flowchart LR
     P2 -.-> G
     P["P: mouse tattoo-ink study"] --> L["Ink particles in liver Kupffer cells<br/>after one year"]
     L -.-> G
+    H["H: 2025 human tattoo study;<br/>24 adults, soluble tracer-spiked ink"] --> HT["Tracers / metabolites in urine;<br/>iodide and a PABA metabolite in plasma"]
+    HT -.-> G
     A["Silver deposits in argyria"] --> Y["X: laser in one human case"]
     Y --> S["H: smaller particles and lower<br/>silver signal in treated-skin biopsy"]
     S --> M["H: silver also found<br/>inside macrophages"]
     IMG["H: 2026 TPE-FLIM<br/>in-vivo human imaging to ~150 μm"] --> LOC["Tattoo ink in dermal mast cells,<br/>macrophages, fibroblasts;<br/>melanin distinguished from some inks"]
     LOC -.-> G
-    S -.-> G["G: no whole-body balance<br/>or excretion measured"]
+    S -.-> G["G: insoluble pigment particles<br/>not tracked; post-laser body fate<br/>and excretion unmeasured"]
     N -.-> G
     R -.-> G
 ```
 
 Human tattoo biopsies show that laser-associated lightening can involve disruption of pigment-containing cells, smaller particles, and inflammation; pigment was again intracellular 11 days later. A postmortem human tissue study detected matching tattoo-pigment species in skin and regional nodes in two of four tattooed donors. A separate human case found tattoo pigment in regional lymph nodes three years after the tattoo had been removed by dermabrasion; surface removal therefore did not ensure pigment left the body. A 2026 pathology review of 90 lymph nodes already selected for tattoo-ink deposition found no unifying histologic pattern beyond the ink; 11 specimens came from patients with hematologic neoplasms, but this selected series cannot estimate risk or establish causation. These human findings are small-sample or case evidence and concern ink, not melanin. [Human tattoo biopsy study](https://doi.org/10.1111/1523-1747.ep12478570), [human skin-and-node study](https://doi.org/10.1038/s41598-017-11721-z), [regional lymph-node case](https://pubmed.ncbi.nlm.nih.gov/32650854/).
+
+A 2025 single-arm human study (24 subjects; black or red tattoos) tracked three soluble tracer ingredients after tattooing. Tracers or their metabolites were detected in urine, and iodide plus a PABA metabolite were identified in plasma. This shows that soluble ink ingredients can enter circulation and be metabolized or excreted. The tracers were soluble model ingredients, not the insoluble colored pigment particles; the study examined tattooing, not laser removal. It therefore does not close the body's pigment mass-balance question. [Kochs et al., 2025](https://doi.org/10.1007/s00204-025-03959-8).
 
 A 2026 in-vivo human study used two-photon excited fluorescence-lifetime imaging (TPE-FLIM) to visualize multicolored tattoo ink to approximately 150 μm. Tattoo signal appeared in epidermal cells and in dermal mast cells, macrophages, and fibroblasts; the analysis could distinguish melanin from some tattoo pigments. This offers a way to map local reservoirs and separate native-melanin signal from selected exogenous inks. The PubMed abstract does not state a sample count, and the study did not measure longitudinal pigment change, native-melanin turnover, or export. It is a measurement advance for tattooed skin, not a clearance result. [Lopez Guardado et al., 2026](https://doi.org/10.1159/000550617).
 
