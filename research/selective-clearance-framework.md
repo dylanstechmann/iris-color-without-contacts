@@ -404,6 +404,10 @@ This is a compact map of the strongest reviewed examples, not an exhaustive trea
 
 The evidence map separates three increasingly direct claims: a tissue contains a marker associated with melanocyte lineage; cells derived from that tissue can be induced to make melanin in culture; and the intact tissue contains a measurable native melanin burden. The first two do not establish the third. A 1993 RT-PCR survey found tyrosinase transcripts across normal organ samples but could not identify the expressing cells or measure pigment. [Battyani et al.](https://pubmed.ncbi.nlm.nih.gov/7511806/).
 
+### 2026 PIH report: clinical appearance is not a clearance assay
+
+A low-confidence single-center report of PDT plus a research-only dressing in PIH is a human clinical signal for lesion-area and instrument-readout changes, but study design and outcome values conflict across the article and its correction. Even if confirmed, treating diseased lesions does not establish healthy-skin cosmetic control. Neither lesion area nor optical density identifies melanin mass, degradation products, export, or whole-body pigment fate. The study also has no withdrawal-to-baseline or repeat-cycle endpoint. See the [atlas entry](tissue-pigment-atlas.md) and [source-register row](pigment-evidence-register.md). [Nie et al., 2026](https://doi.org/10.3389/fmed.2025.1654474); [correction](https://doi.org/10.3389/fmed.2026.1831015).
+
 ## Evidence ladder for a proposed clearance claim
 
 ```mermaid
