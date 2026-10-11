@@ -80,7 +80,7 @@ flowchart TD
 | **Airways / lung-draining lymph nodes** | Inhaled carbon and other particles within macrophages | **H:** human bronchoscopy, biopsy, and node studies document anthracotic macrophages. | Safe selective extraction; visible deposits do not measure the full particle burden or associated fibrosis. |
 | **Colon mucosa** | Lipofuscin-like pigment in lamina-propria macrophages in melanosis coli; the name does not mean ordinary melanin | **H:** human histology identifies pigment-laden macrophages; observational cases document endoscopic disappearance after the inducing anthraquinone exposure ends. | Direct pigment mass/export after resolution, a selective intervention, or transfer to other pigments and organs. |
 | **Esophageal mucosa** | Rare melanocytic proliferation with melanin deposition in squamous mucosa | **H:** human case reports/series document esophageal melanocytosis and distinguish it from melanoma. | Natural history, selective clearance, or generalization to other mucosal surfaces. |
-| **Other mucosa** | Site-specific melanin in mucosal melanocytes; some sites have no visible or detectable pigment in sampled tissue | **H:** nasal melanocytes found in 21/99 autopsy specimens, mostly in stromal foci; laryngeal studies report rare cells/melanosis with discordant sampling results. | No selective clearance assessment; many mucosal surfaces remain unassessed, and site-specific findings cannot be generalized. |
+| **Other mucosa** | Site-specific melanin in melanocytes or epithelial cells; many different surfaces | **H:** oral, nasal, laryngeal, vulvar, cervical, anorectal, and rare esophageal findings have been described, but study designs and compartments differ. | No selective clearance assessment; normal vaginal distribution and many other mucosal sites remain underassessed. |
 
 ### Additional tissues contain different pigment targets
 
@@ -493,6 +493,32 @@ flowchart LR
 A Japanese pathology series found stromal melanocytes in 21 of 99 autopsy specimens of nasal cavity/paranasal sinus, commonly around glands and sinuses; intraepithelial dendritic melanocytes were seen in 2 of the 21 positive cases. The series also included 79 surgical specimens from chronic sinusitis or nasal-polyps cases, so its result is a histology observation, not a population estimate. [Uehara et al., 1987](https://pubmed.ncbi.nlm.nih.gov/3661192/).
 
 Laryngeal findings are sparse and sampling-dependent. A 1976 report found melanocytes in a vocal-cord biopsy but none in extensive sections from 15 larynges at autopsy. A 1997 retrospective series described four laryngeal-melanosis cases; the melanosis samples had more melanocytes than 16 controls, with a small, nonsignificant trend between smoking and control groups. These reports do not establish a general laryngeal pigment burden, health role, or clearance capability. [Busuttil, 1976](https://doi.org/10.1001/archotol.1976.00780060089012), [Gonzalez-Vela et al., 1997](https://pubmed.ncbi.nlm.nih.gov/9419104/).
+
+## 18. Genital mucosa: different sites, different evidence
+
+```mermaid
+flowchart TD
+    G["Genital mucosa"] --> V["Vulvar melanosis cohort<br/>129 patients; long follow-up"]
+    V --> VN["About 30% changed in size/color,<br/>then stabilized"]
+    VN --> VE["Natural history of appearance;<br/>not a clearance intervention"]
+    G --> C["Cervix: visible pigmented lesions"]
+    C --> CN["33 of 2,118; mostly blue nevi;<br/>one melanotic macule"]
+    G --> A["Anorectal mucosa"]
+    A --> AN["Low baseline melanocyte density<br/>measured in surgical controls"]
+    G --> E["Endocervix"]
+    E --> EN["Melanin-confirmed cells<br/>in two case specimens"]
+    G --> X["Vaginal normal-pigment distribution"]
+    X --> XN["Dedicated prevalence data<br/>remain limited in this review"]
+    VE --> N["Different lesions and cell compartments;<br/>no general pigment-clearance route"]
+    CN --> N
+    AN --> N
+    EN --> N
+    XN --> N
+```
+
+A 20-year single-center cohort followed 129 patients with vulvar melanosis for 5–20 years. About 30% of lesions enlarged or changed color before stabilizing; no malignant evolution was documented. This is natural history of visible lesions, not a test of deliberate removal or pigment mass. A prospective cervical series found visible pigmented lesions in 33 of 2,118 cervices; most were blue nevi, and one was a melanotic macule. A two-case endocervical report confirmed melanin-containing cells but found no pigment in the endocervical epithelium. [Vulvar cohort](https://pubmed.ncbi.nlm.nih.gov/32785609/), [cervical lesions](https://pubmed.ncbi.nlm.nih.gov/24300541/), [endocervical cases](https://pubmed.ncbi.nlm.nih.gov/7405906/).
+
+In a surgical-pathology anorectal series, 24 control specimens had low densities of melanocytes that varied by glandular versus squamous compartment and by stain; controls included some hemorrhoids and other pathology, so they are not a population survey. These data identify a local cell population and support compartment-specific diagnosis, not a healthy-tissue color treatment. Dedicated normal vaginal-pigment prevalence was not established by the sources reviewed here. [Nazarian et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27247367/).
 
 ## Research requirements shared across tissues
 
