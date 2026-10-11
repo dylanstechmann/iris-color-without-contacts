@@ -578,6 +578,19 @@ A small 1983 ophthalmic report of people with vitiligo described linear pigment 
 
 **Pigment fate is part of the eye constraint.** In pigment-dispersion disease, granules released from the posterior iris pigment epithelium can travel through aqueous pathways and accumulate in the trabecular meshwork. Porcine models show impaired meshwork-cell phagocytosis/migration and reduced outflow after pigment exposure. A 15-year follow-up of 21 treated eyes in 11 patients found the median trabecular-meshwork pigmentation score fell from 16 at baseline to 12; quadrant-specific clinical grading reductions ranged from 18% to 37%. Ten eyes had laser peripheral iridotomy and eleven had trabeculectomy. These were cause-directed clinical interventions for pigment-dispersion disease. The score measured visible meshwork pigmentation, not pigment mass or its destination, and the procedures do not establish a nonprocedural cosmetic clearance route. This pathway concerns posterior-epithelial pigment and the drainage angle, distinct from the anterior stromal color target. [Human PDS cohort](https://pubmed.ncbi.nlm.nih.gov/34397796/), [trabecular-meshwork cell model](https://pmc.ncbi.nlm.nih.gov/articles/PMC7847180/), [porcine outflow model](https://pmc.ncbi.nlm.nih.gov/articles/PMC5915754/).
 
+### Culture-associated pigment dilution in posterior iris epithelium is not in-vivo clearance
+
+```mermaid
+flowchart LR
+    H["H: postmortem human iris pigment epithelium<br/>isolated from 19 of 24 eyes"] --> C["Pure primary culture<br/>maintained through up to 20 doublings"]
+    C --> D["Observed: cell pigment<br/>gradually diluted during growth"]
+    D --> I["Authors inferred inability<br/>to produce melanin in vitro"]
+    I -.-> G["G: no demonstration of pigment<br/>breakdown, export, or dilution in<br/>an intact adult eye"]
+    G -.-> A["Posterior IPE is a different compartment<br/>from the visible anterior-stromal target"]
+```
+
+Hu et al. isolated human iris pigment epithelium (IPE) from postmortem donor eyes and established pure cultures from 19 of 24 eyes. The cultured cells remained viable and proliferated through as many as 20 population doublings; pigment gradually diluted as the cells divided. The authors interpreted this as an inability to produce melanin in vitro. This is a culture-state observation in the posterior IPE, not a measurement of melanin degradation or export, a demonstration that intact adult iris cells dilute pigment, or evidence of a visible anterior-stromal color change. It offers a cell-biology model for pigment partition during division, but does not establish a treatment or a reversible eye-color route. [Hu et al., 1992](https://pubmed.ncbi.nlm.nih.gov/1634342/).
+
 ### Posterior-iris pigment transport is not anterior-iris clearance
 
 ```mermaid
