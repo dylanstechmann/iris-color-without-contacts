@@ -2,6 +2,8 @@
 
 *Theoretical cosmetic research; evidence reviewed October 11, 2026.*
 
+This note examines the pigment-reduction component of the broader goal of increasing and decreasing iris melanin. See [bidirectional modulation and reversibility](bidirectional-reversibility.md) for the blue → dark brown → blue research scenario.
+
 ## Working research question
 
 Could a nonsurgical intervention selectively reduce the visible pigment burden of a healthy adult iris while preserving melanocytes, pupil function, ocular tissues, and vision?
