@@ -1869,6 +1869,12 @@ flowchart TD
     G["Genital mucosa"] --> V0["H: vulva; 35 postmortem specimens<br/>assessed for baseline melanin distribution"]
     V0 --> V0N["Vulvar melanosis described as<br/>an exaggeration of normal distribution"]
     V0N -.-> N
+    G --> IMQ["H: topical imiquimod case reports<br/>in disease settings"]
+    IMQ --> DEP["Vulvar depigmentation after<br/>wart treatment; persisted 18 months"]
+    IMQ --> REG["Visible regression of coexisting<br/>labial melanosis during MIS treatment"]
+    DEP -.-> LIMIT["Appearance only; no pigment-mass assay<br/>or return cycle; not cosmetic evidence"]
+    REG -.-> LIMIT
+    LIMIT --> N
     G --> V["Vulvar melanosis cohort<br/>129 patients; long follow-up"]
     V --> VN["About 30% changed in size/color,<br/>then stabilized"]
     VN --> VE["Natural history of appearance;<br/>not a clearance intervention"]
@@ -1888,6 +1894,8 @@ flowchart TD
 ```
 
 A 20-year single-center cohort followed 129 patients with vulvar melanosis for 5–20 years. About 30% of lesions enlarged or changed color before stabilizing; no malignant evolution was documented. This is natural history of visible lesions, not a test of deliberate removal or pigment mass. An older human autopsy histology study assessed melanin distribution in 35 vulvectomy specimens and described vulvar melanosis as an exaggeration of the normal distribution. This provides limited baseline vulvar histology, not a population prevalence estimate, a vaginal-mucosa map, or a pigment-clearance result. [Jones, 1979](https://pubmed.ncbi.nlm.nih.gov/287951/). A prospective cervical series found visible pigmented lesions in 33 of 2,118 cervices; most were blue nevi, and one was a melanotic macule. A two-case endocervical report confirmed melanin-containing cells but found no pigment in the endocervical epithelium. [Vulvar cohort](https://pubmed.ncbi.nlm.nih.gov/32785609/), [cervical lesions](https://pubmed.ncbi.nlm.nih.gov/24300541/), [endocervical cases](https://pubmed.ncbi.nlm.nih.gov/7405906/).
+
+Two disease-context case reports describe visible pigment changes after topical imiquimod, but not controlled pigment modulation. A 25-year-old woman treated for vulvar condylomata developed depigmentation at application sites that persisted at 18 months after treatment stopped; this is a temporal association, not proof of causality or a reversible cycle. In a 2026 case treated off-label for vulvar melanoma in situ, visible regression of coexisting labial melanosis was reported during 5% imiquimod treatment. The treatment was oncologic, the report was a single case, and pigment mass, melanocyte selectivity, and return after withdrawal were not measured. [Serra et al., 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC4155962/), [Coffel et al., 2026](https://doi.org/10.1016/j.jdcr.2026.02.021).
 
 In a surgical-pathology anorectal series, 24 control specimens had low densities of melanocytes that varied by glandular versus squamous compartment and by stain; controls included some hemorrhoids and other pathology, so they are not a population survey. These data identify a local cell population and support compartment-specific diagnosis, not a healthy-tissue color treatment. Dedicated normal vaginal-pigment prevalence was not established by the sources reviewed here. [Nazarian et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27247367/).
 
