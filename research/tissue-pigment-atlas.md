@@ -39,7 +39,7 @@ flowchart TD
     G --> G1["H tissue mapping; P mouse function data<br/>Selective reduction: G"]
     H --> H1["H normal anatomy / imaging<br/>Selective clearance: G"]
     I --> I1["H human cell identity; P mouse function data<br/>Pigment clearance: G"]
-    J --> J1["Esophagus: rare melanin deposit<br/>Other mucosa: gaps remain"]
+    J --> J1["Nasal / laryngeal: localized H findings<br/>Many mucosal sites remain gaps"]
     E --> E1["C for certain diagnosed diseases<br/>Different chemistry and mechanisms"]
     F --> F1["Separate targets and methods<br/>No universal pigment-clearing system established"]
 ```
@@ -80,7 +80,7 @@ flowchart TD
 | **Airways / lung-draining lymph nodes** | Inhaled carbon and other particles within macrophages | **H:** human bronchoscopy, biopsy, and node studies document anthracotic macrophages. | Safe selective extraction; visible deposits do not measure the full particle burden or associated fibrosis. |
 | **Colon mucosa** | Lipofuscin-like pigment in lamina-propria macrophages in melanosis coli; the name does not mean ordinary melanin | **H:** human histology identifies pigment-laden macrophages; observational cases document endoscopic disappearance after the inducing anthraquinone exposure ends. | Direct pigment mass/export after resolution, a selective intervention, or transfer to other pigments and organs. |
 | **Esophageal mucosa** | Rare melanocytic proliferation with melanin deposition in squamous mucosa | **H:** human case reports/series document esophageal melanocytosis and distinguish it from melanoma. | Natural history, selective clearance, or generalization to other mucosal surfaces. |
-| **Other mucosa** | Specify site, cell, and actual deposit | **Coverage gap:** no dedicated clearance assessment for every mucosal surface. | Any claim that one mucosal result generalizes across the body. |
+| **Other mucosa** | Site-specific melanin in mucosal melanocytes; some sites have no visible or detectable pigment in sampled tissue | **H:** nasal melanocytes found in 21/99 autopsy specimens, mostly in stromal foci; laryngeal studies report rare cells/melanosis with discordant sampling results. | No selective clearance assessment; many mucosal surfaces remain unassessed, and site-specific findings cannot be generalized. |
 
 ### Additional tissues contain different pigment targets
 
@@ -474,6 +474,25 @@ flowchart LR
 ```
 
 A sensitive 1993 RT-PCR study detected tyrosinase transcripts in normal samples of skin, lymph nodes, stomach antrum, colon, kidney, lung, testis, ovary, breast, and peripheral nerve. The authors said the expressing cells still needed identification; the assay did not localize cells or quantify tissue melanin. A later human adipose-derived stem-cell study found melanocyte markers in cultured cells and generated melanin after differentiation in a three-dimensional epidermal model with UVB exposure. That supports progenitor potential under model conditions, not a native melanin deposit in adipose tissue. These findings justify candidate-tissue research, not a claim that all marker-positive organs contain accumulated melanin. [Battyani et al., 1993](https://pubmed.ncbi.nlm.nih.gov/7511806/), [Ikeda et al., 2021](https://pubmed.ncbi.nlm.nih.gov/34432824/).
+
+## 17. Nasal and laryngeal mucosa: localized, sample-dependent evidence
+
+```mermaid
+flowchart LR
+    N["Nasal / paranasal mucosa"] --> NH["H: melanocytes in 21 of 99<br/>autopsy specimens in one Japanese series"]
+    NH --> NS["Mostly subepithelial stroma near<br/>glands and sinuses"]
+    NS --> NG["Site and sampling matter;<br/>no clearance endpoint"]
+    L["Laryngeal mucosa"] --> LB["H: melanocytes in a vocal-cord biopsy;<br/>none in 15 whole-larynx autopsies"]
+    L --> LC["H: 4 melanosis cases had more<br/>melanocytes than 16 controls"]
+    LB --> LG["Small, differing samples;<br/>no clearance endpoint"]
+    LC --> LG
+    NG --> G["G: tissue-selective pigment reduction<br/>not established"]
+    LG --> G
+```
+
+A Japanese pathology series found stromal melanocytes in 21 of 99 autopsy specimens of nasal cavity/paranasal sinus, commonly around glands and sinuses; intraepithelial dendritic melanocytes were seen in 2 of the 21 positive cases. The series also included 79 surgical specimens from chronic sinusitis or nasal-polyps cases, so its result is a histology observation, not a population estimate. [Uehara et al., 1987](https://pubmed.ncbi.nlm.nih.gov/3661192/).
+
+Laryngeal findings are sparse and sampling-dependent. A 1976 report found melanocytes in a vocal-cord biopsy but none in extensive sections from 15 larynges at autopsy. A 1997 retrospective series described four laryngeal-melanosis cases; the melanosis samples had more melanocytes than 16 controls, with a small, nonsignificant trend between smoking and control groups. These reports do not establish a general laryngeal pigment burden, health role, or clearance capability. [Busuttil, 1976](https://doi.org/10.1001/archotol.1976.00780060089012), [Gonzalez-Vela et al., 1997](https://pubmed.ncbi.nlm.nih.gov/9419104/).
 
 ## Research requirements shared across tissues
 
