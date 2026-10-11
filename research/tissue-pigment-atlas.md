@@ -1870,8 +1870,8 @@ flowchart TD
     V0 --> V0N["Vulvar melanosis described as<br/>an exaggeration of normal distribution"]
     V0N -.-> N
     G --> IMQ["H: topical imiquimod case reports<br/>in disease settings"]
-    IMQ --> DEP["Vulvar depigmentation after<br/>wart treatment; persisted 18 months"]
-    IMQ --> REG["Visible regression of coexisting<br/>labial melanosis during MIS treatment"]
+    IMQ --> DEP["Vulvar depigmentation after wart treatment;<br/>persisted 18 months after stopping"]
+    IMQ --> REG["Visible regression of coexisting<br/>labial melanosis during<br/>melanoma-in-situ treatment"]
     DEP -.-> LIMIT["Appearance only; no pigment-mass assay<br/>or return cycle; not cosmetic evidence"]
     REG -.-> LIMIT
     LIMIT --> N
