@@ -40,7 +40,7 @@ flowchart TD
 | Tissue / compartment | Relevant pigment or color source | What is available or demonstrated | What remains unestablished |
 | --- | --- | --- | --- |
 | **Epidermal skin** | Melanin in melanocytes and keratinocytes | **C:** topical treatment of facial melasma; disease-specific repigmentation in vitiligo. **P:** melanosome degradation and transfer modulation. | A programmable healthy-skin shade cycle or selective removal of all stored melanin. |
-| **Dermis** | Deposits in pigment-containing cells; external tattoo pigments are a separate example | **X:** tattoo-removal lasers are FDA-cleared. Pigment chemistry and depth matter. | A universal noninvasive cream that clears dermal deposits; FDA has not approved tattoo-removal creams. |
+| **Dermis** | Native melanin, tattoo ink, and deposited metals are different targets | **X:** FDA-cleared tattoo-removal lasers; human biopsies document pigment fragmentation and cell injury. One argyria case found lower silver signal and macrophage uptake after laser, with long-term visible improvement. | General nonprocedural clearance of native melanin or proof that pigment left the body. |
 | **Gums** | Physiologic epithelial melanin, among other causes of discoloration | **H:** small topical ascorbic-acid trial; stronger early response in an injection comparison arm. **X:** epithelial depigmentation procedures. | A routinely established topical, selective, reversible gum-color controller. |
 | **Lips and other oral mucosa** | Melanocytic and nonmelanocytic pigmentation | **H:** human pathology evidence identifies different causes and compartments. | Transfer of gum-study results to all oral surfaces or other mucosa. |
 | **Hair follicles / hair shaft** | Pigment deposited during fiber growth | Marketed shaft dyes/bleaches exist; **P/H:** follicle biology and observational human repigmentation. | Selectable reversible control of living human follicles; clearing a shaft is different from changing future growth. |
@@ -160,6 +160,26 @@ A primary niacinamide study combined transfer experiments with human facial-pigm
 **Appearance versus pigment mass:** In a small human in-situ comparison designed to produce comparable visible tanning, UVA alone did not significantly increase measured melanin, whereas UVB-containing exposures did. This shows that visible skin color can change without a corresponding increase in pigment mass. It is skin-specific evidence; it does not establish the same optical mechanism or a clearance route in the iris. [Choi et al., 2010](https://pubmed.ncbi.nlm.nih.gov/20147966/).
 
 **Critical storage context:** cultured human keratinocytes show donor-dependent melanosome turnover, and autophagy manipulation changed measured melanin in cultured and ex-vivo human skin models. Other cultured-cell uptake studies and human skin electron microscopy found melanin in compartments that were not highly acidic or degradative. This is context-dependent evidence, not a settled universal clearance route. In human skin explants, supranuclear melanin caps correlated with fewer UV-induced DNA photoproducts; an experimental melanocore-disruption model found weaker protection from disrupted cores. Thus a color change alone would not establish safe, selective clearance. [Donor-dependent turnover](https://pubmed.ncbi.nlm.nih.gov/21326292/), [ex-vivo skin model](https://doi.org/10.1038/jid.2013.165), [nondegradative compartments](https://pubmed.ncbi.nlm.nih.gov/29074272/), [in-situ human skin](https://pubmed.ncbi.nlm.nih.gov/29054596/), [human skin explants](https://pubmed.ncbi.nlm.nih.gov/9579550/), [melanocore model](https://pmc.ncbi.nlm.nih.gov/articles/PMC6056223/).
+
+### Dermal pigment procedures: local fading and body fate are separate
+
+```mermaid
+flowchart LR
+    T["Tattoo ink in dermal cells"] --> X["X: pulsed laser"]
+    X --> F["H: particles fragment;<br/>pigment-cell injury and inflammation"]
+    F --> R["H: tattoo pigment again intracellular<br/>11 days after exposure"]
+    D["Tattoo pigment removed by dermabrasion"] --> N["H: pigment present in regional<br/>lymph nodes three years later"]
+    A["Silver deposits in argyria"] --> Y["X: laser in one human case"]
+    Y --> S["H: smaller particles and lower<br/>silver signal in treated-skin biopsy"]
+    S --> M["H: silver also found<br/>inside macrophages"]
+    S -.-> G["G: no whole-body balance<br/>or excretion measured"]
+    N -.-> G
+    R -.-> G
+```
+
+Human tattoo biopsies show that laser-associated lightening can involve disruption of pigment-containing cells, smaller particles, and inflammation; pigment was again intracellular 11 days later. A separate human case found tattoo pigment in regional lymph nodes three years after the tattoo had been removed by dermabrasion, demonstrating that surface removal does not ensure pigment leaves the body. These are different procedures and should not be conflated. [Human tattoo biopsy study](https://doi.org/10.1111/1523-1747.ep12478570), [regional lymph-node case](https://pubmed.ncbi.nlm.nih.gov/32650854/).
+
+A single generalized-argyria case provides stronger local tissue measurements: after laser treatment, a treated-skin biopsy showed smaller silver-containing particles and markedly lower silver signals, while some residual silver was found in macrophages and on elastic fibers. The authors proposed partial macrophage clearance; the patient had long-lasting visible improvement, but no whole-body silver accounting. It is a metal-deposit case report using a procedure, not evidence for melanin or iris reversal. [Fukayama et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC9309704/).
 
 ## 3. Gums and oral mucosa
 
