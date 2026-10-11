@@ -289,7 +289,7 @@ flowchart TD
     P -.-> R["G: controlled stored-melanin clearance<br/>in intact healthy human tissue"]
     P2 -.-> R
     M --> RF["H + X: 2021 microneedle-RF<br/>report; two skin cases"]
-    RF --> RF1["Post-laser PIH decreased;<br/>background melasma remained"]
+    RF --> RF1["Post-laser PIH disappeared;<br/>background melasma remained"]
     RF --> RF2["Dermatitis-associated<br/>hyperpigmentation decreased"]
     RF1 -.-> R
     RF2 -.-> R
