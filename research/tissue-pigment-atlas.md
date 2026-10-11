@@ -139,7 +139,8 @@ Sources and model details are linked in the sections below and in the [evidence 
 ```mermaid
 flowchart LR
     subgraph surfaces["Renewing epithelial surfaces"]
-        Skin["Skin epidermis"] --> SkinEvidence["H: melanin measured in outer<br/>stratum corneum / corneocytes"]
+        Skin["Skin epidermis"] --> SkinEvidence["H: tape-sample HPLC and in-vivo Raman<br/>detect a surface melanin signal"]
+        Skin --> SkinStain["H: diffuse Fontana–Masson ‘dust’<br/>likely nonspecific silver artifact"]
         Skin --> SkinProxy["H: UVA-pigment fading proxy<br/>small human study, n = 6"]
         Oral["Gingiva / buccal mucosa"] --> OralEvidence["H: melanin in gingival keratinocytes;<br/>observed granules decline toward surface;<br/>proliferation varies by site"]
         Oral --> ShedCellEvidence["H: exfoliative smears sampled gingiva;<br/>melanin was not assayed"]
@@ -151,6 +152,7 @@ flowchart LR
         Iris["Adult iris tissue"] --> IrisEvidence["H: no PCNA / Ki-67-positive nuclei<br/>in examined adult samples"]
     end
     SkinEvidence -.-> SkinGap
+    SkinStain -.-> SkinGap
     SkinProxy -.-> SkinGap["G: complete source-to-surface mass balance<br/>or selective clearance controller"]
     OralEvidence -.-> OralGap["G: melanin mass in shed oral cells<br/>not quantified"]
     ShedCellEvidence -.-> OralGap
@@ -161,6 +163,11 @@ flowchart LR
 ```
 
 Cell renewal can carry pigment-bearing cells out of a surface layer, but calling that selective pigment clearance remains an inference. Human studies have imaged melanin granules in superficial corneocytes and chemically quantified eumelanin and pheomelanin in tape-sampled outer stratum corneum. This establishes a measurable pigment pool at the skin surface, compatible with epidermal desquamation, but does not provide a complete source-to-surface mass balance for native pigment or demonstrate a selective-clearance intervention. A separate six-person human study used fading of UVA-induced forearm pigmentation as an epidermal-turnover proxy. Normal human gingiva ultrastructure identified melanin granules in keratinocytes, and oral biopsies showed site-dependent epithelial S-phase labeling. A saliva-output study counted oral epithelial cells in 17 people and modeled replacement of the whole-mouth surface layer at 2.7 hours using cell-output and tissue-geometry estimates; it did not localize the cells to gingiva or assay their pigment. In rats, BrdU-labeled free-gingival-margin cells progressed from basal layers to the surface in about 82–85 hours, but this is not human timing and did not measure melanin flux. A 1959 exfoliative-cytology study sampled gingiva from 20 clinically healthy men but measured keratinization and cell morphology, not melanin. A separate seven-person cheek-cell study characterized observed granules as keratohyalin-like rather than quantifying melanin. The oral studies therefore do not quantify melanin in shed gingival cells or saliva. A human iris histology study found no PCNA- or Ki-67-positive nuclei in the adult iris samples examined; this is a snapshot, not proof of zero lifetime turnover or a pigment-export route. [Lu et al., 1996](https://pubmed.ncbi.nlm.nih.gov/8881670/), [Matsunaka et al., 2017](https://doi.org/10.1111/srt.12309), [Maeda, 2017](https://www.mdpi.com/2079-9284/4/4/47), [Squier and Waterhouse, 1967](https://doi.org/10.1016/0003-9969(67)90148-3), [Thomson et al., 1999](https://pubmed.ncbi.nlm.nih.gov/10577752/), [Thomson et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11684035/), [Dawes, 2003](https://pubmed.ncbi.nlm.nih.gov/12711376/), [Breschi et al., 1998](https://pubmed.ncbi.nlm.nih.gov/9527566/), [Matsui, 1959](https://www.jstage.jst.go.jp/article/joma1947/71/9-2/71_9-2_6089/_article/-char/en), [van Wyk and van der Vyver, 1983](https://pubmed.ncbi.nlm.nih.gov/6192233/), [Pfeiffer et al., 2001](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/265260).
+
+
+### Surface-pigment signal is not the same as “melanin dust”
+
+The outer skin layer can contain measurable melanin-related material, but the classic diffuse black “melanin dust” seen with Fontana–Masson staining is not reliable proof of degraded melanin particles. In a 2016 comparison using photoprotected human skin from 12 donors across phototypes I–VI, Warthin–Starry staining tracked transmission-electron-microscopy granule counts more closely than Fontana–Masson or Von Kossa; diffuse Fontana–Masson darkening appeared in the stratum corneum even where granules were absent, consistent with nonspecific silver deposition. A separate in-vivo study of 10 volunteers (phototypes II–III) used depth-resolved confocal Raman/fluorescence and detected melanin-associated Raman bands in some outer-layer spectra, including the stratum corneum. That supports a real melanin-associated surface signal, but does not establish the particulate morphology implied by “dust,” identify degradation products, or show where the material goes. Combined with HPLC measurements from tape-sampled outer stratum corneum, the best reading is: surface melanin is measurable; the old diffuse-stain “dust” interpretation is disputed; pigment fate remains untracked. [Joly-Tonetti et al., 2016](https://doi.org/10.1111/exd.13016), [Yakimov et al., 2020](https://doi.org/10.1038/s41598-020-71220-6), [Matsunaka et al., 2017](https://doi.org/10.1111/srt.12309).
 
 ## 2. Skin: production, transfer, clearance, and repigmentation
 
