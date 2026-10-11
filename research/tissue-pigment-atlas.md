@@ -84,7 +84,7 @@ In the United States, the Opzelura label covers repigmentation treatment for non
 flowchart TB
     A["What can currently change pigment or appearance?"]
     A --> S["Epidermal skin"]
-    S --> S1["C: vitiligo repigmentation; EPP photoprotection-related pigment increase<br/>P: stored-melanin reduction signals in models"]
+    S --> S1["C: vitiligo repigmentation; EPP photoprotection-related pigment increase<br/>H + X: low-confidence 2026 PIH PDT report<br/>P: stored-melanin reduction signals in models"]
     S1 --> SG["G: healthy-skin cosmetic shade cycle,<br/>pigment fate, and return"]
     A --> G["Gingiva"]
     G --> G1["H: short-term color-score / lightness findings<br/>X: depigmentation procedures"]
@@ -607,6 +607,28 @@ A separate one-year mouse biodistribution study detected tattoo particles in liv
 A 2025 study found persistent inflammation in mouse draining lymph nodes after tattooing and macrophage apoptosis in both mouse experiments and human monocyte-derived macrophage culture; it also reported vaccine-specific immune effects in mice. A 2026 letter questioned how closely the extensive mouse-footpad exposure represents ordinary tattooing. The authors replied that human macrophage and lymph-node observations support mechanistic relevance but agreed clinical effects need further study. This is a preclinical signal about heterogeneous foreign inks, not evidence that native melanin clearance would have the same effects. [Capucetti et al., 2025](https://doi.org/10.1073/pnas.2510392122), [Kluger, 2026](https://doi.org/10.1073/pnas.2611211123), [Gonzalez reply, 2026](https://doi.org/10.1073/pnas.2613440123).
 
 A single generalized-argyria case provides stronger local tissue measurements: after laser treatment, a treated-skin biopsy showed smaller silver-containing particles and markedly lower silver signals, while some residual silver was found in macrophages and on elastic fibers. The authors proposed partial macrophage clearance; the patient had long-lasting visible improvement, but no whole-body silver accounting. It is a metal-deposit case report using a procedure, not evidence for melanin or iris reversal. [Fukayama et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC9309704/). A separate human case reported recurrence after Q-switched laser treatment. The 2020 authors proposed that ultraviolet exposure might re-darken residual silver through a chemical-state change, but this explanation remains speculative; it illustrates that visible color can shift while metal remains. [Krase et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28296792/).
+
+### 2026 PIH PDT report: a low-confidence clinical signal
+
+A single-center prospective study reports 310 Asian adults with epidermal or dermal post-inflammatory hyperpigmentation (PIH), Fitzpatrick III–IV, assigned to four photodynamic-therapy (PDT) plus recombinant mussel-mucin dressing arms or a standard-laser control. The paper reports 4-week lesion-area reductions of 35.2–42.3% across the combined-treatment arms versus 25.6% in controls. This is a disease-treatment study with a procedural intervention, not a trial of healthy-skin cosmetic shade control.
+
+```mermaid
+flowchart LR
+    A["310 adults with epidermal or dermal PIH<br/>single-center clinical study"] --> B["PDT plus recombinant mussel-mucin dressing<br/>compared with standard laser"]
+    B --> C["Reported: lesion-area change,<br/>melanin optical-density signal,<br/>recurrence and adverse events"]
+    C --> D["Appearance / instrument endpoints<br/>do not identify pigment chemistry or mass"]
+    D --> E["No degradation products, export route,<br/>whole-body fate or healthy-skin cycling"]
+    A -.-> Q["Low confidence pending clarification"]
+    C -.-> Q
+    Q --> R["Design descriptions conflict;<br/>OD, recurrence, adverse-event and DLQI<br/>values disagree across sections"]
+    R --> S["Correction relabeled figures only;<br/>does not resolve these discrepancies"]
+```
+
+Confidence is low pending clarification of internal reporting conflicts. The abstract and an early Methods paragraph describe a prospective controlled, non-randomized/observational study, while a later Methods paragraph says participants were randomized. The abstract's 14-month recurrence estimate (13.2% vs 27.8%) differs from Table 4's arm-level values (15–22% vs 33%). The abstract's phototoxic-reaction rates (6.5% vs 14.1%) also differ from Table 4 (8.3–16.7% vs 26.7%). Table 4 labels 0.28–0.35 optical-density units as melanin-density reductions even though baseline OD is about 0.28–0.29; the abstract instead reports percentage reductions of 31.5% vs 17.2%. DLQI values of 35→68 in the abstract/table exceed the instrument's stated 30-point maximum, while the Results narrative says mean scores changed from 20 to 7. These inconsistencies prevent a dependable synthesis of the numerical outcomes.
+
+The 2026 correction only added chemical labels to figures and states that results and conclusions were unchanged; it did not address the discrepancies above. The study compares a combined PDT-plus-dressing intervention with laser control, so it does not isolate the dressing's contribution. Two authors disclose employment by the dressing manufacturer, and the paper says the dressing is research-only and available in limited quantities for academic collaboration.
+
+Even if the clinical appearance signal is confirmed, lesion area and an optical-density readout are not chemical melanin mass or pigment disposition. The study does not measure pigment breakdown products, movement out of skin, a whole-body mass balance, return to a healthy person's original shade, or repeatable reversal. It therefore does not establish selective clearance or a cosmetic skin-color controller. [Nie et al., 2026](https://doi.org/10.3389/fmed.2025.1654474); [2026 correction](https://doi.org/10.3389/fmed.2026.1831015).
 
 ## 3. Gums and oral mucosa
 
