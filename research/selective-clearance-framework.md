@@ -75,6 +75,25 @@ Some melanin assays deliberately process harvested samples to generate marker co
 
 Color can also depend on a pigment's chemical state. A human argyria case reported recurrent discoloration after laser treatment; a later case report proposed that ultraviolet exposure could re-darken residual silver, but did not establish that mechanism or quantify total silver. This is case-level metal evidence, not a melanin or iris mechanism. It reinforces that appearance and substrate burden require separate endpoints. [Krase et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28296792/), [Fukayama et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC9309704/).
 
+### Measurement hierarchy: color, in-vivo burden proxy, chemical mass, and fate
+
+Appearance endpoints (photographs, colorimetry, or disease scores) can change when pigment amount, depth, geometry, or chemistry changes. In-vivo multiphoton Pseudo-FLIM adds a spatially resolved epidermal estimate: a global fraction of melanin-positive voxels and a depth profile across normalized skin layers. The method has been compared with FLIM and phasor analyses in pigment standards and cell models, and its density estimate correlates with skin-color measures. Authors also report consistency with prior ex-vivo histology/HPLC observations across pigmentation groups; that is not the same as a paired chemical assay of the same site before and after treatment. The optical method is field-of-view limited and detects an image-derived signal, not molecular mass directly. [Peña et al., 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC8803839/).
+
+HPLC analysis of melanin degradation markers is more chemically specific for pigment amount and subtype in a sampled specimen, but requires harvested tissue and does not preserve its layer map. Imaging and HPLC answer different questions. A lower in-vivo signal or lower marker quantity in a biopsy would still need a material-fate account before it could establish selective clearance: the study must distinguish pigment modification, redistribution, shedding, cellular loss, and export.
+
+Human treatment monitoring demonstrates why time and depth belong in that measurement plan. In a 20-person occlusive retinoid study, retinol-associated living-epidermis density remained below baseline at the last scan, day 32 (20 days after the 12-day exposure ended); the study did not demonstrate return by that point. A later in-vivo method analysis found that retinoids limited seasonal melanin ascent into upper epidermal layers and interpreted the effect mainly through epidermal renewal. In a separate 2025 observational melasma study, layer-specific TPM scores decreased during treatment, but the treatment phase lacked an untreated comparator. These human signals support noninvasive tracking in skin; they do not establish pigment-core breakdown, safe export, healthy-tissue cosmetic control, or a reversible cycle. [Tancrède-Bohin et al., 2015](https://pubmed.ncbi.nlm.nih.gov/25220296/), [Tancrède-Bohin et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7754381/), [Ning et al., 2025](https://doi.org/10.1001/jamadermatol.2025.2790).
+
+```mermaid
+flowchart TD
+    A["Appearance<br/>photograph / color score"] --> B["In-vivo optical proxy<br/>global density + depth profile"]
+    B --> C["Chemical assay of sampled tissue<br/>HPLC marker amount / subtype"]
+    C --> D["Material fate<br/>intact pigment, fragments, metabolites,<br/>cells, and export"]
+    A -.-> X["Appearance does not equal mass"]
+    B -.-> Y["Optical signal does not prove<br/>chemical destruction"]
+    C -.-> Z["Sample amount does not prove<br/>where the material went"]
+    D --> E["Function, selectivity, and recovery<br/>remain separate requirements"]
+```
+
 ## Surface-cell export is a distinct route
 
 In a renewing epithelium, pigment still held inside cells could leave with shed cells. That is biologically different from digesting pigment in place or reducing new synthesis. It remains an inference about material fate unless the pigment itself is followed out of the tissue and tissue function is checked. A 2023 full-thickness human skin-equivalent model offers a distinct physical-removal comparison: ten tape strips reduced visible and measured model pigmentation while increasing transepidermal water loss (TEWL), indicating barrier impairment. It did not quantify pigment carried away on the strips or test living human skin. [Goncalves et al., 2023](https://doi.org/10.1002/btm2.10415).
