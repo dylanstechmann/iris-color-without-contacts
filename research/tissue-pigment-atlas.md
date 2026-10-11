@@ -378,7 +378,25 @@ Human fetal RPE cultures provide evidence concerning melanin's photoprotective r
 
 ## 5. The original iris cycle
 
-Human iris chemistry found very low pigment content in blue irides and variation in melanin type across color groups. Histology found no significant difference in stromal melanocyte counts among blue, hazel, and brown irides. **Inference:** a return-to-blue claim should measure the visible anterior-stromal pigment state and standardized optical appearance; melanocyte counts or a whole-eye pigment measure alone are inadequate endpoints. [Iris histology](https://pubmed.ncbi.nlm.nih.gov/8602782/), [human iris pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/).
+Human iris chemistry found very low pigment content in blue irides and variation in melanin type across color groups. Histology found no significant difference in stromal melanocyte counts among blue, hazel, and brown irides. In cultured human uveal melanocytes, growing cells shifted toward pheomelanic pigmentation, while cultures after senescence showed increased pigment content, mainly eumelanin. Those are culture-state observations, not evidence of pigment turnover in an intact adult iris. **Inference:** a return-to-blue claim should measure the visible anterior-stromal pigment state and standardized optical appearance; melanocyte counts or a whole-eye pigment measure alone are inadequate endpoints. [Iris histology](https://pubmed.ncbi.nlm.nih.gov/8602782/), [human iris pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/).
+
+### Natural iris-color changes do not establish pigment clearance
+
+```mermaid
+flowchart TD
+    A["H: Louisville twin study<br/>color grades from age 6 to <24"] --> B["3.8–8.6% changed ≥2 grade units<br/>over 3–9-year intervals"]
+    A --> C["Adult-mother follow-up subset:<br/>9% lightened ≥2 grade units"]
+    D["H: 27-year follow-up of<br/>594 former schoolchildren"] --> E["24.3% lightened; 17.2% darkened;<br/>overall change not significant"]
+    F["H: human iris specimens from<br/>cataract patients aged 70–84"] --> G["Melanosome complexes observed;<br/>clinical significance unresolved"]
+    B --> H["Endpoints: graded appearance<br/>or ultrastructural morphology"]
+    C --> H
+    E --> H
+    G --> H
+    H --> I["No direct tracking of stored<br/>melanin amount or fate"]
+    I --> J["G: natural history does not establish<br/>selective reversible pigment clearance"]
+```
+
+Longitudinal color-grading studies show that a minority of people have iris-color shifts after early childhood, including lightening in some adults. In the Louisville Twin Study, 1,513 individuals were assessed and 1,386 were examined at least twice; among white twins from age 6 to under 24, 3.8%–8.6% changed at least two color-grade units over 3–9-year intervals. In a separate adult-mother subset, 9% lightened by at least two units. A 27-year follow-up of former schoolchildren reported lightening in 24.3% and darkening in 17.2% of 594 re-examined participants, but the overall age-related change was not statistically significant. These studies graded visible color and did not measure iris melanin amount or destination. Electron microscopy of iris specimens from cataract patients aged 70–84 found melanosome complexes in stromal melanocytes; the authors left the clinical significance unresolved. These observations show that appearance and cell ultrastructure can vary with age. They do not establish degradation or export of established pigment, a controllable lightening mechanism, or a return-to-baseline cycle. [Bito et al., 1997](https://pubmed.ncbi.nlm.nih.gov/9152135/), [Meyer-König, 1977](https://doi.org/10.1016/S0047-2484(77)80099-7), [Sugita et al., 1986](https://pubmed.ncbi.nlm.nih.gov/3761741/).
 
 ### Human uveal melanocytes can modulate new pigment production
 
