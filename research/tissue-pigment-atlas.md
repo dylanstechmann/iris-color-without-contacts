@@ -253,7 +253,7 @@ flowchart LR
     T["Tape-sampled outer stratum corneum"] --> Q["H: eumelanin and pheomelanin<br/>quantified by HPLC"]
     Q --> U["Four-person post-UV time course:<br/>sampled surface signal peaked<br/>at weeks 11–15"]
     V["UVA-darkened skin appearance"] --> W["H: six-person fading proxy<br/>estimated turnover at 36.2 ± 6.2 days"]
-    K["H/P, industry report: melanin-rich<br/>stratum corneum had lower KLK5"] --> RET["Proposed slower corneocyte<br/>detachment / pigment retention"]
+    K["H/P, industry report: melanin-rich<br/>stratum corneum had lower KLK5"] -.-> RET["Proposed slower corneocyte<br/>detachment / pigment retention"]
     EX["P, company report: horse-chestnut extract<br/>raised KLK5 and detachment in a 3D model"] --> DET["Pigment in detached cells<br/>not quantified"]
     RET -.-> G
     DET -.-> G
