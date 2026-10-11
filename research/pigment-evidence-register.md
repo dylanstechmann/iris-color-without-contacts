@@ -22,6 +22,8 @@ This is a scoped source register, not a systematic review or a global audit of p
 | [Marubashi and Fukuda, 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC10739166/) | Mouse melanocyte/keratinocyte models | Melanosomal protein degradation without altered melanin content; endpoint distinction. |
 | [FDA tattoo removal](https://www.fda.gov/consumers/consumer-updates/tattoo-removal-options-and-results) | Official U.S. device/consumer information | Cleared laser devices; no approved removal creams. Exogenous dermal pigment is distinct from native melanin. |
 | [Maeda, 2017](https://www.mdpi.com/2079-9284/4/4/47) | Small human study, six men; inner forearm | Fading of UVA-induced pigmentation used as an epidermal-turnover proxy (36.2 ± 6.2 days); not a direct mass balance for all stored melanin or selective clearance. |
+| [Lu et al., 1996](https://pubmed.ncbi.nlm.nih.gov/8881670/) | Human surface corneocytes from exposed and unexposed skin; image analysis | Melanin granules were measured in surface corneocytes and varied with phototype and exposure; documents a superficial pigment pool, not selective removal from the full epidermis. |
+| [Matsunaka et al., 2017](https://doi.org/10.1111/srt.12309) | Human tape-sampled outer stratum corneum; HPLC; 10 healthy subjects plus a four-person time course | Chemically quantified eumelanin and pheomelanin in surface samples over time; a surface-pool measurement, not whole-tissue mass balance or a clearance intervention. |
 
 ## Gums, oral mucosa, and teeth
 
@@ -34,6 +36,7 @@ This is a scoped source register, not a systematic review or a global audit of p
 | [ADA whitening](https://www.ada.org/resources/ada-library/oral-health-topics/whitening) | Official professional clinical information | Dental stains/chromogens and whitening; not evidence for living-tissue melanin clearance. |
 | [Thomson et al., 1999](https://pubmed.ncbi.nlm.nih.gov/10577752/) | In-vitro labeling of 105 samples of clinically normal human oral mucosa from several sites | S-phase labeling varied by oral site; measures proliferation, not full epithelial transit or melanin fate. |
 | [Thomson et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11684035/) | In-vitro labeling of 110 human mandibular gingiva and buccal mucosa samples | Buccal mucosa had a higher S-phase labeling index than mandibular gingiva; this is not a complete turnover-time or pigment-export measurement. |
+| [Squier and Waterhouse, 1967](https://doi.org/10.1016/0003-9969(67)90148-3) | Light and electron microscopy of 60 normal human gingival specimens | Melanin granules were observed in gingival keratinocytes; does not quantify melanin in exfoliated cells or establish clearance. |
 
 ## Eyes
 
