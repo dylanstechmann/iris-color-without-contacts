@@ -345,10 +345,19 @@ flowchart TD
     A["Clinical color endpoints<br/>relative lightness or oral pigmentation index"] --> B["Observed appearance shift<br/>in selected human studies"]
     C["Histology after treatment<br/>area fraction of melanin-forming cells<br/>lower in both active groups at month 6"] --> D["Observed cell-area endpoint"]
     E["Normal epithelial renewal"] -.-> F["Possible loss with shed cells<br/>not directly traced"]
+    H["Scaling and root planing<br/>3 inflamed-gingiva cases"] --> I["Keratinocyte melanosomes decreased<br/>40 days after inflammation resolved"]
+    J["Gingivectomy<br/>5 cases; pigmented tissue excised"] --> K["Melanocytes migrated / divided<br/>days 6–7; keratinocyte pigment by day 50"]
+    K --> L["Repigmentation returned to baseline<br/>within 1.5–3 years in this series"]
+    L -.-> G
     B --> G["Available measurements<br/>do not establish pigment fate"]
     D --> G
     F -.-> G["No chemical total-melanin mass balance,<br/>salivary export measurement,<br/>or post-use return endpoint found"]
 ```
+
+
+A three-case ultrastructural report compared inflamed gingiva with homologous areas 40 days after scaling and root planing. Melanosome counts in keratinocytes were lower after inflammation resolved. The authors raised inflammation as a possible influence on gingival melanin intensity; the study did not quantify visible color, total melanin chemistry, or export. This is a small disease-context observation, not a pigment-control intervention. [Alves et al., 2015](https://doi.org/10.5005/jp-journals-10024-1718).
+
+A five-person surgical gingivectomy series followed repigmentation for five years. Transmission electron microscopy showed melanocytes migrating and dividing at days 6–7; keratinocytes were reported without pigmented material until day 50. Clinical pigmentation returned to baseline by 1.5 years in two people and by 3 years in the other three. This describes repigmentation after removal of pigmented tissue, not selective clearance or a nonsurgical color switch. [Bergamaschi et al., 1993](https://pubmed.ncbi.nlm.nih.gov/8330948/).
 
 ## 4. Eyes: separate compartments
 
