@@ -619,8 +619,10 @@ flowchart TD
     H["Living hair follicle"] --> HP["Pigment production during growth"]
     HP --> HS["Newly pigmented hair shaft"]
     HS --> HC["Marketed shaft dye / bleach<br/>changes existing fiber chemistry"]
-    H --> R["P: rapamycin increased pigmentation<br/>in selected gray/white human follicles ex vivo"]
+    H --> R["P: rapamycin / mTORC1 inhibition increased<br/>pigmentation in selected gray/white HFs ex vivo"]
+    H --> M["P: TSC2 knockdown / mTORC1 activation<br/>reduced follicle pigmentation ex vivo"]
     R -.-> HG["G: controlled in-vivo follicle modulation,<br/>safety, washout and repeatability"]
+    M -.-> HG
     H --> EX["H: 2025 n = 10 mixed-procedure<br/>exosome observational report"]
     EX --> EXG["Repigmentation reported;<br/>cause and effect not established"]
     EXG -.-> HG
@@ -629,7 +631,7 @@ flowchart TD
     N --> ND["Cause-dependent human biology<br/>Procedural case reports are limited evidence"]
 ```
 
-Human-hair experiments show that bleaching can degrade melanin while also damaging fiber proteins. This is existing-shaft chemistry, not follicle control. A separate ex-vivo study treated organ-cultured human scalp follicles with rapamycin: pigmentation increased in a selected subset of gray/white follicles from donors whose follicles still contained melanocytes. It supports a pharmacologically responsive human follicle model, but not treatment of a person; response was donor-dependent and assessed over a short culture period. [Suzuki et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37212043/).
+Human-hair experiments show that bleaching can degrade melanin while also damaging fiber proteins. This is existing-shaft chemistry, not follicle control. An ex-vivo study showed opposite-direction responses to mTORC1 modulation in human scalp follicles: TSC2 knockdown reduced follicle pigmentation, while mTORC1 inhibition with rapamycin increased pigmentation in selected gray/white follicles that still contained melanocytes. This is the closest reviewed example of bidirectional human-tissue melanin modulation, but it was short-term organ culture, donor-dependent, and not treatment in a person. No washout or repeated-switch experiment showed reversibility. [Suzuki et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37212043/).
 
 A 2025 cross-sectional report described repigmentation in 10 patients receiving rose-stem-cell-derived exosomes with varied procedures. The mixed interventions and lack of a control group prevent attribution to the exosomes; the reported follow-up does not establish durable or repeatable control. Together with rare spontaneous within-shaft reversals, this makes hair a promising but distinct research topic: follicular pigment production can change, while a grown shaft is inert and must be recolored or replaced. [Lueangarun et al., 2025](https://pubmed.ncbi.nlm.nih.gov/41201122/), [Rosenberg et al., 2021](https://elifesciences.org/articles/67437).
 
