@@ -56,7 +56,27 @@ flowchart TD
 | **Cartilage / connective tissue in alkaptonuria** | Homogentisic-acid-derived ochronotic pigment | **C/H:** precursor lowering, slower disease progression, and partial pigment regression in human studies. | Complete clearing of every deposit or a mechanism transferable to normal melanin. |
 | **Skin / mucosa / whites of eyes in jaundice** | Excess bilirubin | Cause-specific clinical management. | A melanosome-based explanation or an iris-color treatment. |
 | **Teeth** | Extrinsic stains and intrinsic chromogens | Dental cleaning/whitening methods exist. | Evidence that tooth whitening demonstrates clearance of living-tissue melanin. |
-| **Skeletal muscle / adipose / bone / tendon / other mucosa** | Must be specified by tissue, cell and actual deposit | **Coverage gap:** no dedicated clearance evidence assessment here. | Any claim that this atlas establishes a method for every bodily tissue. |
+| **Skeletal muscle** | Age-associated lipofuscin | **H:** human muscle biopsies identify lipofuscin as an aging-associated pigment. | Selective clearance of native muscle lipofuscin while preserving function. |
+| **Adipose tissue** | Dietary carotenoids, distinct from melanin | **H:** carotenoids measured in healthy human fat; concentrations vary by anatomical site and correlate with diet. | Tissue-selective cosmetic removal of stored carotenoids. |
+| **Bone** | Bone-associated iron in overload; marrow hemosiderin is a separate compartment | **H:** stainable iron at the bone surface is uncommon in routine biopsies and more frequent in verified iron overload. | Selective removal of bone-associated pigment; other bone deposits need separate review. |
+| **Tendon** | Ochronotic homogentisic-acid-derived pigment in alkaptonuria | **H:** human case reports document pigmented, damaged tendons; disease-directed precursor lowering does not establish tendon-specific reversal. | Targeted clearance of established tendon pigment. |
+| **Other mucosa** | Specify site, cell, and actual deposit | **Coverage gap:** no dedicated clearance assessment for every mucosal surface. | Any claim that one mucosal result generalizes across the body. |
+
+### Additional tissues contain different pigment targets
+
+```mermaid
+flowchart LR
+    M["Skeletal muscle"] --> ML["H: age-associated lipofuscin<br/>observed in human muscle"]
+    A["Adipose tissue"] --> AC["H: dietary carotenoids measured;<br/>concentrations vary by site"]
+    B["Bone"] --> BI["H: stainable iron is more evident<br/>in iron-overload cases"]
+    T["Tendon"] --> TO["H: ochronotic pigment<br/>documented in alkaptonuria"]
+    ML -.-> G["G: general, tissue-selective<br/>cosmetic clearance"]
+    AC -.-> G
+    BI -.-> G
+    TO -.-> G
+```
+
+These findings identify different stored materials, not a shared pigment pool: lipofuscin, carotenoids, iron, and ochronotic polymer need separate measurement and disposition models. Clinical management of diagnosed iron overload or alkaptonuria is disease-directed; it does not establish cosmetic, tissue-specific clearance. [Human muscle study](https://pubmed.ncbi.nlm.nih.gov/17376148/), [human adipose carotenoid study](https://pubmed.ncbi.nlm.nih.gov/19587090/), [human bone iron study](https://pubmed.ncbi.nlm.nih.gov/3282446/), [Achilles tendon ochronosis case report](https://pubmed.ncbi.nlm.nih.gov/39027761/).
 
 Sources and model details are linked in the sections below and in the [evidence register](pigment-evidence-register.md). The shared criteria for evaluating a tissue-specific clearance claim are in the [selective clearance framework](selective-clearance-framework.md).
 
