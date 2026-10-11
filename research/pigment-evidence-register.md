@@ -261,6 +261,7 @@ The uveal-cell literature supports modulation of new synthesis in preclinical sy
 
 | Source | Evidence type / model | Endpoint and limit |
 | --- | --- | --- |
+| [Mokrzyński et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37030132/) | Melanosomes isolated from human hair phototypes I–III and V, experimentally photodegraded; pigment photochemistry and melanosome-loaded HaCaT keratinocyte assays | Photodegradation increased photoreactivity and reduced antioxidant capacity; after UV–visible exposure, loaded HaCaT cells showed more cell death, lower mitochondrial membrane potential, and higher lipid hydroperoxides. Isolated pigment/cell-model safety evidence; not a study of intact follicles, routine shaft bleaching, pigment export, or in-vivo clearance. |
 | [FDA hair dyes](https://www.fda.gov/cosmetics/cosmetic-products/hair-dyes) | Official cosmetic information | Marketed shaft cosmetics; product availability does not imply safe use on other tissues. |
 | [Grosvenor et al., 2018](https://doi.org/10.1111/ics.12495) | Ex vivo human hair fibers | Pigment degradation accompanied fiber damage; not living-follicle manipulation. |
 | [Sun et al., 2023](https://www.nature.com/articles/s41586-023-05960-6) | Mouse follicle stem-cell research | Stem-cell states and niche behavior; no selectable human cosmetic controller. |
