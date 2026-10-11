@@ -12,6 +12,9 @@ This is a scoped source register, not a systematic review or a global audit of p
 | [FDA ruxolitinib vitiligo approval](https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-topical-treatment-addressing-repigmentation-vitiligo-patients-aged-12-and-older) | Official U.S. approval and clinical-trial summary | Disease-specific repigmentation; not arbitrary darkening of healthy skin. |
 | [Hakozaki et al., 2002](https://pubmed.ncbi.nlm.nih.gov/12100180/) | Cell/reconstructed epidermis experiments plus human studies | Transfer modulation in models; human facial appearance outcome. Does not prove digestion of existing pigment in people. |
 | [Kim et al., 2020; first published 2019](https://doi.org/10.1111/pcmr.12838) | Cultured human melanocytes and melanosome-containing keratinocytes | Melanosome degradation and lighter cell pellets; no clinical iris or body-wide result. |
+| [Hurbain et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29054596/) | Electron microscopy and tomography of human skin in situ across pigmentation phenotypes | Some keratinocyte melanocore clusters were nonacidic and nondegradative; storage context matters. |
+| [Kobayashi et al., 1998](https://pubmed.ncbi.nlm.nih.gov/9579550/) | Human skin explants | Supranuclear melanin caps correlated with fewer UV-induced DNA photoproducts; native protective function is relevant. |
+| [Yi et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6056223/) | Physically disrupted human melanocores and cultured keratinocyte model | Intact-core structure supported antioxidant and photoprotective properties; disruption model, not an intervention trial. |
 | [Melanophagy study, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC10998605/) | Mainly mouse B16F10 melanoma-cell model; transferred-melanosome keratinocyte comparison | Melanophagy machinery; compartment-dependent findings. Does not establish a human treatment. |
 | [Marubashi and Fukuda, 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC10739166/) | Mouse melanocyte/keratinocyte models | Melanosomal protein degradation without altered melanin content; endpoint distinction. |
 | [FDA tattoo removal](https://www.fda.gov/consumers/consumer-updates/tattoo-removal-options-and-results) | Official U.S. device/consumer information | Cleared laser devices; no approved removal creams. Exogenous dermal pigment is distinct from native melanin. |
@@ -69,7 +72,8 @@ This is a scoped source register, not a systematic review or a global audit of p
 
 | Source | Evidence type / model | Endpoint and limit |
 | --- | --- | --- |
-| [Neuromelanin organelle study, 2018](https://pubmed.ncbi.nlm.nih.gov/29900402/) | Human substantia-nigra tissue characterization | Specialized organelles and retained components; no clinical clearance method demonstrated. |
+| [Neuromelanin organelle study, 2018](https://pubmed.ncbi.nlm.nih.gov/29900402/) | Human substantia-nigra tissue characterization | Long-lived autolysosome-like organelles contain undegraded proteins and lipids; no clinical clearance method demonstrated. |
+| [Zecca et al., 2008](https://pubmed.ncbi.nlm.nih.gov/18988735/) | Chemical analysis of human-brain melanic pigments | Neuromelanins contain melanic, lipid, and peptide components and bind metals; composition differs by brain region. |
 | [Human cardiac/hepatic/adrenal lipofuscin study](https://pubmed.ncbi.nlm.nih.gov/7206299/) | Human tissue study | Documents accumulation; not a clearance intervention. |
 | [Cardiac lipofuscin study, 2021](https://www.sciencedirect.com/science/article/pii/S0014482721001178) | Old rats | Reduced cardiac lipofuscin burden; no human clinical inference. |
 | [Fibroblast lipofuscin study, 2023](https://pubmed.ncbi.nlm.nih.gov/37438887/) | Stressed human fibroblast cultures | Autophagy activation can accompany increased lipofuscin accumulation under processing failure. |
