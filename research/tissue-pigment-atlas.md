@@ -287,6 +287,8 @@ flowchart TD
     T1 --> T2["Relative gingival lightness endpoint<br/>favored AS-G by week 4"]
     TP --> T3["2021: n = 20; topical gel vs injection<br/>gel index not significant at month 1"]
     T3 --> T4["Melanin-stained area fraction fell<br/>in both groups at month 6"]
+    TP --> REV["H: 2026 review pooled 3 RCTs;<br/>clinical score benefit at 1 month,<br/>none at 3 months; high heterogeneity"]
+    REV -.-> G
     T2 -.-> G["G: no post-use return, pigment-mass<br/>or product/export assessment"]
     T4 -.-> G
     B --> I["H + X: intramucosal injections<br/>invasive despite no tissue excision"]
@@ -301,6 +303,8 @@ flowchart TD
 Gingiva now has a small but meaningful topical-only human evidence signal. In a double-masked, split-mouth study of 73 people, a topical ascorbyl-glucoside gel was compared with placebo for 12 weeks; the abstract reports a significant relative difference in the spectrophotometric gingival-lightness endpoint by week 4. The same paper reports tyrosinase inhibition and reduced new melanin formation in separate cell/skin models. **Inference:** reduced synthesis plus normal epithelial turnover could account for some appearance change, but the clinical study did not separate that from loss of pre-existing pigment. It measured visible lightness, not pigment mass or export, and did not establish what happened after treatment stopped. [Shimada et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19186973/).
 
 Results differ across studies and endpoints. A separate randomized study with 20 participants found no significant one-month pigmentation-index change in the topical-gel group, while its injection group responded earlier; the melanin-stained area fraction was lower at six months in both groups. A 2026 randomized study of 20 participants found a lower nine-month clinical pigmentation score when topical ascorbyl glucoside was added after diode-laser depigmentation than after laser alone. Both arms received laser, and the study measured a clinical score rather than pigment mass or fate. Together, these studies justify tracking noninvasive topical modulation as a research lead for gingiva, but do not establish a predictable reversible color controller or a pigment-export route. [El-Mofty et al.](https://pubmed.ncbi.nlm.nih.gov/33966113/), [Gudur et al.](https://pubmed.ncbi.nlm.nih.gov/42147661/).
+
+A 2026 systematic review of eight gingival vitamin C studies pooled three randomized trials using clinical pigmentation scores. It found a statistically significant difference at one month but no significant difference at three months, where heterogeneity was high. The included interventions and comparators were mixed, so these results do not establish durable efficacy for topical-only application. Neither the review nor these indices show pigment mass, product fate, or return to an individual's baseline color. [Valecha et al., 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13472467/).
 
 Scalpel and ablative-laser studies concern removal of pigmented epithelium; recurrence is a relevant outcome. These are procedural comparisons, distinct from preservation of the existing tissue through molecular modulation. Oral pathology also distinguishes melanocytic pigmentation from deposits such as amalgam tattoos. [Procedure trial](https://pubmed.ncbi.nlm.nih.gov/31983845/), [oral pathology series](https://pmc.ncbi.nlm.nih.gov/articles/PMC8141314/). Red, swollen, bleeding gums belong to an inflammatory branch. [NIDCR](https://www.nidcr.nih.gov/health-info/gum-disease).
 
