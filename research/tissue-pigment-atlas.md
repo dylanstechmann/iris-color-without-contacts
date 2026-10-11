@@ -449,6 +449,22 @@ flowchart TD
     C --> O["Cause-specific assessment<br/>not automatically a melanin-clearance target"]
 ```
 
+### Oral-cell atlases expose a model-fit question
+
+```mermaid
+flowchart LR
+    A["H: 2025 comparative human–mouse oral-mucosa atlas<br/>34,969 integrated cells"] --> H["Authors identified melanocytes<br/>as a human-specific population"]
+    A --> M["No matching population identified<br/>in the analyzed mouse data"]
+    U["H: 2026 adult human oral atlas<br/>>250,000 cell profiles; 13 niches"] --> U1["Melanocytes annotated in the<br/>integrated human cell atlas"]
+    H --> I["Inference: some mouse oral models<br/>may omit a human melanocyte component"]
+    M --> I
+    H --> G["G: cell identity does not measure<br/>melanin mass, shedding, or clearance"]
+    U1 --> G
+    I --> G
+```
+
+A 2025 comparative single-cell transcriptomic atlas integrated 34,969 human and mouse oral-mucosa cells and identified melanocytes among the human-specific populations in its analysis. A separate 2026 adult human oral-cavity atlas profiled more than 250,000 single-cell transcriptomes across 13 niches and annotated melanocytes in the integrated human atlas. **Inference:** the comparison raises a model-fit caveat: mouse oral models may not represent every aspect of human oral melanocyte biology. “Human-specific” describes the populations identified in the analyzed datasets; it does not prove that melanocytes are absent from every mouse oral site. Neither atlas measured chemical melanin mass, pigment in naturally shed cells, export, or treatment-linked clearance. [Luo et al., 2025](https://pubmed.ncbi.nlm.nih.gov/40751276/), [Matuck et al., 2026](https://doi.org/10.1016/j.cpblue.2026.100007).
+
 ### A gum color can span more than one tissue layer
 
 ```mermaid
