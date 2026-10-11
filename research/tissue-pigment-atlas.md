@@ -253,6 +253,10 @@ flowchart LR
     T["Tape-sampled outer stratum corneum"] --> Q["H: eumelanin and pheomelanin<br/>quantified by HPLC"]
     Q --> U["Four-person post-UV time course:<br/>sampled surface signal peaked<br/>at weeks 11–15"]
     V["UVA-darkened skin appearance"] --> W["H: six-person fading proxy<br/>estimated turnover at 36.2 ± 6.2 days"]
+    K["H/P, industry report: melanin-rich<br/>stratum corneum had lower KLK5"] --> RET["Proposed slower corneocyte<br/>detachment / pigment retention"]
+    EX["P, company report: horse-chestnut extract<br/>raised KLK5 and detachment in a 3D model"] --> DET["Pigment in detached cells<br/>not quantified"]
+    RET -.-> G
+    DET -.-> G
     X -.-> G["G: cumulative pigment mass<br/>leaving a defined skin area"]
     S -.-> G
     Q -.-> G
@@ -260,6 +264,8 @@ flowchart LR
     W -.-> G
     G --> R["Research endpoint: pair surface output<br/>with residual tissue burden,<br/>pigment chemistry, and barrier function"]
 ```
+
+An industry-reported lead offers a possible link between the surface pigment pool and normal shedding. A 2021 SCCJ presentation and a 2022 Japanese technical article by FujiFilm researchers described lower KLK5 in melanin-rich stratum corneum, and increased KLK5 expression plus easier corneocyte detachment after horse-chestnut extract in a 3D skin model. The company describes analyses of human skin and a melanin-rich model; its public page frames increased melanin exit as an expected consequence of shedding. Accessible records do not give sample sizes or full methods, and they do not report a chemical assay of pigment in the detached cells or a residual-skin mass balance. This is a mechanistic lead for a natural surface-exit route, not evidence of a human pigment-clearance intervention or return cycle. [Furuta and Homma, 2022](https://cir.nii.ac.jp/crid/1520293279501192192), [SCCJ 2021 program](https://www.sccj-ifscc.com/event/abstracts/2021), [FujiFilm research page](https://ls-jp.fujifilm.com/astaliftbrand/science/topics/horny-cell.html).
 
 ### Surface-pigment signal is not the same as “melanin dust”
 
