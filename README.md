@@ -38,7 +38,7 @@ Hair is a separate follicle-control problem: a 2026 prospective oncology cohort 
 
 ## Research notes
 
-- [Tissue pigment atlas: 78 Mermaid diagrams covering skin, gums, eyes, and other body compartments, including a tissue-by-tissue availability map, disease-associated iris pigment release, and an OCA2 patent evidence review](research/tissue-pigment-atlas.md)
+- [Tissue pigment atlas: 79 Mermaid diagrams covering skin, gums, eyes, and other body compartments, including a tissue-by-tissue availability map, disease-associated iris pigment release, an OCA2 patent review, and ocular photoprotection/selectivity constraints](research/tissue-pigment-atlas.md)
 - [Framework for selective pigment clearance](research/selective-clearance-framework.md)
 - [Pigment evidence register: models, endpoints, clinical indications, and limitations](research/pigment-evidence-register.md)
 - [Bidirectional modulation and the reversibility requirement](research/bidirectional-reversibility.md)
