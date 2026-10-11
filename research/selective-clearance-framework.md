@@ -27,6 +27,34 @@ flowchart TD
 
 Each arrow is a separate research question. Lowering new synthesis changes the input to a pigment pool. It does not by itself demonstrate that material already stored in the tissue has disappeared. Likewise, loss of a melanosome protein, a lower optical signal, or a lighter-looking surface does not alone establish molecular pigment removal. In a mouse keratinocyte model, proteins on incorporated melanosomes degraded while melanin content remained unchanged. A skin-cell study and a separate melanophagy study provide mechanism-level evidence for melanosome degradation in specific models; neither establishes the same process in every tissue. [Endpoint study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10739166/), [human skin-cell study](https://doi.org/10.1111/pcmr.12838), [melanophagy study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10998605/).
 
+## A melanosome can be disassembled while its pigment core persists
+
+A melanosome contains a chemically stable melanin core plus membranes and melanosomal proteins. These are different clearance substrates. In a mouse keratinocyte model, Rab7B/42- and LAMP1-positive compartments promoted degradation of melanosomal proteins, while measured melanin content remained unchanged even after two weeks. Earlier in-vitro lysosome work likewise reported breakdown of melanosome constituents without digestion of the melanin moiety. This makes protein-marker loss or fewer intact organelles an insufficient endpoint for pigment removal. [Marubashi and Fukuda, 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC10739166/), [Otaki and Seiji, 1971](https://pubmed.ncbi.nlm.nih.gov/5556529/).
+
+There is also evidence that total measured pigment can fall in some tissue models: autophagy activation lowered melanin measurements in human skin substitutes and ex-vivo skin, and a 2026 model of human keratinocytes loaded with mouse melanoma-derived melanosomes reported lower absorbance under a proposed lysosomal-oxidative mechanism. Those results are not yet a demonstrated polymer-to-products mass balance in intact living human tissue. Differences in cell differentiation, epidermal shedding, oxidative modification, and assays may explain why studies report different endpoints; that is an inference, not a settled explanation. Oxidative loss also needs a function and product-fate assessment: isolated human RPE granules formed soluble degradation products that generated superoxide under blue light in vitro. [Murase et al., 2013](https://doi.org/10.1038/jid.2013.165), [Zhao et al., 2026](https://doi.org/10.1111/jocd.70770), [Dontsov et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37685907/).
+
+One 2016 HeLa-cell report attributed reduced melanin-associated color intensity to lysosomal/peroxisomal activity, but its available abstract does not resolve direct pigment-mass loss or product disposition. A separate fungal laccase study decolorized isolated synthetic and human-hair melanin outside living human tissue. These are biochemical leads, not established mammalian tissue-clearance routes. [Park et al., 2016](https://doi.org/10.1007/s11010-015-2645-2), [Park et al., 2021](https://pubmed.ncbi.nlm.nih.gov/34346036/).
+
+```mermaid
+flowchart TD
+    M["Melanosome: melanin core<br/>plus membranes and proteins"] --> L["Lysosomal / Rab trafficking"]
+    L --> P["P: protein and membrane<br/>processing in cell models"]
+    P --> C["P: one mouse keratinocyte assay<br/>retained melanin after 2 weeks"]
+    M --> T["Tissue-level pigment measurement"]
+    T --> E["P: human skin substitutes and<br/>ex-vivo skin show lower total melanin<br/>under some autophagy conditions"]
+    E -.-> U["Route may include intracellular loss,<br/>cell differentiation or surface turnover;<br/>cause and fate not resolved"]
+    M --> O["Oxidative breakdown hypotheses"]
+    O --> R["P: loaded keratinocyte / cell-free<br/>and isolated RPE pigment models"]
+    R --> B["Measure products, photoreactivity,<br/>export and tissue function"]
+    F["External fungal-enzyme assays"] --> D["P: isolated pigment decolorized;<br/>not a mammalian intracellular route"]
+    C --> G["G: quantitative polymer loss,<br/>safe product handling and export<br/>in intact human tissue"]
+    U --> G
+    B --> G
+    D --> G
+```
+
+This distinction defines the next evidence gate: show chemical loss of the melanin core itself, identify breakdown products, measure their fate outside the target compartment, and preserve the tissue's normal function. A lower color or organelle-protein signal is not enough.
+
 ## Appearance and pigment burden require separate endpoints
 
 ```mermaid
