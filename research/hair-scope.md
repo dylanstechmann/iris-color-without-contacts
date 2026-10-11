@@ -14,7 +14,9 @@ A complementary human mini-organ experiment found opposite-direction responses t
 
 A 2025 observational report described repigmentation in 10 patients who received rose-stem-cell-derived exosomes using varied procedures. With no control group and multiple procedural approaches, it cannot isolate an exosome effect or establish a reliable, durable controller. [Lueangarun et al., 2025](https://pubmed.ncbi.nlm.nih.gov/41201122/).
 
-Thus the evidence now spans spontaneous within-shaft transitions, a short-term ex-vivo response in selected human follicles, and a very small uncontrolled clinical report. None demonstrates a standardized, controlled, repeatable treatment for living people.
+A 2026 prospective single-center cohort compared 18 patients receiving PD-1/PD-L1 inhibitor-containing cancer regimens with 11 receiving chemotherapy alone. Trichoscopic grayscale darkening was greater in the immunotherapy group (mean Δ 23.5 ± 24.67 vs 4.32 ± 9.01; p=.0065), but most patients in the ICI group also received chemotherapy, treatment was not randomized, and the groups differed in tumor mix. The measure is a hair-image darkness proxy, not melanin mass; the study did not test treatment withdrawal or repeat switching. Seven of 18 ICI-group patients experienced alopecia. This is oncology-associated follicular plasticity evidence, not a cosmetic intervention. [Jiang et al., 2026](https://pubmed.ncbi.nlm.nih.gov/42387269/).
+
+Thus the evidence spans spontaneous within-shaft transitions, short-term ex-vivo modulation in selected human follicles, small uncontrolled reports, and a 2026 prospective but nonrandomized oncology cohort. None demonstrates a standardized, controlled, repeatable cosmetic treatment for living people.
 
 **Inference for the proposed scope:** modulation of pigment production in a follicle would primarily be evaluated in newly formed hair segments. It would not amount to biological recoloring of an already-grown external hair shaft. This is a different endpoint from reducing pigment already resident in an adult iris.
 
