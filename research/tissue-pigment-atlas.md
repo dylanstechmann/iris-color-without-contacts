@@ -1978,31 +1978,6 @@ flowchart LR
 
 **Inference:** human evidence supports several distinct trajectories—persistence, recurrence, visible fading, repigmentation, and partial measured loss. It does not support one shared “color off switch.” The strongest reviewed example of measured stored-pigment reduction is tied to a specific precursor–deposit system in alkaptonuria. That result cannot be generalized to native melanin in skin, gums, iris, or other organs. A useful clearance claim needs both a tissue-appropriate appearance endpoint and a direct pigment amount/chemistry or disposition endpoint, plus function and recovery measurements.
 
-## Research requirements shared across tissues
+## Cross-tissue research requirements
 
-A future selective-clearance claim would need to identify the pigment chemically; locate it in the relevant cells or extracellular compartment; measure actual pigment loss separately from reduced synthesis or marker loss; account for breakdown products; and show preservation of tissue function.
-
-A reversible system would additionally need evidence for return to the original appearance, spatial uniformity, and repeat cycles. The reviewed literature offers several tissue-specific footholds. It does not establish selective pigment removal across all bodily tissues.
-
-### A reversible controller has separate objectives
-
-A visible darkening or lightening is not itself evidence that the stored pigment pool moved in the desired direction. New pigment production, transfer between cells, intracellular processing, tissue export, and surface shedding are distinct state changes. A theoretical system would need a tissue-specific actuator for each direction, a direct measure of the pigment pool and its fate, and evidence that pigment-producing cells and tissue function remain intact. The return step must restore the person's own baseline, not simply add pigment again. These criteria distinguish a color-control concept from the tissue-specific findings reviewed above.
-
-```mermaid
-flowchart LR
-    GOAL["Choose tissue, pigment chemistry,<br/>target compartment, and baseline"] --> AXES["Separate state variables:<br/>new synthesis / transfer<br/>stored pigment amount / location<br/>tissue function"]
-    AXES --> UP["Increase appearance:<br/>new synthesis or transfer may change<br/>the visible signal"]
-    AXES --> DOWN["Decrease appearance:<br/>reduce new synthesis, redistribute,<br/>or clear stored pigment"]
-    UP --> READ["Measure separately:<br/>appearance + pigment burden<br/>cell identity + tissue function"]
-    DOWN --> READ
-    DOWN -.-> FATE["For stored-pool clearance:<br/>identify breakdown products,<br/>destination, and exit from tissue"]
-    FATE -.-> READ
-    READ --> SELECT{"Target compartment changes<br/>while neighbors and function<br/>remain within baseline?"}
-    SELECT -->|No / unknown| GAP["Not demonstrated as<br/>selective control"]
-    SELECT -->|Yes| WITHDRAW["Withdraw actuator and follow<br/>baseline recovery, spatial uniformity,<br/>and repeat cycle"]
-    WITHDRAW --> CYCLE["Reversible control established<br/>only for this tissue, target,<br/>and measured conditions"]
-    UP -.-> WARN["Darkening does not prove<br/>stored pigment was restored"]
-    DOWN -.-> WARN
-```
-
-The diagram is a research-evaluation framework, not a treatment design. Its “stored pigment” branch is the unresolved step in several tissues: a lower color score or lower cell signal cannot by itself distinguish less synthesis, redistribution, altered optical state, degradation, or export.
+The tissue evidence and diagrams live in this atlas. The shared evidence ladder—pigment identity, compartment, measured burden, function, material fate, selectivity, and return to baseline—lives in the [selective-clearance framework](selective-clearance-framework.md). The original iris scenario and its success criteria live in [bidirectional iris reversibility](bidirectional-reversibility.md).
