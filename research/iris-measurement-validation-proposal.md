@@ -13,6 +13,8 @@ Can standardized noninvasive iris imaging estimate the amount and type of pigmen
 | **PS-AS-OCT:** 88 participants, all with brown irides | Entropy-derived stromal MCR correlated with photographed CIE L*a*b* values; three-grade classification accuracy was 85%. | Chemical melanin calibration, blue-iris performance, or response to a real pigment change. [Li et al., 2025 online / 2026 print](https://pubmed.ncbi.nlm.nih.gov/41432634/) |
 | **Older RGB / reflectance model** | An inverse-Monte-Carlo model produced in-vivo image-based concentration estimates using ex-vivo reflectance inputs. | Direct chemical measurements from the imaged eyes; estimates depend on simplified layer and optical-property assumptions. [Bashkatov et al., 2006](https://doi.org/10.1117/12.659176) |
 | **Human iris chemistry** | Chemical degradation quantified eumelanin and pheomelanin in microdissected iris fractions; pigment profiles differed by compartment and color. | A paired optical readout from the same eyes. The accessible abstract also describes an IPE-scraped fraction as mostly stroma plus anterior IPE, so fraction purity and nomenclature need explicit verification. [Prota et al., 1998](https://pubmed.ncbi.nlm.nih.gov/9778410/) |
+| **IPE separation** | Enzyme-assisted microdissection separated postmortem human IPE from stroma for cell isolation and culture. | This does not establish chemical purity or pigment recovery in uncultured fractions; cultured IPE pigment diluted during cell division. [Hu et al., 1992](https://pubmed.ncbi.nlm.nih.gov/1634342/) |
+| **Melanin marker chemistry** | A five-marker HPLC method for eumelanin and pheomelanin degradation products was evaluated with reference melanins, hair, and human epidermis. | The method has not been validated in iris fractions, and marker specificity depends on degradation chemistry; alkaline peroxide can generate PTCA from pheomelanin. [Ito et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7404343/), [Ito and Wakamatsu, 1998](https://pubmed.ncbi.nlm.nih.gov/9585251/) |
 | **Donor-eye optical imaging** | Anterior-segment OCT can image structures in human donor eyes before tissue sectioning. | Pigment-specific optical calibration. Postmortem imaging also cannot by itself establish performance in living eyes. [Human donor-eye angle imaging](https://www.nature.com/articles/s41598-023-37248-0) |
 
 The first study should answer **measurement validity**, not treatment feasibility. It should also avoid assuming that iris color categories are chemical standards: whole-iris chemical studies have reported different color-group contrasts, and they do not isolate the visible stromal target. [Menon et al., 1992](https://pubmed.ncbi.nlm.nih.gov/1402293/), [Wielgus and Sarna, 2005](https://pubmed.ncbi.nlm.nih.gov/16280011/).
@@ -35,9 +37,26 @@ Keep image analysis blinded to the chemical results. Record geometry, illuminati
 
 ### 3. Compartment-resolved chemical reference
 
-Microdissect the anterior stromal fraction and posterior IPE separately after optical imaging. Validate fraction purity and document unavoidable boundary contamination. Quantify eumelanin- and pheomelanin-specific degradation markers in each fraction using an established chemical assay; normalize to assayed tissue mass and report marker values as well as any converted pigment estimate. If sample quantity permits, an orthogonal total-pigment assay may be an exploratory check, not a replacement for the compartment-specific endpoint.
+Microdissect the anterior stromal fraction and posterior IPE separately after optical imaging, using uncultured tissue for pigment quantification. Human postmortem IPE separation has been demonstrated for cell isolation and culture, but that does not establish chemical purity or recovery in fresh fractions. Published iris chemistry also uses an “IPE-scraped” fraction that included mostly stroma plus anterior IPE. Treat each fraction as an operational sample: document its anatomical boundaries and verify identity and carryover before interpreting pigment values. [Hu et al., 1992](https://pubmed.ncbi.nlm.nih.gov/1634342/), [Prota et al., 1998](https://pubmed.ncbi.nlm.nih.gov/9778410/).
 
-### 4. Analysis and decision gates
+Use chemical degradation with HPLC to quantify eumelanin- and pheomelanin-associated markers, normalize to assayed tissue mass, and report raw marker values. A five-marker panel has been evaluated in reference melanins, hair, and human epidermis, but its performance cannot be assumed to transfer to iris fractions. Some alkaline peroxide conditions can also generate PTCA from pheomelanin, so marker choice and conversion to pigment mass require method-specific validation. [Ito et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7404343/), [Ito and Wakamatsu, 1998](https://pubmed.ncbi.nlm.nih.gov/9585251/).
+
+If tissue quantity permits, electron-spin resonance may serve as an exploratory whole-iris cross-check; it does not validate stromal or IPE-specific values. [Wielgus and Sarna, 2005](https://pubmed.ncbi.nlm.nih.gov/16280011/).
+
+### 4. Assay feasibility before paired calibration
+
+Before the full optical-chemistry cohort, run a small assay-only feasibility phase on donated eyes. This is an analytical-method gate, not a test of pigment change. It should establish:
+
+- repeatable compartment separation and anatomical labeling, with boundary carryover assessed using registered histology, serial sections, or another validated identity method;
+- matrix-specific assay performance at the tissue quantities available, including blanks, reference materials, recovery, replicate precision, marker interference, and limits of detection and quantification;
+- whether the light-iris stromal samples and IPE samples can be quantified separately. Values below the validated quantification limit should be reported as below limit, not as zero;
+- whether marker-to-pigment conversion is defensible for the observed marker profile. If not, report marker abundance without claiming total melanin mass.
+
+Define acceptance thresholds before the paired validation study, based on the smallest difference the project would need to detect and the pilot's measurement variability. The literature reviewed here does not provide a universal purity, recovery, repeatability, or sensitivity threshold for iris fractions.
+
+**Assay go / no-go:** if fraction carryover or assay performance cannot be bounded at the required scale, stop the calibration study or relabel it as exploratory marker chemistry. Proceed to paired optical calibration only after the assay can separately and reproducibly quantify the target fractions.
+
+### 5. Analysis and decision gates
 
 - Test whether stromal PS-AS-OCT signal predicts chemically measured stromal pigment, and whether the IPE signal predicts IPE pigment; do not pool compartments.
 - Compare optical pigment estimates with visible CIE color as separate outcomes.
@@ -57,7 +76,9 @@ All arrows below describe a study to be evaluated, not an established clinical p
 flowchart LR
     A["Donated intact eye<br/>record donor + postmortem metadata"] -.-> B["Standardized visible imaging<br/>+ PS-AS-OCT; repeat acquisitions"]
     B -.-> C["Microdissect anterior stroma<br/>and posterior IPE separately"]
-    C -.-> D["Assay eu-/pheomelanin markers<br/>and verify fraction purity"]
+    C -.-> Q{"Assay feasibility:<br/>purity, recovery, sensitivity<br/>and repeatability adequate?"}
+    Q -. "fails" .-> J["Stop or relabel as<br/>exploratory marker chemistry"]
+    Q -. "passes" .-> D["Measure validated melanin markers<br/>in separated fractions"]
     B -.-> E["Blinded optical analysis<br/>and repeatability estimates"]
     D -.-> F{"Donor-level validation:<br/>does each signal predict<br/>its own compartment's pigment?"}
     E -.-> F
