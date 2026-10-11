@@ -41,6 +41,18 @@ flowchart LR
     S -.-> C["No chosen color, melanin-mass change,<br/>clearance, or return endpoint was tested"]
 ```
 
+### Baseline iris melanin may also change drug uptake
+
+In a rabbit comparison, measured iris-ciliary melanin was highest in brown irides (47.43 μg/mg), lower in blue irides (34.73 μg/mg), and below detection in whitish albino eyes. Uptake of the melanin-affine fluoroquinolone sparfloxacin followed the same order: 15.46, 8.53, and 1.9 μg/g, respectively. This is a cross-phenotype animal pharmacokinetic comparison, not a melanin-changing intervention or a human clinical finding; it suggests that changing pigment could also change how some drugs partition into ocular tissue, a possibility that has not been tested in a reversible pigment cycle. [Fukuda and Sasaki, 1994](https://pubmed.ncbi.nlm.nih.gov/8090430/).
+
+```mermaid
+flowchart LR
+    I["Rabbit iris phenotype"] --> M["Measured melanin:<br/>brown > blue > albino"]
+    I --> U["Sparfloxacin uptake:<br/>brown > blue > albino"]
+    M -.-> P["P: pattern is consistent with<br/>melanin-associated drug uptake"]
+    P -.-> G["G: no pigment intervention or<br/>human pharmacokinetic consequence tested"]
+```
+
 ## Evidence for increasing pigmentation
 
 Direct experiments in cultured human uveal melanocytes show that new melanin synthesis is signal-responsive; α-methyl-p-tyrosine prevented a latanoprost-induced synthesis increase. A seven-day human donor-iris organ culture found increased tyrosinase mRNA in 6 of 30 culture sets, with no response in blue-iris cultures. A small six-month rabbit study reported lower end-point total melanin in one inhibitor-plus-inducer cohort than in its inducer-only fellow eyes (three rabbits in that cohort), but the abstract conflicts with the results table and the cohort's “blue” label referred to an ear mark, not iris color. No baseline tissue-pigment assay or post-withdrawal return was measured. [Drago et al., 1999](https://pubmed.ncbi.nlm.nih.gov/9986745/), [Lindsey et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11405836/), [Sadiq et al., 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9674870/).
