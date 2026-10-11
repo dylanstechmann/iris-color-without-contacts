@@ -65,7 +65,7 @@ flowchart TB
     H --> H1["Cosmetic shaft dyes / bleaches<br/>Change existing fiber chemistry"]
     H --> H2["P/H: follicle pigment research<br/>No controlled in-vivo reversible cycle"]
     Q --> E["Eye"]
-    E --> E1["Anterior iris: H drug-associated darkening<br/>X: photoablative laser procedure reported<br/>No established reversible, nonprocedural color change"]
+    E --> E1["Anterior iris: H drug-associated darkening<br/>P: OCA2 RNAi signal in ex-vivo mouse irises (patent)<br/>X: photoablative laser; no established reversible nonprocedural method"]
     E --> E2["RPE: disease-directed bisretinoid research<br/>A separate target from visible iris melanin"]
     Q --> V["Other pigment-bearing tissues"]
     V --> V1["C: disease treatment for iron overload<br/>and ochronosis precursor reduction"]
@@ -95,7 +95,7 @@ flowchart TB
     A --> H["Hair"]
     H --> H1["Cosmetic dyes / bleach alter existing shaft<br/>P/H: follicle biology, no controlled in-vivo cycle"]
     A --> I["Anterior iris"]
-    I --> I1["H: drug-associated darkening in some eyes<br/>X: photoablative laser procedure reported<br/>FDA: no approved eye-color drops"]
+    I --> I1["H: drug-associated darkening in some eyes<br/>P: small ex-vivo mouse iris signal in patent<br/>X: laser procedure; FDA: no approved color drops"]
     I1 --> IG["G: selective pigment decrease<br/>and return to baseline"]
     A --> R["Retinal pigment epithelium"]
     R --> R1["P: selected bisretinoid / lipofuscin work<br/>This is a different target from iris melanin"]
@@ -1346,6 +1346,30 @@ The human-cell evidence makes **new-pigment production** a real experimental con
 Target-selectivity caveat: the 1999 study calls its α-methyl-p-tyrosine preparation a tyrosinase inhibitor, while current U.S. labeling for metyrosine describes tyrosine-hydroxylase inhibition as its established pharmacology in catecholamine biosynthesis. The ocular experiments do not establish an iris-specific target or a melanin-only effect. [DailyMed metyrosine label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1b7897b4-7681-4b99-8883-d5dc33f86c01).
 
 A 2022 rabbit study provides a low-confidence in-vivo signal for suppressing an induced pigment increase. In one cohort of three rabbits, a co-treated eye had a lower endpoint melanin measurement than the fellow eye exposed to the pigment-inducing drug alone (9.56 vs 13.73 μg/g; p=.022). The study also reported mixed photographic outcomes and no significant endpoint melanin difference between eyes in its inhibitor-only cohort. Its group names came from colors painted on the rabbits' ears, not iris color. The abstract reports 3.73 μg/g for the control eye while the results text and table report 13.73 μg/g. A 2026 APAO abstract by overlapping authors describes the same n=12 design and matching measurements, reporting the table-consistent 13.73 μg/g; it appears to be a conference presentation of this study, not an independent replication. [APAO 2026 abstract book](https://2026.apaophth.org/wp-content/uploads/sites/8/abstract-book_all-in-one_v2.pdf). The small sample, internal value discrepancy, lack of a baseline tissue assay, no post-withdrawal follow-up, and systemic signs in the inhibitor-only cohort limit inference and safety claims. This is evidence about inhibition during an induced response, not proof that stored pigment was actively degraded or exported. No human iris-lightening result or return-to-blue cycle was tested. [Sadiq et al., 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9674870/).
+
+### A new OCA2 patent application reports a mouse-iris signal
+
+A published OCA2-modulation patent application is directly relevant to the eye-color hypothesis. It describes RNA-interference knockdown of OCA2 expression; this is a proposed expression-control route, not a DNA-editing result. Earlier peer-reviewed work showed OCA2 knockdown changes melanosome biology and reduces pigment in melanocyte cell models, without testing intact iris tissue. [Park et al., 2015](https://doi.org/10.1007/s11010-015-2337-y).
+
+The application reports a 14-day ex-vivo murine-iris experiment with six treated explants and three scrambled-control explants. Background-normalized image saturation rose from about 48 to 67 in the treated group and 49 to 53 in controls; representative histology was described as showing less pigment. The saturation metric is not melanin mass and does not by itself specify movement toward blue. The application does not report a chemical pigment assay, product/export accounting, or OCA2 knockdown measured in the same iris explants used for the color outcome; a separate SOX10 knockdown experiment serves as a transfection surrogate. The human-iris and living-animal sections describe proposed methods without corresponding outcome data. The claimed return of pigment after stopping RNAi is not demonstrated.
+
+This is a preliminary patent-disclosed ex-vivo signal. It has no peer-reviewed replication, living-animal efficacy, human intervention, ocular-function or photoprotection result, compartment-specific targeting result, or post-withdrawal recovery data. The application also notes that OCA2 is expressed in both stromal melanocytes and the iris pigment epithelium, leaving cell-compartment selectivity unresolved. [WO2024201471A1](https://patents.google.com/patent/WO2024201471A1/en), [U.S. publication 20260286365A1](https://patents.justia.com/patent/20260286365), [atlas evidence register](pigment-evidence-register.md).
+
+```mermaid
+flowchart LR
+    P["Patent application: OCA2 expression modulation<br/>RNAi concept; not DNA editing"]
+    P --> C["Peer-reviewed melanocyte cells:<br/>OCA2 knockdown changes melanosomes<br/>and lowers pigment"]
+    P --> M["Patent-reported ex-vivo mouse iris<br/>n=9: image-saturation shift;<br/>representative histology"]
+    M -.-> Q["No chemical melanin mass,<br/>products, or export balance"]
+    M -.-> S["OCA2 knockdown in these same<br/>iris samples not reported"]
+    P -.-> H["Human iris and living-animal studies:<br/>methods described; outcomes absent"]
+    P -.-> R["Pigment return after stopping:<br/>claimed concept; no experiment reported"]
+    C --> G["G: adult human iris color control,<br/>compartment selectivity, ocular function,<br/>pigment fate, and reversible return"]
+    Q --> G
+    S --> G
+    H --> G
+    R --> G
+```
 
 ### A systemic precursor shift produced different skin, hair, and iris signals
 
