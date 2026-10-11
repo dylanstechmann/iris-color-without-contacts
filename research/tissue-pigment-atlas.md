@@ -155,7 +155,7 @@ The labels describe different kinds of evidence: **C** is indication-specific cl
 | **Airways / lung-draining lymph nodes** | Inhaled carbon and other particles within macrophages | **H:** human bronchoscopy, biopsy, and node studies document anthracotic macrophages. | Safe selective extraction; visible deposits do not measure the full particle burden or associated fibrosis. |
 | **Colon mucosa** | Lipofuscin-like pigment in lamina-propria macrophages in melanosis coli; the name does not mean ordinary melanin | **H:** human histology identifies pigment-laden macrophages; observational cases document endoscopic disappearance after the inducing anthraquinone exposure ends. | Direct pigment mass/export after resolution, a selective intervention, or transfer to other pigments and organs. |
 | **Esophageal mucosa** | Rare melanocytic proliferation with melanin deposition in squamous mucosa | **H:** human case reports/series document esophageal melanocytosis and distinguish it from melanoma. | Natural history, selective clearance, or generalization to other mucosal surfaces. |
-| **Other mucosa** | Site-specific melanin in melanocytes or epithelial cells; many different surfaces | **H:** oral, nasal, laryngeal, vulvar, cervical, anorectal, and rare esophageal findings have been described, but study designs and compartments differ. | No selective clearance assessment; normal vaginal distribution and many other mucosal sites remain underassessed. |
+| **Other mucosa** | Site-specific melanin in melanocytes or epithelial cells; many different surfaces | **H:** oral, nasal, laryngeal, vulvar, cervical, anorectal, and rare esophageal findings have been described, but study designs and compartments differ. | No selective clearance assessment; vaginal baseline data rely on a small historical autopsy series, and many other mucosal sites remain underassessed. |
 
 ### Additional tissues contain different pigment targets
 
@@ -1884,8 +1884,10 @@ flowchart TD
     A --> AN["Low baseline melanocyte density<br/>measured in surgical controls"]
     G --> E["Endocervix"]
     E --> EN["Melanin-confirmed cells<br/>in two case specimens"]
-    G --> X["Vaginal normal-pigment distribution"]
-    X --> XN["Dedicated prevalence data<br/>remain limited in this review"]
+    G --> X["Vagina: historical autopsy series"]
+    X --> XN["3 melanotic findings reported<br/>in 100 vaginal autopsies"]
+    XN -.-> XL["Focal-lesion count; not a modern<br/>population baseline or diffuse color map"]
+    XL --> N
     VE --> N["Different lesions and cell compartments;<br/>no general pigment-clearance route"]
     CN --> N
     AN --> N
@@ -1897,7 +1899,7 @@ A 20-year single-center cohort followed 129 patients with vulvar melanosis for 5
 
 Two disease-context case reports describe visible pigment changes after topical imiquimod, but not controlled pigment modulation. A 25-year-old woman treated for vulvar condylomata developed depigmentation at application sites that persisted at 18 months after treatment stopped; this is a temporal association, not proof of causality or a reversible cycle. In a 2026 case treated off-label for vulvar melanoma in situ, visible regression of coexisting labial melanosis was reported during 5% imiquimod treatment. The treatment was oncologic, the report was a single case, and pigment mass, melanocyte selectivity, and return after withdrawal were not measured. [Serra et al., 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC4155962/), [Coffel et al., 2026](https://doi.org/10.1016/j.jdcr.2026.02.021).
 
-In a surgical-pathology anorectal series, 24 control specimens had low densities of melanocytes that varied by glandular versus squamous compartment and by stain; controls included some hemorrhoids and other pathology, so they are not a population survey. These data identify a local cell population and support compartment-specific diagnosis, not a healthy-tissue color treatment. Dedicated normal vaginal-pigment prevalence was not established by the sources reviewed here. [Nazarian et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27247367/).
+In a surgical-pathology anorectal series, 24 control specimens had low densities of melanocytes that varied by glandular versus squamous compartment and by stain; controls included some hemorrhoids and other pathology, so they are not a population survey. These data identify a local cell population and support compartment-specific diagnosis, not a healthy-tissue color treatment. An older study of 100 random autopsies was later summarized as finding vaginal melanotic lesions in three cases; another summary describes basal dendritic melanocytes and no stromal melanocytes. This historical focal-lesion finding is not a modern population estimate or a map of diffuse vaginal color. [Nigogosyan et al., 1964](https://pubmed.ncbi.nlm.nih.gov/14179553/), [Núñez-Troconis et al., 2011](https://ve.scielo.org/scielo.php?pid=S0535-51332011000300008&script=sci_arttext), [Al-Shraim, 2011](https://pubmed.ncbi.nlm.nih.gov/21477275/). [Nazarian et al., 2016](https://pubmed.ncbi.nlm.nih.gov/27247367/).
 
 ## 19. Human pigment trajectories after intervention
 
