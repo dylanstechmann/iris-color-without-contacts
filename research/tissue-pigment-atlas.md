@@ -279,7 +279,6 @@ flowchart LR
     Q -.-> G
 ```
 
-
 ### Surface-pigment signal is not the same as “melanin dust”
 
 The outer skin layer can contain measurable melanin-related material, but the classic diffuse black “melanin dust” seen with Fontana–Masson staining is not reliable proof of degraded melanin particles. In a 2016 comparison using photoprotected human skin from 12 donors across phototypes I–VI, Warthin–Starry staining tracked transmission-electron-microscopy granule counts more closely than Fontana–Masson or Von Kossa; diffuse Fontana–Masson darkening appeared in the stratum corneum even where granules were absent, consistent with nonspecific silver deposition. A separate in-vivo study of 10 volunteers (phototypes II–III) used depth-resolved confocal Raman/fluorescence and detected melanin-associated Raman bands in some outer-layer spectra, including the stratum corneum. That supports a real melanin-associated surface signal, but does not establish the particulate morphology implied by “dust,” identify degradation products, or show where the material goes. Combined with HPLC measurements from tape-sampled outer stratum corneum, the best reading is: surface melanin is measurable; the old diffuse-stain “dust” interpretation is disputed; pigment fate remains untracked. [Joly-Tonetti et al., 2016](https://doi.org/10.1111/exd.13016), [Yakimov et al., 2020](https://doi.org/10.1038/s41598-020-71220-6), [Matsunaka et al., 2017](https://doi.org/10.1111/srt.12309).
