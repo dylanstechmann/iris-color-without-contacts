@@ -49,6 +49,7 @@ flowchart TD
 | **Posterior iris pigment epithelium** | Dense pigment, chemically distinguishable from the stroma | Human anatomical and chemical mapping. | Selective cosmetic clearing; this is not interchangeable with the visible anterior target. |
 | **Retinal pigment epithelium (RPE)** | Functional melanin plus lipofuscin/bisretinoids | **P:** reduction of selected bisretinoids and model-specific lipofuscin degradation. | General human retinal pigment clearance or cosmetic iris-color application. |
 | **Choroid / ciliary body** | Uveal melanocytes and pigmented epithelial compartments | Human/anatomical mapping. | A demonstrated selective cosmetic clearing method in the reviewed sources. |
+| **Inner ear / cochlea** | Melanin in stria-vascularis intermediate melanocytes and Rosenthal's canal | **H:** human temporal-bone mapping. **P:** matched pigmented/albino mice show an age-related endocochlear-potential difference. | Selective pigment reduction with preserved cochlear homeostasis or hearing; human pigment amount was not associated with thresholds in the studied sample. |
 | **Conjunctiva / episclera** | Surface or deeper melanocytic lesions and other deposits | Human clinical/pathological evidence; a postburn laser case report. | A general reversible molecular color modulator. |
 | **Brain neurons** | Neuromelanin; lipofuscin is a separate residual-material class | Human tissue studies characterize neuromelanin organelles. | Safe selective clinical clearance, preservation of bound substances, or a cosmetic application. |
 | **Heart / liver / adrenal cells** | Lipofuscin | Human tissue studies document accumulation; **P:** cardiac clearance research in old rats. | A selective human visceral lipofuscin-removal treatment demonstrated by this source set. |
@@ -384,6 +385,22 @@ Separate human reports document minocycline-associated discoloration in skin, or
 Porphyria gives a different systems map: depending on type, porphyrins or precursors may accumulate in liver or bone marrow while symptoms affect skin, nervous system, or both. Its disease-specific management is not an example of selectively clearing visible melanin. [NIDDK overview](https://www.niddk.nih.gov/health-information/liver-disease/porphyria).
 
 Silver deposition in argyria is another distinct substrate. Published skin-laser reports are limited clinical case reports; they do not establish a noninvasive whole-body clearance system. [Systematic review](https://pubmed.ncbi.nlm.nih.gov/25845405/).
+
+## 12. Inner ear: melanin in a hearing-critical compartment
+
+```mermaid
+flowchart TD
+    S["Cochlear stria vascularis"] --> I["Melanocyte-like intermediate cells<br/>contribute to endocochlear potential"]
+    I --> M["Cells produce and export melanin"]
+    H["H: human temporal bones, n = 46"] --> HD["Melanin in stria + Rosenthal's canal;<br/>age/group differences, no threshold association"]
+    P["P: genetically matched mouse comparison"] --> PD["In mice over 2 years, absent melanin<br/>coincided with more EP decline / cell loss"]
+    M -.-> R["Melanin's own protective role<br/>remains unresolved"]
+    HD -.-> G["G: selective pigment reduction<br/>with hearing function preserved"]
+    PD -.-> G
+    R -.-> G
+```
+
+The cochlear stria vascularis contains melanin-producing intermediate cells, and human temporal-bone studies also identify pigment in Rosenthal's canal. In one 46-specimen study, pigmentation differed between the study's African-American and Caucasian donor groups and strial pigment increased with age; pigment amount was not associated with hearing thresholds in that sample. A genetically matched mouse comparison found that, after two years of age, endocochlear-potential decline and marginal-cell loss were more common in albino mice. This does not prove that melanin itself is essential or that changing pigment would alter human hearing. It does make cochlear cell function and pigment burden separate endpoints. No selective cochlear pigment-reduction method is established here. [Sun et al., 2014](https://pubmed.ncbi.nlm.nih.gov/25166018/), [Ohlemiller et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19141317/).
 
 ## Research requirements shared across tissues
 
