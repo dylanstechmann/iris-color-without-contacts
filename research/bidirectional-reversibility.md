@@ -8,7 +8,7 @@
 
 This is a hypothetical research objective. It is more demanding than demonstrating a one-way pigment change or showing that a biochemical signal can be switched off.
 
-Blue irides contain less melanin in the front layers than brown irides. Color is an appearance endpoint, so the project should not assume that a single pigment measurement completely specifies the final shade. [MedlinePlus Genetics](https://medlineplus.gov/genetics/understanding/traits/eyecolor/)
+Blue irides contain less melanin in the front layers than brown irides. Human histology found similar stromal melanocyte counts across blue, hazel, and brown irides, while chemical analysis found different pigment profiles between the visible stroma and posterior iris pigment epithelium. The target is therefore the pigment state of the anterior stroma and its visible color outcome, not melanocyte count or total pigment across the whole eye. The literature does not specify a measured threshold for a chosen shade. [Human iris histology](https://pubmed.ncbi.nlm.nih.gov/8602782/), [human iris pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/), [MedlinePlus Genetics](https://medlineplus.gov/genetics/understanding/traits/eyecolor/)
 
 ## Evidence for increasing pigmentation
 
