@@ -81,6 +81,8 @@ A primary niacinamide study combined transfer experiments with human facial-pigm
 
 **Measurement distinction:** degradation of melanosome-associated proteins can occur without a reduction in melanin itself, as a mouse keratinocyte study demonstrated. A lower organelle-marker signal alone cannot establish pigment clearance. [Primary study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10739166/).
 
+**Critical storage context:** human skin electron microscopy found melanin-core clusters in keratinocytes that were nonacidic and nondegradative, while cultured human skin-cell studies show melanosome degradation under some conditions. This is context-dependent evidence, not a settled universal clearance route. In human skin explants, supranuclear melanin caps correlated with fewer UV-induced DNA photoproducts; an experimental melanocore-disruption model found weaker protection from disrupted cores. Thus a color change alone would not establish safe, selective clearance. [In-situ human skin](https://pubmed.ncbi.nlm.nih.gov/29054596/), [human skin explants](https://pubmed.ncbi.nlm.nih.gov/9579550/), [melanocore model](https://pmc.ncbi.nlm.nih.gov/articles/PMC6056223/).
+
 ## 3. Gums and oral mucosa
 
 ```mermaid
