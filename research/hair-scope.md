@@ -10,6 +10,12 @@ Hair pigmentation is integrated with follicle regeneration and the production of
 
 A human observational study mapped pigmentation patterns along 397 hairs from 14 healthy donors and documented rare gray/white-to-pigmented transitions within individual fibers. These occurred in scalp, pubic, and beard hairs, including patterns consistent with reversal during the same growth phase. Since shaft segments preserve a record of what the follicle produced when they formed, this supports temporary plasticity of pigment production in living follicles; it is not recoloring an emerged shaft or clearing stored pigment elsewhere. The proposed association with psychosocial stress was based on retrospective, case-level timing and does not establish causation or a controllable signal. [Rosenberg et al., eLife, 2021](https://elifesciences.org/articles/67437)
 
+A complementary human mini-organ experiment found that mTORC1 inhibition stimulated pigmentation in some short-term organ-cultured gray/white scalp follicles, but only among selected follicles with residual pigment cells; the study used a small donor set and was not a treatment in living people. [Suzuki et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37212043/).
+
+A 2025 observational report described repigmentation in 10 patients who received rose-stem-cell-derived exosomes using varied procedures. With no control group and multiple procedural approaches, it cannot isolate an exosome effect or establish a reliable, durable controller. [Lueangarun et al., 2025](https://pubmed.ncbi.nlm.nih.gov/41201122/).
+
+Thus the evidence now spans spontaneous within-shaft transitions, a short-term ex-vivo response in selected human follicles, and a very small uncontrolled clinical report. None demonstrates a standardized, controlled, repeatable treatment for living people.
+
 **Inference for the proposed scope:** modulation of pigment production in a follicle would primarily be evaluated in newly formed hair segments. It would not amount to biological recoloring of an already-grown external hair shaft. This is a different endpoint from reducing pigment already resident in an adult iris.
 
 ## Distinct cosmetic questions
