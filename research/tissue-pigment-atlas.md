@@ -114,6 +114,10 @@ flowchart TD
     E --> Y["Yellow whites of eyes<br/>Bilirubin branch"]
     A --> A1["Darkening side effect documented<br/>Selective reversible clearance: G"]
     B --> B1["Cosmetic clearance: G"]
+    B --> P["P: pathological pigment release<br/>from posterior iris epithelium"]
+    P --> Q["Pigment enters aqueous pathways"]
+    Q --> T["Trabecular meshwork<br/>receives pigment"]
+    T --> T1["Pigment overload can impair outflow<br/>and raise pressure in models"]
     C --> C1["Selected stored-substrate reduction: P<br/>General clinical clearance: G"]
     D --> D1["Cosmetic clearance: G"]
     F --> F1["Human pathology and procedural reports<br/>General molecular modulation: G"]
@@ -121,6 +125,8 @@ flowchart TD
 ```
 
 Human iris microscopy and chemical microdissection distinguish anterior/stromal pigmentation from the posterior pigment epithelium. These compartments cannot be combined into one clearance target. [Microscopy](https://pubmed.ncbi.nlm.nih.gov/8602783/), [pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/).
+
+**Pigment fate is part of the eye constraint.** In pigment-dispersion disease, granules released from the posterior iris pigment epithelium can travel through aqueous pathways and accumulate in the trabecular meshwork. Porcine models show impaired meshwork-cell phagocytosis/migration and reduced outflow after pigment exposure. A small human follow-up cohort found that meshwork pigmentation can attenuate over time after treatment for this disease; it does not establish a nonprocedural cosmetic clearance route. This pathology involves the posterior epithelium, distinct from the anterior stromal color target. [Human PDS cohort](https://pubmed.ncbi.nlm.nih.gov/34397796/), [trabecular-meshwork cell model](https://pmc.ncbi.nlm.nih.gov/articles/PMC7847180/), [porcine outflow model](https://pmc.ncbi.nlm.nih.gov/articles/PMC5915754/).
 
 For the RPE, a 2014 cell/mouse study reduced **selected bisretinoids**, with substrate-specific limitations. A 2023 mouse study reported lipofuscin degradation involving melanin; subsequent scientific discussion addressed alternative pathways and the limits of a universal melanin-required interpretation. These are retinal research mechanisms, not evidence of iris-color reversal. [2014 study](https://pmc.ncbi.nlm.nih.gov/articles/PMC3986126/), [2023 study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10194005/), [comment](https://pmc.ncbi.nlm.nih.gov/articles/PMC10622903/), [reply](https://pmc.ncbi.nlm.nih.gov/articles/PMC10622899/).
 
