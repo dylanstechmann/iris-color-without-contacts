@@ -189,7 +189,7 @@ The iris provides an ocular example of this distinction. In a vitiligo-model mou
 
 ## Tissue access is not cell or pigment selectivity
 
-A route can expose an organ without selectively reaching its pigment-bearing cells. Concentration may vary among compartments inside one organ, and a visible response does not establish where a compound acted.
+A route can expose an organ without selectively reaching its pigment-bearing cells. Concentration may vary among compartments inside one organ, and a visible response does not establish where a compound acted. The skin branch draws on a pigmented skin-equivalent tape-stripping model with increased transepidermal water loss; the gum branch on a 73-person topical ascorbyl-glucoside lightness trial; the systemic branch on a five-person OCA-1B nitisinone pilot with different skin, hair, and iris findings. [Goncalves et al., 2023](https://doi.org/10.1002/btm2.10415), [Shimada et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19186973/), [OCA-1B nitisinone pilot](https://insight.jci.org/articles/view/124387).
 
 ```mermaid
 flowchart TB
