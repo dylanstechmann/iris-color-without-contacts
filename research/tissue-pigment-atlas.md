@@ -405,7 +405,11 @@ flowchart TD
     T --> T1["Outflow impairment in models;<br/>secondary glaucoma reported after cosmetic laser"]
     L["X: cosmetic photoablative iris laser"] --> Q
     L --> L1["H: case reports of serious<br/>pigmentary glaucoma"]
-    C --> C1["Selected stored-substrate reduction: P<br/>General clinical clearance: G"]
+    C --> C1["H/P: age-associated RPE melanin loss<br/>in lysosomal / mixed granules"]
+    C --> C2["RPE melanin contributes to<br/>photoreceptor-disc waste processing"]
+    C2 --> C3["P: lipofuscin reduction in<br/>mouse disease models"]
+    C1 -.-> C4["G: human intervention with direct<br/>pigment, fate and function endpoints"]
+    C3 -.-> C4
     D --> D1["Cosmetic clearance: G"]
     F --> F1["Human pathology and procedural reports<br/>General molecular modulation: G"]
     G --> G1["H: melanocytes and melanin-bearing basal<br/>epithelial cells near corneal progenitors"]
@@ -419,6 +423,16 @@ Human iris microscopy and chemical microdissection distinguish anterior/stromal 
 Mouse clump-cell observations separate pigment uptake from clearance. In a vitiligo model, iris/ciliary clump cells accumulated large melanin-containing phagosomes, but gross iris pigmentation did not progressively decline over the animals' lives. In a separate Col18a1-deficient model, posterior IPE disruption released pigment and macrophage-like cells migrated out of the iris, lined the retinal surface, and sometimes penetrated the retina. A mouse strain survey also found small age-associated pigment dispersion in wild-type C57BL/6J irides. These models document phagocytosis and, under pathology, movement of pigment-bearing cells; they do not identify melanin breakdown products or safe export. [Boissy et al., 1987](https://pubmed.ncbi.nlm.nih.gov/3578491/), [Marneros and Olsen, 2003](https://pubmed.ncbi.nlm.nih.gov/12766032/), [Anderson et al., 2008](https://pubmed.ncbi.nlm.nih.gov/18715234/).
 
 Human donor-tissue studies also identify a separate pigmented corneal limbus: basal K19-positive epithelial cells contain melanin caps, with sporadic dendritic melanocytes among them. This is an ocular-surface niche adjacent to corneal epithelial progenitors, not the central clear cornea or the visible iris target; the study did not examine pigment turnover or clearance. [Iris microscopy](https://pubmed.ncbi.nlm.nih.gov/8602783/), [iris pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/), [Higa et al., 2005](https://pubmed.ncbi.nlm.nih.gov/16080916/).
+### Retinal pigment epithelium: melanin loss and lipofuscin turnover are different targets
+
+The retinal pigment epithelium (RPE) is a support layer at the back of the eye, distinct from the visible anterior iris stroma. Its melanin-rich melanosomes, age-accumulating bisretinoid/lipofuscin granules, and mixed melanolipofuscin granules are different pigment pools. In 30 human eyes spanning nine decades, enzyme cytochemistry and ultrastructure found melanin-containing granules within the lysosomal system, consistent with modification or degradation. The cross-sectional donor study did not measure a rate of loss or trace the resulting material out of the RPE. [Feeney, 1978](https://pubmed.ncbi.nlm.nih.gov/669890/).
+
+In rhesus-monkey RPE, electron microscopy found fewer melanosomes with age and lysosome-like organelles containing melanin in different stages of loss. The authors interpreted these as autophagic melano-lysosomes and considered the decline potentially detrimental because RPE melanin protects against light toxicity and oxidative stress. This is age-associated animal tissue evidence, not a controlled intervention. [Gouras et al., 2011](https://pubmed.ncbi.nlm.nih.gov/22056912/).
+
+Oxidation can destroy RPE melanin chemically, but that does not establish safe clearance. Dontsov et al. generated melanin-decay products by exposing isolated human and bovine RPE melanosomes to superoxide. A later human donor-granule study found water-soluble products after visible-light exposure of isolated melanolipofuscin; some products could generate superoxide under light in the study's assays. These were isolated-granule experiments, not treatment of living eyes, and the target melanin normally screens light and contributes antioxidant protection. [Dontsov et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28941459/), [Dontsov et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37685907/).
+
+A separate preclinical result concerns **lipofuscin**, not melanin. In Abca4-deficient mouse models, Lyu et al. reported a melanin-supported pathway for reducing photoreceptor-disc-derived lipofuscin-related material in RPE; a synthetic chemiexcitation approach also restored a reduction in an albino model. This is a disease-model mechanism for a different pigment target, not iris-color control or a human cosmetic treatment. It shows why a pigment-removal concept must name the chemical substrate and preserve beneficial material in the same cell. [Lyu et al., 2023](https://pmc.ncbi.nlm.nih.gov/articles/PMC10194005/).
+
 
 Cosmetic photoablative iris-laser treatment is a procedural comparator, not a selective biological modulator. Case reports document pigment dispersion and secondary pigmentary glaucoma; after four sessions, one bilateral case had intraocular pressures of 50 and 42 mmHg, with visual-field defects and glare still present at follow-up despite urgent treatment. These case reports establish possible severe harm, not its frequency. [Ning et al.](https://pubmed.ncbi.nlm.nih.gov/33449587/), [Swampillai et al.](https://pubmed.ncbi.nlm.nih.gov/36175318/), [Liu et al.](https://pubmed.ncbi.nlm.nih.gov/37771388/).
 
