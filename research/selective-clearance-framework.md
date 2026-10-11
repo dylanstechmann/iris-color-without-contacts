@@ -123,6 +123,40 @@ In a renewing epithelium, pigment still held inside cells could leave with shed 
 | **Gingiva / buccal mucosa** | Human gingival ultrastructure found melanin granules in keratinocytes and fewer observed granules in superficial prickle-cell layers; biopsy labeling studies measured site-dependent S-phase proliferation. Human saliva cell counts produced a rough 2.7-hour estimate for whole-mouth surface-layer replacement; rat BrdU labeling tracked free-gingival cells from basal layers to the surface in 82–85 hours. Exfoliative-cytology studies sampled gingiva and cheek but did not measure melanin in shed cells. Clinical studies include a 73-person topical AS-G lightness signal and mixed small procedure trials: a 2026 laser + topical-AS-G trial (n=20) favored the adjunct at nine months [Gudur et al., 2026](https://pubmed.ncbi.nlm.nih.gov/42147661/); a 2026 microneedling + ascorbic-acid versus scalpel trial (26 randomized, 23 completed) favored scalpel DOPI scores through six months [Dawar et al., 2026](https://doi.org/10.1016/j.jobcr.2026.101530), unlike a 2024 16-person trial that favored microneedling at three months [P et al., 2024](https://pubmed.ncbi.nlm.nih.gov/38752063/). | Human gingiva-specific transit time, melanin mass in shed cells, direct chemical pigment mass/export in treatment studies, or a controllable stand-alone topical clearance route. Clinical scores after procedures do not establish selective melanin clearance or a reversible cosmetic cycle. |
 | **Adult iris** | In the examined adult iris specimens, PCNA and Ki-67 staining did not show positive nuclei. | Zero turnover over a lifetime, pigment disposal, or a route for returning iris color to baseline. |\n| **Corneal limbus** | Human donor tissue showed melanocytes and melanin-bearing basal epithelial cells near the corneal epithelial progenitor niche. | Selective pigment modulation or clearance in the ocular surface; this compartment is separate from the iris color target. |
 
+### Tissue exit routes: what moves, and where
+
+The diagram separates surface shedding, local uptake, redistribution, and a measured excretion route. It summarizes observed physiology or models; it is not a proposed treatment pathway.
+
+```mermaid
+flowchart TD
+    A["Pigment-containing material in a tissue"]
+    A --> S["Epidermis"]
+    S --> SC["H: melanin measured in<br/>surface corneocytes"]
+    SC --> SS["Pigment-bearing surface cells<br/>can leave by desquamation"]
+    SS -.-> SG["G: intervention-linked<br/>whole-tissue mass balance"]
+    A --> G["Gingiva / buccal mucosa"]
+    G --> GE["H: epithelial renewal and<br/>melanin-bearing keratinocytes"]
+    GE -.-> GG["G: melanin in exiting oral cells<br/>has not been measured"]
+    A --> I["Anterior iris"]
+    I --> IP["P: phagocytes engulf pigment;<br/>mouse models show accumulation<br/>or redistribution"]
+    IP -.-> IG["G: net iris pigment loss,<br/>destination, and return"]
+    A --> R["RPE after experimental injury"]
+    R --> RP["P: mouse myeloid cells take up<br/>melanin-containing debris"]
+    RP -.-> RG["G: RPE melanin mass loss<br/>and body export"]
+    A --> T["Dermal tattoo ink"]
+    T --> TN["H: pigment particles found<br/>in regional lymph nodes"]
+    TN -.-> TG["Movement to another tissue<br/>is not whole-body removal"]
+    A --> H["Hair follicle / shaft"]
+    H --> HS["Pigment is carried in a growing<br/>fiber that is shed or cut"]
+    HS -.-> HG["Fiber color change does not<br/>show clearance of another tissue store"]
+    A --> B["Bilirubin: a different molecule"]
+    B --> BL["H: hepatic conjugation and<br/>measured tracer recovery in urine and feces"]
+    BL --> BX["A substrate-specific example<br/>of measurable excretion"]
+```
+
+For source details on ocular uptake, tattoo-particle movement, and the bilirubin comparator, see [eye compartments](tissue-pigment-atlas.md#4-eyes-separate-compartments), [dermal pigment procedures](tissue-pigment-atlas.md#dermal-pigment-procedures-local-fading-and-body-fate-are-separate), and [bilirubin](tissue-pigment-atlas.md#10-bilirubin-and-other-color-changes). The skin and oral epithelial evidence is summarized in the table above.
+
+
 The skin evidence includes actual melanin measured in the outer corneocyte/stratum-corneum compartment, but surface sampling does not quantify the full native tissue pool or separate all pigment inputs from losses. Oral studies identify melanin within gingival keratinocytes and measure proliferation. Human oral cell output has been counted in saliva and used to calculate a rough whole-mouth surface-layer replacement estimate, while rat BrdU labeling traced gingival epithelial cells to the surface. Exfoliative cytology has sampled gingival smears but measured keratinization and morphology; a small cheek-cell study characterized granules as keratohyalin-like. None measured melanin mass in shed gingival cells. Iris histology remains a snapshot. The corneal limbus is an additional ocular-surface pigment compartment with melanocytes near epithelial progenitors, distinct from the iris. Across these tissues, a surface pigment pool and cell renewal support an export hypothesis; they do not show that a chosen intervention can selectively clear stored pigment while preserving function. [Lu et al., 1996](https://pubmed.ncbi.nlm.nih.gov/8881670/), [Matsunaka et al., 2017](https://doi.org/10.1111/srt.12309), [Maeda, 2017](https://www.mdpi.com/2079-9284/4/4/47), [Squier and Waterhouse, 1967](https://doi.org/10.1016/0003-9969(67)90148-3), [Thomson et al., 1999](https://pubmed.ncbi.nlm.nih.gov/10577752/), [Thomson et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11684035/), [Pfeiffer et al., 2001](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/265260), [Higa et al., 2005](https://pubmed.ncbi.nlm.nih.gov/16080916/).
 
 ## A decrease in one compartment may be redistribution
