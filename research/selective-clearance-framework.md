@@ -231,7 +231,7 @@ flowchart TD
     A --> IPE["Posterior iris pigment epithelium"]
     IPE --> AQ["H: human PDS study counted<br/>aqueous melanin granules;<br/>mydriasis increased counts"]
     AQ --> TM["PDS pigment reaches anterior structures<br/>including trabecular meshwork"]
-    IS --> LAT["H: latanoprost-associated<br/>iris darkening in some eyes"]
+    IS --> LAT["H: latanoprost-associated darkening;<br/>no observed fading 2 y after stopping;<br/>one case unchanged at 5 y"]
     LAT --> LT["POAG surgical series: no TM increase<br/>linked to latanoprost; 4/12 specimens<br/>had recorded iris darkening"]
     LT -.-> LG["G: source-labeled iris-to-TM fate<br/>and whole-eye mass balance"]
     TM -.-> TG["G: whole-eye exit and safe<br/>elimination; outflow function at risk"]
