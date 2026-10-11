@@ -645,6 +645,20 @@ Human iris microscopy and chemical microdissection distinguish anterior/stromal 
 
 In primary pigment-dispersion syndrome (PDS), a human study directly counted melanin granules in aqueous humor: the mean was 2.9 ± 3.7 granules per 0.075 mm³ in 42 eyes from 21 patients, compared with 0.2 ± 0.3 in 40 age- and sex-matched control eyes. Pharmacologic pupil dilation raised the PDS mean to 6.3 ± 5.3; counts also correlated with iris transillumination and corneal Krukenberg spindle. This confirms a measurable fluid-borne pigment compartment under disease conditions. The pigment is released from the posterior iris pigment epithelium and deposits on anterior-segment structures, including the trabecular meshwork. That is redistribution with potential outflow harm, not proof that pigment has left the eye or been safely eliminated. It is also not evidence that the visible anterior-stromal color target can be cleared selectively. [Küchle et al., 1998](https://pubmed.ncbi.nlm.nih.gov/9744376/).
 
+### Trabecular-meshwork pigment is not a direct ledger of iris color
+
+A masked human morphometric study compared trabecular-meshwork specimens from 25 postmortem donor eyes and 62 eyes removed during primary open-angle glaucoma (POAG) surgery. Most observed meshwork melanin was inside phagocytic cells. Pigmented meshwork-cell profiles increased with age and were nearly three times more frequent in POAG than in donor controls. Among medication groups, the maximum-medication group without latanoprost had the highest pigmentation; no latanoprost-associated increase was detected in the 12-specimen latanoprost group, including four specimens with recorded iris darkening. This small, selected surgical series did not label pigment at its source or measure its final exit. It cannot establish that no pigment left a darkening iris, but it cautions against inferring increased drainage-meshwork burden from visible iris darkening alone. [Cracknell et al., 2006](https://pubmed.ncbi.nlm.nih.gov/16297910/).
+
+```mermaid
+flowchart LR
+    PDS["H: pigment-dispersion syndrome<br/>posterior-iris pigment release"] --> AQ["Human aqueous samples:<br/>pigment granules elevated<br/>under disease conditions"]
+    AQ --> TM["Trabecular-meshwork pigment;<br/>most observed melanin was<br/>within phagocytic cells"]
+    LAT["H: latanoprost-associated<br/>iris darkening"] --> LTM["POAG surgical series:<br/>no TM increase linked to latanoprost;<br/>4 of 12 specimens had iris darkening"]
+    LTM -.-> AP["Appearance change and<br/>meshwork pigment burden<br/>did not track together here"]
+    TM -.-> GAP["G: source-labeled iris-to-TM fate,<br/>whole-eye exit, and safe elimination"]
+    AP -.-> GAP
+```
+
 ### Iris imaging repeatability is not the same as clearance sensitivity
 
 Small human studies show that some iris appearance and reflectance measurements can be repeated. In 30 normal eyes, computerized slit-lamp photo-analysis of iris area and density had triplicate coefficients of variation of 1.0–4.1%; mean differences between baseline and later visits were 1.2–6.3%. A separate prototype hyperspectral study followed eight healthy adult men across three sessions and reported 95% between-session repeatability of ±5% for lighter irides and ±10% for darker irides. These methods measure image-derived color or spectral reflectance, not chemical melanin mass; the studies did not test a pigment-changing treatment or determine the smallest detectable cosmetic change. The newer PS-AS-OCT stromal MCR study remains cross-sectional and does not establish serial treatment sensitivity. [Takamoto et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11584340/), [Di Cecilia et al., 2018](https://doi.org/10.1109/RTSI.2018.8548513).
