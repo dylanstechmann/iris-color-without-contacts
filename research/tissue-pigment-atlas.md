@@ -665,6 +665,9 @@ flowchart TD
     M1 -.-> G
     MN --> MREV["H + X: 2026 review; 7 studies;<br/>low to very low certainty;<br/>published before 2 Sep RCT"]
     MREV -.-> G
+    B --> MN2["H + X: 2026 randomized study, n=32<br/>microneedling + topical ascorbic acid<br/>vs diode laser"]
+    MN2 --> MN2R["Both groups improved on DOPI;<br/>mild repigmentation by month 12;<br/>no significant group difference"]
+    MN2R -.-> G
     B --> S["X: scalpel / ablative laser<br/>pigmented epithelium removed"]
     S --> R["Healing and possible repigmentation"]
     B --> XR["H + X: two 2025 split-mouth diode-laser RCTs<br/>ablative vs non-ablative approaches"]
@@ -827,6 +830,8 @@ A five-person surgical gingivectomy series followed repigmentation for five year
 Two 2025 split-mouth randomized trials compared ablative with non-ablative diode-laser approaches for physiologic gingival pigmentation. Singh et al. (n=30) reported lower DOPI, melanin-index, and gingival-pigmentation-index scores with both methods through three months; ablation produced larger mean score reductions, while the non-ablative approach caused less post-operative discomfort. Altayeb et al. (n=20) reported index-score reductions through 12 months, with fewer repigmentation events after ablation but greater intraoperative discomfort; the non-ablative arm required more sessions. These are clinical index and comfort outcomes from procedures, not chemical melanin mass, pigment disposition, or a return-to-original-state assay.
 
 The SAGE journal retracted a 2026 paper that substantially overlapped with the Altayeb 2025 article. The publisher says corresponding author Walid Altayeb stated he had no knowledge of the 2026 submission; he attributed the overlap to a third-party submission service. The editor and publisher judged the overlap significant. The 2026 paper is not independent replication and its abstract should not be treated as a second trial. [Singh et al., 2025](https://pubmed.ncbi.nlm.nih.gov/41047406/), [Altayeb et al., 2025](https://pubmed.ncbi.nlm.nih.gov/41335139/), [SAGE retraction notice](https://doi.org/10.1177/25785478261452086).
+
+A separate 2026 randomized study enrolled 32 adults with mild physiologic gingival pigmentation (baseline DOPI 1) and compared microneedling with topical ascorbic acid against a diode-laser procedure. Both groups had lower DOPI scores than baseline through 12 months, with mild repigmentation by month 12 and no statistically significant between-group difference. This extends the clinical appearance follow-up, but remains a small trial using a visual index; it does not measure chemical melanin mass, breakdown products, export, or a planned return cycle. [Singh et al., 2026](https://pubmed.ncbi.nlm.nih.gov/42482877/).
 
 ## 4. Eyes: separate compartments
 
