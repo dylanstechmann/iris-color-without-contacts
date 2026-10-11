@@ -481,6 +481,22 @@ flowchart LR
 
 A 2025 comparative single-cell transcriptomic atlas integrated 34,969 human and mouse oral-mucosa cells and identified melanocytes among the human-specific populations in its analysis. A separate 2026 adult human oral-cavity atlas profiled more than 250,000 single-cell transcriptomes across 13 niches and annotated melanocytes in the integrated human atlas. A 2024 human periodontium atlas reported MLANA-positive melanocytes at about 0.1% and noted that the rare cells were not present at high enough proportions even after combining four studies. This shows that these cells can be difficult to capture in single-cell datasets. **Inference:** the comparative atlas raises a model-fit caveat, but its mouse non-detection could reflect sampling or annotation as well as species biology; “human-specific” describes the analyzed datasets and does not prove melanocytes are absent from every mouse oral site. Targeted, matched spatial or protein-based validation would clarify the difference. None of these atlases measured chemical melanin mass, pigment in naturally shed cells, export, or treatment-linked clearance. [Luo et al., 2025](https://pubmed.ncbi.nlm.nih.gov/40751276/), [Quinn et al., 2024](https://doi.org/10.1038/s41467-024-49037-y), [Matuck et al., 2026](https://doi.org/10.1016/j.cpblue.2026.100007).
 
+### A gingival keratinocyte model loads pigment, but does not test clearance
+
+A 2023 study established a 2D model using primary human gingival keratinocytes loaded with *Sepia officinalis* ink-gland melanin. The added pigment accumulated perinuclearly, and the model was used to compare oral-care-product biocompatibility in pigmented and unpigmented cells. This creates a useful oral-cell safety-screening model, but it does not recreate melanocyte-made human melanosomes or the stratified melanocyte–keratinocyte unit. The study did not test pigment turnover, melanin-core degradation, or export. It fills a model-access gap, not the native gingival-clearance gap. [Goenka, 2023](https://doi.org/10.3390/oral3020021).
+
+```mermaid
+flowchart LR
+    N["Native gingival pigment"] --> M["Gingival melanocyte makes<br/>human melanosomes"]
+    M --> K["Melanosomes transfer to<br/>gingival keratinocytes"]
+    K -.-> S["Surface renewal could carry<br/>pigment in shed cells"]
+    S -.-> G["G: melanin in naturally shed<br/>gingival cells / saliva is unmeasured"]
+    P["P: primary human gingival<br/>keratinocyte model"] --> X["Cells loaded with exogenous<br/>Sepia melanin; perinuclear signal"]
+    X --> B["Used for oral-care-product<br/>biocompatibility comparison"]
+    X -.-> L["Not endogenous melanosome transfer,<br/>native stratified tissue, or a<br/>pigment-clearance endpoint"]
+    L -.-> G
+```
+
 ### A gum color can span more than one tissue layer
 
 ```mermaid
