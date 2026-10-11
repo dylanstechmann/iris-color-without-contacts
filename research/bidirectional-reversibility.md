@@ -89,6 +89,23 @@ A separate 36-month serial-photography study of 22 latanoprost-treated patients 
 
 U.S. prescribing information describes the added iris pigmentation as likely permanent after treatment is discontinued. Human follow-up reports support persistence: a latanoprost clinical report found no change in induced pigmentation in patients followed for two years after stopping, and a separate case with serial photographs found no appreciable fading over five years. These are withdrawal observations, not tests of a future pigment-removal intervention; the five-year report is one patient.
 
+### OCA2 modulation has not yet shown a reversible iris cycle
+
+Two recent OCA2 lines of evidence remain incomplete and tissue-specific. A 2024 skin study reported short-term facial lightness and spot-score changes with a multi-ingredient topical formula described as OCA2-regulating, but it did not verify clinical target engagement, measure pigment mass/export, or assess return after withdrawal. Its cell assays were mainly in B16F10 mouse melanoma cells and did not distinguish reduced new synthesis from degradation of pre-existing pigment. Separately, an OCA2-siRNA patent reports a small ex-vivo mouse-iris image-saturation/histology signal; it is RNA interference, not DNA editing, and the reported color experiment lacks a chemical melanin assay, same-sample OCA2 knockdown, living-animal/human outcomes, and post-withdrawal return. The patent's human trial descriptions are proposed study designs, not results. [Cho et al., 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11506640/), [WO2024201471A1](https://patents.google.com/patent/WO2024201471A1/en).
+
+A bounded ClinicalTrials.gov API check on 2026-10-11 searched full-text OCA2, intervention OCA2, and titles matching “iris color.” The returned records were unrelated to intentional OCA2 eye-pigment modulation. This is a registry search result, not proof that no unregistered study or study in another registry exists. [OCA2 registry search](https://clinicaltrials.gov/search?term=OCA2), [iris-color title search](https://clinicaltrials.gov/search?term=iris%20color).
+
+```mermaid
+flowchart LR
+    SK["H: small human skin appearance study<br/>multi-ingredient formula"] --> SKO["Brightness / dark-spot scores change"]
+    SKO -.-> GAP["G: no clinical target engagement,<br/>pigment mass/export, or washout return"]
+    IR["P: OCA2-siRNA patent<br/>ex-vivo mouse iris signal"] --> IRO["Image saturation + representative<br/>histology; not chemical mass"]
+    IRO -.-> GAP
+    CTG["ClinicalTrials.gov bounded search<br/>(2026-10-11)"] -.-> REG["No directly relevant registered<br/>OCA2 eye-color intervention found"]
+    REG -.-> GAP
+    GAP --> C["Blue → dark brown → baseline blue<br/>remains unproven"]
+```
+
 A different option reported in the literature is cosmetic photoablative laser depigmentation. One clinic's prospective 1,176-eye series reported image-based color change, but it was uncontrolled and did not measure chemical pigment fate or return to the starting color. The treatment cohort ran from 2017 to 2020; the program's stated nine-year history is not nine years of follow-up for every eye. Independent case reports document possible pigmentary glaucoma, maculopathy, marked pressure elevation, and corneal scarring with vision loss. The laser is a procedure, not a reversible biochemical switch, and case reports cannot estimate how often complications occur. Details and a tissue-pathway diagram are in the [atlas section on cosmetic laser depigmentation](tissue-pigment-atlas.md#cosmetic-laser-depigmentation-and-evidence-limits).
 
 A different anterior-eye pigment compartment has a slow human trajectory after disease-directed treatment. In 21 eyes from 11 people with pigment-dispersion disease, visible trabecular-meshwork pigmentation scores declined from a median of 16 at baseline to 12 over 15 years after laser peripheral iridotomy or trabeculectomy; the cohort was small and uncontrolled. Intraocular pressure also fell, but the study graded visible meshwork pigmentation rather than chemically measuring pigment mass or tracking its final destination. The meshwork is a downstream drainage tissue, not the anterior iris stroma that determines visible eye color; these procedures are not a nonsurgical cosmetic reversal route. This observation supports a narrow inference that pigment in a downstream ocular depot can attenuate slowly when the disease process is addressed, while leaving iris-color reversal unanswered. [Zhou et al., 2021](https://pubmed.ncbi.nlm.nih.gov/34397796/).
