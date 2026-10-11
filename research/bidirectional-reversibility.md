@@ -68,6 +68,12 @@ flowchart TB
 
 This framework is tissue-specific. Skin, gingiva, retinal pigment epithelium, and anterior iris differ in cell turnover, pigment handling, optical role, and safety constraints. Evidence from one cannot fill another's gap. The wider comparison is in the [tissue atlas](tissue-pigment-atlas.md) and [selective-clearance framework](selective-clearance-framework.md).
 
+### Measurement gate before a living color-cycle study
+
+The reviewed evidence forms two largely separate streams: noninvasive image-derived signals—including cross-sectional PS-AS-OCT and older optical-model estimates—and destructive human-iris chemistry by compartment. I found no study pairing standardized optical measurement of an intact human iris with chemical assay of the **same eye's** anterior stroma and posterior iris pigment epithelium (IPE). This is a gap in the reviewed literature, not proof that no unindexed work exists. [Imaging studies](tissue-pigment-atlas.md#iris-imaging-repeatability-is-not-the-same-as-clearance-sensitivity), [Prota et al., 1998](https://pubmed.ncbi.nlm.nih.gov/9778410/).
+
+A high-value next feasibility study would image donated intact human eyes under standardized conditions, then separate anterior stroma from IPE and chemically quantify eumelanin and pheomelanin in each fraction. It should account for postmortem interval, preservation, and tissue geometry, and prespecify repeatability and agreement across iris colors. This would validate a measurement only; it would not establish a safe living-tissue intervention, pigment clearance, or return to baseline.
+
 ## Working conclusion
 
 The literature supports modulation of new pigment production and documents adult iris darkening as a medication side effect. It does **not** establish safe selective removal of stored anterior-iris pigment, or the complete blue → dark brown → same-blue cycle. The central open problem is how to lower the existing pigment burden and restore optical appearance while preserving eye function, with measured pigment disposition and recovery.
