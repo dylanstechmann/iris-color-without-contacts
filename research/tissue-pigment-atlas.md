@@ -399,6 +399,26 @@ flowchart TD
     C --> O["Cause-specific assessment<br/>not automatically a melanin-clearance target"]
 ```
 
+### A gum color can span more than one tissue layer
+
+```mermaid
+flowchart LR
+    N["Normal gingival pigment"] --> E["Basal melanocytes transfer melanosomes<br/>to epithelial keratinocytes"]
+    E --> U["Surface-directed epithelial renewal"]
+    U -.-> SH["H: surface cells shed;<br/>melanin in shed gingival cells<br/>has not been measured"]
+    M["Metal-associated discoloration<br/>in one human case report"] --> MIX["H: melanin observed in<br/>epithelial and deeper compartments"]
+    MIX --> BM["Basement membrane"]
+    MIX --> FC["Fibroblasts and macrophages"]
+    MIX --> X["Extracellular ground substance"]
+    S["Silver and sulfur detected<br/>in deep connective tissue"] -.-> HY["Authors proposed accidentally<br/>implanted dental metals as a stimulus"]
+    BM -.-> G["G: pigment destination and<br/>net tissue/body balance unmeasured"]
+    FC -.-> G
+    X -.-> G
+    HY -.-> G
+```
+
+A 1988 human report of gingival discoloration beneath a metallic crown found melanin in epithelial cells and along basement membranes, as well as in fibroblasts, macrophages, and intercellular ground substance; silver and sulfur were also detected in deep connective tissue. The authors proposed that inadvertently implanted dental metals influenced local melanin metabolism. This is a single, unusual pathology report, not a map of ordinary physiologic gum pigmentation, and it did not measure pigment fate. **Inference:** surface shedding alone would not explain the fate of pigment observed in deeper connective tissue. [Sakai et al., 1988](https://pubmed.ncbi.nlm.nih.gov/3146627/).
+
 Gingiva now has a small but meaningful topical-only human evidence signal. In a double-masked, split-mouth study of 73 people, a topical ascorbyl-glucoside gel was compared with placebo for 12 weeks; the abstract reports a significant relative difference in the spectrophotometric gingival-lightness endpoint by week 4. The same paper reports tyrosinase inhibition and reduced new melanin formation in separate cell/skin models. **Inference:** reduced synthesis plus normal epithelial turnover could account for some appearance change, but the clinical study did not separate that from loss of pre-existing pigment. It measured visible lightness, not pigment mass or export, and did not establish what happened after treatment stopped. [Shimada et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19186973/).
 
 Results differ across studies and endpoints. A separate randomized study with 20 participants found no significant one-month pigmentation-index change in the topical-gel group, while its injection group responded earlier; the reported histological area fraction of melanin-forming cells was lower at six months in both groups. This is a cell-area endpoint, not a chemical measurement of total melanin or pigment export. In a 2026 randomized trial (20 participants, 10 per arm), the nine-month Dummett Oral Pigmentation Index (DOPI) score-0 category occurred in 8/10 participants receiving topical ascorbyl glucoside after diode-laser depigmentation versus 1/10 after laser alone (p=.004). Both arms received laser; the clinical ordinal score does not quantify melanin mass or fate, and the small trial did not establish a post-use return cycle. This supports further study of an adjunctive recurrence-delay signal, not stand-alone topical clearance or a reversible color controller. [El-Mofty et al., 2021](https://pubmed.ncbi.nlm.nih.gov/33966113/), [Gudur et al., 2026](https://pubmed.ncbi.nlm.nih.gov/42147661/).
