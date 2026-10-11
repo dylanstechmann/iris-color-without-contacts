@@ -130,7 +130,7 @@ The tissue-specific implications are uneven: skin has mechanistic culture eviden
 
 The alkaptonuria example matters because clinical human evidence links a lower chemical precursor to partial regression of an accumulated pigment deposit. It remains a disease-specific pathway: the deposit is not melanin, measured regression was incomplete, and this finding does not supply a general formula for other tissues. [Pigment regression cohort](https://pubmed.ncbi.nlm.nih.gov/32904992/), [randomized disease trial](https://pubmed.ncbi.nlm.nih.gov/32822600/).
 
-## A tissue-specific feasibility matrix
+## Evidence requirements for tissue-specific feasibility
 
 A candidate target needs evidence at every level below. A strong result at one level cannot substitute for another.
 
@@ -148,6 +148,21 @@ A candidate target needs evidence at every level below. A strong result at one l
 For the original iris goal, the main unanswered transitions are **controlled darkening of a uniformly blue iris**, **selective removal of pigment already present**, and **restoration of the original optical appearance**. Separately changing a biological pigment measurement would not automatically restore visible blue.
 
 The eye illustrates why **release is not the same as safe export**. In pigment-dispersion disease, pigment released from the **posterior iris pigment epithelium** enters aqueous pathways and can accumulate in the trabecular meshwork. Primary porcine models report that pigment exposure can impair trabecular-meshwork cell phagocytosis and migration, reduce outflow facility, and raise pressure. This is a pathological model of a different iris compartment; it is not evidence that a hypothetical anterior-stromal intervention would cause the same disease. It does establish downstream pigment disposition and eye function as separate endpoints. [Trabecular-meshwork cell model](https://pmc.ncbi.nlm.nih.gov/articles/PMC7847180/), [porcine pressure/outflow model](https://pmc.ncbi.nlm.nih.gov/articles/PMC5915754/). Separately, case reports after cosmetic photoablative iris-laser treatment document secondary pigmentary glaucoma, including one severe bilateral case. They show that physically releasing iris pigment is not equivalent to safely clearing it; case reports do not estimate complication frequency. [Cosmetic-laser case reports](https://pubmed.ncbi.nlm.nih.gov/37771388/), [earlier case report](https://pubmed.ncbi.nlm.nih.gov/33449587/).
+
+## Cross-tissue evidence snapshot
+
+This is a compact map of the strongest reviewed examples, not an exhaustive treatment listing. "Available" always means for the stated indication and delivery method.
+
+| Tissue / target | Strongest reviewed evidence | What it does not establish |
+| --- | --- | --- |
+| **Epidermal skin** | **C:** treatments for facial melasma and vitiligo; **C + X:** afamelanotide implant increases skin eumelanin in adult EPP. **P:** melanosome degradation in human-cell and 3D skin models. | Cosmetic shade selection, nondestructive clearance of stored melanin in healthy skin, or a return-to-baseline cycle. [FDA label](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94f53286-11dd-7fbb-e053-2a95a90a7c48&version=11) |
+| **Gingiva / oral mucosa** | **H:** small human topical-gel and injection comparisons; a 2026 trial tested topical ascorbyl glucoside after laser depigmentation. | A proven topical-only controller; the recent score difference followed laser in both groups, and none measured pigment export. [2021 trial](https://pubmed.ncbi.nlm.nih.gov/33966113/), [2026 trial](https://pubmed.ncbi.nlm.nih.gov/42147661/) |
+| **Anterior iris / stroma** | Drug-associated darkening is documented in susceptible eyes. **X:** cosmetic laser-lightening case reports include severe pigmentary glaucoma. | Controlled shade change, safe selective nondestructive pigment reduction, or return to a person's baseline. [U.S. label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f4e73059-5ba0-4d73-9ea1-09d8d654e844), [laser case](https://pubmed.ncbi.nlm.nih.gov/37771388/) |
+| **Posterior iris / retinal pigment epithelium** | **P:** disease-specific pigment dispersion and selected retinal substrate-reduction mechanisms. | Transfer of posterior-iris or retinal findings to the visible anterior-stromal target, or a general human ocular clearance route. [RPE study](https://pmc.ncbi.nlm.nih.gov/articles/PMC3986126/) |
+| **Dermis / tattoo ink** | **X:** cleared tattoo-removal lasers; human biopsies show fragmentation and cell injury; ink can also be found in regional nodes. | Safe native-melanin clearance or a measured whole-body excretion route. [FDA tattoo information](https://www.fda.gov/consumers/consumer-updates/tattoo-removal-options-and-results), [human node study](https://doi.org/10.1038/s41598-017-11721-z) |
+| **Hair / nails** | Marketed dyes and bleaches change existing hair shafts; cause-specific nail management and isolated procedural reports exist. | A selectable controller for pigment production in living follicles or a general reversible nail-pigment treatment. [FDA hair-cosmetic information](https://www.fda.gov/cosmetics/cosmetic-products/hair-dyes) |
+| **Systemic bilirubin, iron, and ochronotic deposits** | Human tracer recovery for bilirubin; **C:** disease-specific iron depletion and precursor-lowering therapy with partial regression in measured alkaptonuria sites. | A common melanin route: these are distinct chemicals, and clinical treatment is for specific diseases. [Bilirubin tracer study](https://www.jci.org/articles/view/106184), [alkaptonuria cohort](https://pubmed.ncbi.nlm.nih.gov/32904992/) |
+| **Brain / visceral lipofuscin and neuromelanin** | Human tissue studies characterize pigment stores and associated cargo; animal models provide limited reduction evidence. | Selective human clearance, safe release of co-stored cargo, or cosmetic control. [Human neuromelanin organelle study](https://pubmed.ncbi.nlm.nih.gov/29900402/), [rat cardiac study](https://www.sciencedirect.com/science/article/pii/S0014482721001178) |
 
 ## Evidence ladder for a proposed clearance claim
 
