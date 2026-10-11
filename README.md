@@ -15,10 +15,15 @@ This is a research question, not a proposed treatment. The project distinguishes
 
 The evidence is uneven across tissues. The atlas labels clinical care, human research, preclinical models, procedures, and gaps separately; the project does not assume one clearance mechanism works throughout the body.
 
+## Next research gate
+
+The immediate, evidence-grounded step is an assay-only feasibility phase using donated eyes: determine whether uncultured anterior stroma and posterior iris pigment epithelium can be separated with bounded carryover, and whether melanin-marker chemistry is sensitive and reliable in those iris fractions. Only after that gate passes should paired optical-imaging and chemical calibration be considered. A successful calibration would validate a measurement; it would not show safe pigment removal or a return to baseline.
+
 ## Research map
 
 - [Tissue pigment atlas](research/tissue-pigment-atlas.md) — tissue-by-tissue evidence and diagrams for eyes, skin, gums, hair, and other pigment-bearing compartments.
 - [Pigment evidence register](research/pigment-evidence-register.md) — concise study records with models, endpoints, and limits.
+- [Donor-eye measurement-validation proposal](research/iris-measurement-validation-proposal.md) — the assay-feasibility gate and proposed paired imaging / compartment-chemistry study.
 - [Bidirectional iris reversibility](research/bidirectional-reversibility.md) — the iris-specific evidence and what a true return-to-baseline cycle would need to show.
 - [Selective-clearance framework](research/selective-clearance-framework.md) — shared clearance concepts, material-fate accounting, and the evidence ladder; tissue summaries live in the atlas and register.
 - [Hair scope](research/hair-scope.md) — separate research question for cosmetic follicle pigmentation.
