@@ -161,7 +161,7 @@ flowchart TD
     M --> C["C: synthesis modulation in<br/>specified pigmentation disorders"]
     M --> E["C + X: afamelanotide implant<br/>increases skin eumelanin for adult EPP"]
     E --> E2["Disease-specific photoprotection<br/>not cosmetic or reversible shade control"]
-    M --> Z["H: historical monobenzone label<br/>final depigmentation for extensive vitiligo"]
+    M --> Z["Historical label: monobenzone<br/>final depigmentation for extensive vitiligo"]
     Z --> Z1["May destroy melanocytes;<br/>permanent cell-loss outcome"]
     Z -.-> Z2["Not cosmetic or reversible;<br/>FDA review recorded de-listing in 2022"]
     K --> T["P + H: transfer modulation<br/>mechanistic and human appearance endpoints"]
