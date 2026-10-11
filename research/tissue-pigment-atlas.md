@@ -329,18 +329,28 @@ A human observational study reported partial regression in photographed eye/ear 
 
 ```mermaid
 flowchart TD
-    B["Excess bilirubin"] --> Y["Yellow skin, mucosa and eye whites"]
-    Y --> C["Cause-specific medical management"]
-    C --> E["Bilirubin handling / excretion"]
-    O["Other visible color"] --> T["Tooth stains / chromogens<br/>Dental cleaning or whitening"]
-    O --> X["External dermal tattoo pigment<br/>X: cleared laser devices"]
+    H["Heme turnover"] --> B["Unconjugated bilirubin"]
+    B --> U["H: UGT1A1 in human liver<br/>conjugates bilirubin"]
+    U --> C["Conjugated bilirubin"]
+    C --> L["Hepatic elimination into bile"]
+    L --> G["Gut metabolism"]
+    G --> F["Fecal products"]
+    B --> T["H: tracer study in 13 healthy adults"]
+    T --> R["96% mean recovery of injected tracer<br/>in feces + urine over 7 days"]
+    B --> J["Excess bilirubin"]
+    J --> Y["Jaundice: yellow skin, mucosa<br/>and eye whites"]
+    Y --> M["Cause-specific medical management"]
+    R --> S["Substrate-specific metabolic route<br/>and human tracer accounting"]
+    S --> X["Does not establish clearance of stored<br/>melanin or lipofuscin"]
+    O["Other visible color"] --> D["Tooth stains / chromogens<br/>Dental cleaning or whitening"]
+    O --> P["External dermal tattoo pigment<br/>X: cleared laser devices"]
     O --> V["Blood / vascular coloration<br/>Different chromophores"]
-    T --> G["Not evidence of living-tissue<br/>melanin clearance"]
-    X --> G
-    V --> G
+    D --> X
+    P --> X
+    V --> X
 ```
 
-Bilirubin-related yellowing follows a different metabolic pathway from melanin. Tooth whitening and removal of externally introduced tattoo pigment are also distinct capabilities. FDA states that it has not approved tattoo-removal creams. [NIH jaundice information](https://newsinhealth.nih.gov/2022/10/recognizing-jaundice), [ADA tooth whitening](https://www.ada.org/resources/ada-library/oral-health-topics/whitening), [FDA tattoo removal](https://www.fda.gov/consumers/consumer-updates/tattoo-removal-options-and-results), [NHLBI hemoglobin and red cells](https://www.nhlbi.nih.gov/health/anemia/causes).
+Bilirubin is a useful narrow comparator because both hepatic handling and whole-body tracer recovery have been measured in people. In 13 healthy adults, an injected unconjugated-bilirubin tracer was followed for seven days; mean cumulative radioactivity recovered in feces and urine was 96% of the dose. A separate human donor-liver and primary-hepatocyte study linked UGT1A1 abundance with bilirubin-conjugating activity and documented substantial donor variation. These studies describe a specialized route for bilirubin. They do not show selective clearance of stored melanin or lipofuscin, or a way to change skin, gum, or iris color. Tooth whitening and removal of external tattoo ink remain different capabilities; FDA states that it has not approved tattoo-removal creams. [Berk et al., human tracer study](https://www.jci.org/articles/view/106184), [Ritter et al., human liver UGT1A1 study](https://pubmed.ncbi.nlm.nih.gov/10421657/), [NIH jaundice information](https://newsinhealth.nih.gov/2022/10/recognizing-jaundice), [ADA tooth whitening](https://www.ada.org/resources/ada-library/oral-health-topics/whitening), [FDA tattoo removal](https://www.fda.gov/consumers/consumer-updates/tattoo-removal-options-and-results), [NHLBI hemoglobin and red cells](https://www.nhlbi.nih.gov/health/anemia/causes).
 
 ## 11. Systemic exposures can affect several tissues
 
