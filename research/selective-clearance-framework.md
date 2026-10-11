@@ -93,9 +93,11 @@ flowchart TD
     IC --> IR["Pigment measures fell in cells;<br/>zebrafish embryo melanin fell ~35%"]
     IR -.-> G
     IR -.-> IL["G: adult local control,<br/>function, export and washout untested"]
-    M --> HNHT["P: 2026 HNHT formulation<br/>in UVB-exposed 3D skin equivalent"]
-    HNHT --> HNHT1["L* +8.44%; total melanin −12.5%<br/>separate fed-keratinocyte assay:<br/>LC3-II up, GP100 down"]
-    HNHT1 -.-> HNHTG["G: synthesis inhibition and clearance<br/>not separated; products, export,<br/>function and return untested"]
+    M --> HNHT["P: 2026 HNHT in<br/>7-day UVB-darkening skin model"]
+    HNHT --> HNHT1["Brighter L*; lower melanin signal;<br/>TYR/MITF also suppressed"]
+    HNHT --> HNHT2["Separate triplicate melanosome-fed<br/>keratinocytes: LC3-II up 174%,<br/>GP100 down 80%"]
+    HNHT1 -.-> HNHTG["Authors call autophagy a hypothesis<br/>needing validation; stored-pigment<br/>products and export unmeasured"]
+    HNHT2 -.-> HNHTG
     HNHTG --> G
     F["External fungal-enzyme studies"] --> D["P: isolated pigment decolorized;<br/>not an intracellular mammalian route"]
     F --> SK["P: PcLiP04 and VP–AAO / POX_Pe<br/>decolorized reconstructed human<br/>pigmented-epidermis models"]
@@ -109,7 +111,7 @@ flowchart TD
     SKG --> G
 ```
 
-A 2026 HNHT formulation study adds a separate reconstructed-skin result: UVB-exposed 3D skin equivalents showed an 8.44% rise in L* and a 12.5% reduction in measured melanin. In separate melanosome-fed keratinocytes, LC3-II rose and GP100 fell. The formulation also suppresses melanogenesis, so the tissue result does not isolate stored-pigment clearance; marker change is not chemical product accounting. Its ex-vivo skin endpoint concerned glycation, and the paper reports no living-person intervention, photoprotection/function assessment, export balance, or washout return. [Wang et al., 2026](https://pubmed.ncbi.nlm.nih.gov/42152519/).
+The full text clarifies that the 3D skin experiment ran for seven days under UVB darkening, with six MelaKutis equivalents per group and three per group used for the melanin-content assay. HNHT reduced the UVB-associated signal while suppressing TYR/MITF, so lower new synthesis is a direct explanation; the experiment does not show that pre-existing pigment was removed. A separate triplicate melanosome-fed keratinocyte assay measured LC3-II and GP100 immunofluorescence. The authors call an autophagy contribution a hypothesis needing validation. No melanin-core products, export balance, local photoprotection, human intervention, or return after withdrawal was measured. [Wang et al., 2026](https://pubmed.ncbi.nlm.nih.gov/42152519/).
 
 The reconstructed-epidermis enzyme results add a surface-model tier between cell-free decolorization and living-person evidence. The PcLiP04 study measured stain-defined melanin area in the stratum corneum of a 3D model; the *P. eryngii* study reported decolorization in another 3D reconstructed model. Neither establishes pigment products leaving living skin, preserved photoprotection, or return after withdrawal. The 2026 oxidoreductase screen used docking and molecular dynamics only; predicted binding is not measured enzyme activity. [Gye et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37075205/), [Park et al., 2024](https://doi.org/10.1016/j.procbio.2024.06.035), [Singh et al., 2026](https://doi.org/10.1016/j.scp.2026.102412).
 
