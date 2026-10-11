@@ -26,6 +26,21 @@ flowchart LR
 
 An inherited HERC2–OCA2 regulatory variant strongly predicts natural blue/brown iris-color differences, but the functional enhancer study used cultured epidermal melanocytes and the same locus also associates with skin and hair pigmentation. This is explanatory genetics, not evidence of an adult iris-specific reversible switch. [Atlas diagram and evidence](tissue-pigment-atlas.md#5-the-original-iris-cycle).
 
+## Topical access to the iris is demonstrated; pigment selectivity is not
+
+Human pharmacokinetics confirms that an eye drop can expose the iris without an intraocular delivery procedure. In a tissue-distribution study, 31 patients undergoing enucleation for tumors that did not affect the anterior globe received a single topical dose of bimatoprost or latanoprost 1, 3, 6, or 12 hours before surgery. LC-MS/MS found bimatoprost distributed across sampled tissues in the order cornea/sclera > iris/ciliary body > aqueous humor; latanoprost acid followed cornea >> aqueous humor > iris > sclera > ciliary body. These were glaucoma agents, and the study measured drug concentrations, not color or melanin. The tissue samples came from enucleation, and the study did not test repeated use in healthy eyes, selective delivery to iris melanocytes, pigment clearance, or washout return. [Ichhpujani et al., 2012](https://pubmed.ncbi.nlm.nih.gov/22136089/).
+
+```mermaid
+flowchart LR
+    D["Single topical dose<br/>of a glaucoma medicine"] --> H["Human tissue pharmacokinetics<br/>after 1–12 hours"]
+    H --> B["Bimatoprost: cornea/sclera<br/>> iris/ciliary body > aqueous"]
+    H --> L["Latanoprost acid: cornea<br/>> aqueous > iris > sclera > ciliary"]
+    B --> A["Shows a topical route can<br/>reach iris tissue"]
+    L --> A
+    A -.-> S["G: iris-melanocyte-selective<br/>exposure is not shown"]
+    S -.-> C["No chosen color, melanin-mass change,<br/>clearance, or return endpoint was tested"]
+```
+
 ## Evidence for increasing pigmentation
 
 Direct experiments in cultured human uveal melanocytes show that new melanin synthesis is signal-responsive; α-methyl-p-tyrosine prevented a latanoprost-induced synthesis increase. A seven-day human donor-iris organ culture found increased tyrosinase mRNA in 6 of 30 culture sets, with no response in blue-iris cultures. A small six-month rabbit study reported lower end-point total melanin in one inhibitor-plus-inducer cohort than in its inducer-only fellow eyes (three rabbits in that cohort), but the abstract conflicts with the results table and the cohort's “blue” label referred to an ear mark, not iris color. No baseline tissue-pigment assay or post-withdrawal return was measured. [Drago et al., 1999](https://pubmed.ncbi.nlm.nih.gov/9986745/), [Lindsey et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11405836/), [Sadiq et al., 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9674870/).
