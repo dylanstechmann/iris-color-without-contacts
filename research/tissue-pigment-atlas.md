@@ -32,6 +32,8 @@ flowchart TD
     A --> H["Leptomeninges<br/>Melanin-bearing melanocytes"]
     A --> I["Heart / pulmonary veins<br/>DCT-positive melanocyte-like cells"]
     A --> J["Other mucosal surfaces<br/>Site-specific pigment"]
+    A --> L["Prostate / bladder<br/>rare focal melanosis;<br/>pigment identity varies"]
+    L --> L1["H: pathology reports<br/>Selective clearance: G"]
     A --> K["Adipose tissue<br/>carotenoids; candidate melanocyte progenitors"]
     B --> B1["Skin: C for specific disorders<br/>Gums: limited H + P cell model;<br/>native clearance unshown<br/>Hair/nail biological control: G"]
     C --> C1["Iris reversal: G<br/>RPE clearance mechanisms: P"]
@@ -154,6 +156,8 @@ The labels describe different kinds of evidence: **C** is indication-specific cl
 | **Spleen** | Ferritin and hemosiderin iron stores; lipofuscin reports are a separate target | **H:** iron-storage material characterized in spleens from patients with transfusion-related secondary overload. | Selective splenic clearance independent of systemic iron management. |
 | **Airways / lung-draining lymph nodes** | Inhaled carbon and other particles within macrophages | **H:** human bronchoscopy, biopsy, and node studies document anthracotic macrophages. | Safe selective extraction; visible deposits do not measure the full particle burden or associated fibrosis. |
 | **Colon mucosa** | Lipofuscin-like pigment in lamina-propria macrophages in melanosis coli; the name does not mean ordinary melanin | **H:** human histology identifies pigment-laden macrophages; observational cases document endoscopic disappearance after the inducing anthraquinone exposure ends. | Direct pigment mass/export after resolution, a selective intervention, or transfer to other pigments and organs. |
+| **Prostate** | Benign epithelial lipofuscin; rare stromal melanocytic lesions with melanin | **H:** one surgical series identified benign epithelial lipofuscin in 86/150 specimens; rare melanosome-bearing stromal cells are documented separately. | Population prevalence and any selective pigment-reduction or return method; “prostatic melanosis” alone does not identify the chemical pigment. |
+| **Urinary bladder** | Rare focal mucosal pigmentation; reported pigment includes melanin and lipofuscin | **H:** isolated biopsy reports chemically distinguish melanin-confirmed melanosis from PAS-positive granules considered suggestive of lipofuscin. | Normal prevalence, controlled pigment reduction, and a return cycle. |
 | **Esophageal mucosa** | Rare melanocytic proliferation with melanin deposition in squamous mucosa | **H:** human case reports/series document esophageal melanocytosis and distinguish it from melanoma. | Natural history, selective clearance, or generalization to other mucosal surfaces. |
 | **Other mucosa** | Site-specific melanin in melanocytes or epithelial cells; many different surfaces | **H:** oral, nasal, laryngeal, vulvar, cervical, anorectal, and rare esophageal findings have been described, but study designs and compartments differ. | No selective clearance assessment; vaginal baseline data rely on a small historical autopsy series, and many other mucosal sites remain underassessed. |
 
@@ -172,6 +176,23 @@ flowchart LR
 ```
 
 These findings identify different stored materials, not a shared pigment pool: lipofuscin, carotenoids, iron, and ochronotic polymer need separate measurement and disposition models. Clinical management of diagnosed iron overload or alkaptonuria is disease-directed; it does not establish cosmetic, tissue-specific clearance. [Human muscle study](https://pubmed.ncbi.nlm.nih.gov/17376148/), [human adipose carotenoid study](https://pubmed.ncbi.nlm.nih.gov/19587090/), [human bone iron study](https://pubmed.ncbi.nlm.nih.gov/3282446/), [Achilles tendon ochronosis case report](https://pubmed.ncbi.nlm.nih.gov/39027761/).
+
+### Prostate and urinary bladder: “melanosis” needs pigment identification
+
+```mermaid
+flowchart LR
+    P["Prostate"] --> PL["H: benign epithelial granules<br/>identified as lipofuscin in 86 / 150 surgical specimens"]
+    P --> PM["H: rare stromal melanocytic lesion;<br/>melanosomes shown by electron microscopy"]
+    U["Urinary bladder"] --> UM["H: true melanosis reported;<br/>melanin confirmed in a bladder biopsy"]
+    U --> UL["H: a separate case favored<br/>PAS-positive lipofuscin"]
+    PL --> D["“Melanosis” is a pathology label,<br/>not a chemical identity"]
+    PM --> D
+    UM --> D
+    UL --> D
+    D --> G["G: selective, function-preserving<br/>cosmetic reduction and return"]
+```
+
+One prostate surgical-specimen series found benign epithelial pigment in 86 of 150 specimens and identified it as lipofuscin by histochemical, fluorescence, and ultrastructural findings. Separate rare stromal melanocytic lesions contain melanosomes, so those reports describe a different pigment-bearing compartment. In the bladder, isolated reports include melanin-confirmed mucosal pigmentation and a separate case whose PAS-positive granules were considered suggestive of lipofuscin. A paired bladder/prostate case confirmed melanin in the bladder, but the prostate pigment was not independently characterized with special stains. These case reports do not establish normal prevalence or a controllable store. No selective, function-preserving reduction or return method is established in the reviewed evidence. [Brennick et al., 1994](https://pubmed.ncbi.nlm.nih.gov/7513501/), [Botticelli et al., 1989](https://pubmed.ncbi.nlm.nih.gov/2744060/), [Tran et al., 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11066798/), [Cao et al., 2024](https://doi.org/10.1177/10668969231166301).
 
 ### Pancreas, kidney, spleen, and airways: distinct internal deposits
 
