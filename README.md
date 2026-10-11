@@ -16,7 +16,7 @@ The return direction is a separate problem. Added iris pigmentation can persist 
 
 The full blue → dark brown → blue sequence remains hypothetical. FDA currently states that there are no approved eye drops to change eye color. [FDA](https://www.fda.gov/drugs/buying-using-medicine-safely/what-you-should-know-about-eye-drops)
 
-The broader pigment review suggests a shared **control framework**—identify the pigment and compartment, match processing to the substrate, account for breakdown products, preserve tissue function, and define a stopping/recovery endpoint—but no universal clearance mechanism. Skin studies vary by cell context and model; human neuromelanin research adds the question of what a long-lived pigment store is holding. [Selective-clearance framework](research/selective-clearance-framework.md)
+The broader pigment review suggests a shared **control framework**—identify the pigment and compartment, match processing to the substrate, account for breakdown products, preserve tissue function, and define a stopping/recovery endpoint—but no universal clearance mechanism. Skin studies vary by cell context and model; human neuromelanin research adds the question of what a long-lived pigment store is holding. A colon-specific example, melanosis coli, sometimes becomes invisible on follow-up colonoscopy after the inducing exposure ends; that appearance endpoint does not establish where the lipofuscin-like material went. [Tissue pigment atlas](research/tissue-pigment-atlas.md), [selective-clearance framework](research/selective-clearance-framework.md)
 
 ## Research notes
 
