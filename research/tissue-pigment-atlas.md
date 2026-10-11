@@ -815,12 +815,12 @@ flowchart TD
     A["Alkaptonuria<br/>Excess homogentisic acid"] --> P["Ochronotic tissue deposits<br/>Cartilage and other connective tissues"]
     A --> N["C: nitisinone lowers precursor"]
     N --> H["Less homogentisic acid"]
-    H --> R["H: partial pigment regression<br/>at measured eye / ear sites"]
+    H --> R["H: photographed eye/ear scores improved;<br/>ear-biopsy pigment fell 19.1%"]
     R -.-> G["G: complete clearing of all deposits"]
     H --> D["Human trial: slower disease progression"]
 ```
 
-A human observational study reported partial regression in photographed eye/ear pigmentation and a reduction in ear-cartilage biopsy pigment. A randomized trial also found slower disease progression. This is a useful example of existing pigment decreasing after precursor reduction, with incomplete reversal and disease-specific chemistry. It does **not** demonstrate the same behavior for adult iris melanin. FDA's Harliku approval concerns reducing urinary homogentisic acid in adult alkaptonuria. [Pigment study](https://pubmed.ncbi.nlm.nih.gov/32904992/), [SONIA 2 trial](https://pubmed.ncbi.nlm.nih.gov/32822600/), [FDA approval record](https://www.accessdata.fda.gov/scripts/opdlisting/oopd/detailedIndex.cfm?cfgridkey=942723).
+A human observational cohort included 80 patients at baseline, with variable follow-up that fell to 40 by year 3. Photographed eye and ear ochronosis scores decreased after nitisinone; ear-cartilage biopsies showed a 19.1% pigment decrease at the later measured visit (P < .05). Follow-up was observational and incomplete, and did not measure whole-body pigment balance. This is a human example of partial regression of HGA-derived ochronotic pigment after precursor reduction; it does **not** establish a route for melanin or adult iris-color reversal. A randomized trial separately found slower disease progression. [Ranganath et al., 2020](https://pubmed.ncbi.nlm.nih.gov/32904992/), [SONIA 2 trial](https://pubmed.ncbi.nlm.nih.gov/32822600/), [FDA Nityr/Harliku approval letter](https://www.accessdata.fda.gov/drugsatfda_docs/appletter/2025/209449Orig1s018ltr.pdf).
 
 ## 10. Bilirubin and other color changes
 
