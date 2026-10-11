@@ -66,15 +66,15 @@ flowchart TB
     E --> E1["Anterior iris: H drug-associated darkening<br/>No established nonsurgical reversible color change"]
     E --> E2["RPE: disease-directed bisretinoid research<br/>A separate target from visible iris melanin"]
     Q --> V["Other pigment-bearing tissues"]
-    V --> V1["C: disease-directed treatment for<br/>some abnormal deposits, such as iron overload"]
+    V --> V1["C: disease treatment for iron overload<br/>and ochronosis precursor reduction"]
     V --> V2["P/H: tissue-specific processing studies<br/>in brain, viscera, cochlea, and mucosa"]
     V --> V3["G: no general selective cosmetic<br/>pigment-clearance method established"]
     Q --> D["Dermal tattoo / selected metal deposits"]
     D --> D1["X: local laser procedures can alter deposits"]
-    D1 --> D2["A procedure is not nonprocedural control;<br/>fragmentation does not establish final body fate"]
+    D1 --> D2["Procedures can fragment deposits;<br/>the final pigment destination remains unmeasured"]
 ```
 
-In the United States, the Opzelura label covers repigmentation treatment for nonsegmental vitiligo, while the Scenesse label covers increased pain-free light exposure in adults with erythropoietic protoporphyria. These are specified disease indications, not cosmetic shade-control products. The 73-person gingival ascorbyl-glucoside trial measured lightness, not melanin mass or export. [FDA Opzelura label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215309s007lbl.pdf), [FDA Scenesse label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/210797s007lbl.pdf), [Shimada et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19186973/). For the ocular compartment distinction and iris evidence, see [Section 4](#4-eyes-separate-compartments) and [Section 5](#5-the-original-iris-cycle).
+In the United States, the Opzelura label covers repigmentation treatment for nonsegmental vitiligo, while the Scenesse label covers increased pain-free light exposure in adults with erythropoietic protoporphyria. These labels specify disease indications and provide no healthy-tissue shade-control indication. The 73-person gingival ascorbyl-glucoside trial measured lightness, not melanin mass or export. [FDA Opzelura label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215309s007lbl.pdf), [FDA Scenesse label](https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/210797s007lbl.pdf), [Shimada et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19186973/). For the ocular compartment distinction and iris evidence, see [Section 4](#4-eyes-separate-compartments) and [Section 5](#5-the-original-iris-cycle).
 
 ### Comparison by tissue
 
