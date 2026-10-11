@@ -632,7 +632,11 @@ flowchart LR
     TR["P: guinea-pig skin;<br/>labeled melanoma melanosomes<br/>injected into dermis"] --> INFL["Contact-dermatitis infiltrates"]
     INFL --> TLOSS["P: increased 3H-melanin-moiety<br/>elimination from dermis reported"]
     TLOSS -.-> TGAP["G: destination, products,<br/>and whole-body balance unreported"]
+    HN["H: 50 human lymph-node samples<br/>from 42 patients with dermatopathic<br/>lymphadenopathy"] --> HNM["Melanophages in 48/50 nodes<br/>(98% of this selected cohort)"]
+    HNM -.-> HNG["G: skin source, route into node,<br/>node exit, and whole-body fate<br/>not traced"]
 ```
+
+A human pathology cohort adds a separate nodal observation: melanophages were found in 48 of 50 lymph-node samples (98%) from 42 selected patients with dermatopathic lymphadenopathy; 22 of the 42 had a documented dermatologic disorder. These were biopsied, abnormal nodes. The study did not trace pigment from a skin site into the node, measure ordinary skin-to-node flux, or follow what happened after nodal uptake. It establishes that melanin-bearing phagocytes can be present in human lymph nodes, not that a treatment cleared pigment from skin or eliminated it from the body. [Garces et al., 2020](https://doi.org/10.1038/s41379-019-0440-4).
 
 In a UV-B-induced mouse-skin model, Kim et al. reported greater lymphatic-marker signals and lower tyrosinase activity after radiofrequency exposure, alongside lower later skin Fontana–Masson staining and fewer melanin-containing dermal macrophages. The authors interpreted the pattern as lymphatic clearance. However, the article's Results text and Figure 4 report more lymph-node Fontana–Masson staining in the RF group, while its abstract says lymph-node melanin decreased. Because synthesis also changed, the lighter skin signal cannot be assigned to export; the study did not trace the same pigment from skin through the node or measure its exit from the body. This is a UV-B mouse procedure model, not a human cosmetic clearance method. [Kim et al., 2022](https://doi.org/10.3390/molecules27020454).
 
