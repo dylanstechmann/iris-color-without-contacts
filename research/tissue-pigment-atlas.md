@@ -87,7 +87,7 @@ flowchart TB
     S --> S1["C: vitiligo repigmentation; EPP photoprotection-related pigment increase<br/>H + X: low-confidence 2026 PIH PDT report<br/>P: stored-melanin reduction signals in models"]
     S1 --> SG["G: healthy-skin cosmetic shade cycle,<br/>pigment fate, and return"]
     A --> G["Gingiva"]
-    G --> G1["H: short-term color-score / lightness findings<br/>X: depigmentation procedures"]
+    G --> G1["H: topical lightness / score studies<br/>H + X: laser comparisons of ablative<br/>and non-ablative methods; score endpoints"]
     G1 --> GG["G: stand-alone pigment-mass removal<br/>and predictable return"]
     A --> D["Dermis"]
     D --> D1["X: tattoo lasers fragment exogenous ink<br/>H: pigment also found in draining nodes"]
@@ -667,6 +667,11 @@ flowchart TD
     MREV -.-> G
     B --> S["X: scalpel / ablative laser<br/>pigmented epithelium removed"]
     S --> R["Healing and possible repigmentation"]
+    B --> XR["H + X: two 2025 split-mouth diode-laser RCTs<br/>ablative vs non-ablative approaches"]
+    XR --> XR1["n=30: clinical scores improved; ablation<br/>reduced scores more, non-ablative caused<br/>less discomfort; 3-month follow-up"]
+    XR --> XR2["n=20: score changes through 12 months;<br/>an overlapping 2026 publication was retracted"]
+    XR1 -.-> G
+    XR2 -.-> G
     C --> O["Cause-specific assessment<br/>not automatically a melanin-clearance target"]
 ```
 
@@ -818,6 +823,10 @@ flowchart TD
 A three-case ultrastructural report compared inflamed gingiva with homologous areas 40 days after scaling and root planing. Melanosome counts in keratinocytes were lower after inflammation resolved. The authors raised inflammation as a possible influence on gingival melanin intensity; the study did not quantify visible color, total melanin chemistry, or export. This is a small disease-context observation, not a pigment-control intervention. [Alves et al., 2015](https://doi.org/10.5005/jp-journals-10024-1718).
 
 A five-person surgical gingivectomy series followed repigmentation for five years. Transmission electron microscopy showed melanocytes migrating and dividing at days 6–7; keratinocytes were reported without pigmented material until day 50. Clinical pigmentation returned to baseline by 1.5 years in two people and by 3 years in the other three. This describes repigmentation after removal of pigmented tissue, not selective clearance or a nonsurgical color switch. [Bergamaschi et al., 1993](https://pubmed.ncbi.nlm.nih.gov/8330948/).
+
+Two 2025 split-mouth randomized trials compared ablative with non-ablative diode-laser approaches for physiologic gingival pigmentation. Singh et al. (n=30) reported lower DOPI, melanin-index, and gingival-pigmentation-index scores with both methods through three months; ablation produced larger mean score reductions, while the non-ablative approach caused less post-operative discomfort. Altayeb et al. (n=20) reported index-score reductions through 12 months, with fewer repigmentation events after ablation but greater intraoperative discomfort; the non-ablative arm required more sessions. These are clinical index and comfort outcomes from procedures, not chemical melanin mass, pigment disposition, or a return-to-original-state assay.
+
+The SAGE journal retracted a 2026 paper that substantially overlapped with the Altayeb 2025 article. The publisher says corresponding author Walid Altayeb stated he had no knowledge of the 2026 submission; he attributed the overlap to a third-party submission service. The editor and publisher judged the overlap significant. The 2026 paper is not independent replication and its abstract should not be treated as a second trial. [Singh et al., 2025](https://pubmed.ncbi.nlm.nih.gov/41047406/), [Altayeb et al., 2025](https://pubmed.ncbi.nlm.nih.gov/41335139/), [SAGE retraction notice](https://doi.org/10.1177/25785478261452086).
 
 ## 4. Eyes: separate compartments
 
