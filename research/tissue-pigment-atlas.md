@@ -377,6 +377,34 @@ flowchart LR
     O -.-> X["Renewal-linked surface loss differs<br/>from selective removal of stored pigment"]
 ```
 
+#### Intercellular transfer can move melanin without removing it from skin
+
+```mermaid
+flowchart LR
+    KCM["P: differentiated primary human<br/>keratinocyte-conditioned medium"] --> RB["P: RAB3A-dependent melanin<br/>exocytosis / transfer in co-culture"]
+    M["P: normal human melanocyte"] --> CM["Melanin detected outside donor cells<br/>in culture"]
+    RB --> CM
+    CM --> KC["P: recipient keratinocytes<br/>receive pigment"]
+    M --> CL["P: secretory melanosome clusters"]
+    CL --> F["P: human dermal fibroblasts<br/>internalize clusters"]
+    CL --> MA["P: human macrophages<br/>internalize clusters"]
+    F --> H["H: AshD biopsies show fibroblasts<br/>as a greater share of melanosome-<br/>containing cells in 12/14 cases"]
+    MA --> H2["H: macrophage p62 was higher<br/>in the marker subset (n=7 vs<br/>5 healthy controls)"]
+    KC --> SH["H: melanin-bearing surface<br/>corneocytes are documented;<br/>cumulative flux is unmeasured"]
+    CM -.-> GAP
+    KC -.-> GAP
+    F -.-> GAP
+    MA -.-> GAP
+    SH -.-> GAP
+    GAP["G: recipient-cell degradation,<br/>outward transport, external output,<br/>and whole-skin mass balance"]
+```
+
+Cabaço et al. found that conditioned medium from differentiated primary human keratinocytes stimulated RAB3A-dependent melanin exocytosis and transfer in co-culture with human neonatal melanocytes. They measured melanin outside donor cells and pigment-containing compartments per recipient keratinocyte; they did not determine whether recipient cells digested the pigment or whether it left the tissue. [Cabaço et al., 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9460155/).
+
+Ando et al. showed that normal human melanocytes release phosphatidylserine-exposed melanosome clusters in culture. Normal human dermal fibroblasts and macrophages internalized the isolated clusters; fibroblast melanin per cell rose over 48 hours. Fibroblasts also internalized apoptotic melanocytes in culture. The authors' proposed passage of dendrites through the epidermal basement membrane was not directly observed in intact skin: the barrier comparison used a microporous filter. These experiments demonstrate recipient-cell uptake, not pigment digestion, natural in-vivo flux, or body clearance. [Ando et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7461560/).
+
+In ashy dermatosis, the 2026 biopsy series supports a disease-specific association between melanin-bearing dermal fibroblasts and persistent pigmentation. The fibroblast/macrophage comparison is a static cell-type distribution, not a kinetic uptake assay; macrophage p62 is a marker consistent with impaired autophagy, not direct measurement of melanin breakdown. Together, these findings make intercellular redistribution a concrete alternative to clearance when donor-cell pigment falls. Recipient-cell fate and total tissue output remain unmeasured.
+
 #### Pigment positioning is a separate photoprotection endpoint
 
 ```mermaid
@@ -422,7 +450,7 @@ This does not fully resolve the contrasting tissue-model results: autophagy mani
 
 **Critical storage context:** cultured human keratinocytes show donor-dependent melanosome turnover, and autophagy manipulation changed measured melanin in cultured and ex-vivo human skin models. Other cultured-cell uptake studies and human skin electron microscopy found melanin in compartments that were not highly acidic or degradative. This is context-dependent evidence, not a settled universal clearance route. In human skin explants, supranuclear melanin caps correlated with fewer UV-induced DNA photoproducts; an experimental melanocore-disruption model found weaker protection from disrupted cores. Thus a color change alone would not establish safe, selective clearance. [Donor-dependent turnover](https://pubmed.ncbi.nlm.nih.gov/21326292/), [ex-vivo skin model](https://doi.org/10.1038/jid.2013.165), [nondegradative compartments](https://pubmed.ncbi.nlm.nih.gov/29074272/), [in-situ human skin](https://pubmed.ncbi.nlm.nih.gov/29054596/), [human skin explants](https://pubmed.ncbi.nlm.nih.gov/9579550/), [melanocore model](https://pmc.ncbi.nlm.nih.gov/articles/PMC6056223/).
 
-A 2026 human-biopsy study of 14 people with ashy dermatosis found greater melanosome uptake in dermal fibroblasts than in macrophages. In a seven-case marker subset, increased macrophage p62 was interpreted as evidence consistent with impaired autophagic degradation. This disease-specific pathology suggests that persistent dermal melanosomes can involve multiple cell types; it does not establish a treatment or generalize to normal dermis. [Hada et al., 2026](https://pubmed.ncbi.nlm.nih.gov/42410740/).
+A 2026 cross-sectional study of 14 ashy-dermatosis biopsies found that fibroblasts accounted for a significantly greater share of melanosome-containing cells than macrophages in most cases (12/14, p=.0049). In a marker subset of seven cases compared with five healthy controls, macrophage p62 was higher (p=.0101), consistent with impaired autophagy. Static tissue composition does not measure uptake rate or pigment flux. This disease-specific pathology shows melanin-bearing fibroblasts in affected dermis; it does not establish a clearance mechanism or generalize to normal skin. [Hada et al., 2026](https://doi.org/10.1111/pcmr.70110).
 
 ### Chronic ER stress links pigment production and retention in solar lentigo
 
