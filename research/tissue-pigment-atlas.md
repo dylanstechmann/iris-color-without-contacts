@@ -498,7 +498,7 @@ flowchart LR
     X --> R["KRT5 re-expression restores<br/>positioning in the model"]
     P -.-> G["G: total pigment mass, melanin-core<br/>degradation, export, and whole-skin<br/>photoprotection not tested"]
     D -.-> G
-    J["2026 meta-analysis: separate pooled glaucoma-surgery rates<br/>21.8% BAIT and 0.8% BADI"] --> K["Observational disease evidence;<br/>descriptive pools, not a direct comparison<br/>or a therapeutic pathway"]
+    J["2026 meta-analysis: separate pooled glaucoma-surgery rates<br/>21.8% BAIT and 0.8% BADI"] --> BM["Observational disease evidence;<br/>descriptive pools, not a direct comparison<br/>or a therapeutic pathway"]
 ```
 
 A 2026 human-keratinocyte model found that KRT5/KRT14 intermediate filaments and microtubules, linked by plectin-1, maintain melanin-containing organelles in a supranuclear three-dimensional position; the positioned organelles shielded DNA from UVB damage in the model. KRT5 disruption dispersed the organelles, while KRT5 re-expression restored their positioning. This is preclinical organization and function evidence, not a decrease in total melanin, degradation of the pigment core, export, or an intervention in living skin. **Inference:** skin safety assessment should measure pigment position and UV-DNA protection separately from bulk melanin and visible color. The paper reports that several authors were L’Oréal Research and Innovation employees and that the company supported the work. [Benito-Martínez et al., 2026](https://pubmed.ncbi.nlm.nih.gov/41398050/).
