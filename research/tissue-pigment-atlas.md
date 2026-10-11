@@ -341,11 +341,13 @@ A 2025 cell study identified a distinct upstream melanophagy route in TCTE-treat
 
 ### A small topical OCA2-regulating study measured skin appearance
 
-Cho et al. tested a multi-ingredient topical formula containing genistein, quercetin, polydatin, and zinc PCA in two small, double-blind assessments. Eleven healthy Korean volunteers used a split-face design comparing the formula with 8% vitamin C for four weeks; a separate dark-spot assessment enrolled 12 participants, with six per formula. The authors reported a larger skin-lightness (L*) change and greater reduction in the measured dark-spot score for the test formula. The clinical study did not verify that these outcomes were caused by OCA2 down-regulation, measure chemical melanin mass or pigment leaving skin, or assess what happened after stopping. All authors were affiliated with the manufacturer's R&D center.
+Cho et al. tested a multi-ingredient topical formula containing genistein, quercetin, polydatin, and zinc PCA in two small, double-blind assessments. Eleven healthy Korean volunteers used a split-face design comparing the formula with 8% vitamin C for four weeks; a separate dark-spot assessment enrolled 12 participants, with six per formula. The authors reported a larger skin-lightness (L*) change and greater reduction in the measured dark-spot score for the test formula. The paper's mechanistic work was mainly in B16F10 mouse melanoma cells: OCA2 knockdown lowered absorbance-based cellular melanin and changed melanosome-acidification and LC3B readouts, which the authors interpreted as possible autophagy involvement. Those results do not establish degradation of pre-existing pigment; reduced new synthesis could contribute, and the work did not follow old pigment into identified products or export. The human formula arm did not measure OCA2 target engagement, chemical melanin mass or pigment leaving skin, or what happened after stopping. All authors were affiliated with the manufacturer's R&D center.
 
 ```mermaid
 flowchart LR
+    P["P: OCA2 knockdown / compounds in<br/>B16F10 cells: lower melanin absorbance;<br/>pH and LC3B readouts change"]
     T["H: 11-person, 4-week split-face<br/>skin-lightness comparison"]
+    P -.-> G
     T --> L["Multi-ingredient formula vs<br/>8% vitamin C; author-reported<br/>larger L* change"]
     D["H: 12-person dark-spot assessment<br/>six participants per formula"]
     D --> S["Author-reported greater reduction<br/>in device-measured spot score"]
