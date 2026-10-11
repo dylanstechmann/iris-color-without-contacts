@@ -30,11 +30,13 @@ flowchart TD
     A --> F["Other coloration<br/>External pigments, tooth stains, blood"]
     A --> G["Inner ear / cochlea<br/>Strial melanin"]
     A --> H["Leptomeninges<br/>Melanin-bearing melanocytes"]
+    A --> I["Heart / pulmonary veins<br/>DCT-positive melanocyte-like cells"]
     B --> B1["Skin: C for specific disorders<br/>Gums: limited H<br/>Hair/nail biological control: G"]
     C --> C1["Iris reversal: G<br/>RPE clearance mechanisms: P"]
     D --> D1["Mechanistic studies: P / human tissue<br/>General selective clearance: G"]
     G --> G1["H tissue mapping; P mouse function data<br/>Selective reduction: G"]
     H --> H1["H normal anatomy / imaging<br/>Selective clearance: G"]
+    I --> I1["H human cell identity; P mouse function data<br/>Pigment clearance: G"]
     E --> E1["C for certain diagnosed diseases<br/>Different chemistry and mechanisms"]
     F --> F1["Separate targets and methods<br/>No universal pigment-clearing system established"]
 ```
@@ -58,6 +60,7 @@ flowchart TD
 | **Brain neurons** | Neuromelanin; lipofuscin is a separate residual-material class | Human tissue studies characterize neuromelanin organelles. | Safe selective clinical clearance, preservation of bound substances, or a cosmetic application. |
 | **Leptomeninges** | Melanin in non-neuronal meningeal melanocytes | **H:** human histology places most cells over the ventrolateral medulla; normal pigment can be visible on T2 MRI. | Selective removal, safe disposition, or extrapolation to neuronal neuromelanin. |
 | **Heart / liver / adrenal cells** | Lipofuscin | Human tissue studies document accumulation; **P:** cardiac clearance research in old rats. | A selective human visceral lipofuscin-removal treatment demonstrated by this source set. |
+| **Heart / pulmonary-vein melanocyte-like cells** | Human DCT-positive cells; cardiac melanosomes demonstrated in mice | **H:** melanocyte-like cells identified in human atria and pulmonary veins. **P:** mouse cell/pathway models show rhythm effects with DCT deficiency or cell loss. | A quantified human cardiac melanin store, causal link between pigment amount and human arrhythmia, or any clearance method. |
 | **Liver Kupffer cells (tattoo-ink comparison)** | Exogenous tattoo particles, separate from endogenous liver pigments | **P:** a one-year mouse study detected black/red tattoo particles in Kupffer cells; other sampled internal organs were negative by light microscopy. | Human internal-organ distribution, whole-body elimination, or an endogenous pigment-clearance route. |
 | **Draining lymph nodes (tattoo ink)** | Exogenous ink particles in phagocytes, separate from endogenous pigment | **H:** postmortem human skin/node study and human node biopsies document ink; **P:** human-cell macrophage and mouse studies show possible cell injury/inflammation. | Human clinical consequences, safe whole-body elimination, or relevance to endogenous melanin. |
 | **Liver / heart / pancreas and other iron-overload sites** | Excess stored iron, including ferritin/hemosiderin pools | **C:** iron depletion or chelation for diagnosed overload. | Arbitrary tissue-by-tissue cosmetic targeting or guaranteed reversal of prior damage. |
@@ -420,6 +423,21 @@ flowchart LR
 ```
 
 Human histology and ultrastructure identified leptomeningeal pigment cells as melanocytes, based on their dendritic morphology and melanosomes. In 15 brains, they were concentrated over the ventrolateral medulla; a small subset averaged 325 cells/mm² there. A separate imaging study found that normal meningeal melanin can create T2-weighted hypointensity that resembles disease. The studies establish a non-neuronal CNS pigment compartment, not its normal physiological role or a selective clearance route. That compartment is distinct from neuronal neuromelanin. [Goldgeier et al., 1984](https://pubmed.ncbi.nlm.nih.gov/6699426/), [Gebarski and Blaivas, 1996](https://pubmed.ncbi.nlm.nih.gov/8770250/).
+
+## 14. Heart and pulmonary veins: melanocyte-like cells with uncertain human pigment burden
+
+```mermaid
+flowchart TD
+    H["Human atria / pulmonary veins"] --> HC["H: DCT-positive<br/>melanocyte-like cells identified"]
+    M["Mouse cardiac melanocyte-like cells"] --> MM["P: melanosomes and pigmented cells observed"]
+    M --> D["P: DCT deficiency or loss of these cells<br/>changes arrhythmia susceptibility in mice"]
+    D --> U["Mechanism is not proof that<br/>melanin amount drives the phenotype"]
+    HC --> G["G: human pigment burden, clinical role,<br/>and selective clearance unresolved"]
+    MM --> G
+    U --> G
+```
+
+A primary study identified DCT-positive melanocyte-like cells in human pulmonary veins and atria; ultrastructural melanosomes and pigmented cardiac cells were shown in mice. Mouse DCT-deficient or cell-deficient models had altered susceptibility to atrial arrhythmias. Because DCT also participates in calcium and reactive-species regulation, these results do not show that reducing melanin itself causes arrhythmia, and the contribution of these cells to clinical human arrhythmias remains undetermined. No human cardiac pigment-reduction or clearance method is established. [Levin et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19855129/).
 
 ## Research requirements shared across tissues
 
