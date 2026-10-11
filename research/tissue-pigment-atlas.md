@@ -1148,7 +1148,11 @@ Human fetal RPE cultures provide evidence concerning melanin's photoprotective r
 
 ## 5. The original iris cycle
 
-Human iris chemistry found very low pigment content in blue irides and variation in melanin type across color groups. Histology found no significant difference in stromal melanocyte counts among blue, hazel, and brown irides. In cultured human uveal melanocytes, growing cells shifted toward pheomelanic pigmentation, while cultures after senescence showed increased pigment content, mainly eumelanin. Those are culture-state observations, not evidence of pigment turnover in an intact adult iris. **Inference:** a return-to-blue claim should measure the visible anterior-stromal pigment state and standardized optical appearance; melanocyte counts or a whole-eye pigment measure alone are inadequate endpoints. [Iris histology](https://pubmed.ncbi.nlm.nih.gov/8602782/), [human iris pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/).
+Human iris chemistry found very low pigment content in blue irides and variation in melanin type across color groups. Histology found no significant difference in stromal melanocyte counts among blue, hazel, and brown irides. In cultured human uveal melanocytes, growing cells shifted toward pheomelanic pigmentation, while cultures after senescence showed increased pigment content, mainly eumelanin. Those are culture-state observations, not evidence of pigment turnover in an intact adult iris.
+
+A separate ESR/chemical-degradation study of postmortem whole irides found about 40% more measured melanin in its brown-eye group than in the other sampled color groups. The result is cross-sectional and combines iris compartments; it does not specify the pigment level required for a dark-brown appearance in the anterior stroma. Its reported age-associated signal was a small decrease in iron normalized to melanin in light-blue irides, not evidence that total iris melanin declines with age. [Wielgus and Sarna, 2005](https://pubmed.ncbi.nlm.nih.gov/16280011/).
+
+**Inference:** a return-to-blue claim should measure the visible anterior-stromal pigment state and standardized optical appearance; melanocyte counts or a whole-eye pigment measure alone are inadequate endpoints. [Iris histology](https://pubmed.ncbi.nlm.nih.gov/8602782/), [human iris pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/).
 
 ### Natural iris-color changes do not establish pigment clearance
 
