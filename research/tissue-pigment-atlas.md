@@ -169,7 +169,10 @@ Human nail-matrix studies document melanocytes; a drug-induced melanonychia lase
 
 ```mermaid
 flowchart TD
-    B["Brain neuromelanin"] --> BO["Specialized intracellular organelles<br/>Human tissue characterization"]
+    B["Brain neuromelanin"] --> BO["Long-lived autolysosome-like organelle"]
+    BO --> NM["Pigment compartment<br/>Al, Ca, Fe mapped in human LC"]
+    BO --> PM["Protein matrix"]
+    BO --> LB["Lipid bodies"]
     BO --> BG["G: selective clinical clearance"]
     L["Lipofuscin in long-lived cells<br/>Heart, liver, adrenal and neural compartments"]
     L --> R["P: lower cardiac burden in old rats"]
@@ -179,7 +182,7 @@ flowchart TD
     S -.-> G["G: selective human tissue clearance<br/>with function preserved"]
 ```
 
-Human brain research characterizes neuromelanin-containing organelles; this is not a demonstrated clinical clearance intervention. Human tissue studies also document lipofuscin in cardiac, hepatic and adrenal cells. A cardiac study reported reduced burden in old rats. Separately, stressed human fibroblast cultures accumulated more lipofuscin when autophagy was activated under impaired processing. **Increasing autophagy is not sufficient evidence that every pigment will be cleared.** [Neuromelanin study](https://pubmed.ncbi.nlm.nih.gov/29900402/), [human visceral-tissue study](https://pubmed.ncbi.nlm.nih.gov/7206299/), [old-rat cardiac study](https://www.sciencedirect.com/science/article/pii/S0014482721001178), [human fibroblast study](https://pubmed.ncbi.nlm.nih.gov/37438887/).
+Human brain research characterizes neuromelanin-containing organelles; this is not a demonstrated clinical clearance intervention. A 2026 elemental-mapping study of seven postmortem locus-coeruleus samples localized several metals mainly to the pigment compartment, alongside a protein matrix and lipid bodies. The sample is small and observational; it sharpens the cargo map but cannot predict a clearance intervention. Human tissue studies also document lipofuscin in cardiac, hepatic and adrenal cells. A cardiac study reported reduced burden in old rats. Separately, stressed human fibroblast cultures accumulated more lipofuscin when autophagy was activated under impaired processing. **Increasing autophagy is not sufficient evidence that every pigment will be cleared.** [Neuromelanin organelle study](https://pubmed.ncbi.nlm.nih.gov/29900402/), [human locus-coeruleus elemental map](https://pmc.ncbi.nlm.nih.gov/articles/PMC13408184/), [human visceral-tissue study](https://pubmed.ncbi.nlm.nih.gov/7206299/), [old-rat cardiac study](https://www.sciencedirect.com/science/article/pii/S0014482721001178), [human fibroblast study](https://pubmed.ncbi.nlm.nih.gov/37438887/).
 
 ## 8. Iron deposits: an existing disease-treatment example
 
