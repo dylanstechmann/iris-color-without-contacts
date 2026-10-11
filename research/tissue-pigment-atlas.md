@@ -841,13 +841,13 @@ flowchart LR
     E --> U["Surface-directed epithelial renewal"]
     U -.-> SH["H: surface cells shed;<br/>melanin in shed gingival cells<br/>has not been measured"]
     INF["H: gingival surgery specimens<br/>from 21 adults; inflammation graded"] --> DC["Melanin granules in subepithelial<br/>inflammatory cells"]
-    DC -.-> G["G: cell identity, pigment destination,<br/>and net tissue/body balance unmeasured"]
+    DC -.-> G
     M["Metal-associated discoloration<br/>in one human case report"] --> MIX["H: melanin observed in<br/>epithelial and deeper compartments"]
     MIX --> BM["Basement membrane"]
     MIX --> FC["Fibroblasts and macrophages"]
     MIX --> X["Extracellular ground substance"]
     S["Silver and sulfur detected<br/>in deep connective tissue"] -.-> HY["Authors proposed accidentally<br/>implanted dental metals as a stimulus"]
-    BM -.-> G["G: pigment destination and<br/>net tissue/body balance unmeasured"]
+    BM -.-> G["G: cell identity, pigment destination,<br/>and net tissue/body balance unmeasured"]
     FC -.-> G
     X -.-> G
     HY -.-> G
