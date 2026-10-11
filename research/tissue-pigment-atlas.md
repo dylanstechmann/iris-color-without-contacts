@@ -530,19 +530,32 @@ flowchart LR
     H1["H: n=51 randomized split-face study<br/>day-31 melanin index fell 7.6% on LiP-treated side"]
     H2["H: n=31 self-controlled melasma study<br/>chromameter lightness and MASI improved"]
     H3["H: n=60 split-face study<br/>reported lightening; Syneron-funded;<br/>erratum notice cited"]
+    P1["P: recombinant PcLiP04 in a 3D human<br/>pigmented epidermis model; lower<br/>stain-defined stratum-corneum melanin area"]
+    P2["P: Pleurotus VP + AAO / POX_Pe<br/>decolorized a 3D reconstructed<br/>human pigmented epidermis model"]
+    COMP["2026 computational screen:<br/>versatile peroxidase ranked highest<br/>for predicted melanin binding"]
+    COMP --> COMP2["Docking / 50-ns MD only;<br/>no catalytic assay or tissue test"]
     CF -.-> GAP
     GPH --> GAP
     H1 --> GAP
     H2 --> GAP
     H3 --> GAP
+    P1 --> GAP
+    P2 --> GAP
+    COMP2 -.-> GAP
     GAP["G: human tissue pigment mass, chemical products,<br/>export/fate, return after withdrawal, and photoprotection"]
 ```
 
 Lignin peroxidase (LiP), manganese peroxidase (MnP), and laccase decolorized isolated eumelanin and pheomelanin in a cell-free assay; the reported ranges were 40–70%, 22–42%, and 9–21%, respectively. In a UVB-excimer-induced guinea-pig hyperpigmentation model, topical LiP solution and 3% hydroquinone both lightened skin by colorimetry. Histology reported fewer melanin granules in corneocytes and superficial epidermis after LiP, while deeper epidermal pigment remained and epidermal thickness appeared normal. This is a useful compartment-level signal, but the abstract does not give the animal group sizes or trace pigment products, drainage, or final destination. It does not establish that pigment was selectively degraded and cleared from the animal. [Miao et al., 2017](https://pubmed.ncbi.nlm.nih.gov/29179286/).
 
+Two later enzyme studies move beyond cell-free pigment assays into reconstructed human pigmented-epidermis models. Gye et al. selected recombinant lignin-peroxidase isozyme PcLiP04 for activity near skin conditions; topical treatment lowered Fontana–Masson-positive melanin area in the model's stratum corneum. The model arm used PcLiP04 without added hydrogen peroxide or veratryl alcohol. Park et al. reported more than 60% cell-free synthetic-melanin decolorization in one hour with a crude *Pleurotus eryngii* peroxidase preparation and veratryl alcohol, without exogenous hydrogen peroxide, and also reported decolorization in a 3D reconstructed human pigmented-epidermis model. These are preclinical surface-model results, not treatments tested on living people. Stain-defined area or color does not establish chemical melanin mass, product identity, safe product fate, whole-tissue export, preserved photoprotection, or return after withdrawal. This enzyme approach concerns pigment accessible at the epidermal surface; it cannot be extrapolated to basal melanocytes, gums, iris, or internal tissues. [Gye et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37075205/), [Park et al., 2024](https://doi.org/10.1016/j.procbio.2024.06.035).
+
+A separate cell-free study reported 77.8% decolorization of synthetic melanin after 24 hours with *Trametes polyzona* laccase and gallic acid; microscopy and FTIR showed altered pigment structure, but no human tissue model or in-vivo fate was assessed. [Andriani et al., 2024](https://doi.org/10.1016/j.biteb.2024.101923).
+
 Human facial studies report appearance outcomes. In a randomized, double-blind, split-face study of 51 Asian women, day/night LiP cream was applied to one side and 2% hydroquinone or placebo to the other; the LiP side had a 7.6% mean Mexameter melanin-index reduction at day 31, while the comparator sides did not show statistically significant instrumental lightening. The 2011 article lists two authors as R&D consultants to RBT, an affiliate of Syneron. In a separate self-controlled, full-face study of 31 women with melasma, chromameter L* values increased by day 7 and MASI scores fell by day 28 during an eight-week course; no treatment-related adverse events were reported. That study used a multi-product regimen including an activator lotion, and the authors describe the enzyme product as used with hydrogen peroxide; all study products were supplied by Syneron. These are product-regimen appearance results, not evidence isolating the enzyme's contribution. A third, 12-week investigator-blinded split-face study enrolled 60 women (59 completed) and reported lower spot-size and dermospectrophotometer melanin scores with LiP than no treatment, with similar lightening to generic hydroquinone in its second cohort. Syneron funded that study and manufactured the tested product. A 2019 evidence review lists a published erratum for this paper; the correction text was not available for this review, so the quantitative report is treated cautiously. None of the three studies biopsied treated skin, quantified chemical melanin mass or breakdown products, tracked export, or measured color after withdrawal. The short studies do not establish long-term safety, preservation of photoprotection, or applicability to healthy skin, gums, iris, or other tissues. [Mauricio et al., 2011](https://pubmed.ncbi.nlm.nih.gov/22151932/), [Zhong et al., 2015](https://pubmed.ncbi.nlm.nih.gov/25574195/), [Draelos, 2015](https://pubmed.ncbi.nlm.nih.gov/25440437/), [Mckesey et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31802394/).
 
-**Interpretation:** LiP is a rare example with evidence spanning cell-free pigment decolorization, a superficial-epidermis animal signal, and human lightness scores. It is relevant to the clearance question, but the human studies do not show that stored melanin was chemically destroyed or exported; color change alone cannot establish that mechanism.
+A 2026 computational screen docked seven oxidoreductases against a modeled melanin substrate and ranked versatile peroxidase highest for predicted binding (−12.0 kcal/mol), with a 50-ns molecular-dynamics simulation. This is a computational candidate-ranking result, not an enzyme-activity assay, melanin-degradation demonstration, skin-model result, or evidence of safety. [Singh et al., 2026](https://doi.org/10.1016/j.scp.2026.102412).
+
+**Interpretation:** LiP is a rare example with evidence spanning cell-free pigment decolorization, reconstructed human epidermis models, a superficial-epidermis animal signal, and human lightness scores. The model studies improve the evidence level for surface decolorization, but no living-person study measures chemical pigment fate or export; appearance change alone does not establish clearance.
 
 #### 2026 skin models: synthesis and post-transfer clearance
 
