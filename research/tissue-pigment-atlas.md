@@ -468,6 +468,28 @@ flowchart TD
 
 A 2026 in-vitro study loaded normal human epidermal keratinocytes with melanosome-enriched fractions from B16 mouse melanoma cells. After 72 hours with hydrolyzed conchiolin protein (HCP), the authors reported lower cell-normalized 550-nm intracellular melanin absorbance (n=4) and proposed lysosomal proteolysis followed by hydroxyl-radical oxidation. The endpoint was absorbance in the cell layer; the study did not assay culture-medium pigment or chemically identify degradation products, so it does not distinguish polymer breakdown from export or a change in optical properties. The hydroxyl-radical probe only partly overlapped a lysosomal marker. The separate cell-free Fenton assay used 10 mM H2O2 and 1 mM Fe2+ across pH 3.0–11.0; it tests oxidative susceptibility under imposed chemistry, not a physiologic in-cell clearance route or spatially selective safety. The paper has two material reporting conflicts: abstract/results say alkaline conditions increased hydroxyl-radical signal and reduced melanin absorbance, while the discussion says both effects were greater under acidic conditions; the Methods call 6.25–25 mg/mL the final HCP concentrations while describing 1 μL added to 99 μL of medium, whereas the results/figures report 0.125–0.25 mg/mL. The stated concentration labels and volumes do not reconcile. Clarification and independent replication are needed. The model was an isolated cell culture, not intact skin or a person, and did not assess photoprotection, tissue selectivity, pigment fate, or return after withdrawal. Osman Biological Co. funded the work; author affiliations include Osman Biological and Beauty Hi-Tech, although the authors declared no conflicts. It remains a preclinical signal, not evidence of a safe cosmetic treatment or a transferable iris mechanism. [Zhao et al., 2026](https://doi.org/10.1111/jocd.70770).
 
+#### Lignin peroxidase: an enzyme-decolorization bridge, with a human fate gap
+
+```mermaid
+flowchart LR
+    CF["P: isolated eumelanin and hair/skin-derived pheomelanin<br/>LiP, MnP, and laccase decolorize pigment in vitro"]
+    GP["P: topical LiP in UV-excimer-hyperpigmented guinea-pig skin"]
+    GP --> GPH["Lighter color; fewer granules in superficial epidermis<br/>deeper pigment remained"]
+    H1["H: n=51 randomized split-face study<br/>day-31 melanin index fell 7.6% on LiP-treated side"]
+    H2["H: n=31 self-controlled melasma study<br/>chromameter lightness and MASI improved"]
+    CF -.-> GAP
+    GPH --> GAP
+    H1 --> GAP
+    H2 --> GAP
+    GAP["G: human tissue pigment mass, chemical products,<br/>export/fate, return after withdrawal, and photoprotection"]
+```
+
+Lignin peroxidase (LiP), manganese peroxidase (MnP), and laccase decolorized isolated eumelanin and pheomelanin in a cell-free assay; the reported ranges were 40–70%, 22–42%, and 9–21%, respectively. In a UVB-excimer-induced guinea-pig hyperpigmentation model, topical LiP solution and 3% hydroquinone both lightened skin by colorimetry. Histology reported fewer melanin granules in corneocytes and superficial epidermis after LiP, while deeper epidermal pigment remained and epidermal thickness appeared normal. This is a useful compartment-level signal, but the abstract does not give the animal group sizes or trace pigment products, drainage, or final destination. It does not establish that pigment was selectively degraded and cleared from the animal. [Miao et al., 2017](https://pubmed.ncbi.nlm.nih.gov/29179286/).
+
+Two small human studies report facial appearance outcomes. In a randomized, double-blind, split-face study of 51 Asian women, day/night LiP cream was applied to one side and 2% hydroquinone or placebo to the other; the LiP side had a 7.6% mean Mexameter melanin-index reduction at day 31, while the comparator sides did not show statistically significant instrumental lightening. In a separate self-controlled, full-face study of 31 women with melasma, chromameter L* values increased by day 7 and MASI scores fell by day 28 during an eight-week course; no treatment-related adverse events were reported. Neither study biopsied the treated skin, quantified chemical melanin mass or breakdown products, tracked export, or measured color after withdrawal. The short studies do not establish long-term safety, preservation of photoprotection, or applicability to healthy skin, gums, iris, or other tissues. [Mauricio et al., 2011](https://pubmed.ncbi.nlm.nih.gov/22151932/), [Zhong et al., 2015](https://pubmed.ncbi.nlm.nih.gov/25574195/).
+
+**Interpretation:** LiP is a rare example with evidence spanning cell-free pigment decolorization, a superficial-epidermis animal signal, and human lightness scores. It is relevant to the clearance question, but the human studies do not show that stored melanin was chemically destroyed or exported; color change alone cannot establish that mechanism.
+
 #### 2026 skin models: synthesis and post-transfer clearance
 
 ```mermaid
