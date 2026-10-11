@@ -43,7 +43,8 @@ This is a scoped source register, not a systematic review or a global audit of p
 
 | Source | Evidence type / model | Endpoint and limit |
 | --- | --- | --- |
-| [El-Mofty et al., 2021](https://pubmed.ncbi.nlm.nih.gov/33966113/) | Randomized human comparison, 20 participants; topical gel versus injections | Clinical index and histological stain endpoints differ; small study with no placebo arm. |
+| [Shimada et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19186973/) | Double-masked, split-mouth topical AS-G-gel vs placebo study, 73 participants; 12-week treatment | Relative spectrophotometric gingival-lightness difference favored gel by week 4. Appearance endpoint, not pigment mass/export; no post-treatment return assessment. |
+| [El-Mofty et al., 2021](https://pubmed.ncbi.nlm.nih.gov/33966113/) | Randomized human comparison, 20 participants; topical gel versus intramucosal injections | Topical group's pigmentation index did not change significantly at month 1; injection group responded earlier. Stained melanin area fraction fell in both groups at month 6. Small study, no placebo arm, distinct endpoints. |
 | [Gudur et al., 2026](https://pubmed.ncbi.nlm.nih.gov/42147661/) | Randomized human trial, 20 participants; topical ascorbyl glucoside after diode-laser depigmentation versus laser alone | Nine-month clinical pigmentation index favored the adjunct arm; both groups received laser. Small procedural-adjunct study; no pigment-mass or export measurement. |
 | [Scalpel/diode-laser trial, 2020](https://pubmed.ncbi.nlm.nih.gov/31983845/) | Human split-mouth scalpel/diode-laser trial, 20 participants | Procedural depigmentation, healing and recurrence; not noninvasive modulation. |
 | [Oral pigmented-lesion series](https://pmc.ncbi.nlm.nih.gov/articles/PMC8141314/) | Retrospective human pathology series | Melanocytic and nonmelanocytic diagnoses; biopsy selection cannot estimate population prevalence. |
