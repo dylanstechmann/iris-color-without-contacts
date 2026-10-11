@@ -419,6 +419,17 @@ Cabaço et al. found that conditioned medium from differentiated primary human k
 
 Ando et al. showed that normal human melanocytes release phosphatidylserine-exposed melanosome clusters in culture. Normal human dermal fibroblasts and macrophages internalized the isolated clusters; fibroblast melanin per cell rose over 48 hours. Fibroblasts also internalized apoptotic melanocytes in culture. The authors' proposed passage of dendrites through the epidermal basement membrane was not directly observed in intact skin: the barrier comparison used a microporous filter. These experiments demonstrate recipient-cell uptake, not pigment digestion, natural in-vivo flux, or body clearance. [Ando et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7461560/).
 
+A 2024 tumor-microenvironment study compared the handling of melanoma-secreted melanosomes by several recipient cells. In vitro, the melanosomes remained ultrastructurally intact in immortalized keratinocytes and primary human dermal fibroblasts for 2–3 days, and pigmented pellets appeared in their conditioned media. Primary human monocyte-derived macrophages contained broken melanosomes in multilamellar lysosome-like compartments; fluorescent membrane-label signal declined, and no melanosome pellet was found in macrophage-conditioned media. The authors inferred macrophage-associated degradation, but did not chemically quantify melanin-core loss, identify breakdown products, or trace pigment out of an organism. In mouse tumor grafts, melanosomes that had passed through fibroblasts altered macrophage behavior and promoted tumor-associated outcomes. This is a cell-fate and safety signal in a melanoma setting, not a normal-skin clearance result. [Parikh et al., 2024](https://pubmed.ncbi.nlm.nih.gov/38719996/).
+
+```mermaid
+flowchart LR
+    S["P/H: melanoma-derived melanosomes<br/>in a tumor-microenvironment model"] --> K["Immortalized keratinocytes +<br/>primary human fibroblasts<br/>organelles stayed intact and could be secreted"]
+    K --> M["Primary human monocyte-derived macrophages<br/>broken organelles; membrane-label signal fell;<br/>no intact melanosome pellet in medium"]
+    M --> I["Authors infer cell-dependent<br/>melanosome processing"]
+    I -.-> G["G: melanin-core mass, chemical products,<br/>and final tissue/body fate unmeasured"]
+    K --> T["P: mouse tumor grafts<br/>melanosome source altered macrophage state<br/>and tumor outcomes"]
+```
+
 In ashy dermatosis, the 2026 biopsy series supports a disease-specific association between melanin-bearing dermal fibroblasts and persistent pigmentation. The fibroblast/macrophage comparison is a static cell-type distribution, not a kinetic uptake assay; macrophage p62 is a marker consistent with impaired autophagy, not direct measurement of melanin breakdown. Together, these findings make intercellular redistribution a concrete alternative to clearance when donor-cell pigment falls. Recipient-cell fate and total tissue output remain unmeasured.
 
 #### Pigment positioning is a separate photoprotection endpoint
