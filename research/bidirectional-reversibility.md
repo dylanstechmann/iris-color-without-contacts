@@ -60,6 +60,8 @@ Skin shedding is not a demonstrated iris-reversal route. Human studies measured 
 
 Measure iris appearance and pigment burden separately. A small in-situ human skin comparison found that visible tanning could occur without a significant increase in measured melanin under UVA alone. That result illustrates the distinction between color and pigment mass; it does not establish an iris optical mechanism. A future iris claim would need standardized appearance measurements alongside a direct pigment endpoint. [Choi et al., 2010](https://pubmed.ncbi.nlm.nih.gov/20147966/).
 
+A newer candidate for serial measurement is PS-AS-OCT. In 88 participants with brown irides, entropy-derived stromal MCR correlated with CIE L*a*b* iris-photo values; a separate cohort of 105 healthy Japanese adults was used to map regional posterior-IPE depolarization. These are cross-sectional human findings in different compartments. MCR is an imaging-derived proxy: prior calibration against melanin suspensions supports the signal mechanism, but does not establish absolute chemical pigment mass or longitudinal change validity in a living iris. The brown-iris cohort also does not demonstrate measurement performance in an initially blue eye. A future evidence claim would need repeatability and change-sensitivity data, standardized appearance photographs, and independent pigment validation where feasible. [Li et al., 2025 online / 2026 print](https://pubmed.ncbi.nlm.nih.gov/41432634/), [Li et al., 2025 IPE mapping](https://pubmed.ncbi.nlm.nih.gov/40131585/), [Yamanari et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7658243/).
+
 Reversing a regulatory signal is not necessarily enough to reverse this accumulated pigment. A theoretical system would need evidence for both the pigment-increasing direction and a nondestructive route back to the starting pigment state.
 
 The implementation is left unspecified. Permanent DNA alteration is not a prerequisite; reversible regulation is a conceptual possibility whose tissue effects and pigment kinetics would still need to be demonstrated.
@@ -68,6 +70,7 @@ The implementation is left unspecified. Permanent DNA alteration is not a prereq
 
 | Requirement | What would have to be established |
 | --- | --- |
+| Measurement validity | Repeatable compartment-specific imaging that is sensitive to longitudinal change and calibrated against independent pigment measures where feasible, alongside standardized appearance photographs | 
 | Increase | A predictable increase in visible pigmentation from the person's actual baseline, including an initially uniformly blue iris |
 | Decrease | Reduction of pigment already present while preserving cells and ocular function |
 | Baseline recovery | Return to the original appearance within a defined tolerance under comparable lighting |
