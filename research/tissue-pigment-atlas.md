@@ -668,6 +668,21 @@ The Mainz II study is a human biological foothold, not a reversal result. Sevent
 
 A 1993 review of adult vertebrate eye pigmentation likewise concluded that the amount of melanin turnover in iris, choroid, and retinal pigment epithelium was unknown. Its comparative literature and animal ultrastructure help explain the question, but do not provide a human iris clearance rate. [Schraermeyer, 1993](https://pubmed.ncbi.nlm.nih.gov/8248016/).
 
+### Disease-associated iris depigmentation can later repigment
+
+```mermaid
+flowchart LR
+    A["H: BADI presents with acute<br/>stromal depigmentation"] --> B["Pigment enters anterior chamber;<br/>heavy trabecular-meshwork deposits"]
+    B --> C["26-new-case series:<br/>dispersion resolved in 1–16 weeks<br/>(median 9 weeks)"]
+    B --> D["IOP elevation in 8 steroid-treated eyes;<br/>controlled with glaucoma medication"]
+    C -.-> E["Two patients from earlier report:<br/>stromal repigmentation at 4 years"]
+    E -.-> G["G: cause, pigment mass/flux,<br/>and mechanism of return unmeasured"]
+    F["Separate case report:<br/>stromal repigmentation over 3 years"] -.-> G
+    D -.-> G
+```
+
+Bilateral acute depigmentation of the iris (BADI) is a rare, disease-associated exception to the usual persistence of medication-associated iris darkening. A retrospective series reported 26 new patients plus four-year follow-up of two previously reported patients: pigment dispersion resolved in 1–16 weeks (median 9 weeks), and those two patients had repigmentation of the iris stroma after four years. A separate single-case report described stromal repigmentation over three years. The 2009 series found heavy pigment in the trabecular meshwork in all cases; eight steroid-treated eyes had elevated intraocular pressure, controlled with glaucoma medication. The cause remains unknown. These reports document clinical appearance returning in a few disease cases, but did not measure pigment mass, trace the deposited material, or test a controlled return mechanism. They do not establish safe cosmetic reversibility. [Tugal-Tutkun et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19545903/), [Atilgan et al., 2018](https://pmc.ncbi.nlm.nih.gov/articles/PMC6056785/).
+
 ### Human uveal melanocytes can modulate new pigment production
 
 ```mermaid
