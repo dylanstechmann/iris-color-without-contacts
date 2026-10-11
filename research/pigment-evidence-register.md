@@ -40,6 +40,14 @@ This is a scoped source register, not a systematic review or a global audit of p
 | [Thomson et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11684035/) | In-vitro labeling of 110 human mandibular gingiva and buccal mucosa samples | Buccal mucosa had a higher S-phase labeling index than mandibular gingiva; this is not a complete turnover-time or pigment-export measurement. |
 | [Squier and Waterhouse, 1967](https://doi.org/10.1016/0003-9969(67)90148-3) | Light and electron microscopy of 60 normal human gingival specimens | Melanin granules were observed in gingival keratinocytes; does not quantify melanin in exfoliated cells or establish clearance. |
 
+## Colon mucosa
+
+| Source | Evidence type / model | Endpoint and limit |
+| --- | --- | --- |
+| [Human melanosis-coli histopathology study, 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4581826/) | Human colonic biopsies; histochemistry, immunohistochemistry, and apoptosis analysis | Identified macrophage deposits as lipofuscin and observed apoptotic bodies; does not show pigment export or whole-body clearance. The name “melanosis” is not evidence of melanin. |
+| [Development, disappearance, and clinical course, 2023](https://pubmed.ncbi.nlm.nih.gov/36849146/) | Retrospective single-institution colonoscopy review of 216 cases | Ten disappearance cases were identified; 4 of those 10 had stopped anthranoids before disappearance was detected. Observational appearance endpoint, not a pigment-mass or export measurement. |
+| [Colonoscopic resolution after senna cessation, 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11402352/) | Human single-patient report; serial colonoscopies | Endoscopic pigmentation was no longer visible seven months after senna cessation; no follow-up biopsy to determine pigment burden or destination. |
+
 ## Eyes
 
 | Source | Evidence type / model | Endpoint and limit |
@@ -111,4 +119,4 @@ This is a scoped source register, not a systematic review or a global audit of p
 
 ## Unassessed compartments
 
-Evidence summaries now cover muscle lipofuscin, adipose carotenoids, bone-associated iron in overload, tendon ochronosis, pancreatic beta-cell lipofuscin, a single proximal-tubule lipofuscin finding, splenic iron stores in secondary overload, and particulate anthracosis in airways and draining lymph nodes. These are distinct deposits with different evidence levels; none establishes a general tissue-selective cosmetic clearance capability. Dedicated assessment remains for many tissues and mucosal sites. A source in one tissue does not fill the gaps. Future entries should state the chemical substrate, cell type, model, clinical indication, actual pigment endpoint, functional endpoint, and reversibility evidence.
+Evidence summaries now cover muscle lipofuscin, adipose carotenoids, bone-associated iron in overload, tendon ochronosis, pancreatic beta-cell lipofuscin, a single proximal-tubule lipofuscin finding, splenic iron stores in secondary overload, particulate anthracosis in airways and draining lymph nodes, and colon melanosis-coli natural history. These are distinct deposits with different evidence levels; the colon reports show cause-associated endoscopic appearance resolution but do not measure pigment mass or export. None establishes a general tissue-selective cosmetic clearance capability. Dedicated assessment remains for many tissues and mucosal sites. A source in one tissue does not fill the gaps. Future entries should state the chemical substrate, cell type, model, clinical indication, actual pigment endpoint, functional endpoint, and reversibility evidence.
