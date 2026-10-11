@@ -840,6 +840,8 @@ flowchart LR
     N["Normal gingival pigment"] --> E["Basal melanocytes transfer melanosomes<br/>to epithelial keratinocytes"]
     E --> U["Surface-directed epithelial renewal"]
     U -.-> SH["H: surface cells shed;<br/>melanin in shed gingival cells<br/>has not been measured"]
+    INF["H: gingival surgery specimens<br/>from 21 adults; inflammation graded"] --> DC["Melanin granules in subepithelial<br/>inflammatory cells"]
+    DC -.-> G["G: cell identity, pigment destination,<br/>and net tissue/body balance unmeasured"]
     M["Metal-associated discoloration<br/>in one human case report"] --> MIX["H: melanin observed in<br/>epithelial and deeper compartments"]
     MIX --> BM["Basement membrane"]
     MIX --> FC["Fibroblasts and macrophages"]
@@ -852,6 +854,8 @@ flowchart LR
 ```
 
 A 1988 human report of gingival discoloration beneath a metallic crown found melanin in epithelial cells and along basement membranes, as well as in fibroblasts, macrophages, and intercellular ground substance; silver and sulfur were also detected in deep connective tissue. The authors proposed that inadvertently implanted dental metals influenced local melanin metabolism. This is a single, unusual pathology report, not a map of ordinary physiologic gum pigmentation, and it did not measure pigment fate. **Inference:** surface shedding alone would not explain the fate of pigment observed in deeper connective tissue. [Sakai et al., 1988](https://pubmed.ncbi.nlm.nih.gov/3146627/).
+
+A separate histology study sampled free and attached gingiva during periodontal surgery from 21 adults and related melanin-granule density to inflammation. It reported granules in the epithelium and in inflammatory cells of the subepithelial connective tissue; epithelial and adjacent connective-tissue granule densities were correlated. This is inflammation-context evidence, not a clean map of healthy physiological pigmentation; the abstract does not resolve the inflammatory-cell subtype or trace pigment fate. It supports treating the epithelial and connective-tissue compartments separately when evaluating possible shedding. [Patsakas et al., 1981](https://pubmed.ncbi.nlm.nih.gov/6946209/).
 
 Gingiva now has a small but meaningful topical-only human evidence signal. In a double-masked, split-mouth study of 73 people, a topical ascorbyl-glucoside gel was compared with placebo for 12 weeks; the abstract reports a significant relative difference in the spectrophotometric gingival-lightness endpoint by week 4. The same paper reports tyrosinase inhibition and reduced new melanin formation in separate cell/skin models. **Inference:** reduced synthesis plus normal epithelial turnover could account for some appearance change, but the clinical study did not separate that from loss of pre-existing pigment. It measured visible lightness, not pigment mass or export, and did not establish what happened after treatment stopped. [Shimada et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19186973/).
 
