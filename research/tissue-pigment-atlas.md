@@ -607,16 +607,22 @@ A separate parallel-group randomized trial (26 participants randomized, 23 compl
 
 #### Facial-skin and gingival pigment scores are not interchangeable
 
-Cross-tissue association evidence is mixed. A 2014 cross-sectional study of 200 healthy, nonsmoking South Indian adults aged 18–35 visually categorized skin color and clinically graded gingival pigmentation; it reported a statistically significant association, with darker skin categories tending toward heavier gum pigmentation. A 2026 trial found no significant correlation between malar DMMS and gingival GMMS at follow-up in its much smaller cohort. The methods also differ: one compared visual skin categories with clinical gingival grades, while the other correlated two reflectance-meter scores and reported measurement challenges on gingiva. Neither study establishes a universal relationship, a shared regulatory mechanism, or facial skin score as a predictor of local gum pigment. **Inference:** measure the target compartment directly rather than treating facial complexion as a gum-pigment surrogate. [Ponnaiyan et al., 2014](https://pubmed.ncbi.nlm.nih.gov/24603930/), [Dawar et al., 2026](https://doi.org/10.1016/j.jobcr.2026.101530).
+Human association studies give mixed results. A 2014 cross-sectional study of 200 healthy, nonsmoking South Indian adults aged 18–35 found a statistically significant association between visually categorized skin color and clinically graded gingival pigmentation. A 2024 multi-ethnic study of 839 people attending a Saudi university dental clinic also reported an association, using foundation-shade categories for skin and DOPI/VITA clinical categories for gingiva. In contrast, a 2025 cross-sectional study of 261 participants found no significant correlation between skin complexion and gingival pigmentation (Spearman ρ = −0.063, p = 0.311), and a 2026 South Indian study of 100 people found no significant association (p = 0.848); both used categorical appearance assessments. A 2026 randomized procedure trial (26 randomized, 23 completed) also found no significant correlation between malar dermal melanin meter score (DMMS) and gingival melanin meter score (GMMS) at follow-up. Its authors noted limited validation of the meter for gingival use and occasional difficulty positioning its large probe aperture.
+
+These studies differ in population, design, and measurement. Their skin and gum color scores are appearance proxies, not chemical melanin-mass measures. None establishes a universal skin-to-gum conversion, a shared regulatory mechanism, or facial complexion as a predictor of an individual's gum pigmentation or treatment response. **Inference:** measure the target compartment directly rather than treating facial complexion as a gum-pigment surrogate. [Ponnaiyan et al., 2014](https://pubmed.ncbi.nlm.nih.gov/24603930/), [Koppolu et al., 2024](https://doi.org/10.1186/s12903-024-04189-7), [Jouhar, 2025](https://doi.org/10.12669/pjms.41.5.11824), [Chahal et al., 2026](https://pubmed.ncbi.nlm.nih.gov/41930043/), [Dawar et al., 2026](https://doi.org/10.1016/j.jobcr.2026.101530).
 
 ```mermaid
-flowchart LR
-    S14["H: 2014 cross-sectional study<br/>200 South Indian adults<br/>visual skin categories + clinical gum grades"] --> POS["H: statistically significant association<br/>darker skin categories tended toward<br/>heavier gingival pigmentation"]
-    D26["H: 2026 trial<br/>26 randomized; 23 completed<br/>malar DMMS + gingival GMMS"] --> NULL["H: no significant DMMS–GMMS<br/>correlation at follow-up"]
-    POS -.-> Q["Different populations,<br/>instruments and designs"]
-    NULL -.-> Q
-    Q --> LOCAL["No validated cross-tissue conversion<br/>measure the target compartment locally"]
-    LOCAL --> G["G: shared regulation, predictive value<br/>and chemical pigment mass remain untested"]
+flowchart TD
+    P14["H: 2014; n=200<br/>visual skin categories + clinical gum grades"] --> POS["H: association reported"]
+    K24["H: 2024; n=839<br/>foundation-shade skin categories<br/>DOPI/VITA gingival categories"] --> POS
+    J25["H: 2025; n=261<br/>skin shade + DOPI categories"] --> NULL["H: no significant association / correlation"]
+    C26["H: 2026; n=100<br/>visual complexion + gum categories"] --> NULL
+    D26["H: 2026 procedure trial<br/>26 randomized; 23 completed<br/>malar DMMS + gingival GMMS"] --> NULL2["H: no significant correlation<br/>at follow-up"]
+    POS -.-> MIX["Different populations,<br/>methods and study designs"]
+    NULL -.-> MIX
+    NULL2 -.-> MIX
+    MIX --> LOCAL["No validated cross-tissue conversion;<br/>measure the target compartment locally"]
+    LOCAL --> G["G: shared regulation, prediction,<br/>and chemical pigment mass remain untested"]
 ```
 
 A 2026 systematic review of eight gingival vitamin C studies pooled three randomized trials using clinical pigmentation scores. It found a statistically significant difference at one month but no significant difference at three months, where heterogeneity was high. The included interventions and comparators were mixed, so these results do not establish durable efficacy for topical-only application. Neither the review nor these indices show pigment mass, product fate, or return to an individual's baseline color. [Valecha et al., 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13472467/).
