@@ -60,6 +60,24 @@ flowchart TD
 
 Sources and model details are linked in the sections below and in the [evidence register](pigment-evidence-register.md). The shared criteria for evaluating a tissue-specific clearance claim are in the [selective clearance framework](selective-clearance-framework.md).
 
+### Cell renewal is not the same measurement as pigment clearance
+
+```mermaid
+flowchart LR
+    subgraph surfaces["Renewing epithelial surfaces"]
+        Skin["Skin epidermis"] --> SkinEvidence["H: UVA-induced pigment fading<br/>used as a turnover proxy"]
+        Oral["Gingiva / buccal mucosa"] --> OralEvidence["H: site-specific S-phase<br/>labeling in human biopsies"]
+    end
+    subgraph iris["Adult iris"]
+        Iris["Adult iris tissue"] --> IrisEvidence["H: no PCNA / Ki-67-positive nuclei<br/>in examined adult samples"]
+    end
+    SkinEvidence -.-> SkinGap["G: direct mass balance for stored<br/>melanin export / clearance"]
+    OralEvidence -.-> OralGap["G: pigment in shed oral cells<br/>not quantified"]
+    IrisEvidence -.-> IrisGap["G: long-term iris pigment fate<br/>and return route"]
+```
+
+Cell renewal can carry pigment-bearing cells out of a surface layer, but calling that selective pigment clearance is an inference unless pigment burden, shed material, and tissue function are measured. A six-person human study used fading of UVA-induced forearm pigmentation as an epidermal-turnover proxy; it was not a direct assay of all stored melanin. Human oral biopsies showed site-dependent S-phase labeling, including higher labeling in buccal mucosa than mandibular gingiva, but did not track melanin into shed cells. A human iris histology study found no PCNA- or Ki-67-positive nuclei in the adult iris samples examined; this is a snapshot, not proof of zero lifetime turnover or a pigment-export route. [Maeda, 2017](https://www.mdpi.com/2079-9284/4/4/47), [Thomson et al., 1999](https://pubmed.ncbi.nlm.nih.gov/10577752/), [Thomson et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11684035/), [Pfeiffer et al., 2001](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/265260).
+
 ## 2. Skin: production, transfer, clearance, and repigmentation
 
 ```mermaid
