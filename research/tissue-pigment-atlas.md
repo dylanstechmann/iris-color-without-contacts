@@ -31,12 +31,14 @@ flowchart TD
     A --> G["Inner ear / cochlea<br/>Strial melanin"]
     A --> H["Leptomeninges<br/>Melanin-bearing melanocytes"]
     A --> I["Heart / pulmonary veins<br/>DCT-positive melanocyte-like cells"]
+    A --> J["Other mucosal surfaces<br/>Site-specific pigment"]
     B --> B1["Skin: C for specific disorders<br/>Gums: limited H<br/>Hair/nail biological control: G"]
     C --> C1["Iris reversal: G<br/>RPE clearance mechanisms: P"]
     D --> D1["Mechanistic studies: P / human tissue<br/>General selective clearance: G"]
     G --> G1["H tissue mapping; P mouse function data<br/>Selective reduction: G"]
     H --> H1["H normal anatomy / imaging<br/>Selective clearance: G"]
     I --> I1["H human cell identity; P mouse function data<br/>Pigment clearance: G"]
+    J --> J1["Esophagus: rare melanin deposit<br/>Other mucosa: gaps remain"]
     E --> E1["C for certain diagnosed diseases<br/>Different chemistry and mechanisms"]
     F --> F1["Separate targets and methods<br/>No universal pigment-clearing system established"]
 ```
@@ -76,6 +78,7 @@ flowchart TD
 | **Spleen** | Ferritin and hemosiderin iron stores; lipofuscin reports are a separate target | **H:** iron-storage material characterized in spleens from patients with transfusion-related secondary overload. | Selective splenic clearance independent of systemic iron management. |
 | **Airways / lung-draining lymph nodes** | Inhaled carbon and other particles within macrophages | **H:** human bronchoscopy, biopsy, and node studies document anthracotic macrophages. | Safe selective extraction; visible deposits do not measure the full particle burden or associated fibrosis. |
 | **Colon mucosa** | Lipofuscin-like pigment in lamina-propria macrophages in melanosis coli; the name does not mean ordinary melanin | **H:** human histology identifies pigment-laden macrophages; observational cases document endoscopic disappearance after the inducing anthraquinone exposure ends. | Direct pigment mass/export after resolution, a selective intervention, or transfer to other pigments and organs. |
+| **Esophageal mucosa** | Rare melanocytic proliferation with melanin deposition in squamous mucosa | **H:** human case reports/series document esophageal melanocytosis and distinguish it from melanoma. | Natural history, selective clearance, or generalization to other mucosal surfaces. |
 | **Other mucosa** | Specify site, cell, and actual deposit | **Coverage gap:** no dedicated clearance assessment for every mucosal surface. | Any claim that one mucosal result generalizes across the body. |
 
 ### Additional tissues contain different pigment targets
@@ -438,6 +441,19 @@ flowchart TD
 ```
 
 A primary study identified DCT-positive melanocyte-like cells in human pulmonary veins and atria; ultrastructural melanosomes and pigmented cardiac cells were shown in mice. Mouse DCT-deficient or cell-deficient models had altered susceptibility to atrial arrhythmias. Because DCT also participates in calcium and reactive-species regulation, these results do not show that reducing melanin itself causes arrhythmia, and the contribution of these cells to clinical human arrhythmias remains undetermined. No human cardiac pigment-reduction or clearance method is established. [Levin et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19855129/).
+
+## 15. Esophageal mucosa: rare melanocytosis is site-specific
+
+```mermaid
+flowchart TD
+    E["Esophageal squamous mucosa"] --> M["H: rare melanocytic proliferation<br/>with melanin deposition"]
+    M --> D["Histology helps distinguish<br/>melanocytosis from melanoma"]
+    M -.-> G["G: natural history and selective<br/>clearance not established"]
+    C["Colon melanosis coli"] --> L["H: lipofuscin-like pigment<br/>in macrophages"]
+    L --> X["Different pigment and cell compartment;<br/>do not generalize by name"]
+```
+
+Esophageal melanocytosis is a rare human mucosal finding described as non-atypical melanocytic proliferation with melanin deposits. Case reports and small series emphasize its distinction from primary esophageal melanoma; they do not establish a predictable natural history or a selective pigment-clearance method. It is chemically distinct from colon melanosis coli, whose macrophage pigment has been identified as lipofuscin-like material. [Dubail et al., 2022](https://pubmed.ncbi.nlm.nih.gov/35709783/), [Ohnuma et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28445275/), [colon histopathology](https://pmc.ncbi.nlm.nih.gov/articles/PMC4581826/).
 
 ## Research requirements shared across tissues
 
