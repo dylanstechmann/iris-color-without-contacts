@@ -1253,15 +1253,19 @@ The Mainz II study is a human biological foothold, not a reversal result. Sevent
 
 A 1993 review of adult vertebrate eye pigmentation likewise concluded that the amount of melanin turnover in iris, choroid, and retinal pigment epithelium was unknown. Its comparative literature and animal ultrastructure help explain the question, but do not provide a human iris clearance rate. [Schraermeyer, 1993](https://pubmed.ncbi.nlm.nih.gov/8248016/).
 
-A comparative iris precedent shows melanosome loss during a major cell-state change, not cosmetic control. Adult newt iris epithelial cells cultured under conditions permitting lens regeneration progressively lost melanosomes before conversion into lens cells. Vacuoles sequestered melanosomes and other organelles, with acid-phosphatase staining nearby; the authors interpreted the morphology as autophagy and exocytosis. The study suggests that an iris pigment-bearing epithelium can lose melanosomes during amphibian regeneration, but it did not measure chemical pigment mass or extracellular output. Newt iris epithelium is a different cell type and regenerative context from human anterior-stromal melanocytes, so this is not evidence for human color change, safety, or return. [Yamada et al., 1978](https://pubmed.ncbi.nlm.nih.gov/757985/).
+A comparative iris precedent shows melanosome loss during a major cell-state change, not cosmetic control. In a 1977 clonal-culture study, adult newt iris epithelial cells began proliferating with melanosome loss; by day 30, most colonies were predominantly nonpigmented, and some developed lens structures expressing lens antigens. In a related 1978 culture study, vacuoles sequestered melanosomes and other organelles, with acid-phosphatase staining nearby; the authors interpreted the morphology as autophagy and exocytosis. A 1979 follow-up described autophagy-like telolysosome bodies after most melanosomes had disappeared. Together, these studies place melanosome loss in the context of lens-regeneration-associated dedifferentiation and cell proliferation; they do not isolate pigment disposal from division or cell-fate change. None measured chemical melanin mass, extracellular output, or whole-tissue balance. Newt iris epithelium is a different cell type and regenerative context from human anterior-stromal melanocytes, so these reports are not evidence for human color change, safety, or return. [Abe and Eguchi, 1977](https://pubmed.ncbi.nlm.nih.gov/37281713/), [Yamada et al., 1978](https://pubmed.ncbi.nlm.nih.gov/757985/), [Yamada et al., 1979](https://pubmed.ncbi.nlm.nih.gov/467859/).
 
 ```mermaid
 flowchart LR
-    N["P: adult newt iris epithelium<br/>cultured during lens-regeneration dedifferentiation"] --> L["Melanosomes progressively lost<br/>before lens-cell conversion"]
-    L --> V["Vacuoles sequester melanosomes<br/>and other organelles;<br/>acid-phosphatase signal nearby"]
-    V --> I["Authors infer autophagy<br/>and exocytosis"]
-    I -.-> G["G: chemical pigment mass,<br/>extracellular output, and final fate<br/>not measured"]
-    H["Human anterior iris stroma"] -.-> G
+    A["P: 1977 adult newt iris cells<br/>in clonal culture"] --> B["Proliferation occurs with<br/>melanosome loss"]
+    B --> C["Mostly nonpigmented colonies;<br/>some express lens antigens"]
+    D["P: 1978 ultrastructure"] --> E["Vacuoles + nearby acid phosphatase;<br/>authors infer autophagy/exocytosis"]
+    F["P: 1979 follow-up"] --> G["Autophagy-like telolysosome bodies<br/>after most melanosomes disappear"]
+    C --> H["Shared context:<br/>lens-regeneration-associated<br/>dedifferentiation"]
+    E --> H
+    G --> H
+    H -.-> I["G: no chemical melanin fate,<br/>export, tissue mass balance,<br/>or cell-preserving control"]
+    J["Human anterior iris stroma"] -.-> I
 ```
 
 ### Disease-associated iris depigmentation can later repigment
