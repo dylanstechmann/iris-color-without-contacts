@@ -38,6 +38,7 @@ The implementation is left unspecified. Permanent DNA alteration is not a prereq
 | Decrease | Reduction of pigment already present while preserving cells and ocular function |
 | Baseline recovery | Return to the original appearance within a defined tolerance under comparable lighting |
 | Tissue selectivity | Intended iris effects with preservation of other ocular tissues and systemic function |
+| Pigment disposition | Reduce pigment burden without harmful redistribution to aqueous-outflow or neighboring ocular tissues |
 | Spatial control | Acceptable uniformity within each iris and between eyes |
 | Repeated reversibility | Multiple changes without residual pigment accumulation or accumulating injury |
 | Time control | Characterized onset, persistence, and recovery, rather than an assumed rapid switch |
