@@ -126,7 +126,7 @@ Appearance endpoints (photographs, colorimetry, or disease scores) can change wh
 
 HPLC analysis of melanin degradation markers is more chemically specific for pigment amount and subtype in a sampled specimen, but requires harvested tissue and does not preserve its layer map. Imaging and HPLC answer different questions. A lower in-vivo signal or lower marker quantity in a biopsy would still need a material-fate account before it could establish selective clearance: the study must distinguish pigment modification, redistribution, shedding, cellular loss, and export.
 
-A human-biopsy LC-MS/MS method quantified two eumelanin markers and two pheomelanin markers in a single run, using one 4-mm buttock biopsy from each of 30 volunteers. That study compared skin phototypes rather than treatment change; marker values describe processed tissue and are not a tracer of natural in-vivo melanin breakdown. A focused search for this update did not find a human depigmenting-treatment study pairing serial chemical subtype assays with pigment-output measurement. This is a search-bounded gap, not proof of absence. [Lerche et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31233275/).
+A human-biopsy LC-MS/MS method quantified two eumelanin markers and two pheomelanin markers in a single run, using one 4-mm buttock biopsy from each of 30 volunteers. That study compared skin phototypes rather than treatment change; marker values describe processed tissue and are not a tracer of natural in-vivo melanin breakdown. A focused search for this update did not find a human depigmenting-treatment study pairing serial chemical subtype assays with pigment-output measurement. This is a search-bounded gap, not proof of absence. [Lerche et al., 2019](https://pubmed.ncbi.nlm.nih.gov/31233275/). A complementary [U-13C]-L-tyrosine LC–MS method measured de novo eumelanin and pheomelanin pathway flux in live human and mouse melanocyte models. This separates a new-synthesis rate from an endpoint pigment-content assay, but the precursor tracer does not label old stored polymer or measure its export. [Chen et al., 2021](https://pubmed.ncbi.nlm.nih.gov/33549605/).
 
 Histology also needs an assay-specific interpretation. In a comparison of 12 human donors, Fontana–Masson and Von Kossa undercounted suprabasal melanin granules, while diffuse Fontana–Masson darkening in the stratum corneum appeared even where granules were absent; Warthin–Starry counts more closely tracked TEM. Separately, depth-resolved Raman/fluorescence detected melanin-associated bands in some outer-layer spectra in 10 volunteers, but did not establish the particulate “dust” morphology or follow material fate. For skin, a dark stain, an optical signal, a melanin-associated chemical signature, and pigment export are separate evidence claims. [Joly-Tonetti et al., 2016](https://doi.org/10.1111/exd.13016), [Yakimov et al., 2020](https://doi.org/10.1038/s41598-020-71220-6).
 
@@ -142,6 +142,9 @@ flowchart TD
     A -.-> X["Appearance does not equal mass"]
     B -.-> Y["Optical signal does not prove<br/>chemical destruction"]
     C -.-> Z["Sample amount does not prove<br/>where the material went"]
+    T["P: live-cell [U-13C]-tyrosine<br/>LC–MS tracing"] --> V["De novo melanin-pathway<br/>synthesis flux"]
+    V -.-> W["Measures newly synthesized<br/>intermediates, not old stored pigment"]
+    W -.-> D
     D --> E["Function, selectivity, and recovery<br/>remain separate requirements"]
 ```
 
