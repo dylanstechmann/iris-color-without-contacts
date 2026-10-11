@@ -379,6 +379,19 @@ flowchart TD
 
 Human-hair experiments show that bleaching can degrade melanin while also damaging fiber proteins. That does not demonstrate clearance in living tissue. Mouse follicle stem-cell research and observational human hair repigmentation concern a different biological system. Hair remains a candidate for the [separate project proposed earlier](hair-scope.md). [FDA hair cosmetics](https://www.fda.gov/cosmetics/cosmetic-products/hair-dyes), [ex vivo fiber study](https://doi.org/10.1111/ics.12495), [mouse follicle study](https://www.nature.com/articles/s41586-023-05960-6), [human observational study](https://elifesciences.org/articles/67437).
 
+### Human hair can show temporary follicle pigment reversal
+
+```mermaid
+flowchart LR
+    T["One growing hair shaft records<br/>pigment output over time"] --> D["Distal tip: earlier segment<br/>pigmented"]
+    D --> W["Later-formed segment<br/>gray / white"]
+    W --> P["Proximal root-side segment:<br/>pigment returned"]
+    P --> I["Inference: follicle changed<br/>pigment production during growth"]
+    I --> G["Not removal of stored pigment<br/>from iris or other tissues"]
+```
+
+Rosenberg et al. digitized 397 hairs from 14 healthy donors and documented rare cases where an individual hair contained a gray/white segment followed by a repigmented segment. Similar transitions were seen in scalp, pubic, and beard hairs, and the sequence could occur within one anagen growth phase. Since the shaft records pigment as the follicle formed each segment, this is evidence for temporary plasticity in follicular pigment production, not recoloring an emerged shaft or removing pigment already stored in another tissue. Stress associations came from retrospective time-anchored histories in a small number of cases; they do not establish a controllable cause. [Rosenberg et al., 2021](https://elifesciences.org/articles/67437).
+
 Human nail-matrix studies document melanocytes; a drug-induced melanonychia laser report is a case report. Neither establishes a general cosmetic pigment-removal controller. [Nail anatomy study](https://pubmed.ncbi.nlm.nih.gov/8040399/), [case report](https://pubmed.ncbi.nlm.nih.gov/31220366/).
 
 ## 7. Brain and visceral lipofuscin: clearance is more than autophagy
