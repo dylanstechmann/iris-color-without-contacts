@@ -4,6 +4,12 @@
 
 This is a scoped source register, not a systematic review or a global audit of product availability. Experimental treatment details are omitted. Clinical approvals refer to the stated condition; none of the rows establishes universal cosmetic clearance.
 
+## Cross-species measurement precedent
+
+| Source | Evidence type / model | Endpoint and limit |
+| --- | --- | --- |
+| [Green, 1964](https://doi.org/10.2307/1539223) | In-vivo fiddler-crab (*Uca pugnax*) chromatophore study; radiolabeled tyrosine incorporation into melanin and pigment time course | The author reported that incorporated label persisted and that melanin showed an apparent 48-hour destruction half-time under a white background with constant illumination. This is an invertebrate pigment-turnover precedent, not evidence of mammalian tissue clearance, selectivity, product fate, or safety. |
+
 ## Skin
 
 | Source | Evidence type / model | Endpoint and limit |
