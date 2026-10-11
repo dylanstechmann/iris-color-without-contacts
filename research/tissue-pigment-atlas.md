@@ -355,6 +355,9 @@ flowchart LR
     T --> K["Keratinocyte stores transferred pigment"]
     K --> C["Supranuclear cap<br/>contributes to UV protection"]
     LC["H: normal human skin; most of 77<br/>Langerhans cells contained melanosomes<br/>in phagosomes"] -.-> LCG["G: pigment-core degradation,<br/>cell migration with pigment,<br/>and terminal export unmeasured"]
+    S --> MLC["P: KRT14-Kitl hyperpigmented mouse;<br/>Langerhans cells carried skin melanin<br/>granules to regional nodes"]
+    MLC --> MNodes["~128 μg/week accumulated<br/>in nodes, weeks 3–50"]
+    MNodes -.-> MGap["G: nodal exit, whole-body balance,<br/>and normal-human flux unknown"]
     K --> MK["P: transferred melanocore enters<br/>a melanokerasome storage lysosome"]
     MK --> MKSTORE["Mature compartment is weakly degradative<br/>and retains melanin"]
     K --> A["P: autophagy / lysosomal perturbation<br/>changes melanin measures in models"]
@@ -387,7 +390,7 @@ flowchart LR
     O -.-> X["Renewal-linked surface loss differs<br/>from selective removal of stored pigment"]
 ```
 
-A separate human ultrastructural study examined melanin inclusions in 116 melanocytes and melanosomes in phagosomes of 77 Langerhans cells from normal skin. Most sampled Langerhans cells contained phagosomal melanosomes across seasons, which the authors interpreted as evidence of phagocytic capacity and a possible role in melanin elimination. This is an uptake-compatible localization, not a tracked fate: the study did not establish melanin-core degradation, pigment-bearing cell migration to an exit, or net skin-pigment loss. It adds a candidate handling route alongside keratinocyte processing and surface shedding, with the terminal disposal step still open. [Bartosik, 1991](https://pubmed.ncbi.nlm.nih.gov/1681642/).
+A human ultrastructural study examined melanin inclusions in 116 melanocytes and melanosomes in phagosomes of 77 Langerhans cells from normal skin. Most sampled Langerhans cells contained phagosomal melanosomes across seasons, which the authors interpreted as a possible role in melanin elimination. A separate preclinical study used KRT14-Kitl transgenic hyperpigmented mice: Langerhans cells transported melanin granules from skin to regional lymph nodes, where about 128 μg/week accumulated at a roughly constant rate from weeks 3–50. The human biopsies show uptake-compatible localization; the mouse model measures tissue-to-node transfer. Neither study shows melanin-core destruction, loss of total skin-plus-node pigment, or exit from the body. The mouse result is a trafficking foothold, not a human clearance rate or a safe cosmetic route. [Bartosik, 1991](https://pubmed.ncbi.nlm.nih.gov/1681642/), [Yoshino et al., 2006](https://pubmed.ncbi.nlm.nih.gov/16966493/).
 
 #### Intercellular transfer can move melanin without removing it from skin
 
