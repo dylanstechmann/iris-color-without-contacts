@@ -377,6 +377,7 @@ flowchart TD
     E --> C["RPE<br/>Melanin + lipofuscin / bisretinoids"]
     E --> D["Choroid and ciliary body<br/>Separate functional tissues"]
     E --> F["Conjunctiva / episclera<br/>Cause-dependent surface pigmentation"]
+    E --> G["Corneal limbus<br/>Pigmented basal epithelial niche"]
     E --> Y["Yellow whites of eyes<br/>Bilirubin branch"]
     A --> A1["H: darkening side effect documented<br/>P: new melanogenesis modulated in models<br/>Selective reversible clearance: G"]
     B --> B1["Cosmetic clearance: G"]
@@ -389,10 +390,13 @@ flowchart TD
     C --> C1["Selected stored-substrate reduction: P<br/>General clinical clearance: G"]
     D --> D1["Cosmetic clearance: G"]
     F --> F1["Human pathology and procedural reports<br/>General molecular modulation: G"]
+    G --> G1["H: melanocytes and melanin-bearing basal<br/>epithelial cells near corneal progenitors"]
+    G --> G2["Ocular-surface compartment;<br/>not the iris-color target"]
+    G --> G3["Selective pigment clearance: G"]
     Y --> Y1["Cause-specific clinical management"]
 ```
 
-Human iris microscopy and chemical microdissection distinguish anterior/stromal pigmentation from the posterior pigment epithelium. These compartments cannot be combined into one clearance target. [Microscopy](https://pubmed.ncbi.nlm.nih.gov/8602783/), [pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/).
+Human iris microscopy and chemical microdissection distinguish anterior/stromal pigmentation from the posterior pigment epithelium. These compartments cannot be combined into one clearance target. Human donor-tissue studies also identify a separate pigmented corneal limbus: basal K19-positive epithelial cells contain melanin caps, with sporadic dendritic melanocytes among them. This is an ocular-surface niche adjacent to corneal epithelial progenitors, not the central clear cornea or the visible iris target; the study did not examine pigment turnover or clearance. [Iris microscopy](https://pubmed.ncbi.nlm.nih.gov/8602783/), [iris pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/), [Higa et al., 2005](https://pubmed.ncbi.nlm.nih.gov/16080916/).
 
 Cosmetic photoablative iris-laser treatment is a procedural comparator, not a selective biological modulator. Case reports document pigment dispersion and secondary pigmentary glaucoma; after four sessions, one bilateral case had intraocular pressures of 50 and 42 mmHg, with visual-field defects and glare still present at follow-up despite urgent treatment. These case reports establish possible severe harm, not its frequency. [Ning et al.](https://pubmed.ncbi.nlm.nih.gov/33449587/), [Swampillai et al.](https://pubmed.ncbi.nlm.nih.gov/36175318/), [Liu et al.](https://pubmed.ncbi.nlm.nih.gov/37771388/).
 
