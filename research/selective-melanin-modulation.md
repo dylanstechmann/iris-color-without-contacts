@@ -69,7 +69,7 @@ Separate oxidative-chemistry studies add a product-fate caution. Oxidation of is
 
 A 2024 study described **melanophagy**, selective autophagy of melanosomes, mainly in a mouse melanoma-cell model. Its transferred-melanosome keratinocyte comparison did not show the same depigmentation effect. Tissue and cell compartment therefore matter before any proposed extrapolation. [Primary study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10998605/).
 
-The endpoint also matters: a separate mouse keratinocyte study found degradation of melanosome-associated proteins without a decrease in melanin content. Organelle-marker loss is not automatically stored-pigment clearance. [Primary study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10739166/).
+The endpoint also matters: a mouse keratinocyte study found that lysosomal/Rab7B/42-associated degradation reduced melanosomal proteins while melanin content remained unchanged even after two weeks. Classical in-vitro lysosome work likewise reported the melanin core as resistant to hydrolytic digestion. Thus, organelle-marker loss is not automatically stored-pigment clearance. The 2026 loaded-keratinocyte study's oxidative-breakdown result may point to a separate pathway, but its products and export were not measured. [Marubashi and Fukuda, 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC10739166/), [Otaki and Seiji, 1971](https://pubmed.ncbi.nlm.nih.gov/5556529/), [Zhao et al., 2026](https://doi.org/10.1111/jocd.70770).
 
 **Inference:** these findings justify studying pigment turnover as a distinct mechanism. They do not establish selective adult iris clearance, preservation of vision, or the return from an induced brown iris to its original blue.
 
