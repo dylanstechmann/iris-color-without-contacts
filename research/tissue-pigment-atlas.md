@@ -1106,6 +1106,8 @@ flowchart TD
     H --> EX["H: 2025 n = 10 mixed-procedure<br/>exosome observational report"]
     EX --> EXG["Repigmentation reported;<br/>cause and effect not established"]
     EXG -.-> HG
+    H --> ICI["H: 2026 prospective oncology cohort<br/>ICI-containing regimens associated<br/>with darker hair-image grayscale"]
+    ICI -.-> HG
     N["Nail matrix melanocytes"] --> NP["Pigment in nail plate"]
     NP --> NG["G: general selective<br/>topical clearance"]
     N --> ND["Cause-dependent human biology<br/>Procedural case reports are limited evidence"]
@@ -1113,7 +1115,25 @@ flowchart TD
 
 Human-hair experiments show that bleaching can degrade melanin while also damaging fiber proteins. This is existing-shaft chemistry, not follicle control. An ex-vivo study showed opposite-direction responses to mTORC1 modulation in human scalp follicles: TSC2 knockdown reduced follicle pigmentation, while mTORC1 inhibition with rapamycin increased pigmentation in selected gray/white follicles that still contained melanocytes. This is the closest reviewed example of bidirectional human-tissue melanin modulation, but it was short-term organ culture, donor-dependent, and not treatment in a person. No washout or repeated-switch experiment showed reversibility. [Suzuki et al., 2023](https://pubmed.ncbi.nlm.nih.gov/37212043/).
 
-A 2025 cross-sectional report described repigmentation in 10 patients receiving rose-stem-cell-derived exosomes with varied procedures. The mixed interventions and lack of a control group prevent attribution to the exosomes; the reported follow-up does not establish durable or repeatable control. Together with rare spontaneous within-shaft reversals, this makes hair a promising but distinct research topic: follicular pigment production can change, while a grown shaft is inert and must be recolored or replaced. [Lueangarun et al., 2025](https://pubmed.ncbi.nlm.nih.gov/41201122/), [Rosenberg et al., 2021](https://elifesciences.org/articles/67437).
+A 2025 cross-sectional report described repigmentation in 10 patients receiving rose-stem-cell-derived exosomes with varied procedures. The mixed interventions and lack of a control group prevent attribution to the exosomes; the reported follow-up does not establish durable or repeatable control. Together with spontaneous within-shaft reversals, the selected-follicle ex-vivo response, an uncontrolled exosome report, and a 2026 prospective cancer cohort, these findings support follicular pigment plasticity but not a standardized cosmetic controller. The 2026 association is confounded by nonrandom treatment groups and combination regimens; a grown shaft remains inert and must be recolored or replaced. [Lueangarun et al., 2025](https://pubmed.ncbi.nlm.nih.gov/41201122/), [Rosenberg et al., 2021](https://elifesciences.org/articles/67437).
+
+### A prospective cancer cohort adds an association signal
+
+A 2026 single-center prospective cohort compared 18 patients receiving PD-1/PD-L1 inhibitor-containing regimens with 11 receiving chemotherapy alone. Standardized vertex trichoscopy and grayscale analysis found a larger average darkening signal in the immunotherapy group (Δgrayscale 23.5 ± 24.67 versus 4.32 ± 9.01; p = .0065); 15/18 in that group had a positive grayscale change. This is a treatment-associated appearance signal, not a randomized estimate of an immune-checkpoint-inhibitor effect: most patients in the immunotherapy group also received chemotherapy, the groups were not randomized, and their cancer diagnoses were not identical. Grayscale is an image proxy, not a melanin-mass assay. The study did not assess color after treatment stopped or a repeatable switch. Seven of the 18 immunotherapy-group participants also experienced hair loss. [Jiang et al., 2026](https://pubmed.ncbi.nlm.nih.gov/42387269/).
+
+```mermaid
+flowchart TD
+    COHORT["H: 2026 prospective single-center cohort<br/>29 thoracic-tumor patients"]
+    COHORT --> ICI["18 received PD-1/PD-L1 inhibitor-containing regimens<br/>mostly with chemotherapy"]
+    COHORT --> CHEMO["11 received chemotherapy alone"]
+    ICI --> MEAS["Standardized vertex trichoscopy<br/>grayscale before and after cycles"]
+    CHEMO --> MEAS
+    MEAS --> CHANGE["Mean darkening signal:<br/>Δgrayscale 23.5 ± 24.67 vs 4.32 ± 9.01<br/>p = .0065"]
+    CHANGE --> LIMIT["Nonrandomized comparison;<br/>ICI effect not isolated from combination therapy"]
+    LIMIT --> GAP["Image score, not melanin mass;<br/>no treatment-stop washout or switch test"]
+    HARM["7/18 in ICI group had hair loss"] -.-> LIMIT
+    GAP --> CONC["Human association signal;<br/>not a cosmetic controller"]
+```
 
 Hair remains a candidate for the [separate project proposed earlier](hair-scope.md). [FDA hair cosmetics](https://www.fda.gov/cosmetics/cosmetic-products/hair-dyes), [ex vivo fiber study](https://doi.org/10.1111/ics.12495), [mouse follicle study](https://www.nature.com/articles/s41586-023-05960-6).
 
