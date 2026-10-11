@@ -45,7 +45,7 @@ flowchart TD
 | **Lips and other oral mucosa** | Melanocytic and nonmelanocytic pigmentation | **H:** human pathology evidence identifies different causes and compartments. | Transfer of gum-study results to all oral surfaces or other mucosa. |
 | **Hair follicles / hair shaft** | Pigment deposited during fiber growth | Marketed shaft dyes/bleaches exist; **P/H:** follicle biology and observational human repigmentation. | Selectable reversible control of living human follicles; clearing a shaft is different from changing future growth. |
 | **Nail matrix / plate** | Melanin can be deposited into the nail plate | Human anatomy evidence; isolated procedural case reports for specific causes. | A validated general topical cosmetic modulator or stored-pigment clearance system. |
-| **Anterior iris / stroma** | Melanin in stromal melanocytes plus tissue optics | Drug-associated darkening in susceptible eyes is documented. | Controlled blue → brown → original blue; selective nondestructive clearance. |
+| **Anterior iris / stroma** | Melanin in stromal melanocytes plus tissue optics | Drug-associated darkening is documented; **X:** cosmetic photoablative laser cases report pigment dispersion and secondary glaucoma. | Controlled blue → brown → original blue; selective nondestructive clearance. |
 | **Posterior iris pigment epithelium** | Dense pigment, chemically distinguishable from the stroma | Human anatomical and chemical mapping. | Selective cosmetic clearing; this is not interchangeable with the visible anterior target. |
 | **Retinal pigment epithelium (RPE)** | Functional melanin plus lipofuscin/bisretinoids | **P:** reduction of selected bisretinoids and model-specific lipofuscin degradation. | General human retinal pigment clearance or cosmetic iris-color application. |
 | **Choroid / ciliary body** | Uveal melanocytes and pigmented epithelial compartments | Human/anatomical mapping. | A demonstrated selective cosmetic clearing method in the reviewed sources. |
@@ -231,7 +231,9 @@ flowchart TD
     B --> P["P: pathological pigment release<br/>from posterior iris epithelium"]
     P --> Q["Pigment enters aqueous pathways"]
     Q --> T["Trabecular meshwork<br/>receives pigment"]
-    T --> T1["Pigment overload can impair outflow<br/>and raise pressure in models"]
+    T --> T1["Outflow impairment in models;<br/>secondary glaucoma reported after cosmetic laser"]
+    L["X: cosmetic photoablative iris laser"] --> Q
+    L --> L1["H: case reports of serious<br/>pigmentary glaucoma"]
     C --> C1["Selected stored-substrate reduction: P<br/>General clinical clearance: G"]
     D --> D1["Cosmetic clearance: G"]
     F --> F1["Human pathology and procedural reports<br/>General molecular modulation: G"]
@@ -239,6 +241,8 @@ flowchart TD
 ```
 
 Human iris microscopy and chemical microdissection distinguish anterior/stromal pigmentation from the posterior pigment epithelium. These compartments cannot be combined into one clearance target. [Microscopy](https://pubmed.ncbi.nlm.nih.gov/8602783/), [pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/).
+
+Cosmetic photoablative iris-laser treatment is a procedural comparator, not a selective biological modulator. Case reports document pigment dispersion and secondary pigmentary glaucoma; after four sessions, one bilateral case had intraocular pressures of 50 and 42 mmHg, with visual-field defects and glare still present at follow-up despite urgent treatment. These case reports establish possible severe harm, not its frequency. [Ning et al.](https://pubmed.ncbi.nlm.nih.gov/33449587/), [Swampillai et al.](https://pubmed.ncbi.nlm.nih.gov/36175318/), [Liu et al.](https://pubmed.ncbi.nlm.nih.gov/37771388/).
 
 **Pigment fate is part of the eye constraint.** In pigment-dispersion disease, granules released from the posterior iris pigment epithelium can travel through aqueous pathways and accumulate in the trabecular meshwork. Porcine models show impaired meshwork-cell phagocytosis/migration and reduced outflow after pigment exposure. A small human follow-up cohort found that meshwork pigmentation can attenuate over time after treatment for this disease; it does not establish a nonprocedural cosmetic clearance route. This pathology involves the posterior epithelium, distinct from the anterior stromal color target. [Human PDS cohort](https://pubmed.ncbi.nlm.nih.gov/34397796/), [trabecular-meshwork cell model](https://pmc.ncbi.nlm.nih.gov/articles/PMC7847180/), [porcine outflow model](https://pmc.ncbi.nlm.nih.gov/articles/PMC5915754/).
 
