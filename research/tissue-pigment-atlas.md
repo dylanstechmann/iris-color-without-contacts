@@ -824,15 +824,18 @@ Human tissue studies also document lipofuscin in cardiac, hepatic and adrenal ce
 
 ```mermaid
 flowchart TD
-    I["Diagnosed systemic iron overload"] --> O["Excess stores in affected organs<br/>Liver, heart, pancreas and others"]
-    O --> C["C: medical iron depletion / chelation"]
-    C --> L["Lower excess body iron burden"]
+    I["Diagnosed systemic iron overload"] --> O["Excess stored iron in affected organs"]
+    O --> C["C: phlebotomy or, in selected settings, chelation"]
+    C --> L["H: systemic iron burden lowered"]
     L --> U["Prior tissue damage may persist"]
-    L -.-> G["G: arbitrary cosmetic targeting<br/>of individual tissue color"]
+    L --> SI["H: skin iron tracked systemic and liver iron<br/>in a 9-patient treatment series"]
+    L --> P["H: clinical skin pigmentation and<br/>histological siderosis decreased<br/>in a 100-case study after phlebotomy"]
+    P --> M["Histological melanosis did not decrease"]
+    M -.-> G["Visible change did not demonstrate<br/>melanin loss"]
+    L -.-> X["G: arbitrary cosmetic targeting<br/>of individual tissue color"]
 ```
 
-Iron-overload treatment is a real example of reducing an accumulated chemical burden. Its purpose is disease management; iron is also essential to normal physiology. Phlebotomy is a procedure, and chelation is a medical therapy for particular circumstances. Neither is a melanin-clearance mechanism. [NIDDK treatment information](https://www.niddk.nih.gov/health-information/liver-disease/hemochromatosis/treatment).
-
+Iron-overload treatment is a disease-directed example of lowering a stored chemical burden, and iron is also essential to normal physiology. Phlebotomy is a procedure; chelation is used in selected medical settings. In a 100-case idiopathic-hemochromatosis study, treated comparisons showed lower clinical skin pigmentation and histological siderosis after phlebotomy, while histological melanosis did not decrease. **Inference:** visible skin lightening in that disease can occur without a detected decrease in melanosis; it should not be described as melanin clearance. A separate nine-person hereditary-hemochromatosis study mapped skin iron during the phlebotomy program and found it tracked systemic and liver iron measures, but the cohort was small and later follow-up sparse. Neither study establishes a cosmetic method or a transferable melanin-clearance route. [Chevrant-Breton et al., 1977](https://pubmed.ncbi.nlm.nih.gov/836692/), [Guinote et al., 2006](https://doi.org/10.1016/j.nimb.2006.03.120).
 ## 9. Ochronosis: precursor reduction with partial human pigment regression
 
 ```mermaid
