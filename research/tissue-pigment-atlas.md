@@ -198,6 +198,9 @@ Human fetal RPE cultures provide evidence concerning melanin's photoprotective r
 
 ## 5. The original iris cycle
 
+Human iris chemistry found very low pigment content in blue irides and variation in melanin type across color groups. Histology found no significant difference in stromal melanocyte counts among blue, hazel, and brown irides. **Inference:** a return-to-blue claim should measure the visible anterior-stromal pigment state and standardized optical appearance; melanocyte counts or a whole-eye pigment measure alone are inadequate endpoints. [Iris histology](https://pubmed.ncbi.nlm.nih.gov/8602782/), [human iris pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/).
+
+
 ```mermaid
 flowchart LR
     A["Original blue iris"]
