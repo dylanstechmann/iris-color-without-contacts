@@ -455,15 +455,16 @@ flowchart TD
 flowchart LR
     A["H: 2025 comparative human–mouse oral-mucosa atlas<br/>34,969 integrated cells"] --> H["Authors identified melanocytes<br/>as a human-specific population"]
     A --> M["No matching population identified<br/>in the analyzed mouse data"]
+    R["H: separate human periodontium atlas<br/>MLANA+ cells ~0.1%; rare"] -.-> I
     U["H: 2026 adult human oral atlas<br/>>250,000 cell profiles; 13 niches"] --> U1["Melanocytes annotated in the<br/>integrated human cell atlas"]
-    H --> I["Inference: some mouse oral models<br/>may omit a human melanocyte component"]
+    H --> I["Inference: non-detection may reflect<br/>species biology, capture, or annotation"]
     M --> I
     H --> G["G: cell identity does not measure<br/>melanin mass, shedding, or clearance"]
     U1 --> G
     I --> G
 ```
 
-A 2025 comparative single-cell transcriptomic atlas integrated 34,969 human and mouse oral-mucosa cells and identified melanocytes among the human-specific populations in its analysis. A separate 2026 adult human oral-cavity atlas profiled more than 250,000 single-cell transcriptomes across 13 niches and annotated melanocytes in the integrated human atlas. **Inference:** the comparison raises a model-fit caveat: mouse oral models may not represent every aspect of human oral melanocyte biology. “Human-specific” describes the populations identified in the analyzed datasets; it does not prove that melanocytes are absent from every mouse oral site. Neither atlas measured chemical melanin mass, pigment in naturally shed cells, export, or treatment-linked clearance. [Luo et al., 2025](https://pubmed.ncbi.nlm.nih.gov/40751276/), [Matuck et al., 2026](https://doi.org/10.1016/j.cpblue.2026.100007).
+A 2025 comparative single-cell transcriptomic atlas integrated 34,969 human and mouse oral-mucosa cells and identified melanocytes among the human-specific populations in its analysis. A separate 2026 adult human oral-cavity atlas profiled more than 250,000 single-cell transcriptomes across 13 niches and annotated melanocytes in the integrated human atlas. A 2024 human periodontium atlas reported MLANA-positive melanocytes at about 0.1% and noted that the rare cells were not present at high enough proportions even after combining four studies. This shows that these cells can be difficult to capture in single-cell datasets. **Inference:** the comparative atlas raises a model-fit caveat, but its mouse non-detection could reflect sampling or annotation as well as species biology; “human-specific” describes the analyzed datasets and does not prove melanocytes are absent from every mouse oral site. Targeted, matched spatial or protein-based validation would clarify the difference. None of these atlases measured chemical melanin mass, pigment in naturally shed cells, export, or treatment-linked clearance. [Luo et al., 2025](https://pubmed.ncbi.nlm.nih.gov/40751276/), [Quinn et al., 2024](https://doi.org/10.1038/s41467-024-49037-y), [Matuck et al., 2026](https://doi.org/10.1016/j.cpblue.2026.100007).
 
 ### A gum color can span more than one tissue layer
 
