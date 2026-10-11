@@ -73,7 +73,8 @@ Longitudinal studies show that some people have graded iris-color changes after 
 | Modulate melanin synthesis, including the tyrosinase pathway | Production of new pigment | Would the existing adult pigment pool decline enough to change appearance? |
 | Modulate upstream pigment regulation | Activity of pigment-producing cells | Can the effect be limited to the intended tissue and remain predictable? |
 | Change melanosome handling or normal turnover | Storage or persistence of existing pigment | Is there a viable, nondestructive pathway with acceptable ocular consequences? |
-| Modify gene expression or DNA | Longer-lasting changes in pigment biology | The inherited HERC2 rs12913832–OCA2 regulatory locus strongly predicts natural iris color; enhancer function was demonstrated in cultured epidermal melanocytes, and the locus also associates with skin/hair pigmentation. | These findings explain inherited variation, not an adult iris-only switch, a safe edit, or a reversible color cycle. |
+| Modify gene expression or DNA | Longer-lasting changes in pigment biology | The inherited HERC2 rs12913832–OCA2 regulatory locus explains natural iris-color variation, but does not establish an adult iris-only switch, a safe edit, or a reversible cycle. |
+| RNA interference / transcript knockdown | Lower target-gene expression without rewriting DNA | The OCA2 patent reports only a small ex-vivo mouse-iris signal; delivery, cell selectivity, living-eye function, and return after stopping remain unshown. |
 
 These are research categories. The table does not nominate a drug, genetic target design, formulation, dose, or administration route.
 
@@ -81,7 +82,7 @@ The HERC2 rs12913832 enhancer is an important example of **inherited regulation*
 
 ## What the evidence establishes
 
-The direct uveal-cell studies make modulation of new pigment synthesis a stronger-supported research mechanism than an iris-specific DNA-edit proposal. The inhibitor result is narrow: it blocked a drug-induced synthesis increment in culture. The rabbit study is the only reviewed in-vivo signal that inhibition might alter an iris's end-point total melanin during an induced response, but it neither measures baseline pigment in the same tissue before treatment nor establishes degradation, export, or return after washout.
+The direct uveal-cell studies make modulation of new pigment synthesis a stronger-supported research mechanism than an iris-specific DNA-edit proposal. The inhibitor result is narrow: it blocked a drug-induced synthesis increment in culture. The rabbit study is the only peer-reviewed in-vivo signal reviewed here that inhibition might alter an iris's end-point total melanin during an induced response, but it neither measures baseline pigment in the same tissue before treatment nor establishes degradation, export, or return after washout. A 2024 patent application adds an OCA2-siRNA signal in ex-vivo mouse iris, but its image-based result is preliminary and not chemically validated. The related 2024 human skin formula study is a cross-tissue appearance result only; it does not establish iris delivery or efficacy.
 
 | Source and model | Finding relevant to the question | Limit of inference |
 | --- | --- | --- |
@@ -92,6 +93,7 @@ The direct uveal-cell studies make modulation of new pigment synthesis a stronge
 | Smith-Thomas et al., 2001; human choroidal and iridial melanocytes in co-culture | Epithelial cells and fibroblasts changed ocular melanocyte DOPA-oxidase activity; response to α-MSH depended on culture medium. | Enzyme activity in mixed culture is not an intact-tissue pigment or appearance change. |
 | Smith-Thomas et al., 2004; cultured human iridial melanocytes | Latanoprost/PGF2α-related pigment response depended on fibroblast co-culture; DOPA-oxidase activity increased in brown-donor but not blue-donor melanocytes in the co-culture model. | Model-specific drug response; not a cosmetic controller or pigment-clearance result. |
 | Sadiq et al., 2022; 12 rabbits over six months, three animals per cohort | One inhibitor-plus-inducer cohort had lower endpoint total iris melanin than its inducer-only fellow-eye controls (9.56 vs 13.73 μg/g, p=.022; n=3); inhibitor-only eyes did not differ significantly. | The “blue” label referred to an ear-marked cohort, not blue eyes. The abstract and results/table conflict on the control value; a 2026 APAO abstract by overlapping authors reports the same design and appears to be a conference presentation, not independent replication, while giving the table-consistent value. No baseline tissue assay, washout, pigment-fate measurement, or human result. Systemic signs were reported in the inhibitor-only cohort. |
+| Greenberg / Aurora Pharmaceuticals, WO2024201471A1 (2024) | Patent-disclosed OCA2-siRNA cell experiments and a 14-day ex-vivo mouse-iris experiment (six treated, three controls) | The application reports an image-saturation shift and representative histology but no chemical iris melanin mass/products/export, no OCA2 knockdown in the same color-measured iris samples, no live-animal or human outcomes, and no post-withdrawal recovery. Proposed human trial designs in the patent are not trial results. This is RNAi, not DNA editing. |
 | Iris toxicity study, 2017; aqueous samples from 82 eyes before cataract surgery | Soluble tyrosinase and dispersed pigment were interpreted as signs of subclinical iris melanocyte toxicity after antibiotic exposure. | The study had no untreated ocular control and preservative-related confounding; no clinically evident BAIT/BADI developed. It is a reason to distinguish pigment-pathway measurements from evidence of healthy modulation. |
 | Current FDA consumer guidance | No FDA-approved eye drops change eye color. | Regulatory status alone does not answer theoretical plausibility, but it does rule out treating marketed color-changing drops as an established approved option. |
 
@@ -102,6 +104,8 @@ Sources: [Hu et al., 1995](https://pubmed.ncbi.nlm.nih.gov/7706042/), [Hu et al.
 ## Stored-pigment degradation evidence outside the iris
 
 The broader [tissue pigment atlas](tissue-pigment-atlas.md) includes a real research foothold for existing pigment. In human keratinocytes, reconstructed skin substitutes, and ex-vivo human skin, autophagy manipulation changed measured melanin: activators lowered it and inhibitors raised it. A separate cultured-cell study showed melanosome degradation and lighter cell pellets. This is the closest current positive comparator for processing stored epidermal pigment, but it is model-level evidence; the studies did not treat living people or demonstrate a washout return to the starting shade. [Murase et al., 2013](https://doi.org/10.1038/jid.2013.165), [Kim et al., 2020](https://doi.org/10.1111/pcmr.12838). A lysosomal protease study implicated cathepsin V in keratinocyte melanosome degradation, but it did not show that this enzyme alone degrades the melanin polymer or prove product export. [Homma et al., 2018](https://pubmed.ncbi.nlm.nih.gov/29654760/).
+
+A 2024 topical OCA2-regulating formula study adds a small human skin-appearance signal but does not alter this boundary: the clinical arm did not verify OCA2 target engagement, and it measured neither pigment mass/export nor washout return. It cannot establish an iris response. [Cho et al., 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11506640/).
 
 These skin studies do not transfer directly to the iris. Epidermal pigment resides in keratinocytes that differentiate and are shed; visible anterior-iris pigment resides in long-lived stromal cells within a non-shedding ocular tissue. Skin melanin caps also provide UV protection, and degradation pathways intersect with keratinocyte differentiation. An iris hypothesis would need ocular-compartment-specific evidence for pigment loss, safe product handling, preserved vision and tissue function, and controlled return to baseline. This is a comparison of tissue biology, not an inferred iris pathway. [Human skin explant photoprotection](https://pubmed.ncbi.nlm.nih.gov/9579550/), [human epidermal differentiation study](https://pubmed.ncbi.nlm.nih.gov/29526763/), [adult iris histology](https://pubmed.ncbi.nlm.nih.gov/8602782/).
 
@@ -143,12 +147,12 @@ The theoretical objective would require independent evidence for:
 
 These are evidence questions, not an experimental protocol.
 
-## Desk-research next steps
+## Remaining research questions
 
-1. Map adult iris cell types and the distinction between visible anterior/stromal pigment and other pigmented ocular tissues.
-2. Review what is known about normal adult iris melanin persistence and turnover.
-3. Extract studies into an evidence table distinguishing biochemical activity, pigment quantity, visible appearance, and tissue function.
-4. Evaluate evidence separately for healthy adult iris lightening, prevention of medication-induced darkening, developmental pigmentation, and disease-associated depigmentation.
-5. Maintain a source register with model, outcome, limitations, and whether a conclusion is observed or inferred.
+1. Check for independent living-animal or human results that follow the OCA2 patent's proposed ocular work; the patent itself is not evidence that those studies occurred.
+2. Determine whether any iris melanocyte or iris-pigment-epithelium study distinguishes breakdown of pre-existing melanin from reduced new synthesis, and follows degradation products or export.
+3. Map OCA2 and candidate-pathway perturbations across stromal melanocytes, iris pigment epithelium, iris muscle, and retinal pigment epithelium; color-only measurements cannot establish cell selectivity.
+4. Find validated longitudinal iris endpoints that pair standardized color with compartment-specific pigment proxies, stray-light transmission, pupil function, retinal measures, vision, and return after withdrawal.
+5. Keep skin, gum, and iris evidence separate when assessing topical access, cell turnover, and pigment disposition; similar appearance shifts do not establish a shared mechanism.
 
-**Current conclusion:** human uveal-cell and donor-iris models show that new melanogenesis can be modulated, and one small rabbit study offers a low-confidence signal for suppressing an induced pigmentation response. Safe, predictable reduction of established pigment, human iris lightening, and return to an individual's original blue appearance remain unproven.
+**Current conclusion:** human uveal-cell and donor-iris models show that new melanogenesis can be modulated. One small rabbit study and one patent-disclosed ex-vivo mouse-iris experiment provide low-confidence reduction signals, but neither establishes selective removal of stored iris pigment. No directly relevant ClinicalTrials.gov registration surfaced in the bounded 2026-10-11 search. Safe, predictable adult iris lightening and return to an individual's original blue appearance remain unproven.
