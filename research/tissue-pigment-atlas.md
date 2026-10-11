@@ -336,6 +336,21 @@ flowchart LR
     O -.-> X["Renewal-linked surface loss differs<br/>from selective removal of stored pigment"]
 ```
 
+#### Pigment positioning is a separate photoprotection endpoint
+
+```mermaid
+flowchart LR
+    E["P: human keratinocyte model<br/>internalizes extracellular melanin"] --> O["Melanin-containing organelles"]
+    O --> P["KRT5/14 intermediate filaments<br/>and microtubules, bridged by PLEC1,<br/>maintain supranuclear 3D position"]
+    P --> D["P: this positioning shields DNA<br/>from UVB photodamage"]
+    K["P: KRT5 disruption in a<br/>disease-related model"] --> X["Pigment organelles disperse"]
+    X --> R["KRT5 re-expression restores<br/>positioning in the model"]
+    P -.-> G["G: total pigment mass, melanin-core<br/>degradation, export, and whole-skin<br/>photoprotection not tested"]
+    D -.-> G
+```
+
+A 2026 human-keratinocyte model found that KRT5/KRT14 intermediate filaments and microtubules, linked by plectin-1, maintain melanin-containing organelles in a supranuclear three-dimensional position; the positioned organelles shielded DNA from UVB damage in the model. KRT5 disruption dispersed the organelles, while KRT5 re-expression restored their positioning. This is preclinical organization and function evidence, not a decrease in total melanin, degradation of the pigment core, export, or an intervention in living skin. **Inference:** skin safety assessment should measure pigment position and UV-DNA protection separately from bulk melanin and visible color. The paper reports that several authors were L’Oréal Research and Innovation employees and that the company supported the work. [Benito-Martínez et al., 2026](https://pubmed.ncbi.nlm.nih.gov/41398050/).
+
 The skin result is therefore both promising and constrained. Keratinocyte-specific processing is a plausible research target because melanosomes are transferred into these surface cells and natural epidermal renewal carries pigment-bearing corneocytes outward. However, cultured tissue shows pathway responsiveness, not selective extraction from healthy living skin. Autophagy and lysosomal activity also support keratinocyte differentiation, while the melanin cap helps protect nuclear DNA from UV injury. Pigment reduction would need to be evaluated alongside barrier/differentiation, photoprotection, breakdown-product fate, and actual export—not color alone. [Human epidermal differentiation study](https://pubmed.ncbi.nlm.nih.gov/29526763/), [human skin explant photoprotection](https://pubmed.ncbi.nlm.nih.gov/9579550/), [melanocore integrity model](https://pmc.ncbi.nlm.nih.gov/articles/PMC6056223/).
 
 A 2025 mechanistic study adds a storage route: in keratinocyte models, melanin-containing phagosomes matured through endosomal stages, fused with lysosomes, and formed melanokerasomes. Mature melanokerasomes retained undigested cargo and were weakly degradative; a reconstructed human pigmented epidermis supplied ultrastructural evidence for the compartment. This does not show that every epidermal melanin pool is indestructible. It does mean that lysosomal markers or melanosomal-protein loss cannot, by themselves, establish breakdown of the melanin polymer. The models demonstrate storage and positioning for photoprotection, not a living-person clearance route. [Neto et al., 2025](https://pubmed.ncbi.nlm.nih.gov/39303907/).
