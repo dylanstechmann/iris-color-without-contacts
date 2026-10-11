@@ -34,7 +34,7 @@ flowchart TD
     A --> J["Other mucosal surfaces<br/>Site-specific pigment"]
     A --> L["Prostate / bladder<br/>rare focal melanosis;<br/>pigment identity varies"]
     L --> L1["H: pathology reports<br/>Selective clearance: G"]
-    A --> K["Adipose tissue<br/>carotenoids; candidate melanocyte progenitors"]
+    A --> K["Adipose tissue<br/>carotenoids; culture lineage potential;<br/>limited H report of visceral eumelanin"]
     B --> B1["Skin: C for specific disorders<br/>Gums: limited H + P cell model;<br/>native clearance unshown<br/>Hair/nail biological control: G"]
     C --> C1["Iris reversal: G<br/>RPE clearance mechanisms: P"]
     D --> D1["Mechanistic studies: P / human tissue<br/>General selective clearance: G"]
@@ -148,7 +148,7 @@ The labels describe different kinds of evidence: **C** is indication-specific cl
 | **Skin / mucosa / whites of eyes in jaundice** | Excess bilirubin | Cause-specific clinical management. | A melanosome-based explanation or an iris-color treatment. |
 | **Teeth** | Extrinsic stains and intrinsic chromogens | Dental cleaning/whitening methods exist. | Evidence that tooth whitening demonstrates clearance of living-tissue melanin. |
 | **Skeletal muscle** | Age-associated lipofuscin | **H:** human muscle biopsies identify lipofuscin as an aging-associated pigment. | Selective clearance of native muscle lipofuscin while preserving function. |
-| **Adipose tissue** | Dietary carotenoids; possible melanocyte-lineage progenitors are a separate question | **H:** carotenoids measured in healthy human fat; concentrations vary by anatomical site and correlate with diet. **P:** human adipose-derived cells expressed melanocyte markers and formed melanin in a UVB-exposed 3D epidermal model after culture/differentiation. | The cell-culture result does not establish a melanin store in intact adipose tissue, or a tissue-selective clearance route. |
+| **Adipose tissue** | Dietary carotenoids; one small human study reported eumelanin in visceral adipocytes; cultured cells show melanocyte-lineage potential | **H:** one small human study reported peripheral adipocyte granules by Fontana–Masson and the eumelanin marker PTCA by LC-UV-MS in visceral samples. **P:** separate human adipose-derived cells formed melanin after culture/differentiation and UVB in a 3D epidermal model. | The native-tissue report does not establish prevalence, depot distribution, physiological role, pigment fate, clearance, or reversibility; the culture model is not an in-vivo adipose result. |
 | **Bone** | Bone-associated iron in overload; marrow hemosiderin is a separate compartment | **H:** stainable iron at the bone surface is uncommon in routine biopsies and more frequent in verified iron overload. | Selective removal of bone-associated pigment; other bone deposits need separate review. |
 | **Tendon** | Ochronotic homogentisic-acid-derived pigment in alkaptonuria | **H:** human case reports document pigmented, damaged tendons; disease-directed precursor lowering does not establish tendon-specific reversal. | Targeted clearance of established tendon pigment. |
 | **Pancreatic islets** | Lipofuscin in insulin-producing β-cells; age-associated residual material | **H:** electron-microscopy morphometry of human donors finds age-correlated lipofuscin and supports long β-cell lifespan. | Clearance or selective β-cell pigment reduction with preserved insulin function. |
@@ -170,15 +170,17 @@ The labels describe different kinds of evidence: **C** is indication-specific cl
 flowchart LR
     M["Skeletal muscle"] --> ML["H: age-associated lipofuscin<br/>observed in human muscle"]
     A["Adipose tissue"] --> AC["H: dietary carotenoids measured;<br/>concentrations vary by site"]
+    A --> AE["H: one small study reported<br/>eumelanin in visceral adipocytes"]
     B["Bone"] --> BI["H: stainable iron is more evident<br/>in iron-overload cases"]
     T["Tendon"] --> TO["H: ochronotic pigment<br/>documented in alkaptonuria"]
     ML -.-> G["G: general, tissue-selective<br/>cosmetic clearance"]
     AC -.-> G
+    AE -.-> G
     BI -.-> G
     TO -.-> G
 ```
 
-These findings identify different stored materials, not a shared pigment pool: lipofuscin, carotenoids, iron, and ochronotic polymer need separate measurement and disposition models. Clinical management of diagnosed iron overload or alkaptonuria is disease-directed; it does not establish cosmetic, tissue-specific clearance. [Human muscle study](https://pubmed.ncbi.nlm.nih.gov/17376148/), [human adipose carotenoid study](https://pubmed.ncbi.nlm.nih.gov/19587090/), [human bone iron study](https://pubmed.ncbi.nlm.nih.gov/3282446/), [Achilles tendon ochronosis case report](https://pubmed.ncbi.nlm.nih.gov/39027761/).
+These findings identify different stored materials, not a shared pigment pool: lipofuscin, carotenoids, iron, ochronotic polymer, and the limited report of adipose eumelanin need separate measurement and disposition models. The adipose eumelanin result is one small human visceral-tissue study, not a map of depots or a clearance result. Clinical management of diagnosed iron overload or alkaptonuria is disease-directed; it does not establish cosmetic, tissue-specific clearance. [Human muscle study](https://pubmed.ncbi.nlm.nih.gov/17376148/), [human adipose carotenoid study](https://pubmed.ncbi.nlm.nih.gov/19587090/), [Randhawa et al., 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC2653983/), [human bone iron study](https://pubmed.ncbi.nlm.nih.gov/3282446/), [Achilles tendon ochronosis case report](https://pubmed.ncbi.nlm.nih.gov/39027761/).
 
 ### Prostate and urinary bladder: “melanosis” needs pigment identification
 
@@ -1871,20 +1873,22 @@ flowchart TD
 
 Esophageal melanocytosis is a rare human mucosal finding described as non-atypical melanocytic proliferation with melanin deposits. Case reports and small series emphasize its distinction from primary esophageal melanoma; they do not establish a predictable natural history or a selective pigment-clearance method. It is chemically distinct from colon melanosis coli, whose macrophage pigment has been identified as lipofuscin-like material. [Dubail et al., 2022](https://pubmed.ncbi.nlm.nih.gov/35709783/), [Ohnuma et al., 2017](https://pubmed.ncbi.nlm.nih.gov/28445275/), [colon histopathology](https://pmc.ncbi.nlm.nih.gov/articles/PMC4581826/).
 
-## 16. Candidate melanocyte-lineage signals are not evidence of pigment stores
+## 16. Candidate lineage markers, culture potential, and direct adipose pigment evidence
 
 ```mermaid
 flowchart LR
     O["Normal human organ samples"] --> R["H: tyrosinase transcripts detected by RT-PCR<br/>in several organs"]
     R --> U["Cell identity unresolved;<br/>transcript assay did not measure melanin"]
-    A["Human subcutaneous adipose-derived cells"] --> C["P: melanocyte markers in cultured cells"]
+    A["Human visceral adipose samples"] --> H["H: one small study reported<br/>adipocyte granules + eumelanin marker PTCA"]
+    A2["Human adipose-derived cells"] --> C["P: melanocyte markers in cultured cells"]
     C --> D["Melanocyte-specific culture + 3D epidermis + UVB<br/>produced melanin deposits in the model"]
-    D --> V["Shows cell differentiation potential;<br/>not a pigmented adipose store in vivo"]
-    U --> G["G: organ-specific pigment burden<br/>and selective clearance remain unestablished"]
+    D --> V["P: culture model shows differentiation potential;<br/>not an in-vivo tissue measurement"]
+    U --> G["G: population distribution, role, pigment fate,<br/>clearance, and reversibility unresolved"]
+    H --> G
     V --> G
 ```
 
-A sensitive 1993 RT-PCR study detected tyrosinase transcripts in normal samples of skin, lymph nodes, stomach antrum, colon, kidney, lung, testis, ovary, breast, and peripheral nerve. The authors said the expressing cells still needed identification; the assay did not localize cells or quantify tissue melanin. A later human adipose-derived stem-cell study found melanocyte markers in cultured cells and generated melanin after differentiation in a three-dimensional epidermal model with UVB exposure. That supports progenitor potential under model conditions, not a native melanin deposit in adipose tissue. These findings justify candidate-tissue research, not a claim that all marker-positive organs contain accumulated melanin. [Battyani et al., 1993](https://pubmed.ncbi.nlm.nih.gov/7511806/), [Ikeda et al., 2021](https://pubmed.ncbi.nlm.nih.gov/34432824/).
+A sensitive 1993 RT-PCR study detected tyrosinase transcripts in normal samples of skin, lymph nodes, stomach antrum, colon, kidney, lung, testis, ovary, breast, and peripheral nerve. The authors said the expressing cells still needed identification; the assay did not localize cells or quantify tissue melanin. Separately, Randhawa et al. examined visceral adipose from 8 bariatric-surgery patients and 2 non-obese kidney-donor controls. They reported peripheral adipocyte granules by Fontana–Masson staining, detected the eumelanin degradation marker PTCA by LC-UV-MS, localized TYR mRNA to adipocytes, and measured melanogenic activity in tissue extracts. This is direct but limited human-tissue evidence from a small, selected cohort, mostly in a morbid-obesity context. One sample collected at bariatric reversal when BMI was 26 is not a longitudinal before/after measurement. The study does not establish prevalence, other-depot distribution, physiological role, pigment fate, clearance, or reversibility. Separately, a human adipose-derived stem-cell study found melanocyte markers in cultured cells and generated melanin after differentiation in a three-dimensional epidermal model with UVB exposure; that shows model-specific progenitor potential, not an in-vivo adipose outcome. The 1993 transcript survey and culture results likewise cannot establish pigment stores by themselves. [Battyani et al., 1993](https://pubmed.ncbi.nlm.nih.gov/7511806/), [Randhawa et al., 2009](https://pmc.ncbi.nlm.nih.gov/articles/PMC2653983/), [Ikeda et al., 2021](https://pubmed.ncbi.nlm.nih.gov/34432824/).
 
 ## 17. Nasal and laryngeal mucosa: localized, sample-dependent evidence
 
