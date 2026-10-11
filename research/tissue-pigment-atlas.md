@@ -605,6 +605,28 @@ Results differ across studies and endpoints. A separate randomized study with 20
 
 A separate parallel-group randomized trial (26 participants randomized, 23 completed) compared scalpel depigmentation with microneedling plus topical ascorbic acid. Both groups improved at one month, but the scalpel group had lower DOPI at 1, 3, and 6 months and lower GMMS at 3 months; repigmentation occurred in both. A smaller 2024 randomized study (16 participants, eight per group) instead favored microneedling plus ascorbic acid at months 1 and 3. The differing results may reflect small samples, protocols, or measurement differences; that is an inference. These are procedural comparisons using clinical and reflectance scores, not tests of standalone topical treatment or chemically measured pigment removal. In the 2026 trial, malar dermal melanin meter score (DMMS) and gingival melanin meter score (GMMS) were not significantly correlated at follow-up. The authors note limited validation of the meter for gingival use and occasional difficulty positioning its large probe aperture. These reflectance-derived scores are not chemical measurements of pigment mass. [P et al., 2024](https://pubmed.ncbi.nlm.nih.gov/38752063/), [Dawar et al., 2026](https://doi.org/10.1016/j.jobcr.2026.101530).
 
+#### Omega-3 injection trial: clinical scores, with major interpretation limits
+
+A 2026 single-center RCT randomized 30 adults (15 per group) to either local omega-3 injections combined with daily oral supplementation or scalpel depigmentation. Both groups' clinical DOPI and Hedin scores decreased; the scalpel group had lower pigmentation scores at months 1 and 3, while the between-group difference was not significant at month 6. With 15 participants per arm, that nonsignificant comparison does not establish equivalence. Outcomes were appearance indices, not chemical melanin mass, pigment export, or return after treatment stopped. The combined injection-plus-supplement arm had no component-only controls, and the authors acknowledge that needle trauma itself might disturb superficial pigmented epithelium.
+
+The authors report no observed adverse events in the 15-person injection group, but explicitly state the capsule product was formulated for oral rather than injectable use and that a certified injectable formulation was unavailable. Descriptions of the local amount conflict across the abstract, Methods, and Discussion. The ClinicalTrials.gov record lists an actual study start of January 3, 2024, with first submission on June 2, 2025 and first posting on July 16, 2025; registration therefore followed the start of enrollment. As checked October 11, 2026, the registry still listed the study as active, not recruiting, with completion dates estimated in 2025, although the 2026 paper reports six-month outcomes. These features limit confidence in the safety and efficacy claims. This is an injection-based preliminary clinical signal, not a fully noninvasive treatment or a demonstrated reversible pigment controller. [Hussien et al., 2026](https://doi.org/10.1186/s12903-026-08354-y), [ClinicalTrials.gov record NCT07067515](https://clinicaltrials.gov/study/NCT07067515).
+
+```mermaid
+flowchart TD
+    RCT["H: 2026 single-center RCT<br/>30 adults; 15 per group"]
+    RCT --> O3["Combined arm<br/>local omega-3 injections +<br/>oral supplement"]
+    RCT --> SC["Comparator<br/>scalpel depigmentation"]
+    O3 --> SCO["Clinical DOPI/Hedin scores<br/>fell from baseline"]
+    SC --> SC2["Scalpel scores lower at<br/>months 1 and 3"]
+    SC2 --> M6["No significant between-arm<br/>difference at month 6"]
+    SCO --> GAP
+    M6 --> GAP["Appearance scores only;<br/>small groups; no component-only arms"]
+    GAP --> FATE["No melanin mass, export,<br/>or post-use return endpoint"]
+    SAFETY["Authors: oral-use capsule product,<br/>not formulated as injectable;<br/>dose descriptions conflict"] -.-> GAP
+    REG["Registry: study began 2024;<br/>first submitted 2025"] -.-> GAP
+    FATE --> CONC["Preliminary signal;<br/>not equivalence or reversible clearance"]
+```
+
 #### Facial-skin and gingival pigment scores are not interchangeable
 
 Human association studies give mixed results. A 2014 cross-sectional study of 200 healthy, nonsmoking South Indian adults aged 18–35 found a statistically significant association between visually categorized skin color and clinically graded gingival pigmentation. A 2024 multi-ethnic study of 839 people attending a Saudi university dental clinic also reported an association, using foundation-shade categories for skin and DOPI/VITA clinical categories for gingiva. In contrast, a 2025 cross-sectional study of 261 participants found no significant correlation between skin complexion and gingival pigmentation (Spearman ρ = −0.063, p = 0.311), and a 2026 South Indian study of 100 people found no significant association (p = 0.848); both used categorical appearance assessments. A 2026 randomized procedure trial (26 randomized, 23 completed) also found no significant correlation between malar dermal melanin meter score (DMMS) and gingival melanin meter score (GMMS) at follow-up. Its authors noted limited validation of the meter for gingival use and occasional difficulty positioning its large probe aperture.
