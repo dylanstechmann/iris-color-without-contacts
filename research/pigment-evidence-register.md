@@ -97,7 +97,6 @@ This is a scoped source register, not a systematic review or a global audit of p
 | [Human choroid mapping study, 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6901595/) | Human postmortem tissue and cultures | Distribution and chemical signatures; no cosmetic clearing intervention established. |
 | [NLM: pigment epithelium of eye](https://www.ncbi.nlm.nih.gov/mesh/D010857) | Official anatomical vocabulary | Separate iris, ciliary and retinal epithelial compartments. |
 | [Postburn conjunctival pigmentation report, 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC4251888/) | Human case report | Procedural photoablation; not a general reversible modulator. |
-
 | [Hedges et al., 1983](https://pubmed.ncbi.nlm.nih.gov/6849655/) | Human ophthalmic report in vitiligo; one patient with corneal pigment deposition and 15 additional patients, 11 using monobenzone | Two of the 15 additional patients had conjunctival melanosis, possibly related according to the authors. Small uncontrolled report; cannot establish causality or frequency, but documents an ocular safety signal. |
 
 ## Hair and nails
