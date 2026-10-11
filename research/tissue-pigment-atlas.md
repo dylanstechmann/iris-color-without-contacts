@@ -214,6 +214,8 @@ A single generalized-argyria case provides stronger local tissue measurements: a
 flowchart TD
     A["Oral color / pigmentation"] --> B["Physiologic gingival melanin"]
     A --> C["Other causes<br/>Inflammation, drugs, external deposits or lesions"]
+    B --> V["H: oral melanin detection varies<br/>among six sampled sites"]
+    V --> X["Do not generalize gum findings<br/>to every oral mucosa"]
     B --> T["H: topical ascorbic-acid gel alone<br/>small trial; clinical index not significant at 1 month"]
     T -.-> G["G: predictable topical-only<br/>selective pigment clearance"]
     B --> I["H + X: intramucosal injections<br/>Invasive despite nonsurgical terminology"]
@@ -230,6 +232,8 @@ In a 20-person randomized study, topical ascorbic-acid gel alone did not signifi
 Scalpel and ablative-laser studies concern removal of pigmented epithelium; recurrence is a relevant outcome. These are procedural comparisons, distinct from preservation of the existing tissue through molecular modulation. Oral pathology also distinguishes melanocytic pigmentation from deposits such as amalgam tattoos. [Procedure trial](https://pubmed.ncbi.nlm.nih.gov/31983845/), [oral pathology series](https://pmc.ncbi.nlm.nih.gov/articles/PMC8141314/). Red, swollen, bleeding gums belong to an inflammatory branch. [NIDCR](https://www.nidcr.nih.gov/health-info/gum-disease).
 
 Ultrastructural examination of normal human gingiva found melanin granules in keratinocytes. This identifies an epithelial pigment pool, but does not quantify pigment in exfoliated cells or establish a selective export mechanism. [Squier and Waterhouse, 1967](https://doi.org/10.1016/0003-9969(67)90148-3).
+
+A histochemical study of 95 autopsies sampled six oral sites and found marked site variation: melanin was detected in 28.4% of mandibular gingival samples and 51.6% of labial samples; 24.2% of subjects had no detectable pigment at any sampled oral site. This supports treating gingiva as a distinct compartment rather than assuming one oral-mucosa baseline. The study measured presence, not pigment export or function. [Barrett and Beynon, 1991](https://pubmed.ncbi.nlm.nih.gov/1747076/).
 
 ## 4. Eyes: separate compartments
 
