@@ -1091,15 +1091,19 @@ The reported appearance change does not establish selective removal of melanin f
 
 Small human studies show that some iris appearance and reflectance measurements can be repeated. In 30 normal eyes, computerized slit-lamp photo-analysis of iris area and density had triplicate coefficients of variation of 1.0–4.1%; mean differences between baseline and later visits were 1.2–6.3%. A separate prototype hyperspectral study followed eight healthy adult men across three sessions and reported 95% between-session repeatability of ±5% for lighter irides and ±10% for darker irides. These methods measure image-derived color or spectral reflectance, not chemical melanin mass; the studies did not test a pigment-changing treatment or determine the smallest detectable cosmetic change. The newer PS-AS-OCT stromal MCR study remains cross-sectional and does not establish serial treatment sensitivity. [Takamoto et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11584340/), [Di Cecilia et al., 2018](https://doi.org/10.1109/RTSI.2018.8548513).
 
+A separate one-year eyelash-treatment trial illustrates how coarse iris grades can move without evidence of pigment loss. Ophthalmologists or trained assessors graded iris color in 10 categories in 130 adults with post-chemotherapy eyelash hypotrichosis who received periocular bimatoprost during the study. No participant shifted from light to dark; two shifted from dark to lighter categories, and one later returned to brown while treatment continued. The authors considered both shifts clinically irrelevant and likely observer variability, noting that the direction conflicted with the drug's known pigmentation effect. No chemical pigment measure or withdrawal phase tested reversal. [Wirta et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4456802/).
+
 ```mermaid
 flowchart LR
     A["H: Slit-lamp photo analysis<br/>30 normal eyes"] --> A1["Triplicate CV: 1.0–4.1%<br/>later-visit mean differences:<br/>1.2–6.3%"]
     B["H: Hyperspectral reflectance<br/>8 healthy men; 3 sessions"] --> B1["95% between-session repeatability:<br/>±5% light irides / ±10% dark irides"]
     C["H: PS-AS-OCT stromal MCR<br/>88 brown irides"] --> C1["Correlated with CIE photo-color;<br/>cross-sectional only"]
+    D["H: periocular-bimatoprost trial<br/>130 post-chemotherapy adults;<br/>10-category iris grading"] --> D1["Two dark-to-light shifts;<br/>authors judged likely observer variability"]
     A1 --> G["G: Repeatable signal does not establish<br/>treatment sensitivity, melanin-mass change,<br/>or return to the original shade"]
     B1 --> G
     C1 --> G
     G --> V["A future color-cycle claim needs<br/>standardized visible appearance plus<br/>validated compartment-specific change"]
+    D1 --> G
 ```
 
 
