@@ -22,6 +22,8 @@ This is a qualitative model, not a measured human rate equation. If an intervent
 
 Pigment loss caused by cell damage or release of cellular debris would fail the research objective, even if the iris appeared lighter.
 
+The eye also has a downstream pigment-handling bottleneck: pigment liberated from the posterior iris epithelium in pigment-dispersion disease can accumulate in the aqueous-outflow system. Porcine models show that pigment exposure can impair trabecular-meshwork phagocytosis and outflow. This is a disease mechanism, not evidence about a proposed anterior-stroma treatment, but it makes **safe disposition** part of the iris endpoint. [Cell model](https://pmc.ncbi.nlm.nih.gov/articles/PMC7847180/), [ex-vivo outflow model](https://pmc.ncbi.nlm.nih.gov/articles/PMC5915754/).
+
 ## Iris color is not a melanocyte-count switch
 
 A histological study of 51 human irides found no significant difference in stromal melanocyte number or density among blue, hazel, and brown eyes. Chemical analysis of microdissected human irides found that the anterior stromal fraction and posterior iris pigment epithelium have different melanin profiles; blue irides had very low measured pigment, and cultured uveal melanocytes changed pigment composition as they grew and aged. This points to pigment amount and chemistry in the **visible anterior iris compartment** as the relevant research target; posterior epithelial pigment and cell counts are not substitutes for that endpoint. [Human iris histology](https://pubmed.ncbi.nlm.nih.gov/8602782/), [human iris pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/).
