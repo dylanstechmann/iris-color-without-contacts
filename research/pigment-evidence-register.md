@@ -79,6 +79,7 @@ This is a scoped source register, not a systematic review or a global audit of p
 | Source | Evidence type / model | Endpoint and limit |
 | --- | --- | --- |
 | [Neuromelanin organelle study, 2018](https://pubmed.ncbi.nlm.nih.gov/29900402/) | Human substantia-nigra tissue characterization | Long-lived autolysosome-like organelles contain undegraded proteins and lipids; no clinical clearance method demonstrated. |
+| [Berro et al., 2026](https://pmc.ncbi.nlm.nih.gov/articles/PMC13408184/) | High-resolution elemental mapping of seven postmortem human locus-coeruleus tissues | Al, Ca, and Fe localized mainly to the pigment compartment; small observational sample, no clearance intervention. |
 | [Zecca et al., 2008](https://pubmed.ncbi.nlm.nih.gov/18988735/) | Chemical analysis of human-brain melanic pigments | Neuromelanins contain melanic, lipid, and peptide components and bind metals; composition differs by brain region. |
 | [Human cardiac/hepatic/adrenal lipofuscin study](https://pubmed.ncbi.nlm.nih.gov/7206299/) | Human tissue study | Documents accumulation; not a clearance intervention. |
 | [Cardiac lipofuscin study, 2021](https://www.sciencedirect.com/science/article/pii/S0014482721001178) | Old rats | Reduced cardiac lipofuscin burden; no human clinical inference. |
