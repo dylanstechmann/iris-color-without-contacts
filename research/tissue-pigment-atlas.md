@@ -698,7 +698,7 @@ A separate preclinical result concerns **lipofuscin**, not melanin. In Abca4-def
 
 ### RPE research separates slower accumulation from attempted clearance
 
-The retinal pigment epithelium contains **two different targets**: functional melanin that screens light and supports redox handling, and bisretinoid-rich lipofuscin that accumulates in disorders such as Stargardt disease. Clinical work on the latter is useful for understanding intervention endpoints, but it is not a route to changing visible iris color.
+The retinal pigment epithelium contains **two different targets**: functional melanin that screens light and supports redox handling, and bisretinoid-rich lipofuscin that accumulates in disorders such as Stargardt disease. RPE lipofuscin is chemically unusual: Nociari et al. describe it as predominantly lipid bisretinoids with about 2% protein, whereas lipofuscin in other tissues is mainly protein. This substrate difference, and the study's failure to reduce ceroid lipofuscin in neuronal and cardiomyocyte models, means the RPE cyclodextrin results cannot be generalized to body-wide lipofuscin clearance. Clinical work on RPE lipofuscin is useful for understanding intervention endpoints, but it is not a route to changing visible iris color. [Nociari et al., 2014](https://pmc.ncbi.nlm.nih.gov/articles/PMC3986126/).
 
 ```mermaid
 flowchart LR
