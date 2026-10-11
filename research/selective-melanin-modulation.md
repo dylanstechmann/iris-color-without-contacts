@@ -22,6 +22,8 @@ This is a qualitative model, not a measured human rate equation. If an intervent
 
 Pigment loss caused by cell damage or release of cellular debris would fail the research objective, even if the iris appeared lighter.
 
+That distinction matters clinically: human case reports after cosmetic photoablative iris-laser treatment describe pigment dispersion and secondary pigmentary glaucoma. In one severe bilateral case, the patient presented after four sessions with intraocular pressures of 50 and 42 mmHg; visual-field defects and glare remained at follow-up despite urgent treatment. These reports establish possible serious harm, not its frequency. The procedure is a useful safety comparator, not a candidate for selective nonsurgical modulation. [Ning et al.](https://pubmed.ncbi.nlm.nih.gov/33449587/), [Swampillai et al.](https://pubmed.ncbi.nlm.nih.gov/36175318/), [Liu et al.](https://pubmed.ncbi.nlm.nih.gov/37771388/).
+
 The eye also has a downstream pigment-handling bottleneck: pigment liberated from the posterior iris epithelium in pigment-dispersion disease can accumulate in the aqueous-outflow system. Porcine models show that pigment exposure can impair trabecular-meshwork phagocytosis and outflow. This is a disease mechanism, not evidence about a proposed anterior-stroma treatment, but it makes **safe disposition** part of the iris endpoint. [Cell model](https://pmc.ncbi.nlm.nih.gov/articles/PMC7847180/), [ex-vivo outflow model](https://pmc.ncbi.nlm.nih.gov/articles/PMC5915754/).
 
 ## Iris color is not a melanocyte-count switch
