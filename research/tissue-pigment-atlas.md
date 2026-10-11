@@ -239,7 +239,7 @@ flowchart LR
     T --> K["Keratinocyte stores transferred pigment"]
     K --> C["Supranuclear cap<br/>contributes to UV protection"]
     K --> MK["P: transferred melanocore enters<br/>a melanokerasome storage lysosome"]
-    MK --> RETAIN["Mature compartment is weakly degradative<br/>and retains melanin"]
+    MK --> MKSTORE["Mature compartment is weakly degradative<br/>and retains melanin"]
     K --> A["P: autophagy / lysosomal perturbation<br/>changes melanin measures in models"]
     A --> R["P: cultured skin and ex-vivo models<br/>show lower measured melanin with<br/>activation; higher with inhibition"]
     MK -.-> CORE["G: direct melanin-core cleavage,<br/>product fate and tissue exit"]
