@@ -176,7 +176,7 @@ A primary niacinamide study combined transfer experiments with human facial-pigm
 flowchart TD
     B["B16 mouse melanoma cells"] --> F["Isolated melanosome-enriched fraction"]
     F --> K["P: loaded into normal human epidermal keratinocytes"]
-    K --> H["HCP-treated cells showed lower<br/>cell-normalized melanin absorbance at 72 h"]
+    K --> H["Hydrolyzed conchiolin protein treatment<br/>lowered cell-normalized melanin absorbance at 72 h"]
     H --> M["Authors' proposed sequence:<br/>lysosomal proteolysis → oxidative modification"]
     X["Separate cell-free chemical model"] --> R["Hydroxyl-radical conditions<br/>reduced melanin absorbance"]
     M --> L["P: no intact skin, iris, or human treatment;<br/>no metabolite or export mass balance"]
@@ -184,7 +184,7 @@ flowchart TD
     L --> G["G: tissue-selective, function-preserving<br/>pigment clearance remains unestablished"]
 ```
 
-A 2026 in-vitro study loaded normal human epidermal keratinocytes with melanosome-enriched fractions isolated from B16 mouse melanoma cells. HCP treatment lowered cell-normalized intracellular melanin absorbance after 72 hours, and the authors proposed lysosomal proteolysis followed by hydroxyl-radical oxidative modification. A separate cell-free oxidation system also reduced absorbance. The experiment isolates post-transfer pigment handling, but it did not test intact skin or a person, identify breakdown products, or account for pigment export; lower optical absorbance does not provide a whole-tissue mass balance. The paper also reports opposite pH directions in its results and discussion, leaving that aspect of the mechanism unresolved. It was funded by Osman Biological Co. These findings are a preclinical human-cell foothold, not evidence of safe cosmetic skin treatment or a transferable iris mechanism. [Zhao et al., 2026](https://doi.org/10.1111/jocd.70770).
+A 2026 in-vitro study loaded normal human epidermal keratinocytes with melanosome-enriched fractions isolated from B16 mouse melanoma cells. Hydrolyzed conchiolin protein (HCP) treatment lowered cell-normalized intracellular melanin absorbance after 72 hours, and the authors proposed lysosomal proteolysis followed by hydroxyl-radical oxidative modification. A separate cell-free oxidation system also reduced absorbance. The experiment isolates post-transfer pigment handling, but it did not test intact skin or a person, identify breakdown products, or account for pigment export; lower optical absorbance does not provide a whole-tissue mass balance. The paper also reports opposite pH directions in its results and discussion, leaving that aspect of the mechanism unresolved. It was funded by Osman Biological Co. These findings are a preclinical human-cell foothold, not evidence of safe cosmetic skin treatment or a transferable iris mechanism. [Zhao et al., 2026](https://doi.org/10.1111/jocd.70770).
 
 **Measurement distinction:** degradation of melanosome-associated proteins can occur without a reduction in melanin itself, as a mouse keratinocyte study demonstrated. A lower organelle-marker signal alone cannot establish pigment clearance. [Primary study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10739166/).
 
