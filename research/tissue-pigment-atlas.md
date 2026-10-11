@@ -65,18 +65,20 @@ Sources and model details are linked in the sections below and in the [evidence 
 ```mermaid
 flowchart LR
     subgraph surfaces["Renewing epithelial surfaces"]
-        Skin["Skin epidermis"] --> SkinEvidence["H: UVA-induced pigment fading<br/>used as a turnover proxy"]
-        Oral["Gingiva / buccal mucosa"] --> OralEvidence["H: site-specific S-phase<br/>labeling in human biopsies"]
+        Skin["Skin epidermis"] --> SkinEvidence["H: melanin measured in outer<br/>stratum corneum / corneocytes"]
+        Skin --> SkinProxy["H: UVA-pigment fading proxy<br/>small human study, n = 6"]
+        Oral["Gingiva / buccal mucosa"] --> OralEvidence["H: melanin in gingival keratinocytes;<br/>oral proliferation is site-dependent"]
     end
     subgraph iris["Adult iris"]
         Iris["Adult iris tissue"] --> IrisEvidence["H: no PCNA / Ki-67-positive nuclei<br/>in examined adult samples"]
     end
-    SkinEvidence -.-> SkinGap["G: direct mass balance for stored<br/>melanin export / clearance"]
+    SkinEvidence -.-> SkinGap
+    SkinProxy -.-> SkinGap["G: complete source-to-surface mass balance<br/>or selective clearance controller"]
     OralEvidence -.-> OralGap["G: pigment in shed oral cells<br/>not quantified"]
     IrisEvidence -.-> IrisGap["G: long-term iris pigment fate<br/>and return route"]
 ```
 
-Cell renewal can carry pigment-bearing cells out of a surface layer, but calling that selective pigment clearance is an inference unless pigment burden, shed material, and tissue function are measured. A six-person human study used fading of UVA-induced forearm pigmentation as an epidermal-turnover proxy; it was not a direct assay of all stored melanin. Human oral biopsies showed site-dependent S-phase labeling, including higher labeling in buccal mucosa than mandibular gingiva, but did not track melanin into shed cells. A human iris histology study found no PCNA- or Ki-67-positive nuclei in the adult iris samples examined; this is a snapshot, not proof of zero lifetime turnover or a pigment-export route. [Maeda, 2017](https://www.mdpi.com/2079-9284/4/4/47), [Thomson et al., 1999](https://pubmed.ncbi.nlm.nih.gov/10577752/), [Thomson et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11684035/), [Pfeiffer et al., 2001](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/265260).
+Cell renewal can carry pigment-bearing cells out of a surface layer, but calling that selective pigment clearance remains an inference. Human studies have imaged melanin granules in superficial corneocytes and chemically quantified eumelanin and pheomelanin in tape-sampled outer stratum corneum. This establishes a measurable pigment pool at the skin surface, compatible with epidermal desquamation, but does not provide a complete source-to-surface mass balance for native pigment or demonstrate a selective-clearance intervention. A separate six-person human study used fading of UVA-induced forearm pigmentation as an epidermal-turnover proxy. Normal human gingiva ultrastructure identified melanin granules in keratinocytes, and oral biopsies showed site-dependent epithelial S-phase labeling; neither tracked pigment into exfoliated oral cells. A human iris histology study found no PCNA- or Ki-67-positive nuclei in the adult iris samples examined; this is a snapshot, not proof of zero lifetime turnover or a pigment-export route. [Lu et al., 1996](https://pubmed.ncbi.nlm.nih.gov/8881670/), [Matsunaka et al., 2017](https://doi.org/10.1111/srt.12309), [Maeda, 2017](https://www.mdpi.com/2079-9284/4/4/47), [Squier and Waterhouse, 1967](https://doi.org/10.1016/0003-9969(67)90148-3), [Thomson et al., 1999](https://pubmed.ncbi.nlm.nih.gov/10577752/), [Thomson et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11684035/), [Pfeiffer et al., 2001](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/265260).
 
 ## 2. Skin: production, transfer, clearance, and repigmentation
 
@@ -118,6 +120,8 @@ flowchart TD
 In a 20-person randomized study, topical ascorbic-acid gel had no significant pigmentation-index improvement at one month, whereas injections had an earlier response. Both groups showed reduced melanin-stained area fraction at six months. Its small size and lack of a placebo group limit the conclusion. It supports a **human-research** label, not a proven routinely available gum-lightening product. [Trial](https://pubmed.ncbi.nlm.nih.gov/33966113/).
 
 Scalpel and ablative-laser studies concern removal of pigmented epithelium; recurrence is a relevant outcome. These are procedural comparisons, distinct from preservation of the existing tissue through molecular modulation. Oral pathology also distinguishes melanocytic pigmentation from deposits such as amalgam tattoos. [Procedure trial](https://pubmed.ncbi.nlm.nih.gov/31983845/), [oral pathology series](https://pmc.ncbi.nlm.nih.gov/articles/PMC8141314/). Red, swollen, bleeding gums belong to an inflammatory branch. [NIDCR](https://www.nidcr.nih.gov/health-info/gum-disease).
+
+Ultrastructural examination of normal human gingiva found melanin granules in keratinocytes. This identifies an epithelial pigment pool, but does not quantify pigment in exfoliated cells or establish a selective export mechanism. [Squier and Waterhouse, 1967](https://doi.org/10.1016/0003-9969(67)90148-3).
 
 ## 4. Eyes: separate compartments
 
