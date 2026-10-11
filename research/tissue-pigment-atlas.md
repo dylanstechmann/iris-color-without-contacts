@@ -956,6 +956,9 @@ flowchart TD
     S["Human-skin Fontana–Masson findings"] -.-> T["Diffuse stratum-corneum staining can reflect<br/>nonspecific silver deposition"]
     T -.-> U["Skin-specific caution; does not adjudicate<br/>the oral claim"]
     U -.-> G
+    EM1["H: human gingival EM, n = 21<br/>basal / suprabasal keratinocytes"] --> EM2["Melanosome-containing organelles<br/>in upper stratum spinosum"]
+    EM2 -.-> EM3["Morphologic dissolution described;<br/>chemical pigment loss / shed-cell flux unmeasured"]
+    EM3 -.-> G
     H["Scaling and root planing<br/>3 inflamed-gingiva cases"] --> I["Keratinocyte melanosomes decreased<br/>40 days after inflammation resolved"]
     J["Gingivectomy<br/>5 cases; pigmented tissue excised"] --> K["Melanocytes migrated / divided<br/>days 6–7; keratinocyte pigment by day 50"]
     K --> L["Repigmentation returned to baseline<br/>within 1.5–3 years in this series"]
