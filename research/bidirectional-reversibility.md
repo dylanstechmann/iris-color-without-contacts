@@ -22,6 +22,8 @@ U.S. prescribing information describes the added iris pigmentation as likely per
 
 These observations show why stopping an increase in synthesis and reducing an existing pigment pool must be treated as different endpoints. They do not prove that every conceivable future reversal is impossible. They do show that withdrawal of a known pigment-increasing stimulus is not an established blue → brown → blue mechanism. [U.S. label](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f4e73059-5ba0-4d73-9ea1-09d8d654e844), [clinical report](https://pubmed.ncbi.nlm.nih.gov/9154289/)
 
+Skin shedding is not a demonstrated iris-reversal route. Human studies measured melanin in surface corneocytes and eumelanin/pheomelanin in the outer stratum corneum, a surface compartment that normally leaves through epidermal desquamation. The anterior iris stroma has no comparable shedding layer. In one human histology study, no PCNA- or Ki-67-positive nuclei were found in the adult iris specimens examined; that snapshot neither proves zero lifetime turnover nor identifies pigment disposal. The surface-skin findings cannot fill that iris-specific gap. [Lu et al., 1996](https://pubmed.ncbi.nlm.nih.gov/8881670/), [Matsunaka et al., 2017](https://doi.org/10.1111/srt.12309), [Pfeiffer et al., 2001](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/265260), [tissue pigment atlas](tissue-pigment-atlas.md).
+
 ## The conceptual control problem
 
 **Existing pigment = accumulated synthesis minus normal turnover or clearance.**
