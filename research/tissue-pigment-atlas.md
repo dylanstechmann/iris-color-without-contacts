@@ -380,6 +380,21 @@ Human fetal RPE cultures provide evidence concerning melanin's photoprotective r
 
 Human iris chemistry found very low pigment content in blue irides and variation in melanin type across color groups. Histology found no significant difference in stromal melanocyte counts among blue, hazel, and brown irides. **Inference:** a return-to-blue claim should measure the visible anterior-stromal pigment state and standardized optical appearance; melanocyte counts or a whole-eye pigment measure alone are inadequate endpoints. [Iris histology](https://pubmed.ncbi.nlm.nih.gov/8602782/), [human iris pigment chemistry](https://pubmed.ncbi.nlm.nih.gov/9778410/).
 
+### Inherited HERC2–OCA2 regulation is not adult iris control
+
+```mermaid
+flowchart LR
+    SNP["H: HERC2 rs12913832<br/>strongly associated with iris color"]
+    --> ENH["P: allele-dependent enhancer activity<br/>and chromatin looping"]
+    --> OCA2["P: OCA2 expression differs in<br/>cultured human epidermal melanocytes"]
+    SNP --> OTHER["H: same locus also associates<br/>with skin and hair pigmentation"]
+    OCA2 -.-> IRIS["Plausible link to inherited iris color;<br/>functional assay did not use iris cells"]
+    IRIS -.-> GAP["G: adult iris selectivity, reversibility,<br/>and intervention safety untested"]
+    OTHER --> GAP
+```
+
+Human association and functional studies identify the HERC2 intron-86 variant rs12913832 and nearby OCA2 as major contributors to inherited blue/brown iris-color variation. The original association study proposed that the variant alters OCA2 expression, particularly in iris melanocytes. A later functional study demonstrated allele-dependent enhancer activity, chromatin looping, and OCA2 expression differences in cultured neonatal **epidermal** melanocytes—not iris-derived cells. A population study also found the same variant associated with skin and hair coloration. The locus may have a stronger effect on iris color, but it is not evidence of iris-exclusive regulation or a reversible adult control point. [Sturm et al., 2008](https://pmc.ncbi.nlm.nih.gov/articles/PMC2427173/), [Visser et al., 2012](https://pmc.ncbi.nlm.nih.gov/articles/PMC3290780/), [Branicki et al., 2009](https://pubmed.ncbi.nlm.nih.gov/19208107/).
+
 
 ```mermaid
 flowchart LR
