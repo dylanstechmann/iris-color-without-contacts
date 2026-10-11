@@ -55,6 +55,25 @@ In a renewing epithelium, pigment still held inside cells could leave with shed 
 
 The skin evidence includes actual melanin measured in the outer corneocyte/stratum-corneum compartment, but surface sampling does not quantify the full native tissue pool or separate all pigment inputs from losses. Oral studies identify melanin within gingival keratinocytes and measure proliferation, but not pigment mass in exfoliated oral cells. Iris histology remains a snapshot. Across these tissues, a surface pigment pool and cell renewal support an export hypothesis; they do not show that a chosen intervention can selectively clear stored pigment while preserving function. [Lu et al., 1996](https://pubmed.ncbi.nlm.nih.gov/8881670/), [Matsunaka et al., 2017](https://doi.org/10.1111/srt.12309), [Maeda, 2017](https://www.mdpi.com/2079-9284/4/4/47), [Squier and Waterhouse, 1967](https://doi.org/10.1016/0003-9969(67)90148-3), [Thomson et al., 1999](https://pubmed.ncbi.nlm.nih.gov/10577752/), [Thomson et al., 2001](https://pubmed.ncbi.nlm.nih.gov/11684035/), [Pfeiffer et al., 2001](https://jamanetwork.com/journals/jamaophthalmology/fullarticle/265260).
 
+## A decrease in one compartment may be redistribution
+
+“Clearance” has nested boundaries. A lower pigment signal in a target cell is a cell-level observation. To claim tissue clearance, material must no longer reside elsewhere in that tissue. To claim body-wide removal, the total body burden must fall rather than shift into blood, lymph, a draining node, or another organ. Actual excretion is a still narrower endpoint.
+
+```mermaid
+flowchart LR
+    C["Target pigment-bearing cell"] --> T["Target tissue"]
+    T --> O["Other local cells or compartments"]
+    T --> B["Blood or lymph"]
+    B --> R["Draining node or another organ"]
+    B --> X["Material leaves the body"]
+    C -.-> M["A cell-level signal can fall<br/>while tissue burden remains"]
+    T -.-> N["A tissue burden can fall<br/>while body burden is redistributed"]
+    R -.-> E["A destination compartment is not<br/>the same as excretion"]
+    X --> Q["Net removal claim needs<br/>body-level accounting"]
+```
+
+The arrows are possible accounting routes, not a proposed treatment pathway. Human reports document pigment in multiple destinations: posterior iris pigment can enter aqueous pathways and accumulate in the trabecular meshwork; human anthracosis case series identify carbon-containing pigment in mediastinal lymph-node macrophages. The latter static observations do not prove the route or show net elimination. Skin studies measure melanin at the outer corneocyte/stratum-corneum interface, but do not provide a whole-body mass balance. Thus a tissue-specific intervention would need to define which boundary its endpoint covers and check likely destination compartments. [Iris pigment-dispersion models](https://pmc.ncbi.nlm.nih.gov/articles/PMC7847180/), [human nodal anthracosis cases](https://pmc.ncbi.nlm.nih.gov/articles/PMC3920429/), [surface corneocyte study](https://pubmed.ncbi.nlm.nih.gov/8881670/).
+
 ## Mechanism classes and their current reach
 
 | Mechanism class | What it changes | Evidence examples in the atlas | What it does not establish |
