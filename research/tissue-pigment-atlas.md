@@ -64,6 +64,7 @@ flowchart TD
 | **Kidney tubules** | Lipofuscin in proximal tubular epithelial cells | **H:** one incidental human biopsy with ultrastructural confirmation; case-level observation. | General prevalence, tissue-selective clearance, and functional outcomes. |
 | **Spleen** | Ferritin and hemosiderin iron stores; lipofuscin reports are a separate target | **H:** iron-storage material characterized in spleens from patients with transfusion-related secondary overload. | Selective splenic clearance independent of systemic iron management. |
 | **Airways / lung-draining lymph nodes** | Inhaled carbon and other particles within macrophages | **H:** human bronchoscopy, biopsy, and node studies document anthracotic macrophages. | Safe selective extraction; visible deposits do not measure the full particle burden or associated fibrosis. |
+| **Colon mucosa** | Lipofuscin-like pigment in lamina-propria macrophages in melanosis coli; the name does not mean ordinary melanin | **H:** human histology identifies pigment-laden macrophages; observational cases document endoscopic disappearance after the inducing anthraquinone exposure ends. | Direct pigment mass/export after resolution, a selective intervention, or transfer to other pigments and organs. |
 | **Other mucosa** | Specify site, cell, and actual deposit | **Coverage gap:** no dedicated clearance assessment for every mucosal surface. | Any claim that one mucosal result generalizes across the body. |
 
 ### Additional tissues contain different pigment targets
@@ -97,6 +98,21 @@ flowchart LR
 ```
 
 These observations represent different substrates and evidence strengths. Human beta-cell lipofuscin is an age-associated intracellular residue, and the human study used morphometry to estimate cell longevity; it did not test clearance. The kidney finding is an incidental, single-biopsy observation. Splenic ferritin and hemosiderin were characterized in patients with transfusion-related iron overload. Anthracotic carbon is inhaled particulate material in macrophages, not endogenous melanin. None establishes a general-purpose pigment-removal route. [Cnop et al., 2010](https://pubmed.ncbi.nlm.nih.gov/19855953/), [human kidney biopsy report](https://pmc.ncbi.nlm.nih.gov/articles/PMC11093538/), [Weir et al., 1985](https://pubmed.ncbi.nlm.nih.gov/4031104/), [human nodal anthracosis case series](https://pmc.ncbi.nlm.nih.gov/articles/PMC3920429/), [NEJM bronchial case](https://www.nejm.org/doi/full/10.1056/NEJMicm2516602).
+
+### Colon mucosa: a natural-history example with limits
+
+```mermaid
+flowchart LR
+    X["Anthraquinone exposure"] --> A["H: apoptotic epithelial bodies<br/>in human biopsies"]
+    A --> M["H: pigment-laden macrophages<br/>in lamina propria"]
+    M --> P["H: lipofuscin identified<br/>in a histopathology study"]
+    P --> C["Visible melanosis-coli<br/>appearance on colonoscopy"]
+    X -.-> S["Exposure cessation"]
+    S -.-> R["H: endoscopic disappearance<br/>reported in selected cases"]
+    R -.-> G["G: pigment mass, cell fate,<br/>and net export not measured"]
+```
+
+The condition's name is misleading for this project: a human histopathology study identified the colonic macrophage pigment as lipofuscin, not melanin. A retrospective colonoscopy review identified 10 disappearance cases among 216 melanosis-coli cases; 4 of the 10 had stopped anthranoid use before disappearance was observed. A separate single-patient report documented endoscopic disappearance seven months after senna cessation, without follow-up biopsy to measure the pigment or trace its fate. This is evidence of cause-associated appearance resolution in one colonic condition, not proof of a selective pigment-clearing mechanism or a result transferable to iris, skin, or other pigments. [Human histopathology study](https://pmc.ncbi.nlm.nih.gov/articles/PMC4581826/), [longitudinal clinical course study](https://pubmed.ncbi.nlm.nih.gov/36849146/), [single-case endoscopic follow-up](https://pmc.ncbi.nlm.nih.gov/articles/PMC11402352/).
 
 Sources and model details are linked in the sections below and in the [evidence register](pigment-evidence-register.md). The shared criteria for evaluating a tissue-specific clearance claim are in the [selective clearance framework](selective-clearance-framework.md).
 
