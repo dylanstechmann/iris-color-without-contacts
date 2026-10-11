@@ -39,7 +39,7 @@ flowchart TD
 
 | Tissue / compartment | Relevant pigment or color source | What is available or demonstrated | What remains unestablished |
 | --- | --- | --- | --- |
-| **Epidermal skin** | Melanin in melanocytes and keratinocytes | **C:** topical treatment of facial melasma; disease-specific repigmentation in vitiligo. **P:** melanosome degradation and transfer modulation. | A programmable healthy-skin shade cycle or selective removal of all stored melanin. |
+| **Epidermal skin** | Melanin in melanocytes and keratinocytes | **C:** facial melasma treatment and vitiligo repigmentation; **C + X:** afamelanotide implant increases skin eumelanin for adult EPP. **P:** melanosome degradation and transfer modulation. | A programmable healthy-skin shade cycle or selective removal of all stored melanin. |
 | **Dermis** | Native melanin, tattoo ink, and deposited metals are different targets | **X:** FDA-cleared tattoo-removal lasers; human biopsies document pigment fragmentation and cell injury. One argyria case found lower silver signal and macrophage uptake after laser, with long-term visible improvement. | General nonprocedural clearance of native melanin or proof that pigment left the body. |
 | **Gums** | Physiologic epithelial melanin, among other causes of discoloration | **H:** small topical ascorbic-acid trial; stronger early response in an injection comparison arm. **X:** epithelial depigmentation procedures. | A routinely established topical, selective, reversible gum-color controller. |
 | **Lips and other oral mucosa** | Melanocytic and nonmelanocytic pigmentation | **H:** human pathology evidence identifies different causes and compartments. | Transfer of gum-study results to all oral surfaces or other mucosa. |
@@ -146,6 +146,8 @@ flowchart TD
     O --> K["Transfer to keratinocytes"]
     K --> V["Visible epidermal pigmentation"]
     M --> C["C: synthesis modulation in<br/>specified pigmentation disorders"]
+    M --> E["C + X: afamelanotide implant<br/>increases skin eumelanin for adult EPP"]
+    E --> E2["Disease-specific photoprotection<br/>not cosmetic or reversible shade control"]
     K --> T["P + H: transfer modulation<br/>mechanistic and human appearance endpoints"]
     O --> P["P: melanosome degradation<br/>in human skin-cell cultures"]
     P -.-> R["G: controlled stored-melanin clearance<br/>in intact healthy human tissue"]
@@ -153,7 +155,7 @@ flowchart TD
     I -.-> W["G: arbitrary healthy-skin<br/>increase / decrease / baseline cycle"]
 ```
 
-TRI-LUMA is a prescription combination for short-term moderate-to-severe **facial melasma**; its label identifies hydroquinone as a synthesis inhibitor. That indication does not cover every tissue or every form of pigmentation. Ruxolitinib cream has a separate FDA approval for nonsegmental vitiligo. These clinical examples address particular disorders. [Melasma label](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a35fa709-5eb5-4429-b38f-f1e0019bf0ee), [vitiligo approval](https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-topical-treatment-addressing-repigmentation-vitiligo-patients-aged-12-and-older).
+TRI-LUMA is a prescription combination for short-term moderate-to-severe **facial melasma**; its label identifies hydroquinone as a synthesis inhibitor. That indication does not cover every tissue or every form of pigmentation. Ruxolitinib cream has a separate FDA approval for nonsegmental vitiligo. These clinical examples address particular disorders. [Melasma label](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a35fa709-5eb5-4429-b38f-f1e0019bf0ee), [vitiligo approval](https://www.fda.gov/drugs/news-events-human-drugs/fda-approves-topical-treatment-addressing-repigmentation-vitiligo-patients-aged-12-and-older). For an increase in skin pigmentation, afamelanotide (SCENESSE) is an FDA-labeled MC1-R agonist for increasing pain-free light exposure in adults with erythropoietic protoporphyria; the EMA describes its action as stimulating skin eumelanin. It is administered as a subcutaneous implant by a trained clinician. This is a disease-specific, procedural skin example, not cosmetic use, iris selectivity, a chosen shade, or a reversible color cycle. [Current U.S. label](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94f53286-11dd-7fbb-e053-2a95a90a7c48&version=11), [EMA assessment](https://www.ema.europa.eu/en/medicines/human/EPAR/scenesse).
 
 A primary niacinamide study combined transfer experiments with human facial-pigmentation outcomes. Separately, human skin-cell cultures showed autophagy-associated melanosome degradation and lighter cell pellets. The 2024 melanophagy study identified selective melanosome-autophagy machinery, mainly in a mouse melanoma-cell model; the same effect was not reproduced in its transferred-melanosome keratinocyte model. This makes cell compartment an evidence requirement. [Transfer study](https://pubmed.ncbi.nlm.nih.gov/12100180/), [human-cell degradation study](https://doi.org/10.1111/pcmr.12838), [melanophagy study](https://pmc.ncbi.nlm.nih.gov/articles/PMC10998605/).
 
