@@ -82,6 +82,6 @@ The optional design, including paired optical acquisition, compartment-specific 
 
 ## Working conclusion
 
-Drug modulation of synthesis is the lead research direction. Suppression plus endogenous pigment loss could, conditionally, lighten an iris over years; the human rate and achievable appearance are unresolved. The literature supports adult drug-associated darkening and contains limited lightening signals, but does not establish a controlled reversible cosmetic system or the complete blue → dark brown → same-blue cycle. The next work is a focused review of drug trajectories, longitudinal appearance, and withdrawal outcomes, with optional mechanistic studies where needed.
+Drug modulation of synthesis is the lead research direction. Suppression plus endogenous pigment loss could, conditionally, lighten an iris over years; the human rate and achievable appearance are unresolved. The literature supports adult drug-associated darkening and contains limited lightening signals, but does not establish a controlled reversible cosmetic system or the complete blue → dark brown → same-blue cycle. The next work starts with pigment balance and optics, explores explicitly hypothetical combinations, then uses targeted questions and searches to check the premises that change the conclusion. Drug trajectories and withdrawal records are supporting evidence selected for those questions.
 
 *This note synthesizes the literature; the [evidence register](pigment-evidence-register.md) is the compact source for study-level models and endpoints.*

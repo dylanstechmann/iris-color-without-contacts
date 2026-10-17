@@ -6,26 +6,28 @@ The earlier bidirectional goal remains: **blue → dark brown → the same perso
 
 ## Current research direction
 
-**Focus on chronic pharmacology and living-eye appearance.** A slow effect or ongoing maintenance is within scope. Whole-cell replacement is not required for pigment to change: lower synthesis could reduce pigment burden if endogenous net pigment loss continues at a useful rate. Neither a seven-year whole-eye replacement clock nor an adult-human iris pigment half-life is established.
+Start with **pigment production, pigment persistence, and optics**. Build explicit hypotheses, calculate their consequences, and use targeted searches to check the assumptions that matter most. Slow change and maintenance over years are within scope.
 
-Start with the [chronic drug-modulation note](research/chronic-pharmacologic-modulation.md), which contains the mechanism map, primary evidence, a hypothetical seven-year sensitivity model, and the next research tasks.
+The lead hypothesis is simple: reduce new melanin production while existing pigment undergoes net loss. That can lower the pigment inventory without replacing cells. It depends on loss continuing at a useful rate. A persistent pigment fraction, incomplete suppression, or a different optical response could limit the change.
 
-- Latanoprost-associated iris darkening establishes that adult pigmentation can respond to a medicine. It does not establish precise shade control or reversibility.
-- A published single case describes brown-to-blue change after five years of levobunolol exposure. Its drug causality, mechanism, and reversibility remain unproven; it deserves follow-up rather than being treated as a cosmetic result. [Doyle and Liu, 1999](https://pubmed.ncbi.nlm.nih.gov/10660314/).
-- Human-cell studies, a small rabbit experiment, and an OCA2-silencing patent supply drug-research leads. Their models and limits are detailed in the focused note and [evidence register](research/pigment-evidence-register.md).
-- The reviewed evidence does not establish a controlled, safe, reversible human cosmetic lightening system. Brown → green → blue is a possible appearance trajectory to investigate, not a predicted sequence.
+The [reasoning and drug-modulation note](research/chronic-pharmacologic-modulation.md) contains:
+
+- foundations, assumptions, and alternative mechanism combinations;
+- hypothetical models for synthesis, pigment loss, persistent stores, and withdrawal;
+- specific questions and search strings for each missing link;
+- existing drug evidence as checks on those premises.
+
+The models do not predict a seven-year biological renewal interval or a compulsory brown → green → blue sequence. Drug activity, color change, and recovery may follow different timescales.
 
 ## Next
 
-Build a focused evidence map of drug-associated iris-color trajectories and withdrawal outcomes. Investigate existing longitudinal clinical photographs or records before designing new tissue work. The primary cosmetic endpoint is repeatable change in living-eye appearance, with ocular function and tolerability assessed alongside it.
+Explore the hypothetical combinations first. Find which unknown would change each conclusion, then search for that specific information. Rank mechanisms separately by logical consistency and by support for their premises.
 
-Use a pigment-balance model to ask which combinations of synthesis suppression and net pigment loss could matter over years. Label every unmeasured rate as hypothetical. Color measurements can establish appearance change without claiming to measure melanin mass; chemical assays answer a separate mechanistic question.
-
-Donor-eye calibration and lab automation remain optional supporting studies. They are no longer the required first step. Any future tissue study should address a named uncertainty that existing data cannot resolve.
+The primary cosmetic objective is repeatable living-eye appearance change with preserved function and recovery. A noninvasive color measure can track appearance; chemistry addresses pigment mechanisms. Archived records, cell models, donor-eye calibration, and automation are supporting options chosen for a defined question.
 
 ## Research map
 
-- [Chronic drug modulation](research/chronic-pharmacologic-modulation.md) — lead track: long-term synthesis modulation, turnover, appearance, and recovery.
+- [Chronic drug modulation](research/chronic-pharmacologic-modulation.md) — lead track: foundations, hypothetical combinations, sensitivity models, and targeted questions.
 - [Bidirectional iris reversibility](research/bidirectional-reversibility.md) — blue-to-brown-to-baseline goal and evidence requirements.
 - [Pigment evidence register](research/pigment-evidence-register.md) — study models, outcomes, and limits.
 - [Tissue pigment atlas](research/tissue-pigment-atlas.md) — broader background for eyes, skin, gums, hair, and other compartments.
