@@ -2,6 +2,8 @@
 
 *Concept for planning and literature review; not an experimental protocol. Reviewed October 2026.*
 
+**Priority status, October 17, 2026:** supporting option if a defined drug-research question requires tissue work. The current lead track is [chronic drug modulation](chronic-pharmacologic-modulation.md), including existing longitudinal records and noninvasive appearance analysis. Procurement and dissection are not the required next action.
+
 ## Design goal
 
 Automate the repeatable parts of a donor-eye measurement study while keeping fragile, not-yet-validated tissue decisions visible to trained staff. The data chain should link one coded donor eye to its receipt record, condition sensors, intact-eye images, separated tissue fractions, assay results, and quality-control decision.
@@ -53,7 +55,7 @@ For context, Opentrons currently lists Flex configurations starting around $24,9
 - Use standard, interoperable labware and nonproprietary consumables where the provider allows them and equivalence is validated. Negotiate academic/core-facility or volume pricing. Buy stable, commonly used consumables in planned quantities only after the assay and demand forecast are stable; avoid bulk stockpiling of expiring or specialized reagents.
 - Keep quality controls and repeatability measurements intact. Cut idle capacity, duplicated software, custom hardware, and unnecessary shipping—not the checks needed to know whether the measurement is trustworthy.
 
-## Immediate next step
+## If tissue work is selected
 
 Before any equipment purchase or specimen shipment, prepare one matched request for an eye bank and a candidate academic core/cloud lab. Ask:
 

@@ -2,6 +2,8 @@
 
 *Literature and official-source review: October 11, 2026. Personal learning project; AI-assisted synthesis.*
 
+**Current iris priority, October 17, 2026:** [chronic cosmetic drug modulation](chronic-pharmacologic-modulation.md), including gradual change over years, endogenous pigment loss, and recovery after withdrawal. This atlas remains broad tissue background; donor-eye dissection is an optional supporting study.
+
 The broader research question is whether stored pigment can be reduced to a chosen level in a chosen tissue while preserving its cells and function. The original [reversible iris-color goal](bidirectional-reversibility.md) is one application. DNA editing is not a prerequisite: production, transfer, degradation, and excretion are distinct mechanisms to evaluate.
 
 This atlas groups the major pigment-bearing compartments across the body. It is **not an exhaustive inventory of every cell type or every marketed treatment**. A coverage gap is labeled explicitly. Availability is described for the stated indication and jurisdiction; an experimental result is not a treatment listing.

@@ -1,39 +1,41 @@
-# Reversible cosmetic iris pigmentation without contacts or surgery
+# Reversible cosmetic iris pigmentation through drugs
 
-A private, theoretical literature-review project about whether a future nonsurgical method could change iris appearance in both directions:
+A private, theoretical research project about cosmetic iris-color change without contacts or surgery. The lead question is whether sustained, reversible drug modulation of melanin production could gradually lighten an iris over months or years, and permit repigmentation after stopping.
 
-**Blue → dark brown → the same person's original blue**
+The earlier bidirectional goal remains: **blue → dark brown → the same person's original blue**. Lightening a naturally brown iris and reversing a drug-induced darkening are related questions with potentially different kinetics.
 
-This is a research question, not a proposed treatment. The project distinguishes changing new melanin production from reducing pigment already present, and both from changing how pigment is distributed or appears.
+## Current research direction
 
-## Current assessment
+**Focus on chronic pharmacology and living-eye appearance.** A slow effect or ongoing maintenance is within scope. Whole-cell replacement is not required for pigment to change: lower synthesis could reduce pigment burden if endogenous net pigment loss continues at a useful rate. Neither a seven-year whole-eye replacement clock nor an adult-human iris pigment half-life is established.
 
-- Some glaucoma medicines cause iris darkening in some eyes. This is an observed side effect, not a controllable color switch; labeling describes added pigmentation as likely permanent.
-- Human uveal-cell and donor-iris models show that new melanin production can be modulated. A small rabbit study and an ex-vivo mouse-iris patent report preliminary reduction signals, but neither establishes selective removal of stored pigment or return after stopping.
-- No controlled living-person study demonstrates a safe blue-to-brown-to-baseline-blue cycle. FDA says there are no approved eye drops to change eye color. Cosmetic laser depigmentation is a procedure and has reported serious ocular complications.
-- Skin and gingival studies offer tissue-specific appearance or model signals. They do not establish iris clearance. A color score, lower synthesis, or loss of an organelle marker is not by itself proof that stored pigment was safely degraded and removed.
+Start with the [chronic drug-modulation note](research/chronic-pharmacologic-modulation.md), which contains the mechanism map, primary evidence, a hypothetical seven-year sensitivity model, and the next research tasks.
 
-The evidence is uneven across tissues. The atlas labels clinical care, human research, preclinical models, procedures, and gaps separately; the project does not assume one clearance mechanism works throughout the body.
+- Latanoprost-associated iris darkening establishes that adult pigmentation can respond to a medicine. It does not establish precise shade control or reversibility.
+- A published single case describes brown-to-blue change after five years of levobunolol exposure. Its drug causality, mechanism, and reversibility remain unproven; it deserves follow-up rather than being treated as a cosmetic result. [Doyle and Liu, 1999](https://pubmed.ncbi.nlm.nih.gov/10660314/).
+- Human-cell studies, a small rabbit experiment, and an OCA2-silencing patent supply drug-research leads. Their models and limits are detailed in the focused note and [evidence register](research/pigment-evidence-register.md).
+- The reviewed evidence does not establish a controlled, safe, reversible human cosmetic lightening system. Brown → green → blue is a possible appearance trajectory to investigate, not a predicted sequence.
 
-## Next research gate
+## Next
 
-**Next concrete action: run a tissue-source and lab-feasibility check before purchasing equipment.** An academic or medical eye-research partner should send the same request to an [EyeFind-listed eye bank](https://www.arvo.org/researcher-resources/eyefind-research-tissue/eyefind-search) and one or more candidate academic cores or cloud labs. Ask whether they can supply/accept research-consented whole globes or iris-containing anterior segments, retain useful donor and postmortem metadata, support the intake window and proposed assay, and provide an itemized pilot and scale-up quote. A corneal rim alone is not an iris specimen. Start with existing facilities, automated accession/imaging/analytical steps, and human-verified dissection; do not buy a robot or build a lab for the feasibility phase.
+Build a focused evidence map of drug-associated iris-color trajectories and withdrawal outcomes. Investigate existing longitudinal clinical photographs or records before designing new tissue work. The primary cosmetic endpoint is repeatable change in living-eye appearance, with ocular function and tolerability assessed alongside it.
 
-If access and cost are viable, the first lab stage is an assay-only feasibility phase: test compartment separation, carryover, and matrix-specific assay sensitivity and recovery. Only if that gate passes should paired optical-imaging and chemical calibration be considered. Calibration would validate a measurement; it would not show safe pigment removal or a return to baseline.
+Use a pigment-balance model to ask which combinations of synthesis suppression and net pigment loss could matter over years. Label every unmeasured rate as hypothetical. Color measurements can establish appearance change without claiming to measure melanin mass; chemical assays answer a separate mechanistic question.
 
-Postmortem animal eyes already available as byproducts or through research repositories may support method development, but they cannot substitute for human iris validation. This project does not call for animals to be killed or manipulated for specimens. The [automated remote-lab operating model](research/automated-lab-operating-model.md) sets out the workflow, automation tiers, cost model, and sourcing questions.
+Donor-eye calibration and lab automation remain optional supporting studies. They are no longer the required first step. Any future tissue study should address a named uncertainty that existing data cannot resolve.
+
 ## Research map
 
-- [Tissue pigment atlas](research/tissue-pigment-atlas.md) — tissue-by-tissue evidence and diagrams for eyes, skin, gums, hair, and other pigment-bearing compartments.
-- [Pigment evidence register](research/pigment-evidence-register.md) — concise study records with models, endpoints, and limits.
-- [Automated remote-lab operating model](research/automated-lab-operating-model.md) — parcel intake, sensors, imaging, assay automation, staged robotics, and cost controls.
-- [Donor-eye measurement-validation proposal](research/iris-measurement-validation-proposal.md) — the assay-feasibility gate and proposed paired imaging / compartment-chemistry study.
-- [Bidirectional iris reversibility](research/bidirectional-reversibility.md) — the iris-specific evidence and what a true return-to-baseline cycle would need to show.
-- [Selective-clearance framework](research/selective-clearance-framework.md) — shared clearance concepts, material-fate accounting, and the evidence ladder; tissue summaries live in the atlas and register.
-- [Hair scope](research/hair-scope.md) — separate research question for cosmetic follicle pigmentation.
+- [Chronic drug modulation](research/chronic-pharmacologic-modulation.md) — lead track: long-term synthesis modulation, turnover, appearance, and recovery.
+- [Bidirectional iris reversibility](research/bidirectional-reversibility.md) — blue-to-brown-to-baseline goal and evidence requirements.
+- [Pigment evidence register](research/pigment-evidence-register.md) — study models, outcomes, and limits.
+- [Tissue pigment atlas](research/tissue-pigment-atlas.md) — broader background for eyes, skin, gums, hair, and other compartments.
+- [Selective-clearance framework](research/selective-clearance-framework.md) — pigment-fate concepts across tissues.
+- [Donor-eye measurement proposal](research/iris-measurement-validation-proposal.md) — optional optical/chemical calibration study.
+- [Automated lab concept](research/automated-lab-operating-model.md) — optional logistics and cost planning for tissue work.
+- [Hair scope](research/hair-scope.md) — separate question for follicle pigmentation.
 
 ## Scope
 
-This repository contains literature review and conceptual analysis. It does not contain treatment instructions, an experimental protocol, or a recommended intervention. Evidence from disease treatment, animal models, cell culture, patents, and cosmetic procedures is identified by type and should not be read as proof of a healthy-eye color-changing method.
+Literature review and conceptual analysis for cosmetic pharmacology. The repository does not provide a treatment regimen or establish clinical suitability. Evidence from existing medicines, cell culture, animal studies, and patents is labeled by type.
 
-*Evidence review: October 11, 2026. Personal learning project; AI-assisted synthesis.*
+*Focused iris review: October 17, 2026. Personal learning project; AI-assisted synthesis.*

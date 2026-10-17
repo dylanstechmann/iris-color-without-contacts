@@ -2,11 +2,13 @@
 
 *Research concept, not a treatment protocol. Literature review updated October 2026.*
 
+**Priority status, October 17, 2026:** optional calibration study. The lead track is [chronic drug modulation and living-eye color change](chronic-pharmacologic-modulation.md). Tissue sourcing and dissection are no longer the project's required first step.
+
 ## Decision question
 
-Can standardized noninvasive iris imaging estimate the amount and type of pigment in the **visible anterior stroma**, separately from pigment in the posterior iris pigment epithelium (IPE)? A validated measurement is a prerequisite for evaluating future change; it is not evidence that stored iris pigment can be safely removed or restored.
+Can standardized noninvasive iris imaging estimate the amount and type of pigment in the **visible anterior stroma**, separately from pigment in the posterior iris pigment epithelium (IPE)? Chemical calibration could help interpret an optical signal mechanistically. Standardized color measurement can assess appearance change without claiming measured melanin mass; this proposal does not establish that pigment can be safely reduced or restored.
 
-## Why this is the next step
+## Question this optional study addresses
 
 | Evidence stream | What it establishes | What it does not establish |
 | --- | --- | --- |
@@ -17,7 +19,7 @@ Can standardized noninvasive iris imaging estimate the amount and type of pigmen
 | **Melanin marker chemistry** | A five-marker HPLC method for eumelanin and pheomelanin degradation products was evaluated with reference melanins, hair, and human epidermis. | The method has not been validated in iris fractions, and marker specificity depends on degradation chemistry; alkaline peroxide can generate PTCA from pheomelanin. [Ito et al., 2020](https://pmc.ncbi.nlm.nih.gov/articles/PMC7404343/), [Ito and Wakamatsu, 1998](https://pubmed.ncbi.nlm.nih.gov/9585251/) |
 | **Donor-eye optical imaging** | Anterior-segment OCT can image structures in human donor eyes before tissue sectioning. | Pigment-specific optical calibration. Postmortem imaging also cannot by itself establish performance in living eyes. [Human donor-eye angle imaging](https://www.nature.com/articles/s41598-023-37248-0) |
 
-The first study should answer **measurement validity**, not treatment feasibility. It should also avoid assuming that iris color categories are chemical standards: whole-iris chemical studies have reported different color-group contrasts, and they do not isolate the visible stromal target. [Menon et al., 1992](https://pubmed.ncbi.nlm.nih.gov/1402293/), [Wielgus and Sarna, 2005](https://pubmed.ncbi.nlm.nih.gov/16280011/).
+Within this optional calibration track, the first study would answer **measurement validity**, rather than treatment feasibility. It should also avoid assuming that iris color categories are chemical standards: whole-iris chemical studies have reported different color-group contrasts, and they do not isolate the visible stromal target. [Menon et al., 1992](https://pubmed.ncbi.nlm.nih.gov/1402293/), [Wielgus and Sarna, 2005](https://pubmed.ncbi.nlm.nih.gov/16280011/).
 
 ## Proposed design
 

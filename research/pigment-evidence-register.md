@@ -221,6 +221,13 @@ A separate ocular-surface pigment compartment is the corneal limbus, where melan
 
 ### Anterior iris and uveal melanocytes
 
+**Focused update, October 17, 2026:** the lead iris question is now [chronic drug modulation](chronic-pharmacologic-modulation.md), including suppression plus endogenous net pigment loss. The new human lightening signal below is uncontrolled and does not establish a cosmetic treatment.
+
+| Added source | Evidence type / model | Endpoint and limit |
+| --- | --- | --- |
+| [Doyle and Liu, 1999](https://pubmed.ncbi.nlm.nih.gov/10660314/) | Single human case after five years of levobunolol exposure | Reported brown-to-blue change with stromal depigmentation. No satisfactory baseline photographs, control, or withdrawal/recovery evidence; causality and mechanism remain uncertain. |
+| [Lynnerup et al., 2008](https://pubmed.ncbi.nlm.nih.gov/18231610/) | Human lens-nucleus crystallin radiocarbon study | Persistent proteins contradict a universal whole-eye renewal clock. Not an iris melanocyte or pigment half-life measurement. |
+
 The uveal-cell literature supports modulation of new synthesis in preclinical systems. Human morphometry links drug-associated darkening with larger anterior-border melanin granules, without a demonstrated increase in granule counts. Serial iris-photo density measures also moved in both directions in one small treated cohort, but were not pigment assays. Human iris ultrastructure shows turnover-like morphology and clump cells that can engulf free granules, but this evidence does not quantify net pigment loss or follow its destination. Longitudinal natural-history studies show that some people have iris-color grade shifts after childhood, including lightening in a subset of adult women, but they did not quantify melanin or follow pigment fate. Aged human iris specimens show melanosome complexes, with clinical significance unresolved. The rabbit study is suggestive for suppression during an induced response, but its small groups, internal numeric discrepancy, and missing baseline/washout measurements prevent a claim of established-pigment clearance or reversible human color change.
 
 | Source | Evidence type / model | Endpoint and limit |
