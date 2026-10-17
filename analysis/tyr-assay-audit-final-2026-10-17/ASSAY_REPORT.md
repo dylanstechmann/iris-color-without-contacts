@@ -52,6 +52,6 @@ For the next computational comparison, prioritize measured free-drug exposure an
 - [record_flags.csv](record_flags.csv): partial review/conflict flags keyed to all activity IDs. Join to assays by assay ID and to documents by document ID; no activity records were removed.
 - [documents.json](documents.json), [target.json](target.json): returned source annotations.
 - [summary.json](summary.json), [qualification_summary.json](qualification_summary.json): counts and method limits.
-- Receipts retain exact source URLs, hashes and source-script hashes. Full activity/assay JSON snapshots stay in ignored local workbench data; selected field exports are committed here. Snapshots are serialized decoded API responses, not hashes of the original HTTP wire bytes.
+- Receipts retain exact source URLs, hashes and source-script hashes. Full activity/assay JSON snapshots stay in local workbench data; selected field exports are committed here. The new raw-data folders are currently untracked in that separate checkout. Snapshots are serialized decoded API responses, not hashes of the original HTTP wire bytes.
 
 Source endpoints: [target](https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL1973.json), [activity query](https://www.ebi.ac.uk/chembl/api/data/activity.json?target_chembl_id=CHEMBL1973&limit=1000), [assay query](https://www.ebi.ac.uk/chembl/api/data/assay.json?target_chembl_id=CHEMBL1973&limit=1000). ChEMBL standardization and source curation may change; preserve this snapshot when reproducing these counts.
