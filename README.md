@@ -4,6 +4,10 @@ A private, theoretical research project about cosmetic iris-color change without
 
 The earlier bidirectional goal remains: **blue → dark brown → the same person's original blue**. Lightening a naturally brown iris and reversing a drug-induced darkening are related questions with potentially different kinetics.
 
+## Latest completed exploration
+
+The [mechanism shortlist](research/mechanism-shortlist.md) now links a 720-case hypothetical balance sweep, seven actual compound-identity/descriptor jobs, and an AI-run target-location check of 57,422 existing human iris nuclei. Reversible human-TYR inhibition is the first production-control hypothesis; mature-pigment disposal and recovery are separate requirements. Shared target transcripts in anterior and posterior pigment cells make compartment selectivity an explicit question. These results do not establish a cosmetic intervention.
+
 ## Current research direction
 
 Start with **pigment production, pigment persistence, and optics**. Build explicit hypotheses, calculate their consequences, and use targeted searches to check the assumptions that matter most. Slow change and maintenance over years are within scope.
@@ -21,12 +25,14 @@ The models do not predict a seven-year biological renewal interval or a compulso
 
 ## Next
 
-Explore the hypothetical combinations first. Find which unknown would change each conclusion, then search for that specific information. Rank mechanisms separately by logical consistency and by support for their premises.
+Qualify human-TYR functional assay data by exact target, assay system, reversibility and preserved cell function. Use the model to define the pigment-loss rates a disposal mechanism would need to provide, and investigate selective exposure to anterior-iris melanocytes. Keep production, disposal and recovery as distinct questions. The [analysis methods](analysis/README.md) document completed runs and reproduction commands.
 
 The primary cosmetic objective is repeatable living-eye appearance change with preserved function and recovery. A noninvasive color measure can track appearance; chemistry addresses pigment mechanisms. Archived records, cell models, donor-eye calibration, and automation are supporting options chosen for a defined question.
 
 ## Research map
 
+- [Mechanism shortlist](research/mechanism-shortlist.md) — current prioritization, completed computation and next discriminating questions.
+- [Computational analysis](analysis/README.md) — reproducible models, human iris data checks and workbench runs.
 - [Chronic drug modulation](research/chronic-pharmacologic-modulation.md) — lead track: foundations, hypothetical combinations, sensitivity models, and targeted questions.
 - [Bidirectional iris reversibility](research/bidirectional-reversibility.md) — blue-to-brown-to-baseline goal and evidence requirements.
 - [Pigment evidence register](research/pigment-evidence-register.md) — study models, outcomes, and limits.

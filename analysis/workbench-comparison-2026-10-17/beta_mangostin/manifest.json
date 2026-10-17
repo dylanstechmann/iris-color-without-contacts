@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "action": "research-desk",
+  "created_utc": "2026-10-17T15:46:32.953659+00:00",
+  "parameters": {
+    "kind": "compound",
+    "blueprint_id": "appearance",
+    "name": "beta-mangostin",
+    "threshold": 90,
+    "campaign_id": "fac444a286fc4d6eb1a9fcd0fb6ce086"
+  },
+  "versions": {
+    "python": "3.11.16",
+    "desk_implementation_sha256": "d562a0b996f35801d5b61688636fcc793064be0edfc701a520be96a94afea0c5",
+    "rdkit": "2026.03.6"
+  },
+  "implementation_sha256": "cfb703d5bd5fce6bd1200f3745d81a20f2252bfd92d708174846313a52e24036",
+  "inputs": {
+    "submission.json": {
+      "sha256": "5e9f91399dad22199656a40176991a6e1b8e8b2a1ca87cbe5a4d274df4baf42c",
+      "bytes": 2551
+    }
+  },
+  "outputs": {
+    "completion.json": {
+      "sha256": "1cabb3c48795d9a405cf19183e2e1318cfefab1ab12d89ef09d7fbd1af2f7dde",
+      "bytes": 255
+    },
+    "parameters.json": {
+      "sha256": "acfdcaca1768e3273f07c21fd2b183254c484574c7833c41cbb9f5fbd6ca6820",
+      "bytes": 157
+    },
+    "pubchem-5495925.png": {
+      "sha256": "20038b526504f6399473586b557dbeb370558a011b3c96321c217cc6944fae7d",
+      "bytes": 19549
+    },
+    "pubchem-reference.json": {
+      "sha256": "97ad66c90a1e6c54a5d97de2a0f073eab09fd6d450fdf23d9fd947f726bc11f7",
+      "bytes": 489
+    },
+    "result.json": {
+      "sha256": "6a24a9d886a428f8a27f58559ad7b0302a73af247a94836a894e87f0e80e5c13",
+      "bytes": 1432
+    },
+    "submission.json": {
+      "sha256": "5e9f91399dad22199656a40176991a6e1b8e8b2a1ca87cbe5a4d274df4baf42c",
+      "bytes": 2551
+    }
+  }
+}

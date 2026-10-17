@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 71543007,
+        "MolecularWeight": "278.33",
+        "SMILES": "CC(C)C(=O)NC1=NC(=CS1)C2=C(C=C(C=C2)O)O",
+        "ConnectivitySMILES": "CC(C)C(=O)NC1=NC(=CS1)C2=C(C=C(C=C2)O)O",
+        "InChIKey": "WIDNAJNXDPHROL-UHFFFAOYSA-N",
+        "IUPACName": "N-[4-(2,4-dihydroxyphenyl)-1,3-thiazol-2-yl]-2-methylpropanamide",
+        "Title": "N-(4-(2,4-dihydroxyphenyl)-1,3-thiazol-2-yl)-2-methylpropanamide"
+      }
+    ]
+  }
+}

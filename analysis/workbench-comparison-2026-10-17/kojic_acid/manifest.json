@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "action": "research-desk",
+  "created_utc": "2026-10-17T15:46:31.918682+00:00",
+  "parameters": {
+    "kind": "compound",
+    "blueprint_id": "appearance",
+    "name": "kojic acid",
+    "threshold": 90,
+    "campaign_id": "fac444a286fc4d6eb1a9fcd0fb6ce086"
+  },
+  "versions": {
+    "python": "3.11.16",
+    "desk_implementation_sha256": "d562a0b996f35801d5b61688636fcc793064be0edfc701a520be96a94afea0c5",
+    "rdkit": "2026.03.6"
+  },
+  "implementation_sha256": "cfb703d5bd5fce6bd1200f3745d81a20f2252bfd92d708174846313a52e24036",
+  "inputs": {
+    "submission.json": {
+      "sha256": "b85cfa18dc1567406b55122482a302ad69b8612c7fba3104d102c0d296b0c7af",
+      "bytes": 2547
+    }
+  },
+  "outputs": {
+    "completion.json": {
+      "sha256": "68c3d421d357ad4761d4e727b92f46efdf170c566cf938d9472de2fc12c3009e",
+      "bytes": 255
+    },
+    "parameters.json": {
+      "sha256": "89d681d8e6d58a4fbd3e11f2c77a3ec8dec7ae8dfc9afb1536c222535d414f2e",
+      "bytes": 153
+    },
+    "pubchem-3840.png": {
+      "sha256": "969edd825e723dd5e4f2fc3f3752717886ecbcc6b169a50d5d302d4090dd1e10",
+      "bytes": 14067
+    },
+    "pubchem-reference.json": {
+      "sha256": "c42f5b295458e23454eecc3b70dd0cfdec4ad68d23861c0ea25488fbe564deae",
+      "bytes": 367
+    },
+    "result.json": {
+      "sha256": "afb0324bd3dfc89485cd9041806fae0f77ddc192df766f77537535e9b63c8cf5",
+      "bytes": 1258
+    },
+    "submission.json": {
+      "sha256": "b85cfa18dc1567406b55122482a302ad69b8612c7fba3104d102c0d296b0c7af",
+      "bytes": 2547
+    }
+  }
+}

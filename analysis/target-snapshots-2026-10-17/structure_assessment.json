@@ -1,0 +1,12 @@
+{
+  "pdb": "7RK7",
+  "pdb_url": "https://www.rcsb.org/structure/7RK7",
+  "pdb_file": "pdb-7rk7_1792252210030860938.cif",
+  "pdb_sha256": "4a9589da5c3a5eb993386fa6c818c9cf6da172e2698150a972bc20d3c9eb20c1",
+  "assessment": "Immune complex containing nine-residue TYR peptide; rejected as catalytic docking receptor",
+  "predicted_model": "AF-P14679-F1",
+  "model_file": "AF-P14679_1792252268196777141.cif",
+  "model_sha256": "45b56f7c5ab4e432783b8db4d2baef2ed06cd3fdc9fb143abbc17b1a4eb18c40",
+  "model_interpretation": "Predicted protein scaffold; active-site copper/cofactors not prepared or validated",
+  "docking_performed": false
+}

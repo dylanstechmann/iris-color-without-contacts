@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "action": "research-desk",
+  "created_utc": "2026-10-17T15:46:33.989258+00:00",
+  "parameters": {
+    "kind": "compound",
+    "blueprint_id": "appearance",
+    "name": "latanoprost",
+    "threshold": 90,
+    "campaign_id": "fac444a286fc4d6eb1a9fcd0fb6ce086"
+  },
+  "versions": {
+    "python": "3.11.16",
+    "desk_implementation_sha256": "d562a0b996f35801d5b61688636fcc793064be0edfc701a520be96a94afea0c5",
+    "rdkit": "2026.03.6"
+  },
+  "implementation_sha256": "cfb703d5bd5fce6bd1200f3745d81a20f2252bfd92d708174846313a52e24036",
+  "inputs": {
+    "submission.json": {
+      "sha256": "676c503c43037a50974af4e8adc1fb7b77669cb733fcb0569f9876742ecc5306",
+      "bytes": 2548
+    }
+  },
+  "outputs": {
+    "completion.json": {
+      "sha256": "3c22b82dca1400bc0b4bd57462aeeb086de4cca1276692a138d38063cbb20a26",
+      "bytes": 255
+    },
+    "parameters.json": {
+      "sha256": "ab941acb507abfbd5a3a9ac2c1677c115fffa9e9b718f08c40341f8b13da6753",
+      "bytes": 154
+    },
+    "pubchem-5311221.png": {
+      "sha256": "cc12095419c3fa64a6404e559cf4734a6828c00771c21ccba5efc9965c892421",
+      "bytes": 19826
+    },
+    "pubchem-reference.json": {
+      "sha256": "a362c52bd0d5f530f29717144cd39da9bc68d5eae60f22c9bd7cd215702dd264",
+      "bytes": 523
+    },
+    "result.json": {
+      "sha256": "7a15f0351423d52622b1d5e66f533570dac7a796da49d2d55bd6dbfdb798143d",
+      "bytes": 1484
+    },
+    "submission.json": {
+      "sha256": "676c503c43037a50974af4e8adc1fb7b77669cb733fcb0569f9876742ecc5306",
+      "bytes": 2548
+    }
+  }
+}

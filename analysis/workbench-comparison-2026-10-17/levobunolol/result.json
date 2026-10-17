@@ -1,0 +1,40 @@
+{
+  "molecules": [
+    {
+      "label": "Levobunolol",
+      "cid": 39468,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/39468",
+      "smiles": "CC(C)(C)NC[C@H](O)COc1cccc2c1CCCC2=O",
+      "record": {
+        "CID": 39468,
+        "MolecularWeight": "291.4",
+        "SMILES": "CC(C)(C)NC[C@@H](COC1=CC=CC2=C1CCCC2=O)O",
+        "ConnectivitySMILES": "CC(C)(C)NCC(COC1=CC=CC2=C1CCCC2=O)O",
+        "InChIKey": "IXHBTMCLRNMKHZ-LBPRGKRZSA-N",
+        "IUPACName": "5-[(2S)-3-(tert-butylamino)-2-hydroxypropoxy]-3,4-dihydro-2H-naphthalen-1-one",
+        "Title": "Levobunolol"
+      },
+      "status": "computed descriptors",
+      "mw": 291.391,
+      "logp": 2.333,
+      "tpsa": 58.56,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 5,
+      "pains": [],
+      "unspecified_stereo": 0,
+      "similarity": 1.0,
+      "image": "/api/artifact/b727719921064878a73c1eef80fd9a19/pubchem-39468.png"
+    }
+  ],
+  "snapshots": [
+    {
+      "file": "pubchem-reference.json",
+      "sha256": "3177f744734975b5bc848e2080058de65aa10dbcc183cec6ce650650b6f09a85",
+      "receipt": "1792251993357235553_desk-fetch.json"
+    }
+  ],
+  "rdkit_version": "2026.03.6",
+  "identity_note": "",
+  "interpretation": "PubChem identity and structural neighbors, not shared biological effects. PubChem similarity and local Morgan similarity use different fingerprints"
+}

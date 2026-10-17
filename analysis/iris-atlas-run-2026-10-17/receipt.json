@@ -1,0 +1,34 @@
+{
+  "activity": "fixed-panel human-iris raw-count detection",
+  "script_sha256": "8d571eb53ffd06cb47146ec23ebd2fefa8e07214ae04ee1f589ab7f0ba0631f7",
+  "input_sha256": "dc50696b177eb47b5bc5160df69a3ab74aba60dc6a402ad6ebca0e5057c5ec4c",
+  "outputs": {
+    "IRIS_TARGET_REPORT.md": {
+      "sha256": "5000ef00c67f7df645becf8eccefe9a2d2fd3f01c111e9655397b9bd80f21567",
+      "bytes": 1814
+    },
+    "source_metadata.json": {
+      "sha256": "5a17e9428fa0def557fbfa92b9234c300b0555c31baa635fd4c8cc23c82e13cf",
+      "bytes": 4693
+    },
+    "summary.json": {
+      "sha256": "7ae28ea39bf1f40240b4c5dac94cbb775e80c981c6ea035923a59e1699f10580",
+      "bytes": 3592
+    },
+    "target_codetection.csv": {
+      "sha256": "c0b12e1a8525529cb2e12670bd54f95705e38df4795debcb39d977dd0b19bcbe",
+      "bytes": 8960
+    },
+    "target_detection.csv": {
+      "sha256": "bc3ba2ec6005b32f4ca5dc3415f1d52d9b91c98d5c127232c44d498fd2389377",
+      "bytes": 72465
+    }
+  },
+  "checks": [
+    "selected count values",
+    "gene resolution",
+    "annotation totals",
+    "co-detection bounds"
+  ],
+  "biological_efficacy_established": false
+}

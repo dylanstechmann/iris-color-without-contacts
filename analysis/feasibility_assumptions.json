@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "status": "Hypothetical assumptions; not measured iris parameters",
+  "baseline_pigment_half_life_years": [1, 3, 7, 20, 100, null],
+  "synthesis_remaining_fraction": [0, 0.05, 0.1, 0.25, 0.5, 1],
+  "added_loss_half_life_years": [null, 7, 3, 1],
+  "persistent_fraction": [0, 0.1, 0.3, 0.5, 0.75],
+  "observation_years": [1, 3, 7],
+  "pigment_inventory_targets": [0.5, 0.25, 0.1],
+  "withdrawal_after_years": 7,
+  "recovery_synthesis_factors": [1, 5],
+  "recovery_inventory_target": 0.9,
+  "notes": [
+    "Null half-life means no corresponding loss pathway in the observation horizon.",
+    "Baseline synthesis balances baseline loss in the mobile pool.",
+    "During modulation, synthesis is f times its original rate and loss is k0 plus a.",
+    "The added loss rate does not silently increase baseline synthesis.",
+    "The persistent pool has no influx or efflux during this modeled horizon.",
+    "After withdrawal, added loss stops and synthesis resumes at the declared recovery factor times its original rate.",
+    "Fivefold recovery synthesis is a hypothetical control comparison, not a drug, dose, or demonstrated response.",
+    "Pigment inventory targets are bookkeeping benchmarks, not desired colors."
+  ]
+}

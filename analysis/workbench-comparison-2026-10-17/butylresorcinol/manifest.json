@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "action": "research-desk",
+  "created_utc": "2026-10-17T15:46:31.397415+00:00",
+  "parameters": {
+    "kind": "compound",
+    "blueprint_id": "appearance",
+    "name": "4-butylresorcinol",
+    "threshold": 90,
+    "campaign_id": "fac444a286fc4d6eb1a9fcd0fb6ce086"
+  },
+  "versions": {
+    "python": "3.11.16",
+    "desk_implementation_sha256": "d562a0b996f35801d5b61688636fcc793064be0edfc701a520be96a94afea0c5",
+    "rdkit": "2026.03.6"
+  },
+  "implementation_sha256": "cfb703d5bd5fce6bd1200f3745d81a20f2252bfd92d708174846313a52e24036",
+  "inputs": {
+    "submission.json": {
+      "sha256": "f8d483034d67e72e2394208a0f271fd8b7ed1412e0590795ee08839f6039aa4f",
+      "bytes": 2554
+    }
+  },
+  "outputs": {
+    "completion.json": {
+      "sha256": "708becf33a78ba7d389b22f30060093fa598725a10c3d1ff941c7d6e373b30bd",
+      "bytes": 255
+    },
+    "parameters.json": {
+      "sha256": "26b2a6c34bb98b60f0ec657d4c9f482e1d6a713d5dd7f5cbf2947f37f64cb690",
+      "bytes": 160
+    },
+    "pubchem-205912.png": {
+      "sha256": "61b49e63c83cfadb60e09ec365c2cfcaec1f15ce6757e36c6e00ba4a7d2655f4",
+      "bytes": 12890
+    },
+    "pubchem-reference.json": {
+      "sha256": "3ab6263bda02eae588fbf94d59a36d2ff49ea45fceca521b4854732961d75eb2",
+      "bytes": 365
+    },
+    "result.json": {
+      "sha256": "315f0aabc28dbe4f0291c3225facd826980535e2dc9d64f88fcbe4fc31ba02f0",
+      "bytes": 1268
+    },
+    "submission.json": {
+      "sha256": "f8d483034d67e72e2394208a0f271fd8b7ed1412e0590795ee08839f6039aa4f",
+      "bytes": 2554
+    }
+  }
+}

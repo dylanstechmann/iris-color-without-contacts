@@ -1,0 +1,173 @@
+{
+  "collection_id": "63d03351-06be-478e-a0db-f7a653b6b19b",
+  "collection_name": "Cell atlas of the human ocular anterior segment: Tissue-specific and shared cell types",
+  "links": [
+    {
+      "link_name": "GSE199013",
+      "link_type": "RAW_DATA",
+      "link_url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE199013"
+    },
+    {
+      "link_name": "",
+      "link_type": "OTHER",
+      "link_url": "https://singlecell.broadinstitute.org/single_cell/study/SCP1841/cell-atlas-of-the-human-ocular-anterior-segment-tissue-specific-and-shared-cell-types"
+    },
+    {
+      "link_name": "",
+      "link_type": "RAW_DATA",
+      "link_url": "https://explore.data.humancellatlas.org/projects/16e99159-78bc-44aa-b479-55a5e903bf50"
+    }
+  ],
+  "dataset": {
+    "assay": [
+      {
+        "label": "10x 3' v3",
+        "ontology_term_id": "EFO:0009922"
+      }
+    ],
+    "assets": [
+      {
+        "filesize": 704151872,
+        "filetype": "H5AD",
+        "url": "https://datasets.cellxgene.cziscience.com/172f5704-8ec1-4f79-bf2c-88fdd19338eb.h5ad"
+      }
+    ],
+    "cell_count": 57422,
+    "cell_type": [
+      {
+        "label": "Schwann cell",
+        "ontology_term_id": "CL:0002573"
+      },
+      {
+        "label": "blood vessel endothelial cell",
+        "ontology_term_id": "CL:0000071"
+      },
+      {
+        "label": "fibroblast",
+        "ontology_term_id": "CL:0000057"
+      },
+      {
+        "label": "lymphocyte",
+        "ontology_term_id": "CL:0000542"
+      },
+      {
+        "label": "macrophage",
+        "ontology_term_id": "CL:0000235"
+      },
+      {
+        "label": "melanocyte",
+        "ontology_term_id": "CL:0000148"
+      },
+      {
+        "label": "pigmented epithelial cell",
+        "ontology_term_id": "CL:0000529"
+      },
+      {
+        "label": "smooth muscle cell of sphincter of pupil",
+        "ontology_term_id": "CL:0002243"
+      }
+    ],
+    "citation": "Publication: https://doi.org/10.1073/pnas.2200914119 Dataset Version: https://datasets.cellxgene.cziscience.com/172f5704-8ec1-4f79-bf2c-88fdd19338eb.h5ad curated and distributed by CZ CELLxGENE Discover in Collection: https://cellxgene.cziscience.com/collections/63d03351-06be-478e-a0db-f7a653b6b19b",
+    "dataset_id": "9a281de7-cee5-4e80-8584-1929f46f152f",
+    "dataset_version_id": "172f5704-8ec1-4f79-bf2c-88fdd19338eb",
+    "development_stage": [
+      {
+        "label": "30-year-old stage",
+        "ontology_term_id": "HsapDv:0000124"
+      },
+      {
+        "label": "47-year-old stage",
+        "ontology_term_id": "HsapDv:0000141"
+      },
+      {
+        "label": "65-year-old stage",
+        "ontology_term_id": "HsapDv:0000159"
+      },
+      {
+        "label": "66-year-old stage",
+        "ontology_term_id": "HsapDv:0000160"
+      },
+      {
+        "label": "adult stage",
+        "ontology_term_id": "HsapDv:0000258"
+      }
+    ],
+    "disease": [
+      {
+        "label": "normal",
+        "ontology_term_id": "PATO:0000461"
+      }
+    ],
+    "donor_id": [
+      "sanes2022_Hu0218",
+      "sanes2022_Hu0220",
+      "pooled [sanes2022_Hu0216,sanes2022_Hu0218]",
+      "pooled [sanes2022_Hu0220,sanes2022_Hu0235]",
+      "sanes2022_Hu0216",
+      "sanes2022_Hu0235"
+    ],
+    "embeddings": [
+      "X_umap"
+    ],
+    "explorer_url": "https://cellxgene.cziscience.com/e/9a281de7-cee5-4e80-8584-1929f46f152f.cxg/",
+    "feature_biotype": [
+      "gene"
+    ],
+    "feature_count": 59413,
+    "feature_reference": [
+      "NCBITaxon:9606"
+    ],
+    "genetic_perturbation_strategy": null,
+    "is_pre_analysis": false,
+    "is_primary_data": [
+      true
+    ],
+    "mean_genes_per_cell": 2553.637926230365,
+    "organism": [
+      {
+        "label": "Homo sapiens",
+        "ontology_term_id": "NCBITaxon:9606"
+      }
+    ],
+    "perturbation_types": null,
+    "primary_cell_count": 57422,
+    "published_at": "2023-02-10T21:46:01+00:00",
+    "raw_data_location": "raw.X",
+    "revised_at": "2026-06-11T16:52:49+00:00",
+    "schema_version": "7.1.0",
+    "self_reported_ethnicity": [
+      {
+        "label": "unknown",
+        "ontology_term_id": "unknown"
+      }
+    ],
+    "sex": [
+      {
+        "label": "female",
+        "ontology_term_id": "PATO:0000383"
+      },
+      {
+        "label": "male",
+        "ontology_term_id": "PATO:0000384"
+      },
+      {
+        "label": "unknown",
+        "ontology_term_id": "unknown"
+      }
+    ],
+    "spatial": null,
+    "suspension_type": [
+      "nucleus"
+    ],
+    "tissue": [
+      {
+        "label": "iris",
+        "ontology_term_id": "UBERON:0001769",
+        "tissue_type": "tissue"
+      }
+    ],
+    "title": "Iris",
+    "tombstone": false,
+    "x_approximate_distribution": null
+  }
+}

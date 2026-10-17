@@ -1,0 +1,86 @@
+[
+  {
+    "id": "thiamidol",
+    "name": "Thiamidol",
+    "role": "human-TYR synthesis probe",
+    "run_id": "83adcd13c5314386aebe64b2256ae8f0",
+    "request": {
+      "kind": "compound",
+      "blueprint_id": "appearance",
+      "campaign_id": "fac444a286fc4d6eb1a9fcd0fb6ce086",
+      "name": "Thiamidol"
+    }
+  },
+  {
+    "id": "butylresorcinol",
+    "name": "4-butylresorcinol",
+    "role": "alternative synthesis probe",
+    "run_id": "5305360fa9e54426b7fcc89a0e93b130",
+    "request": {
+      "kind": "compound",
+      "blueprint_id": "appearance",
+      "campaign_id": "fac444a286fc4d6eb1a9fcd0fb6ce086",
+      "name": "4-butylresorcinol"
+    }
+  },
+  {
+    "id": "kojic_acid",
+    "name": "kojic acid",
+    "role": "enzyme-specificity comparator",
+    "run_id": "3125f07242c6426b902faa4dfbbd7a6e",
+    "request": {
+      "kind": "compound",
+      "blueprint_id": "appearance",
+      "campaign_id": "fac444a286fc4d6eb1a9fcd0fb6ce086",
+      "name": "kojic acid"
+    }
+  },
+  {
+    "id": "metyrosine",
+    "name": "metyrosine",
+    "role": "catecholamine-versus-melanogenesis comparator",
+    "run_id": "3af75e77a2ff497481d38f6db16e64b6",
+    "request": {
+      "kind": "compound",
+      "blueprint_id": "appearance",
+      "campaign_id": "fac444a286fc4d6eb1a9fcd0fb6ce086",
+      "name": "metyrosine"
+    }
+  },
+  {
+    "id": "beta_mangostin",
+    "name": "beta-mangostin",
+    "role": "melanophagy mechanism probe",
+    "run_id": "af8fc0e25fee4e88b79ba3bfb9efb3cf",
+    "request": {
+      "kind": "compound",
+      "blueprint_id": "appearance",
+      "campaign_id": "fac444a286fc4d6eb1a9fcd0fb6ce086",
+      "name": "beta-mangostin"
+    }
+  },
+  {
+    "id": "levobunolol",
+    "name": "levobunolol",
+    "role": "indirect signaling comparator",
+    "run_id": "b727719921064878a73c1eef80fd9a19",
+    "request": {
+      "kind": "compound",
+      "blueprint_id": "appearance",
+      "campaign_id": "fac444a286fc4d6eb1a9fcd0fb6ce086",
+      "name": "levobunolol"
+    }
+  },
+  {
+    "id": "latanoprost",
+    "name": "latanoprost",
+    "role": "opposite-direction pigmentation comparator",
+    "run_id": "d15e227740a34078b4fa850de7ba52d2",
+    "request": {
+      "kind": "compound",
+      "blueprint_id": "appearance",
+      "campaign_id": "fac444a286fc4d6eb1a9fcd0fb6ce086",
+      "name": "latanoprost"
+    }
+  }
+]

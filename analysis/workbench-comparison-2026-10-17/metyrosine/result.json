@@ -1,0 +1,40 @@
+{
+  "molecules": [
+    {
+      "label": "Metyrosine",
+      "cid": 441350,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/441350",
+      "smiles": "C[C@](N)(Cc1ccc(O)cc1)C(=O)O",
+      "record": {
+        "CID": 441350,
+        "MolecularWeight": "195.21",
+        "SMILES": "C[C@](CC1=CC=C(C=C1)O)(C(=O)O)N",
+        "ConnectivitySMILES": "CC(CC1=CC=C(C=C1)O)(C(=O)O)N",
+        "InChIKey": "NHTGHBARYWONDQ-JTQLQIEISA-N",
+        "IUPACName": "(2S)-2-amino-3-(4-hydroxyphenyl)-2-methylpropanoic acid",
+        "Title": "Metyrosine"
+      },
+      "status": "computed descriptors",
+      "mw": 195.218,
+      "logp": 0.737,
+      "tpsa": 83.55,
+      "hbd": 3,
+      "hba": 3,
+      "rotatable": 3,
+      "pains": [],
+      "unspecified_stereo": 0,
+      "similarity": 1.0,
+      "image": "/api/artifact/3af75e77a2ff497481d38f6db16e64b6/pubchem-441350.png"
+    }
+  ],
+  "snapshots": [
+    {
+      "file": "pubchem-reference.json",
+      "sha256": "c4501cbb2822b2fa928b2b00d257c5f663fc64d99c891e27b910b8341d0889e6",
+      "receipt": "1792251992332982527_desk-fetch.json"
+    }
+  ],
+  "rdkit_version": "2026.03.6",
+  "identity_note": "",
+  "interpretation": "PubChem identity and structural neighbors, not shared biological effects. PubChem similarity and local Morgan similarity use different fingerprints"
+}

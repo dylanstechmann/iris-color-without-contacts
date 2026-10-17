@@ -1,0 +1,40 @@
+{
+  "molecules": [
+    {
+      "label": "Latanoprost",
+      "cid": 5311221,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5311221",
+      "smiles": "CC(C)OC(=O)CCC/C=C\\C[C@@H]1[C@@H](CC[C@@H](O)CCc2ccccc2)[C@H](O)C[C@@H]1O",
+      "record": {
+        "CID": 5311221,
+        "MolecularWeight": "432.6",
+        "SMILES": "CC(C)OC(=O)CCC/C=C\\C[C@H]1[C@H](C[C@H]([C@@H]1CC[C@H](CCC2=CC=CC=C2)O)O)O",
+        "ConnectivitySMILES": "CC(C)OC(=O)CCCC=CCC1C(CC(C1CCC(CCC2=CC=CC=C2)O)O)O",
+        "InChIKey": "GGXICVAJURFBLW-CEYXHVGTSA-N",
+        "IUPACName": "propan-2-yl (Z)-7-[(1R,2R,3R,5S)-3,5-dihydroxy-2-[(3R)-3-hydroxy-5-phenylpentyl]cyclopentyl]hept-5-enoate",
+        "Title": "Latanoprost"
+      },
+      "status": "computed descriptors",
+      "mw": 432.601,
+      "logp": 4.186,
+      "tpsa": 86.99,
+      "hbd": 3,
+      "hba": 5,
+      "rotatable": 13,
+      "pains": [],
+      "unspecified_stereo": 0,
+      "similarity": 1.0,
+      "image": "/api/artifact/d15e227740a34078b4fa850de7ba52d2/pubchem-5311221.png"
+    }
+  ],
+  "snapshots": [
+    {
+      "file": "pubchem-reference.json",
+      "sha256": "a362c52bd0d5f530f29717144cd39da9bc68d5eae60f22c9bd7cd215702dd264",
+      "receipt": "1792251993884192478_desk-fetch.json"
+    }
+  ],
+  "rdkit_version": "2026.03.6",
+  "identity_note": "",
+  "interpretation": "PubChem identity and structural neighbors, not shared biological effects. PubChem similarity and local Morgan similarity use different fingerprints"
+}

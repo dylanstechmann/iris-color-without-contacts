@@ -1,0 +1,40 @@
+{
+  "molecules": [
+    {
+      "label": "N-(4-(2,4-dihydroxyphenyl)-1,3-thiazol-2-yl)-2-methylpropanamide",
+      "cid": 71543007,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/71543007",
+      "smiles": "CC(C)C(=O)Nc1nc(-c2ccc(O)cc2O)cs1",
+      "record": {
+        "CID": 71543007,
+        "MolecularWeight": "278.33",
+        "SMILES": "CC(C)C(=O)NC1=NC(=CS1)C2=C(C=C(C=C2)O)O",
+        "ConnectivitySMILES": "CC(C)C(=O)NC1=NC(=CS1)C2=C(C=C(C=C2)O)O",
+        "InChIKey": "WIDNAJNXDPHROL-UHFFFAOYSA-N",
+        "IUPACName": "N-[4-(2,4-dihydroxyphenyl)-1,3-thiazol-2-yl]-2-methylpropanamide",
+        "Title": "N-(4-(2,4-dihydroxyphenyl)-1,3-thiazol-2-yl)-2-methylpropanamide"
+      },
+      "status": "computed descriptors",
+      "mw": 278.333,
+      "logp": 2.816,
+      "tpsa": 82.45,
+      "hbd": 3,
+      "hba": 5,
+      "rotatable": 3,
+      "pains": [],
+      "unspecified_stereo": 0,
+      "similarity": 1.0,
+      "image": "/api/artifact/83adcd13c5314386aebe64b2256ae8f0/pubchem-71543007.png"
+    }
+  ],
+  "snapshots": [
+    {
+      "file": "pubchem-reference.json",
+      "sha256": "fabe2b1b2d049f6464c191fab079baaa285fb9f1b3f01bb19cb865edb7099c68",
+      "receipt": "1792251971215518803_desk-fetch.json"
+    }
+  ],
+  "rdkit_version": "2026.03.6",
+  "identity_note": "",
+  "interpretation": "PubChem identity and structural neighbors, not shared biological effects. PubChem similarity and local Morgan similarity use different fingerprints"
+}

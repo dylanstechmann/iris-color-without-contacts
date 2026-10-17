@@ -1,0 +1,40 @@
+{
+  "molecules": [
+    {
+      "label": "4-Butylresorcinol",
+      "cid": 205912,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/205912",
+      "smiles": "CCCCc1ccc(O)cc1O",
+      "record": {
+        "CID": 205912,
+        "MolecularWeight": "166.22",
+        "SMILES": "CCCCC1=C(C=C(C=C1)O)O",
+        "ConnectivitySMILES": "CCCCC1=C(C=C(C=C1)O)O",
+        "InChIKey": "CSHZYWUPJWVTMQ-UHFFFAOYSA-N",
+        "IUPACName": "4-butylbenzene-1,3-diol",
+        "Title": "4-Butylresorcinol"
+      },
+      "status": "computed descriptors",
+      "mw": 166.22,
+      "logp": 2.44,
+      "tpsa": 40.46,
+      "hbd": 2,
+      "hba": 2,
+      "rotatable": 3,
+      "pains": [],
+      "unspecified_stereo": 0,
+      "similarity": 1.0,
+      "image": "/api/artifact/5305360fa9e54426b7fcc89a0e93b130/pubchem-205912.png"
+    }
+  ],
+  "snapshots": [
+    {
+      "file": "pubchem-reference.json",
+      "sha256": "3ab6263bda02eae588fbf94d59a36d2ff49ea45fceca521b4854732961d75eb2",
+      "receipt": "1792251991306423728_desk-fetch.json"
+    }
+  ],
+  "rdkit_version": "2026.03.6",
+  "identity_note": "",
+  "interpretation": "PubChem identity and structural neighbors, not shared biological effects. PubChem similarity and local Morgan similarity use different fingerprints"
+}

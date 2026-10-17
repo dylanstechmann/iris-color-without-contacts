@@ -1,0 +1,137 @@
+{
+  "activity": "Regen Desk public compound resolution and RDKit descriptors",
+  "recorded_utc": "2026-10-17T15:46:34.690370+00:00",
+  "completed": 7,
+  "pending_run_ids": [],
+  "files": {
+    "beta_mangostin/manifest.json": {
+      "sha256": "9940d716348b498e4dd17e97e64c8a9111b1122daea670da9f75562eda98d108",
+      "bytes": 1556
+    },
+    "beta_mangostin/pubchem-reference.json": {
+      "sha256": "97ad66c90a1e6c54a5d97de2a0f073eab09fd6d450fdf23d9fd947f726bc11f7",
+      "bytes": 489
+    },
+    "beta_mangostin/request.json": {
+      "sha256": "6727fb96c98dddf147f5b6f32f0095443b3e81a0642666af48a015bb3063abab",
+      "bytes": 144
+    },
+    "beta_mangostin/result.json": {
+      "sha256": "0f250d441bf95a1ad65caad8e6a22603d9782da72ab2213d2d9733d0749366f1",
+      "bytes": 1472
+    },
+    "butylresorcinol/manifest.json": {
+      "sha256": "84c8071cda9dafa9ce5480f822ad34b8be2822a39eea079cbe8790b1ce6f940a",
+      "bytes": 1558
+    },
+    "butylresorcinol/pubchem-reference.json": {
+      "sha256": "3ab6263bda02eae588fbf94d59a36d2ff49ea45fceca521b4854732961d75eb2",
+      "bytes": 365
+    },
+    "butylresorcinol/request.json": {
+      "sha256": "96cd2917b8630d0eba4e8e81b7ce7c8872748fc1cc0b48df5a7dd1a3868dc45c",
+      "bytes": 147
+    },
+    "butylresorcinol/result.json": {
+      "sha256": "79b4ff6c46cd2e5f32fd5faf9bd9b16dac83ec25c335e2769c5ff6130fbcd3b0",
+      "bytes": 1308
+    },
+    "campaign.json": {
+      "sha256": "1536d28c0cfa7f3bc9e09743574ff0e7bc3ede0bfc174a34dc0c495fb24f2fce",
+      "bytes": 1438
+    },
+    "compounds.csv": {
+      "sha256": "ac8022119b5a928b78cf65bb8b783e0548d52cc94603dc3d1ce0df14b6ec695e",
+      "bytes": 1974
+    },
+    "jobs.json": {
+      "sha256": "3edaab5d037f6321a78051cfe08c89fa36eeb7052cfcdd61e9091f793e138006",
+      "bytes": 2405
+    },
+    "kojic_acid/manifest.json": {
+      "sha256": "8ad558b9071518a73837b3b9efcf7bac8baac3179623bf1673604c2a5ebf2a65",
+      "bytes": 1549
+    },
+    "kojic_acid/pubchem-reference.json": {
+      "sha256": "c42f5b295458e23454eecc3b70dd0cfdec4ad68d23861c0ea25488fbe564deae",
+      "bytes": 367
+    },
+    "kojic_acid/request.json": {
+      "sha256": "3e09604f00096fb9b4705477f5790398b0ea9335e50adead350fe5fafb15ea4e",
+      "bytes": 140
+    },
+    "kojic_acid/result.json": {
+      "sha256": "2222bbfc0b619a21fcf745b909a2d79cecb513e3f7254311e9be5b452b41bebb",
+      "bytes": 1298
+    },
+    "latanoprost/manifest.json": {
+      "sha256": "cf97ec524cdab10cfb2421080d8cbecd70b653949255fd0d146563e9a0cd77c9",
+      "bytes": 1553
+    },
+    "latanoprost/pubchem-reference.json": {
+      "sha256": "a362c52bd0d5f530f29717144cd39da9bc68d5eae60f22c9bd7cd215702dd264",
+      "bytes": 523
+    },
+    "latanoprost/request.json": {
+      "sha256": "0c014cbb5652e7a17de7601c50c424f4684d0d4fdc147b2993b9059808ea1d4d",
+      "bytes": 141
+    },
+    "latanoprost/result.json": {
+      "sha256": "5f78c502ef6b76ed655375df2ee357946190a7b16b8165f5f15925df1f55b279",
+      "bytes": 1524
+    },
+    "levobunolol/manifest.json": {
+      "sha256": "753dfdf0f2b90c83ba54cf225c7a3063ba44d745f1121cd747713e70ad77af0c",
+      "bytes": 1551
+    },
+    "levobunolol/pubchem-reference.json": {
+      "sha256": "3177f744734975b5bc848e2080058de65aa10dbcc183cec6ce650650b6f09a85",
+      "bytes": 444
+    },
+    "levobunolol/request.json": {
+      "sha256": "bd29bb9556682615e558b4532d7e18962e98092ac5f5d2857a2b67eb8fd0005c",
+      "bytes": 141
+    },
+    "levobunolol/result.json": {
+      "sha256": "27be5efa7bf9a423d14751c971636c2f0d694ce82b5fcf9fdb48d75c7b24c487",
+      "bytes": 1400
+    },
+    "metyrosine/manifest.json": {
+      "sha256": "f57f9a68c5cfede067541e7bf97909e03335a2c156fec612a54b9a1af7d1e350",
+      "bytes": 1551
+    },
+    "metyrosine/pubchem-reference.json": {
+      "sha256": "c4501cbb2822b2fa928b2b00d257c5f663fc64d99c891e27b910b8341d0889e6",
+      "bytes": 407
+    },
+    "metyrosine/request.json": {
+      "sha256": "05e692c2ec193f65eb9e79367858ff98c688c9981cec8c8533eba64f7c818c36",
+      "bytes": 140
+    },
+    "metyrosine/result.json": {
+      "sha256": "1a4a561bd4400d6c84ee01360a448d5d911b0dd5826ef27860e4d053b91eab07",
+      "bytes": 1357
+    },
+    "status.json": {
+      "sha256": "1fcc249738d5ba65b94b4fd272bfc0c61c2b4ca81133ed9e29b4a2d3f53799db",
+      "bytes": 2134
+    },
+    "thiamidol/manifest.json": {
+      "sha256": "bc91ee9ada04f6755ab1c1e57c4824e98b526c3b4ef36d866f81fbfae6531eb3",
+      "bytes": 1552
+    },
+    "thiamidol/pubchem-reference.json": {
+      "sha256": "fabe2b1b2d049f6464c191fab079baaa285fb9f1b3f01bb19cb865edb7099c68",
+      "bytes": 491
+    },
+    "thiamidol/request.json": {
+      "sha256": "d0f24fcd1b3386fc68b8c3111928b52be5e0d38941ad5d1b42e74b647d111f7b",
+      "bytes": 139
+    },
+    "thiamidol/result.json": {
+      "sha256": "2cfc8bb4ab16b28cfc06d84125ab7669d20385314ccc2954e341025eb5ed628c",
+      "bytes": 1506
+    }
+  },
+  "interpretation": "No ocular exposure, binding, efficacy, toxicity or clinical outcome prediction."
+}

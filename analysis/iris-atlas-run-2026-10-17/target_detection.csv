@@ -1,0 +1,745 @@
+author_cell_type,gene,n_nuclei,n_detected,detected_fraction,selected_raw_count_sum,aggregation,donor_id
+Iris_APE,TYR,9417,4678,0.4967611765955187,17830,cell_type,
+Iris_APE,OCA2,9417,5296,0.5623871721354996,16253,cell_type,
+Iris_APE,SLC45A2,9417,3033,0.3220770946161198,5089,cell_type,
+Iris_APE,TPCN2,9417,132,0.014017202930869704,139,cell_type,
+Iris_APE,OPTN,9417,2168,0.23022193904640545,3005,cell_type,
+Iris_APE,RCHY1,9417,1120,0.11893384304980355,1423,cell_type,
+Iris_APE,TBK1,9417,2505,0.26600828289264095,3869,cell_type,
+Iris_APE,MLANA,9417,2172,0.2306467027715833,3387,cell_type,
+Iris_APE,PMEL,9417,3428,0.36402251247743445,6807,cell_type,
+Iris_APE,MITF,9417,7185,0.7629818413507486,30965,cell_type,
+Iris_APE,PTK2,9417,8934,0.9487097801847723,47499,cell_type,
+Iris_APE,ITCH,9417,7069,0.7506636933205905,18609,cell_type,
+Iris_Fibro,TYR,11909,1334,0.11201612226047528,3778,cell_type,
+Iris_Fibro,OCA2,11909,1531,0.12855823326895624,3465,cell_type,
+Iris_Fibro,SLC45A2,11909,232,0.019481064740952223,291,cell_type,
+Iris_Fibro,TPCN2,11909,227,0.019061214207742042,236,cell_type,
+Iris_Fibro,OPTN,11909,2536,0.21294819044420185,3591,cell_type,
+Iris_Fibro,RCHY1,11909,849,0.07129062053908808,1033,cell_type,
+Iris_Fibro,TBK1,11909,4763,0.3999496179360148,8204,cell_type,
+Iris_Fibro,MLANA,11909,1647,0.13829876563943236,2459,cell_type,
+Iris_Fibro,PMEL,11909,2134,0.17919220757410362,3974,cell_type,
+Iris_Fibro,MITF,11909,2195,0.18431438407926778,5898,cell_type,
+Iris_Fibro,PTK2,11909,10251,0.8607775631875052,37693,cell_type,
+Iris_Fibro,ITCH,11909,7652,0.6425392560248552,17669,cell_type,
+Iris_PPE,TYR,15583,11905,0.7639735609317846,98743,cell_type,
+Iris_PPE,OCA2,15583,13613,0.8735801835333377,72183,cell_type,
+Iris_PPE,SLC45A2,15583,4836,0.31033818905217225,8801,cell_type,
+Iris_PPE,TPCN2,15583,145,0.0093050118719117,148,cell_type,
+Iris_PPE,OPTN,15583,3901,0.25033690560225885,5559,cell_type,
+Iris_PPE,RCHY1,15583,3051,0.19579028428415582,3977,cell_type,
+Iris_PPE,TBK1,15583,3627,0.2327536417891292,5318,cell_type,
+Iris_PPE,MLANA,15583,12483,0.8010652634280947,55591,cell_type,
+Iris_PPE,PMEL,15583,5890,0.37797599948662003,11677,cell_type,
+Iris_PPE,MITF,15583,11733,0.7529358916768273,40815,cell_type,
+Iris_PPE,PTK2,15583,14912,0.9569402554065327,87206,cell_type,
+Iris_PPE,ITCH,15583,10606,0.6806134890585895,24837,cell_type,
+Iris_Sphincter,TYR,1286,214,0.16640746500777606,909,cell_type,
+Iris_Sphincter,OCA2,1286,702,0.5458786936236392,2413,cell_type,
+Iris_Sphincter,SLC45A2,1286,50,0.038880248833592534,71,cell_type,
+Iris_Sphincter,TPCN2,1286,20,0.015552099533437015,21,cell_type,
+Iris_Sphincter,OPTN,1286,133,0.10342146189735614,179,cell_type,
+Iris_Sphincter,RCHY1,1286,143,0.11119751166407466,178,cell_type,
+Iris_Sphincter,TBK1,1286,216,0.16796267496111975,323,cell_type,
+Iris_Sphincter,MLANA,1286,260,0.20217729393468117,529,cell_type,
+Iris_Sphincter,PMEL,1286,310,0.2410575427682737,823,cell_type,
+Iris_Sphincter,MITF,1286,889,0.6912908242612753,3183,cell_type,
+Iris_Sphincter,PTK2,1286,1139,0.885692068429238,4848,cell_type,
+Iris_Sphincter,ITCH,1286,921,0.7161741835147745,2385,cell_type,
+Lymphocyte,TYR,140,14,0.1,58,cell_type,
+Lymphocyte,OCA2,140,8,0.05714285714285714,17,cell_type,
+Lymphocyte,SLC45A2,140,2,0.014285714285714285,2,cell_type,
+Lymphocyte,TPCN2,140,4,0.02857142857142857,4,cell_type,
+Lymphocyte,OPTN,140,34,0.24285714285714285,53,cell_type,
+Lymphocyte,RCHY1,140,10,0.07142857142857142,13,cell_type,
+Lymphocyte,TBK1,140,31,0.22142857142857142,42,cell_type,
+Lymphocyte,MLANA,140,25,0.17857142857142858,38,cell_type,
+Lymphocyte,PMEL,140,25,0.17857142857142858,57,cell_type,
+Lymphocyte,MITF,140,37,0.2642857142857143,75,cell_type,
+Lymphocyte,PTK2,140,32,0.22857142857142856,72,cell_type,
+Lymphocyte,ITCH,140,64,0.45714285714285713,123,cell_type,
+Macrophage,TYR,600,80,0.13333333333333333,444,cell_type,
+Macrophage,OCA2,600,58,0.09666666666666666,212,cell_type,
+Macrophage,SLC45A2,600,13,0.021666666666666667,21,cell_type,
+Macrophage,TPCN2,600,27,0.045,28,cell_type,
+Macrophage,OPTN,600,32,0.05333333333333334,39,cell_type,
+Macrophage,RCHY1,600,92,0.15333333333333332,122,cell_type,
+Macrophage,TBK1,600,260,0.43333333333333335,437,cell_type,
+Macrophage,MLANA,600,95,0.15833333333333333,222,cell_type,
+Macrophage,PMEL,600,116,0.19333333333333333,288,cell_type,
+Macrophage,MITF,600,291,0.485,1457,cell_type,
+Macrophage,PTK2,600,356,0.5933333333333334,1074,cell_type,
+Macrophage,ITCH,600,437,0.7283333333333334,1096,cell_type,
+Schwann,TYR,619,104,0.1680129240710824,333,cell_type,
+Schwann,OCA2,619,27,0.04361873990306947,119,cell_type,
+Schwann,SLC45A2,619,21,0.033925686591276254,30,cell_type,
+Schwann,TPCN2,619,20,0.03231017770597738,23,cell_type,
+Schwann,OPTN,619,116,0.18739903069466882,156,cell_type,
+Schwann,RCHY1,619,30,0.048465266558966075,37,cell_type,
+Schwann,TBK1,619,96,0.15508885298869143,142,cell_type,
+Schwann,MLANA,619,106,0.17124394184168013,171,cell_type,
+Schwann,PMEL,619,128,0.20678513731825526,356,cell_type,
+Schwann,MITF,619,91,0.1470113085621971,232,cell_type,
+Schwann,PTK2,619,531,0.8578352180936996,2011,cell_type,
+Schwann,ITCH,619,330,0.5331179321486268,700,cell_type,
+Uveal_Melanocyte,TYR,17811,16613,0.9327381954971646,210488,cell_type,
+Uveal_Melanocyte,OCA2,17811,9736,0.5466284880130257,75855,cell_type,
+Uveal_Melanocyte,SLC45A2,17811,3442,0.19325136151816294,5551,cell_type,
+Uveal_Melanocyte,TPCN2,17811,1555,0.08730559766436471,1770,cell_type,
+Uveal_Melanocyte,OPTN,17811,6397,0.3591600696198978,9583,cell_type,
+Uveal_Melanocyte,RCHY1,17811,1057,0.05934534838021448,1240,cell_type,
+Uveal_Melanocyte,TBK1,17811,4990,0.2801639436303408,7526,cell_type,
+Uveal_Melanocyte,MLANA,17811,13950,0.7832238504295098,61330,cell_type,
+Uveal_Melanocyte,PMEL,17811,15020,0.8432990848352142,175174,cell_type,
+Uveal_Melanocyte,MITF,17811,15526,0.8717084947504351,176072,cell_type,
+Uveal_Melanocyte,PTK2,17811,13501,0.7580147100106676,37574,cell_type,
+Uveal_Melanocyte,ITCH,17811,9690,0.5440458143843692,18861,cell_type,
+Vasc_Endo,TYR,57,13,0.22807017543859648,21,cell_type,
+Vasc_Endo,OCA2,57,4,0.07017543859649122,5,cell_type,
+Vasc_Endo,SLC45A2,57,1,0.017543859649122806,2,cell_type,
+Vasc_Endo,TPCN2,57,0,0.0,0,cell_type,
+Vasc_Endo,OPTN,57,11,0.19298245614035087,14,cell_type,
+Vasc_Endo,RCHY1,57,4,0.07017543859649122,6,cell_type,
+Vasc_Endo,TBK1,57,24,0.42105263157894735,39,cell_type,
+Vasc_Endo,MLANA,57,11,0.19298245614035087,13,cell_type,
+Vasc_Endo,PMEL,57,20,0.3508771929824561,60,cell_type,
+Vasc_Endo,MITF,57,16,0.2807017543859649,43,cell_type,
+Vasc_Endo,PTK2,57,54,0.9473684210526315,287,cell_type,
+Vasc_Endo,ITCH,57,34,0.5964912280701754,81,cell_type,
+Iris_APE,TYR,1366,878,0.6427525622254758,3170,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_APE,OCA2,1366,908,0.664714494875549,2912,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_APE,SLC45A2,1366,571,0.41800878477306,1014,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_APE,TPCN2,1366,30,0.021961932650073207,32,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_APE,OPTN,1366,307,0.2247437774524158,407,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_APE,RCHY1,1366,217,0.15885797950219618,303,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_APE,TBK1,1366,307,0.2247437774524158,454,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_APE,MLANA,1366,278,0.20351390922401172,446,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_APE,PMEL,1366,460,0.3367496339677892,881,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_APE,MITF,1366,1212,0.8872620790629575,6749,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_APE,PTK2,1366,1303,0.9538799414348462,6844,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_APE,ITCH,1366,953,0.6976573938506588,2284,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_APE,TYR,1069,677,0.6333021515434986,3511,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_APE,OCA2,1069,408,0.3816651075771749,1101,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_APE,SLC45A2,1069,383,0.35827876520112256,707,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_APE,TPCN2,1069,16,0.014967259120673527,19,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_APE,OPTN,1069,238,0.2226379794200187,328,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_APE,RCHY1,1069,127,0.11880261927034612,149,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_APE,TBK1,1069,319,0.2984097287184284,501,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_APE,MLANA,1069,298,0.27876520112254444,600,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_APE,PMEL,1069,405,0.37885874649204865,981,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_APE,MITF,1069,782,0.7315247895229187,2955,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_APE,PTK2,1069,1024,0.9579045837231057,5338,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_APE,ITCH,1069,782,0.7315247895229187,1957,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_APE,TYR,1465,855,0.5836177474402731,2699,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_APE,OCA2,1465,768,0.5242320819112628,1793,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_APE,SLC45A2,1465,501,0.34197952218430033,766,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_APE,TPCN2,1465,22,0.015017064846416382,23,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_APE,OPTN,1465,329,0.22457337883959044,436,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_APE,RCHY1,1465,215,0.14675767918088736,260,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_APE,TBK1,1465,334,0.2279863481228669,507,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_APE,MLANA,1465,318,0.21706484641638224,451,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_APE,PMEL,1465,616,0.4204778156996587,1413,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_APE,MITF,1465,1196,0.816382252559727,5140,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_APE,PTK2,1465,1358,0.926962457337884,5642,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_APE,ITCH,1465,935,0.6382252559726962,2006,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_APE,TYR,710,404,0.5690140845070423,1088,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_APE,OCA2,710,505,0.7112676056338029,1738,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_APE,SLC45A2,710,232,0.3267605633802817,339,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_APE,TPCN2,710,8,0.011267605633802818,8,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_APE,OPTN,710,178,0.2507042253521127,239,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_APE,RCHY1,710,90,0.1267605633802817,124,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_APE,TBK1,710,220,0.30985915492957744,358,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_APE,MLANA,710,216,0.30422535211267604,302,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_APE,PMEL,710,252,0.35492957746478876,374,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_APE,MITF,710,671,0.9450704225352112,4745,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_APE,PTK2,710,671,0.9450704225352112,2960,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_APE,ITCH,710,573,0.8070422535211268,1596,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_APE,TYR,1332,1112,0.8348348348348348,5911,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_APE,OCA2,1332,693,0.5202702702702703,1931,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_APE,SLC45A2,1332,628,0.47147147147147145,1225,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_APE,TPCN2,1332,10,0.0075075075075075074,10,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_APE,OPTN,1332,368,0.27627627627627627,526,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_APE,RCHY1,1332,136,0.1021021021021021,167,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_APE,TBK1,1332,396,0.2972972972972973,607,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_APE,MLANA,1332,496,0.37237237237237236,874,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_APE,PMEL,1332,652,0.4894894894894895,1435,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_APE,MITF,1332,1090,0.8183183183183184,4068,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_APE,PTK2,1332,1280,0.960960960960961,6854,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_APE,ITCH,1332,1013,0.7605105105105106,2616,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_APE,TYR,3475,752,0.21640287769784172,1451,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_APE,OCA2,3475,2014,0.579568345323741,6778,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_APE,SLC45A2,3475,718,0.2066187050359712,1038,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_APE,TPCN2,3475,46,0.013237410071942447,47,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_APE,OPTN,3475,748,0.2152517985611511,1069,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_APE,RCHY1,3475,335,0.09640287769784173,420,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_APE,TBK1,3475,929,0.2673381294964029,1442,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_APE,MLANA,3475,566,0.16287769784172662,714,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_APE,PMEL,3475,1043,0.3001438848920863,1723,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_APE,MITF,3475,2234,0.6428776978417267,7308,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_APE,PTK2,3475,3298,0.9490647482014388,19861,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_APE,ITCH,3475,2813,0.8094964028776979,8150,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Fibro,TYR,2267,317,0.13983237759153067,579,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Fibro,OCA2,2267,260,0.11468901632112924,474,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Fibro,SLC45A2,2267,33,0.014556682840758712,37,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Fibro,TPCN2,2267,33,0.014556682840758712,35,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Fibro,OPTN,2267,384,0.1693868548742832,518,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Fibro,RCHY1,2267,158,0.06969563299514778,200,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Fibro,TBK1,2267,793,0.3498014997794442,1343,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Fibro,MLANA,2267,225,0.0992501102779003,256,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Fibro,PMEL,2267,232,0.1023378914865461,346,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Fibro,MITF,2267,409,0.18041464490516101,798,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Fibro,PTK2,2267,2044,0.9016321129245699,8344,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Fibro,ITCH,2267,1412,0.6228495809439788,3075,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Fibro,TYR,2859,272,0.09513816019587268,822,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Fibro,OCA2,2859,254,0.08884225253585169,555,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Fibro,SLC45A2,2859,49,0.01713885974116824,66,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Fibro,TPCN2,2859,69,0.024134312696747113,72,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Fibro,OPTN,2859,812,0.2840153899965023,1221,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Fibro,RCHY1,2859,210,0.07345225603357818,272,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Fibro,TBK1,2859,1273,0.4452605806225953,2266,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Fibro,MLANA,2859,373,0.130465197621546,612,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Fibro,PMEL,2859,527,0.18433018537950333,907,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Fibro,MITF,2859,471,0.16474291710388247,1436,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Fibro,PTK2,2859,2505,0.8761804826862539,9829,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Fibro,ITCH,2859,1779,0.6222455403987408,4077,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Fibro,TYR,1610,156,0.0968944099378882,515,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Fibro,OCA2,1610,200,0.12422360248447205,379,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Fibro,SLC45A2,1610,24,0.014906832298136646,30,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Fibro,TPCN2,1610,26,0.016149068322981366,28,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Fibro,OPTN,1610,284,0.1763975155279503,386,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Fibro,RCHY1,1610,132,0.08198757763975155,153,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Fibro,TBK1,1610,503,0.3124223602484472,739,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Fibro,MLANA,1610,254,0.1577639751552795,400,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Fibro,PMEL,1610,235,0.14596273291925466,462,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Fibro,MITF,1610,275,0.17080745341614906,677,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Fibro,PTK2,1610,1270,0.7888198757763976,3732,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Fibro,ITCH,1610,819,0.508695652173913,1550,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Fibro,TYR,462,41,0.08874458874458875,138,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Fibro,OCA2,462,105,0.22727272727272727,249,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Fibro,SLC45A2,462,15,0.032467532467532464,19,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Fibro,TPCN2,462,7,0.015151515151515152,7,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Fibro,OPTN,462,105,0.22727272727272727,152,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Fibro,RCHY1,462,30,0.06493506493506493,37,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Fibro,TBK1,462,162,0.35064935064935066,258,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Fibro,MLANA,462,97,0.20995670995670995,143,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Fibro,PMEL,462,104,0.22510822510822512,133,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Fibro,MITF,462,81,0.17532467532467533,209,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Fibro,PTK2,462,418,0.9047619047619048,1675,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Fibro,ITCH,462,335,0.7251082251082251,848,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Fibro,TYR,1533,368,0.2400521852576647,959,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Fibro,OCA2,1533,255,0.16634050880626222,584,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Fibro,SLC45A2,1533,64,0.04174820613176777,85,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Fibro,TPCN2,1533,16,0.010437051532941943,16,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Fibro,OPTN,1533,369,0.24070450097847357,524,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Fibro,RCHY1,1533,100,0.06523157208088715,114,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Fibro,TBK1,1533,585,0.3816046966731898,964,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Fibro,MLANA,1533,353,0.23026744944553162,564,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Fibro,PMEL,1533,490,0.319634703196347,966,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Fibro,MITF,1533,259,0.1689497716894977,516,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Fibro,PTK2,1533,1307,0.852576647097195,4830,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Fibro,ITCH,1533,938,0.6118721461187214,1958,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Fibro,TYR,3178,180,0.056639395846444306,765,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Fibro,OCA2,3178,457,0.14380113278791692,1224,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Fibro,SLC45A2,3178,47,0.014789175582127124,54,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Fibro,TPCN2,3178,76,0.02391441157960982,78,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Fibro,OPTN,3178,582,0.1831340465701699,790,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Fibro,RCHY1,3178,219,0.06891126494650723,257,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Fibro,TBK1,3178,1447,0.45531780994336063,2634,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Fibro,MLANA,3178,345,0.10855884203901825,484,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Fibro,PMEL,3178,546,0.17180616740088106,1160,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Fibro,MITF,3178,700,0.22026431718061673,2262,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Fibro,PTK2,3178,2707,0.8517935808684708,9283,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Fibro,ITCH,3178,2369,0.7454373820012586,6161,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_PPE,TYR,3278,3061,0.9338010982306284,30504,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_PPE,OCA2,3278,3010,0.9182428309945089,17948,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_PPE,SLC45A2,3278,1422,0.43380109823062846,2732,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_PPE,TPCN2,3278,30,0.009151921903599756,30,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_PPE,OPTN,3278,676,0.20622330689444784,891,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_PPE,RCHY1,3278,715,0.2181208053691275,993,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_PPE,TBK1,3278,595,0.1815131177547285,838,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_PPE,MLANA,3278,2949,0.899633923123856,14753,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_PPE,PMEL,3278,1058,0.3227577791336181,1782,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_PPE,MITF,3278,2775,0.8465527760829774,11450,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_PPE,PTK2,3278,3109,0.9484441732763881,16235,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_PPE,ITCH,3278,2059,0.6281269066503966,4488,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_PPE,TYR,4438,3680,0.829202343397927,32796,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_PPE,OCA2,4438,3639,0.8199639477242001,16395,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_PPE,SLC45A2,4438,1699,0.3828301036502929,3286,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_PPE,TPCN2,4438,41,0.009238395673726904,41,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_PPE,OPTN,4438,1003,0.226002703920685,1381,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_PPE,RCHY1,4438,864,0.19468228931951329,1139,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_PPE,TBK1,4438,1027,0.23141054529067148,1492,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_PPE,MLANA,4438,3578,0.8062190175754844,16879,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_PPE,PMEL,4438,2227,0.5018026137899955,4993,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_PPE,MITF,4438,3090,0.6962595763857593,8608,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_PPE,PTK2,4438,4260,0.9598918431726002,24231,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_PPE,ITCH,4438,3027,0.6820639927895449,6873,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_PPE,TYR,1632,1448,0.8872549019607843,9870,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_PPE,OCA2,1632,1354,0.8296568627450981,5478,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_PPE,SLC45A2,1632,441,0.2702205882352941,674,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_PPE,TPCN2,1632,18,0.011029411764705883,19,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_PPE,OPTN,1632,339,0.20772058823529413,484,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_PPE,RCHY1,1632,345,0.2113970588235294,441,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_PPE,TBK1,1632,298,0.18259803921568626,421,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_PPE,MLANA,1632,1476,0.9044117647058824,7987,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_PPE,PMEL,1632,615,0.37683823529411764,1250,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_PPE,MITF,1632,1242,0.7610294117647058,4024,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_PPE,PTK2,1632,1488,0.9117647058823529,6347,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_PPE,ITCH,1632,919,0.5631127450980392,1878,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_PPE,TYR,834,706,0.8465227817745803,4672,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_PPE,OCA2,834,785,0.9412470023980816,4422,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_PPE,SLC45A2,834,195,0.23381294964028776,287,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_PPE,TPCN2,834,4,0.004796163069544364,4,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_PPE,OPTN,834,179,0.2146282973621103,242,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_PPE,RCHY1,834,158,0.18944844124700239,197,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_PPE,TBK1,834,216,0.2589928057553957,328,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_PPE,MLANA,834,758,0.9088729016786571,3150,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_PPE,PMEL,834,249,0.29856115107913667,408,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_PPE,MITF,834,751,0.9004796163069544,3564,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_PPE,PTK2,834,797,0.9556354916067147,4099,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_PPE,ITCH,834,657,0.7877697841726619,1736,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_PPE,TYR,1919,1871,0.9749869723814487,18516,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_PPE,OCA2,1919,1618,0.8431474726420011,7651,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_PPE,SLC45A2,1919,734,0.3824908806670141,1355,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_PPE,TPCN2,1919,9,0.004689942678478374,9,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_PPE,OPTN,1919,482,0.2511724856696196,691,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_PPE,RCHY1,1919,381,0.19854090672225116,484,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_PPE,TBK1,1919,411,0.21417404898384576,600,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_PPE,MLANA,1919,1726,0.8994267847837415,8651,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_PPE,PMEL,1919,849,0.4424179260031266,1758,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_PPE,MITF,1919,1479,0.7707139134966128,4484,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_PPE,PTK2,1919,1841,0.9593538301198541,9298,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_PPE,ITCH,1919,1271,0.662324127149557,2881,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_PPE,TYR,3482,1139,0.3271108558299828,2385,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_PPE,OCA2,3482,3207,0.9210224009190121,20289,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_PPE,SLC45A2,3482,345,0.09908098793796669,467,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_PPE,TPCN2,3482,43,0.01234922458357266,45,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_PPE,OPTN,3482,1222,0.3509477311889719,1870,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_PPE,RCHY1,3482,588,0.1688684663986215,723,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_PPE,TBK1,3482,1080,0.31016657093624356,1639,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_PPE,MLANA,3482,1996,0.5732337736932798,4171,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_PPE,PMEL,3482,892,0.25617461229178634,1486,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_PPE,MITF,3482,2396,0.688110281447444,8685,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_PPE,PTK2,3482,3417,0.9813325674899483,26996,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_PPE,ITCH,3482,2673,0.7676622630672028,6981,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Sphincter,TYR,451,77,0.17073170731707318,252,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Sphincter,OCA2,451,343,0.7605321507760532,1307,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Sphincter,SLC45A2,451,13,0.028824833702882482,14,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Sphincter,TPCN2,451,9,0.019955654101995565,9,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Sphincter,OPTN,451,42,0.09312638580931264,53,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Sphincter,RCHY1,451,60,0.13303769401330376,73,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Sphincter,TBK1,451,58,0.1286031042128603,79,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Sphincter,MLANA,451,71,0.1574279379157428,128,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Sphincter,PMEL,451,79,0.17516629711751663,156,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Sphincter,MITF,451,306,0.6784922394678492,1089,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Sphincter,PTK2,451,379,0.8403547671840355,1660,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Sphincter,ITCH,451,305,0.6762749445676275,725,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Iris_Sphincter,TYR,436,59,0.1353211009174312,296,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Sphincter,OCA2,436,124,0.28440366972477066,438,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Sphincter,SLC45A2,436,15,0.034403669724770644,25,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Sphincter,TPCN2,436,5,0.011467889908256881,5,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Sphincter,OPTN,436,39,0.08944954128440367,56,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Sphincter,RCHY1,436,37,0.08486238532110092,47,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Sphincter,TBK1,436,78,0.17889908256880735,115,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Sphincter,MLANA,436,84,0.1926605504587156,189,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Sphincter,PMEL,436,110,0.25229357798165136,340,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Sphincter,MITF,436,318,0.7293577981651376,1154,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Sphincter,PTK2,436,404,0.926605504587156,1735,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Sphincter,ITCH,436,322,0.7385321100917431,851,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Iris_Sphincter,TYR,194,32,0.16494845360824742,161,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Sphincter,OCA2,194,136,0.7010309278350515,368,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Sphincter,SLC45A2,194,9,0.04639175257731959,11,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Sphincter,TPCN2,194,2,0.010309278350515464,3,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Sphincter,OPTN,194,20,0.10309278350515463,25,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Sphincter,RCHY1,194,20,0.10309278350515463,23,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Sphincter,TBK1,194,28,0.14432989690721648,42,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Sphincter,MLANA,194,47,0.2422680412371134,80,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Sphincter,PMEL,194,49,0.25257731958762886,120,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Sphincter,MITF,194,119,0.6134020618556701,396,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Sphincter,PTK2,194,166,0.8556701030927835,617,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Sphincter,ITCH,194,132,0.6804123711340206,309,cell_type_by_source_donor_label,sanes2022_Hu0216
+Iris_Sphincter,TYR,11,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Sphincter,OCA2,11,3,0.2727272727272727,10,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Sphincter,SLC45A2,11,1,0.09090909090909091,2,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Sphincter,TPCN2,11,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Sphincter,OPTN,11,3,0.2727272727272727,3,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Sphincter,RCHY1,11,1,0.09090909090909091,1,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Sphincter,TBK1,11,2,0.18181818181818182,3,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Sphincter,MLANA,11,3,0.2727272727272727,6,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Sphincter,PMEL,11,4,0.36363636363636365,4,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Sphincter,MITF,11,7,0.6363636363636364,9,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Sphincter,PTK2,11,9,0.8181818181818182,32,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Sphincter,ITCH,11,8,0.7272727272727273,22,cell_type_by_source_donor_label,sanes2022_Hu0218
+Iris_Sphincter,TYR,118,38,0.3220338983050847,170,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Sphincter,OCA2,118,41,0.3474576271186441,119,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Sphincter,SLC45A2,118,8,0.06779661016949153,14,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Sphincter,TPCN2,118,4,0.03389830508474576,4,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Sphincter,OPTN,118,20,0.1694915254237288,31,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Sphincter,RCHY1,118,18,0.15254237288135594,20,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Sphincter,TBK1,118,35,0.2966101694915254,64,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Sphincter,MLANA,118,39,0.3305084745762712,103,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Sphincter,PMEL,118,50,0.423728813559322,158,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Sphincter,MITF,118,96,0.8135593220338984,386,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Sphincter,PTK2,118,113,0.9576271186440678,555,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Sphincter,ITCH,118,95,0.8050847457627118,308,cell_type_by_source_donor_label,sanes2022_Hu0220
+Iris_Sphincter,TYR,76,8,0.10526315789473684,30,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Sphincter,OCA2,76,55,0.7236842105263158,171,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Sphincter,SLC45A2,76,4,0.05263157894736842,5,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Sphincter,TPCN2,76,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Sphincter,OPTN,76,9,0.11842105263157894,11,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Sphincter,RCHY1,76,7,0.09210526315789473,14,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Sphincter,TBK1,76,15,0.19736842105263158,20,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Sphincter,MLANA,76,16,0.21052631578947367,23,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Sphincter,PMEL,76,18,0.23684210526315788,45,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Sphincter,MITF,76,43,0.5657894736842105,149,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Sphincter,PTK2,76,68,0.8947368421052632,249,cell_type_by_source_donor_label,sanes2022_Hu0235
+Iris_Sphincter,ITCH,76,59,0.7763157894736842,170,cell_type_by_source_donor_label,sanes2022_Hu0235
+Lymphocyte,TYR,21,5,0.23809523809523808,32,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Lymphocyte,OCA2,21,0,0.0,0,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Lymphocyte,SLC45A2,21,0,0.0,0,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Lymphocyte,TPCN2,21,1,0.047619047619047616,1,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Lymphocyte,OPTN,21,2,0.09523809523809523,2,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Lymphocyte,RCHY1,21,1,0.047619047619047616,2,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Lymphocyte,TBK1,21,2,0.09523809523809523,3,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Lymphocyte,MLANA,21,6,0.2857142857142857,8,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Lymphocyte,PMEL,21,6,0.2857142857142857,23,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Lymphocyte,MITF,21,8,0.38095238095238093,14,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Lymphocyte,PTK2,21,8,0.38095238095238093,18,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Lymphocyte,ITCH,21,11,0.5238095238095238,21,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Lymphocyte,TYR,28,0,0.0,0,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Lymphocyte,OCA2,28,1,0.03571428571428571,1,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Lymphocyte,SLC45A2,28,0,0.0,0,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Lymphocyte,TPCN2,28,0,0.0,0,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Lymphocyte,OPTN,28,10,0.35714285714285715,16,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Lymphocyte,RCHY1,28,2,0.07142857142857142,3,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Lymphocyte,TBK1,28,7,0.25,10,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Lymphocyte,MLANA,28,0,0.0,0,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Lymphocyte,PMEL,28,3,0.10714285714285714,3,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Lymphocyte,MITF,28,6,0.21428571428571427,9,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Lymphocyte,PTK2,28,7,0.25,18,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Lymphocyte,ITCH,28,12,0.42857142857142855,29,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Lymphocyte,TYR,9,5,0.5555555555555556,21,cell_type_by_source_donor_label,sanes2022_Hu0216
+Lymphocyte,OCA2,9,3,0.3333333333333333,3,cell_type_by_source_donor_label,sanes2022_Hu0216
+Lymphocyte,SLC45A2,9,1,0.1111111111111111,1,cell_type_by_source_donor_label,sanes2022_Hu0216
+Lymphocyte,TPCN2,9,2,0.2222222222222222,2,cell_type_by_source_donor_label,sanes2022_Hu0216
+Lymphocyte,OPTN,9,1,0.1111111111111111,1,cell_type_by_source_donor_label,sanes2022_Hu0216
+Lymphocyte,RCHY1,9,1,0.1111111111111111,1,cell_type_by_source_donor_label,sanes2022_Hu0216
+Lymphocyte,TBK1,9,2,0.2222222222222222,2,cell_type_by_source_donor_label,sanes2022_Hu0216
+Lymphocyte,MLANA,9,5,0.5555555555555556,13,cell_type_by_source_donor_label,sanes2022_Hu0216
+Lymphocyte,PMEL,9,4,0.4444444444444444,16,cell_type_by_source_donor_label,sanes2022_Hu0216
+Lymphocyte,MITF,9,6,0.6666666666666666,12,cell_type_by_source_donor_label,sanes2022_Hu0216
+Lymphocyte,PTK2,9,6,0.6666666666666666,15,cell_type_by_source_donor_label,sanes2022_Hu0216
+Lymphocyte,ITCH,9,6,0.6666666666666666,13,cell_type_by_source_donor_label,sanes2022_Hu0216
+Lymphocyte,TYR,22,2,0.09090909090909091,3,cell_type_by_source_donor_label,sanes2022_Hu0218
+Lymphocyte,OCA2,22,2,0.09090909090909091,2,cell_type_by_source_donor_label,sanes2022_Hu0218
+Lymphocyte,SLC45A2,22,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0218
+Lymphocyte,TPCN2,22,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0218
+Lymphocyte,OPTN,22,6,0.2727272727272727,10,cell_type_by_source_donor_label,sanes2022_Hu0218
+Lymphocyte,RCHY1,22,1,0.045454545454545456,1,cell_type_by_source_donor_label,sanes2022_Hu0218
+Lymphocyte,TBK1,22,5,0.22727272727272727,6,cell_type_by_source_donor_label,sanes2022_Hu0218
+Lymphocyte,MLANA,22,3,0.13636363636363635,4,cell_type_by_source_donor_label,sanes2022_Hu0218
+Lymphocyte,PMEL,22,6,0.2727272727272727,7,cell_type_by_source_donor_label,sanes2022_Hu0218
+Lymphocyte,MITF,22,5,0.22727272727272727,9,cell_type_by_source_donor_label,sanes2022_Hu0218
+Lymphocyte,PTK2,22,3,0.13636363636363635,5,cell_type_by_source_donor_label,sanes2022_Hu0218
+Lymphocyte,ITCH,22,5,0.22727272727272727,14,cell_type_by_source_donor_label,sanes2022_Hu0218
+Lymphocyte,TYR,5,1,0.2,1,cell_type_by_source_donor_label,sanes2022_Hu0220
+Lymphocyte,OCA2,5,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0220
+Lymphocyte,SLC45A2,5,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0220
+Lymphocyte,TPCN2,5,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0220
+Lymphocyte,OPTN,5,3,0.6,6,cell_type_by_source_donor_label,sanes2022_Hu0220
+Lymphocyte,RCHY1,5,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0220
+Lymphocyte,TBK1,5,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0220
+Lymphocyte,MLANA,5,2,0.4,3,cell_type_by_source_donor_label,sanes2022_Hu0220
+Lymphocyte,PMEL,5,1,0.2,3,cell_type_by_source_donor_label,sanes2022_Hu0220
+Lymphocyte,MITF,5,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0220
+Lymphocyte,PTK2,5,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0220
+Lymphocyte,ITCH,5,4,0.8,6,cell_type_by_source_donor_label,sanes2022_Hu0220
+Lymphocyte,TYR,55,1,0.01818181818181818,1,cell_type_by_source_donor_label,sanes2022_Hu0235
+Lymphocyte,OCA2,55,2,0.03636363636363636,11,cell_type_by_source_donor_label,sanes2022_Hu0235
+Lymphocyte,SLC45A2,55,1,0.01818181818181818,1,cell_type_by_source_donor_label,sanes2022_Hu0235
+Lymphocyte,TPCN2,55,1,0.01818181818181818,1,cell_type_by_source_donor_label,sanes2022_Hu0235
+Lymphocyte,OPTN,55,12,0.21818181818181817,18,cell_type_by_source_donor_label,sanes2022_Hu0235
+Lymphocyte,RCHY1,55,5,0.09090909090909091,6,cell_type_by_source_donor_label,sanes2022_Hu0235
+Lymphocyte,TBK1,55,15,0.2727272727272727,21,cell_type_by_source_donor_label,sanes2022_Hu0235
+Lymphocyte,MLANA,55,9,0.16363636363636364,10,cell_type_by_source_donor_label,sanes2022_Hu0235
+Lymphocyte,PMEL,55,5,0.09090909090909091,5,cell_type_by_source_donor_label,sanes2022_Hu0235
+Lymphocyte,MITF,55,12,0.21818181818181817,31,cell_type_by_source_donor_label,sanes2022_Hu0235
+Lymphocyte,PTK2,55,8,0.14545454545454545,16,cell_type_by_source_donor_label,sanes2022_Hu0235
+Lymphocyte,ITCH,55,26,0.4727272727272727,40,cell_type_by_source_donor_label,sanes2022_Hu0235
+Macrophage,TYR,132,20,0.15151515151515152,86,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Macrophage,OCA2,132,12,0.09090909090909091,51,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Macrophage,SLC45A2,132,3,0.022727272727272728,4,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Macrophage,TPCN2,132,5,0.03787878787878788,5,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Macrophage,OPTN,132,9,0.06818181818181818,11,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Macrophage,RCHY1,132,20,0.15151515151515152,22,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Macrophage,TBK1,132,46,0.3484848484848485,78,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Macrophage,MLANA,132,10,0.07575757575757576,28,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Macrophage,PMEL,132,12,0.09090909090909091,43,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Macrophage,MITF,132,76,0.5757575757575758,287,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Macrophage,PTK2,132,84,0.6363636363636364,237,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Macrophage,ITCH,132,90,0.6818181818181818,222,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Macrophage,TYR,87,10,0.11494252873563218,80,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Macrophage,OCA2,87,10,0.11494252873563218,31,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Macrophage,SLC45A2,87,3,0.034482758620689655,6,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Macrophage,TPCN2,87,6,0.06896551724137931,7,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Macrophage,OPTN,87,3,0.034482758620689655,3,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Macrophage,RCHY1,87,14,0.16091954022988506,14,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Macrophage,TBK1,87,40,0.45977011494252873,67,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Macrophage,MLANA,87,17,0.19540229885057472,46,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Macrophage,PMEL,87,24,0.27586206896551724,29,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Macrophage,MITF,87,52,0.5977011494252874,381,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Macrophage,PTK2,87,46,0.5287356321839081,196,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Macrophage,ITCH,87,56,0.6436781609195402,144,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Macrophage,TYR,83,12,0.14457831325301204,49,cell_type_by_source_donor_label,sanes2022_Hu0216
+Macrophage,OCA2,83,4,0.04819277108433735,11,cell_type_by_source_donor_label,sanes2022_Hu0216
+Macrophage,SLC45A2,83,2,0.024096385542168676,4,cell_type_by_source_donor_label,sanes2022_Hu0216
+Macrophage,TPCN2,83,4,0.04819277108433735,4,cell_type_by_source_donor_label,sanes2022_Hu0216
+Macrophage,OPTN,83,4,0.04819277108433735,4,cell_type_by_source_donor_label,sanes2022_Hu0216
+Macrophage,RCHY1,83,9,0.10843373493975904,15,cell_type_by_source_donor_label,sanes2022_Hu0216
+Macrophage,TBK1,83,31,0.37349397590361444,45,cell_type_by_source_donor_label,sanes2022_Hu0216
+Macrophage,MLANA,83,15,0.18072289156626506,44,cell_type_by_source_donor_label,sanes2022_Hu0216
+Macrophage,PMEL,83,18,0.21686746987951808,49,cell_type_by_source_donor_label,sanes2022_Hu0216
+Macrophage,MITF,83,34,0.40963855421686746,106,cell_type_by_source_donor_label,sanes2022_Hu0216
+Macrophage,PTK2,83,51,0.6144578313253012,161,cell_type_by_source_donor_label,sanes2022_Hu0216
+Macrophage,ITCH,83,56,0.6746987951807228,139,cell_type_by_source_donor_label,sanes2022_Hu0216
+Macrophage,TYR,45,4,0.08888888888888889,21,cell_type_by_source_donor_label,sanes2022_Hu0218
+Macrophage,OCA2,45,2,0.044444444444444446,4,cell_type_by_source_donor_label,sanes2022_Hu0218
+Macrophage,SLC45A2,45,1,0.022222222222222223,1,cell_type_by_source_donor_label,sanes2022_Hu0218
+Macrophage,TPCN2,45,1,0.022222222222222223,1,cell_type_by_source_donor_label,sanes2022_Hu0218
+Macrophage,OPTN,45,1,0.022222222222222223,4,cell_type_by_source_donor_label,sanes2022_Hu0218
+Macrophage,RCHY1,45,12,0.26666666666666666,18,cell_type_by_source_donor_label,sanes2022_Hu0218
+Macrophage,TBK1,45,23,0.5111111111111111,41,cell_type_by_source_donor_label,sanes2022_Hu0218
+Macrophage,MLANA,45,11,0.24444444444444444,18,cell_type_by_source_donor_label,sanes2022_Hu0218
+Macrophage,PMEL,45,6,0.13333333333333333,9,cell_type_by_source_donor_label,sanes2022_Hu0218
+Macrophage,MITF,45,30,0.6666666666666666,155,cell_type_by_source_donor_label,sanes2022_Hu0218
+Macrophage,PTK2,45,33,0.7333333333333333,98,cell_type_by_source_donor_label,sanes2022_Hu0218
+Macrophage,ITCH,45,38,0.8444444444444444,122,cell_type_by_source_donor_label,sanes2022_Hu0218
+Macrophage,TYR,45,16,0.35555555555555557,44,cell_type_by_source_donor_label,sanes2022_Hu0220
+Macrophage,OCA2,45,9,0.2,21,cell_type_by_source_donor_label,sanes2022_Hu0220
+Macrophage,SLC45A2,45,1,0.022222222222222223,2,cell_type_by_source_donor_label,sanes2022_Hu0220
+Macrophage,TPCN2,45,2,0.044444444444444446,2,cell_type_by_source_donor_label,sanes2022_Hu0220
+Macrophage,OPTN,45,3,0.06666666666666667,3,cell_type_by_source_donor_label,sanes2022_Hu0220
+Macrophage,RCHY1,45,9,0.2,13,cell_type_by_source_donor_label,sanes2022_Hu0220
+Macrophage,TBK1,45,22,0.4888888888888889,35,cell_type_by_source_donor_label,sanes2022_Hu0220
+Macrophage,MLANA,45,11,0.24444444444444444,20,cell_type_by_source_donor_label,sanes2022_Hu0220
+Macrophage,PMEL,45,11,0.24444444444444444,14,cell_type_by_source_donor_label,sanes2022_Hu0220
+Macrophage,MITF,45,31,0.6888888888888889,163,cell_type_by_source_donor_label,sanes2022_Hu0220
+Macrophage,PTK2,45,33,0.7333333333333333,92,cell_type_by_source_donor_label,sanes2022_Hu0220
+Macrophage,ITCH,45,32,0.7111111111111111,70,cell_type_by_source_donor_label,sanes2022_Hu0220
+Macrophage,TYR,208,18,0.08653846153846154,164,cell_type_by_source_donor_label,sanes2022_Hu0235
+Macrophage,OCA2,208,21,0.10096153846153846,94,cell_type_by_source_donor_label,sanes2022_Hu0235
+Macrophage,SLC45A2,208,3,0.014423076923076924,4,cell_type_by_source_donor_label,sanes2022_Hu0235
+Macrophage,TPCN2,208,9,0.04326923076923077,9,cell_type_by_source_donor_label,sanes2022_Hu0235
+Macrophage,OPTN,208,12,0.057692307692307696,14,cell_type_by_source_donor_label,sanes2022_Hu0235
+Macrophage,RCHY1,208,28,0.1346153846153846,40,cell_type_by_source_donor_label,sanes2022_Hu0235
+Macrophage,TBK1,208,98,0.47115384615384615,171,cell_type_by_source_donor_label,sanes2022_Hu0235
+Macrophage,MLANA,208,31,0.14903846153846154,66,cell_type_by_source_donor_label,sanes2022_Hu0235
+Macrophage,PMEL,208,45,0.21634615384615385,144,cell_type_by_source_donor_label,sanes2022_Hu0235
+Macrophage,MITF,208,68,0.3269230769230769,365,cell_type_by_source_donor_label,sanes2022_Hu0235
+Macrophage,PTK2,208,109,0.5240384615384616,290,cell_type_by_source_donor_label,sanes2022_Hu0235
+Macrophage,ITCH,208,165,0.7932692307692307,399,cell_type_by_source_donor_label,sanes2022_Hu0235
+Schwann,TYR,167,29,0.17365269461077845,71,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Schwann,OCA2,167,9,0.05389221556886228,49,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Schwann,SLC45A2,167,3,0.017964071856287425,5,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Schwann,TPCN2,167,9,0.05389221556886228,11,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Schwann,OPTN,167,27,0.16167664670658682,34,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Schwann,RCHY1,167,10,0.059880239520958084,12,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Schwann,TBK1,167,22,0.1317365269461078,32,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Schwann,MLANA,167,21,0.12574850299401197,27,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Schwann,PMEL,167,21,0.12574850299401197,44,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Schwann,MITF,167,28,0.16766467065868262,78,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Schwann,PTK2,167,147,0.8802395209580839,504,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Schwann,ITCH,167,91,0.5449101796407185,185,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Schwann,TYR,187,27,0.1443850267379679,102,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Schwann,OCA2,187,6,0.03208556149732621,36,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Schwann,SLC45A2,187,5,0.026737967914438502,7,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Schwann,TPCN2,187,4,0.0213903743315508,4,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Schwann,OPTN,187,51,0.2727272727272727,67,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Schwann,RCHY1,187,9,0.0481283422459893,12,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Schwann,TBK1,187,30,0.16042780748663102,43,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Schwann,MLANA,187,30,0.16042780748663102,61,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Schwann,PMEL,187,40,0.21390374331550802,131,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Schwann,MITF,187,24,0.12834224598930483,50,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Schwann,PTK2,187,166,0.8877005347593583,719,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Schwann,ITCH,187,104,0.5561497326203209,210,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Schwann,TYR,90,10,0.1111111111111111,59,cell_type_by_source_donor_label,sanes2022_Hu0216
+Schwann,OCA2,90,4,0.044444444444444446,11,cell_type_by_source_donor_label,sanes2022_Hu0216
+Schwann,SLC45A2,90,3,0.03333333333333333,4,cell_type_by_source_donor_label,sanes2022_Hu0216
+Schwann,TPCN2,90,5,0.05555555555555555,6,cell_type_by_source_donor_label,sanes2022_Hu0216
+Schwann,OPTN,90,10,0.1111111111111111,12,cell_type_by_source_donor_label,sanes2022_Hu0216
+Schwann,RCHY1,90,2,0.022222222222222223,3,cell_type_by_source_donor_label,sanes2022_Hu0216
+Schwann,TBK1,90,18,0.2,27,cell_type_by_source_donor_label,sanes2022_Hu0216
+Schwann,MLANA,90,19,0.2111111111111111,34,cell_type_by_source_donor_label,sanes2022_Hu0216
+Schwann,PMEL,90,17,0.18888888888888888,35,cell_type_by_source_donor_label,sanes2022_Hu0216
+Schwann,MITF,90,9,0.1,28,cell_type_by_source_donor_label,sanes2022_Hu0216
+Schwann,PTK2,90,75,0.8333333333333334,251,cell_type_by_source_donor_label,sanes2022_Hu0216
+Schwann,ITCH,90,48,0.5333333333333333,100,cell_type_by_source_donor_label,sanes2022_Hu0216
+Schwann,TYR,12,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0218
+Schwann,OCA2,12,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0218
+Schwann,SLC45A2,12,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0218
+Schwann,TPCN2,12,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0218
+Schwann,OPTN,12,2,0.16666666666666666,8,cell_type_by_source_donor_label,sanes2022_Hu0218
+Schwann,RCHY1,12,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0218
+Schwann,TBK1,12,2,0.16666666666666666,4,cell_type_by_source_donor_label,sanes2022_Hu0218
+Schwann,MLANA,12,2,0.16666666666666666,2,cell_type_by_source_donor_label,sanes2022_Hu0218
+Schwann,PMEL,12,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0218
+Schwann,MITF,12,3,0.25,6,cell_type_by_source_donor_label,sanes2022_Hu0218
+Schwann,PTK2,12,10,0.8333333333333334,39,cell_type_by_source_donor_label,sanes2022_Hu0218
+Schwann,ITCH,12,9,0.75,20,cell_type_by_source_donor_label,sanes2022_Hu0218
+Schwann,TYR,132,35,0.26515151515151514,91,cell_type_by_source_donor_label,sanes2022_Hu0220
+Schwann,OCA2,132,6,0.045454545454545456,16,cell_type_by_source_donor_label,sanes2022_Hu0220
+Schwann,SLC45A2,132,10,0.07575757575757576,14,cell_type_by_source_donor_label,sanes2022_Hu0220
+Schwann,TPCN2,132,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0220
+Schwann,OPTN,132,22,0.16666666666666666,30,cell_type_by_source_donor_label,sanes2022_Hu0220
+Schwann,RCHY1,132,9,0.06818181818181818,10,cell_type_by_source_donor_label,sanes2022_Hu0220
+Schwann,TBK1,132,22,0.16666666666666666,32,cell_type_by_source_donor_label,sanes2022_Hu0220
+Schwann,MLANA,132,30,0.22727272727272727,43,cell_type_by_source_donor_label,sanes2022_Hu0220
+Schwann,PMEL,132,45,0.3409090909090909,140,cell_type_by_source_donor_label,sanes2022_Hu0220
+Schwann,MITF,132,23,0.17424242424242425,57,cell_type_by_source_donor_label,sanes2022_Hu0220
+Schwann,PTK2,132,111,0.8409090909090909,410,cell_type_by_source_donor_label,sanes2022_Hu0220
+Schwann,ITCH,132,65,0.49242424242424243,153,cell_type_by_source_donor_label,sanes2022_Hu0220
+Schwann,TYR,31,3,0.0967741935483871,10,cell_type_by_source_donor_label,sanes2022_Hu0235
+Schwann,OCA2,31,2,0.06451612903225806,7,cell_type_by_source_donor_label,sanes2022_Hu0235
+Schwann,SLC45A2,31,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0235
+Schwann,TPCN2,31,2,0.06451612903225806,2,cell_type_by_source_donor_label,sanes2022_Hu0235
+Schwann,OPTN,31,4,0.12903225806451613,5,cell_type_by_source_donor_label,sanes2022_Hu0235
+Schwann,RCHY1,31,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0235
+Schwann,TBK1,31,2,0.06451612903225806,4,cell_type_by_source_donor_label,sanes2022_Hu0235
+Schwann,MLANA,31,4,0.12903225806451613,4,cell_type_by_source_donor_label,sanes2022_Hu0235
+Schwann,PMEL,31,5,0.16129032258064516,6,cell_type_by_source_donor_label,sanes2022_Hu0235
+Schwann,MITF,31,4,0.12903225806451613,13,cell_type_by_source_donor_label,sanes2022_Hu0235
+Schwann,PTK2,31,22,0.7096774193548387,88,cell_type_by_source_donor_label,sanes2022_Hu0235
+Schwann,ITCH,31,13,0.41935483870967744,32,cell_type_by_source_donor_label,sanes2022_Hu0235
+Uveal_Melanocyte,TYR,4225,3821,0.9043786982248521,47714,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Uveal_Melanocyte,OCA2,4225,1354,0.3204733727810651,8854,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Uveal_Melanocyte,SLC45A2,4225,514,0.12165680473372781,747,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Uveal_Melanocyte,TPCN2,4225,388,0.09183431952662723,444,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Uveal_Melanocyte,OPTN,4225,1405,0.33254437869822484,2043,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Uveal_Melanocyte,RCHY1,4225,272,0.06437869822485207,328,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Uveal_Melanocyte,TBK1,4225,855,0.20236686390532543,1261,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Uveal_Melanocyte,MLANA,4225,3041,0.7197633136094674,10852,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Uveal_Melanocyte,PMEL,4225,2966,0.7020118343195266,19911,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Uveal_Melanocyte,MITF,4225,3470,0.821301775147929,20222,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Uveal_Melanocyte,PTK2,4225,3175,0.7514792899408284,8861,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Uveal_Melanocyte,ITCH,4225,2235,0.5289940828402366,4277,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Uveal_Melanocyte,TYR,4547,4434,0.9751484495271607,66720,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Uveal_Melanocyte,OCA2,4547,3224,0.7090389267648999,26880,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Uveal_Melanocyte,SLC45A2,4547,1538,0.3382449967011216,2808,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Uveal_Melanocyte,TPCN2,4547,540,0.11875962172861228,640,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Uveal_Melanocyte,OPTN,4547,1949,0.428634264350121,3156,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Uveal_Melanocyte,RCHY1,4547,255,0.05608093248295579,292,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Uveal_Melanocyte,TBK1,4547,1628,0.35803826698922364,2521,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Uveal_Melanocyte,MLANA,4547,3931,0.8645260611392127,22393,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Uveal_Melanocyte,PMEL,4547,4308,0.9474378711238179,65814,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Uveal_Melanocyte,MITF,4547,3977,0.8746426215086871,50995,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Uveal_Melanocyte,PTK2,4547,3676,0.8084451286562568,11290,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Uveal_Melanocyte,ITCH,4547,2587,0.5689465581702221,5140,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Uveal_Melanocyte,TYR,2814,2380,0.845771144278607,16715,cell_type_by_source_donor_label,sanes2022_Hu0216
+Uveal_Melanocyte,OCA2,2814,229,0.08137882018479034,380,cell_type_by_source_donor_label,sanes2022_Hu0216
+Uveal_Melanocyte,SLC45A2,2814,244,0.0867093105899076,306,cell_type_by_source_donor_label,sanes2022_Hu0216
+Uveal_Melanocyte,TPCN2,2814,176,0.06254442075337598,192,cell_type_by_source_donor_label,sanes2022_Hu0216
+Uveal_Melanocyte,OPTN,2814,860,0.30561478322672353,1228,cell_type_by_source_donor_label,sanes2022_Hu0216
+Uveal_Melanocyte,RCHY1,2814,187,0.06645344705046198,210,cell_type_by_source_donor_label,sanes2022_Hu0216
+Uveal_Melanocyte,TBK1,2814,570,0.2025586353944563,817,cell_type_by_source_donor_label,sanes2022_Hu0216
+Uveal_Melanocyte,MLANA,2814,2046,0.7270788912579957,6835,cell_type_by_source_donor_label,sanes2022_Hu0216
+Uveal_Melanocyte,PMEL,2814,2021,0.7181947405828003,13227,cell_type_by_source_donor_label,sanes2022_Hu0216
+Uveal_Melanocyte,MITF,2814,2263,0.8041933191186923,10684,cell_type_by_source_donor_label,sanes2022_Hu0216
+Uveal_Melanocyte,PTK2,2814,1927,0.6847903340440654,4656,cell_type_by_source_donor_label,sanes2022_Hu0216
+Uveal_Melanocyte,ITCH,2814,1355,0.48152096659559346,2372,cell_type_by_source_donor_label,sanes2022_Hu0216
+Uveal_Melanocyte,TYR,354,341,0.963276836158192,6315,cell_type_by_source_donor_label,sanes2022_Hu0218
+Uveal_Melanocyte,OCA2,354,295,0.8333333333333334,2305,cell_type_by_source_donor_label,sanes2022_Hu0218
+Uveal_Melanocyte,SLC45A2,354,66,0.1864406779661017,113,cell_type_by_source_donor_label,sanes2022_Hu0218
+Uveal_Melanocyte,TPCN2,354,24,0.06779661016949153,27,cell_type_by_source_donor_label,sanes2022_Hu0218
+Uveal_Melanocyte,OPTN,354,152,0.4293785310734463,237,cell_type_by_source_donor_label,sanes2022_Hu0218
+Uveal_Melanocyte,RCHY1,354,24,0.06779661016949153,29,cell_type_by_source_donor_label,sanes2022_Hu0218
+Uveal_Melanocyte,TBK1,354,105,0.2966101694915254,165,cell_type_by_source_donor_label,sanes2022_Hu0218
+Uveal_Melanocyte,MLANA,354,300,0.847457627118644,1549,cell_type_by_source_donor_label,sanes2022_Hu0218
+Uveal_Melanocyte,PMEL,354,335,0.9463276836158192,4184,cell_type_by_source_donor_label,sanes2022_Hu0218
+Uveal_Melanocyte,MITF,354,294,0.8305084745762712,1739,cell_type_by_source_donor_label,sanes2022_Hu0218
+Uveal_Melanocyte,PTK2,354,282,0.7966101694915254,935,cell_type_by_source_donor_label,sanes2022_Hu0218
+Uveal_Melanocyte,ITCH,354,228,0.6440677966101694,578,cell_type_by_source_donor_label,sanes2022_Hu0218
+Uveal_Melanocyte,TYR,1731,1699,0.9815135759676488,25197,cell_type_by_source_donor_label,sanes2022_Hu0220
+Uveal_Melanocyte,OCA2,1731,1292,0.7463893703061814,7274,cell_type_by_source_donor_label,sanes2022_Hu0220
+Uveal_Melanocyte,SLC45A2,1731,570,0.3292894280762565,855,cell_type_by_source_donor_label,sanes2022_Hu0220
+Uveal_Melanocyte,TPCN2,1731,108,0.06239168110918544,122,cell_type_by_source_donor_label,sanes2022_Hu0220
+Uveal_Melanocyte,OPTN,1731,695,0.4015020219526285,1014,cell_type_by_source_donor_label,sanes2022_Hu0220
+Uveal_Melanocyte,RCHY1,1731,138,0.07972270363951472,166,cell_type_by_source_donor_label,sanes2022_Hu0220
+Uveal_Melanocyte,TBK1,1731,603,0.3483535528596187,921,cell_type_by_source_donor_label,sanes2022_Hu0220
+Uveal_Melanocyte,MLANA,1731,1564,0.903523974581167,8288,cell_type_by_source_donor_label,sanes2022_Hu0220
+Uveal_Melanocyte,PMEL,1731,1690,0.97631426920855,30633,cell_type_by_source_donor_label,sanes2022_Hu0220
+Uveal_Melanocyte,MITF,1731,1548,0.8942807625649913,9102,cell_type_by_source_donor_label,sanes2022_Hu0220
+Uveal_Melanocyte,PTK2,1731,1401,0.8093587521663779,4163,cell_type_by_source_donor_label,sanes2022_Hu0220
+Uveal_Melanocyte,ITCH,1731,984,0.5684575389948007,1941,cell_type_by_source_donor_label,sanes2022_Hu0220
+Uveal_Melanocyte,TYR,4140,3938,0.951207729468599,47827,cell_type_by_source_donor_label,sanes2022_Hu0235
+Uveal_Melanocyte,OCA2,4140,3342,0.8072463768115942,30162,cell_type_by_source_donor_label,sanes2022_Hu0235
+Uveal_Melanocyte,SLC45A2,4140,510,0.12318840579710146,722,cell_type_by_source_donor_label,sanes2022_Hu0235
+Uveal_Melanocyte,TPCN2,4140,319,0.07705314009661836,345,cell_type_by_source_donor_label,sanes2022_Hu0235
+Uveal_Melanocyte,OPTN,4140,1336,0.32270531400966185,1905,cell_type_by_source_donor_label,sanes2022_Hu0235
+Uveal_Melanocyte,RCHY1,4140,181,0.043719806763285025,215,cell_type_by_source_donor_label,sanes2022_Hu0235
+Uveal_Melanocyte,TBK1,4140,1229,0.29685990338164253,1841,cell_type_by_source_donor_label,sanes2022_Hu0235
+Uveal_Melanocyte,MLANA,4140,3068,0.7410628019323672,11413,cell_type_by_source_donor_label,sanes2022_Hu0235
+Uveal_Melanocyte,PMEL,4140,3700,0.893719806763285,41405,cell_type_by_source_donor_label,sanes2022_Hu0235
+Uveal_Melanocyte,MITF,4140,3974,0.9599033816425121,83330,cell_type_by_source_donor_label,sanes2022_Hu0235
+Uveal_Melanocyte,PTK2,4140,3040,0.7342995169082126,7669,cell_type_by_source_donor_label,sanes2022_Hu0235
+Uveal_Melanocyte,ITCH,4140,2301,0.5557971014492754,4553,cell_type_by_source_donor_label,sanes2022_Hu0235
+Vasc_Endo,TYR,10,4,0.4,8,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Vasc_Endo,OCA2,10,0,0.0,0,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Vasc_Endo,SLC45A2,10,0,0.0,0,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Vasc_Endo,TPCN2,10,0,0.0,0,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Vasc_Endo,OPTN,10,1,0.1,1,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Vasc_Endo,RCHY1,10,0,0.0,0,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Vasc_Endo,TBK1,10,2,0.2,3,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Vasc_Endo,MLANA,10,3,0.3,3,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Vasc_Endo,PMEL,10,3,0.3,5,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Vasc_Endo,MITF,10,2,0.2,8,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Vasc_Endo,PTK2,10,9,0.9,48,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Vasc_Endo,ITCH,10,3,0.3,4,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0216,sanes2022_Hu0218]"
+Vasc_Endo,TYR,13,1,0.07692307692307693,1,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Vasc_Endo,OCA2,13,2,0.15384615384615385,3,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Vasc_Endo,SLC45A2,13,1,0.07692307692307693,2,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Vasc_Endo,TPCN2,13,0,0.0,0,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Vasc_Endo,OPTN,13,5,0.38461538461538464,7,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Vasc_Endo,RCHY1,13,0,0.0,0,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Vasc_Endo,TBK1,13,3,0.23076923076923078,5,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Vasc_Endo,MLANA,13,1,0.07692307692307693,2,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Vasc_Endo,PMEL,13,6,0.46153846153846156,41,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Vasc_Endo,MITF,13,4,0.3076923076923077,5,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Vasc_Endo,PTK2,13,13,1.0,96,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Vasc_Endo,ITCH,13,10,0.7692307692307693,22,cell_type_by_source_donor_label,"pooled [sanes2022_Hu0220,sanes2022_Hu0235]"
+Vasc_Endo,TYR,1,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0216
+Vasc_Endo,OCA2,1,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0216
+Vasc_Endo,SLC45A2,1,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0216
+Vasc_Endo,TPCN2,1,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0216
+Vasc_Endo,OPTN,1,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0216
+Vasc_Endo,RCHY1,1,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0216
+Vasc_Endo,TBK1,1,1,1.0,2,cell_type_by_source_donor_label,sanes2022_Hu0216
+Vasc_Endo,MLANA,1,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0216
+Vasc_Endo,PMEL,1,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0216
+Vasc_Endo,MITF,1,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0216
+Vasc_Endo,PTK2,1,1,1.0,2,cell_type_by_source_donor_label,sanes2022_Hu0216
+Vasc_Endo,ITCH,1,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0216
+Vasc_Endo,TYR,6,1,0.16666666666666666,1,cell_type_by_source_donor_label,sanes2022_Hu0220
+Vasc_Endo,OCA2,6,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0220
+Vasc_Endo,SLC45A2,6,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0220
+Vasc_Endo,TPCN2,6,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0220
+Vasc_Endo,OPTN,6,1,0.16666666666666666,1,cell_type_by_source_donor_label,sanes2022_Hu0220
+Vasc_Endo,RCHY1,6,2,0.3333333333333333,4,cell_type_by_source_donor_label,sanes2022_Hu0220
+Vasc_Endo,TBK1,6,3,0.5,3,cell_type_by_source_donor_label,sanes2022_Hu0220
+Vasc_Endo,MLANA,6,3,0.5,4,cell_type_by_source_donor_label,sanes2022_Hu0220
+Vasc_Endo,PMEL,6,3,0.5,5,cell_type_by_source_donor_label,sanes2022_Hu0220
+Vasc_Endo,MITF,6,1,0.16666666666666666,1,cell_type_by_source_donor_label,sanes2022_Hu0220
+Vasc_Endo,PTK2,6,6,1.0,34,cell_type_by_source_donor_label,sanes2022_Hu0220
+Vasc_Endo,ITCH,6,3,0.5,5,cell_type_by_source_donor_label,sanes2022_Hu0220
+Vasc_Endo,TYR,27,7,0.25925925925925924,11,cell_type_by_source_donor_label,sanes2022_Hu0235
+Vasc_Endo,OCA2,27,2,0.07407407407407407,2,cell_type_by_source_donor_label,sanes2022_Hu0235
+Vasc_Endo,SLC45A2,27,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0235
+Vasc_Endo,TPCN2,27,0,0.0,0,cell_type_by_source_donor_label,sanes2022_Hu0235
+Vasc_Endo,OPTN,27,4,0.14814814814814814,5,cell_type_by_source_donor_label,sanes2022_Hu0235
+Vasc_Endo,RCHY1,27,2,0.07407407407407407,2,cell_type_by_source_donor_label,sanes2022_Hu0235
+Vasc_Endo,TBK1,27,15,0.5555555555555556,26,cell_type_by_source_donor_label,sanes2022_Hu0235
+Vasc_Endo,MLANA,27,4,0.14814814814814814,4,cell_type_by_source_donor_label,sanes2022_Hu0235
+Vasc_Endo,PMEL,27,8,0.2962962962962963,9,cell_type_by_source_donor_label,sanes2022_Hu0235
+Vasc_Endo,MITF,27,9,0.3333333333333333,29,cell_type_by_source_donor_label,sanes2022_Hu0235
+Vasc_Endo,PTK2,27,25,0.9259259259259259,107,cell_type_by_source_donor_label,sanes2022_Hu0235
+Vasc_Endo,ITCH,27,18,0.6666666666666666,50,cell_type_by_source_donor_label,sanes2022_Hu0235

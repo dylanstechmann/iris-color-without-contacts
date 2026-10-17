@@ -1,0 +1,40 @@
+{
+  "molecules": [
+    {
+      "label": "Kojic Acid",
+      "cid": 3840,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/3840",
+      "smiles": "O=c1cc(CO)occ1O",
+      "record": {
+        "CID": 3840,
+        "MolecularWeight": "142.11",
+        "SMILES": "C1=C(OC=C(C1=O)O)CO",
+        "ConnectivitySMILES": "C1=C(OC=C(C1=O)O)CO",
+        "InChIKey": "BEJNERDRQOWKJM-UHFFFAOYSA-N",
+        "IUPACName": "5-hydroxy-2-(hydroxymethyl)pyran-4-one",
+        "Title": "Kojic Acid"
+      },
+      "status": "computed descriptors",
+      "mw": 142.11,
+      "logp": -0.162,
+      "tpsa": 70.67,
+      "hbd": 2,
+      "hba": 4,
+      "rotatable": 1,
+      "pains": [],
+      "unspecified_stereo": 0,
+      "similarity": 1.0,
+      "image": "/api/artifact/3125f07242c6426b902faa4dfbbd7a6e/pubchem-3840.png"
+    }
+  ],
+  "snapshots": [
+    {
+      "file": "pubchem-reference.json",
+      "sha256": "c42f5b295458e23454eecc3b70dd0cfdec4ad68d23861c0ea25488fbe564deae",
+      "receipt": "1792251991831522822_desk-fetch.json"
+    }
+  ],
+  "rdkit_version": "2026.03.6",
+  "identity_note": "",
+  "interpretation": "PubChem identity and structural neighbors, not shared biological effects. PubChem similarity and local Morgan similarity use different fingerprints"
+}

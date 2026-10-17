@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "action": "research-desk",
+  "created_utc": "2026-10-17T15:46:11.676773+00:00",
+  "parameters": {
+    "kind": "compound",
+    "blueprint_id": "appearance",
+    "name": "Thiamidol",
+    "threshold": 90,
+    "campaign_id": "fac444a286fc4d6eb1a9fcd0fb6ce086"
+  },
+  "versions": {
+    "python": "3.11.16",
+    "desk_implementation_sha256": "d562a0b996f35801d5b61688636fcc793064be0edfc701a520be96a94afea0c5",
+    "rdkit": "2026.03.6"
+  },
+  "implementation_sha256": "cfb703d5bd5fce6bd1200f3745d81a20f2252bfd92d708174846313a52e24036",
+  "inputs": {
+    "submission.json": {
+      "sha256": "97a6e3733927b7f90fcab477d18887ce6aaec24c43486aa010a5d2cd2063d14e",
+      "bytes": 2546
+    }
+  },
+  "outputs": {
+    "completion.json": {
+      "sha256": "21ee759a8595047c1ef4d757fd5cf3588dc278e2e7f1e1bd9daccaf34da5c456",
+      "bytes": 255
+    },
+    "parameters.json": {
+      "sha256": "3cb809e798495c10d1d995e2a02b730682e270fbf92df009d749c452a78e0009",
+      "bytes": 152
+    },
+    "pubchem-71543007.png": {
+      "sha256": "4e01b6ae795302496c4d5c4533e31f18e88584d7ef3371f9858a1a871515d2ba",
+      "bytes": 14490
+    },
+    "pubchem-reference.json": {
+      "sha256": "fabe2b1b2d049f6464c191fab079baaa285fb9f1b3f01bb19cb865edb7099c68",
+      "bytes": 491
+    },
+    "result.json": {
+      "sha256": "fe6e63c05422a0474b65f8d4d66d55b16938f4c7c3697bb08facbc590a9e78b5",
+      "bytes": 1466
+    },
+    "submission.json": {
+      "sha256": "97a6e3733927b7f90fcab477d18887ce6aaec24c43486aa010a5d2cd2063d14e",
+      "bytes": 2546
+    }
+  }
+}

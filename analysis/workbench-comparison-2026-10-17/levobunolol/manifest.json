@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "action": "research-desk",
+  "created_utc": "2026-10-17T15:46:33.446204+00:00",
+  "parameters": {
+    "kind": "compound",
+    "blueprint_id": "appearance",
+    "name": "levobunolol",
+    "threshold": 90,
+    "campaign_id": "fac444a286fc4d6eb1a9fcd0fb6ce086"
+  },
+  "versions": {
+    "python": "3.11.16",
+    "desk_implementation_sha256": "d562a0b996f35801d5b61688636fcc793064be0edfc701a520be96a94afea0c5",
+    "rdkit": "2026.03.6"
+  },
+  "implementation_sha256": "cfb703d5bd5fce6bd1200f3745d81a20f2252bfd92d708174846313a52e24036",
+  "inputs": {
+    "submission.json": {
+      "sha256": "ab6e6d696339d6b4100ed74ab9baf2174431e1c2a7f2b5149d1b2a6283b5f3c2",
+      "bytes": 2548
+    }
+  },
+  "outputs": {
+    "completion.json": {
+      "sha256": "9309cf3d6e161c43a6f02032612852b7866585c951840b0dc73b8a1b662af702",
+      "bytes": 255
+    },
+    "parameters.json": {
+      "sha256": "1e1dcbf6b69cff34500547a53414fe9cde07395af3ffa97ecbbeca97d41f8cfe",
+      "bytes": 154
+    },
+    "pubchem-39468.png": {
+      "sha256": "0a4a1572cba71ccf735412a6e0f76ff983f6327c9c3552e77df4041e538b441d",
+      "bytes": 12500
+    },
+    "pubchem-reference.json": {
+      "sha256": "3177f744734975b5bc848e2080058de65aa10dbcc183cec6ce650650b6f09a85",
+      "bytes": 444
+    },
+    "result.json": {
+      "sha256": "7aace295b72c684a25c2c84ca8a8a8959ab6d7b9e0a5f839edfa875373b7b00b",
+      "bytes": 1360
+    },
+    "submission.json": {
+      "sha256": "ab6e6d696339d6b4100ed74ab9baf2174431e1c2a7f2b5149d1b2a6283b5f3c2",
+      "bytes": 2548
+    }
+  }
+}

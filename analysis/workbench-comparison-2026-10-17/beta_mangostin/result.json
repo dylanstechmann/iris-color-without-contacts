@@ -1,0 +1,40 @@
+{
+  "molecules": [
+    {
+      "label": "Beta-Mangostin",
+      "cid": 5495925,
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/5495925",
+      "smiles": "COc1cc2oc3cc(O)c(OC)c(CC=C(C)C)c3c(=O)c2c(O)c1CC=C(C)C",
+      "record": {
+        "CID": 5495925,
+        "MolecularWeight": "424.5",
+        "SMILES": "CC(=CCC1=C(C=C2C(=C1O)C(=O)C3=C(O2)C=C(C(=C3CC=C(C)C)OC)O)OC)C",
+        "ConnectivitySMILES": "CC(=CCC1=C(C=C2C(=C1O)C(=O)C3=C(O2)C=C(C(=C3CC=C(C)C)OC)O)OC)C",
+        "InChIKey": "YRKKJHJIWCRNCW-UHFFFAOYSA-N",
+        "IUPACName": "1,6-dihydroxy-3,7-dimethoxy-2,8-bis(3-methylbut-2-enyl)xanthen-9-one",
+        "Title": "Beta-Mangostin"
+      },
+      "status": "computed descriptors",
+      "mw": 424.493,
+      "logp": 5.392,
+      "tpsa": 89.13,
+      "hbd": 2,
+      "hba": 6,
+      "rotatable": 6,
+      "pains": [],
+      "unspecified_stereo": 0,
+      "similarity": 1.0,
+      "image": "/api/artifact/af8fc0e25fee4e88b79ba3bfb9efb3cf/pubchem-5495925.png"
+    }
+  ],
+  "snapshots": [
+    {
+      "file": "pubchem-reference.json",
+      "sha256": "97ad66c90a1e6c54a5d97de2a0f073eab09fd6d450fdf23d9fd947f726bc11f7",
+      "receipt": "1792251992861084348_desk-fetch.json"
+    }
+  ],
+  "rdkit_version": "2026.03.6",
+  "identity_note": "",
+  "interpretation": "PubChem identity and structural neighbors, not shared biological effects. PubChem similarity and local Morgan similarity use different fingerprints"
+}

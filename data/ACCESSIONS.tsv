@@ -1,0 +1,14 @@
+source	identifier	retrieval_date	url	use
+PubChem	71543007	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/71543007	Thiamidol identity
+PubChem	205912	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/205912	4-butylresorcinol identity
+PubChem	3840	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/3840	Kojic acid identity
+PubChem	441350	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/441350	Metyrosine identity
+PubChem	5495925	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/5495925	Beta-mangostin identity
+PubChem	39468	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/39468	Levobunolol identity
+PubChem	5311221	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/5311221	Latanoprost identity
+UniProt	P14679	2026-10-17	https://www.uniprot.org/uniprotkb/P14679/entry	Human TYR target and sequence
+UniProt	Q04671	2026-10-17	https://www.uniprot.org/uniprotkb/Q04671/entry	Human OCA2 target and sequence
+RCSB PDB	7RK7	2026-10-17	https://www.rcsb.org/structure/7RK7	Rejected catalytic receptor: TYR peptide in immune complex
+AlphaFold DB	AF-P14679-F1	2026-10-17	https://alphafold.ebi.ac.uk/entry/P14679	Predicted scaffold only
+GEO	GSE199013	2026-10-17	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE199013	Original human ocular atlas accession
+CELLxGENE	9a281de7-cee5-4e80-8584-1929f46f152f	2026-10-17	https://cellxgene.cziscience.com/collections/63d03351-06be-478e-a0db-f7a653b6b19b	Public Iris H5AD analyzed directly

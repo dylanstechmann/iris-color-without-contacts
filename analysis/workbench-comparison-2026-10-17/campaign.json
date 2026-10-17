@@ -1,0 +1,33 @@
+{
+  "title": "Iris pigment: reversible production and disposal",
+  "target": "Human TYR; melanosomal OCA2; selective pigment disposal",
+  "species": "Human target, with non-iris and animal evidence labeled separately",
+  "tissue": "Adult anterior iris stromal melanocytes",
+  "hypothesis": "Reversible synthesis suppression can lower pigment if net loss continues; adding selective disposal may change the equilibrium and timescale.",
+  "endpoint": "Hypothetical pigment balance, molecule identities and calculated descriptors; no color or efficacy prediction.",
+  "falsifier": "No useful net loss, inability to reach the target compartment, failure of mature-pigment processing, or failure to preserve/recover cell function.",
+  "evidence_stage": "Computational hypothesis and public compound identity",
+  "study_design": "Inspect biological targets, public compound structures and explicit synthesis/loss models; no administration or formulation.",
+  "reference_url": "",
+  "receptor": "",
+  "structure_notes": "",
+  "starter_id": "",
+  "blueprint_id": "appearance",
+  "id": "fac444a286fc4d6eb1a9fcd0fb6ce086",
+  "evidence": [],
+  "evidence_records": [],
+  "experiment_ids": [],
+  "model_bundle_ids": [],
+  "center": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "size": [
+    20.0,
+    20.0,
+    20.0
+  ],
+  "created_utc": "2026-10-17T15:46:10.612787+00:00",
+  "updated_utc": "2026-10-17T15:46:10.612819+00:00"
+}

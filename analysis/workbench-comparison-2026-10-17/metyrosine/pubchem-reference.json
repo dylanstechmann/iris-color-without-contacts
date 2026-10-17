@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 441350,
+        "MolecularWeight": "195.21",
+        "SMILES": "C[C@](CC1=CC=C(C=C1)O)(C(=O)O)N",
+        "ConnectivitySMILES": "CC(CC1=CC=C(C=C1)O)(C(=O)O)N",
+        "InChIKey": "NHTGHBARYWONDQ-JTQLQIEISA-N",
+        "IUPACName": "(2S)-2-amino-3-(4-hydroxyphenyl)-2-methylpropanoic acid",
+        "Title": "Metyrosine"
+      }
+    ]
+  }
+}

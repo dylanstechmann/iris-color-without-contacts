@@ -1,0 +1,15 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 3840,
+        "MolecularWeight": "142.11",
+        "SMILES": "C1=C(OC=C(C1=O)O)CO",
+        "ConnectivitySMILES": "C1=C(OC=C(C1=O)O)CO",
+        "InChIKey": "BEJNERDRQOWKJM-UHFFFAOYSA-N",
+        "IUPACName": "5-hydroxy-2-(hydroxymethyl)pyran-4-one",
+        "Title": "Kojic Acid"
+      }
+    ]
+  }
+}

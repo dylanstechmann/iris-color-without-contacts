@@ -1,0 +1,6285 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "Q04671",
+  "secondaryAccessions": [
+    "Q15211",
+    "Q15212",
+    "Q96EN1",
+    "Q9UMI5"
+  ],
+  "uniProtkbId": "P_HUMAN",
+  "entryAudit": {
+    "firstPublicDate": "1994-06-01",
+    "lastAnnotationUpdateDate": "2026-09-02",
+    "lastSequenceUpdateDate": "2006-03-21",
+    "entryVersion": 228,
+    "sequenceVersion": 2
+  },
+  "annotationScore": 5.0,
+  "organism": {
+    "scientificName": "Homo sapiens",
+    "commonName": "Human",
+    "taxonId": 9606,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Chordata",
+      "Craniata",
+      "Vertebrata",
+      "Euteleostomi",
+      "Mammalia",
+      "Eutheria",
+      "Euarchontoglires",
+      "Primates",
+      "Haplorrhini",
+      "Catarrhini",
+      "Hominidae",
+      "Homo"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "value": "P protein"
+      }
+    },
+    "alternativeNames": [
+      {
+        "fullName": {
+          "value": "Melanocyte-specific transporter protein"
+        }
+      },
+      {
+        "fullName": {
+          "value": "Pink-eyed dilution protein homolog"
+        }
+      }
+    ]
+  },
+  "genes": [
+    {
+      "geneName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000312",
+            "source": "HGNC",
+            "id": "HGNC:8101"
+          }
+        ],
+        "value": "OCA2"
+      },
+      "synonyms": [
+        {
+          "value": "D15S12"
+        },
+        {
+          "value": "P"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250",
+              "source": "UniProtKB",
+              "id": "Q62052"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "11310796"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "15262401"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "18252222"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "22234890"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "25513726"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "7601462"
+            }
+          ],
+          "value": "Contributes to a melanosome-specific anion (chloride) current that modulates melanosomal pH for optimal tyrosinase activity required for melanogenesis and the melanosome maturation (PubMed:11310796, PubMed:15262401, PubMed:22234890, PubMed:25513726). One of the components of the mammalian pigmentary system (PubMed:15262401, PubMed:18252222, PubMed:7601462). May serve as a key control point at which ethnic skin color variation is determined. Major determinant of brown and/or blue eye color (PubMed:15262401, PubMed:18252222, PubMed:7601462). Seems to regulate the post-translational processing of tyrosinase, which catalyzes the limiting reaction in melanin synthesis (By similarity)"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "CATALYTIC ACTIVITY",
+      "reaction": {
+        "name": "chloride(in) = chloride(out)",
+        "reactionCrossReferences": [
+          {
+            "database": "Rhea",
+            "id": "RHEA:29823"
+          },
+          {
+            "database": "ChEBI",
+            "id": "CHEBI:17996"
+          }
+        ],
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000305",
+            "source": "PubMed",
+            "id": "25513726"
+          }
+        ]
+      }
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "subcellularLocations": [
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "25513726"
+              },
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "7601462"
+              }
+            ],
+            "value": "Melanosome membrane",
+            "id": "SL-0160"
+          },
+          "topology": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "7601462"
+              }
+            ],
+            "value": "Multi-pass membrane protein",
+            "id": "SL-9909"
+          }
+        }
+      ]
+    },
+    {
+      "commentType": "ALTERNATIVE PRODUCTS",
+      "events": [
+        "Alternative splicing"
+      ],
+      "isoforms": [
+        {
+          "name": {
+            "value": "1"
+          },
+          "isoformIds": [
+            "Q04671-1"
+          ],
+          "isoformSequenceStatus": "Displayed"
+        },
+        {
+          "name": {
+            "value": "2"
+          },
+          "isoformIds": [
+            "Q04671-2"
+          ],
+          "sequenceIds": [
+            "VSP_012284"
+          ],
+          "isoformSequenceStatus": "Described"
+        },
+        {
+          "name": {
+            "value": "3"
+          },
+          "isoformIds": [
+            "Q04671-3"
+          ],
+          "sequenceIds": [
+            "VSP_012285",
+            "VSP_012286"
+          ],
+          "isoformSequenceStatus": "Described"
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "25513726"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "32966160"
+            }
+          ],
+          "value": "Expressed in melanocytes and retinal pigment epithelium"
+        }
+      ],
+      "commentType": "TISSUE SPECIFICITY"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "32966160"
+            }
+          ],
+          "value": "Expressed at early stages of melanosome differentiation"
+        }
+      ],
+      "commentType": "DEVELOPMENTAL STAGE"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "18172690"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "18252222"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "22234890"
+            }
+          ],
+          "value": "Expression is under the control of an enhancer element that is encoded in an intron of the close-by HERC2 gene. The enhancer element containing the T-allele of the polymorphism rs12913832 mediates binding of the transcription factors HLTF, LEF1 and MITF and increases OCA2 expression. In contrast, transcription factor binding and OCA2 expression are reduced in carriers of the C-allele of polymorphism rs12913832. Thus, people homozygous for the C-allele have light-colored eyes, while people homozygous for the T-allele of polymorphism rs12913832 most often have brown eyes"
+        }
+      ],
+      "commentType": "INDUCTION"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "17236130"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "17952075"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "18172690"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "18252221"
+            },
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "18252222"
+            }
+          ],
+          "value": "Genetic variants in OCA2 define the skin/hair/eye pigmentation variation locus 1 (SHEP1) [MIM:227220]; also known as skin/hair/eye pigmentation type 1, blue/nonblue eyes or skin/hair/eye pigmentation type 1, blue/brown eyes or skin/hair/eye pigmentation type 1, blond/brown hair or eye color, brown/blue or eye color, blue/nonblue or eye color type 3 (EYCL3) or brown eye color type 2 (BEY2) or hair color type 3 (HCL3). Hair, eye and skin pigmentation are among the most visible examples of human phenotypic variation, with a broad normal range that is subject to substantial geographic stratification. In the case of skin, individuals tend to have lighter pigmentation with increasing distance from the equator. By contrast, the majority of variation in human eye and hair color is found among individuals of European ancestry, with most other human populations fixed for brown eyes and black hair. OCA2 polymorphisms may act as a penetrance modifier of the risk of malignant melanoma"
+        }
+      ],
+      "commentType": "POLYMORPHISM"
+    },
+    {
+      "commentType": "DISEASE",
+      "disease": {
+        "diseaseId": "Albinism, oculocutaneous, 2",
+        "diseaseAccession": "DI-02085",
+        "acronym": "OCA2",
+        "description": "An autosomal recessive disorder in which the biosynthesis of melanin pigment is reduced in skin, hair, and eyes. Although affected infants may appear at birth to have complete absence of melanin pigment, most patients acquire small amounts of pigment with age. Visual anomalies include decreased acuity and nystagmus. The phenotype is highly variable. The hair of affected individuals may turn darker with age, and pigmented nevi or freckles may be seen. African and African American individuals may have yellow hair and blue-gray or hazel irides. One phenotypic variant, 'brown OCA,' has been described in African and African American populations and is characterized by light brown hair and skin color and gray to tan irides.",
+        "diseaseCrossReference": {
+          "database": "MIM",
+          "id": "203200"
+        },
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "10094567"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "10649493"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "10671067"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "10987646"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "12713581"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "12727022"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "12876664"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "17385796"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "23504663"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "25513726"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "7762554"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "7874125"
+          },
+          {
+            "evidenceCode": "ECO:0000269",
+            "source": "PubMed",
+            "id": "9259203"
+          }
+        ]
+      },
+      "note": {
+        "texts": [
+          {
+            "value": "The disease is caused by variants affecting the gene represented in this entry"
+          }
+        ]
+      }
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Belongs to the CitM (TC 2.A.11) transporter family"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    },
+    {
+      "commentType": "WEB RESOURCE",
+      "resourceName": "Albinism database (ADB)",
+      "resourceUrl": "http://www.ifpcs.org/albinism/oca2mut.html",
+      "ftp": false,
+      "note": "P mutations"
+    },
+    {
+      "commentType": "WEB RESOURCE",
+      "resourceName": "Protein Spotlight",
+      "resourceUrl": "https://www.proteinspotlight.org/back_issues/054",
+      "ftp": false,
+      "note": "Questioning colour - Issue 54 of January 2005"
+    }
+  ],
+  "features": [
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 838,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "P protein",
+      "featureId": "PRO_0000172509"
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 179,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytoplasmic",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 180,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 197,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 198,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 330,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Extracellular",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 331,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 347,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 348,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 353,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytoplasmic",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 354,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 370,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 371,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 384,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Extracellular",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 385,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 401,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 402,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 423,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytoplasmic",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 424,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 440,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 441,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 513,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Extracellular",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 514,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 530,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 531,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 620,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytoplasmic",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 621,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 637,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 638,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 647,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Extracellular",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 648,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 664,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 665,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 679,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytoplasmic",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 680,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 696,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 697,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 720,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Extracellular",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 721,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 737,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 738,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 760,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytoplasmic",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 761,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 777,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 778,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 817,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Extracellular",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Transmembrane",
+      "location": {
+        "start": {
+          "value": 818,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 834,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Helical",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Topological domain",
+      "location": {
+        "start": {
+          "value": 835,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 838,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytoplasmic",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ]
+    },
+    {
+      "type": "Region",
+      "location": {
+        "start": {
+          "value": 38,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 60,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Disordered",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "MobiDB-lite"
+        }
+      ]
+    },
+    {
+      "type": "Region",
+      "location": {
+        "start": {
+          "value": 74,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 94,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Disordered",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "MobiDB-lite"
+        }
+      ]
+    },
+    {
+      "type": "Compositional bias",
+      "location": {
+        "start": {
+          "value": 78,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 87,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Polar residues",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "SAM",
+          "id": "MobiDB-lite"
+        }
+      ]
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 214,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 214,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-linked (GlcNAc...) asparagine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 218,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 218,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-linked (GlcNAc...) asparagine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 273,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 273,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-linked (GlcNAc...) asparagine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 442,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 442,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-linked (GlcNAc...) asparagine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Glycosylation",
+      "location": {
+        "start": {
+          "value": 781,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 781,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-linked (GlcNAc...) asparagine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255"
+        }
+      ],
+      "featureId": ""
+    },
+    {
+      "type": "Alternative sequence",
+      "location": {
+        "start": {
+          "value": 349,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 372,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in isoform 2",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "15489334"
+        }
+      ],
+      "featureId": "VSP_012284",
+      "alternativeSequence": {}
+    },
+    {
+      "type": "Alternative sequence",
+      "location": {
+        "start": {
+          "value": 652,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 668,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in isoform 3",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "8421497"
+        }
+      ],
+      "featureId": "VSP_012285",
+      "alternativeSequence": {
+        "originalSequence": "WIAILGAIWLLILADIH",
+        "alternativeSequences": [
+          "GLGLVQAGRYYLSTPES"
+        ]
+      }
+    },
+    {
+      "type": "Alternative sequence",
+      "location": {
+        "start": {
+          "value": 669,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 838,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in isoform 3",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000303",
+          "source": "PubMed",
+          "id": "8421497"
+        }
+      ],
+      "featureId": "VSP_012286",
+      "alternativeSequence": {}
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 10,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 10,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs554862186",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs554862186"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12713581"
+        }
+      ],
+      "featureId": "VAR_020622",
+      "alternativeSequence": {
+        "originalSequence": "R",
+        "alternativeSequences": [
+          "W"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 27,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 27,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs61738394",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs61738394"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9259203"
+        }
+      ],
+      "featureId": "VAR_006117",
+      "alternativeSequence": {
+        "originalSequence": "G",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 86,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 86,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs772243109",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs772243109"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10671067"
+        }
+      ],
+      "featureId": "VAR_006118",
+      "alternativeSequence": {
+        "originalSequence": "S",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 112,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 112,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs562649990",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs562649990"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10671067"
+        }
+      ],
+      "featureId": "VAR_006119",
+      "alternativeSequence": {
+        "originalSequence": "C",
+        "alternativeSequences": [
+          "F"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 198,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 198,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs183487020",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs183487020"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12713581"
+        }
+      ],
+      "featureId": "VAR_020623",
+      "alternativeSequence": {
+        "originalSequence": "P",
+        "alternativeSequences": [
+          "L"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 206,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 211,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; severe",
+      "featureId": "VAR_006120",
+      "alternativeSequence": {}
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 211,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 211,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs190612616",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs190612616"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12713581"
+        }
+      ],
+      "featureId": "VAR_020624",
+      "alternativeSequence": {
+        "originalSequence": "P",
+        "alternativeSequences": [
+          "L"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 241,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 241,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in dbSNP:rs2305253",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs2305253"
+        }
+      ],
+      "featureId": "VAR_022019",
+      "alternativeSequence": {
+        "originalSequence": "P",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 257,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 257,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in dbSNP:rs1050968",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1050968"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10671067"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "8421497"
+        }
+      ],
+      "featureId": "VAR_006121",
+      "alternativeSequence": {
+        "originalSequence": "A",
+        "alternativeSequences": [
+          "D"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 266,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 266,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in dbSNP:rs33929465",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs33929465"
+        }
+      ],
+      "featureId": "VAR_032094",
+      "alternativeSequence": {
+        "originalSequence": "R",
+        "alternativeSequences": [
+          "W"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 273,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 274,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs797044784",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs797044784"
+        }
+      ],
+      "featureId": "VAR_006122",
+      "alternativeSequence": {
+        "originalSequence": "NW",
+        "alternativeSequences": [
+          "KV"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 290,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 290,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs769408559",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs769408559"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10987646"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12876664"
+        }
+      ],
+      "featureId": "VAR_020625",
+      "alternativeSequence": {
+        "originalSequence": "R",
+        "alternativeSequences": [
+          "G"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 305,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 305,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "affects eye pigmentation and is correlated with non-blue eye color; dbSNP:rs1800401",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1800401"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10987646"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12163334"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15889046"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7601462"
+        }
+      ],
+      "featureId": "VAR_006123",
+      "alternativeSequence": {
+        "originalSequence": "R",
+        "alternativeSequences": [
+          "W"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 334,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 334,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs121918168",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs121918168"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10649493"
+        }
+      ],
+      "featureId": "VAR_020626",
+      "alternativeSequence": {
+        "originalSequence": "A",
+        "alternativeSequences": [
+          "V"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 336,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 336,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in dbSNP:rs34010619",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs34010619"
+        }
+      ],
+      "featureId": "VAR_032095",
+      "alternativeSequence": {
+        "originalSequence": "A",
+        "alternativeSequences": [
+          "V"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 350,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 350,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in unclassified OCA; dbSNP:rs533478642",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs533478642"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10649493"
+        }
+      ],
+      "featureId": "VAR_020627",
+      "alternativeSequence": {
+        "originalSequence": "V",
+        "alternativeSequences": [
+          "M"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 368,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 368,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs61745150",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs61745150"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10671067"
+        }
+      ],
+      "featureId": "VAR_006124",
+      "alternativeSequence": {
+        "originalSequence": "A",
+        "alternativeSequences": [
+          "V"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 370,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 370,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in unclassified OCA; dbSNP:rs34731820",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs34731820"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10649493"
+        }
+      ],
+      "featureId": "VAR_020628",
+      "alternativeSequence": {
+        "originalSequence": "I",
+        "alternativeSequences": [
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 385,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 385,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; severe; dbSNP:rs137956605",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs137956605"
+        }
+      ],
+      "featureId": "VAR_006125",
+      "alternativeSequence": {
+        "originalSequence": "F",
+        "alternativeSequences": [
+          "I"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 387,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 387,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in dbSNP:rs150335311",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs150335311"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12713581"
+        }
+      ],
+      "featureId": "VAR_020629",
+      "alternativeSequence": {
+        "originalSequence": "T",
+        "alternativeSequences": [
+          "M"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 394,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 394,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs121918171",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs121918171"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12713581"
+        }
+      ],
+      "featureId": "VAR_020630",
+      "alternativeSequence": {
+        "originalSequence": "M",
+        "alternativeSequences": [
+          "I"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 395,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 395,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; severe; dbSNP:rs757286784",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs757286784"
+        }
+      ],
+      "featureId": "VAR_006126",
+      "alternativeSequence": {
+        "originalSequence": "M",
+        "alternativeSequences": [
+          "L"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 404,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 404,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs144812594",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs144812594"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23504663"
+        }
+      ],
+      "featureId": "VAR_006127",
+      "alternativeSequence": {
+        "originalSequence": "T",
+        "alternativeSequences": [
+          "M"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 419,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 419,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "affects eye pigmentation and is correlated with green/hazel eye color; dbSNP:rs1800407",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1800407"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10987646"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12163334"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "15889046"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "18252222"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7601462"
+        }
+      ],
+      "featureId": "VAR_006128",
+      "alternativeSequence": {
+        "originalSequence": "R",
+        "alternativeSequences": [
+          "Q"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 419,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 419,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs143218168",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs143218168"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23504663"
+        }
+      ],
+      "featureId": "VAR_006129",
+      "alternativeSequence": {
+        "originalSequence": "R",
+        "alternativeSequences": [
+          "W"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 425,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 425,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; mild; dbSNP:rs752510351",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs752510351"
+        }
+      ],
+      "featureId": "VAR_006130",
+      "alternativeSequence": {}
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 440,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 440,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in dbSNP:rs1800408",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1800408"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7601462"
+        }
+      ],
+      "featureId": "VAR_007939",
+      "alternativeSequence": {
+        "originalSequence": "L",
+        "alternativeSequences": [
+          "F"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 440,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 440,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "featureId": "VAR_006131",
+      "alternativeSequence": {
+        "originalSequence": "L",
+        "alternativeSequences": [
+          "H"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 443,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 443,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; reduced flow of chloride ions; no effect on subcellular location; slightly increased luminal pH; dbSNP:rs121918166",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs121918166"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10987646"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12876664"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17385796"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "25513726"
+        }
+      ],
+      "featureId": "VAR_006132",
+      "alternativeSequence": {
+        "originalSequence": "V",
+        "alternativeSequences": [
+          "I"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 446,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 446,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; mild; AROA form; dbSNP:rs140566426",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs140566426"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9259203"
+        }
+      ],
+      "featureId": "VAR_006133",
+      "alternativeSequence": {
+        "originalSequence": "M",
+        "alternativeSequences": [
+          "V"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 473,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 473,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9259203"
+        }
+      ],
+      "featureId": "VAR_006134",
+      "alternativeSequence": {
+        "originalSequence": "I",
+        "alternativeSequences": [
+          "S"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 476,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 476,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17385796"
+        }
+      ],
+      "featureId": "VAR_043700",
+      "alternativeSequence": {
+        "originalSequence": "N",
+        "alternativeSequences": [
+          "D"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 481,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 481,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs74653330",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs74653330"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12713581"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12727022"
+        }
+      ],
+      "featureId": "VAR_007940",
+      "alternativeSequence": {
+        "originalSequence": "A",
+        "alternativeSequences": [
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 489,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 489,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; mild/severe; dbSNP:rs121918170",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs121918170"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12876664"
+        }
+      ],
+      "featureId": "VAR_006135",
+      "alternativeSequence": {
+        "originalSequence": "N",
+        "alternativeSequences": [
+          "D"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 519,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 519,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in dbSNP:rs41446944",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs41446944"
+        }
+      ],
+      "featureId": "VAR_032096",
+      "alternativeSequence": {
+        "originalSequence": "V",
+        "alternativeSequences": [
+          "A"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 549,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 549,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10094567"
+        }
+      ],
+      "featureId": "VAR_006136",
+      "alternativeSequence": {
+        "originalSequence": "H",
+        "alternativeSequences": [
+          "Q"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 560,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 560,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in dbSNP:rs35110389",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs35110389"
+        }
+      ],
+      "featureId": "VAR_032097",
+      "alternativeSequence": {
+        "originalSequence": "R",
+        "alternativeSequences": [
+          "H"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 592,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 592,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs1800413",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1800413"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10671067"
+        }
+      ],
+      "featureId": "VAR_006137",
+      "alternativeSequence": {
+        "originalSequence": "T",
+        "alternativeSequences": [
+          "I"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 614,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 614,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; no effect on flow of chloride ions; no effect on subcellular location; no effect on luminal pH",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10987646"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "25513726"
+        }
+      ],
+      "featureId": "VAR_020631",
+      "alternativeSequence": {
+        "originalSequence": "K",
+        "alternativeSequences": [
+          "E"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 614,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 614,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7762554"
+        }
+      ],
+      "featureId": "VAR_006138",
+      "alternativeSequence": {
+        "originalSequence": "K",
+        "alternativeSequences": [
+          "N"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 615,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 615,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in dbSNP:rs1800414",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1800414"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12713581"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7601462"
+        }
+      ],
+      "featureId": "VAR_006139",
+      "alternativeSequence": {
+        "originalSequence": "H",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 617,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 617,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs763016773",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs763016773"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10987646"
+        }
+      ],
+      "featureId": "VAR_020632",
+      "alternativeSequence": {
+        "originalSequence": "I",
+        "alternativeSequences": [
+          "L"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 633,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 633,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs1372200062",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1372200062"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23504663"
+        }
+      ],
+      "featureId": "VAR_072600",
+      "alternativeSequence": {
+        "originalSequence": "V",
+        "alternativeSequences": [
+          "I"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 652,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 652,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs886043514",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs886043514"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9259203"
+        }
+      ],
+      "featureId": "VAR_006140",
+      "alternativeSequence": {
+        "originalSequence": "W",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 678,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 678,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in unclassified OCA; dbSNP:rs2039035706",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs2039035706"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10649493"
+        }
+      ],
+      "featureId": "VAR_020633",
+      "alternativeSequence": {
+        "originalSequence": "E",
+        "alternativeSequences": [
+          "K"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 679,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 679,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs121918169",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs121918169"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10987646"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12876664"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23504663"
+        }
+      ],
+      "featureId": "VAR_020634",
+      "alternativeSequence": {
+        "originalSequence": "W",
+        "alternativeSequences": [
+          "C"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 679,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 679,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; severe; dbSNP:rs751822606",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs751822606"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7874125"
+        }
+      ],
+      "featureId": "VAR_006141",
+      "alternativeSequence": {
+        "originalSequence": "W",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 684,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 684,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs772754008",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs772754008"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "23504663"
+        }
+      ],
+      "featureId": "VAR_072601",
+      "alternativeSequence": {
+        "originalSequence": "F",
+        "alternativeSequences": [
+          "C"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 688,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 688,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in unclassified OCA",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10649493"
+        }
+      ],
+      "featureId": "VAR_020635",
+      "alternativeSequence": {
+        "originalSequence": "L",
+        "alternativeSequences": [
+          "F"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 720,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 720,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs141545475",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs141545475"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10987646"
+        }
+      ],
+      "featureId": "VAR_020636",
+      "alternativeSequence": {
+        "originalSequence": "R",
+        "alternativeSequences": [
+          "C"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 722,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 722,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in dbSNP:rs1800417",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1800417"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "7601462"
+        }
+      ],
+      "featureId": "VAR_006142",
+      "alternativeSequence": {
+        "originalSequence": "I",
+        "alternativeSequences": [
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 724,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 724,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10671067"
+        }
+      ],
+      "featureId": "VAR_006143",
+      "alternativeSequence": {
+        "originalSequence": "A",
+        "alternativeSequences": [
+          "P"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 736,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 736,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs780296175",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs780296175"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "9259203"
+        }
+      ],
+      "featureId": "VAR_006144",
+      "alternativeSequence": {
+        "originalSequence": "S",
+        "alternativeSequences": [
+          "L"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 743,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 743,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2 and unclassified OCA; dbSNP:rs121918167",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs121918167"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10649493"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12876664"
+        }
+      ],
+      "featureId": "VAR_006145",
+      "alternativeSequence": {
+        "originalSequence": "P",
+        "alternativeSequences": [
+          "L"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 773,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 773,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in a breast cancer sample; somatic mutation; dbSNP:rs1184589806",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1184589806"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "16959974"
+        }
+      ],
+      "featureId": "VAR_036468",
+      "alternativeSequence": {
+        "originalSequence": "A",
+        "alternativeSequences": [
+          "T"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 775,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 775,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs774822330",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs774822330"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17385796"
+        }
+      ],
+      "featureId": "VAR_043701",
+      "alternativeSequence": {
+        "originalSequence": "G",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 787,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 787,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs200457227",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs200457227"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10671067"
+        }
+      ],
+      "featureId": "VAR_006146",
+      "alternativeSequence": {
+        "originalSequence": "A",
+        "alternativeSequences": [
+          "V"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 795,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 795,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs2035479169",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs2035479169"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10987646"
+        }
+      ],
+      "featureId": "VAR_020637",
+      "alternativeSequence": {
+        "originalSequence": "G",
+        "alternativeSequences": [
+          "R"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 799,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 799,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "12727022"
+        }
+      ],
+      "featureId": "VAR_020638",
+      "alternativeSequence": {
+        "originalSequence": "Q",
+        "alternativeSequences": [
+          "H"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 827,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 827,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs1255943449",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs1255943449"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "17385796"
+        }
+      ],
+      "featureId": "VAR_043702",
+      "alternativeSequence": {
+        "originalSequence": "Y",
+        "alternativeSequences": [
+          "H"
+        ]
+      }
+    },
+    {
+      "type": "Natural variant",
+      "location": {
+        "start": {
+          "value": 833,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 833,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "in OCA2; dbSNP:rs751440917",
+      "featureCrossReferences": [
+        {
+          "database": "dbSNP",
+          "id": "rs751440917"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "10987646"
+        }
+      ],
+      "featureId": "VAR_021682",
+      "alternativeSequence": {}
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-0015",
+      "category": "Disease",
+      "name": "Albinism"
+    },
+    {
+      "id": "KW-0025",
+      "category": "Coding sequence diversity",
+      "name": "Alternative splicing"
+    },
+    {
+      "id": "KW-0225",
+      "category": "Disease",
+      "name": "Disease variant"
+    },
+    {
+      "id": "KW-0325",
+      "category": "PTM",
+      "name": "Glycoprotein"
+    },
+    {
+      "id": "KW-0472",
+      "category": "Cellular component",
+      "name": "Membrane"
+    },
+    {
+      "id": "KW-1267",
+      "category": "Technical term",
+      "name": "Proteomics identification"
+    },
+    {
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "id": "KW-0812",
+      "category": "Domain",
+      "name": "Transmembrane"
+    },
+    {
+      "id": "KW-1133",
+      "category": "Domain",
+      "name": "Transmembrane helix"
+    },
+    {
+      "id": "KW-0813",
+      "category": "Biological process",
+      "name": "Transport"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "8421497",
+        "citationType": "journal article",
+        "authors": [
+          "Rinchik E.M.",
+          "Bultman S.J.",
+          "Horsthemke B.",
+          "Lee S.-T.",
+          "Strunk K.M.",
+          "Spritz R.A.",
+          "Avidano K.A.",
+          "Jong M.T.C.",
+          "Nicholls R.D."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "8421497"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/361072a0"
+          }
+        ],
+        "title": "A gene for the mouse pink-eyed dilution locus and for human type II oculocutaneous albinism.",
+        "publicationDate": "1993",
+        "journal": "Nature",
+        "firstPage": "72",
+        "lastPage": "76",
+        "volume": "361"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA] (ISOFORMS 1 AND 3)",
+        "VARIANT ASP-257"
+      ]
+    },
+    {
+      "referenceNumber": 2,
+      "citation": {
+        "id": "7601462",
+        "citationType": "journal article",
+        "authors": [
+          "Lee S.-T.",
+          "Nicholls R.D.",
+          "Jong M.T.C.",
+          "Fukai K.",
+          "Spritz R.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "7601462"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/0888-7543(95)80220-g"
+          }
+        ],
+        "title": "Organization and sequence of the human P gene and identification of a new family of transport proteins.",
+        "publicationDate": "1995",
+        "journal": "Genomics",
+        "firstPage": "354",
+        "lastPage": "363",
+        "volume": "26"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [GENOMIC DNA] (ISOFORMS 1 AND 3)",
+        "FUNCTION",
+        "SUBCELLULAR LOCATION",
+        "VARIANTS TRP-305; GLN-419; PHE-440; ARG-615 AND THR-722"
+      ]
+    },
+    {
+      "referenceNumber": 3,
+      "citation": {
+        "id": "15489334",
+        "citationType": "journal article",
+        "authoringGroup": [
+          "The MGC Project Team"
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "15489334"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1101/gr.2596504"
+          }
+        ],
+        "title": "The status, quality, and expansion of the NIH full-length cDNA project: the Mammalian Gene Collection (MGC).",
+        "publicationDate": "2004",
+        "journal": "Genome Res.",
+        "firstPage": "2121",
+        "lastPage": "2127",
+        "volume": "14"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA] (ISOFORM 2)"
+      ],
+      "referenceComments": [
+        {
+          "value": "Skin",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 4,
+      "citation": {
+        "id": "1509264",
+        "citationType": "journal article",
+        "authors": [
+          "Gardner J.M.",
+          "Nakatsu Y.",
+          "Gondo Y.",
+          "Lee S.",
+          "Lyon M.F.",
+          "King R.A.",
+          "Brilliant M.H."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "1509264"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1126/science.257.5073.1121"
+          }
+        ],
+        "title": "The mouse pink-eyed dilution gene: association with human Prader-Willi and Angelman syndromes.",
+        "publicationDate": "1992",
+        "journal": "Science",
+        "firstPage": "1121",
+        "lastPage": "1124",
+        "volume": "257"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [MRNA] OF 288-419",
+        "DISEASE"
+      ],
+      "referenceComments": [
+        {
+          "value": "Skin",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 5,
+      "citation": {
+        "id": "11310796",
+        "citationType": "journal article",
+        "authors": [
+          "Brilliant M.H."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "11310796"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1034/j.1600-0749.2001.140203.x"
+          }
+        ],
+        "title": "The mouse p (pink-eyed dilution) and human P genes, oculocutaneous albinism type 2 (OCA2), and melanosomal pH.",
+        "publicationDate": "2001",
+        "journal": "Pigment Cell Res.",
+        "firstPage": "86",
+        "lastPage": "93",
+        "volume": "14"
+      },
+      "referencePositions": [
+        "FUNCTION"
+      ]
+    },
+    {
+      "referenceNumber": 6,
+      "citation": {
+        "id": "11601658",
+        "citationType": "journal article",
+        "authors": [
+          "Manga P.",
+          "Orlow S.J."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "11601658"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1034/j.1600-0749.2001.140508.x"
+          }
+        ],
+        "title": "Inverse correlation between pink-eyed dilution protein expression and induction of melanogenesis by bafilomycin A1.",
+        "publicationDate": "2001",
+        "journal": "Pigment Cell Res.",
+        "firstPage": "362",
+        "lastPage": "367",
+        "volume": "14"
+      },
+      "referencePositions": [
+        "POSSIBLE INVOLVEMENT IN SKIN COLOR VARIATION"
+      ]
+    },
+    {
+      "referenceNumber": 7,
+      "citation": {
+        "id": "15262401",
+        "citationType": "journal article",
+        "authors": [
+          "Sturm R.A.",
+          "Frudakis T.N."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "15262401"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.tig.2004.06.010"
+          }
+        ],
+        "title": "Eye colour: portals into pigmentation genes and ancestry.",
+        "publicationDate": "2004",
+        "journal": "Trends Genet.",
+        "firstPage": "327",
+        "lastPage": "332",
+        "volume": "20"
+      },
+      "referencePositions": [
+        "FUNCTION"
+      ]
+    },
+    {
+      "referenceNumber": 8,
+      "citation": {
+        "id": "22234890",
+        "citationType": "journal article",
+        "authors": [
+          "Visser M.",
+          "Kayser M.",
+          "Palstra R.J."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "22234890"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1101/gr.128652.111"
+          }
+        ],
+        "title": "HERC2 rs12913832 modulates human pigmentation by attenuating chromatin-loop formation between a long-range enhancer and the OCA2 promoter.",
+        "publicationDate": "2012",
+        "journal": "Genome Res.",
+        "firstPage": "446",
+        "lastPage": "455",
+        "volume": "22"
+      },
+      "referencePositions": [
+        "FUNCTION",
+        "INDUCTION"
+      ]
+    },
+    {
+      "referenceNumber": 9,
+      "citation": {
+        "id": "32966160",
+        "citationType": "journal article",
+        "authors": [
+          "Le L.",
+          "Escobar I.E.",
+          "Ho T.",
+          "Lefkovith A.J.",
+          "Latteri E.",
+          "Haltaufderhyde K.D.",
+          "Dennis M.K.",
+          "Plowright L.",
+          "Sviderskaya E.V.",
+          "Bennett D.C.",
+          "Oancea E.",
+          "Marks M.S."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "32966160"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1091/mbc.e20-03-0200"
+          }
+        ],
+        "title": "SLC45A2 protein stability and regulation of melanosome pH determine melanocyte pigmentation.",
+        "publicationDate": "2020",
+        "journal": "Mol. Biol. Cell",
+        "firstPage": "2687",
+        "lastPage": "2702",
+        "volume": "31"
+      },
+      "referencePositions": [
+        "FUNCTION",
+        "DEVELOPMENTAL STAGE",
+        "TISSUE SPECIFICITY"
+      ]
+    },
+    {
+      "referenceNumber": 10,
+      "citation": {
+        "id": "7874125",
+        "citationType": "journal article",
+        "authors": [
+          "Lee S.-T.",
+          "Nicholls R.D.",
+          "Schnur R.E.",
+          "Guida L.C.",
+          "Lu-Kuo J.",
+          "Spinner N.B.",
+          "Zackai E.H.",
+          "Spritz R.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "7874125"
+          }
+        ],
+        "title": "Diverse mutations of the P gene among African-Americans with type II (tyrosinase-positive) oculocutaneous albinism (OCA2).",
+        "publicationDate": "1994",
+        "journal": "Hum. Mol. Genet.",
+        "firstPage": "2047",
+        "lastPage": "2051",
+        "volume": "3"
+      },
+      "referencePositions": [
+        "VARIANTS OCA2",
+        "VARIANT OCA2 ARG-679"
+      ]
+    },
+    {
+      "referenceNumber": 11,
+      "citation": {
+        "id": "7762554",
+        "citationType": "journal article",
+        "authors": [
+          "Spritz R.A.",
+          "Fukai K.",
+          "Holmes S.A.",
+          "Luande J."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "7762554"
+          }
+        ],
+        "title": "Frequent intragenic deletion of the P gene in Tanzanian patients with type II oculocutaneous albinism (OCA2).",
+        "publicationDate": "1995",
+        "journal": "Am. J. Hum. Genet.",
+        "firstPage": "1320",
+        "lastPage": "1323",
+        "volume": "56"
+      },
+      "referencePositions": [
+        "VARIANT OCA2 ASN-614"
+      ]
+    },
+    {
+      "referenceNumber": 12,
+      "citation": {
+        "id": "9259203",
+        "citationType": "journal article",
+        "authors": [
+          "Spritz R.A.",
+          "Lee S.-T.",
+          "Fukai K.",
+          "Brondum-Nielsen K.",
+          "Chitayat D.",
+          "Lipson M.H.",
+          "Musarella M.A.",
+          "Rosenmann A.",
+          "Weleber R.G."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "9259203"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1002/(sici)1098-1004(1997)10:2<175::aid-humu12>3.0.co;2-x"
+          }
+        ],
+        "title": "Novel mutations of the P gene in type II oculocutaneous albinism (OCA2).",
+        "publicationDate": "1997",
+        "journal": "Hum. Mutat.",
+        "firstPage": "175",
+        "lastPage": "177",
+        "volume": "10"
+      },
+      "referencePositions": [
+        "VARIANTS OCA2",
+        "VARIANTS OCA2 ARG-27; VAL-446; SER-473; ARG-652 AND LEU-736"
+      ]
+    },
+    {
+      "referenceNumber": 13,
+      "citation": {
+        "id": "10671067",
+        "citationType": "journal article",
+        "authors": [
+          "Oetting W.S.",
+          "Gardner J.M.",
+          "Fryer J.P.",
+          "Ching A.",
+          "Durham-Pierre D.",
+          "King R.A.",
+          "Brilliant M.H."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "10671067"
+          }
+        ],
+        "title": "Mutations of the human P gene associated with type II oculocutaneous albinism (OCA2).",
+        "publicationDate": "1998",
+        "journal": "Hum. Mutat.",
+        "firstPage": "434",
+        "lastPage": "434",
+        "volume": "12"
+      },
+      "referencePositions": [
+        "VARIANTS OCA2 ARG-86; PHE-112; VAL-368; ILE-592; PRO-724 AND VAL-787",
+        "VARIANT ASP-257"
+      ]
+    },
+    {
+      "referenceNumber": 14,
+      "citation": {
+        "id": "10987646",
+        "citationType": "journal article",
+        "authors": [
+          "Passmore L.A.",
+          "Kaesmann-Kellner B.",
+          "Weber B.H.F."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "10987646"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1007/s004390051090"
+          }
+        ],
+        "title": "Novel and recurrent mutations in the tyrosinase gene and the P gene in the German albino population.",
+        "publicationDate": "1999",
+        "journal": "Hum. Genet.",
+        "firstPage": "200",
+        "lastPage": "210",
+        "volume": "105"
+      },
+      "referencePositions": [
+        "VARIANTS OCA2 GLY-290; ILE-443; GLU-614; LEU-617; CYS-679; CYS-720; ARG-795 AND VAL-833 DEL",
+        "VARIANTS TRP-305 AND GLN-419"
+      ]
+    },
+    {
+      "referenceNumber": 15,
+      "citation": {
+        "id": "10094567",
+        "citationType": "journal article",
+        "authors": [
+          "Oetting W.S.",
+          "King R.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "10094567"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1002/(sici)1098-1004(1999)13:2<99::aid-humu2>3.0.co;2-c"
+          }
+        ],
+        "title": "Molecular basis of albinism: mutations and polymorphisms of pigmentation genes associated with albinism.",
+        "publicationDate": "1999",
+        "journal": "Hum. Mutat.",
+        "firstPage": "99",
+        "lastPage": "115",
+        "volume": "13"
+      },
+      "referencePositions": [
+        "VARIANT OCA2 GLN-549"
+      ]
+    },
+    {
+      "referenceNumber": 16,
+      "citation": {
+        "id": "10649493",
+        "citationType": "journal article",
+        "authors": [
+          "Kerr R.",
+          "Stevens G.",
+          "Manga P.",
+          "Salm S.",
+          "John P.",
+          "Haw T.",
+          "Ramsay M."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "10649493"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1002/(sici)1098-1004(200002)15:2<166::aid-humu5>3.0.co;2-z"
+          }
+        ],
+        "title": "Identification of P gene mutations in individuals with oculocutaneous albinism in sub-Saharan Africa.",
+        "publicationDate": "2000",
+        "journal": "Hum. Mutat.",
+        "firstPage": "166",
+        "lastPage": "172",
+        "volume": "15"
+      },
+      "referencePositions": [
+        "VARIANT OCA2 VAL-334",
+        "VARIANTS UNCLASSIFIED OCA MET-350; THR-370; LYS-678; PHE-688 AND LEU-743"
+      ]
+    },
+    {
+      "referenceNumber": 17,
+      "citation": {
+        "id": "12163334",
+        "citationType": "journal article",
+        "authors": [
+          "Rebbeck T.R.",
+          "Kanetsky P.A.",
+          "Walker A.H.",
+          "Holmes R.",
+          "Halpern A.C.",
+          "Schuchter L.M.",
+          "Elder D.E.",
+          "Guerry D."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "12163334"
+          }
+        ],
+        "title": "P gene as an inherited biomarker of human eye color.",
+        "publicationDate": "2002",
+        "journal": "Cancer Epidemiol. Biomarkers Prev.",
+        "firstPage": "782",
+        "lastPage": "784",
+        "volume": "11"
+      },
+      "referencePositions": [
+        "VARIANTS TRP-305 AND GLN-419",
+        "INVOLVEMENT IN DETERMINATION OF EYE COLOR"
+      ]
+    },
+    {
+      "referenceNumber": 18,
+      "citation": {
+        "id": "12876664",
+        "citationType": "journal article",
+        "authors": [
+          "King R.A.",
+          "Willaert R.K.",
+          "Schmidt R.M.",
+          "Pietsch J.",
+          "Savage S.",
+          "Brott M.J.",
+          "Fryer J.P.",
+          "Summers C.G.",
+          "Oetting W.S."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "12876664"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1086/377569"
+          }
+        ],
+        "title": "MC1R mutations modify the classic phenotype of oculocutaneous albinism type 2 (OCA2).",
+        "publicationDate": "2003",
+        "journal": "Am. J. Hum. Genet.",
+        "firstPage": "638",
+        "lastPage": "645",
+        "volume": "73"
+      },
+      "referencePositions": [
+        "VARIANTS OCA2 GLY-290; ILE-443; ASP-489; CYS-679 AND LEU-743"
+      ]
+    },
+    {
+      "referenceNumber": 19,
+      "citation": {
+        "id": "12727022",
+        "citationType": "journal article",
+        "authors": [
+          "Kato A.",
+          "Fukai K.",
+          "Oiso N.",
+          "Hosomi N.",
+          "Saitoh S.",
+          "Wada T.",
+          "Shimizu H.",
+          "Ishii M."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "12727022"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/s0923-1811(03)00005-7"
+          }
+        ],
+        "title": "A novel P gene missense mutation in a Japanese patient with oculocutaneous albinism type II (OCA2).",
+        "publicationDate": "2003",
+        "journal": "J. Dermatol. Sci.",
+        "firstPage": "189",
+        "lastPage": "192",
+        "volume": "31"
+      },
+      "referencePositions": [
+        "VARIANTS OCA2 THR-481 AND HIS-799"
+      ]
+    },
+    {
+      "referenceNumber": 20,
+      "citation": {
+        "id": "12713581",
+        "citationType": "journal article",
+        "authors": [
+          "Suzuki T.",
+          "Miyamura Y.",
+          "Matsunaga J.",
+          "Shimizu H.",
+          "Kawachi Y.",
+          "Ohyama N.",
+          "Ishikawa O.",
+          "Ishikawa T.",
+          "Terao H.",
+          "Tomita Y."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "12713581"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1046/j.1523-1747.2003.12127.x"
+          }
+        ],
+        "title": "Six novel P gene mutations and oculocutaneous albinism type 2 frequency in Japanese albino patients.",
+        "publicationDate": "2003",
+        "journal": "J. Invest. Dermatol.",
+        "firstPage": "781",
+        "lastPage": "783",
+        "volume": "120"
+      },
+      "referencePositions": [
+        "VARIANTS OCA2 TRP-10; LEU-198; LEU-211; ILE-394 AND THR-481",
+        "VARIANTS MET-387 AND ARG-615"
+      ]
+    },
+    {
+      "referenceNumber": 21,
+      "citation": {
+        "id": "15889046",
+        "citationType": "journal article",
+        "authoringGroup": [
+          "Melan-Cohort"
+        ],
+        "authors": [
+          "Jannot A.-S.",
+          "Meziani R.",
+          "Bertrand G.",
+          "Gerard B.",
+          "Descamps V.",
+          "Archimbaud A.",
+          "Picard C.",
+          "Ollivaud L.",
+          "Basset-Seguin N.",
+          "Kerob D.",
+          "Lanternier G.",
+          "Lebbe C.",
+          "Saiag P.",
+          "Crickx B.",
+          "Clerget-Darpoux F.",
+          "Grandchamp B.",
+          "Soufir N."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "15889046"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/sj.ejhg.5201415"
+          }
+        ],
+        "title": "Allele variations in the OCA2 gene (pink-eyed-dilution locus) are associated with genetic susceptibility to melanoma.",
+        "publicationDate": "2005",
+        "journal": "Eur. J. Hum. Genet.",
+        "firstPage": "913",
+        "lastPage": "920",
+        "volume": "13"
+      },
+      "referencePositions": [
+        "VARIANTS TRP-305 AND GLN-419",
+        "INVOLVEMENT IN SUSCEPTIBILITY TO MELANOMA"
+      ]
+    },
+    {
+      "referenceNumber": 22,
+      "citation": {
+        "id": "17236130",
+        "citationType": "journal article",
+        "authors": [
+          "Duffy D.L.",
+          "Montgomery G.W.",
+          "Chen W.",
+          "Zhao Z.Z.",
+          "Le L.",
+          "James M.R.",
+          "Hayward N.K.",
+          "Martin N.G.",
+          "Sturm R.A."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "17236130"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1086/510885"
+          }
+        ],
+        "title": "A three-single-nucleotide polymorphism haplotype in intron 1 of OCA2 explains most human eye-color variation.",
+        "publicationDate": "2007",
+        "journal": "Am. J. Hum. Genet.",
+        "firstPage": "241",
+        "lastPage": "252",
+        "volume": "80"
+      },
+      "referencePositions": [
+        "INVOLVEMENT IN SHEP1",
+        "POLYMORPHISM"
+      ]
+    },
+    {
+      "referenceNumber": 23,
+      "citation": {
+        "id": "16959974",
+        "citationType": "journal article",
+        "authors": [
+          "Sjoeblom T.",
+          "Jones S.",
+          "Wood L.D.",
+          "Parsons D.W.",
+          "Lin J.",
+          "Barber T.D.",
+          "Mandelker D.",
+          "Leary R.J.",
+          "Ptak J.",
+          "Silliman N.",
+          "Szabo S.",
+          "Buckhaults P.",
+          "Farrell C.",
+          "Meeh P.",
+          "Markowitz S.D.",
+          "Willis J.",
+          "Dawson D.",
+          "Willson J.K.V.",
+          "Gazdar A.F.",
+          "Hartigan J.",
+          "Wu L.",
+          "Liu C.",
+          "Parmigiani G.",
+          "Park B.H.",
+          "Bachman K.E.",
+          "Papadopoulos N.",
+          "Vogelstein B.",
+          "Kinzler K.W.",
+          "Velculescu V.E."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "16959974"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1126/science.1133427"
+          }
+        ],
+        "title": "The consensus coding sequences of human breast and colorectal cancers.",
+        "publicationDate": "2006",
+        "journal": "Science",
+        "firstPage": "268",
+        "lastPage": "274",
+        "volume": "314"
+      },
+      "referencePositions": [
+        "VARIANT [LARGE SCALE ANALYSIS] THR-773"
+      ]
+    },
+    {
+      "referenceNumber": 24,
+      "citation": {
+        "id": "17952075",
+        "citationType": "journal article",
+        "authors": [
+          "Sulem P.",
+          "Gudbjartsson D.F.",
+          "Stacey S.N.",
+          "Helgason A.",
+          "Rafnar T.",
+          "Magnusson K.P.",
+          "Manolescu A.",
+          "Karason A.",
+          "Palsson A.",
+          "Thorleifsson G.",
+          "Jakobsdottir M.",
+          "Steinberg S.",
+          "Palsson S.",
+          "Jonasson F.",
+          "Sigurgeirsson B.",
+          "Thorisdottir K.",
+          "Ragnarsson R.",
+          "Benediktsdottir K.R.",
+          "Aben K.K.",
+          "Kiemeney L.A.",
+          "Olafsson J.H.",
+          "Gulcher J.",
+          "Kong A.",
+          "Thorsteinsdottir U.",
+          "Stefansson K."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "17952075"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/ng.2007.13"
+          }
+        ],
+        "title": "Genetic determinants of hair, eye and skin pigmentation in Europeans.",
+        "publicationDate": "2007",
+        "journal": "Nat. Genet.",
+        "firstPage": "1443",
+        "lastPage": "1452",
+        "volume": "39"
+      },
+      "referencePositions": [
+        "INVOLVEMENT IN SHEP1",
+        "POLYMORPHISM"
+      ]
+    },
+    {
+      "referenceNumber": 25,
+      "citation": {
+        "id": "17385796",
+        "citationType": "journal article",
+        "authors": [
+          "Hongyi L.",
+          "Haiyun W.",
+          "Hui Z.",
+          "Qing W.",
+          "Honglei D.",
+          "Shu M.",
+          "Weiying J."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "17385796"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1002/pd.1713"
+          }
+        ],
+        "title": "Prenatal diagnosis of oculocutaneous albinism type II and novel mutations in two Chinese families.",
+        "publicationDate": "2007",
+        "journal": "Prenat. Diagn.",
+        "firstPage": "502",
+        "lastPage": "506",
+        "volume": "27"
+      },
+      "referencePositions": [
+        "VARIANTS OCA2 ILE-443; ASP-476; ARG-775 AND HIS-827"
+      ]
+    },
+    {
+      "referenceNumber": 26,
+      "citation": {
+        "id": "18252221",
+        "citationType": "journal article",
+        "authors": [
+          "Kayser M.",
+          "Liu F.",
+          "Janssens A.C.J.W.",
+          "Rivadeneira F.",
+          "Lao O.",
+          "van Duijn K.",
+          "Vermeulen M.",
+          "Arp P.",
+          "Jhamai M.M.",
+          "van Ijcken W.F.J.",
+          "den Dunnen J.T.",
+          "Heath S.",
+          "Zelenika D.",
+          "Despriet D.D.G.",
+          "Klaver C.C.W.",
+          "Vingerling J.R.",
+          "de Jong P.T.V.M.",
+          "Hofman A.",
+          "Aulchenko Y.S.",
+          "Uitterlinden A.G.",
+          "Oostra B.A.",
+          "van Duijn C.M."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "18252221"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.ajhg.2007.10.003"
+          }
+        ],
+        "title": "Three genome-wide association studies and a linkage analysis identify HERC2 as a human iris color gene.",
+        "publicationDate": "2008",
+        "journal": "Am. J. Hum. Genet.",
+        "firstPage": "411",
+        "lastPage": "423",
+        "volume": "82"
+      },
+      "referencePositions": [
+        "INVOLVEMENT IN SHEP1",
+        "POLYMORPHISM"
+      ]
+    },
+    {
+      "referenceNumber": 27,
+      "citation": {
+        "id": "18252222",
+        "citationType": "journal article",
+        "authors": [
+          "Sturm R.A.",
+          "Duffy D.L.",
+          "Zhao Z.Z.",
+          "Leite F.P.M.",
+          "Stark M.S.",
+          "Hayward N.K.",
+          "Martin N.G.",
+          "Montgomery G.W."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "18252222"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/j.ajhg.2007.11.005"
+          }
+        ],
+        "title": "A single SNP in an evolutionary conserved region within intron 86 of the HERC2 gene determines human blue-brown eye color.",
+        "publicationDate": "2008",
+        "journal": "Am. J. Hum. Genet.",
+        "firstPage": "424",
+        "lastPage": "431",
+        "volume": "82"
+      },
+      "referencePositions": [
+        "VARIANT GLN-419",
+        "FUNCTION",
+        "INDUCTION",
+        "INVOLVEMENT IN SHEP1",
+        "INVOLVEMENT IN SUSCEPTIBILITY TO MELANOMA",
+        "POLYMORPHISM"
+      ]
+    },
+    {
+      "referenceNumber": 28,
+      "citation": {
+        "id": "18172690",
+        "citationType": "journal article",
+        "authors": [
+          "Eiberg H.",
+          "Troelsen J.",
+          "Nielsen M.",
+          "Mikkelsen A.",
+          "Mengel-From J.",
+          "Kjaer K.W.",
+          "Hansen L."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "18172690"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1007/s00439-007-0460-x"
+          }
+        ],
+        "title": "Blue eye color in humans may be caused by a perfectly associated founder mutation in a regulatory element located within the HERC2 gene inhibiting OCA2 expression.",
+        "publicationDate": "2008",
+        "journal": "Hum. Genet.",
+        "firstPage": "177",
+        "lastPage": "187",
+        "volume": "123"
+      },
+      "referencePositions": [
+        "INVOLVEMENT IN SHEP1",
+        "POLYMORPHISM",
+        "INDUCTION"
+      ]
+    },
+    {
+      "referenceNumber": 29,
+      "citation": {
+        "id": "23504663",
+        "citationType": "journal article",
+        "authors": [
+          "Simeonov D.R.",
+          "Wang X.",
+          "Wang C.",
+          "Sergeev Y.",
+          "Dolinska M.",
+          "Bower M.",
+          "Fischer R.",
+          "Winer D.",
+          "Dubrovsky G.",
+          "Balog J.Z.",
+          "Huizing M.",
+          "Hart R.",
+          "Zein W.M.",
+          "Gahl W.A.",
+          "Brooks B.P.",
+          "Adams D.R."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "23504663"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1002/humu.22315"
+          }
+        ],
+        "title": "DNA variations in oculocutaneous albinism: an updated mutation list and current outstanding issues in molecular diagnostics.",
+        "publicationDate": "2013",
+        "journal": "Hum. Mutat.",
+        "firstPage": "827",
+        "lastPage": "835",
+        "volume": "34"
+      },
+      "referencePositions": [
+        "VARIANTS OCA2 MET-404; TRP-419; ILE-633; CYS-679 AND CYS-684"
+      ]
+    },
+    {
+      "referenceNumber": 30,
+      "citation": {
+        "id": "25513726",
+        "citationType": "journal article",
+        "authors": [
+          "Bellono N.W.",
+          "Escobar I.E.",
+          "Lefkovith A.J.",
+          "Marks M.S.",
+          "Oancea E."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "25513726"
+          },
+          {
+            "database": "DOI",
+            "id": "10.7554/elife.04543"
+          }
+        ],
+        "title": "An intracellular anion channel critical for pigmentation.",
+        "publicationDate": "2014",
+        "journal": "Elife",
+        "firstPage": "e04543",
+        "lastPage": "e04543",
+        "volume": "3"
+      },
+      "referencePositions": [
+        "FUNCTION",
+        "CHANNEL ACTIVITY",
+        "CHARACTERIZATION OF VARIANTS OCA2 ILE-443 AND GLU-614",
+        "SUBCELLULAR LOCATION"
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "M99564",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAA36477.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19170",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13783.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19153",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13783.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19154",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13783.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19156",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13783.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19158",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13783.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19160",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13783.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19162",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13783.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19164",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13783.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19166",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13783.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19169",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13783.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19168",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13783.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19167",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13783.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19165",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13783.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19163",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13783.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19161",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13783.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19159",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13783.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19157",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13783.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19155",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13783.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19176",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19153",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19154",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19155",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19157",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19158",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19159",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19160",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19161",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19162",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19163",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19164",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19165",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19166",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19167",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19168",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19169",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19171",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19172",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19173",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19174",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "U19175",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAC13784.1"
+        },
+        {
+          "key": "Status",
+          "value": "JOINED"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "BC012097",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAH12097.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "M97901",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAA36430.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "CCDS",
+      "id": "CCDS10020.1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ],
+      "isoformId": "Q04671-1"
+    },
+    {
+      "database": "CCDS",
+      "id": "CCDS73701.1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ],
+      "isoformId": "Q04671-2"
+    },
+    {
+      "database": "PIR",
+      "id": "A57173",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "A57173"
+        }
+      ]
+    },
+    {
+      "database": "PIR",
+      "id": "S28911",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "S28911"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_000266.2",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NM_000275.3"
+        }
+      ],
+      "isoformId": "Q04671-1"
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_001287913.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NM_001300984.2"
+        }
+      ],
+      "isoformId": "Q04671-2"
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID",
+      "id": "111002",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "67"
+        }
+      ]
+    },
+    {
+      "database": "FunCoup",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "Number of interactors",
+          "value": "125"
+        }
+      ]
+    },
+    {
+      "database": "IntAct",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "66"
+        }
+      ]
+    },
+    {
+      "database": "NDEx",
+      "id": "IQUERY-CP-OCA2",
+      "properties": [
+        {
+          "key": "Evidences",
+          "value": "1 NDEx IQuery Curated Pathway"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "9606.ENSP00000346659",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "TCDB",
+      "id": "2.A.45.2.1",
+      "properties": [
+        {
+          "key": "FamilyName",
+          "value": "the arsenite-antimonite (arsb) efflux family"
+        }
+      ]
+    },
+    {
+      "database": "GlyCosmos",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "glycosylation",
+          "value": "5 sites, No reported glycans"
+        }
+      ]
+    },
+    {
+      "database": "GlyGen",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "glycosylation",
+          "value": "6 sites, 1 O-linked glycan (1 site)"
+        }
+      ]
+    },
+    {
+      "database": "iPTMnet",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PhosphoSitePlus",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioMuta",
+      "id": "OCA2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DMDM",
+      "id": "90110050",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "jPOST",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MassIVE",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "9606-ENSP00000346659",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PeptideAtlas",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ProteomicsDB",
+      "id": "58261",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ],
+      "isoformId": "Q04671-1"
+    },
+    {
+      "database": "ProteomicsDB",
+      "id": "58262",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ],
+      "isoformId": "Q04671-2"
+    },
+    {
+      "database": "ProteomicsDB",
+      "id": "58263",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ],
+      "isoformId": "Q04671-3"
+    },
+    {
+      "database": "Antibodypedia",
+      "id": "22329",
+      "properties": [
+        {
+          "key": "antibodies",
+          "value": "187 antibodies from 25 providers"
+        }
+      ]
+    },
+    {
+      "database": "DNASU",
+      "id": "4948",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENST00000353809.9",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000261276.8"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSG00000104044.17"
+        }
+      ],
+      "isoformId": "Q04671-2"
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENST00000354638.8",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000346659.3"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSG00000104044.17"
+        }
+      ],
+      "isoformId": "Q04671-1"
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENST00000943939.1",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000613998.1"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSG00000104044.17"
+        }
+      ],
+      "isoformId": "Q04671-2"
+    },
+    {
+      "database": "GeneID",
+      "id": "4948",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "hsa:4948",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MANE-Select",
+      "id": "ENST00000354638.8",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSP00000346659.3"
+        },
+        {
+          "key": "RefSeqNucleotideId",
+          "value": "NM_000275.3"
+        },
+        {
+          "key": "RefSeqProteinId",
+          "value": "NP_000266.2"
+        }
+      ]
+    },
+    {
+      "database": "UCSC",
+      "id": "uc001zbh.6",
+      "properties": [
+        {
+          "key": "OrganismName",
+          "value": "human"
+        }
+      ],
+      "isoformId": "Q04671-1"
+    },
+    {
+      "database": "AGR",
+      "id": "HGNC:8101",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ClinPGx",
+      "id": "PA31890",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "CTD",
+      "id": "4948",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DisGeNET",
+      "id": "4948",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GeneCards",
+      "id": "OCA2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GeneReviews",
+      "id": "OCA2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HGNC",
+      "id": "HGNC:8101",
+      "properties": [
+        {
+          "key": "GeneName",
+          "value": "OCA2"
+        }
+      ]
+    },
+    {
+      "database": "HPA",
+      "id": "ENSG00000104044",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Tissue enriched (choroid)"
+        }
+      ]
+    },
+    {
+      "database": "MalaCards",
+      "id": "OCA2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MIM",
+      "id": "203200",
+      "properties": [
+        {
+          "key": "Type",
+          "value": "phenotype"
+        }
+      ]
+    },
+    {
+      "database": "MIM",
+      "id": "227220",
+      "properties": [
+        {
+          "key": "Type",
+          "value": "phenotype"
+        }
+      ]
+    },
+    {
+      "database": "MIM",
+      "id": "611409",
+      "properties": [
+        {
+          "key": "Type",
+          "value": "gene"
+        }
+      ]
+    },
+    {
+      "database": "OpenTargets",
+      "id": "ENSG00000104044",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Orphanet",
+      "id": "98794",
+      "properties": [
+        {
+          "key": "Disease",
+          "value": "Angelman syndrome due to maternal 15q11q13 deletion"
+        }
+      ]
+    },
+    {
+      "database": "Orphanet",
+      "id": "79432",
+      "properties": [
+        {
+          "key": "Disease",
+          "value": "Oculocutaneous albinism type 2"
+        }
+      ]
+    },
+    {
+      "database": "Orphanet",
+      "id": "98754",
+      "properties": [
+        {
+          "key": "Disease",
+          "value": "Prader-Willi syndrome due to maternal uniparental disomy of chromosome 15"
+        }
+      ]
+    },
+    {
+      "database": "Orphanet",
+      "id": "177901",
+      "properties": [
+        {
+          "key": "Disease",
+          "value": "Prader-Willi syndrome due to paternal deletion of 15q11q13 type 1"
+        }
+      ]
+    },
+    {
+      "database": "Orphanet",
+      "id": "177904",
+      "properties": [
+        {
+          "key": "Disease",
+          "value": "Prader-Willi syndrome due to paternal deletion of 15q11q13 type 2"
+        }
+      ]
+    },
+    {
+      "database": "VEuPathDB",
+      "id": "HostDB:ENSG00000104044",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "eggNOG",
+      "id": "KOG2639",
+      "properties": [
+        {
+          "key": "ToxonomicScope",
+          "value": "Eukaryota"
+        }
+      ]
+    },
+    {
+      "database": "GeneTree",
+      "id": "ENSGT01030000234550",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_011920_2_1_1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OMA",
+      "id": "HHRIRDK",
+      "properties": [
+        {
+          "key": "Fingerprint",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "442352at2759",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PAN-GO",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "Number of GO annotations",
+          "value": "3 GO annotations based on evolutionary models"
+        }
+      ]
+    },
+    {
+      "database": "PhylomeDB",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PathwayCommons",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-HSA-5662702",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Melanin biosynthesis"
+        }
+      ]
+    },
+    {
+      "database": "SignaLink",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SIGNOR",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Agora",
+      "id": "ENSG00000104044",
+      "properties": [
+        {
+          "key": "NominatedTarget",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID-ORCS",
+      "id": "4948",
+      "properties": [
+        {
+          "key": "hits",
+          "value": "8 hits in 1142 CRISPR screens"
+        }
+      ]
+    },
+    {
+      "database": "ChiTaRS",
+      "id": "OCA2",
+      "properties": [
+        {
+          "key": "OrganismName",
+          "value": "human"
+        }
+      ]
+    },
+    {
+      "database": "GeneWiki",
+      "id": "OCA2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GenomeRNAi",
+      "id": "4948",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Pharos",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "DevelopmentLevel",
+          "value": "Tbio"
+        }
+      ]
+    },
+    {
+      "database": "PRO",
+      "id": "PR:Q04671",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000005640",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome 15"
+        }
+      ]
+    },
+    {
+      "database": "RNAct",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "moleculeType",
+          "value": "protein"
+        }
+      ]
+    },
+    {
+      "database": "Bgee",
+      "id": "ENSG00000104044",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Expressed in pigmented layer of retina and 148 other cell types or tissues"
+        }
+      ]
+    },
+    {
+      "database": "ExpressionAtlas",
+      "id": "Q04671",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "baseline and differential"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0009986",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:cell surface"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:Ensembl"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005789",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:endoplasmic reticulum membrane"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "19116314"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0010008",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:endosome membrane"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "19116314"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005765",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:lysosomal membrane"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "19116314"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0033162",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:melanosome membrane"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "19116314"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005254",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:chloride channel activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "25513726"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0044877",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:protein-containing complex binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:Ensembl"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0035646",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:endosome to melanosome transport"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:Ensembl"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0035752",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:lysosomal lumen pH elevation"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "25513726"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "32966160"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0042438",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:melanin biosynthetic process"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006583",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:melanin biosynthetic process from tyrosine"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:UniProtKB"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "25513726"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "32966160"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0030318",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:melanocyte differentiation"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "CDD",
+      "id": "cd01116",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "P_permease"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR004680",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cit_transptr-like_dom"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR051475",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Diverse_Ion_Transporter"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR43568",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "P PROTEIN"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR43568:SF1",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "P PROTEIN"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF03600",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CitMHS"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MHLEGRDGRRYPGAPAVELLQTSVPSGLAELVAGKRRLPRGAGGADPSHSCPRGAAGQSSWAPAGQEFASFLTKGRSHSSLPQMSSSRSKDSCFTENTPLLRNSLQEKGSRCIPVYHPEFITAEESWEDSSADWERRYLLSREVSGLSASASSEKGDLLDSPHIRLRLSKLRRCVQWLKVMGLFAFVVLCSILFSLYPDQGKLWQLLALSPLENYSVNLSSHVDSTLLQVDLAGALVASGPSRPGREEHIVVELTQADALGSRWRRPQQVTHNWTVYLNPRRSEHSVMSRTFEVLTRETVSISIRASLQQTQAVPLLMAHQYLRGSVETQVTIATAILAGVYALIIFEIVHRTLAAMLGSLAALAALAVIGDRPSLTHVVEWIDFETLALLFGMMILVAIFSETGFFDYCAVKAYRLSRGRVWAMIIMLCLIAAVLSAFLDNVTTMLLFTPVTIRLCEVLNLDPRQVLIAEVIFTNIGGAATAIGDPPNVIIVSNQELRKMGLDFAGFTAHMFIGICLVLLVCFPLLRLLYWNRKLYNKEPSEIVELKHEIHVWRLTAQRISPASREETAVRRLLLGKVLALEHLLARRLHTFHRQISQEDKNWETNIQELQKKHRISDGILLAKCLTVLGFVIFMFFLNSFVPGIHLDLGWIAILGAIWLLILADIHDFEIILHRVEWATLLFFAALFVLMEALAHLHLIEYVGEQTALLIKMVPEEQRLIAAIVLVVWVSALASSLIDNIPFTATMIPVLLNLSHDPEVGLPAPPLMYALAFGACLGGNGTLIGASANVVCAGIAEQHGYGFSFMEFFRLGFPMMVVSCTVGMCYLLVAHVVVGWN",
+    "length": 838,
+    "molWeight": 92850,
+    "crc64": "A6158B9E55BD7199",
+    "md5": "B7C9C4D1E4ED6695B2D3092D38D563B5"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 1,
+      "CATALYTIC ACTIVITY": 1,
+      "SUBCELLULAR LOCATION": 1,
+      "ALTERNATIVE PRODUCTS": 3,
+      "TISSUE SPECIFICITY": 1,
+      "DEVELOPMENTAL STAGE": 1,
+      "INDUCTION": 1,
+      "POLYMORPHISM": 1,
+      "DISEASE": 1,
+      "SIMILARITY": 1,
+      "WEB RESOURCE": 2
+    },
+    "countByFeatureType": {
+      "Chain": 1,
+      "Topological domain": 13,
+      "Transmembrane": 12,
+      "Region": 2,
+      "Compositional bias": 1,
+      "Glycosylation": 5,
+      "Alternative sequence": 3,
+      "Natural variant": 61
+    },
+    "uniParcId": "UPI000013D158"
+  }
+}

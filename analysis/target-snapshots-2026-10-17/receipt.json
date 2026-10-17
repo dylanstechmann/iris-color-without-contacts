@@ -1,0 +1,22 @@
+[
+  {
+    "file": "P14679_1792251969922977374.uniprot.json",
+    "sha256": "33dadda485b7ac296573638ba4c8ffccd860a6e3ae769dbb7c0dd60feacd32f5",
+    "bytes": 202761
+  },
+  {
+    "file": "P14679_1792251969922977374.fasta",
+    "sha256": "447fa451a54ba6b31038815a092254bbea3645adc0ce354ed6685f544a37ff9d",
+    "bytes": 612
+  },
+  {
+    "file": "Q04671_1792251971200333934.uniprot.json",
+    "sha256": "89d61ae961cb9f593136acfbf3aa45973a6a9dbdfaa01b77138b24fb9126a90e",
+    "bytes": 139352
+  },
+  {
+    "file": "Q04671_1792251971200333934.fasta",
+    "sha256": "84ebefca7ec91b245e952f4c543f8faacfb882378c47d501a683229ee0dcfef6",
+    "bytes": 923
+  }
+]

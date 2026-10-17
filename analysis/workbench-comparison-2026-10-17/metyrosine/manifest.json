@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "action": "research-desk",
+  "created_utc": "2026-10-17T15:46:32.421869+00:00",
+  "parameters": {
+    "kind": "compound",
+    "blueprint_id": "appearance",
+    "name": "metyrosine",
+    "threshold": 90,
+    "campaign_id": "fac444a286fc4d6eb1a9fcd0fb6ce086"
+  },
+  "versions": {
+    "python": "3.11.16",
+    "desk_implementation_sha256": "d562a0b996f35801d5b61688636fcc793064be0edfc701a520be96a94afea0c5",
+    "rdkit": "2026.03.6"
+  },
+  "implementation_sha256": "cfb703d5bd5fce6bd1200f3745d81a20f2252bfd92d708174846313a52e24036",
+  "inputs": {
+    "submission.json": {
+      "sha256": "8e21356a875e62d4aaa1c6b24220aa0e75c255aa2d9a03963aab7aa31d50202a",
+      "bytes": 2547
+    }
+  },
+  "outputs": {
+    "completion.json": {
+      "sha256": "6b9c5c5f2647ad36c4fcba03276f0b3e04397977210b906bfd119208fe600644",
+      "bytes": 255
+    },
+    "parameters.json": {
+      "sha256": "08e840d886e79fc75c52c2ef24a3d6c6c23b5e1c790177173949a7aa58e161db",
+      "bytes": 153
+    },
+    "pubchem-441350.png": {
+      "sha256": "74bbbb606a420f4bc998fff3a05def1bc99e3da24af618021db83cfc510967ec",
+      "bytes": 13566
+    },
+    "pubchem-reference.json": {
+      "sha256": "c4501cbb2822b2fa928b2b00d257c5f663fc64d99c891e27b910b8341d0889e6",
+      "bytes": 407
+    },
+    "result.json": {
+      "sha256": "fec23ce6feae5f04bbde81664273adb395d0062482e923b4587ce557738d1131",
+      "bytes": 1317
+    },
+    "submission.json": {
+      "sha256": "8e21356a875e62d4aaa1c6b24220aa0e75c255aa2d9a03963aab7aa31d50202a",
+      "bytes": 2547
+    }
+  }
+}

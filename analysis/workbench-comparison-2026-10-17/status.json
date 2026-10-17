@@ -1,0 +1,79 @@
+[
+  {
+    "id": "thiamidol",
+    "name": "Thiamidol",
+    "role": "human-TYR synthesis probe",
+    "run_id": "83adcd13c5314386aebe64b2256ae8f0",
+    "status": "complete",
+    "error": null,
+    "rdkit_version": "2026.03.6",
+    "identity_note": "",
+    "structures_resolved": 1
+  },
+  {
+    "id": "butylresorcinol",
+    "name": "4-butylresorcinol",
+    "role": "alternative synthesis probe",
+    "run_id": "5305360fa9e54426b7fcc89a0e93b130",
+    "status": "complete",
+    "error": null,
+    "rdkit_version": "2026.03.6",
+    "identity_note": "",
+    "structures_resolved": 1
+  },
+  {
+    "id": "kojic_acid",
+    "name": "kojic acid",
+    "role": "enzyme-specificity comparator",
+    "run_id": "3125f07242c6426b902faa4dfbbd7a6e",
+    "status": "complete",
+    "error": null,
+    "rdkit_version": "2026.03.6",
+    "identity_note": "",
+    "structures_resolved": 1
+  },
+  {
+    "id": "metyrosine",
+    "name": "metyrosine",
+    "role": "catecholamine-versus-melanogenesis comparator",
+    "run_id": "3af75e77a2ff497481d38f6db16e64b6",
+    "status": "complete",
+    "error": null,
+    "rdkit_version": "2026.03.6",
+    "identity_note": "",
+    "structures_resolved": 1
+  },
+  {
+    "id": "beta_mangostin",
+    "name": "beta-mangostin",
+    "role": "melanophagy mechanism probe",
+    "run_id": "af8fc0e25fee4e88b79ba3bfb9efb3cf",
+    "status": "complete",
+    "error": null,
+    "rdkit_version": "2026.03.6",
+    "identity_note": "",
+    "structures_resolved": 1
+  },
+  {
+    "id": "levobunolol",
+    "name": "levobunolol",
+    "role": "indirect signaling comparator",
+    "run_id": "b727719921064878a73c1eef80fd9a19",
+    "status": "complete",
+    "error": null,
+    "rdkit_version": "2026.03.6",
+    "identity_note": "",
+    "structures_resolved": 1
+  },
+  {
+    "id": "latanoprost",
+    "name": "latanoprost",
+    "role": "opposite-direction pigmentation comparator",
+    "run_id": "d15e227740a34078b4fa850de7ba52d2",
+    "status": "complete",
+    "error": null,
+    "rdkit_version": "2026.03.6",
+    "identity_note": "",
+    "structures_resolved": 1
+  }
+]

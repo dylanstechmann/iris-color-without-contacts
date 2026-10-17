@@ -1,0 +1,127 @@
+{
+  "source_accession": "GSE199013",
+  "cellxgene_collection": "63d03351-06be-478e-a0db-f7a653b6b19b",
+  "cellxgene_dataset": "9a281de7-cee5-4e80-8584-1929f46f152f",
+  "source_bytes": 704151872,
+  "source_sha256": "dc50696b177eb47b5bc5160df69a3ab74aba60dc6a402ad6ebca0e5057c5ec4c",
+  "source_shape": [
+    57422,
+    59413
+  ],
+  "n_primary_nuclei_analyzed": 57422,
+  "n_nonprimary_excluded": 0,
+  "cell_type_counts": {
+    "Uveal_Melanocyte": 17811,
+    "Iris_PPE": 15583,
+    "Iris_Fibro": 11909,
+    "Iris_APE": 9417,
+    "Iris_Sphincter": 1286,
+    "Schwann": 619,
+    "Macrophage": 600,
+    "Lymphocyte": 140,
+    "Vasc_Endo": 57
+  },
+  "source_donor_label_counts": {
+    "sanes2022_Hu0235": 14672,
+    "pooled [sanes2022_Hu0220,sanes2022_Hu0235]": 13664,
+    "pooled [sanes2022_Hu0216,sanes2022_Hu0218]": 11917,
+    "sanes2022_Hu0216": 7898,
+    "sanes2022_Hu0220": 6821,
+    "sanes2022_Hu0218": 2450
+  },
+  "fixed_panel": [
+    {
+      "gene": "TYR",
+      "n_matching_features": 1,
+      "status": "resolved",
+      "feature_id": "ENSG00000077498",
+      "feature_is_filtered": false
+    },
+    {
+      "gene": "OCA2",
+      "n_matching_features": 1,
+      "status": "resolved",
+      "feature_id": "ENSG00000104044",
+      "feature_is_filtered": false
+    },
+    {
+      "gene": "SLC45A2",
+      "n_matching_features": 1,
+      "status": "resolved",
+      "feature_id": "ENSG00000164175",
+      "feature_is_filtered": false
+    },
+    {
+      "gene": "TPCN2",
+      "n_matching_features": 1,
+      "status": "resolved",
+      "feature_id": "ENSG00000162341",
+      "feature_is_filtered": false
+    },
+    {
+      "gene": "OPTN",
+      "n_matching_features": 1,
+      "status": "resolved",
+      "feature_id": "ENSG00000123240",
+      "feature_is_filtered": false
+    },
+    {
+      "gene": "RCHY1",
+      "n_matching_features": 1,
+      "status": "resolved",
+      "feature_id": "ENSG00000163743",
+      "feature_is_filtered": false
+    },
+    {
+      "gene": "TBK1",
+      "n_matching_features": 1,
+      "status": "resolved",
+      "feature_id": "ENSG00000183735",
+      "feature_is_filtered": false
+    },
+    {
+      "gene": "MLANA",
+      "n_matching_features": 1,
+      "status": "resolved",
+      "feature_id": "ENSG00000120215",
+      "feature_is_filtered": false
+    },
+    {
+      "gene": "PMEL",
+      "n_matching_features": 1,
+      "status": "resolved",
+      "feature_id": "ENSG00000185664",
+      "feature_is_filtered": false
+    },
+    {
+      "gene": "MITF",
+      "n_matching_features": 1,
+      "status": "resolved",
+      "feature_id": "ENSG00000187098",
+      "feature_is_filtered": false
+    },
+    {
+      "gene": "PTK2",
+      "n_matching_features": 1,
+      "status": "resolved",
+      "feature_id": "ENSG00000169398",
+      "feature_is_filtered": false
+    },
+    {
+      "gene": "ITCH",
+      "n_matching_features": 1,
+      "status": "resolved",
+      "feature_id": "ENSG00000078747",
+      "feature_is_filtered": false
+    }
+  ],
+  "selected_count_validation": "All selected values finite, nonnegative and integer; whole transcriptome counts not audited.",
+  "normalization": "Detection above zero in raw counts; no expression normalization, significance test or causal estimate.",
+  "independence": "Pooled labels overlap individually named donors; source labels are not independent biological replicates.",
+  "interpretation": "Transcript detection and co-detection only; no protein, activity, pigment turnover, drug response or cell-selectivity prediction.",
+  "software": {
+    "anndata": "0.12.19",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3"
+  }
+}
