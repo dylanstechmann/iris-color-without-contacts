@@ -12,3 +12,7 @@ RCSB PDB	7RK7	2026-10-17	https://www.rcsb.org/structure/7RK7	Rejected catalytic 
 AlphaFold DB	AF-P14679-F1	2026-10-17	https://alphafold.ebi.ac.uk/entry/P14679	Predicted scaffold only
 GEO	GSE199013	2026-10-17	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE199013	Original human ocular atlas accession
 CELLxGENE	9a281de7-cee5-4e80-8584-1929f46f152f	2026-10-17	https://cellxgene.cziscience.com/collections/63d03351-06be-478e-a0db-f7a653b6b19b	Public Iris H5AD analyzed directly
+ChEMBL	CHEMBL1973	2026-10-17	https://www.ebi.ac.uk/chembl/api/data/target/CHEMBL1973.json	TYR activity/assay provenance audit; target assignment alone does not establish assay species
+PLOS Biology	10.1371/journal.pbio.3003971.s001	2026-10-17	https://doi.org/10.1371/journal.pbio.3003971.s001	Public numerical workbook: selected human pigment and mouse energy endpoints
+PLOS Biology	10.1371/journal.pbio.3003971.s002	2026-10-17	https://doi.org/10.1371/journal.pbio.3003971.s002	Public numerical workbook: selected human target-protein endpoint
+JCI Insight	10.1172/jci.insight.202947	2026-10-17	https://pmc.ncbi.nlm.nih.gov/articles/PMC13502167/	Production-up lead reviewed; no new analysis of its numerical supplement

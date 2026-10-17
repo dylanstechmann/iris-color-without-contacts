@@ -1,0 +1,13 @@
+{
+  "source_script_sha256": "13664b6f5340dcc91c6b977a8af1dcb8a6fae946d69dbeca1c12f8a2104131a8",
+  "files": {
+    "observations.csv": {
+      "bytes": 2703,
+      "sha256": "f7144aa6e753bec4a590915dce1dd02be465b41dbcec15483797bd3bf0ce1ecb"
+    },
+    "summary.json": {
+      "bytes": 3020,
+      "sha256": "c1a29819835904621590f9b937e93f965a60497e555604d3f20ccdcec563d4bf"
+    }
+  }
+}

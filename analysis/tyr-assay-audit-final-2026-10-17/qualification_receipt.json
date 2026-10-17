@@ -1,0 +1,25 @@
+{
+  "source_script_sha256": "ec2a79194318af237393030bb81025a963de33ce074d22ff850c5efd3c6af522",
+  "files": {
+    "activities.csv": {
+      "bytes": 106997,
+      "sha256": "6de6e2e8f696127b576b348a081f97fb8b188221f1c5c16b1830236b4e23b40a"
+    },
+    "assays.csv": {
+      "bytes": 48876,
+      "sha256": "4a17d5ce81a41f28ae3549d38ed75d7aa6322ca50b0c3c235bcc416e85c0d75a"
+    },
+    "documents.json": {
+      "bytes": 121487,
+      "sha256": "b3e535a51f16ca6e8f58784c9c00f59315a849e730d7f3bd0c65088db6a56a48"
+    },
+    "record_flags.csv": {
+      "bytes": 18826,
+      "sha256": "927951ec8a42645ee77cb23dc07e32b4bfbe1def0bd619c5ab43f8c34369613e"
+    },
+    "qualification_summary.json": {
+      "bytes": 1115,
+      "sha256": "d5615ffb5ff9776bc1807fb12858f62f17a0488e94a332c09353ce9a463678f6"
+    }
+  }
+}

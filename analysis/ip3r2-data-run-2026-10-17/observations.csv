@@ -1,0 +1,37 @@
+panel,source,sheet,cell,group,value,metric
+human_pigmentation_1K,s001,Fig 1,B50,control,1.0,authors_normalized_pellet_pixel_intensity
+human_pigmentation_1K,s001,Fig 1,B51,control,1.0,authors_normalized_pellet_pixel_intensity
+human_pigmentation_1K,s001,Fig 1,B52,control,1.0,authors_normalized_pellet_pixel_intensity
+human_pigmentation_1K,s001,Fig 1,C50,siIP3R2,0.869149,authors_normalized_pellet_pixel_intensity
+human_pigmentation_1K,s001,Fig 1,C51,siIP3R2,0.804749,authors_normalized_pellet_pixel_intensity
+human_pigmentation_1K,s001,Fig 1,C52,siIP3R2,0.749885,authors_normalized_pellet_pixel_intensity
+human_target_protein_S1R,s002,Supplementary Fig 1,B81,control,1.0,normalized_IP3R2_protein_signal
+human_target_protein_S1R,s002,Supplementary Fig 1,B82,control,1.0,normalized_IP3R2_protein_signal
+human_target_protein_S1R,s002,Supplementary Fig 1,B83,control,1.0,normalized_IP3R2_protein_signal
+human_target_protein_S1R,s002,Supplementary Fig 1,C81,siIP3R2,0.08,normalized_IP3R2_protein_signal
+human_target_protein_S1R,s002,Supplementary Fig 1,C82,siIP3R2,0.27,normalized_IP3R2_protein_signal
+human_target_protein_S1R,s002,Supplementary Fig 1,C83,siIP3R2,0.58,normalized_IP3R2_protein_signal
+B16_energy_5K,s001,Fig 5,B3939,control,0.949148,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,B3940,control,1.327946,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,B3941,control,1.567734,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,B3942,control,1.32444,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,B3943,control,0.277778,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,B3944,control,0.277778,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,B3945,control,0.133333,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,B3946,control,0.176471,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,B3947,control,0.516129,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,B3948,control,0.392857,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,B3949,control,0.444444,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,B3950,control,0.12,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,C3939,siIP3R2,3.173959,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,C3940,siIP3R2,2.952564,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,C3941,siIP3R2,2.059508,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,C3942,siIP3R2,2.559486,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,C3943,siIP3R2,2.071774,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,C3944,siIP3R2,0.5625,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,C3945,siIP3R2,0.75,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,C3946,siIP3R2,0.526316,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,C3947,siIP3R2,0.3333,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,C3948,siIP3R2,0.761905,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,C3949,siIP3R2,0.428571,ADP_ATP_ratio
+B16_energy_5K,s001,Fig 5,C3950,siIP3R2,0.85,ADP_ATP_ratio

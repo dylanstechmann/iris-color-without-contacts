@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-10-17T16:33:55.577376+00:00",
+  "source_script_sha256": "da2dac2bfb089bd2d7fbe789df41c726e9e5ce69511b8f71c6ef2debe26f96a5",
+  "files": [
+    {
+      "path": "activities.csv",
+      "bytes": 106997,
+      "sha256": "6de6e2e8f696127b576b348a081f97fb8b188221f1c5c16b1830236b4e23b40a"
+    },
+    {
+      "path": "assays.csv",
+      "bytes": 48876,
+      "sha256": "4a17d5ce81a41f28ae3549d38ed75d7aa6322ca50b0c3c235bcc416e85c0d75a"
+    },
+    {
+      "path": "documents.json",
+      "bytes": 121487,
+      "sha256": "b3e535a51f16ca6e8f58784c9c00f59315a849e730d7f3bd0c65088db6a56a48"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 6089,
+      "sha256": "2f82c8b6cf75afbd06d9837b71b831d28b15b98b540ccc3559b7aafcc9f1e180"
+    },
+    {
+      "path": "target.json",
+      "bytes": 7004,
+      "sha256": "5f85e01aea12f0a9c43957b69cf5f866e96e5f2e5f8b349b92b0879ec685925f"
+    }
+  ]
+}

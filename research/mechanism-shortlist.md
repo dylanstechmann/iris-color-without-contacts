@@ -13,7 +13,8 @@ A synthesis inhibitor could be enough if ordinary turnover is useful. A disposal
 | Research priority | Why it follows from the goal | Concrete starting point | Main reason it might fail |
 | --- | --- | --- | --- |
 | **First production controller: reversible human TYR inhibition** | Acts on pigment production without logically requiring cell replacement or permanent genome change. | Thiamidol as a reference scaffold; 4-butylresorcinol as an alternative comparator. | Mature pigment persists, delivery to the relevant intracellular compartment fails, or useful modulation cannot preserve/recover cell function. |
-| **First disposal question: selective handling of mature melanosomes/pigment** | Adds an outlet when reducing input is too slow. | OPTN/RCHY1/TBK1-related melanophagy; beta-mangostin as a mechanism probe. | Organelle proteins disappear while the pigment core persists; products accumulate elsewhere; or selectivity fails in normal iris cells. |
+| **Production increase and recovery: human TYR activation** | Could accelerate repigmentation or induce a darker state while preserving an eventual return to baseline. | Ampyrone as a newly identified mechanism probe; evaluate separately from latanoprost. | Enzyme or skin-cell effects fail to translate to iris; stimulation or pigment persists after withdrawal. |
+| **First disposal question: selective handling of mature melanosomes/pigment** | Adds an outlet when reducing input is too slow. | OPTN/RCHY1/TBK1-related melanophagy; beta-mangostin and the IP3R2–TRPML1–TFEB pathway as distinct probes. | Organelle proteins disappear while the pigment core persists; products accumulate elsewhere; or selectivity fails in normal iris cells. |
 | **Alternative production controller: melanosomal pH regulation** | Pigment synthesis depends on an organelle environment as well as enzyme abundance. | OCA2-related regulation, with TPC2 as an interacting pathway to examine. | Genetic or non-iris effects fail to translate to reversible adult-iris pharmacology, or other pigment compartments are affected. |
 | **Indirect signaling comparator** | Could influence production upstream. | Levobunolol-related signaling hypothesis; latanoprost as an opposite-direction comparator. | Pigment response is indirect, inconsistent, or tied to other functions; a temporal association does not identify a controllable mechanism. |
 
@@ -55,13 +56,43 @@ Public target snapshots identify human TYR as P14679 and OCA2 as Q04671. Checkin
 
 Regen also fetched the predicted AF-P14679-F1 model. A predicted protein scaffold is not a prepared copper-containing catalytic site; no docking score was generated. Any structural comparison needs the correct target, metal/cofactor state, binding-site preparation, and controls before it can inform ranking.
 
-## Next discriminating work
+## New functional and source checks
+
+The [human-TYR assay audit](../analysis/tyr-assay-audit-final-2026-10-17/ASSAY_REPORT.md) retrieved 870 activity records from 205 assays. The human target assignment includes explicitly mushroom descriptions and ten records with conflicting species annotations. Of 362 records whose descriptions explicitly mention human systems, 120 come from five identified secondary sources. These are overlapping source flags, not independent experimental confirmations. The exported data retain all rows and endpoint types.
+
+This widens the production-controller comparison to HOPNO aurones and 4-amino/4-amido indanones, while preserving differences between purified enzyme, lysate and intact cells. Thiamidol remains a useful reversible reference rather than an assumed winner. Candidate selection should turn on functional translation and controllability, not the lowest number attached to a target ID.
+
+**The production-up branch now has a direct lead.** A 2026 primary study reports ampyrone effects on recombinant human TYR, normal and OCA1B human melanocyte lines, and human 3D epidermis. Isotope tracing of newly labeled intermediates was performed in mouse cells; human melanocyte results used scattering. Catalytic effects depend on the reaction/substrate. No iris experiment, withdrawal recovery or repeated color cycle was established. This gives the original blue → brown → blue goal a more specific research query: can increased synthesis be turned off while preserving a useful route back to the original pigment inventory? [Primary study and supplement](https://doi.org/10.1172/jci.insight.202947).
+
+**The disposal branch gained a separate pathway.** The 2026 IP3R2 study has a human skin-cell knockdown phenotype and detailed mouse-cell melanophagy experiments. Our [numerical extraction](../analysis/ip3r2-data-run-2026-10-17/DATA_REPORT.md) separates the pigmentation image metric from the mouse-cell energetic cost. Genetic rescue is not drug-withdrawal reversibility. The pathway is a reason to examine downstream pigment handling, rather than immediately prioritizing broad IP3R2 inhibition as an eye drug. [Primary study](https://doi.org/10.1371/journal.pbio.3003971).
+
+Cargo delivery and cargo destruction remain different steps. Pigment can persist after entering a lysosomal compartment, as a primary keratinocyte study illustrates. A separate 2026 keratinocyte study proposes sequential proteolytic and oxidative melanosome processing, but does not identify the complete intracellular pigment-product balance. These support an explicit fate question, not an inference that ocular oxidation is a suitable strategy. [Pigment storage study](https://doi.org/10.1016/j.jid.2024.08.023), [processing study](https://doi.org/10.1111/jocd.70770).
+
+```mermaid
+flowchart LR
+  A[Production increase probe] --> B[New melanin synthesis]
+  C[Reversible production inhibitor] -->|reduces| B
+  B --> D[Stored pigment]
+  D --> E[Appearance plus tissue function]
+  D --> F[Organelle handling]
+  F --> G{What happens to old pigment?}
+  G --> H[Remains or relocates]
+  G --> I[Accounted export or chemical products]
+```
+
+The arrows describe questions and proposed mechanisms. They do not imply a demonstrated treatment sequence.
+
+## Target location and next discriminating work
 
 The fixed-panel check of the existing [human iris atlas](../analysis/iris-atlas-run-2026-10-17/IRIS_TARGET_REPORT.md) is now complete: 57,422 nuclei, including 17,811 author-labeled uveal melanocytes and 15,583 posterior pigment epithelial nuclei. TYR transcripts were detected in 93.3% of melanocyte nuclei and 76.4% of posterior pigment epithelial nuclei; OCA2 in 54.7% and 87.4%, respectively. OPTN, RCHY1 and TBK1 transcripts were also detected in subsets of melanocyte nuclei. These are agent-calculated raw-count detection fractions, not reported drug-response rates.
 
 This supports examining the proposed machinery in iris cells and makes a key distinction explicit: enzyme specificity does not establish specificity for the visible anterior iris. Detection in both target and posterior pigment populations makes compartment-selective exposure a separate question. Nuclear capture, sequencing depth, ambient RNA and dropout complicate interpretation; detection does not establish functional protein or pigment processing. The source has four individually labeled donors plus two overlapping pooled labels, which cannot be counted as six independent donors. [Dataset source](https://cellxgene.cziscience.com/collections/63d03351-06be-478e-a0db-f7a653b6b19b).
 
-Next, qualify human-TYR functional assay data by exact target, assay system, reversibility and cell-function effects. The fetched target annotation points to ChEMBL1973, giving a concrete data query. In parallel at the hypothesis level, separate mature-pigment processing from organelle-marker loss and compare the two with the model's required loss rates. Delivery, activity and recovery should stay separate from any combined ranking score.
+Next, follow the expanded comparator set through intact-cell effects, withdrawal and intracellular exposure. Audit the new production-up assay's product readout as well as its independent cellular endpoints. On the disposal side, account separately for old pigment retained inside cells, intact exported pigment, identifiable soluble products, and material associated with lost cells. Optical change might be useful even without complete destruction, but should not be fitted as a mass-loss rate without establishing that relation.
+
+Add pigment-dependent drug retention to the next model. Existing ocular pharmacokinetic research shows that melanin binding can prolong drug residence and action for other drug classes. Chemical reversibility therefore need not imply rapid tissue washout. Whether changing melanin changes free exposure for these particular probes is an unmeasured feedback hypothesis. [Primary ocular pharmacokinetic study](https://doi.org/10.1021/acs.molpharmaceut.4c00694).
+
+The next concrete outputs are a source-qualified intact-cell/withdrawal comparison and an exposure model that distinguishes free drug, pigment-bound drug and release after stopping. Preserve the original fixed iris panel; any new IP3R2-pathway gene check should be a declared extension. Delivery, activity and recovery remain separate quantities.
 
 ## Reproduction and checks
 

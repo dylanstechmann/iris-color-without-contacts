@@ -1,0 +1,94 @@
+{
+  "source_doi": "10.1371/journal.pbio.3003971",
+  "sources": {
+    "s001": {
+      "file": "journal.pbio.3003971.s001.xlsx",
+      "sha256": "3c318f362f508aef8e3b2f72daefbf13010f35ce9fdd4f3fbb4f7982593ca0f4",
+      "bytes": 413363,
+      "url": "https://doi.org/10.1371/journal.pbio.3003971.s001"
+    },
+    "s002": {
+      "file": "journal.pbio.3003971.s002.xlsx",
+      "sha256": "ce078bb7886bbf20674f5031e40c15f86d5b887d3205af7c95be1a1fe60d2f77",
+      "bytes": 355437,
+      "url": "https://doi.org/10.1371/journal.pbio.3003971.s002"
+    }
+  },
+  "panels": [
+    {
+      "panel": "human_pigmentation_1K",
+      "source": "s001",
+      "sheet": "Fig 1",
+      "start": 50,
+      "end": 52,
+      "metric": "authors_normalized_pellet_pixel_intensity",
+      "population": "primary_neonatal_human_epidermal_melanocytes",
+      "replication": "N=3 as supplied; independent donor count not established",
+      "groups": {
+        "control": {
+          "n_observations": 3,
+          "mean": 1.0,
+          "sample_sd": 0.0
+        },
+        "siIP3R2": {
+          "n_observations": 3,
+          "mean": 0.8079276666666667,
+          "sample_sd": 0.05969550540311497
+        }
+      },
+      "ratio_of_group_means": 0.8079276666666667
+    },
+    {
+      "panel": "human_target_protein_S1R",
+      "source": "s002",
+      "sheet": "Supplementary Fig 1",
+      "start": 81,
+      "end": 83,
+      "metric": "normalized_IP3R2_protein_signal",
+      "population": "primary_neonatal_human_epidermal_melanocytes",
+      "replication": "N=3 as supplied; independent donor count not established",
+      "groups": {
+        "control": {
+          "n_observations": 3,
+          "mean": 1.0,
+          "sample_sd": 0.0
+        },
+        "siIP3R2": {
+          "n_observations": 3,
+          "mean": 0.31,
+          "sample_sd": 0.2523885892824792
+        }
+      },
+      "ratio_of_group_means": 0.31
+    },
+    {
+      "panel": "B16_energy_5K",
+      "source": "s001",
+      "sheet": "Fig 5",
+      "start": 3939,
+      "end": 3950,
+      "metric": "ADP_ATP_ratio",
+      "population": "B16_mouse_melanoma_cells",
+      "replication": "12 wells per group; biological experiment independence not established",
+      "groups": {
+        "control": {
+          "n_observations": 12,
+          "mean": 0.6256715,
+          "sample_sd": 0.5234998459453625
+        },
+        "siIP3R2": {
+          "n_observations": 12,
+          "mean": 1.4191569166666667,
+          "sample_sd": 1.0643836865683403
+        }
+      },
+      "ratio_of_group_means": 2.2682140974403766
+    }
+  ],
+  "limits": [
+    "Descriptive arithmetic only; no new significance tests.",
+    "Normalized controls equal to one do not establish zero biological variation.",
+    "Pellet image intensity is not mature melanin mass, optical eye color, or a pigment-loss rate.",
+    "siRNA knockdown is not an ocular drug response or a withdrawal/recovery experiment."
+  ]
+}

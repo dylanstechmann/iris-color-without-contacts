@@ -1,0 +1,23 @@
+{
+  "records": 870,
+  "explicit_human_description_records": 362,
+  "explicit_human_records_in_five_known_secondary_sources": 120,
+  "explicit_human_records_flagged_potential_duplicate_by_chembl": 55,
+  "all_records_flagged_potential_duplicate_by_chembl": 57,
+  "description_metadata_species_conflict_records": 10,
+  "conflicting_assay_ids": [
+    "CHEMBL5518344",
+    "CHEMBL5518347"
+  ],
+  "known_secondary_sources": {
+    "CHEMBL4411257": "Perspective/review: Inhibitors of Melanogenesis: An Updated Review",
+    "CHEMBL4715852": "Review: Advances in the Design of Genuine Human Tyrosinase Inhibitors",
+    "CHEMBL5241093": "Review: Recent advances in the design and discovery of synthetic tyrosinase inhibitors",
+    "CHEMBL5331042": "Review: Azole inhibitors of mushroom and human tyrosinases",
+    "CHEMBL5523717": "Review: Pyrrole-containing hybrids as potential anticancer agents"
+  },
+  "known_secondary_is_exhaustive": false,
+  "flags_overlap": true,
+  "potencies_pooled": false,
+  "meaning": "Source triage, not independent experimental counts or a qualified-eye-drug shortlist."
+}

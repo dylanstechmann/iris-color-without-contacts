@@ -4,11 +4,28 @@ These are AI-run research calculations on hypothetical balances and existing pub
 
 ## Outputs
 
+- [TYR assay audit](tyr-assay-audit-final-2026-10-17/ASSAY_REPORT.md): 870 activity records with explicit species, endpoint and repeated-source qualifications.
+- [IP3R2 numerical extraction](ip3r2-data-run-2026-10-17/DATA_REPORT.md): human skin-cell image/protein metrics and a separate mouse-cell energy endpoint from public source workbooks.
 - [Model report](feasibility-run-2026-10-17/MODEL_REPORT.md): 720 combinations of production, baseline loss, added loss and persistent pigment.
 - [Human iris target-location report](iris-atlas-run-2026-10-17/IRIS_TARGET_REPORT.md): fixed-panel reanalysis of 57,422 existing human iris nuclei.
 - [Compound properties](workbench-comparison-2026-10-17/compounds.csv): seven PubChem identities with RDKit descriptors.
 - [Target snapshots](target-snapshots-2026-10-17): human TYR/OCA2 sequence and annotation snapshots.
 - [Workbench status](WORKBENCH_STATUS.md): actual runtime and check outcomes.
+
+## Repeat the new source checks
+
+Inside the full Regen Workbench image, with this repository mounted as /lab/projects/iris-color:
+
+    python /lab/projects/iris-color/analysis/audit_tyr_assays.py --cache /lab/data/iris-tyr-assays-new --out /lab/projects/iris-color/analysis/new-tyr-audit
+    python /lab/projects/iris-color/analysis/qualify_tyr_records.py --input /lab/projects/iris-color/analysis/new-tyr-audit
+
+The first command performs bounded pagination through public target, activity, assay and document endpoints, records actual fetch provenance, and checks identifier/page completeness. Full activity/assay responses stay in workbench data; selected fields are exported. The second command flags a declared partial set of secondary sources and species conflicts. It retains every activity ID and does not pool measurements or rank compounds by potency.
+
+The IP3R2 extraction reads two original public source workbooks obtained through Regen's HTTP/provenance functions:
+
+    python analysis/extract_ip3r2_data.py --input PATH_TO_ORIGINAL_WORKBOOKS --out analysis/new-ip3r2-extract
+
+See the run's source URLs and SHA-256 values in [summary.json](ip3r2-data-run-2026-10-17/summary.json). Output folders for the audit and workbook extraction must be new. The extraction uses Python's standard-library ZIP/XML reader and statistics module; it does not modify Excel files, infer donor independence, or perform significance tests.
 
 ## Reproduce the balance
 
