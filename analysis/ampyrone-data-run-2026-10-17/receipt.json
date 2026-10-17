@@ -1,0 +1,34 @@
+{
+  "python": "3.11.16",
+  "source_workbook_sha256": "91ead86457a85cbfda800548b583e07ad18755e6fad7c11e35a71ba44363782f",
+  "analysis_scripts": {
+    "extract_ampyrone_data.py": "08c25ed45c30133d7bf15d6c034079637a4b1e8029675e2b778ebbc23af497b4",
+    "read_source_xlsx.py": "c746bfa783fb019c0a4937ff8aa0a6cc0ab36fadfc73ab54ec71d935efed01c8"
+  },
+  "outputs": {
+    "ampyrone_readouts.svg": {
+      "bytes": 90068,
+      "sha256": "2ce97da66e5d8e5d2cd5c8e1018851ef035fc6ae03e972cffa0677ce88436905"
+    },
+    "enzyme_curve_means.csv": {
+      "bytes": 3969,
+      "sha256": "c0d0b0075770c84bc126ac457c823d80f3068106c07efa7c8da4aaf3d5b0b38d"
+    },
+    "observations.csv": {
+      "bytes": 11247,
+      "sha256": "659f9b1398e32ba1e0be4df8a6e4f6401c155932fd2d90129ac2b1d3bf9511a0"
+    },
+    "source_issues.json": {
+      "bytes": 1089,
+      "sha256": "759040fb2cc36a152a9c347aa1fd7864fbea0c1695959e850fb128a17fc88c7e"
+    },
+    "sources.json": {
+      "bytes": 481,
+      "sha256": "f2722145903d27c06368ff9985bcbfbbd5a6b30fb3b96f8707834d3dc985f4c6"
+    },
+    "summary.json": {
+      "bytes": 18474,
+      "sha256": "2646d26fcadfc318f9039430a1d418c8f96412abd3974e372b533195d503e2e0"
+    }
+  }
+}

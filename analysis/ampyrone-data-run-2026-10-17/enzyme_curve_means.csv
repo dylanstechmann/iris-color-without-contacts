@@ -1,0 +1,27 @@
+reaction,variant,substrate_mM,control_source_mean,ampyrone_source_mean,ratio_of_means,source_cells,endpoint
+diphenolase,WT,0.098,0.0536,0.0618,1.1529850746268657,"Figure 2!A3,B3,D3",authors_absorbance_derived_rate; not independently identified product
+diphenolase,WT,0.156,0.0825,0.1047,1.269090909090909,"Figure 2!A4,B4,D4",authors_absorbance_derived_rate; not independently identified product
+diphenolase,WT,0.38,0.1295,0.1819,1.4046332046332046,"Figure 2!A5,B5,D5",authors_absorbance_derived_rate; not independently identified product
+diphenolase,WT,0.75,0.1781,0.2293,1.2874789444132508,"Figure 2!A6,B6,D6",authors_absorbance_derived_rate; not independently identified product
+diphenolase,WT,1.5,0.1917,0.26,1.3562858633281167,"Figure 2!A7,B7,D7",authors_absorbance_derived_rate; not independently identified product
+diphenolase,WT,3.0,0.1901,0.3098,1.6296685954760655,"Figure 2!A8,B8,D8",authors_absorbance_derived_rate; not independently identified product
+diphenolase,WT,6.0,0.1874,0.3524,1.8804695837780148,"Figure 2!A9,B9,D9",authors_absorbance_derived_rate; not independently identified product
+diphenolase,P406L,0.098,0.0172,0.0308,1.7906976744186047,"Figure 2!F3,G3,I3",authors_absorbance_derived_rate; not independently identified product
+diphenolase,P406L,0.156,0.0247,0.0575,2.327935222672065,"Figure 2!F4,G4,I4",authors_absorbance_derived_rate; not independently identified product
+diphenolase,P406L,0.38,0.0505,0.1012,2.003960396039604,"Figure 2!F5,G5,I5",authors_absorbance_derived_rate; not independently identified product
+diphenolase,P406L,0.75,0.0577,0.1337,2.317157712305026,"Figure 2!F6,G6,I6",authors_absorbance_derived_rate; not independently identified product
+diphenolase,P406L,1.5,0.0816,0.1827,2.238970588235294,"Figure 2!F7,G7,I7",authors_absorbance_derived_rate; not independently identified product
+diphenolase,P406L,3.0,0.0847,0.2308,2.7249114521841795,"Figure 2!F8,G8,I8",authors_absorbance_derived_rate; not independently identified product
+diphenolase,P406L,6.0,0.0874,0.292,3.340961098398169,"Figure 2!F9,G9,I9",authors_absorbance_derived_rate; not independently identified product
+monophenolase,WT,0.023,0.04456667,0.11133333,2.498129880468969,"Figure 2!K3,L3,N3",authors_absorbance_derived_rate; not independently identified product
+monophenolase,WT,0.047,0.0581,0.13036667,2.243832530120482,"Figure 2!K4,L4,N4",authors_absorbance_derived_rate; not independently identified product
+monophenolase,WT,0.094,0.07263333,0.18106667,2.4928868055478115,"Figure 2!K5,L5,N5",authors_absorbance_derived_rate; not independently identified product
+monophenolase,WT,0.188,0.10286667,0.22053333,2.1438754652017025,"Figure 2!K6,L6,N6",authors_absorbance_derived_rate; not independently identified product
+monophenolase,WT,0.375,0.16076667,0.2777,1.7273480877597327,"Figure 2!K7,L7,N7",authors_absorbance_derived_rate; not independently identified product
+monophenolase,WT,0.75,0.15056667,0.27326667,1.81492138997296,"Figure 2!K8,L8,N8",authors_absorbance_derived_rate; not independently identified product
+monophenolase,P406L,0.023,0.0334,0.1883,5.637724550898204,"Figure 2!P3,Q3,S3",authors_absorbance_derived_rate; not independently identified product
+monophenolase,P406L,0.047,0.03656667,0.23546667,6.439379631779431,"Figure 2!P4,Q4,S4",authors_absorbance_derived_rate; not independently identified product
+monophenolase,P406L,0.094,0.0648,0.29123333,4.494341512345679,"Figure 2!P5,Q5,S5",authors_absorbance_derived_rate; not independently identified product
+monophenolase,P406L,0.188,0.08626667,0.3633,4.211359960921176,"Figure 2!P6,Q6,S6",authors_absorbance_derived_rate; not independently identified product
+monophenolase,P406L,0.375,0.1175,0.455,3.8723404255319154,"Figure 2!P7,Q7,S7",authors_absorbance_derived_rate; not independently identified product
+monophenolase,P406L,0.75,0.12496667,0.41166667,3.294211728615318,"Figure 2!P8,Q8,S8",authors_absorbance_derived_rate; not independently identified product

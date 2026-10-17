@@ -4,6 +4,8 @@ These are AI-run research calculations on hypothetical balances and existing pub
 
 ## Outputs
 
+- [Ampyrone numerical readout review](ampyrone-readout-review.md): selected public-workbook values, exact source cells and distinct human-cell, skin and mouse-cell endpoints; no iris or withdrawal inference.
+- [Phenolic binding follow-up](phenolic-binding-followup.md): measured paracetamol two-site data and remaining resorcinol/pyrazolone gaps, kept separate from the existing MST panel.
 - [Measured binding benchmark and chemical coverage](binding-benchmark-run-2026-10-17/BENCHMARK_REPORT.md): nineteen resolved structures, source-specific binding/release endpoints and 88 probe/reference comparisons; no fitted affinity predictor.
 - [Exposure and pigment-feedback model](exposure-run-2026-10-17/MODEL_REPORT.md): separate free/bound pools, membrane escape, gross pigment turnover and production up/down; 32 hypothetical cases.
 - [TYR assay audit](tyr-assay-audit-final-2026-10-17/ASSAY_REPORT.md): 870 activity records with explicit species, endpoint and repeated-source qualifications.
@@ -13,6 +15,15 @@ These are AI-run research calculations on hypothetical balances and existing pub
 - [Compound properties](workbench-comparison-2026-10-17/compounds.csv): seven PubChem identities with RDKit descriptors.
 - [Target snapshots](target-snapshots-2026-10-17): human TYR/OCA2 sequence and annotation snapshots.
 - [Workbench status](WORKBENCH_STATUS.md): actual runtime and check outcomes.
+
+## Reproduce the ampyrone extraction
+
+Inside the full Regen Workbench image, with this repository mounted as /lab/projects/iris-color:
+
+    python /lab/projects/iris-color/analysis/fetch_ampyrone_sources.py --cache /lab/data/literature/iris-ampyrone-new
+    python /lab/projects/iris-color/analysis/extract_ampyrone_data.py --input /lab/data/literature/iris-ampyrone-new/supporting-data.xlsx --out /lab/projects/iris-color/analysis/new-ampyrone-extract --plot
+
+The source workbook is read without editing through Python's standard-library ZIP/XML reader. Its exact snapshot hash is pinned. The output folder must be new. The numerical cells were declared after inspecting source layout and figure mapping, before calculating summaries. Ratios divide matched condition means within each endpoint. Original values, source issues and endpoint-specific replication limits are exported. No sample labels are repaired, donor counts inferred, new significance tests performed, or new kinetic constants fitted. Figure 2 contains means/dispersion rather than replicate-level curves. Scientific plotting uses the existing matplotlib runtime. The original XML/workbook stay in ignored literature storage; source sizes and hashes are exported.
 
 ## Reproduce the binding benchmark
 

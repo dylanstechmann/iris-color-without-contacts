@@ -1,0 +1,14 @@
+[
+  {
+    "file": "main.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13502167/fullTextXML",
+    "bytes": 134377,
+    "sha256": "caed3278c7f747065c4b0d4abe91ccf950fe3cbb94143ac65e246695c5396e41"
+  },
+  {
+    "file": "supporting-data.xlsx",
+    "url": "https://df6sxcketz7bb.cloudfront.net/manuscripts/202000/202947/jci.insight.202947.sdval.xlsx",
+    "bytes": 11204898,
+    "sha256": "91ead86457a85cbfda800548b583e07ad18755e6fad7c11e35a71ba44363782f"
+  }
+]

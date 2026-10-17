@@ -1,0 +1,27 @@
+[
+  {
+    "issue": "exactly_duplicated_DHI_values",
+    "cells": "Figure 5!Y4=Z4; AC4=AD4; Y5=Z5; AC5=AD5",
+    "handling": "retained verbatim; cannot establish whether repeated observations, processing or transcription"
+  },
+  {
+    "issue": "duplicated_histogram_label",
+    "cells": "Figure 5!AG2,AH2 both control 2",
+    "handling": "no relabeling; selected supplied mean-scatter values separately"
+  },
+  {
+    "issue": "S12_numeric_scope",
+    "cells": "Figure S12!A1:G1025",
+    "handling": "only one histogram block; no separately labeled means for supplemental panels B/C. No reconstructed extra-cell-line results"
+  },
+  {
+    "issue": "isotope_timepoint_conflict",
+    "cells": "Figure 5!B3:B5,L3:L5,V3:V5",
+    "handling": "workbook and figure show 20/60/180 minutes, whereas Methods states 20/40/60; follow explicit workbook labels and retain discrepancy"
+  },
+  {
+    "issue": "Figure2_mean_SD_only",
+    "cells": "Figure 2!A1:T9",
+    "handling": "means and adjacent dispersion values supplied, not replicate-level curves; no new kinetic fit or uncertainty inference"
+  }
+]

@@ -32,3 +32,7 @@ PubChem	441074	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/441074	Quini
 PubChem	174174	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/174174	Atropine name query returned Npc209773 with partly unspecified stereochemistry
 PubChem	126941	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/126941	Methotrexate named-parent reference
 PubChem	2151	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/2151	Ampyrone / 4-aminoantipyrine probe
+JCI_Insight	202947_supporting_values	2026-10-17	https://insight.jci.org/articles/view/202947/sd/2	Ampyrone workbook 11204898 bytes SHA256 91ead86457a85cbfda800548b583e07ad18755e6fad7c11e35a71ba44363782f
+EuropePMC	PMC13502167_XML	2026-10-17	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13502167/fullTextXML	Ampyrone primary XML SHA256 caed3278c7f747065c4b0d4abe91ccf950fe3cbb94143ac65e246695c5396e41
+Primary_paper	Buszman2009_Paracetamol	2026-10-17	https://czasopisma.umlub.pl/curipms/article/download/2824/2815/7529	Table1 synthetic DOPA-melanin two-site optical-depletion estimates; not ocular retention
+DOI	10.1039/D4AN01203H	2026-10-17	https://doi.org/10.1039/D4AN01203H	4-aminoantipyrine color-coupling example; does not establish interference in human-TYR assay

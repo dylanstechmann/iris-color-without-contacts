@@ -17,6 +17,7 @@ def check():
         ("feasibility-run-2026-10-17", "outputs"),
         ("exposure-run-2026-10-17", "outputs"),
         ("binding-benchmark-run-2026-10-17", "outputs"),
+        ("ampyrone-data-run-2026-10-17", "outputs"),
         ("iris-atlas-run-2026-10-17", "outputs"),
         ("workbench-comparison-2026-10-17", "files"),
         ("target-snapshots-2026-10-17", None),
@@ -47,6 +48,10 @@ def check():
         raise ValueError("Binding benchmark source differs from run receipt.")
     if digest(ROOT / "binding_benchmark_inputs.json") != binding["input_sha256"]:
         raise ValueError("Binding benchmark inputs differ from run receipt.")
+    ampyrone = json.loads((ROOT / "ampyrone-data-run-2026-10-17" / "receipt.json").read_text())
+    for script, expected_hash in ampyrone["analysis_scripts"].items():
+        if digest(ROOT / script) != expected_hash:
+            raise ValueError("Ampyrone analysis source differs from receipt: " + script)
     for name, receipt_name, script in [
         ("tyr-assay-audit-final-2026-10-17", "receipt.json", "audit_tyr_assays.py"),
         ("tyr-assay-audit-final-2026-10-17", "qualification_receipt.json", "qualify_tyr_records.py"),

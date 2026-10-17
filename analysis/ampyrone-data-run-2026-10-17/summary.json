@@ -1,0 +1,719 @@
+{
+  "source_doi": "10.1172/jci.insight.202947",
+  "source_url": "https://df6sxcketz7bb.cloudfront.net/manuscripts/202000/202947/jci.insight.202947.sdval.xlsx",
+  "source_sha256": "91ead86457a85cbfda800548b583e07ad18755e6fad7c11e35a71ba44363782f",
+  "source_bytes": 11204898,
+  "sheets": {
+    "Figure 1": {
+      "nonempty_cells": 799
+    },
+    "Figure 2": {
+      "nonempty_cells": 144
+    },
+    "Figure 4": {
+      "nonempty_cells": 23510
+    },
+    "Figure 5": {
+      "nonempty_cells": 10358
+    },
+    "Figure 6": {
+      "nonempty_cells": 44
+    },
+    "Figure S1": {
+      "nonempty_cells": 4731
+    },
+    "Figure S2": {
+      "nonempty_cells": 126
+    },
+    "Figure S3": {
+      "nonempty_cells": 1602
+    },
+    "Figure S4": {
+      "nonempty_cells": 8705
+    },
+    "Figure S5": {
+      "nonempty_cells": 144
+    },
+    "Figure S6": {
+      "nonempty_cells": 5553
+    },
+    "Figure S7": {
+      "nonempty_cells": 2762
+    },
+    "Figure S8": {
+      "nonempty_cells": 809102
+    },
+    "Figure S9": {
+      "nonempty_cells": 7631
+    },
+    "Figure S10": {
+      "nonempty_cells": 7653
+    },
+    "Figure S11": {
+      "nonempty_cells": 35
+    },
+    "Figure S12": {
+      "nonempty_cells": 7175
+    }
+  },
+  "groups": [
+    {
+      "id": "mouse_tyrosine_20",
+      "sheet": "Figure 5",
+      "metric": "13C_labeled_ion_counts",
+      "population": "mouse_melan_ink4a_null_melanocytes",
+      "replication": "3 or 4 supplied values per condition; exact biological independence not assigned in workbook",
+      "time_min": 20,
+      "metabolite": "tyrosine",
+      "groups": {
+        "control": {
+          "cells": [
+            "C3",
+            "D3",
+            "E3",
+            "F3"
+          ],
+          "n_supplied_values": 4,
+          "n_unique_values": 4,
+          "values": [
+            405081.2,
+            347259.0,
+            390311.1,
+            292578.9
+          ],
+          "mean": 358807.55,
+          "sample_sd_of_supplied_values": 50508.505669342456
+        },
+        "ampyrone": {
+          "cells": [
+            "G3",
+            "H3",
+            "I3",
+            "J3"
+          ],
+          "n_supplied_values": 4,
+          "n_unique_values": 4,
+          "values": [
+            541802.1,
+            472627.9,
+            450410.5,
+            426576.7
+          ],
+          "mean": 472854.3,
+          "sample_sd_of_supplied_values": 49662.83252091043
+        }
+      },
+      "ratio_of_means": 1.3178493596358272
+    },
+    {
+      "id": "mouse_tyrosine_60",
+      "sheet": "Figure 5",
+      "metric": "13C_labeled_ion_counts",
+      "population": "mouse_melan_ink4a_null_melanocytes",
+      "replication": "3 or 4 supplied values per condition; exact biological independence not assigned in workbook",
+      "time_min": 60,
+      "metabolite": "tyrosine",
+      "groups": {
+        "control": {
+          "cells": [
+            "C4",
+            "D4",
+            "E4",
+            "F4"
+          ],
+          "n_supplied_values": 4,
+          "n_unique_values": 4,
+          "values": [
+            648875.0,
+            489585.9,
+            521040.7,
+            557331.7
+          ],
+          "mean": 554208.325,
+          "sample_sd_of_supplied_values": 68914.64282711741
+        },
+        "ampyrone": {
+          "cells": [
+            "G4",
+            "H4",
+            "I4",
+            "J4"
+          ],
+          "n_supplied_values": 4,
+          "n_unique_values": 4,
+          "values": [
+            579444.7,
+            578692.4,
+            569110.2,
+            448241.2
+          ],
+          "mean": 543872.125,
+          "sample_sd_of_supplied_values": 63927.28653000348
+        }
+      },
+      "ratio_of_means": 0.981349612530631
+    },
+    {
+      "id": "mouse_tyrosine_180",
+      "sheet": "Figure 5",
+      "metric": "13C_labeled_ion_counts",
+      "population": "mouse_melan_ink4a_null_melanocytes",
+      "replication": "3 or 4 supplied values per condition; exact biological independence not assigned in workbook",
+      "time_min": 180,
+      "metabolite": "tyrosine",
+      "groups": {
+        "control": {
+          "cells": [
+            "C5",
+            "D5",
+            "E5"
+          ],
+          "n_supplied_values": 3,
+          "n_unique_values": 3,
+          "values": [
+            2470562.0,
+            1899418.0,
+            1836809.0
+          ],
+          "mean": 2068929.6666666667,
+          "sample_sd_of_supplied_values": 349229.6810185717
+        },
+        "ampyrone": {
+          "cells": [
+            "G5",
+            "H5",
+            "I5"
+          ],
+          "n_supplied_values": 3,
+          "n_unique_values": 3,
+          "values": [
+            2358550.0,
+            2499482.0,
+            1550444.0
+          ],
+          "mean": 2136158.6666666665,
+          "sample_sd_of_supplied_values": 512114.93848288915
+        }
+      },
+      "ratio_of_means": 1.032494579725523
+    },
+    {
+      "id": "mouse_DHICA_20",
+      "sheet": "Figure 5",
+      "metric": "13C_labeled_ion_counts",
+      "population": "mouse_melan_ink4a_null_melanocytes",
+      "replication": "3 or 4 supplied values per condition; exact biological independence not assigned in workbook",
+      "time_min": 20,
+      "metabolite": "DHICA",
+      "groups": {
+        "control": {
+          "cells": [
+            "M3",
+            "N3",
+            "O3",
+            "P3"
+          ],
+          "n_supplied_values": 4,
+          "n_unique_values": 4,
+          "values": [
+            2465799.0,
+            2911582.75,
+            3778382.25,
+            2413508.25
+          ],
+          "mean": 2892318.0625,
+          "sample_sd_of_supplied_values": 631574.2816635986
+        },
+        "ampyrone": {
+          "cells": [
+            "Q3",
+            "R3",
+            "S3",
+            "T3"
+          ],
+          "n_supplied_values": 4,
+          "n_unique_values": 4,
+          "values": [
+            6946332.0,
+            7072239.5,
+            6597037.5,
+            6224513.0
+          ],
+          "mean": 6710030.5,
+          "sample_sd_of_supplied_values": 381019.8680027504
+        }
+      },
+      "ratio_of_means": 2.3199490356880488
+    },
+    {
+      "id": "mouse_DHICA_60",
+      "sheet": "Figure 5",
+      "metric": "13C_labeled_ion_counts",
+      "population": "mouse_melan_ink4a_null_melanocytes",
+      "replication": "3 or 4 supplied values per condition; exact biological independence not assigned in workbook",
+      "time_min": 60,
+      "metabolite": "DHICA",
+      "groups": {
+        "control": {
+          "cells": [
+            "M4",
+            "N4",
+            "O4"
+          ],
+          "n_supplied_values": 3,
+          "n_unique_values": 3,
+          "values": [
+            13615025.0,
+            8639098.0,
+            12240693.1
+          ],
+          "mean": 11498272.033333333,
+          "sample_sd_of_supplied_values": 2569699.2348337388
+        },
+        "ampyrone": {
+          "cells": [
+            "Q4",
+            "R4",
+            "S4"
+          ],
+          "n_supplied_values": 3,
+          "n_unique_values": 3,
+          "values": [
+            21550223.2,
+            23390846.0,
+            20131465.6
+          ],
+          "mean": 21690844.933333334,
+          "sample_sd_of_supplied_values": 1634234.0719402137
+        }
+      },
+      "ratio_of_means": 1.8864438822156817
+    },
+    {
+      "id": "mouse_DHICA_180",
+      "sheet": "Figure 5",
+      "metric": "13C_labeled_ion_counts",
+      "population": "mouse_melan_ink4a_null_melanocytes",
+      "replication": "3 or 4 supplied values per condition; exact biological independence not assigned in workbook",
+      "time_min": 180,
+      "metabolite": "DHICA",
+      "groups": {
+        "control": {
+          "cells": [
+            "M5",
+            "N5",
+            "O5"
+          ],
+          "n_supplied_values": 3,
+          "n_unique_values": 3,
+          "values": [
+            13417599.9,
+            14102961.6,
+            7606911.37
+          ],
+          "mean": 11709157.623333333,
+          "sample_sd_of_supplied_values": 3569138.328392057
+        },
+        "ampyrone": {
+          "cells": [
+            "Q5",
+            "R5",
+            "S5"
+          ],
+          "n_supplied_values": 3,
+          "n_unique_values": 3,
+          "values": [
+            21375241.6,
+            21459401.5,
+            15981859.0
+          ],
+          "mean": 19605500.7,
+          "sample_sd_of_supplied_values": 3138447.8806690695
+        }
+      },
+      "ratio_of_means": 1.674373283773317
+    },
+    {
+      "id": "mouse_DHI_20",
+      "sheet": "Figure 5",
+      "metric": "13C_labeled_ion_counts",
+      "population": "mouse_melan_ink4a_null_melanocytes",
+      "replication": "3 or 4 supplied values per condition; exact biological independence not assigned in workbook",
+      "time_min": 20,
+      "metabolite": "DHI",
+      "groups": {
+        "control": {
+          "cells": [
+            "W3",
+            "X3",
+            "Y3",
+            "Z3"
+          ],
+          "n_supplied_values": 4,
+          "n_unique_values": 4,
+          "values": [
+            43628.13,
+            51518.45,
+            70595.55,
+            41739.46
+          ],
+          "mean": 51870.3975,
+          "sample_sd_of_supplied_values": 13182.388141778094
+        },
+        "ampyrone": {
+          "cells": [
+            "AA3",
+            "AB3",
+            "AC3",
+            "AD3"
+          ],
+          "n_supplied_values": 4,
+          "n_unique_values": 4,
+          "values": [
+            132348.8,
+            124188.2,
+            122226.2,
+            106237.2
+          ],
+          "mean": 121250.09999999999,
+          "sample_sd_of_supplied_values": 10926.321596951095
+        }
+      },
+      "ratio_of_means": 2.337558720270073
+    },
+    {
+      "id": "mouse_DHI_60",
+      "sheet": "Figure 5",
+      "metric": "13C_labeled_ion_counts",
+      "population": "mouse_melan_ink4a_null_melanocytes",
+      "replication": "3 or 4 supplied values per condition; exact biological independence not assigned in workbook",
+      "time_min": 60,
+      "metabolite": "DHI",
+      "groups": {
+        "control": {
+          "cells": [
+            "W4",
+            "X4",
+            "Y4",
+            "Z4"
+          ],
+          "n_supplied_values": 4,
+          "n_unique_values": 3,
+          "values": [
+            207735.262,
+            194806.609,
+            172337.977,
+            172337.977
+          ],
+          "mean": 186804.45625,
+          "sample_sd_of_supplied_values": 17518.477119505616
+        },
+        "ampyrone": {
+          "cells": [
+            "AA4",
+            "AB4",
+            "AC4",
+            "AD4"
+          ],
+          "n_supplied_values": 4,
+          "n_unique_values": 3,
+          "values": [
+            381300.715,
+            497699.102,
+            331684.85,
+            331684.85
+          ],
+          "mean": 385592.37925,
+          "sample_sd_of_supplied_values": 78312.15122286647
+        }
+      },
+      "ratio_of_means": 2.064149790591519
+    },
+    {
+      "id": "mouse_DHI_180",
+      "sheet": "Figure 5",
+      "metric": "13C_labeled_ion_counts",
+      "population": "mouse_melan_ink4a_null_melanocytes",
+      "replication": "3 or 4 supplied values per condition; exact biological independence not assigned in workbook",
+      "time_min": 180,
+      "metabolite": "DHI",
+      "groups": {
+        "control": {
+          "cells": [
+            "W5",
+            "X5",
+            "Y5",
+            "Z5"
+          ],
+          "n_supplied_values": 4,
+          "n_unique_values": 3,
+          "values": [
+            184616.525,
+            168648.729,
+            132415.005,
+            132415.005
+          ],
+          "mean": 154523.816,
+          "sample_sd_of_supplied_values": 26348.202657763275
+        },
+        "ampyrone": {
+          "cells": [
+            "AA5",
+            "AB5",
+            "AC5",
+            "AD5"
+          ],
+          "n_supplied_values": 4,
+          "n_unique_values": 3,
+          "values": [
+            468900.262,
+            567272.18,
+            369146.535,
+            369146.535
+          ],
+          "mean": 443616.378,
+          "sample_sd_of_supplied_values": 94906.17681211619
+        }
+      },
+      "ratio_of_means": 2.8708608775232425
+    },
+    {
+      "id": "human_C4_scatter",
+      "sheet": "Figure 5",
+      "metric": "mean_355nm_scatter",
+      "population": "human_epidermal_melanocyte_line",
+      "replication": "2 supplied mean-scatter values per condition; cells/events are not independent replicates",
+      "plot_label": "WT C4",
+      "groups": {
+        "control": {
+          "cells": [
+            "AK2",
+            "AK3"
+          ],
+          "n_supplied_values": 2,
+          "n_unique_values": 2,
+          "values": [
+            1660.91,
+            1707.58
+          ],
+          "mean": 1684.245,
+          "sample_sd_of_supplied_values": 33.000673477976065
+        },
+        "ampyrone": {
+          "cells": [
+            "AL2",
+            "AL3"
+          ],
+          "n_supplied_values": 2,
+          "n_unique_values": 2,
+          "values": [
+            3029.92,
+            2909.79
+          ],
+          "mean": 2969.855,
+          "sample_sd_of_supplied_values": 84.94473762394003
+        }
+      },
+      "ratio_of_means": 1.7633153133896793
+    },
+    {
+      "id": "human_1125_scatter",
+      "sheet": "Figure 5",
+      "metric": "mean_355nm_scatter",
+      "population": "human_epidermal_melanocyte_line",
+      "replication": "2 supplied mean-scatter values per condition; cells/events are not independent replicates",
+      "plot_label": "OCA1B 1125",
+      "groups": {
+        "control": {
+          "cells": [
+            "AR2",
+            "AR3"
+          ],
+          "n_supplied_values": 2,
+          "n_unique_values": 2,
+          "values": [
+            2248.31,
+            2130.56
+          ],
+          "mean": 2189.435,
+          "sample_sd_of_supplied_values": 83.26182348471598
+        },
+        "ampyrone": {
+          "cells": [
+            "AS2",
+            "AS3"
+          ],
+          "n_supplied_values": 2,
+          "n_unique_values": 2,
+          "values": [
+            4608.67,
+            4640.57
+          ],
+          "mean": 4624.62,
+          "sample_sd_of_supplied_values": 22.55670631985061
+        }
+      },
+      "ratio_of_means": 2.1122435696880704
+    },
+    {
+      "id": "skin_TYRP1",
+      "sheet": "Figure 6",
+      "metric": "authors_TYRP1_image_metric",
+      "population": "reconstructed_human_epidermis",
+      "replication": "6 supplied values; legend: duplicates, 3 replicates; nesting and donor independence unassigned",
+      "plot_label": "TYRP1",
+      "groups": {
+        "control": {
+          "cells": [
+            "B3",
+            "B4",
+            "B5",
+            "B6",
+            "B7",
+            "B8"
+          ],
+          "n_supplied_values": 6,
+          "n_unique_values": 6,
+          "values": [
+            1.584357,
+            0.839949,
+            1.657976,
+            0.496126,
+            0.965922,
+            0.462414
+          ],
+          "mean": 1.001124,
+          "sample_sd_of_supplied_values": 0.518471462614096
+        },
+        "ampyrone": {
+          "cells": [
+            "C3",
+            "C4",
+            "C5",
+            "C6",
+            "C7",
+            "C8"
+          ],
+          "n_supplied_values": 6,
+          "n_unique_values": 6,
+          "values": [
+            2.12956,
+            1.362243,
+            2.283223,
+            2.981725,
+            3.631752,
+            3.482854
+          ],
+          "mean": 2.6452261666666668,
+          "sample_sd_of_supplied_values": 0.8753386505707187
+        },
+        "positive": {
+          "cells": [
+            "A3",
+            "A4",
+            "A5",
+            "A6",
+            "A7",
+            "A8"
+          ],
+          "n_supplied_values": 6,
+          "n_unique_values": 6,
+          "values": [
+            4.419416,
+            3.62343,
+            3.780082,
+            3.368156,
+            3.302946,
+            5.320824
+          ],
+          "mean": 3.969142333333333,
+          "sample_sd_of_supplied_values": 0.7733114065310731
+        }
+      },
+      "ratio_of_means": 2.6422562706184918
+    },
+    {
+      "id": "skin_FM",
+      "sheet": "Figure 6",
+      "metric": "Fontana_Masson_area_percent",
+      "population": "reconstructed_human_epidermis",
+      "replication": "6 supplied values; legend: duplicates, 3 replicates; nesting and donor independence unassigned",
+      "plot_label": "FM area",
+      "groups": {
+        "control": {
+          "cells": [
+            "E3",
+            "E4",
+            "E5",
+            "E6",
+            "E7",
+            "E8"
+          ],
+          "n_supplied_values": 6,
+          "n_unique_values": 6,
+          "values": [
+            2.736,
+            3.262,
+            4.35,
+            3.496,
+            4.107,
+            3.717
+          ],
+          "mean": 3.6113333333333335,
+          "sample_sd_of_supplied_values": 0.5837847776935148
+        },
+        "ampyrone": {
+          "cells": [
+            "F3",
+            "F4",
+            "F5",
+            "F6",
+            "F7",
+            "F8"
+          ],
+          "n_supplied_values": 6,
+          "n_unique_values": 6,
+          "values": [
+            5.144,
+            4.802,
+            4.9,
+            4.636,
+            4.052,
+            5.254
+          ],
+          "mean": 4.798,
+          "sample_sd_of_supplied_values": 0.42914612895842374
+        },
+        "positive": {
+          "cells": [
+            "D3",
+            "D4",
+            "D5",
+            "D6",
+            "D7",
+            "D8"
+          ],
+          "n_supplied_values": 6,
+          "n_unique_values": 6,
+          "values": [
+            7.019,
+            5.01,
+            5.103,
+            5.979,
+            4.919,
+            6.879
+          ],
+          "mean": 5.8181666666666665,
+          "sample_sd_of_supplied_values": 0.9556498138265224
+        }
+      },
+      "ratio_of_means": 1.3285951633745614
+    }
+  ],
+  "limits": [
+    "Descriptive arithmetic only; no new significance tests.",
+    "Ratios compare matched means within an endpoint. Ratios across endpoints are not interchangeable.",
+    "Neither scatter, TYRP1 nor labeled intermediate abundance directly measures mature melanin mass.",
+    "No iris efficacy, withdrawal recovery or repeated pigmentation cycle in the source."
+  ]
+}

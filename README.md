@@ -6,7 +6,7 @@ The earlier bidirectional goal remains: **blue → dark brown → the same perso
 
 ## Latest completed exploration
 
-The [measured-reference benchmark](analysis/binding-benchmark-run-2026-10-17/BENCHMARK_REPORT.md) now compares eight probes against eleven compounds with reported pigment-binding estimates. Across 88 structure comparisons, levobunolol most closely resembles nadolol; the leading production-up/down scaffolds have much weaker coverage. No candidate affinities were predicted. The [32-case exposure model](analysis/exposure-run-2026-10-17/MODEL_REPORT.md) remains hypothetical because probe-specific binding and transport are missing. The [mechanism shortlist](research/mechanism-shortlist.md) links these results to the functional and iris-data work.
+The [ampyrone source-data review](analysis/ampyrone-readout-review.md) now extracts human-cell, reconstructed-skin and mouse-cell readouts, keeping their endpoint meanings separate. It finds increased pigment-associated signals, flags duplicated source entries and unclear replication, and identifies a specific enzyme-product chemistry question. The [binding follow-up](analysis/phenolic-binding-followup.md) adds measured paracetamol data as a phenolic comparator; thiamidol and ampyrone retention remain unresolved. The [mechanism shortlist](research/mechanism-shortlist.md) connects these results to the original reversible-color goal.
 
 ## Current research direction
 
@@ -25,7 +25,7 @@ The models do not predict a seven-year biological renewal interval or a compulso
 
 ## Next
 
-Find measured comparators that better cover the leading phenolic/resorcinol and pyrazolone probes, then continue the intact-cell/free-exposure/withdrawal comparison. Inspect the production-up study's underlying readouts and retain pigment-fate accounting for disposal. The [shortlist](research/mechanism-shortlist.md#target-location-and-next-discriminating-work) records these next steps; the [analysis methods](analysis/README.md) document completed runs.
+Look for product-specific human-cell measurements and withdrawal series for the production-up/down probes. For ampyrone, separate increased enzyme catalysis from changed downstream product formation or optical yield. For both directions, compare free compound, newly made pigment, older stored pigment and appearance after stopping. Direct candidate-specific binding and transport remain missing inputs to the [hypothetical exposure model](analysis/exposure-run-2026-10-17/MODEL_REPORT.md). The [analysis methods](analysis/README.md) document completed runs.
 
 The primary cosmetic objective is repeatable living-eye appearance change with preserved function and recovery. A noninvasive color measure can track appearance; chemistry addresses pigment mechanisms. Archived records, cell models, donor-eye calibration, and automation are supporting options chosen for a defined question.
 
