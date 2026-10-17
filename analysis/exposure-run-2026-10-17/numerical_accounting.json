@@ -1,0 +1,307 @@
+[
+  {
+    "case": "capacity0_transport0.1",
+    "max_relative_drug_balance_residual": 7.177199351112123e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity0_transport1",
+    "max_relative_drug_balance_residual": 1.6148698540002276e-15,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity0_transport10",
+    "max_relative_drug_balance_residual": 8.971499188890154e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity10_off0.1_transport0.1",
+    "max_relative_drug_balance_residual": 2.0677169559156357e-15,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity10_off0.1_transport1",
+    "max_relative_drug_balance_residual": 1.1278456123176195e-15,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity10_off0.1_transport10",
+    "max_relative_drug_balance_residual": 7.51897074878413e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity10_off1_transport0.1",
+    "max_relative_drug_balance_residual": 1.6917684184764291e-15,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity10_off1_transport1",
+    "max_relative_drug_balance_residual": 2.0677169559156357e-15,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity10_off1_transport10",
+    "max_relative_drug_balance_residual": 9.398713435980163e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity10_off10_transport0.1",
+    "max_relative_drug_balance_residual": 2.8196140307940486e-15,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity10_off10_transport1",
+    "max_relative_drug_balance_residual": 2.6316397620744454e-15,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity10_off10_transport10",
+    "max_relative_drug_balance_residual": 3.759485374392065e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity100_off0.1_transport0.1",
+    "max_relative_drug_balance_residual": 1.28025718154973e-15,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity100_off0.1_transport1",
+    "max_relative_drug_balance_residual": 9.9575558564979e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity100_off0.1_transport10",
+    "max_relative_drug_balance_residual": 5.6900319179988e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity100_off1_transport0.1",
+    "max_relative_drug_balance_residual": 9.9575558564979e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity100_off1_transport1",
+    "max_relative_drug_balance_residual": 1.13800638359976e-15,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity100_off1_transport10",
+    "max_relative_drug_balance_residual": 5.6900319179988e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity100_off10_transport0.1",
+    "max_relative_drug_balance_residual": 1.13800638359976e-15,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity100_off10_transport1",
+    "max_relative_drug_balance_residual": 1.13800638359976e-15,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity100_off10_transport10",
+    "max_relative_drug_balance_residual": 1.13800638359976e-15,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity100_off1_transport1_kd0.1",
+    "max_relative_drug_balance_residual": 7.836789256027526e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "capacity100_off1_transport1_kd10",
+    "max_relative_drug_balance_residual": 6.20361730513827e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "suppress_none",
+    "phase": "input",
+    "max_relative_drug_balance_residual": 7.972972631717124e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "suppress_none",
+    "phase": "withdrawal",
+    "max_relative_drug_balance_residual": 7.972972631717124e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "suppress_return",
+    "phase": "input",
+    "max_relative_drug_balance_residual": 3.4169882707359137e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "suppress_return",
+    "phase": "withdrawal",
+    "max_relative_drug_balance_residual": 7.972972631717131e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "suppress_coclear",
+    "phase": "input",
+    "max_relative_drug_balance_residual": 3.416988270735913e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "suppress_coclear",
+    "phase": "withdrawal",
+    "max_relative_drug_balance_residual": 1.025096481220774e-15,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "suppress_added_none",
+    "phase": "input",
+    "max_relative_drug_balance_residual": 1.594594526343424e-15,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "suppress_added_none",
+    "phase": "withdrawal",
+    "max_relative_drug_balance_residual": 6.833976541471817e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "suppress_added_return",
+    "phase": "input",
+    "max_relative_drug_balance_residual": 3.4169882707359117e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "suppress_added_return",
+    "phase": "withdrawal",
+    "max_relative_drug_balance_residual": 1.1389960902453039e-15,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "suppress_added_coclear",
+    "phase": "input",
+    "max_relative_drug_balance_residual": 4.555984360981216e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "suppress_added_coclear",
+    "phase": "withdrawal",
+    "max_relative_drug_balance_residual": 1.2528956992698346e-15,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "suppress_added_persistent",
+    "phase": "input",
+    "max_relative_drug_balance_residual": 2.2779921804906086e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "suppress_added_persistent",
+    "phase": "withdrawal",
+    "max_relative_drug_balance_residual": 1.0250964812207738e-15,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.01888291727961489
+  },
+  {
+    "case": "activate_none",
+    "phase": "input",
+    "max_relative_drug_balance_residual": 7.972972631717126e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "activate_none",
+    "phase": "withdrawal",
+    "max_relative_drug_balance_residual": 2.505791398539668e-15,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "activate_return",
+    "phase": "input",
+    "max_relative_drug_balance_residual": 2.8474902256132607e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  },
+  {
+    "case": "activate_return",
+    "phase": "withdrawal",
+    "max_relative_drug_balance_residual": 6.833976541471825e-16,
+    "max_mobile_capacity_excess": 0.0,
+    "max_persistent_capacity_excess": 0.0,
+    "minimum_state": 0.0
+  }
+]

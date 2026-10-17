@@ -15,6 +15,7 @@ def check():
     checked = 0
     for name, key in [
         ("feasibility-run-2026-10-17", "outputs"),
+        ("exposure-run-2026-10-17", "outputs"),
         ("iris-atlas-run-2026-10-17", "outputs"),
         ("workbench-comparison-2026-10-17", "files"),
         ("target-snapshots-2026-10-17", None),
@@ -35,6 +36,11 @@ def check():
         raise ValueError("Model source differs from run receipt.")
     if digest(ROOT / "check_iris_targets.py") != atlas["script_sha256"]:
         raise ValueError("Iris analysis source differs from run receipt.")
+    exposure = json.loads((ROOT / "exposure-run-2026-10-17" / "receipt.json").read_text())
+    if digest(ROOT / "simulate_exposure.py") != exposure["script_sha256"]:
+        raise ValueError("Exposure source differs from run receipt.")
+    if json.loads((ROOT / "exposure_assumptions.json").read_text()) != exposure["assumptions"]:
+        raise ValueError("Exposure assumptions differ from run receipt.")
     for name, receipt_name, script in [
         ("tyr-assay-audit-final-2026-10-17", "receipt.json", "audit_tyr_assays.py"),
         ("tyr-assay-audit-final-2026-10-17", "qualification_receipt.json", "qualify_tyr_records.py"),

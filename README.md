@@ -6,7 +6,7 @@ The earlier bidirectional goal remains: **blue → dark brown → the same perso
 
 ## Latest completed exploration
 
-The [mechanism shortlist](research/mechanism-shortlist.md) now includes production-increase and pigment-disposal leads from 2026, an audit of 870 TYR activity records, and a direct extraction of public IP3R2 numerical data. The assay audit found mixed species annotations and repeated secondary reports that would distort a simple potency ranking. Ampyrone adds a concrete production-up hypothesis; thiamidol remains a reversible production-down reference. Neither establishes an iris intervention or a repeatable color cycle. Earlier balance models, compound calculations and human iris target-location results remain linked in the [analysis index](analysis/README.md).
+The new [exposure and pigment-feedback model](analysis/exposure-run-2026-10-17/MODEL_REPORT.md) separates free drug, pigment-bound drug, membrane escape and pigment recovery across 32 hypothetical cases. It shows how pigment change can continue after input stops, and how drug attached to lost pigment could either return locally or leave with it. All rates remain assumptions; no human treatment time or eye color is predicted. The [mechanism shortlist](research/mechanism-shortlist.md) links these results to the production-up/down probes, the 870-record assay audit, IP3R2 source-data extraction and earlier iris analysis.
 
 ## Current research direction
 
@@ -25,7 +25,7 @@ The models do not predict a seven-year biological renewal interval or a compulso
 
 ## Next
 
-Compare the expanded probes using intact-cell function, withdrawal and intracellular exposure. Add free versus pigment-bound drug to the exposure model: stopping a reversible drug need not immediately empty a tissue reservoir. For disposal, identify what happens to the old pigment after organelle handling. The [shortlist](research/mechanism-shortlist.md#target-location-and-next-discriminating-work) records these concrete next steps; the [analysis methods](analysis/README.md) document completed runs.
+Build a small measured-compound benchmark linking pigment affinity, capacity and release, then compare its chemical coverage with thiamidol, ampyrone and the other probes. Keep assay systems separate and mark similarity-based estimates as hypotheses. Continue the intact-cell/withdrawal comparison and account for old pigment after organelle handling. The [shortlist](research/mechanism-shortlist.md#target-location-and-next-discriminating-work) records these next steps; the [analysis methods](analysis/README.md) document completed runs.
 
 The primary cosmetic objective is repeatable living-eye appearance change with preserved function and recovery. A noninvasive color measure can track appearance; chemistry addresses pigment mechanisms. Archived records, cell models, donor-eye calibration, and automation are supporting options chosen for a defined question.
 

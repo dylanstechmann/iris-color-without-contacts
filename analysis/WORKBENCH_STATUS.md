@@ -9,3 +9,7 @@ Recorded October 17, 2026. Workbench source revision: e71133fd1b4b5c981a566062ce
 - The full existing workbench suite in the shared dev image ran 498 tests: 1 failure, 8 errors, 60 skipped. Reported problems included existing organoid-manifest validation fixtures and missing PyYAML in that image. Workbench source was not changed to address those separate failures.
 
 The lightweight image does not include every full-stack dependency and therefore does not pass the full-image doctor. Chemistry completion is recorded separately from that broad diagnostic. The runtime checks establish software behavior only.
+
+## Exposure-model continuation
+
+The full local CPU image ran the 23 fixed-capacity and nine matched-history calculations with scipy 1.17.1, numpy 2.3.5 and matplotlib 3.11.2. Final calculations used an explicit Jacobian and completed without the numerical-differencing warnings seen in the discarded draft. Accounting and capacity bounds are recorded per trajectory. No new software tests were added or run in this continuation. The generated preview was inspected visually; the SVG is retained with its receipt. Workbench source was not edited for this calculation.

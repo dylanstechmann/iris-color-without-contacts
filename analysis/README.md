@@ -4,6 +4,7 @@ These are AI-run research calculations on hypothetical balances and existing pub
 
 ## Outputs
 
+- [Exposure and pigment-feedback model](exposure-run-2026-10-17/MODEL_REPORT.md): separate free/bound pools, membrane escape, gross pigment turnover and production up/down; 32 hypothetical cases.
 - [TYR assay audit](tyr-assay-audit-final-2026-10-17/ASSAY_REPORT.md): 870 activity records with explicit species, endpoint and repeated-source qualifications.
 - [IP3R2 numerical extraction](ip3r2-data-run-2026-10-17/DATA_REPORT.md): human skin-cell image/protein metrics and a separate mouse-cell energy endpoint from public source workbooks.
 - [Model report](feasibility-run-2026-10-17/MODEL_REPORT.md): 720 combinations of production, baseline loss, added loss and persistent pigment.
@@ -11,6 +12,16 @@ These are AI-run research calculations on hypothetical balances and existing pub
 - [Compound properties](workbench-comparison-2026-10-17/compounds.csv): seven PubChem identities with RDKit descriptors.
 - [Target snapshots](target-snapshots-2026-10-17): human TYR/OCA2 sequence and annotation snapshots.
 - [Workbench status](WORKBENCH_STATUS.md): actual runtime and check outcomes.
+
+## Reproduce the exposure model
+
+The full Regen Workbench image provides scipy 1.17.1, numpy 2.3.5 and matplotlib 3.11.2. With this repository mounted as /lab/projects/iris-color:
+
+    python /lab/projects/iris-color/analysis/simulate_exposure.py --assumptions /lab/projects/iris-color/analysis/exposure_assumptions.json --out /lab/projects/iris-color/analysis/new-exposure-run --plot
+
+The output folder must be new. The saved receipt contains all parameters, software versions, source hash and generated-file hashes. The solver uses an explicit Jacobian and records drug accounting, nonnegativity and capacity bounds. The static scientific SVG is portable; a PNG preview is written beside the output folder and is not part of the hashed run package. No candidate-specific parameters are fitted.
+
+Two comparisons are kept separate: equal initial free concentration with differing preloaded inventories, and equal input histories with differing achieved exposure. Threshold statuses distinguish a crossing from a response already below threshold. Activation and suppression use different mappings from the placeholder target effect to pigment synthesis; a 10% target effect is not universally a 10% source change.
 
 ## Repeat the new source checks
 

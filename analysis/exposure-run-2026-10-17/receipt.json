@@ -1,0 +1,75 @@
+{
+  "script_sha256": "f35f318ce0ce13fe20d4e072a0776903e15f2e57845295d4bf0be2cced6145d0",
+  "assumptions": {
+    "status": "hypothetical; no fitted iris or shortlisted-compound parameters",
+    "time_unit": "one cytosolic unbound-drug elimination half-life",
+    "concentration_unit": "hypothetical target half-effect concentration",
+    "cytosol_volume": 1.0,
+    "melanosome_volume": 0.1,
+    "initial_equilibrated_free_concentration": 9.0,
+    "withdrawal_horizon": 512.0,
+    "input_phase_duration": 40.0,
+    "effect_thresholds": [
+      0.5,
+      0.1
+    ],
+    "binding_capacity_grid": [
+      10.0,
+      100.0
+    ],
+    "dissociation_half_time_grid": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "membrane_escape_half_time_grid": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "base_binding_Kd": 1.0,
+    "additional_Kd_grid": [
+      0.1,
+      10.0
+    ],
+    "hypothetical_native_pigment_half_time": 100.0,
+    "hypothetical_added_loss_half_time": 20.0,
+    "activation_maximum_source_factor": 5.0,
+    "solver": {
+      "method": "Radau",
+      "rtol": 1e-09,
+      "atol": 1e-11,
+      "max_step": 2.0
+    },
+    "interpretation": "Parameters explore affinity, capacity, dissociation, membrane escape, gross pigment turnover and bound-drug fate independently. No dose, real-time treatment interval or eye color is assigned."
+  },
+  "python": "3.11.16",
+  "numpy": "2.3.5",
+  "scipy": "1.17.1",
+  "outputs": {
+    "fixed_capacity_summary.csv": {
+      "bytes": 2949,
+      "sha256": "7dccb44167a92d11b815c36be9d08e3713421f2f1819d1c022ff35c599c531d9"
+    },
+    "hypothetical_exposure.svg": {
+      "bytes": 161584,
+      "sha256": "81f1943ab8a22b570307ea3f667eec7f4bb75585c85be2b794ca6e6129db22ca"
+    },
+    "matched_history_summary.csv": {
+      "bytes": 2834,
+      "sha256": "ef6d5a90fc36ecb097eaac47239f11b8b29a5f3b89d7093c54c39ae33acf9149"
+    },
+    "numerical_accounting.json": {
+      "bytes": 9495,
+      "sha256": "11244c5ece2e9cdf0e2c7663691845b049eeaf83bbbe14a72cd9e23e7d50ee3a"
+    },
+    "selected_trajectories.csv": {
+      "bytes": 456601,
+      "sha256": "fbec0016b05d9f737376b142349fd7bcc9aa4e2ff6cee09ba01f2a55c471e9bb"
+    },
+    "summary.json": {
+      "bytes": 14776,
+      "sha256": "7301f6cdc6fbf5b754abbe96e05833212bb054323df80bd0d6fea6febe4e0bbb"
+    }
+  }
+}

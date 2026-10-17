@@ -1,0 +1,21 @@
+{
+  "status": "hypothetical; no fitted iris or shortlisted-compound parameters",
+  "time_unit": "one cytosolic unbound-drug elimination half-life",
+  "concentration_unit": "hypothetical target half-effect concentration",
+  "cytosol_volume": 1.0,
+  "melanosome_volume": 0.1,
+  "initial_equilibrated_free_concentration": 9.0,
+  "withdrawal_horizon": 512.0,
+  "input_phase_duration": 40.0,
+  "effect_thresholds": [0.5, 0.1],
+  "binding_capacity_grid": [10.0, 100.0],
+  "dissociation_half_time_grid": [0.1, 1.0, 10.0],
+  "membrane_escape_half_time_grid": [0.1, 1.0, 10.0],
+  "base_binding_Kd": 1.0,
+  "additional_Kd_grid": [0.1, 10.0],
+  "hypothetical_native_pigment_half_time": 100.0,
+  "hypothetical_added_loss_half_time": 20.0,
+  "activation_maximum_source_factor": 5.0,
+  "solver": {"method": "Radau", "rtol": 1e-9, "atol": 1e-11, "max_step": 2.0},
+  "interpretation": "Parameters explore affinity, capacity, dissociation, membrane escape, gross pigment turnover and bound-drug fate independently. No dose, real-time treatment interval or eye color is assigned."
+}
