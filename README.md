@@ -6,7 +6,7 @@ The earlier bidirectional goal remains: **blue → dark brown → the same perso
 
 ## Latest completed exploration
 
-The [ampyrone source-data review](analysis/ampyrone-readout-review.md) now extracts human-cell, reconstructed-skin and mouse-cell readouts, keeping their endpoint meanings separate. It finds increased pigment-associated signals, flags duplicated source entries and unclear replication, and identifies a specific enzyme-product chemistry question. The [binding follow-up](analysis/phenolic-binding-followup.md) adds measured paracetamol data as a phenolic comparator; thiamidol and ampyrone retention remain unresolved. The [mechanism shortlist](research/mechanism-shortlist.md) connects these results to the original reversible-color goal.
+The [withdrawal and recovery analysis](analysis/withdrawal-and-recovery.md) adds cellular recovery observations for thiamidol and KT-939, and extracts the limits of a human melasma follow-up. A new exact calculation shows that persistent pigment, incomplete suppression and added loss can produce identical total-pigment curves. Some remain indistinguishable even after withdrawal. The diagram identifies the additional measurements that would separate them. The [ampyrone audit](analysis/ampyrone-readout-review.md) remains the production-up comparison; the [mechanism shortlist](research/mechanism-shortlist.md) connects the branches to the original reversible-color goal.
 
 ## Current research direction
 
@@ -25,7 +25,7 @@ The models do not predict a seven-year biological renewal interval or a compulso
 
 ## Next
 
-Look for product-specific human-cell measurements and withdrawal series for the production-up/down probes. For ampyrone, separate increased enzyme catalysis from changed downstream product formation or optical yield. For both directions, compare free compound, newly made pigment, older stored pigment and appearance after stopping. Direct candidate-specific binding and transport remain missing inputs to the [hypothetical exposure model](analysis/exposure-run-2026-10-17/MODEL_REPORT.md). The [analysis methods](analysis/README.md) document completed runs.
+Compare KT-939 and thiamidol structures and results measured in the same assay. Seek human-cell observations that pair new synthesis, stored pigment and withdrawal, with cell-population accounting. For ampyrone, retain the enzyme-product identity question. Separate free active compound, target activity, pigment inventory and iris appearance before fitting recovery rates. The [new calculation](analysis/withdrawal-and-recovery.md#which-added-observations-answer-which-question) explains which added observations are informative; the [analysis methods](analysis/README.md) document completed runs.
 
 The primary cosmetic objective is repeatable living-eye appearance change with preserved function and recovery. A noninvasive color measure can track appearance; chemistry addresses pigment mechanisms. Archived records, cell models, donor-eye calibration, and automation are supporting options chosen for a defined question.
 

@@ -1,0 +1,20 @@
+{
+  "kind": "exact constructed mathematical counterexample",
+  "lambda_per_hypothetical_year": 0.23104906018664842,
+  "on_action_total_equation": "P(t)=0.2+0.8*exp(-lambda*t)",
+  "withdrawal_equation": "P(T+s)=1-(1-P(T))*exp(-k0*s)",
+  "inventory_at_withdrawal": 0.35874010519682,
+  "inventory_seven_hypothetical_years_after_withdrawal": {
+    "A": 0.872757921050552,
+    "B": 0.8727579210505519,
+    "C": 0.5359621405235524
+  },
+  "calculation_residuals": {
+    "active_curve_max_difference": 0.0,
+    "A_B_withdrawal_max_difference": 2.220446049250313e-16,
+    "old_plus_new_max_residual": 2.220446049250313e-16,
+    "minimum_inventory_component": 0.0
+  },
+  "conclusion": "A and B cannot be distinguished by total inventory under these on/off settings. C differs in withdrawal. Relative synthesis and old-pigment observations supply additional information.",
+  "not_established": "No measured iris mechanism, turnover, pharmacology, appearance mapping or treatment schedule"
+}

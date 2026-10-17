@@ -1,0 +1,7 @@
+compound,condition,prior_cell_culture_concentration_uM,days_after_withdrawal,authors_reported_inhibition_percent,endpoint,population,source
+KT-939,lower_prior_cell_exposure,1,3,38.0,bulk_A405_pigment_per_protein; inhibition_denominator_not_explicit,human_MNT1_melanoma_cells,10.1111/jocd.70510 Results 3.3 and Figure 4
+KT-939,lower_prior_cell_exposure,1,5,28.3,bulk_A405_pigment_per_protein; inhibition_denominator_not_explicit,human_MNT1_melanoma_cells,10.1111/jocd.70510 Results 3.3 and Figure 4
+KT-939,higher_prior_cell_exposure,10,3,66.6,bulk_A405_pigment_per_protein; inhibition_denominator_not_explicit,human_MNT1_melanoma_cells,10.1111/jocd.70510 Results 3.3 and Figure 4
+KT-939,higher_prior_cell_exposure,10,5,52.7,bulk_A405_pigment_per_protein; inhibition_denominator_not_explicit,human_MNT1_melanoma_cells,10.1111/jocd.70510 Results 3.3 and Figure 4
+KT-939,higher_prior_cell_exposure,10,7,21.3,bulk_A405_pigment_per_protein; inhibition_denominator_not_explicit,human_MNT1_melanoma_cells,10.1111/jocd.70510 Results 3.3 and Figure 4
+KT-939,higher_prior_cell_exposure,10,9,20.0,bulk_A405_pigment_per_protein; inhibition_denominator_not_explicit,human_MNT1_melanoma_cells,10.1111/jocd.70510 Results 3.3 and Figure 4

@@ -36,3 +36,7 @@ JCI_Insight	202947_supporting_values	2026-10-17	https://insight.jci.org/articles
 EuropePMC	PMC13502167_XML	2026-10-17	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13502167/fullTextXML	Ampyrone primary XML SHA256 caed3278c7f747065c4b0d4abe91ccf950fe3cbb94143ac65e246695c5396e41
 Primary_paper	Buszman2009_Paracetamol	2026-10-17	https://czasopisma.umlub.pl/curipms/article/download/2824/2815/7529	Table1 synthetic DOPA-melanin two-site optical-depletion estimates; not ocular retention
 DOI	10.1039/D4AN01203H	2026-10-17	https://doi.org/10.1039/D4AN01203H	4-aminoantipyrine color-coupling example; does not establish interference in human-TYR assay
+EuropePMC	PMC12569736_XML	2026-10-17	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12569736/fullTextXML	KT-939 human melanoma pigment-content withdrawal; XML SHA256 73d032625e98b25239a823f46676c465fb98044e96fc178aa4c986c158cace23
+DOI	10.1111/jocd.70510	2026-10-17	https://doi.org/10.1111/jocd.70510	KT-939 primary study; MNT1 lysate and bulk pigment endpoints, not normal iris
+DOI	10.1111/1346-8138.16080	2026-10-17	https://doi.org/10.1111/1346-8138.16080	Thiamidol clinical single variable-time regression visit; not isolated drug withdrawal
+Accepted_manuscript_copy	Mann2018_Figure3B	2026-10-17	https://www.scribd.com/document/1055152473/j-jid-2018-01-019	Rehosted accepted manuscript inspected for content endpoint; final-version equivalence and supplement unresolved

@@ -1,0 +1,30 @@
+[
+  {
+    "file": "thiamidol2018.metadata.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016/j.jid.2018.01.019%22&format=json&resultType=core",
+    "bytes": 18967,
+    "sha256": "39a7d50933ebe358a01d388ed091d8653d2b9e2a3ece67c69633caa73ab126ab",
+    "representation": "serialized API JSON, not wire bytes"
+  },
+  {
+    "file": "thiamidol2021.metadata.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1111/1346-8138.16080%22&format=json&resultType=core",
+    "bytes": 9993,
+    "sha256": "94133a5ae129a6f9471d5aed076f8df4fa660b4f6e0a1af273b13571ecfa008b",
+    "representation": "serialized API JSON, not wire bytes"
+  },
+  {
+    "file": "kt939.metadata.json",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A41159291%20AND%20SRC%3AMED&format=json&resultType=core",
+    "bytes": 18326,
+    "sha256": "f99de14e9a27a486a7433490fc342a34170cdcca87207122b94a20affac3f8f2",
+    "representation": "serialized API JSON, not wire bytes"
+  },
+  {
+    "file": "kt939.xml",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12569736/fullTextXML",
+    "bytes": 102111,
+    "sha256": "73d032625e98b25239a823f46676c465fb98044e96fc178aa4c986c158cace23",
+    "representation": "XML response bytes"
+  }
+]

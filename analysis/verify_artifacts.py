@@ -18,6 +18,8 @@ def check():
         ("exposure-run-2026-10-17", "outputs"),
         ("binding-benchmark-run-2026-10-17", "outputs"),
         ("ampyrone-data-run-2026-10-17", "outputs"),
+        ("withdrawal-evidence-run-2026-10-17", "outputs"),
+        ("recovery-identifiability-run-2026-10-17", "outputs"),
         ("iris-atlas-run-2026-10-17", "outputs"),
         ("workbench-comparison-2026-10-17", "files"),
         ("target-snapshots-2026-10-17", None),
@@ -52,6 +54,13 @@ def check():
     for script, expected_hash in ampyrone["analysis_scripts"].items():
         if digest(ROOT / script) != expected_hash:
             raise ValueError("Ampyrone analysis source differs from receipt: " + script)
+    for folder, script, input_file, input_key in [
+        ("withdrawal-evidence-run-2026-10-17", "extract_withdrawal_evidence.py", "withdrawal_clinical_inputs.json", "clinical_inputs_sha256"),
+        ("recovery-identifiability-run-2026-10-17", "demonstrate_recovery_identifiability.py", "recovery_identifiability_assumptions.json", "assumptions_sha256"),
+    ]:
+        run_receipt = json.loads((ROOT / folder / "receipt.json").read_text())
+        if digest(ROOT / script) != run_receipt["script_sha256"] or digest(ROOT / input_file) != run_receipt[input_key]:
+            raise ValueError("Recovery/withdrawal source or input differs from receipt: " + script)
     for name, receipt_name, script in [
         ("tyr-assay-audit-final-2026-10-17", "receipt.json", "audit_tyr_assays.py"),
         ("tyr-assay-audit-final-2026-10-17", "qualification_receipt.json", "qualify_tyr_records.py"),

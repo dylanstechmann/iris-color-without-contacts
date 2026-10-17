@@ -1,0 +1,7 @@
+phase,weeks_since_start,thiamidol_regimen_MASI_change,vehicle_regimen_MASI_change,difference_of_mean_changes
+active,4,-0.6,-0.3,-0.3
+active,8,-2.4,-0.9,-1.5
+active,12,-3.2,-1.2,-2.0
+active,16,-3.6,-1.4,-2.2
+active,20,-3.8,-2.0,-1.7999999999999998
+active,24,-4.2,-2.3,-1.9000000000000004

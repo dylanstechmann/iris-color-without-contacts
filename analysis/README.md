@@ -4,6 +4,7 @@ These are AI-run research calculations on hypothetical balances and existing pub
 
 ## Outputs
 
+- [Withdrawal and recovery](withdrawal-and-recovery.md): source-qualified inhibitor withdrawal observations and an exact counterexample showing which pigment mechanisms can share the same curve.
 - [Ampyrone numerical readout review](ampyrone-readout-review.md): selected public-workbook values, exact source cells and distinct human-cell, skin and mouse-cell endpoints; no iris or withdrawal inference.
 - [Phenolic binding follow-up](phenolic-binding-followup.md): measured paracetamol two-site data and remaining resorcinol/pyrazolone gaps, kept separate from the existing MST panel.
 - [Measured binding benchmark and chemical coverage](binding-benchmark-run-2026-10-17/BENCHMARK_REPORT.md): nineteen resolved structures, source-specific binding/release endpoints and 88 probe/reference comparisons; no fitted affinity predictor.
@@ -15,6 +16,18 @@ These are AI-run research calculations on hypothetical balances and existing pub
 - [Compound properties](workbench-comparison-2026-10-17/compounds.csv): seven PubChem identities with RDKit descriptors.
 - [Target snapshots](target-snapshots-2026-10-17): human TYR/OCA2 sequence and annotation snapshots.
 - [Workbench status](WORKBENCH_STATUS.md): actual runtime and check outcomes.
+
+## Reproduce the withdrawal analysis
+
+Use the existing research runtime for source intake and the optional scientific figure. With this repository mounted as /lab/projects/iris-color:
+
+    python /lab/projects/iris-color/analysis/intake_withdrawal_sources.py --cache /lab/data/literature/iris-withdrawal-new
+    python /lab/projects/iris-color/analysis/extract_withdrawal_evidence.py --cache /lab/data/literature/iris-withdrawal-new --clinical-inputs /lab/projects/iris-color/analysis/withdrawal_clinical_inputs.json --out /lab/projects/iris-color/analysis/new-withdrawal-evidence
+    python /lab/projects/iris-color/analysis/demonstrate_recovery_identifiability.py --assumptions /lab/projects/iris-color/analysis/recovery_identifiability_assumptions.json --out /lab/projects/iris-color/analysis/new-recovery-identifiability --plot
+
+Output directories must be new. Intake is bounded to three declared primary records. Available source XML and metadata use Regen's existing HTTP/provenance helpers; a failed publisher download is reported, not replaced by an asserted snapshot. KT-939 text values are parsed from the actual source paragraph. Clinical mean changes are declared manual transcriptions from publisher text inspected through the web tool. They produce descriptive mean contrasts, without significance tests or pharmacokinetic fits. Thiamidol 2018 endpoint qualification uses an explicitly identified rehosted accepted manuscript; no exact curve points are digitized.
+
+The counterexample extends the existing linear pigment balance. Its three parameter sets are intentionally constructed to coincide during action. Old and newly made inventory are tracked separately, assuming no label recycling. Calculation residuals report overlap and accounting. All rates and times are hypothetical. Drug retention and delayed target recovery are excluded from this particular comparison; the earlier exposure model addresses those as separate hypotheses. The plotted example is not a fit to the withdrawal studies or to iris biology.
 
 ## Reproduce the ampyrone extraction
 

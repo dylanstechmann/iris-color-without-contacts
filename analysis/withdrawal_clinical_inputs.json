@@ -1,0 +1,27 @@
+{
+  "source_doi": "10.1111/1346-8138.16080",
+  "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/1346-8138.16080",
+  "source_location": "Results 3.2 and Figure 2 caption; inspected through web tool 2026-10-17",
+  "snapshot_limit": "Direct publisher download returned HTTP error. No cached full-text bytes or raw participant data are asserted.",
+  "endpoint": "MASI score change from baseline, not pigment mass or iris color",
+  "active_weeks": [4, 8, 12, 16, 20, 24],
+  "thiamidol_regimen_mean_changes": [-0.6, -2.4, -3.2, -3.6, -3.8, -4.2],
+  "vehicle_regimen_mean_changes": [-0.3, -0.9, -1.2, -1.4, -2.0, -2.3],
+  "followup": {
+    "visit_count_per_traceable_participant": 1,
+    "weeks_after_cessation_min": 13,
+    "weeks_after_cessation_max": 20,
+    "thiamidol_regimen_mean_change_from_baseline": -2.1,
+    "vehicle_regimen_mean_change_from_baseline": -2.0,
+    "participants_traceable_thiamidol": 21,
+    "participants_traceable_vehicle": 22
+  },
+  "limits": [
+    "All treatment including sunscreen stopped during regression, so it is not isolated thiamidol withdrawal.",
+    "No post-cessation ITA colorimetry or clinical photography was performed.",
+    "Completion and followup analysis populations differ; individual linked trajectories are not provided.",
+    "One participant had inconclusive MASI and was excluded; do not equate traceable count with confirmed endpoint denominator.",
+    "Text plus/minus terms and figure SEM presentation do not supply raw observations for a new variance calculation.",
+    "Variable-time group followup is not a serial washout trajectory and cannot identify a drug or pigment half-life."
+  ]
+}

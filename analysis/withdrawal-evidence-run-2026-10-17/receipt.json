@@ -1,0 +1,29 @@
+{
+  "script_sha256": "b11b54b15367cc76c24126accd56e3681270b87e9da72cf88f0273b9aca1e282",
+  "clinical_inputs_sha256": "5755aab4334c33f86c8b08523eb0754181526d803e9a3cf723c6fed9e1d7f0d4",
+  "python": "3.12.14",
+  "kt939_source_xml_sha256": "73d032625e98b25239a823f46676c465fb98044e96fc178aa4c986c158cace23",
+  "selected_source_paragraph_sha256": "a5e92c88022937b766277d37cca78397c06a15533209af3c0283d741c694024f",
+  "outputs": {
+    "clinical_descriptive_contrasts.csv": {
+      "bytes": 294,
+      "sha256": "c7821bbaf4ae80684d54d02a0fd02d933a3b5a4462b7155e14681598d269292e"
+    },
+    "clinical_inputs.json": {
+      "bytes": 1785,
+      "sha256": "68f01d8437f82ab0928598f8a3e109403dc5979bcbc1d6717b8ed70b34dc42e7"
+    },
+    "kt939_reported_points.csv": {
+      "bytes": 1229,
+      "sha256": "082ec1fcf825773e150f5e7a97e8c510fa8ec8ad2c7acae6397278318b39f27f"
+    },
+    "sources.json": {
+      "bytes": 1355,
+      "sha256": "7b704615a441efcfee554d5f3315f1fd85737a9f0307c78655b508dc1c673a7c"
+    },
+    "summary.json": {
+      "bytes": 2634,
+      "sha256": "d9797f0e0ae99ffb683e2dd738fcf4b477fbffcf03cb15be8d2e75eb68f4b1d9"
+    }
+  }
+}

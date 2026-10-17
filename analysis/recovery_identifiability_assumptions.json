@@ -1,0 +1,21 @@
+{
+  "status": "Constructed counterexample, not fitted iris or drug parameters",
+  "reference_active_loss_half_life_hypothetical_years": 3,
+  "active_duration_hypothetical_years": 7,
+  "withdrawal_observation_hypothetical_years": 14,
+  "sample_step_hypothetical_years": 0.05,
+  "cases": [
+    {"id": "A", "name": "Fixed persistent pool", "persistent_fraction": 0.2, "synthesis_fraction": 0, "native_loss_fraction_of_lambda": 1, "added_loss_fraction_of_lambda": 0},
+    {"id": "B", "name": "Partial production suppression", "persistent_fraction": 0, "synthesis_fraction": 0.2, "native_loss_fraction_of_lambda": 1, "added_loss_fraction_of_lambda": 0},
+    {"id": "C", "name": "Added pigment loss", "persistent_fraction": 0, "synthesis_fraction": 1, "native_loss_fraction_of_lambda": 0.2, "added_loss_fraction_of_lambda": 0.8}
+  ],
+  "assumptions": [
+    "Each mobile pool initially equals its own baseline value one, with synthesis balancing native loss.",
+    "A constant persistent pool has no influx or efflux during this horizon.",
+    "Drug action switches off immediately at withdrawal; retention and target recovery are excluded here.",
+    "After withdrawal the original source and native loss resume, while added loss stops.",
+    "Cell population and tissue function are unchanged; cell division, export and chemical destruction are not separately modeled.",
+    "Old pigment means material present initially, with no recycling of its label into new pigment.",
+    "Total inventory is assumed measurable; actual optical color can add further ambiguity."
+  ]
+}

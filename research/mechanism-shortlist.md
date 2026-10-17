@@ -106,7 +106,11 @@ The [production-up readout review](../analysis/ampyrone-readout-review.md) now e
 
 The [closer-comparator search](../analysis/phenolic-binding-followup.md) found measured two-site paracetamol binding to synthetic pigment. It broadens phenolic coverage without supplying thiamidol or ampyrone affinities. Candidate-specific free exposure and withdrawal remain unresolved.
 
-Next, prioritize product-specific human-cell measurements and serial withdrawal observations. Distinguish free compound, newly made pigment, old stored pigment and appearance; seek evidence that separates direct catalysis from downstream product handling. Preserve the original fixed iris panel; any new pathway-gene check should be a declared extension. Delivery, activity and recovery remain separate quantities.
+The [withdrawal analysis](../analysis/withdrawal-and-recovery.md) now adds a production-down lead, KT-939, with a human MNT-1 melanoma-cell pigment-content recovery series. It also qualifies the thiamidol donor-derived melanocyte withdrawal experiment as accumulated pigment content, rather than a direct synthesis-flux measurement. The clinical regression study has one variable-time follow-up with concurrent withdrawal of sunscreen, which cannot identify a drug half-life. None of these studies fits an iris turnover rate.
+
+An exact new counterexample shows why that distinction matters. A fixed old-pigment pool, partial suppression and added loss can produce the same total-inventory curve. The first two remain identical after withdrawal, while their old/new pigment histories differ. Serial inventory measurements alone therefore leave some model terms unidentified, even without noise. The [diagram and calculation](../analysis/withdrawal-and-recovery.md#a-calculation-that-changes-what-to-measure-next) specify the extra information needed.
+
+Next, compare KT-939 and thiamidol structures and results measured in the same assay. Prioritize measurements pairing new synthesis, stored pigment and withdrawal, with free active compound and cell-population accounting. Retain ampyrone's direct-catalysis/product-handling question. Preserve the original fixed iris panel; any new pathway-gene check should be a declared extension. Delivery, activity and recovery remain separate quantities.
 
 ## Reproduction and checks
 

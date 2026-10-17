@@ -1,0 +1,51 @@
+{
+  "kt939": {
+    "doi": "10.1111/jocd.70510",
+    "pmcid": "PMC12569736",
+    "pre_exposure_days": 6,
+    "numeric_points_extracted": 6,
+    "population": "human_MNT1_melanoma_cells",
+    "qualitative_recovery_reports": [
+      {
+        "condition": "lower_prior_cell_exposure",
+        "days_after_withdrawal": 7,
+        "authors_wording": "returning to baseline",
+        "numeric_inhibition_percent": null
+      },
+      {
+        "condition": "higher_prior_cell_exposure",
+        "days_after_withdrawal": 11,
+        "authors_wording": "fully returned to normal levels",
+        "numeric_inhibition_percent": null
+      }
+    ],
+    "limits": [
+      "Bulk content per protein is not new synthesis flux or mature-polymer chemical mass balance.",
+      "Inhibition denominator is not explicit; percentages were not converted to recovered mass fractions.",
+      "Normal primary human melanocytes and iris cells were not used for this withdrawal experiment.",
+      "No paired free-compound, TYR-activity, old-pigment tracking or cell-division measurements during withdrawal are supplied.",
+      "Separate 72-hour viability measurement does not cover the full six-day exposure plus withdrawal sequence.",
+      "hTYR inhibition in this paper uses MNT1 crude lysate, not purified recombinant human enzyme.",
+      "Raw data are available on request; the parsed narrative supplies no point-specific uncertainties."
+    ]
+  },
+  "clinical": {
+    "doi": "10.1111/1346-8138.16080",
+    "endpoint": "MASI score change from baseline, not pigment mass or iris color",
+    "week24_difference_of_mean_MASI_changes": -1.9000000000000004,
+    "variable_time_followup_difference_of_mean_MASI_changes": -0.10000000000000009,
+    "followup_weeks_after_cessation": [
+      13,
+      20
+    ],
+    "limits": [
+      "All treatment including sunscreen stopped during regression, so it is not isolated thiamidol withdrawal.",
+      "No post-cessation ITA colorimetry or clinical photography was performed.",
+      "Completion and followup analysis populations differ; individual linked trajectories are not provided.",
+      "One participant had inconclusive MASI and was excluded; do not equate traceable count with confirmed endpoint denominator.",
+      "Text plus/minus terms and figure SEM presentation do not supply raw observations for a new variance calculation.",
+      "Variable-time group followup is not a serial washout trajectory and cannot identify a drug or pigment half-life."
+    ]
+  },
+  "fit_status": "No PK, source-recovery, pigment-loss or iris time constants fitted."
+}
