@@ -1,0 +1,5 @@
+id,reused_sips_kd_uM,reused_sips_kd_se_uM,reused_sips_bmax_nmol_per_mg,reused_sips_bmax_se_nmol_per_mg,reused_sips_n,reused_sips_n_se,melanin_koff_per_h,apparent_melanosome_koff_per_h,particle_to_organelle_rate_ratio,rate_uncertainty,binding_is_reused,source_doi
+timolol,120,30,39,6,0.95,0.03,7.23,0.97,7.4536082474226815,not_tabulated,True,10.1016/j.jconrel.2022.05.059
+levofloxacin,157,56,72,23,0.73,0.02,0.47,0.32,1.4687499999999998,not_tabulated,True,10.1016/j.jconrel.2022.05.059
+papaverine,66,18,66,6,0.72,0.02,0.46,0.36,1.277777777777778,not_tabulated,True,10.1016/j.jconrel.2022.05.059
+terazosin,46,16,112,13,0.64,0.02,0.46,0.2,2.3,not_tabulated,True,10.1016/j.jconrel.2022.05.059

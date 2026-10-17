@@ -16,6 +16,7 @@ def check():
     for name, key in [
         ("feasibility-run-2026-10-17", "outputs"),
         ("exposure-run-2026-10-17", "outputs"),
+        ("binding-benchmark-run-2026-10-17", "outputs"),
         ("iris-atlas-run-2026-10-17", "outputs"),
         ("workbench-comparison-2026-10-17", "files"),
         ("target-snapshots-2026-10-17", None),
@@ -41,6 +42,11 @@ def check():
         raise ValueError("Exposure source differs from run receipt.")
     if json.loads((ROOT / "exposure_assumptions.json").read_text()) != exposure["assumptions"]:
         raise ValueError("Exposure assumptions differ from run receipt.")
+    binding = json.loads((ROOT / "binding-benchmark-run-2026-10-17" / "receipt.json").read_text())
+    if digest(ROOT / "build_binding_benchmark.py") != binding["script_sha256"]:
+        raise ValueError("Binding benchmark source differs from run receipt.")
+    if digest(ROOT / "binding_benchmark_inputs.json") != binding["input_sha256"]:
+        raise ValueError("Binding benchmark inputs differ from run receipt.")
     for name, receipt_name, script in [
         ("tyr-assay-audit-final-2026-10-17", "receipt.json", "audit_tyr_assays.py"),
         ("tyr-assay-audit-final-2026-10-17", "qualification_receipt.json", "qualify_tyr_records.py"),

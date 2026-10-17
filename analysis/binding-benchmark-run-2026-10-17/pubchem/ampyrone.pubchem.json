@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 2151,
+        "MolecularFormula": "C11H13N3O",
+        "SMILES": "CC1=C(C(=O)N(N1C)C2=CC=CC=C2)N",
+        "ConnectivitySMILES": "CC1=C(C(=O)N(N1C)C2=CC=CC=C2)N",
+        "InChIKey": "RLFWWDJHLFCNIJ-UHFFFAOYSA-N",
+        "Title": "4-Aminoantipyrine"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 39468,
+        "MolecularFormula": "C17H25NO3",
+        "SMILES": "CC(C)(C)NC[C@@H](COC1=CC=CC2=C1CCCC2=O)O",
+        "ConnectivitySMILES": "CC(C)(C)NCC(COC1=CC=CC2=C1CCCC2=O)O",
+        "InChIKey": "IXHBTMCLRNMKHZ-LBPRGKRZSA-N",
+        "Title": "Levobunolol"
+      }
+    ]
+  }
+}

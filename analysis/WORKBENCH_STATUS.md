@@ -13,3 +13,7 @@ The lightweight image does not include every full-stack dependency and therefore
 ## Exposure-model continuation
 
 The full local CPU image ran the 23 fixed-capacity and nine matched-history calculations with scipy 1.17.1, numpy 2.3.5 and matplotlib 3.11.2. Final calculations used an explicit Jacobian and completed without the numerical-differencing warnings seen in the discarded draft. Accounting and capacity bounds are recorded per trajectory. No new software tests were added or run in this continuation. The generated preview was inspected visually; the SVG is retained with its receipt. Workbench source was not edited for this calculation.
+
+## Measured-reference benchmark continuation
+
+The full image ran public-source intake and nineteen structure resolutions with RDKit 2026.03.6. Source XML and PDF were fetched through the existing Regen HTTP/provenance functions, with raw files under ignored literature data. Eleven numeric source estimates and their confidence values matched the fetched XML rows. The run generated 88 pairwise structure comparisons, source-specific endpoint tables and a visually inspected static SVG. No affinities were fitted or transferred, and no software tests were added or run.

@@ -1,0 +1,12 @@
+id,name,vendor_catalog,mst_kd_uM,mst_68pct_confidence_value_uM,mst_mode,mst_uncertainty_exceeds_estimate,sips_kd_uM,sips_kd_se_uM,sips_bmax_nmol_per_mg,sips_bmax_se_nmol_per_mg,sips_n,sips_n_se,sips_origin,source_doi
+terazosin,terazosin,Sigma T4680,29,28,initial_fluorescence,False,46,16,112,13,0.64,0.018,measured_2020,10.3390/pharmaceutics12060554
+penicillin_g,penicillin G,Sigma P7794,3.2,7.6,thermophoresis,True,,,,,,,not_studied,10.3390/pharmaceutics12060554
+chloroquine,chloroquine,Sigma C6628,0.8,7.7,thermophoresis,True,76,23,380,40,0.605,0.012,prior_study_ref16,10.3390/pharmaceutics12060554
+levofloxacin,levofloxacin,Sigma 28266,46.5,40.1,thermophoresis,False,157,56,72,11,0.73,0.02,measured_2020,10.3390/pharmaceutics12060554
+papaverine,papaverine,Sigma P5310,28,23,initial_fluorescence,False,66,18,66,8,0.715,0.015,measured_2020,10.3390/pharmaceutics12060554
+propranolol,propranolol,Sigma P0884,80,92,initial_fluorescence,True,163,100,176,60,0.89,0.05,prior_study_ref16,10.3390/pharmaceutics12060554
+nadolol,nadolol,Sigma N1892,200,33,initial_fluorescence,False,340,200,68,24,0.94,0.05,prior_study_ref11,10.3390/pharmaceutics12060554
+timolol,timolol,Sigma T6394-250MG,260,128,thermophoresis,False,120,30,39,6,0.95,0.03,prior_study_ref11,10.3390/pharmaceutics12060554
+quinidine,quinidine,Sigma 22600,214,29,initial_fluorescence,False,,,,,,,not_studied,10.3390/pharmaceutics12060554
+atropine,atropine,Fluka 11330,912,1318,thermophoresis,True,,,,,,,not_studied,10.3390/pharmaceutics12060554
+methotrexate,methotrexate,Fluka PHR1396,3500,13000,initial_fluorescence,True,,,,,,,prior_no_binding,10.3390/pharmaceutics12060554

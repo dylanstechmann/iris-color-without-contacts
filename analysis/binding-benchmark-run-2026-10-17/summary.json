@@ -1,0 +1,467 @@
+{
+  "numeric_mst_reference_structures": 11,
+  "probe_structures": 8,
+  "pairwise_probe_reference_comparisons": 88,
+  "release_compounds": 4,
+  "source_table1_rows": 14,
+  "source_table2_rows": 12,
+  "mst_uncertainty_exceeds_estimate_count": 5,
+  "excluded_numeric_mst": [
+    {
+      "id": "diclofenac",
+      "reason": "Table 2: MST Kd could not be determined; traditional prior no binding"
+    },
+    {
+      "id": "pazopanib",
+      "reason": "Discussion: solubility-limited fit about 7.8 uM with about 1100 uM confidence; excluded from dependable numeric panel"
+    },
+    {
+      "id": "ciprofloxacin",
+      "reason": "Listed in Table 1 but no numeric Table 2 MST outcome; not assigned an affinity"
+    }
+  ],
+  "nearest_by_method": [
+    {
+      "probe": "thiamidol",
+      "method": "morgan",
+      "rank": 1,
+      "reference": "atropine",
+      "similarity": 0.15151515151515152,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "thiamidol",
+      "method": "morgan_chiral",
+      "rank": 1,
+      "reference": "atropine",
+      "similarity": 0.14925373134328357,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "thiamidol",
+      "method": "rdkit_path",
+      "rank": 1,
+      "reference": "levofloxacin",
+      "similarity": 0.2949279899812148,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "butylresorcinol",
+      "method": "morgan",
+      "rank": 1,
+      "reference": "chloroquine",
+      "similarity": 0.15254237288135594,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "butylresorcinol",
+      "method": "morgan_chiral",
+      "rank": 1,
+      "reference": "chloroquine",
+      "similarity": 0.15254237288135594,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "butylresorcinol",
+      "method": "rdkit_path",
+      "rank": 1,
+      "reference": "nadolol",
+      "similarity": 0.28083209509658247,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "kojic_acid",
+      "method": "morgan",
+      "rank": 1,
+      "reference": "atropine",
+      "similarity": 0.1111111111111111,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "kojic_acid",
+      "method": "morgan_chiral",
+      "rank": 1,
+      "reference": "atropine",
+      "similarity": 0.10909090909090909,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "kojic_acid",
+      "method": "rdkit_path",
+      "rank": 1,
+      "reference": "levofloxacin",
+      "similarity": 0.14450474898236093,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "metyrosine",
+      "method": "morgan",
+      "rank": 1,
+      "reference": "penicillin_g",
+      "similarity": 0.1896551724137931,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "metyrosine",
+      "method": "morgan_chiral",
+      "rank": 1,
+      "reference": "penicillin_g",
+      "similarity": 0.1896551724137931,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "metyrosine",
+      "method": "rdkit_path",
+      "rank": 1,
+      "reference": "nadolol",
+      "similarity": 0.22944297082228116,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "beta_mangostin",
+      "method": "morgan",
+      "rank": 1,
+      "reference": "papaverine",
+      "similarity": 0.16176470588235295,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "beta_mangostin",
+      "method": "morgan_chiral",
+      "rank": 1,
+      "reference": "papaverine",
+      "similarity": 0.16176470588235295,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "beta_mangostin",
+      "method": "rdkit_path",
+      "rank": 1,
+      "reference": "levofloxacin",
+      "similarity": 0.4468973747016706,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "levobunolol",
+      "method": "morgan",
+      "rank": 1,
+      "reference": "nadolol",
+      "similarity": 0.5636363636363636,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "levobunolol",
+      "method": "morgan_chiral",
+      "rank": 1,
+      "reference": "nadolol",
+      "similarity": 0.5172413793103449,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "levobunolol",
+      "method": "rdkit_path",
+      "rank": 1,
+      "reference": "nadolol",
+      "similarity": 0.689922480620155,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "latanoprost",
+      "method": "morgan",
+      "rank": 1,
+      "reference": "atropine",
+      "similarity": 0.2077922077922078,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "latanoprost",
+      "method": "morgan_chiral",
+      "rank": 1,
+      "reference": "atropine",
+      "similarity": 0.2,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "latanoprost",
+      "method": "rdkit_path",
+      "rank": 1,
+      "reference": "atropine",
+      "similarity": 0.2680965147453083,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "ampyrone",
+      "method": "morgan",
+      "rank": 1,
+      "reference": "atropine",
+      "similarity": 0.18181818181818182,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "ampyrone",
+      "method": "morgan_chiral",
+      "rank": 1,
+      "reference": "atropine",
+      "similarity": 0.17857142857142858,
+      "candidate_affinity_predicted": false
+    },
+    {
+      "probe": "ampyrone",
+      "method": "rdkit_path",
+      "rank": 1,
+      "reference": "levofloxacin",
+      "similarity": 0.3404645476772616,
+      "candidate_affinity_predicted": false
+    }
+  ],
+  "outside_descriptor_ranges": [
+    {
+      "probe": "butylresorcinol",
+      "descriptor": "mw",
+      "value": 166.22,
+      "reference_min": 259.349,
+      "reference_max": 454.44700000000023,
+      "position": "below"
+    },
+    {
+      "probe": "butylresorcinol",
+      "descriptor": "hba",
+      "value": 2,
+      "reference_min": 3,
+      "reference_max": 10,
+      "position": "below"
+    },
+    {
+      "probe": "kojic_acid",
+      "descriptor": "mw",
+      "value": 142.10999999999999,
+      "reference_min": 259.349,
+      "reference_max": 454.44700000000023,
+      "position": "below"
+    },
+    {
+      "probe": "kojic_acid",
+      "descriptor": "neutral_crippen_logp",
+      "value": -0.16230000000000003,
+      "reference_min": 0.2684000000000003,
+      "reference_max": 4.810600000000004,
+      "position": "below"
+    },
+    {
+      "probe": "kojic_acid",
+      "descriptor": "rotatable_bonds",
+      "value": 1,
+      "reference_min": 2,
+      "reference_max": 9,
+      "position": "below"
+    },
+    {
+      "probe": "metyrosine",
+      "descriptor": "mw",
+      "value": 195.21799999999996,
+      "reference_min": 259.349,
+      "reference_max": 454.44700000000023,
+      "position": "below"
+    },
+    {
+      "probe": "beta_mangostin",
+      "descriptor": "neutral_crippen_logp",
+      "value": 5.392000000000006,
+      "reference_min": 0.2684000000000003,
+      "reference_max": 4.810600000000004,
+      "position": "above"
+    },
+    {
+      "probe": "latanoprost",
+      "descriptor": "rotatable_bonds",
+      "value": 13,
+      "reference_min": 2,
+      "reference_max": 9,
+      "position": "above"
+    },
+    {
+      "probe": "ampyrone",
+      "descriptor": "mw",
+      "value": 203.24500000000003,
+      "reference_min": 259.349,
+      "reference_max": 454.44700000000023,
+      "position": "below"
+    },
+    {
+      "probe": "ampyrone",
+      "descriptor": "hba",
+      "value": 2,
+      "reference_min": 3,
+      "reference_max": 10,
+      "position": "below"
+    },
+    {
+      "probe": "ampyrone",
+      "descriptor": "rotatable_bonds",
+      "value": 1,
+      "reference_min": 2,
+      "reference_max": 9,
+      "position": "below"
+    }
+  ],
+  "rdkit_version": "2026.03.6",
+  "limits": [
+    "MST confidence values are source-reported software 68-percent confidence values, not standard errors or calibrated symmetric intervals.",
+    "Sips parameters use porcine ocular pigment; MST uses synthetic nanoparticles. Do not pool Kd values across these models.",
+    "All Table 4 unbound fractions, including the in-vitro column, are calculated; human RPE-choroid values are predictions.",
+    "The 2022 binding parameters are reused earlier measurements; their reported uncertainties differ for some compounds. Release is a distinct endpoint.",
+    "The 2020 narrative says 13 tested; Table 1 names 14, Table 2 has 12 rows and 11 numeric MST estimates. Preserve the discrepancy.",
+    "Named-parent PubChem resolution is not verification of a purchased salt, stereoisomer mixture or dominant species at assay pH.",
+    "Latanoprost ester is kept distinct from its acid; alpha/beta mangostin and ampyrone/aminopyrine are not merged."
+  ],
+  "binding_predictor_fitted": false,
+  "source_snapshots": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7355663/fullTextXML",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/hellinen2020.xml",
+      "bytes": 120433,
+      "sha256": "5a191c250c96bd81177a00d7cb4bc8085e3ce2576a70803303243457044e4c2f",
+      "raw_snapshot_in_repository": false
+    },
+    {
+      "url": "https://helda.helsinki.fi/server/api/core/bitstreams/3071a26c-d14a-4282-b823-2493248225d0/content",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/bahrpeyma2022.pdf",
+      "bytes": 1974314,
+      "sha256": "7c6049ec16e1a5c78ddd59b278d5ac10ba0d2f1c874356fac3cd6a3bda116f79",
+      "raw_snapshot_in_repository": false
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/terazosin/property/SMILES,ConnectivitySMILES,InChIKey,Title,MolecularFormula/JSON",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/terazosin.pubchem.json",
+      "bytes": 378,
+      "sha256": "bda88e21bd5a4b692a6c22dec5ca17700598aa93a1851e374ebbb6ee120d18f9",
+      "raw_snapshot_in_repository": true
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/penicillin%20G/property/SMILES,ConnectivitySMILES,InChIKey,Title,MolecularFormula/JSON",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/penicillin_g.pubchem.json",
+      "bytes": 382,
+      "sha256": "22addca115ee360e07160446957f67268d4bff3622a3be04210230ebb692b406",
+      "raw_snapshot_in_repository": true
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/chloroquine/property/SMILES,ConnectivitySMILES,InChIKey,Title,MolecularFormula/JSON",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/chloroquine.pubchem.json",
+      "bytes": 348,
+      "sha256": "9d3b55330244c2a2d673a837b032d38ba36eee3e5aa20f4032bdecd12e314692",
+      "raw_snapshot_in_repository": true
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/levofloxacin/property/SMILES,ConnectivitySMILES,InChIKey,Title,MolecularFormula/JSON",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/levofloxacin.pubchem.json",
+      "bytes": 380,
+      "sha256": "059a045e7f75d3f41b16baa5bbcb191ceb988522440a37240cd2abff75b9fb07",
+      "raw_snapshot_in_repository": true
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/papaverine/property/SMILES,ConnectivitySMILES,InChIKey,Title,MolecularFormula/JSON",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/papaverine.pubchem.json",
+      "bytes": 364,
+      "sha256": "8fa13f604355458faaf776235862968c55340bb1ecbcf8e53d3a90855757cb24",
+      "raw_snapshot_in_repository": true
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/propranolol/property/SMILES,ConnectivitySMILES,InChIKey,Title,MolecularFormula/JSON",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/propranolol.pubchem.json",
+      "bytes": 335,
+      "sha256": "ea861ff213b2fb97953f57591431fdc8525e17ff5e3d9cb22cd80d436f9ca84c",
+      "raw_snapshot_in_repository": true
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/nadolol/property/SMILES,ConnectivitySMILES,InChIKey,Title,MolecularFormula/JSON",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/nadolol.pubchem.json",
+      "bytes": 356,
+      "sha256": "0568fb8a035256e20aa9e1372b963e9b96931441cd7d9e64fcc9e132c1a08af0",
+      "raw_snapshot_in_repository": true
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/timolol/property/SMILES,ConnectivitySMILES,InChIKey,Title,MolecularFormula/JSON",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/timolol.pubchem.json",
+      "bytes": 341,
+      "sha256": "f463dc3688e643e61ed1ae7089ce4dc301ff9641d72b8632625fdb814d245b89",
+      "raw_snapshot_in_repository": true
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/quinidine/property/SMILES,ConnectivitySMILES,InChIKey,Title,MolecularFormula/JSON",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/quinidine.pubchem.json",
+      "bytes": 375,
+      "sha256": "2088c081a734d9d16c15ca616e6700cafff474a2c82e1b7db32bacb94b4cce02",
+      "raw_snapshot_in_repository": true
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/atropine/property/SMILES,ConnectivitySMILES,InChIKey,Title,MolecularFormula/JSON",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/atropine.pubchem.json",
+      "bytes": 354,
+      "sha256": "5c3262bd82b2d0923bbde240eb586df268321873b0bc6d034a44dd6d41bc0758",
+      "raw_snapshot_in_repository": true
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/methotrexate/property/SMILES,ConnectivitySMILES,InChIKey,Title,MolecularFormula/JSON",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/methotrexate.pubchem.json",
+      "bytes": 416,
+      "sha256": "4bbad697dfcbf5c9cce1ffc955c06dd6747dd7568b35b139334cb9771119ebf0",
+      "raw_snapshot_in_repository": true
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/71543007/property/SMILES,ConnectivitySMILES,InChIKey,Title,MolecularFormula/JSON",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/thiamidol.pubchem.json",
+      "bytes": 408,
+      "sha256": "050454503ba0fd9ab30f431f6ac11621bc9895fde1a4b8040b7954cf2f2b25e7",
+      "raw_snapshot_in_repository": true
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/205912/property/SMILES,ConnectivitySMILES,InChIKey,Title,MolecularFormula/JSON",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/butylresorcinol.pubchem.json",
+      "bytes": 320,
+      "sha256": "5fcaefd95db7da8fb7818b1b472e197be6f403a7a26723cf46dab9a1dee98b35",
+      "raw_snapshot_in_repository": true
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/3840/property/SMILES,ConnectivitySMILES,InChIKey,Title,MolecularFormula/JSON",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/kojic_acid.pubchem.json",
+      "bytes": 305,
+      "sha256": "2453ac87e471950d82797cf75be0c5c7ee27687fca4c6e5ba16924b4460cf028",
+      "raw_snapshot_in_repository": true
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/441350/property/SMILES,ConnectivitySMILES,InChIKey,Title,MolecularFormula/JSON",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/metyrosine.pubchem.json",
+      "bytes": 331,
+      "sha256": "fa5b5273953da2470b8989e12f218faf713979416332004a421cd8ae436c20fa",
+      "raw_snapshot_in_repository": true
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5495925/property/SMILES,ConnectivitySMILES,InChIKey,Title,MolecularFormula/JSON",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/beta_mangostin.pubchem.json",
+      "bytes": 400,
+      "sha256": "084183f091783e15ca18190bcc4c8341ad7eae7920add878b65561a69deb4162",
+      "raw_snapshot_in_repository": true
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/39468/property/SMILES,ConnectivitySMILES,InChIKey,Title,MolecularFormula/JSON",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/levobunolol.pubchem.json",
+      "bytes": 347,
+      "sha256": "f0ae781c4e92805934a74e4685a6d9bab137e279832cfd7c4f91b35c36714601",
+      "raw_snapshot_in_repository": true
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5311221/property/SMILES,ConnectivitySMILES,InChIKey,Title,MolecularFormula/JSON",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/latanoprost.pubchem.json",
+      "bytes": 397,
+      "sha256": "155cd55c2b1e0bb6799e09136b275b850a861d93496d48d70b14b1732c861a5a",
+      "raw_snapshot_in_repository": true
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/2151/property/SMILES,ConnectivitySMILES,InChIKey,Title,MolecularFormula/JSON",
+      "cache_file": "/lab/data/literature/iris-binding-benchmark-2026-10-17/ampyrone.pubchem.json",
+      "bytes": 337,
+      "sha256": "a8d1c6eb923a3b89639f4d057e728aebb84ad94e87ac2b36a112494915c3b11a",
+      "raw_snapshot_in_repository": true
+    }
+  ]
+}

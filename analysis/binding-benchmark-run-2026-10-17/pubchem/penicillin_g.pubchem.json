@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 5904,
+        "MolecularFormula": "C16H18N2O4S",
+        "SMILES": "CC1([C@@H](N2[C@H](S1)[C@@H](C2=O)NC(=O)CC3=CC=CC=C3)C(=O)O)C",
+        "ConnectivitySMILES": "CC1(C(N2C(S1)C(C2=O)NC(=O)CC3=CC=CC=C3)C(=O)O)C",
+        "InChIKey": "JGSARLDLIJGVTE-MBNYWOFBSA-N",
+        "Title": "Penicillin G"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+id,calculated_in_vitro_fu_percent,predicted_human_rpe_choroid_fu_percent,method,measured_human_exposure
+chloroquine,0.41,0.0012,Sips,False
+terazosin,2.9,0.012,Sips,False
+levofloxacin,28,0.33,Sips,False
+propranolol,32,0.9,Sips,False
+papaverine,15,0.13,Sips,False
+nadolol,78,8.0,Sips,False
+timolol,71,5.7,Sips,False
+atropine,59,3.9,dilution,False
+methotrexate,98,54,dilution,False
+quinidine,16,0.55,dilution_cassette_correction,False
+penicillin_g,9.2,0.29,dilution_cassette_correction,False

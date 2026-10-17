@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 2719,
+        "MolecularFormula": "C18H26ClN3",
+        "SMILES": "CCN(CC)CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl",
+        "ConnectivitySMILES": "CCN(CC)CCCC(C)NC1=C2C=CC(=CC2=NC=C1)Cl",
+        "InChIKey": "WHTVZRBIWZFKQO-UHFFFAOYSA-N",
+        "Title": "Chloroquine"
+      }
+    ]
+  }
+}

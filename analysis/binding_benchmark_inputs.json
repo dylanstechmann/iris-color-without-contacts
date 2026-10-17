@@ -1,0 +1,57 @@
+{
+  "status": "Source-specific measurements and structural coverage; no affinity predictor",
+  "sources": {
+    "hellinen2020": {"doi": "10.3390/pharmaceutics12060554", "xml_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7355663/fullTextXML", "tables": ["Table 1", "Table 2", "Table 4"]},
+    "bahrpeyma2022": {"doi": "10.1016/j.jconrel.2022.05.059", "pdf_url": "https://helda.helsinki.fi/server/api/core/bitstreams/3071a26c-d14a-4282-b823-2493248225d0/content", "tables": ["Table 2", "Table 3"]}
+  },
+  "representation": {"parent": "RDKit FragmentParent then Uncharger; preserve returned stereochemistry; no canonical tautomer enumeration", "primary": "binary Morgan radius 2, 2048 bits, chirality false", "sensitivity": ["same Morgan with chirality true", "RDKit path fingerprint, 2048 bits, minPath 1, maxPath 7"], "pH_speciation_estimated": false},
+  "reference_2020": [
+    {"id": "terazosin", "name": "terazosin", "vendor_catalog": "Sigma T4680", "mst_kd_uM": 29, "mst_68pct_confidence_value_uM": 28, "mst_mode": "initial_fluorescence", "sips": [46,16,112,13,0.64,0.018], "sips_origin": "measured_2020"},
+    {"id": "penicillin_g", "name": "penicillin G", "vendor_catalog": "Sigma P7794", "mst_kd_uM": 3.2, "mst_68pct_confidence_value_uM": 7.6, "mst_mode": "thermophoresis", "sips": null, "sips_origin": "not_studied"},
+    {"id": "chloroquine", "name": "chloroquine", "vendor_catalog": "Sigma C6628", "mst_kd_uM": 0.8, "mst_68pct_confidence_value_uM": 7.7, "mst_mode": "thermophoresis", "sips": [76,23,380,40,0.605,0.012], "sips_origin": "prior_study_ref16"},
+    {"id": "levofloxacin", "name": "levofloxacin", "vendor_catalog": "Sigma 28266", "mst_kd_uM": 46.5, "mst_68pct_confidence_value_uM": 40.1, "mst_mode": "thermophoresis", "sips": [157,56,72,11,0.73,0.02], "sips_origin": "measured_2020"},
+    {"id": "papaverine", "name": "papaverine", "vendor_catalog": "Sigma P5310", "mst_kd_uM": 28, "mst_68pct_confidence_value_uM": 23, "mst_mode": "initial_fluorescence", "sips": [66,18,66,8,0.715,0.015], "sips_origin": "measured_2020"},
+    {"id": "propranolol", "name": "propranolol", "vendor_catalog": "Sigma P0884", "mst_kd_uM": 80, "mst_68pct_confidence_value_uM": 92, "mst_mode": "initial_fluorescence", "sips": [163,100,176,60,0.89,0.05], "sips_origin": "prior_study_ref16"},
+    {"id": "nadolol", "name": "nadolol", "vendor_catalog": "Sigma N1892", "mst_kd_uM": 200, "mst_68pct_confidence_value_uM": 33, "mst_mode": "initial_fluorescence", "sips": [340,200,68,24,0.94,0.05], "sips_origin": "prior_study_ref11"},
+    {"id": "timolol", "name": "timolol", "vendor_catalog": "Sigma T6394-250MG", "mst_kd_uM": 260, "mst_68pct_confidence_value_uM": 128, "mst_mode": "thermophoresis", "sips": [120,30,39,6,0.95,0.03], "sips_origin": "prior_study_ref11"},
+    {"id": "quinidine", "name": "quinidine", "vendor_catalog": "Sigma 22600", "mst_kd_uM": 214, "mst_68pct_confidence_value_uM": 29, "mst_mode": "initial_fluorescence", "sips": null, "sips_origin": "not_studied"},
+    {"id": "atropine", "name": "atropine", "vendor_catalog": "Fluka 11330", "mst_kd_uM": 912, "mst_68pct_confidence_value_uM": 1318, "mst_mode": "thermophoresis", "sips": null, "sips_origin": "not_studied"},
+    {"id": "methotrexate", "name": "methotrexate", "vendor_catalog": "Fluka PHR1396", "mst_kd_uM": 3500, "mst_68pct_confidence_value_uM": 13000, "mst_mode": "initial_fluorescence", "sips": null, "sips_origin": "prior_no_binding"}
+  ],
+  "excluded_numeric_mst": [
+    {"id": "diclofenac", "reason": "Table 2: MST Kd could not be determined; traditional prior no binding"},
+    {"id": "pazopanib", "reason": "Discussion: solubility-limited fit about 7.8 uM with about 1100 uM confidence; excluded from dependable numeric panel"},
+    {"id": "ciprofloxacin", "reason": "Listed in Table 1 but no numeric Table 2 MST outcome; not assigned an affinity"}
+  ],
+  "release_2022": [
+    {"id": "timolol", "sips": [120,30,39,6,0.95,0.03], "melanin_koff_per_h": 7.23, "apparent_melanosome_koff_per_h": 0.97},
+    {"id": "levofloxacin", "sips": [157,56,72,23,0.73,0.02], "melanin_koff_per_h": 0.47, "apparent_melanosome_koff_per_h": 0.32},
+    {"id": "papaverine", "sips": [66,18,66,6,0.72,0.02], "melanin_koff_per_h": 0.46, "apparent_melanosome_koff_per_h": 0.36},
+    {"id": "terazosin", "sips": [46,16,112,13,0.64,0.02], "melanin_koff_per_h": 0.46, "apparent_melanosome_koff_per_h": 0.20}
+  ],
+  "calculated_fu_2020": [
+    ["chloroquine",0.41,0.0012,"Sips"], ["terazosin",2.9,0.012,"Sips"], ["levofloxacin",28,0.33,"Sips"],
+    ["propranolol",32,0.9,"Sips"], ["papaverine",15,0.13,"Sips"], ["nadolol",78,8.0,"Sips"],
+    ["timolol",71,5.7,"Sips"], ["atropine",59,3.9,"dilution"], ["methotrexate",98,54,"dilution"],
+    ["quinidine",16,0.55,"dilution_cassette_correction"], ["penicillin_g",9.2,0.29,"dilution_cassette_correction"]
+  ],
+  "probes": [
+    {"id": "thiamidol", "name": "Thiamidol", "cid": 71543007},
+    {"id": "butylresorcinol", "name": "4-butylresorcinol", "cid": 205912},
+    {"id": "kojic_acid", "name": "kojic acid", "cid": 3840},
+    {"id": "metyrosine", "name": "metyrosine", "cid": 441350},
+    {"id": "beta_mangostin", "name": "beta-mangostin", "cid": 5495925},
+    {"id": "levobunolol", "name": "levobunolol", "cid": 39468},
+    {"id": "latanoprost", "name": "latanoprost ester", "cid": 5311221},
+    {"id": "ampyrone", "name": "4-aminoantipyrine", "cid": 2151}
+  ],
+  "limits": [
+    "MST confidence values are source-reported software 68-percent confidence values, not standard errors or calibrated symmetric intervals.",
+    "Sips parameters use porcine ocular pigment; MST uses synthetic nanoparticles. Do not pool Kd values across these models.",
+    "All Table 4 unbound fractions, including the in-vitro column, are calculated; human RPE-choroid values are predictions.",
+    "The 2022 binding parameters are reused earlier measurements; their reported uncertainties differ for some compounds. Release is a distinct endpoint.",
+    "The 2020 narrative says 13 tested; Table 1 names 14, Table 2 has 12 rows and 11 numeric MST estimates. Preserve the discrepancy.",
+    "Named-parent PubChem resolution is not verification of a purchased salt, stereoisomer mixture or dominant species at assay pH.",
+    "Latanoprost ester is kept distinct from its acid; alpha/beta mangostin and ampyrone/aminopyrine are not merged."
+  ]
+}

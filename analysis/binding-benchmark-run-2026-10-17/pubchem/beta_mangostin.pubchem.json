@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 5495925,
+        "MolecularFormula": "C25H28O6",
+        "SMILES": "CC(=CCC1=C(C=C2C(=C1O)C(=O)C3=C(O2)C=C(C(=C3CC=C(C)C)OC)O)OC)C",
+        "ConnectivitySMILES": "CC(=CCC1=C(C=C2C(=C1O)C(=O)C3=C(O2)C=C(C(=C3CC=C(C)C)OC)O)OC)C",
+        "InChIKey": "YRKKJHJIWCRNCW-UHFFFAOYSA-N",
+        "Title": "Beta-Mangostin"
+      }
+    ]
+  }
+}

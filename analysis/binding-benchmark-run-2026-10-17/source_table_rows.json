@@ -1,0 +1,344 @@
+{
+  "Table 1": [
+    [
+      "Atropine",
+      "−0.41",
+      "15.15",
+      "9.39",
+      "Fluka (11330)",
+      "0.005–500",
+      "n.d."
+    ],
+    [
+      "Chloroquine",
+      "1.43",
+      "-",
+      "10.32",
+      "Sigma Aldrich (C6628)",
+      "0.005–100",
+      "0.25–500 1"
+    ],
+    [
+      "Ciprofloxacin",
+      "−0.87",
+      "5.56",
+      "8.77",
+      "BioChemica (17850)",
+      "0.005–500",
+      "n.d."
+    ],
+    [
+      "Diclofenac",
+      "1.10",
+      "4",
+      "-",
+      "Sigma Aldrich (D6899)",
+      "0.005–500",
+      "0.5–500 1"
+    ],
+    [
+      "Levofloxacin",
+      "−0.51",
+      "5.35",
+      "6.72",
+      "Sigma Aldrich (28266)",
+      "0.005–500",
+      "0.25–500"
+    ],
+    [
+      "Methotrexate",
+      "−6.56",
+      "3.25",
+      "2.81",
+      "Fluka (PHR1396)",
+      "0.005–500",
+      "0.25–250 2"
+    ],
+    [
+      "Nadolol",
+      "−1.44",
+      "13.59",
+      "9.76",
+      "Sigma Aldrich (N-1892)",
+      "0.005–500",
+      "0.5–500 2"
+    ],
+    [
+      "Papaverine",
+      "3.06",
+      "-",
+      "6.03",
+      "Sigma Aldrich (P5310)",
+      "0.005–250",
+      "0.25–250"
+    ],
+    [
+      "Pazopanib",
+      "3.55",
+      "10.41",
+      "4.36",
+      "Sigma Aldrich (CDS023580)",
+      "0.25–4",
+      "n.d."
+    ],
+    [
+      "Propranolol",
+      "0.36",
+      "14.09",
+      "9.67",
+      "Sigma Aldrich (P-0884)",
+      "0.005–500",
+      "0.5–500 1"
+    ],
+    [
+      "Penicillin g",
+      "−2.29",
+      "3.53",
+      "-",
+      "Sigma Aldrich (P-7794)",
+      "0.005–500",
+      "n.d."
+    ],
+    [
+      "Terazosin",
+      "0.95",
+      "-",
+      "7.24",
+      "Sigma Aldrich (T4680)",
+      "0.005–250",
+      "0.25–500"
+    ],
+    [
+      "Quinidine",
+      "0.86",
+      "13.89",
+      "9.05",
+      "Sigma Aldrich (22600)",
+      "0.005–500",
+      "n.d."
+    ],
+    [
+      "Timolol",
+      "−0.97",
+      "14.08",
+      "9.76",
+      "Sigma-Aldrich (T6394-250MG)",
+      "0.005–500",
+      "0.25–250 2"
+    ]
+  ],
+  "Table 2": [
+    [
+      "Terazosin *",
+      "29 ± 28",
+      "12.5",
+      "46 ± 16",
+      "112 ± 13",
+      "0.64 ± 0.018",
+      "56 ± 6.5"
+    ],
+    [
+      "Penicillin G",
+      "3.2 ± 7.6",
+      "12.5",
+      "not studied",
+      "not studied",
+      "not studied",
+      "not studied"
+    ],
+    [
+      "Chloroquine",
+      "0.8 ± 7.7",
+      "12.5",
+      "76 ± 23",
+      "380 ± 40",
+      "0.605 ± 0.012",
+      "190 ± 20"
+    ],
+    [
+      "Levofloxacin",
+      "46.5 ± 40.1",
+      "12.5",
+      "157 ± 56",
+      "72 ± 11",
+      "0.73 ± 0.02",
+      "36 ± 5.5"
+    ],
+    [
+      "Papaverine *",
+      "28 ± 23",
+      "12.5",
+      "66 ± 18",
+      "66 ± 8",
+      "0.715 ± 0.015",
+      "33 ± 4"
+    ],
+    [
+      "Propranolol *",
+      "80 ± 92",
+      "12.5",
+      "163 ± 100",
+      "176 ± 60",
+      "0.89 ± 0.05",
+      "88 ± 30"
+    ],
+    [
+      "Nadolol *",
+      "200 ± 33",
+      "12.5",
+      "340 ± 200",
+      "68 ± 24",
+      "0.94 ± 0.05",
+      "34 ± 12"
+    ],
+    [
+      "Timolol",
+      "260 ± 128",
+      "12.5",
+      "120 ± 30",
+      "39 ± 6",
+      "0.95 ± 0.03",
+      "19.5 ± 3"
+    ],
+    [
+      "Quinidine *",
+      "214 ± 29",
+      "12.5",
+      "not studied",
+      "not studied",
+      "not studied",
+      "not studied"
+    ],
+    [
+      "Atropine",
+      "912 ± 1318",
+      "12.5",
+      "not studied",
+      "not studied",
+      "not studied",
+      "not studied"
+    ],
+    [
+      "Methotrexate *",
+      "3500 ± 13,000",
+      "12.5",
+      "no binding 1",
+      "no binding 1",
+      "no binding 1",
+      "no binding 1"
+    ],
+    [
+      "Diclofenac",
+      "Kd could not be determined",
+      "12.5",
+      "no binding 1",
+      "no binding 1",
+      "no binding 1",
+      "no binding 1"
+    ]
+  ],
+  "Table 3": [
+    [
+      "Low",
+      ">10%",
+      ">650 µM"
+    ],
+    [
+      "Intermediate",
+      "1–10%",
+      "65–650 µM"
+    ],
+    [
+      "High",
+      "0.1–1%",
+      "6.5–65 µM"
+    ],
+    [
+      "Extreme",
+      "<0.1%",
+      "<6.5 µM"
+    ]
+  ],
+  "Table 4": [
+    [
+      "Chloroquine",
+      "extreme",
+      "extreme",
+      "0.41",
+      "0.0012",
+      "Sips binding parameters a"
+    ],
+    [
+      "Terazosin",
+      "extreme",
+      "high",
+      "2.9",
+      "0.012"
+    ],
+    [
+      "Levofloxacin",
+      "high",
+      "high",
+      "28",
+      "0.33"
+    ],
+    [
+      "Propranolol",
+      "high",
+      "intermediate",
+      "32",
+      "0.9"
+    ],
+    [
+      "Papaverine",
+      "high",
+      "high",
+      "15",
+      "0.13"
+    ],
+    [
+      "Nadolol",
+      "intermediate",
+      "intermediate",
+      "78",
+      "8.0"
+    ],
+    [
+      "Timolol",
+      "intermediate",
+      "intermediate",
+      "71",
+      "5.7"
+    ],
+    [
+      "Atropine",
+      "intermediate",
+      "low",
+      "59",
+      "3.9",
+      "Dilution equation (based on binding data from [6]) b"
+    ],
+    [
+      "Methotrexate",
+      "low",
+      "low",
+      "98",
+      "54"
+    ],
+    [
+      "Quinidine",
+      "high",
+      "intermediate",
+      "16",
+      "0.55",
+      "Dilution equation (based on binding data from [6]) b"
+    ],
+    [
+      "Penicillin G",
+      "high",
+      "extreme",
+      "9.2",
+      "0.29"
+    ]
+  ]
+}

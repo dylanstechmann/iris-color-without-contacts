@@ -4,6 +4,7 @@ These are AI-run research calculations on hypothetical balances and existing pub
 
 ## Outputs
 
+- [Measured binding benchmark and chemical coverage](binding-benchmark-run-2026-10-17/BENCHMARK_REPORT.md): nineteen resolved structures, source-specific binding/release endpoints and 88 probe/reference comparisons; no fitted affinity predictor.
 - [Exposure and pigment-feedback model](exposure-run-2026-10-17/MODEL_REPORT.md): separate free/bound pools, membrane escape, gross pigment turnover and production up/down; 32 hypothetical cases.
 - [TYR assay audit](tyr-assay-audit-final-2026-10-17/ASSAY_REPORT.md): 870 activity records with explicit species, endpoint and repeated-source qualifications.
 - [IP3R2 numerical extraction](ip3r2-data-run-2026-10-17/DATA_REPORT.md): human skin-cell image/protein metrics and a separate mouse-cell energy endpoint from public source workbooks.
@@ -12,6 +13,16 @@ These are AI-run research calculations on hypothetical balances and existing pub
 - [Compound properties](workbench-comparison-2026-10-17/compounds.csv): seven PubChem identities with RDKit descriptors.
 - [Target snapshots](target-snapshots-2026-10-17): human TYR/OCA2 sequence and annotation snapshots.
 - [Workbench status](WORKBENCH_STATUS.md): actual runtime and check outcomes.
+
+## Reproduce the binding benchmark
+
+Inside the full Regen Workbench image, with this repository mounted as /lab/projects/iris-color:
+
+    python /lab/projects/iris-color/analysis/build_binding_benchmark.py --inputs /lab/projects/iris-color/analysis/binding_benchmark_inputs.json --cache /lab/data/literature/iris-binding-benchmark-new --out /lab/projects/iris-color/analysis/new-binding-benchmark --plot
+
+The runner uses existing Regen HTTP/provenance helpers, public source XML/PDF and PubChem properties, then RDKit 2026.03.6 for the recorded structures. Use a fresh output directory; a fresh cache is appropriate when changing identity queries. Raw XML/PDF stay in ignored literature data. Nineteen public property snapshots are exported with hashes. The eleven manually declared MST estimates/confidence values must match the fetched XML table; other source-specific values are retained as declared transcriptions.
+
+Fingerprint settings are declared before calculation. Parent preparation uses FragmentParent and Uncharger, preserving returned stereochemistry without canonical tautomer enumeration. All returned graphs were unchanged by those operations in this run. Chiral sensitivity concerns the database representations, not verified experimental mixtures or assay-pH species. The outputs include the full 88-pair matrix, three nearest neighbors under each representation, reference-only nearest neighbors and seven separate descriptor-range checks. No predictor, calibrated applicability-domain cutoff or aggregate candidate score is fitted.
 
 ## Reproduce the exposure model
 

@@ -1,0 +1,132 @@
+{
+  "script_sha256": "4c74e940f0ef64d45ac551e20ad2d14e66eabf6a547fe4a76e739d8cfedcde3c",
+  "input_sha256": "6ad404e887dc120c370e6ddd293978f9f6d4b3930a6a97dbceba8112108eb621",
+  "created_utc": "2026-10-17T18:10:31.233052+00:00",
+  "rdkit_version": "2026.03.6",
+  "outputs": {
+    "binding_2020.csv": {
+      "bytes": 1642,
+      "sha256": "c30badc069e670f727d8fbab06c1254ffdcd073a672f3c3b78cacb898c317cc7"
+    },
+    "calculated_fu_2020.csv": {
+      "bytes": 501,
+      "sha256": "8a1c9ac0606c7741be66f73ed5c5680c42a548af00d837995a36a5b76a86e431"
+    },
+    "descriptor_coverage.csv": {
+      "bytes": 3631,
+      "sha256": "65a2ad4da68ccd81cc86ea2fe93f844036bd1010b0ffc2371019333d2e0e5181"
+    },
+    "identities.csv": {
+      "bytes": 9075,
+      "sha256": "ed4b270255e54531f5611298c6e62b56c71484f2f6c9b5a2da27b51435262789"
+    },
+    "inputs.json": {
+      "bytes": 6337,
+      "sha256": "6ad404e887dc120c370e6ddd293978f9f6d4b3930a6a97dbceba8112108eb621"
+    },
+    "nearest_neighbors.csv": {
+      "bytes": 4495,
+      "sha256": "b79729b8a4c11c77f820393c164f20d2511026cb77ad0a874a3bd8b7a33d3372"
+    },
+    "pubchem/ampyrone.pubchem.json": {
+      "bytes": 337,
+      "sha256": "a8d1c6eb923a3b89639f4d057e728aebb84ad94e87ac2b36a112494915c3b11a"
+    },
+    "pubchem/atropine.pubchem.json": {
+      "bytes": 354,
+      "sha256": "5c3262bd82b2d0923bbde240eb586df268321873b0bc6d034a44dd6d41bc0758"
+    },
+    "pubchem/beta_mangostin.pubchem.json": {
+      "bytes": 400,
+      "sha256": "084183f091783e15ca18190bcc4c8341ad7eae7920add878b65561a69deb4162"
+    },
+    "pubchem/butylresorcinol.pubchem.json": {
+      "bytes": 320,
+      "sha256": "5fcaefd95db7da8fb7818b1b472e197be6f403a7a26723cf46dab9a1dee98b35"
+    },
+    "pubchem/chloroquine.pubchem.json": {
+      "bytes": 348,
+      "sha256": "9d3b55330244c2a2d673a837b032d38ba36eee3e5aa20f4032bdecd12e314692"
+    },
+    "pubchem/kojic_acid.pubchem.json": {
+      "bytes": 305,
+      "sha256": "2453ac87e471950d82797cf75be0c5c7ee27687fca4c6e5ba16924b4460cf028"
+    },
+    "pubchem/latanoprost.pubchem.json": {
+      "bytes": 397,
+      "sha256": "155cd55c2b1e0bb6799e09136b275b850a861d93496d48d70b14b1732c861a5a"
+    },
+    "pubchem/levobunolol.pubchem.json": {
+      "bytes": 347,
+      "sha256": "f0ae781c4e92805934a74e4685a6d9bab137e279832cfd7c4f91b35c36714601"
+    },
+    "pubchem/levofloxacin.pubchem.json": {
+      "bytes": 380,
+      "sha256": "059a045e7f75d3f41b16baa5bbcb191ceb988522440a37240cd2abff75b9fb07"
+    },
+    "pubchem/methotrexate.pubchem.json": {
+      "bytes": 416,
+      "sha256": "4bbad697dfcbf5c9cce1ffc955c06dd6747dd7568b35b139334cb9771119ebf0"
+    },
+    "pubchem/metyrosine.pubchem.json": {
+      "bytes": 331,
+      "sha256": "fa5b5273953da2470b8989e12f218faf713979416332004a421cd8ae436c20fa"
+    },
+    "pubchem/nadolol.pubchem.json": {
+      "bytes": 356,
+      "sha256": "0568fb8a035256e20aa9e1372b963e9b96931441cd7d9e64fcc9e132c1a08af0"
+    },
+    "pubchem/papaverine.pubchem.json": {
+      "bytes": 364,
+      "sha256": "8fa13f604355458faaf776235862968c55340bb1ecbcf8e53d3a90855757cb24"
+    },
+    "pubchem/penicillin_g.pubchem.json": {
+      "bytes": 382,
+      "sha256": "22addca115ee360e07160446957f67268d4bff3622a3be04210230ebb692b406"
+    },
+    "pubchem/propranolol.pubchem.json": {
+      "bytes": 335,
+      "sha256": "ea861ff213b2fb97953f57591431fdc8525e17ff5e3d9cb22cd80d436f9ca84c"
+    },
+    "pubchem/quinidine.pubchem.json": {
+      "bytes": 375,
+      "sha256": "2088c081a734d9d16c15ca616e6700cafff474a2c82e1b7db32bacb94b4cce02"
+    },
+    "pubchem/terazosin.pubchem.json": {
+      "bytes": 378,
+      "sha256": "bda88e21bd5a4b692a6c22dec5ca17700598aa93a1851e374ebbb6ee120d18f9"
+    },
+    "pubchem/thiamidol.pubchem.json": {
+      "bytes": 408,
+      "sha256": "050454503ba0fd9ab30f431f6ac11621bc9895fde1a4b8040b7954cf2f2b25e7"
+    },
+    "pubchem/timolol.pubchem.json": {
+      "bytes": 341,
+      "sha256": "f463dc3688e643e61ed1ae7089ce4dc301ff9641d72b8632625fdb814d245b89"
+    },
+    "reference_leave_one_out_neighbors.csv": {
+      "bytes": 1762,
+      "sha256": "076006bf9d1213a2c5def22745f29441f2301be263a19fe2f843ca24bcd4fac8"
+    },
+    "release_2022.csv": {
+      "bytes": 694,
+      "sha256": "482d79e32b01fc0c25366508d3407581ec0855145e7e08761c90851142252f6e"
+    },
+    "similarities.csv": {
+      "bytes": 7102,
+      "sha256": "6b62010a7f924c1170014c3c2e878e6b757a0e61727c66710dab0bbbdb69c406"
+    },
+    "source_table_rows.json": {
+      "bytes": 5324,
+      "sha256": "9b308a7acff807429ee0a45521aaaf9d05f3da2e27e92d66027659a7405373dc"
+    },
+    "structural_coverage.svg": {
+      "bytes": 129309,
+      "sha256": "666689e709b3dfb441a523ad9d7d9ee4b18778195f603463315bc51ac5494043"
+    },
+    "summary.json": {
+      "bytes": 17488,
+      "sha256": "112228c6f52480ad82ae534c1d400f83432f0ea7debde6b5a26e328ac8e120ed"
+    }
+  }
+}

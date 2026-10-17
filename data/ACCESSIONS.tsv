@@ -19,3 +19,16 @@ JCI Insight	10.1172/jci.insight.202947	2026-10-17	https://pmc.ncbi.nlm.nih.gov/a
 Journal of Controlled Release	10.1016/j.jconrel.2022.05.059	2026-10-17	https://helda.helsinki.fi/server/api/core/bitstreams/3071a26c-d14a-4282-b823-2493248225d0/content	Measured binding/release context; no numbers assigned to shortlisted probes
 Molecular Pharmaceutics	10.1021/acs.molpharmaceut.4c00694	2026-10-17	https://research.abo.fi/ws/portalfiles/portal/71727821/melanin-binding-based-discovery-of-topically-instilled-carbonic-anhydrase-inhibitors-for-targeted-delivery-and.pdf	Animal ocular bound/unbound context; target-enzyme kinetics kept separate from pigment binding
 Pharmaceutics	10.3390/pharmaceutics12060554	2026-10-17	https://pmc.ncbi.nlm.nih.gov/articles/PMC7355663/	Public comparator-table lead for next chemistry-coverage analysis
+Europe PMC	PMC7355663 fullTextXML	2026-10-17	https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7355663/fullTextXML	Fetched source tables for the measured-reference benchmark
+PubChem	5401	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/5401	Terazosin named-parent reference
+PubChem	5904	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/5904	Penicillin G named-parent reference
+PubChem	2719	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/2719	Chloroquine named-parent reference
+PubChem	149096	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/149096	Levofloxacin reference
+PubChem	4680	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/4680	Papaverine named-parent reference
+PubChem	4946	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/4946	Propranolol named-parent reference
+PubChem	39147	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/39147	Nadolol partial-stereochemistry reference
+PubChem	33624	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/33624	Timolol reference
+PubChem	441074	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/441074	Quinidine named-parent reference
+PubChem	174174	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/174174	Atropine name query returned Npc209773 with partly unspecified stereochemistry
+PubChem	126941	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/126941	Methotrexate named-parent reference
+PubChem	2151	2026-10-17	https://pubchem.ncbi.nlm.nih.gov/compound/2151	Ampyrone / 4-aminoantipyrine probe

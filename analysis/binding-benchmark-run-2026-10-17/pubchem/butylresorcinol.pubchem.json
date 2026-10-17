@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 205912,
+        "MolecularFormula": "C10H14O2",
+        "SMILES": "CCCCC1=C(C=C(C=C1)O)O",
+        "ConnectivitySMILES": "CCCCC1=C(C=C(C=C1)O)O",
+        "InChIKey": "CSHZYWUPJWVTMQ-UHFFFAOYSA-N",
+        "Title": "4-Butylresorcinol"
+      }
+    ]
+  }
+}

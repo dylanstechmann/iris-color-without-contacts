@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 149096,
+        "MolecularFormula": "C18H20FN3O4",
+        "SMILES": "C[C@H]1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O",
+        "ConnectivitySMILES": "CC1COC2=C3N1C=C(C(=O)C3=CC(=C2N4CCN(CC4)C)F)C(=O)O",
+        "InChIKey": "GSDSWSVVBLHKDQ-JTQLQIEISA-N",
+        "Title": "Levofloxacin"
+      }
+    ]
+  }
+}

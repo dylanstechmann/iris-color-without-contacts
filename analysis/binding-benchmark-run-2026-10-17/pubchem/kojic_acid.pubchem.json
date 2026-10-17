@@ -1,0 +1,14 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 3840,
+        "MolecularFormula": "C6H6O4",
+        "SMILES": "C1=C(OC=C(C1=O)O)CO",
+        "ConnectivitySMILES": "C1=C(OC=C(C1=O)O)CO",
+        "InChIKey": "BEJNERDRQOWKJM-UHFFFAOYSA-N",
+        "Title": "Kojic Acid"
+      }
+    ]
+  }
+}
