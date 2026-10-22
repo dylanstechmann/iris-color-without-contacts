@@ -20,6 +20,7 @@ def check():
         ("ampyrone-data-run-2026-10-17", "outputs"),
         ("withdrawal-evidence-run-2026-10-17", "outputs"),
         ("recovery-identifiability-run-2026-10-17", "outputs"),
+        ("kt939-comparison-run-2026-10-22", "outputs"),
         ("iris-atlas-run-2026-10-17", "outputs"),
         ("workbench-comparison-2026-10-17", "files"),
         ("target-snapshots-2026-10-17", None),
@@ -61,6 +62,15 @@ def check():
         run_receipt = json.loads((ROOT / folder / "receipt.json").read_text())
         if digest(ROOT / script) != run_receipt["script_sha256"] or digest(ROOT / input_file) != run_receipt[input_key]:
             raise ValueError("Recovery/withdrawal source or input differs from receipt: " + script)
+    comparison = json.loads((ROOT / "kt939-comparison-run-2026-10-22" / "receipt.json").read_text())
+    if digest(ROOT / "compare_kt939_thiamidol.py") != comparison["script_sha256"]:
+        raise ValueError("KT-939 comparison script differs from run receipt.")
+    reference = ROOT / "binding-benchmark-run-2026-10-17/pubchem/thiamidol.pubchem.json"
+    if digest(reference) != comparison["reference_sha256"]:
+        raise ValueError("KT-939 comparison reference differs from run receipt.")
+    prior_sources = json.loads((ROOT / "withdrawal-evidence-run-2026-10-17/sources.json").read_text())
+    if comparison["source_xml_sha256"] != next(row["sha256"] for row in prior_sources if row["file"] == "kt939.xml"):
+        raise ValueError("KT-939 XML source hash differs from qualified withdrawal snapshot.")
     for name, receipt_name, script in [
         ("tyr-assay-audit-final-2026-10-17", "receipt.json", "audit_tyr_assays.py"),
         ("tyr-assay-audit-final-2026-10-17", "qualification_receipt.json", "qualify_tyr_records.py"),

@@ -110,7 +110,9 @@ The [withdrawal analysis](../analysis/withdrawal-and-recovery.md) now adds a pro
 
 An exact new counterexample shows why that distinction matters. A fixed old-pigment pool, partial suppression and added loss can produce the same total-inventory curve. The first two remain identical after withdrawal, while their old/new pigment histories differ. Serial inventory measurements alone therefore leave some model terms unidentified, even without noise. The [diagram and calculation](../analysis/withdrawal-and-recovery.md#a-calculation-that-changes-what-to-measure-next) specify the extra information needed.
 
-Next, compare KT-939 and thiamidol structures and results measured in the same assay. Prioritize measurements pairing new synthesis, stored pigment and withdrawal, with free active compound and cell-population accounting. Retain ampyrone's direct-catalysis/product-handling question. Preserve the original fixed iris panel; any new pathway-gene check should be a declared extension. Delivery, activity and recovery remain separate quantities.
+The [paired KT-939/thiamidol comparison](../analysis/kt939-thiamidol-comparison.md), completed October 22, extracts same-study IC50 ratios of 4.71 for MNT-1 lysate activity and 3.61 for six-day accumulated pigment/protein. KT-939 shares thiamidol's resorcinol–thiazole/amide scaffold but has an oxetane-containing side group. Its calculated neutral logP is lower and polar surface area higher; neither descriptor supplies a retention or delivery measurement. The study follows only KT-939 after withdrawal, so it cannot establish comparative recovery. Shorter viability observations and developer affiliation are recorded in the comparison.
+
+Next, seek paired free-exposure and withdrawal observations for both compounds in one human pigment-cell system. Prioritize measurements pairing new synthesis, stored pigment and withdrawal, with cell-population accounting. Retain ampyrone's direct-catalysis/product-handling question. Preserve the original fixed iris panel; any new pathway-gene check should be a declared extension. Delivery, activity and recovery remain separate quantities.
 
 ## Reproduction and checks
 

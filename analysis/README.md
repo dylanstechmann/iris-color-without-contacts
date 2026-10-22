@@ -4,6 +4,7 @@ These are AI-run research calculations on hypothetical balances and existing pub
 
 ## Outputs
 
+- [KT-939 and thiamidol comparison](kt939-thiamidol-comparison.md): same-study lysate and cell-pigment IC50 ratios, source-name-transcribed structure checks, calculated descriptors and the missing paired withdrawal comparison.
 - [Withdrawal and recovery](withdrawal-and-recovery.md): source-qualified inhibitor withdrawal observations and an exact counterexample showing which pigment mechanisms can share the same curve.
 - [Ampyrone numerical readout review](ampyrone-readout-review.md): selected public-workbook values, exact source cells and distinct human-cell, skin and mouse-cell endpoints; no iris or withdrawal inference.
 - [Phenolic binding follow-up](phenolic-binding-followup.md): measured paracetamol two-site data and remaining resorcinol/pyrazolone gaps, kept separate from the existing MST panel.
@@ -16,6 +17,18 @@ These are AI-run research calculations on hypothetical balances and existing pub
 - [Compound properties](workbench-comparison-2026-10-17/compounds.csv): seven PubChem identities with RDKit descriptors.
 - [Target snapshots](target-snapshots-2026-10-17): human TYR/OCA2 sequence and annotation snapshots.
 - [Workbench status](WORKBENCH_STATUS.md): actual runtime and check outcomes.
+
+## Reproduce the KT-939 comparison
+
+From this repository in the existing development container, using the source XML already fetched by the withdrawal intake:
+
+    python3 analysis/compare_kt939_thiamidol.py --xml ../regen-workbench/data/literature/iris-withdrawal-2026-10-17/kt939.xml --out analysis/new-kt939-comparison --plot
+    python3 analysis/verify_artifacts.py
+    python3 -m unittest discover -s analysis -p test_feasibility.py -v
+
+The comparison requires RDKit; the optional figure uses matplotlib and Pillow. The actual run used Python 3.12.3 and RDKit 2023.09.3 in the existing development container. The output directory must be new. The script pins the prior XML hash, checks source identity and parses reported values, checks the two neutral molecular graphs against declared formulas and a shared core, and calculates each assay's IC50 ratio separately. No curves are refitted and no affinity or withdrawal rate is inferred. The database InChIKey is retained as source metadata, not recalculated by this runtime. Output hashes and software versions are recorded in the receipt, and the PNG figure was inspected visually.
+
+If using another source cache, supply its KT-939 XML path. The [original withdrawal source records](withdrawal-evidence-run-2026-10-17/sources.json) identify the public XML URL and required hash. This run reused existing snapshots without a new fetch. Git newline conversion is disabled to preserve exact hashed bytes, including the original CRLF CSV rows. Previously committed artifacts and receipts are unchanged.
 
 ## Reproduce the withdrawal analysis
 

@@ -17,3 +17,11 @@ The full local CPU image ran the 23 fixed-capacity and nine matched-history calc
 ## Measured-reference benchmark continuation
 
 The full image ran public-source intake and nineteen structure resolutions with RDKit 2026.03.6. Source XML and PDF were fetched through the existing Regen HTTP/provenance functions, with raw files under ignored literature data. Eleven numeric source estimates and their confidence values matched the fetched XML rows. The run generated 88 pairwise structure comparisons, source-specific endpoint tables and a visually inspected static SVG. No affinities were fitted or transferred, and no software tests were added or run.
+
+## Paired KT-939/thiamidol continuation — October 22, 2026
+
+A fresh normal checkout of the public iris repository was created under the shared workspace. The existing `eager_mahavira` development container ran the comparison with Python 3.12.3 and RDKit 2023.09.3. The calculation reused the previously fetched KT-939 XML and the existing committed thiamidol PubChem snapshot; no new retrieval, experimental result, docking run or workbench source edit is claimed.
+
+The runner checked the frozen source hash and DOI, extracted the two paired IC50 endpoints, checked the name-transcribed neutral KT-939 graph/formula and the thiamidol reference graph, and exported calculated properties plus a visually inspected PNG/SVG figure. The [receipt](kt939-comparison-run-2026-10-22/receipt.json) identifies the exact run. The source-reported LCMS value remains qualified separately from the calculated exact mass.
+
+The first artifact check on the Windows checkout failed because automatic newline conversion changed report bytes. Restoring the original Git bytes reproduced the recorded hashes, including CRLF CSV rows. The new `.gitattributes` disables conversion without changing the archived artifacts or their receipts. Final verification passed for **115 selected artifacts**, with analysis scripts matching their receipts. All **eight existing pigment-balance tests passed**. These checks establish software consistency, not iris efficacy or biological reproducibility.

@@ -1,0 +1,17 @@
+[
+  {
+    "role": "Primary KT-939 study XML",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12569736/fullTextXML",
+    "bytes": 102111,
+    "sha256": "73d032625e98b25239a823f46676c465fb98044e96fc178aa4c986c158cace23",
+    "status": "Reused prior actual fetch; no new fetch claimed; raw XML outside repository"
+  },
+  {
+    "role": "Thiamidol structure snapshot",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/compound/71543007",
+    "repository_file": "analysis/binding-benchmark-run-2026-10-17/pubchem/thiamidol.pubchem.json",
+    "bytes": 408,
+    "sha256": "050454503ba0fd9ab30f431f6ac11621bc9895fde1a4b8040b7954cf2f2b25e7",
+    "status": "Reused existing public-identity snapshot"
+  }
+]

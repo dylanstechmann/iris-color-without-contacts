@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-10-22T16:59:13.940850+00:00",
+  "script_sha256": "3ab1d98aca76483ad36374bfabca110e002707a1659f88e9088555bb4846ef18",
+  "python_version": "3.12.3",
+  "rdkit_version": "2023.09.3",
+  "source_xml_sha256": "73d032625e98b25239a823f46676c465fb98044e96fc178aa4c986c158cace23",
+  "reference_sha256": "050454503ba0fd9ab30f431f6ac11621bc9895fde1a4b8040b7954cf2f2b25e7",
+  "outputs": {
+    "comparison.png": {
+      "bytes": 181748,
+      "sha256": "69b90f6c3b4ef8e96aab1743eb0e076b9372ee4667944d7b5adbd163bd6bd7b3"
+    },
+    "comparison.svg": {
+      "bytes": 128259,
+      "sha256": "eafa1005f0b0c9e2dab15652c3fc97391fee2c50dc587c9ae299fbb15164a7ef"
+    },
+    "paired_assays.csv": {
+      "bytes": 541,
+      "sha256": "3cbed1fb925adef7b9483f74a6beb706fc45cd74c032c915e10e5c74f13a9795"
+    },
+    "sources.json": {
+      "bytes": 708,
+      "sha256": "9640ce99e0f9f31b8b579b7f9ed577461770af27d8c253fc8d4055b5a771a441"
+    },
+    "structures.csv": {
+      "bytes": 577,
+      "sha256": "dc796cf779bb5d3407d916ace0dbc1b0f084bf5d49d1a33d045f15c8ac146f39"
+    },
+    "summary.json": {
+      "bytes": 2770,
+      "sha256": "c596ad8a5fb1f701b31b65fa9d8a5b8299dbfc8223248ddfe374b2dd065563c8"
+    }
+  }
+}

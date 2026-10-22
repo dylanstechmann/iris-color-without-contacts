@@ -1,0 +1,5 @@
+# Receipts hash exact bytes, including LF reports and CRLF CSV rows.
+# Disable checkout/staging newline conversion so both retain their stored bytes.
+* -text
+*.png binary
+*.pdf binary

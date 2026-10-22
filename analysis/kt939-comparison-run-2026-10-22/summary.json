@@ -1,0 +1,50 @@
+{
+  "activity": "Source-qualified paired IC50 and structure comparison; no new experiments",
+  "doi": "10.1111/jocd.70510",
+  "assays": [
+    {
+      "endpoint": "MNT-1 crude-lysate L-DOPA oxidation",
+      "short_label": "Lysate enzyme activity | Figure 1",
+      "source_location": "Results 3.1, Figure 1; Methods 2.3",
+      "kt939_IC50_uM": 0.07,
+      "thiamidol_IC50_uM": 0.33,
+      "meaning": "475-nm optical activity endpoint; IC50 derived from reported Vmax curves",
+      "thiamidol_over_kt939_IC50_ratio": 4.714285714285714
+    },
+    {
+      "endpoint": "Six-day MNT-1 accumulated melanin normalized to protein",
+      "short_label": "Cell pigment / protein | Figure 3",
+      "source_location": "Results 3.3, Figure 3; Methods 2.4",
+      "kt939_IC50_uM": 0.36,
+      "thiamidol_IC50_uM": 1.3,
+      "meaning": "405-nm bulk pigment/protein endpoint; not a direct new-synthesis flux",
+      "thiamidol_over_kt939_IC50_ratio": 3.611111111111111
+    }
+  ],
+  "structural_difference": "Oxetane-containing acyl substituent in KT-939 versus isopropyl acyl substituent in thiamidol; net +CO",
+  "descriptor_difference_kt939_minus_thiamidol": {
+    "molecular_weight_g_mol": 28.00999999999999,
+    "calculated_logP": -0.6195000000000022,
+    "TPSA_A2": 9.230000000000004,
+    "hydrogen_bond_donors": 0,
+    "hydrogen_bond_acceptors": 1,
+    "ring_count": 1
+  },
+  "morgan_radius2_2048bit_nochirality_tanimoto": 0.6078431372549019,
+  "mass_identity_qualification": {
+    "source_reported_LCMS_M_plus_H": 307.05,
+    "calculated_exact_M_plus_H": 307.074704394621,
+    "interpretation": "Source precision/calibration is unspecified; not an asserted exact-mass match or independent material identity verification"
+  },
+  "limits": [
+    "Two endpoint-specific ratios from rounded published point estimates; no raw curve refit, confidence interval or new significance test",
+    "Figure 4 tests KT-939 withdrawal only, so no paired recovery superiority is established",
+    "Cell pigment normalized to protein does not distinguish new synthesis, old pigment, cell division or loss",
+    "72-hour viability does not account for the full six-day pigment exposure or subsequent recovery",
+    "Figure 1 specifies three independent experiments; Figure 3 caption does not state n",
+    "One developer-affiliated study; underlying datasets available on request, not independently reproduced here",
+    "Neutral graph calculations do not measure pH speciation, solubility, free exposure, melanin binding or iris delivery",
+    "Morgan similarity is a representation-specific structural comparison, not an affinity or performance prediction",
+    "Docking is not measured affinity; skin formulation before/after observations are not a paired compound or iris comparison"
+  ]
+}

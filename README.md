@@ -1,12 +1,12 @@
 # Reversible cosmetic iris pigmentation through drugs
 
-A private, theoretical research project about cosmetic iris-color change without contacts or surgery. The lead question is whether sustained, reversible drug modulation of melanin production could gradually lighten an iris over months or years, and permit repigmentation after stopping.
+A theoretical research project about cosmetic iris-color change without contacts or surgery. The lead question is whether sustained, reversible drug modulation of melanin production could gradually lighten an iris over months or years, and permit repigmentation after stopping.
 
 The earlier bidirectional goal remains: **blue → dark brown → the same person's original blue**. Lightening a naturally brown iris and reversing a drug-induced darkening are related questions with potentially different kinetics.
 
 ## Latest completed exploration
 
-The [withdrawal and recovery analysis](analysis/withdrawal-and-recovery.md) adds cellular recovery observations for thiamidol and KT-939, and extracts the limits of a human melasma follow-up. A new exact calculation shows that persistent pigment, incomplete suppression and added loss can produce identical total-pigment curves. Some remain indistinguishable even after withdrawal. The diagram identifies the additional measurements that would separate them. The [ampyrone audit](analysis/ampyrone-readout-review.md) remains the production-up comparison; the [mechanism shortlist](research/mechanism-shortlist.md) connects the branches to the original reversible-color goal.
+The [KT-939 and thiamidol comparison](analysis/kt939-thiamidol-comparison.md) now extracts paired measurements from one study and checks the compounds' related structures. KT-939 has a lower reported IC50 in both the lysate and six-day cell-pigment assays. Its withdrawal study has no thiamidol arm, so comparative recovery remains unresolved. The comparison adds reproducible tables, a figure and source hashes. The earlier [withdrawal analysis](analysis/withdrawal-and-recovery.md) explains why pigment recovery alone cannot identify drug washout or old-pigment loss; the [mechanism shortlist](research/mechanism-shortlist.md) connects these findings to the reversible-color goal.
 
 ## Current research direction
 
@@ -25,7 +25,7 @@ The models do not predict a seven-year biological renewal interval or a compulso
 
 ## Next
 
-Compare KT-939 and thiamidol structures and results measured in the same assay. Seek human-cell observations that pair new synthesis, stored pigment and withdrawal, with cell-population accounting. For ampyrone, retain the enzyme-product identity question. Separate free active compound, target activity, pigment inventory and iris appearance before fitting recovery rates. The [new calculation](analysis/withdrawal-and-recovery.md#which-added-observations-answer-which-question) explains which added observations are informative; the [analysis methods](analysis/README.md) document completed runs.
+Seek paired KT-939/thiamidol exposure and withdrawal observations in one human pigment-cell system, with free active compound, target activity and cell-population accounting. Their structural difference motivates measuring retention; calculated properties do not establish it. Pair new synthesis with stored-pigment tracking before fitting recovery rates. For ampyrone, retain the enzyme-product identity question. The [identifiability calculation](analysis/withdrawal-and-recovery.md#which-added-observations-answer-which-question) explains which added observations are informative; the [analysis methods](analysis/README.md) document completed runs.
 
 The primary cosmetic objective is repeatable living-eye appearance change with preserved function and recovery. A noninvasive color measure can track appearance; chemistry addresses pigment mechanisms. Archived records, cell models, donor-eye calibration, and automation are supporting options chosen for a defined question.
 
@@ -46,4 +46,4 @@ The primary cosmetic objective is repeatable living-eye appearance change with p
 
 Literature review and conceptual analysis for cosmetic pharmacology. The repository does not provide a treatment regimen or establish clinical suitability. Evidence from existing medicines, cell culture, animal studies, and patents is labeled by type.
 
-*Focused iris review: October 17, 2026. Personal learning project; AI-assisted synthesis.*
+*Latest focused comparison: October 22, 2026. Personal learning project; AI-assisted synthesis.*

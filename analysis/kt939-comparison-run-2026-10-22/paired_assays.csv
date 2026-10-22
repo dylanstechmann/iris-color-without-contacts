@@ -1,0 +1,3 @@
+endpoint,short_label,source_location,kt939_IC50_uM,thiamidol_IC50_uM,meaning,thiamidol_over_kt939_IC50_ratio
+MNT-1 crude-lysate L-DOPA oxidation,Lysate enzyme activity | Figure 1,"Results 3.1, Figure 1; Methods 2.3",0.07,0.33,475-nm optical activity endpoint; IC50 derived from reported Vmax curves,4.714285714285714
+Six-day MNT-1 accumulated melanin normalized to protein,Cell pigment / protein | Figure 3,"Results 3.3, Figure 3; Methods 2.4",0.36,1.3,405-nm bulk pigment/protein endpoint; not a direct new-synthesis flux,3.611111111111111
