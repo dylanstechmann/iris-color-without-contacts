@@ -47,4 +47,4 @@ The primary cosmetic objective is repeatable living-eye appearance change with p
 
 Literature review and conceptual analysis for cosmetic pharmacology. The repository does not provide a treatment regimen or establish clinical suitability. Evidence from existing medicines, cell culture, animal studies, and patents is labeled by type.
 
-*Latest focused comparison: October 22, 2026. Personal learning project; AI-assisted synthesis.*
+*Latest focused comparison: October 22, 2026. Personal hobby and learning project; AI-assisted synthesis.*
