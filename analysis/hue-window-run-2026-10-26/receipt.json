@@ -1,0 +1,159 @@
+{
+  "model_status": "hypothetical",
+  "python": "3.12.3",
+  "assumptions": {
+    "schema_version": 2,
+    "status": "Hypothetical iris assumptions; only the colorimetry tables are standard data",
+    "wavelengths_nm": {
+      "start": 380,
+      "stop": 780,
+      "step": 5
+    },
+    "colorimetry": {
+      "observer": "CIE 1931 2 degree standard colorimetric observer",
+      "observer_csv": "cie-tables/CIE_xyz_1931_2deg.csv",
+      "observer_sha256": "fa663e3535a7e0763a745993a1f0a192eb0275ac46ad2d1befd7626841e713c1",
+      "illuminant": "CIE standard illuminant D65",
+      "illuminant_csv": "cie-tables/CIE_std_illum_D65.csv",
+      "illuminant_sha256": "e76f210bffff3d552ef7113025da5f325d5dfec200dd4b878b1a2f3a507032cb",
+      "colour_space": "CIE 1976 L*a*b*; white is a perfect reflector under the same sampled tables"
+    },
+    "stroma_backscatter": {
+      "fraction_at_550nm": 0.25,
+      "wavelength_exponent": 4
+    },
+    "overlying_pigment_path_fraction": 0.5,
+    "pigment_absorbance_at_550nm": [
+      0,
+      0.1,
+      0.25,
+      0.5,
+      1,
+      2
+    ],
+    "pheomelanin_share_of_absorbance": [
+      0,
+      0.1,
+      0.3,
+      0.5,
+      0.8,
+      1
+    ],
+    "eumelanin_spectral_exponent": [
+      2.5,
+      3.3
+    ],
+    "pheomelanin_spectral_exponent": [
+      4.5,
+      6
+    ],
+    "back_return_modes": {
+      "dark_pigment_epithelium": {
+        "type": "constant",
+        "value": 0.02
+      },
+      "translucent_red_return_plateau_0.05": {
+        "type": "red_edge",
+        "floor": 0.02,
+        "plateau": 0.05,
+        "edge_nm": 590,
+        "width_nm": 15
+      },
+      "translucent_red_return_plateau_0.15": {
+        "type": "red_edge",
+        "floor": 0.02,
+        "plateau": 0.15,
+        "edge_nm": 590,
+        "width_nm": 15
+      },
+      "translucent_red_return_plateau_0.25": {
+        "type": "red_edge",
+        "floor": 0.02,
+        "plateau": 0.25,
+        "edge_nm": 590,
+        "width_nm": 15
+      },
+      "translucent_red_return_plateau_0.35": {
+        "type": "red_edge",
+        "floor": 0.02,
+        "plateau": 0.35,
+        "edge_nm": 590,
+        "width_nm": 15
+      },
+      "translucent_red_return_plateau_0.5": {
+        "type": "red_edge",
+        "floor": 0.02,
+        "plateau": 0.5,
+        "edge_nm": 590,
+        "width_nm": 15
+      }
+    },
+    "reference_stimuli": {
+      "blue": {
+        "type": "short_pass",
+        "edge_nm": 500,
+        "low": 0.05,
+        "high": 0.5,
+        "width_nm": 10
+      },
+      "orange": {
+        "type": "long_pass",
+        "edge_nm": 590,
+        "low": 0.05,
+        "high": 0.5,
+        "width_nm": 10
+      },
+      "purple": {
+        "type": "bimodal",
+        "blue_edge_nm": 480,
+        "red_edge_nm": 620,
+        "low": 0.05,
+        "high": 0.4,
+        "width_nm": 10
+      }
+    },
+    "hue_window_halfwidth_degrees": 20,
+    "chroma_fraction_thresholds": [
+      0.25,
+      0.5
+    ],
+    "luminance_fraction_minimum": 0.5,
+    "notes": [
+      "Absorbance values are single-pass over the stroma at 550 nm for the combined melanins.",
+      "Eumelanin and pheomelanin spectra are power laws with declared exponents; they are illustrative shapes, not measured spectra.",
+      "A steeper pheomelanin exponent means less red absorption than eumelanin; it is the assumption that lets pheomelanin shift hue.",
+      "Backscatter is bounded Rayleigh-like (fraction at 550 nm times (550/lambda)^exponent, capped at 1).",
+      "The translucent_red_return modes stand in for a reddish return through a pigment-poor, translucent iris. Five plateau strengths are swept because the strength is assumed, not measured.",
+      "A scenario is classified only if its luminance Y is at least the stated fraction of the reference's, so very dark pigment-saturated cases are not counted as orange or purple.",
+      "Colour uses the CIE tables in cie-tables/, sampled at the model wavelengths. CIELAB hue angle does not change when a spectrum is uniformly dimmed, so brightness and hue are judged separately.",
+      "D65 is a reference daylight, not a viewing condition. Real appearance also depends on lighting, adaptation, surroundings and camera processing.",
+      "Windows are hue-angle ranges centred on reference spectra chosen for this exploration; they are not definitions of the words orange or purple."
+    ]
+  },
+  "script_sha256": "f5523bd23beeccd8c9da125d15618ab01e3e184705e6c52e8400383e144b14b8",
+  "inputs": {
+    "cie-tables/CIE_xyz_1931_2deg.csv": {
+      "sha256": "fa663e3535a7e0763a745993a1f0a192eb0275ac46ad2d1befd7626841e713c1",
+      "bytes": 24021
+    },
+    "cie-tables/CIE_std_illum_D65.csv": {
+      "sha256": "e76f210bffff3d552ef7113025da5f325d5dfec200dd4b878b1a2f3a507032cb",
+      "bytes": 6820
+    }
+  },
+  "scenario_count": 744,
+  "outputs": {
+    "MODEL_REPORT.md": {
+      "sha256": "06764ec6ebe5a4f5f86c2b8f9a2d692392b02733af174aeee9c32b0efc64f3ca",
+      "bytes": 3420
+    },
+    "scenario_sweep.csv": {
+      "sha256": "c85510205a5e19a1f421493e8ab578a947498b438a0040765266fc5291dab640",
+      "bytes": 172183
+    },
+    "summary.json": {
+      "sha256": "9a4b9451b04b22a60e927ef174419a08d9227fc7d715e5147317a4d2c5f670f3",
+      "bytes": 8128
+    }
+  }
+}

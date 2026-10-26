@@ -21,6 +21,7 @@ def check():
         ("withdrawal-evidence-run-2026-10-17", "outputs"),
         ("recovery-identifiability-run-2026-10-17", "outputs"),
         ("kt939-comparison-run-2026-10-22", "outputs"),
+        ("hue-window-run-2026-10-26", "outputs"),
         ("iris-atlas-run-2026-10-17", "outputs"),
         ("workbench-comparison-2026-10-17", "files"),
         ("target-snapshots-2026-10-17", None),
@@ -41,6 +42,16 @@ def check():
         raise ValueError("Model source differs from run receipt.")
     if digest(ROOT / "check_iris_targets.py") != atlas["script_sha256"]:
         raise ValueError("Iris analysis source differs from run receipt.")
+    hue = json.loads((ROOT / "hue-window-run-2026-10-26" / "receipt.json").read_text())
+    if digest(ROOT / "simulate_hue_window.py") != hue["script_sha256"]:
+        raise ValueError("Hue-window source differs from run receipt.")
+    if json.loads((ROOT / "hue_window_assumptions.json").read_text()) != hue["assumptions"]:
+        raise ValueError("Hue-window assumptions differ from run receipt.")
+    for relative, spec in hue["inputs"].items():
+        path = ROOT / relative
+        if path.stat().st_size != spec["bytes"] or digest(path) != spec["sha256"]:
+            raise ValueError("Hue-window input differs from run receipt: " + relative)
+        checked += 1
     exposure = json.loads((ROOT / "exposure-run-2026-10-17" / "receipt.json").read_text())
     if digest(ROOT / "simulate_exposure.py") != exposure["script_sha256"]:
         raise ValueError("Exposure source differs from run receipt.")

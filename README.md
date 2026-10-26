@@ -41,6 +41,7 @@ The primary cosmetic objective is repeatable living-eye appearance change with p
 - [Donor-eye measurement proposal](research/iris-measurement-validation-proposal.md) — optional optical/chemical calibration study.
 - [Automated lab concept](research/automated-lab-operating-model.md) — optional logistics and cost planning for tissue work.
 - [Hair scope](research/hair-scope.md) — separate question for follicle pigmentation.
+- [Sidequest: purple or orange human irises](research/sidequest-purple-orange-eyes.md) — hue question beyond the light-to-dark axis, with a toy CIELAB calculation; in that model melanin alone reaches neither color.
 
 ## Scope
 

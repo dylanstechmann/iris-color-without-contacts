@@ -4,6 +4,7 @@ These are AI-run research calculations on hypothetical balances and existing pub
 
 ## Outputs
 
+- [Hue-window exploration](hue-window-run-2026-10-26/MODEL_REPORT.md): 744 hypothetical scatter-plus-absorber cases asking which CIELAB hue windows (blue, orange, purple) the assumed pigment spectra and back-return strengths can reach; standard colorimetry applied to invented iris spectra, not measured iris color.
 - [KT-939 and thiamidol comparison](kt939-thiamidol-comparison.md): same-study lysate and cell-pigment IC50 ratios, source-name-transcribed structure checks, calculated descriptors and the missing paired withdrawal comparison.
 - [Withdrawal and recovery](withdrawal-and-recovery.md): source-qualified inhibitor withdrawal observations and an exact counterexample showing which pigment mechanisms can share the same curve.
 - [Ampyrone numerical readout review](ampyrone-readout-review.md): selected public-workbook values, exact source cells and distinct human-cell, skin and mouse-cell endpoints; no iris or withdrawal inference.
@@ -17,6 +18,15 @@ These are AI-run research calculations on hypothetical balances and existing pub
 - [Compound properties](workbench-comparison-2026-10-17/compounds.csv): seven PubChem identities with RDKit descriptors.
 - [Target snapshots](target-snapshots-2026-10-17): human TYR/OCA2 sequence and annotation snapshots.
 - [Workbench status](WORKBENCH_STATUS.md): actual runtime and check outcomes.
+
+## Reproduce the hue-window exploration
+
+Run from this repository with Python 3.11 or later; only the standard library is used:
+
+    python analysis/simulate_hue_window.py --assumptions analysis/hue_window_assumptions.json --out analysis/new-hue-window-run
+    python -m unittest discover -s analysis -p test_hue_window.py -v
+
+The output folder must be new. The model is analytical: bounded Rayleigh-like backscatter, power-law eumelanin and pheomelanin absorbance, and a constant or red-edge return from behind the stroma. Color is CIE 1976 L\*a\*b\* for the CIE 1931 2° observer under illuminant D65, read from [unmodified CIE tables](cie-tables/README.md) whose SHA-256 values are pinned in the assumptions; the script refuses a changed table. Hue windows are ±20° hue-angle ranges centred on declared reference spectra, and a brightness floor is applied separately. Every iris spectrum and threshold is an assumption, no measured iris spectrum is used, and scenario counts are not probabilities. The first changes that could alter the results are measured melanin spectra and a measured back return.
 
 ## Reproduce the KT-939 comparison
 
