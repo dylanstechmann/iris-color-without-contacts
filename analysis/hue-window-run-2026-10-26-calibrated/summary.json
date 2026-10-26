@@ -1,0 +1,2092 @@
+{
+  "activity": "Toy scatter-plus-absorber CIELAB hue-window exploration",
+  "scenario_count": 10872,
+  "reference_windows": {
+    "blue": {
+      "L_star": 36.82533508175497,
+      "a_star": 28.548913132371233,
+      "b_star": -64.26756305470272,
+      "chroma": 70.32325434754758,
+      "hue_degrees": 293.9517318841032,
+      "luminance": 0.09443931187654635
+    },
+    "orange": {
+      "L_star": 46.06898618555931,
+      "a_star": 46.60069492240299,
+      "b_star": 33.276919671606564,
+      "chroma": 57.26236242141457,
+      "hue_degrees": 35.530112992563765,
+      "luminance": 0.1531969037089134
+    },
+    "purple": {
+      "L_star": 36.79117221213863,
+      "a_star": 54.172243473625095,
+      "b_star": -47.59649104480139,
+      "chroma": 72.11142713012671,
+      "hue_degrees": 318.697008098553,
+      "luminance": 0.09425620474590503
+    }
+  },
+  "stroma_settings": [
+    {
+      "backscatter_550nm": 0.1,
+      "backscatter_exponent": 2,
+      "blue_calibrated": false,
+      "pigment_free": {
+        "L_star": 40.7757524009958,
+        "a_star": -0.4089427642476329,
+        "b_star": -11.564977885520012,
+        "chroma": 11.572205825900152,
+        "hue_degrees": 267.9748395201411,
+        "luminance": 0.11725050640806176
+      }
+    },
+    {
+      "backscatter_550nm": 0.1,
+      "backscatter_exponent": 4,
+      "blue_calibrated": true,
+      "pigment_free": {
+        "L_star": 41.01639110191507,
+        "a_star": 2.6289680832368436,
+        "b_star": -24.840540498922547,
+        "chroma": 24.979269914496886,
+        "hue_degrees": 276.04133948806253,
+        "luminance": 0.11874770004986612
+      }
+    },
+    {
+      "backscatter_550nm": 0.1,
+      "backscatter_exponent": 6,
+      "blue_calibrated": true,
+      "pigment_free": {
+        "L_star": 41.63747009680314,
+        "a_star": 10.082485960399124,
+        "b_star": -40.15795879797537,
+        "chroma": 41.404325594815965,
+        "hue_degrees": 284.0939657125431,
+        "luminance": 0.1226706769895792
+      }
+    },
+    {
+      "backscatter_550nm": 0.25,
+      "backscatter_exponent": 2,
+      "blue_calibrated": false,
+      "pigment_free": {
+        "L_star": 58.33261135858139,
+        "a_star": -0.5965577594702065,
+        "b_star": -16.675088469501787,
+        "chroma": 16.68575609992234,
+        "hue_degrees": 267.9510950769769,
+        "luminance": 0.2631262660201544
+      }
+    },
+    {
+      "backscatter_550nm": 0.25,
+      "backscatter_exponent": 4,
+      "blue_calibrated": true,
+      "pigment_free": {
+        "L_star": 58.68340070807221,
+        "a_star": 3.8240170322519362,
+        "b_star": -35.45178305602561,
+        "chroma": 35.65742598834719,
+        "hue_degrees": 276.1564232817732,
+        "luminance": 0.2668690983348501
+      }
+    },
+    {
+      "backscatter_550nm": 0.25,
+      "backscatter_exponent": 6,
+      "blue_calibrated": true,
+      "pigment_free": {
+        "L_star": 59.56436833473006,
+        "a_star": 11.71157592937977,
+        "b_star": -54.167698342464334,
+        "chroma": 55.4193157163623,
+        "hue_degrees": 282.20010610895434,
+        "luminance": 0.27642492550453146
+      }
+    },
+    {
+      "backscatter_550nm": 0.4,
+      "backscatter_exponent": 2,
+      "blue_calibrated": false,
+      "pigment_free": {
+        "L_star": 70.10594594734933,
+        "a_star": -0.7113588891425326,
+        "b_star": -19.818689850422256,
+        "chroma": 19.831452262917917,
+        "hue_degrees": 267.9443458332131,
+        "luminance": 0.409002025632247
+      }
+    },
+    {
+      "backscatter_550nm": 0.4,
+      "backscatter_exponent": 4,
+      "blue_calibrated": true,
+      "pigment_free": {
+        "L_star": 70.51186586543923,
+        "a_star": 2.946137298523166,
+        "b_star": -40.28591629588178,
+        "chroma": 40.39349918960405,
+        "hue_degrees": 274.1826347414005,
+        "luminance": 0.4148136785884504
+      }
+    },
+    {
+      "backscatter_550nm": 0.4,
+      "backscatter_exponent": 6,
+      "blue_calibrated": false,
+      "pigment_free": {
+        "L_star": 71.24882946017259,
+        "a_star": -2.611123936564763,
+        "b_star": -47.121281560276195,
+        "chroma": 47.19357100384465,
+        "hue_degrees": 266.8283219036877,
+        "luminance": 0.42550518808482685
+      }
+    },
+    {
+      "backscatter_550nm": 1.0,
+      "backscatter_exponent": 2,
+      "blue_calibrated": false,
+      "pigment_free": {
+        "L_star": 97.55821290578918,
+        "a_star": -8.73821433762334,
+        "b_star": -4.2053670310780555,
+        "chroma": 9.697499764182744,
+        "hue_degrees": 205.69972566175358,
+        "luminance": 0.9381703000589812
+      }
+    },
+    {
+      "backscatter_550nm": 1.0,
+      "backscatter_exponent": 4,
+      "blue_calibrated": false,
+      "pigment_free": {
+        "L_star": 95.43991721433713,
+        "a_star": -16.324181932576508,
+        "b_star": -7.85349206702477,
+        "chroma": 18.115083588398875,
+        "hue_degrees": 205.69200249242485,
+        "luminance": 0.8866421527585707
+      }
+    },
+    {
+      "backscatter_550nm": 1.0,
+      "backscatter_exponent": 6,
+      "blue_calibrated": false,
+      "pigment_free": {
+        "L_star": 93.59585750132408,
+        "a_star": -22.884520311351018,
+        "b_star": -11.02922912090316,
+        "chroma": 25.40364471649719,
+        "hue_degrees": 205.73181217634888,
+        "luminance": 0.843351165338081
+      }
+    }
+  ],
+  "by_back_return": {
+    "dark_pigment_epithelium": {
+      "blue_calibrated_stroma": {
+        "blue": {
+          "scenarios": 755,
+          "in_hue_window": 5,
+          "in_hue_window_with_chroma": 5,
+          "best_luminance_fraction_with_chroma": 4.392344583601488,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 0,
+            "pheomelanin_exponent": 4.5,
+            "absorbance_550nm": 0,
+            "backscatter_550nm": 0.4,
+            "backscatter_exponent": 4,
+            "path_fraction": 0.5,
+            "L_star": 70.51187,
+            "chroma": 40.3935,
+            "hue_degrees": 274.18263
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 5,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                4.5
+              ],
+              "absorbance_550nm": [
+                0,
+                0
+              ],
+              "backscatter_550nm": [
+                0.1,
+                0.4
+              ],
+              "backscatter_exponent": [
+                4,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 4,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                4.5
+              ],
+              "absorbance_550nm": [
+                0,
+                0
+              ],
+              "backscatter_550nm": [
+                0.1,
+                0.4
+              ],
+              "backscatter_exponent": [
+                4,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          }
+        },
+        "orange": {
+          "scenarios": 755,
+          "in_hue_window": 296,
+          "in_hue_window_with_chroma": 106,
+          "best_luminance_fraction_with_chroma": 0.428990393466916,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 1,
+            "pheomelanin_exponent": 25,
+            "absorbance_550nm": 2,
+            "backscatter_550nm": 0.4,
+            "backscatter_exponent": 4,
+            "path_fraction": 1.0,
+            "L_star": 30.81177,
+            "chroma": 66.68168,
+            "hue_degrees": 52.63376
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 0
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 0
+          }
+        },
+        "purple": {
+          "scenarios": 755,
+          "in_hue_window": 0,
+          "in_hue_window_with_chroma": 0,
+          "best_luminance_fraction_with_chroma": 0.0,
+          "classified_at_chroma_fraction_0.25": {
+            "count": 0
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 0
+          }
+        }
+      },
+      "other_stroma": {
+        "blue": {
+          "scenarios": 1057,
+          "in_hue_window": 0,
+          "in_hue_window_with_chroma": 0,
+          "best_luminance_fraction_with_chroma": 0.0,
+          "classified_at_chroma_fraction_0.25": {
+            "count": 0
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 0
+          }
+        },
+        "orange": {
+          "scenarios": 1057,
+          "in_hue_window": 378,
+          "in_hue_window_with_chroma": 191,
+          "best_luminance_fraction_with_chroma": 1.2232623209936102,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 1,
+            "pheomelanin_exponent": 25,
+            "absorbance_550nm": 2,
+            "backscatter_550nm": 1.0,
+            "backscatter_exponent": 2,
+            "path_fraction": 1.0,
+            "L_star": 50.38184,
+            "chroma": 105.58704,
+            "hue_degrees": 55.03011
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 10,
+            "ranges": {
+              "pheomelanin_share": [
+                0.8,
+                1
+              ],
+              "pheomelanin_exponent": [
+                25,
+                25
+              ],
+              "absorbance_550nm": [
+                2,
+                8
+              ],
+              "backscatter_550nm": [
+                0.4,
+                1.0
+              ],
+              "backscatter_exponent": [
+                2,
+                4
+              ],
+              "path_fraction": [
+                0.5,
+                1.0
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 10,
+            "ranges": {
+              "pheomelanin_share": [
+                0.8,
+                1
+              ],
+              "pheomelanin_exponent": [
+                25,
+                25
+              ],
+              "absorbance_550nm": [
+                2,
+                8
+              ],
+              "backscatter_550nm": [
+                0.4,
+                1.0
+              ],
+              "backscatter_exponent": [
+                2,
+                4
+              ],
+              "path_fraction": [
+                0.5,
+                1.0
+              ]
+            }
+          }
+        },
+        "purple": {
+          "scenarios": 1057,
+          "in_hue_window": 0,
+          "in_hue_window_with_chroma": 0,
+          "best_luminance_fraction_with_chroma": 0.0,
+          "classified_at_chroma_fraction_0.25": {
+            "count": 0
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 0
+          }
+        }
+      }
+    },
+    "translucent_red_return_0.05": {
+      "blue_calibrated_stroma": {
+        "blue": {
+          "scenarios": 755,
+          "in_hue_window": 12,
+          "in_hue_window_with_chroma": 5,
+          "best_luminance_fraction_with_chroma": 4.448571168637827,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 0,
+            "pheomelanin_exponent": 4.5,
+            "absorbance_550nm": 0,
+            "backscatter_550nm": 0.4,
+            "backscatter_exponent": 4,
+            "path_fraction": 0.5,
+            "L_star": 70.87926,
+            "chroma": 39.87374,
+            "hue_degrees": 276.02593
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 5,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                4.5
+              ],
+              "absorbance_550nm": [
+                0,
+                0
+              ],
+              "backscatter_550nm": [
+                0.1,
+                0.4
+              ],
+              "backscatter_exponent": [
+                4,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 3,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                4.5
+              ],
+              "absorbance_550nm": [
+                0,
+                0
+              ],
+              "backscatter_550nm": [
+                0.1,
+                0.4
+              ],
+              "backscatter_exponent": [
+                4,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          }
+        },
+        "orange": {
+          "scenarios": 755,
+          "in_hue_window": 308,
+          "in_hue_window_with_chroma": 122,
+          "best_luminance_fraction_with_chroma": 0.4501396459750232,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 1,
+            "pheomelanin_exponent": 25,
+            "absorbance_550nm": 2,
+            "backscatter_550nm": 0.4,
+            "backscatter_exponent": 4,
+            "path_fraction": 1.0,
+            "L_star": 31.5694,
+            "chroma": 68.65121,
+            "hue_degrees": 52.27414
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 0
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 0
+          }
+        },
+        "purple": {
+          "scenarios": 755,
+          "in_hue_window": 3,
+          "in_hue_window_with_chroma": 0,
+          "best_luminance_fraction_with_chroma": 0.0,
+          "classified_at_chroma_fraction_0.25": {
+            "count": 0
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 0
+          }
+        }
+      },
+      "other_stroma": {
+        "blue": {
+          "scenarios": 1057,
+          "in_hue_window": 2,
+          "in_hue_window_with_chroma": 0,
+          "best_luminance_fraction_with_chroma": 0.0,
+          "classified_at_chroma_fraction_0.25": {
+            "count": 0
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 0
+          }
+        },
+        "orange": {
+          "scenarios": 1057,
+          "in_hue_window": 383,
+          "in_hue_window_with_chroma": 203,
+          "best_luminance_fraction_with_chroma": 1.228941286944861,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 1,
+            "pheomelanin_exponent": 25,
+            "absorbance_550nm": 2,
+            "backscatter_550nm": 1.0,
+            "backscatter_exponent": 2,
+            "path_fraction": 1.0,
+            "L_star": 50.48362,
+            "chroma": 105.86736,
+            "hue_degrees": 54.97827
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 12,
+            "ranges": {
+              "pheomelanin_share": [
+                0.8,
+                1
+              ],
+              "pheomelanin_exponent": [
+                25,
+                25
+              ],
+              "absorbance_550nm": [
+                2,
+                8
+              ],
+              "backscatter_550nm": [
+                0.4,
+                1.0
+              ],
+              "backscatter_exponent": [
+                2,
+                4
+              ],
+              "path_fraction": [
+                0.5,
+                1.0
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 12,
+            "ranges": {
+              "pheomelanin_share": [
+                0.8,
+                1
+              ],
+              "pheomelanin_exponent": [
+                25,
+                25
+              ],
+              "absorbance_550nm": [
+                2,
+                8
+              ],
+              "backscatter_550nm": [
+                0.4,
+                1.0
+              ],
+              "backscatter_exponent": [
+                2,
+                4
+              ],
+              "path_fraction": [
+                0.5,
+                1.0
+              ]
+            }
+          }
+        },
+        "purple": {
+          "scenarios": 1057,
+          "in_hue_window": 0,
+          "in_hue_window_with_chroma": 0,
+          "best_luminance_fraction_with_chroma": 0.0,
+          "classified_at_chroma_fraction_0.25": {
+            "count": 0
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 0
+          }
+        }
+      }
+    },
+    "translucent_red_return_0.1": {
+      "blue_calibrated_stroma": {
+        "blue": {
+          "scenarios": 755,
+          "in_hue_window": 15,
+          "in_hue_window_with_chroma": 8,
+          "best_luminance_fraction_with_chroma": 4.542282143698393,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 0,
+            "pheomelanin_exponent": 4.5,
+            "absorbance_550nm": 0,
+            "backscatter_550nm": 0.4,
+            "backscatter_exponent": 4,
+            "path_fraction": 0.5,
+            "L_star": 71.48477,
+            "chroma": 39.10405,
+            "hue_degrees": 279.10808
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 8,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                25
+              ],
+              "absorbance_550nm": [
+                0,
+                0.5
+              ],
+              "backscatter_550nm": [
+                0.1,
+                0.4
+              ],
+              "backscatter_exponent": [
+                4,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 3,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                4.5
+              ],
+              "absorbance_550nm": [
+                0,
+                0
+              ],
+              "backscatter_550nm": [
+                0.1,
+                0.4
+              ],
+              "backscatter_exponent": [
+                4,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          }
+        },
+        "orange": {
+          "scenarios": 755,
+          "in_hue_window": 330,
+          "in_hue_window_with_chroma": 149,
+          "best_luminance_fraction_with_chroma": 0.485453675625906,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 1,
+            "pheomelanin_exponent": 25,
+            "absorbance_550nm": 2,
+            "backscatter_550nm": 0.4,
+            "backscatter_exponent": 4,
+            "path_fraction": 1.0,
+            "L_star": 32.781,
+            "chroma": 71.76409,
+            "hue_degrees": 51.7823
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 0
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 0
+          }
+        },
+        "purple": {
+          "scenarios": 755,
+          "in_hue_window": 8,
+          "in_hue_window_with_chroma": 0,
+          "best_luminance_fraction_with_chroma": 0.0,
+          "classified_at_chroma_fraction_0.25": {
+            "count": 0
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 0
+          }
+        }
+      },
+      "other_stroma": {
+        "blue": {
+          "scenarios": 1057,
+          "in_hue_window": 2,
+          "in_hue_window_with_chroma": 1,
+          "best_luminance_fraction_with_chroma": 4.47006645444268,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 0,
+            "pheomelanin_exponent": 4.5,
+            "absorbance_550nm": 0,
+            "backscatter_550nm": 0.4,
+            "backscatter_exponent": 2,
+            "path_fraction": 0.5,
+            "L_star": 71.01861,
+            "chroma": 18.4047,
+            "hue_degrees": 277.46573
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 1,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                4.5
+              ],
+              "absorbance_550nm": [
+                0,
+                0
+              ],
+              "backscatter_550nm": [
+                0.4,
+                0.4
+              ],
+              "backscatter_exponent": [
+                2,
+                2
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 0
+          }
+        },
+        "orange": {
+          "scenarios": 1057,
+          "in_hue_window": 391,
+          "in_hue_window_with_chroma": 219,
+          "best_luminance_fraction_with_chroma": 1.238275679255538,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 1,
+            "pheomelanin_exponent": 25,
+            "absorbance_550nm": 2,
+            "backscatter_550nm": 1.0,
+            "backscatter_exponent": 2,
+            "path_fraction": 1.0,
+            "L_star": 50.65257,
+            "chroma": 106.33211,
+            "hue_degrees": 54.89336
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 14,
+            "ranges": {
+              "pheomelanin_share": [
+                0.8,
+                1
+              ],
+              "pheomelanin_exponent": [
+                25,
+                25
+              ],
+              "absorbance_550nm": [
+                2,
+                8
+              ],
+              "backscatter_550nm": [
+                0.4,
+                1.0
+              ],
+              "backscatter_exponent": [
+                2,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                1.0
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 14,
+            "ranges": {
+              "pheomelanin_share": [
+                0.8,
+                1
+              ],
+              "pheomelanin_exponent": [
+                25,
+                25
+              ],
+              "absorbance_550nm": [
+                2,
+                8
+              ],
+              "backscatter_550nm": [
+                0.4,
+                1.0
+              ],
+              "backscatter_exponent": [
+                2,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                1.0
+              ]
+            }
+          }
+        },
+        "purple": {
+          "scenarios": 1057,
+          "in_hue_window": 1,
+          "in_hue_window_with_chroma": 0,
+          "best_luminance_fraction_with_chroma": 0.0,
+          "classified_at_chroma_fraction_0.25": {
+            "count": 0
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 0
+          }
+        }
+      }
+    },
+    "translucent_red_return_0.2": {
+      "blue_calibrated_stroma": {
+        "blue": {
+          "scenarios": 755,
+          "in_hue_window": 17,
+          "in_hue_window_with_chroma": 8,
+          "best_luminance_fraction_with_chroma": 4.729598205712111,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 0,
+            "pheomelanin_exponent": 4.5,
+            "absorbance_550nm": 0,
+            "backscatter_550nm": 0.4,
+            "backscatter_exponent": 4,
+            "path_fraction": 0.5,
+            "L_star": 72.67126,
+            "chroma": 37.90712,
+            "hue_degrees": 285.27202
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 8,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0.3
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                25
+              ],
+              "absorbance_550nm": [
+                0,
+                0.5
+              ],
+              "backscatter_550nm": [
+                0.1,
+                0.4
+              ],
+              "backscatter_exponent": [
+                4,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 3,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                4.5
+              ],
+              "absorbance_550nm": [
+                0,
+                0
+              ],
+              "backscatter_550nm": [
+                0.1,
+                0.4
+              ],
+              "backscatter_exponent": [
+                4,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          }
+        },
+        "orange": {
+          "scenarios": 755,
+          "in_hue_window": 367,
+          "in_hue_window_with_chroma": 212,
+          "best_luminance_fraction_with_chroma": 0.5560164594569675,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 1,
+            "pheomelanin_exponent": 25,
+            "absorbance_550nm": 2,
+            "backscatter_550nm": 0.4,
+            "backscatter_exponent": 4,
+            "path_fraction": 1.0,
+            "L_star": 35.03843,
+            "chroma": 77.45512,
+            "hue_degrees": 51.08123
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 2,
+            "ranges": {
+              "pheomelanin_share": [
+                1,
+                1
+              ],
+              "pheomelanin_exponent": [
+                25,
+                25
+              ],
+              "absorbance_550nm": [
+                2,
+                4
+              ],
+              "backscatter_550nm": [
+                0.4,
+                0.4
+              ],
+              "backscatter_exponent": [
+                4,
+                4
+              ],
+              "path_fraction": [
+                0.5,
+                1.0
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 2,
+            "ranges": {
+              "pheomelanin_share": [
+                1,
+                1
+              ],
+              "pheomelanin_exponent": [
+                25,
+                25
+              ],
+              "absorbance_550nm": [
+                2,
+                4
+              ],
+              "backscatter_550nm": [
+                0.4,
+                0.4
+              ],
+              "backscatter_exponent": [
+                4,
+                4
+              ],
+              "path_fraction": [
+                0.5,
+                1.0
+              ]
+            }
+          }
+        },
+        "purple": {
+          "scenarios": 755,
+          "in_hue_window": 12,
+          "in_hue_window_with_chroma": 2,
+          "best_luminance_fraction_with_chroma": 1.745243195855992,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 0,
+            "pheomelanin_exponent": 4.5,
+            "absorbance_550nm": 0,
+            "backscatter_550nm": 0.1,
+            "backscatter_exponent": 6,
+            "path_fraction": 0.5,
+            "L_star": 47.5593,
+            "chroma": 38.64776,
+            "hue_degrees": 309.16291
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 2,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                4.5
+              ],
+              "absorbance_550nm": [
+                0,
+                0
+              ],
+              "backscatter_550nm": [
+                0.1,
+                0.1
+              ],
+              "backscatter_exponent": [
+                4,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 1,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                4.5
+              ],
+              "absorbance_550nm": [
+                0,
+                0
+              ],
+              "backscatter_550nm": [
+                0.1,
+                0.1
+              ],
+              "backscatter_exponent": [
+                6,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          }
+        }
+      },
+      "other_stroma": {
+        "blue": {
+          "scenarios": 1057,
+          "in_hue_window": 3,
+          "in_hue_window_with_chroma": 1,
+          "best_luminance_fraction_with_chroma": 4.862064228085859,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 0,
+            "pheomelanin_exponent": 4.5,
+            "absorbance_550nm": 0,
+            "backscatter_550nm": 0.4,
+            "backscatter_exponent": 6,
+            "path_fraction": 0.5,
+            "L_star": 73.49176,
+            "chroma": 43.57983,
+            "hue_degrees": 276.95963
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 1,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                4.5
+              ],
+              "absorbance_550nm": [
+                0,
+                0
+              ],
+              "backscatter_550nm": [
+                0.4,
+                0.4
+              ],
+              "backscatter_exponent": [
+                6,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 1,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                4.5
+              ],
+              "absorbance_550nm": [
+                0,
+                0
+              ],
+              "backscatter_550nm": [
+                0.4,
+                0.4
+              ],
+              "backscatter_exponent": [
+                6,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          }
+        },
+        "orange": {
+          "scenarios": 1057,
+          "in_hue_window": 414,
+          "in_hue_window_with_chroma": 255,
+          "best_luminance_fraction_with_chroma": 1.2570750148183,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 1,
+            "pheomelanin_exponent": 25,
+            "absorbance_550nm": 2,
+            "backscatter_550nm": 1.0,
+            "backscatter_exponent": 2,
+            "path_fraction": 1.0,
+            "L_star": 50.98792,
+            "chroma": 107.25265,
+            "hue_degrees": 54.729
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 25,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                1
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                25
+              ],
+              "absorbance_550nm": [
+                0.5,
+                8
+              ],
+              "backscatter_550nm": [
+                0.1,
+                1.0
+              ],
+              "backscatter_exponent": [
+                2,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                1.0
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 18,
+            "ranges": {
+              "pheomelanin_share": [
+                0.8,
+                1
+              ],
+              "pheomelanin_exponent": [
+                25,
+                25
+              ],
+              "absorbance_550nm": [
+                2,
+                8
+              ],
+              "backscatter_550nm": [
+                0.4,
+                1.0
+              ],
+              "backscatter_exponent": [
+                2,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                1.0
+              ]
+            }
+          }
+        },
+        "purple": {
+          "scenarios": 1057,
+          "in_hue_window": 1,
+          "in_hue_window_with_chroma": 0,
+          "best_luminance_fraction_with_chroma": 0.0,
+          "classified_at_chroma_fraction_0.25": {
+            "count": 0
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 0
+          }
+        }
+      }
+    },
+    "translucent_red_return_0.3": {
+      "blue_calibrated_stroma": {
+        "blue": {
+          "scenarios": 755,
+          "in_hue_window": 15,
+          "in_hue_window_with_chroma": 7,
+          "best_luminance_fraction_with_chroma": 4.916914267725828,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 0,
+            "pheomelanin_exponent": 4.5,
+            "absorbance_550nm": 0,
+            "backscatter_550nm": 0.4,
+            "backscatter_exponent": 4,
+            "path_fraction": 0.5,
+            "L_star": 73.82682,
+            "chroma": 37.13038,
+            "hue_degrees": 291.36273
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 7,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0.3
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                25
+              ],
+              "absorbance_550nm": [
+                0,
+                0.5
+              ],
+              "backscatter_550nm": [
+                0.25,
+                0.4
+              ],
+              "backscatter_exponent": [
+                4,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 2,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                4.5
+              ],
+              "absorbance_550nm": [
+                0,
+                0
+              ],
+              "backscatter_550nm": [
+                0.25,
+                0.4
+              ],
+              "backscatter_exponent": [
+                4,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          }
+        },
+        "orange": {
+          "scenarios": 755,
+          "in_hue_window": 399,
+          "in_hue_window_with_chroma": 251,
+          "best_luminance_fraction_with_chroma": 0.7983842821810483,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 0.8,
+            "pheomelanin_exponent": 4.5,
+            "absorbance_550nm": 0.5,
+            "backscatter_550nm": 0.25,
+            "backscatter_exponent": 6,
+            "path_fraction": 1.0,
+            "L_star": 41.58059,
+            "chroma": 17.62252,
+            "hue_degrees": 52.54489
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 16,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                1
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                25
+              ],
+              "absorbance_550nm": [
+                0.5,
+                4
+              ],
+              "backscatter_550nm": [
+                0.1,
+                0.4
+              ],
+              "backscatter_exponent": [
+                4,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                1.0
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 6,
+            "ranges": {
+              "pheomelanin_share": [
+                1,
+                1
+              ],
+              "pheomelanin_exponent": [
+                25,
+                25
+              ],
+              "absorbance_550nm": [
+                1,
+                4
+              ],
+              "backscatter_550nm": [
+                0.1,
+                0.4
+              ],
+              "backscatter_exponent": [
+                4,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                1.0
+              ]
+            }
+          }
+        },
+        "purple": {
+          "scenarios": 755,
+          "in_hue_window": 15,
+          "in_hue_window_with_chroma": 6,
+          "best_luminance_fraction_with_chroma": 3.555627991849101,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 0,
+            "pheomelanin_exponent": 4.5,
+            "absorbance_550nm": 0,
+            "backscatter_550nm": 0.25,
+            "backscatter_exponent": 6,
+            "path_fraction": 0.5,
+            "L_star": 64.57521,
+            "chroma": 51.9723,
+            "hue_degrees": 298.80815
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 6,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                25
+              ],
+              "absorbance_550nm": [
+                0,
+                0.5
+              ],
+              "backscatter_550nm": [
+                0.1,
+                0.25
+              ],
+              "backscatter_exponent": [
+                4,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 2,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                4.5
+              ],
+              "absorbance_550nm": [
+                0,
+                0
+              ],
+              "backscatter_550nm": [
+                0.1,
+                0.25
+              ],
+              "backscatter_exponent": [
+                6,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          }
+        }
+      },
+      "other_stroma": {
+        "blue": {
+          "scenarios": 1057,
+          "in_hue_window": 2,
+          "in_hue_window_with_chroma": 1,
+          "best_luminance_fraction_with_chroma": 5.06018087705571,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 0,
+            "pheomelanin_exponent": 4.5,
+            "absorbance_550nm": 0,
+            "backscatter_550nm": 0.4,
+            "backscatter_exponent": 6,
+            "path_fraction": 0.5,
+            "L_star": 74.69073,
+            "chroma": 42.21381,
+            "hue_degrees": 282.61921
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 1,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                4.5
+              ],
+              "absorbance_550nm": [
+                0,
+                0
+              ],
+              "backscatter_550nm": [
+                0.4,
+                0.4
+              ],
+              "backscatter_exponent": [
+                6,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 1,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                4.5
+              ],
+              "absorbance_550nm": [
+                0,
+                0
+              ],
+              "backscatter_550nm": [
+                0.4,
+                0.4
+              ],
+              "backscatter_exponent": [
+                6,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          }
+        },
+        "orange": {
+          "scenarios": 1057,
+          "in_hue_window": 432,
+          "in_hue_window_with_chroma": 277,
+          "best_luminance_fraction_with_chroma": 1.2758743503810621,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 1,
+            "pheomelanin_exponent": 25,
+            "absorbance_550nm": 2,
+            "backscatter_550nm": 1.0,
+            "backscatter_exponent": 2,
+            "path_fraction": 1.0,
+            "L_star": 51.31995,
+            "chroma": 108.1615,
+            "hue_degrees": 54.57154
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 33,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                1
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                25
+              ],
+              "absorbance_550nm": [
+                0.5,
+                8
+              ],
+              "backscatter_550nm": [
+                0.1,
+                1.0
+              ],
+              "backscatter_exponent": [
+                2,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                1.0
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 25,
+            "ranges": {
+              "pheomelanin_share": [
+                0.8,
+                1
+              ],
+              "pheomelanin_exponent": [
+                25,
+                25
+              ],
+              "absorbance_550nm": [
+                1,
+                8
+              ],
+              "backscatter_550nm": [
+                0.1,
+                1.0
+              ],
+              "backscatter_exponent": [
+                2,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                1.0
+              ]
+            }
+          }
+        },
+        "purple": {
+          "scenarios": 1057,
+          "in_hue_window": 2,
+          "in_hue_window_with_chroma": 0,
+          "best_luminance_fraction_with_chroma": 0.0,
+          "classified_at_chroma_fraction_0.25": {
+            "count": 0
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 0
+          }
+        }
+      }
+    },
+    "translucent_red_return_0.4": {
+      "blue_calibrated_stroma": {
+        "blue": {
+          "scenarios": 755,
+          "in_hue_window": 6,
+          "in_hue_window_with_chroma": 6,
+          "best_luminance_fraction_with_chroma": 5.104230329739546,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 0,
+            "pheomelanin_exponent": 4.5,
+            "absorbance_550nm": 0,
+            "backscatter_550nm": 0.4,
+            "backscatter_exponent": 4,
+            "path_fraction": 0.5,
+            "L_star": 74.9534,
+            "chroma": 36.72972,
+            "hue_degrees": 297.29531
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 6,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                25
+              ],
+              "absorbance_550nm": [
+                0,
+                0.5
+              ],
+              "backscatter_550nm": [
+                0.25,
+                0.4
+              ],
+              "backscatter_exponent": [
+                4,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 2,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                4.5
+              ],
+              "absorbance_550nm": [
+                0,
+                0
+              ],
+              "backscatter_550nm": [
+                0.25,
+                0.4
+              ],
+              "backscatter_exponent": [
+                4,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          }
+        },
+        "orange": {
+          "scenarios": 755,
+          "in_hue_window": 429,
+          "in_hue_window_with_chroma": 285,
+          "best_luminance_fraction_with_chroma": 1.1685614765436292,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 0,
+            "pheomelanin_exponent": 4.5,
+            "absorbance_550nm": 0.5,
+            "backscatter_550nm": 0.4,
+            "backscatter_exponent": 4,
+            "path_fraction": 1.0,
+            "L_star": 49.37754,
+            "chroma": 17.28684,
+            "hue_degrees": 54.92926
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 53,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                1
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                25
+              ],
+              "absorbance_550nm": [
+                0.5,
+                4
+              ],
+              "backscatter_550nm": [
+                0.1,
+                0.4
+              ],
+              "backscatter_exponent": [
+                4,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                1.0
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 31,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                1
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                25
+              ],
+              "absorbance_550nm": [
+                0.5,
+                4
+              ],
+              "backscatter_550nm": [
+                0.1,
+                0.4
+              ],
+              "backscatter_exponent": [
+                4,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                1.0
+              ]
+            }
+          }
+        },
+        "purple": {
+          "scenarios": 755,
+          "in_hue_window": 14,
+          "in_hue_window_with_chroma": 7,
+          "best_luminance_fraction_with_chroma": 3.778106714141503,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 0,
+            "pheomelanin_exponent": 4.5,
+            "absorbance_550nm": 0,
+            "backscatter_550nm": 0.25,
+            "backscatter_exponent": 6,
+            "path_fraction": 0.5,
+            "L_star": 66.22193,
+            "chroma": 51.59808,
+            "hue_degrees": 304.14191
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 7,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0.3
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                25
+              ],
+              "absorbance_550nm": [
+                0,
+                0.5
+              ],
+              "backscatter_550nm": [
+                0.1,
+                0.25
+              ],
+              "backscatter_exponent": [
+                4,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 2,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                4.5
+              ],
+              "absorbance_550nm": [
+                0,
+                0
+              ],
+              "backscatter_550nm": [
+                0.1,
+                0.25
+              ],
+              "backscatter_exponent": [
+                6,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          }
+        }
+      },
+      "other_stroma": {
+        "blue": {
+          "scenarios": 1057,
+          "in_hue_window": 8,
+          "in_hue_window_with_chroma": 1,
+          "best_luminance_fraction_with_chroma": 5.258191637918148,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 0,
+            "pheomelanin_exponent": 4.5,
+            "absorbance_550nm": 0,
+            "backscatter_550nm": 0.4,
+            "backscatter_exponent": 6,
+            "path_fraction": 0.5,
+            "L_star": 75.85881,
+            "chroma": 41.25175,
+            "hue_degrees": 288.22372
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 1,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                4.5
+              ],
+              "absorbance_550nm": [
+                0,
+                0
+              ],
+              "backscatter_550nm": [
+                0.4,
+                0.4
+              ],
+              "backscatter_exponent": [
+                6,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 1,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                0
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                4.5
+              ],
+              "absorbance_550nm": [
+                0,
+                0
+              ],
+              "backscatter_550nm": [
+                0.4,
+                0.4
+              ],
+              "backscatter_exponent": [
+                6,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                0.5
+              ]
+            }
+          }
+        },
+        "orange": {
+          "scenarios": 1057,
+          "in_hue_window": 452,
+          "in_hue_window_with_chroma": 300,
+          "best_luminance_fraction_with_chroma": 1.3276377986493615,
+          "brightest_case_with_chroma": {
+            "pheomelanin_share": 0,
+            "pheomelanin_exponent": 4.5,
+            "absorbance_550nm": 0,
+            "backscatter_550nm": 0.1,
+            "backscatter_exponent": 2,
+            "path_fraction": 0.5,
+            "L_star": 52.21887,
+            "chroma": 29.84485,
+            "hue_degrees": 15.74994
+          },
+          "classified_at_chroma_fraction_0.25": {
+            "count": 52,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                1
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                25
+              ],
+              "absorbance_550nm": [
+                0,
+                8
+              ],
+              "backscatter_550nm": [
+                0.1,
+                1.0
+              ],
+              "backscatter_exponent": [
+                2,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                1.0
+              ]
+            }
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 45,
+            "ranges": {
+              "pheomelanin_share": [
+                0,
+                1
+              ],
+              "pheomelanin_exponent": [
+                4.5,
+                25
+              ],
+              "absorbance_550nm": [
+                0,
+                8
+              ],
+              "backscatter_550nm": [
+                0.1,
+                1.0
+              ],
+              "backscatter_exponent": [
+                2,
+                6
+              ],
+              "path_fraction": [
+                0.5,
+                1.0
+              ]
+            }
+          }
+        },
+        "purple": {
+          "scenarios": 1057,
+          "in_hue_window": 1,
+          "in_hue_window_with_chroma": 0,
+          "best_luminance_fraction_with_chroma": 0.0,
+          "classified_at_chroma_fraction_0.25": {
+            "count": 0
+          },
+          "classified_at_chroma_fraction_0.5": {
+            "count": 0
+          }
+        }
+      }
+    }
+  },
+  "luminance_fraction_minimum": 0.5,
+  "return_strength_needed": {
+    "windows": {
+      "purple": {
+        "blue_calibrated_stroma_settings": 5,
+        "settings_reaching_window": 4,
+        "smallest_return_strength_range": [
+          0.2,
+          0.3
+        ],
+        "implied_one_way_red_transmission_range": [
+          0.4472135954999579,
+          0.5477225575051661
+        ]
+      },
+      "orange": {
+        "blue_calibrated_stroma_settings": 5,
+        "settings_reaching_window": 5,
+        "smallest_return_strength_range": [
+          0.2,
+          0.3
+        ],
+        "implied_one_way_red_transmission_range": [
+          0.4472135954999579,
+          0.5477225575051661
+        ]
+      }
+    },
+    "implied_transmission_rule": "return = T^2 for a perfect reflector behind a layer crossed twice, so T = sqrt(return)",
+    "measured_anchor": {
+      "source": "van den Berg, IJspeert and de Waard 1991, Vision Research 31:1361-1367, PMID 1891824; abstract read, full text not",
+      "claim": "For a light-blue eye effective transmission of the iris was 1% for red and 0.2% for green light",
+      "effective_transmission": {
+        "red": 0.01,
+        "green": 0.002
+      },
+      "method": "psychophysical",
+      "limits": "Non-albino iris. Transmission through the whole iris, not a round-trip return. The abstract reports dark-brown eyes two orders of magnitude lower. No albinism value was found."
+    }
+  },
+  "interpretation": "Consequences of the stated spectral shapes, thresholds and calibration only. No measured iris spectrum, pigment amount, viewing condition, drug effect or achievable eye color."
+}

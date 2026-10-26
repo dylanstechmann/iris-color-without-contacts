@@ -1,6 +1,6 @@
 {
-  "schema_version": 2,
-  "status": "Hypothetical iris assumptions; only the colorimetry tables are standard data",
+  "schema_version": 3,
+  "status": "Hypothetical iris assumptions; only the colorimetry tables and the eumelanin wavelength exponent are sourced",
   "wavelengths_nm": {"start": 380, "stop": 780, "step": 5},
   "colorimetry": {
     "observer": "CIE 1931 2 degree standard colorimetric observer",
@@ -11,20 +11,21 @@
     "illuminant_sha256": "e76f210bffff3d552ef7113025da5f325d5dfec200dd4b878b1a2f3a507032cb",
     "colour_space": "CIE 1976 L*a*b*; white is a perfect reflector under the same sampled tables"
   },
-  "stroma_backscatter": {"fraction_at_550nm": 0.25, "wavelength_exponent": 4},
-  "overlying_pigment_path_fraction": 0.5,
-  "pigment_absorbance_at_550nm": [0, 0.1, 0.25, 0.5, 1, 2],
-  "pheomelanin_share_of_absorbance": [0, 0.1, 0.3, 0.5, 0.8, 1],
-  "eumelanin_spectral_exponent": [2.5, 3.3],
-  "pheomelanin_spectral_exponent": [4.5, 6],
+  "stroma_backscatter": {"fraction_at_550nm": [0.1, 0.25, 0.4, 1.0], "wavelength_exponent": [2, 4, 6]},
+  "path_fraction": [0.5, 1.0],
+  "pigment_absorbance_at_550nm": [0, 0.5, 1, 2, 4, 8],
+  "pheomelanin_share_of_absorbance": [0, 0.3, 0.5, 0.8, 1],
+  "eumelanin_spectral_exponent": 3.48,
+  "pheomelanin_spectral_exponent": [4.5, 10, 25],
   "back_return_modes": {
     "dark_pigment_epithelium": {"type": "constant", "value": 0.02},
-    "translucent_red_return_plateau_0.05": {"type": "red_edge", "floor": 0.02, "plateau": 0.05, "edge_nm": 590, "width_nm": 15},
-    "translucent_red_return_plateau_0.15": {"type": "red_edge", "floor": 0.02, "plateau": 0.15, "edge_nm": 590, "width_nm": 15},
-    "translucent_red_return_plateau_0.25": {"type": "red_edge", "floor": 0.02, "plateau": 0.25, "edge_nm": 590, "width_nm": 15},
-    "translucent_red_return_plateau_0.35": {"type": "red_edge", "floor": 0.02, "plateau": 0.35, "edge_nm": 590, "width_nm": 15},
-    "translucent_red_return_plateau_0.5": {"type": "red_edge", "floor": 0.02, "plateau": 0.5, "edge_nm": 590, "width_nm": 15}
+    "translucent_red_return_0.05": {"type": "red_edge", "floor": 0.02, "plateau": 0.05, "edge_nm": 590, "width_nm": 15},
+    "translucent_red_return_0.1": {"type": "red_edge", "floor": 0.02, "plateau": 0.1, "edge_nm": 590, "width_nm": 15},
+    "translucent_red_return_0.2": {"type": "red_edge", "floor": 0.02, "plateau": 0.2, "edge_nm": 590, "width_nm": 15},
+    "translucent_red_return_0.3": {"type": "red_edge", "floor": 0.02, "plateau": 0.3, "edge_nm": 590, "width_nm": 15},
+    "translucent_red_return_0.4": {"type": "red_edge", "floor": 0.02, "plateau": 0.4, "edge_nm": 590, "width_nm": 15}
   },
+  "calibration": {"window": "blue", "chroma_fraction": 0.25, "back_return": "dark_pigment_epithelium"},
   "reference_stimuli": {
     "blue": {"type": "short_pass", "edge_nm": 500, "low": 0.05, "high": 0.5, "width_nm": 10},
     "orange": {"type": "long_pass", "edge_nm": 590, "low": 0.05, "high": 0.5, "width_nm": 10},
@@ -33,13 +34,38 @@
   "hue_window_halfwidth_degrees": 20,
   "chroma_fraction_thresholds": [0.25, 0.5],
   "luminance_fraction_minimum": 0.5,
+  "measured_anchors": [
+    {
+      "source": "van den Berg, IJspeert and de Waard 1991, Vision Research 31:1361-1367, PMID 1891824; abstract read, full text not",
+      "claim": "For a light-blue eye effective transmission of the iris was 1% for red and 0.2% for green light",
+      "effective_transmission": {"red": 0.01, "green": 0.002},
+      "method": "psychophysical",
+      "limits": "Non-albino iris. Transmission through the whole iris, not a round-trip return. The abstract reports dark-brown eyes two orders of magnitude lower. No albinism value was found."
+    }
+  ],
+  "provenance": {
+    "eumelanin_spectral_exponent": {
+      "status": "sourced, with limits",
+      "source": "Jacques, https://omlc.org/spectra/melanin/mua.html (page copyright 1998 Steven Jacques; retrieved 2026-10-26; page sha256 0189e5bfd62a258bace15270d5e65615c1a6ee7093583766b308d8b40cd96d56). The page gives mu_a = 1.70e12 nm^-3.48 cm^-1 for skin and 6.49e12 nm^-3.48 cm^-1 for retina melanosome interiors and says ten-fold variation is to be expected. Only the exponent is used. It cites Jacques and McAuliffe 1991 (PMID 1886936; abstract read, full text not) and Jacques et al. 1996.",
+      "limits": "Skin and retinal melanosomes, not iris, and not pheomelanin. The absolute magnitude is not used."
+    },
+    "pheomelanin_spectral_exponent": {
+      "status": "assumed and swept; no visible-range measurement found in open sources",
+      "qualitative_support": "Peles and Simon 2010 (PMID 20614877; abstract read) report pheomelanin absorption 1.2 times eumelanin at 244 nm and infer it is lower at 315-400 nm, so it may fall off faster. That is ultraviolet only."
+    },
+    "stroma_backscatter": {
+      "status": "assumed and swept, then calibrated: only settings whose pigment-free stroma over a dark back falls in the blue window are used for interpretation",
+      "note": "No quantitative open source for iris stroma scattering amplitude or wavelength dependence was found. A Monte Carlo model of lightly pigmented irides exists (Baranoski and Lam 2007, DOI 10.1117/1.2747205); its title resolved and it was not read."
+    },
+    "path_fraction": {"status": "assumed and swept"},
+    "back_return_modes": {"status": "assumed and swept; the red edge position and width are assumed; see measured_anchors for the only related measurement found"}
+  },
   "notes": [
     "Absorbance values are single-pass over the stroma at 550 nm for the combined melanins.",
-    "Eumelanin and pheomelanin spectra are power laws with declared exponents; they are illustrative shapes, not measured spectra.",
-    "A steeper pheomelanin exponent means less red absorption than eumelanin; it is the assumption that lets pheomelanin shift hue.",
-    "Backscatter is bounded Rayleigh-like (fraction at 550 nm times (550/lambda)^exponent, capped at 1).",
-    "The translucent_red_return modes stand in for a reddish return through a pigment-poor, translucent iris. Five plateau strengths are swept because the strength is assumed, not measured.",
-    "A scenario is classified only if its luminance Y is at least the stated fraction of the reference's, so very dark pigment-saturated cases are not counted as orange or purple.",
+    "The pheomelanin exponent is the assumption that lets pheomelanin shift hue; 25 is a near-step edge chosen to test an extreme.",
+    "Backscatter is bounded (fraction at 550 nm times (550/lambda)^exponent, capped at 1).",
+    "The translucent_red_return modes stand in for a reddish return through a pigment-poor, translucent iris.",
+    "A case is classified only if its luminance Y is at least the stated fraction of the reference's, so very dark pigment-saturated cases are not counted as orange or purple.",
     "Colour uses the CIE tables in cie-tables/, sampled at the model wavelengths. CIELAB hue angle does not change when a spectrum is uniformly dimmed, so brightness and hue are judged separately.",
     "D65 is a reference daylight, not a viewing condition. Real appearance also depends on lighting, adaptation, surroundings and camera processing.",
     "Windows are hue-angle ranges centred on reference spectra chosen for this exploration; they are not definitions of the words orange or purple."
