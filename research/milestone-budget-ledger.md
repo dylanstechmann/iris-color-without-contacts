@@ -15,7 +15,7 @@
 | **M2 — Primary comparison landed** | Month 5 | Six-day-arm data ingested; KT-939 vs thiamidol washout fits with CIs from ≥3 lines; scaffold-retention gate outcome recorded | Not started | — | — |
 | **M3 — Production-up cycle measured** | Month 8 | 21-day arm plus at least one production-up on/off cycle (ampyrone or SIK) with free-compound accounting | Not started | — | — |
 | **M4 — Optics v1 calibrated** | Month 10 | Inventory→appearance model reproduces published calibration spectra within stated tolerance; residuals documented | Not started | — | — |
-| **M5 — Iris-cell foundation documented** | Month 12 | Native iris-melanocyte study registered or sourced-line decision recorded with cost | Not started | — | — |
+| **M5 — Iris-cell foundation documented** | Month 12 | Native iris-melanocyte study registered or sourced-line decision recorded with cost | Not started | 2026-11-09: literature-first G5 sweep complete — 7 primary studies registered; sourcing note drafted (`research/iris-cell-sourcing-note.md`); no commercial iris stromal melanocyte line exists; Option A (registered evidence) vs Option B (academic/eye-bank isolation) pending owner decision. | — |
 | **M6 — Integrated verdict v2** | Month 14–15 | Bidirectional feasibility verdict published in-repo; all five branches re-ranked on data; go/no-go for any pre-ocular phase recorded | Not started | — | — |
 
 **Slippage rule:** A milestone that slips two consecutive reviews triggers a scope decision (drop a feature, narrow a phase, or pause), recorded below — never a silent extension.
@@ -85,3 +85,4 @@
 | --- | --- | --- |
 | November 9, 2026 | Initial draft created from expansion-plan.md Feature F6 | AI-assisted, owner-reviewed |
 | 2026-11-09 | M0 agent-side groundwork recorded as complete; shortlist and protocol ladder updates noted | AI agent (owner review pending) |
+| 2026-11-09 | M5 notes: G5 literature sweep and sourcing options recorded; KT-939 washout fit and optics v1 runs added to analysis | AI agent (owner review pending) |

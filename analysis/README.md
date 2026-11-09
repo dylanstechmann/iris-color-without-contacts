@@ -17,6 +17,8 @@ These are AI-run research calculations on hypothetical balances and existing pub
 - [Human iris target-location report](iris-atlas-run-2026-10-17/IRIS_TARGET_REPORT.md): fixed-panel reanalysis of 57,422 existing human iris nuclei.
 - [Compound properties](workbench-comparison-2026-10-17/compounds.csv): seven PubChem identities with RDKit descriptors.
 - [Target snapshots](target-snapshots-2026-10-17): human TYR/OCA2 sequence and annotation snapshots.
+- [KT-939 washout fit](kt939-washout-fit-run-2026-11-09/): published Hou et al. 2025 KT-939 washout series fitted to a washout half-time with bootstrap CI, accumulated-pigment endpoint, and minimum raw-data request for the authors listed.
+- [Optics v1 run](optics-v1-run-2026-11-09/): layered forward model per the optics spec, CIELAB with uncertainty, self-consistency checks passing; calibration gate unevaluated pending accessible published iris spectra.
 - [Workbench status](WORKBENCH_STATUS.md): actual runtime and check outcomes.
 
 ## Reproduce the hue-window exploration

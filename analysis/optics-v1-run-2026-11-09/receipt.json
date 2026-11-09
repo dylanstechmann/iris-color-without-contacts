@@ -1,0 +1,52 @@
+{
+  "model_status": "Phase 3 optics v1 forward model",
+  "python": "3.12.16",
+  "numpy": "2.5.4",
+  "assumptions_sha256": "83d7657020c571f61869d548cb5732f297bfeb3deffc1b7c004f9f38f1f8f644",
+  "script_sha256": "a1943643eacedaf8f9a35abcd1b1cdd896ffbad11d533062bf02e35578607d60",
+  "inputs": {
+    "cie-tables/CIE_xyz_1931_2deg.csv": {
+      "sha256": "fa663e3535a7e0763a745993a1f0a192eb0275ac46ad2d1befd7626841e713c1",
+      "bytes": 24021
+    },
+    "cie-tables/CIE_std_illum_D65.csv": {
+      "sha256": "e76f210bffff3d552ef7113025da5f325d5dfec200dd4b878b1a2f3a507032cb",
+      "bytes": 6820
+    }
+  },
+  "scenario_count": 32,
+  "outputs": {
+    "MODEL_REPORT.md": {
+      "sha256": "2dec3499d5982867feccbadc59e888648416cba5e32c2bbbf25c69699d8a8b03",
+      "bytes": 9873
+    },
+    "assumptions.json": {
+      "sha256": "83d7657020c571f61869d548cb5732f297bfeb3deffc1b7c004f9f38f1f8f644",
+      "bytes": 5788
+    },
+    "calibration_comparison.json": {
+      "sha256": "961b6fa65b57a4c8d7a079995df5f2328a1c04b31a2d79ebfb0321010e8e0588",
+      "bytes": 1075
+    },
+    "gate_status.json": {
+      "sha256": "ec7c77b66cd5ea073c1c79883b0f5da58832250ad1dcc7595f6e87de66600580",
+      "bytes": 441
+    },
+    "representative_spectrum.json": {
+      "sha256": "fc1b10c32d005a0d60bcc0e70a2c6543f9eedb50283e0cef2df6d60141d2cf3b",
+      "bytes": 4674
+    },
+    "scenario_sweep.json": {
+      "sha256": "0fcb43b405cef8e826f0ae5d3e557f6ed6534cb55fad642f7976ea7a1e72c722",
+      "bytes": 19146
+    },
+    "simulate_optics_v1.py": {
+      "sha256": "a1943643eacedaf8f9a35abcd1b1cdd896ffbad11d533062bf02e35578607d60",
+      "bytes": 21623
+    },
+    "test_optics_v1.py": {
+      "sha256": "44365e5ae66b88214c70e40a08cd25a644a0351b108080d577ee59790967095b",
+      "bytes": 4670
+    }
+  }
+}

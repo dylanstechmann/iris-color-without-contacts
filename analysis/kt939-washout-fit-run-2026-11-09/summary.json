@@ -1,0 +1,66 @@
+{
+  "activity": "Single-exponential washout fit to published KT-939 10 \u03bcM mean inhibition values",
+  "fit_10uM": {
+    "I0": 132.19999999999982,
+    "k": 0.21720000000000003,
+    "half_life_days": 3.1912853616940384,
+    "sse": 129.9336789907794,
+    "n_points": 4,
+    "dof": 2,
+    "residuals": [
+      {
+        "day": 3,
+        "observed": 66.6,
+        "predicted": 68.90411685650888,
+        "residual": -2.304116856508884
+      },
+      {
+        "day": 5,
+        "observed": 52.7,
+        "predicted": 44.62596780705052,
+        "residual": 8.074032192949481
+      },
+      {
+        "day": 7,
+        "observed": 21.3,
+        "predicted": 28.902148283289247,
+        "residual": -7.602148283289246
+      },
+      {
+        "day": 9,
+        "observed": 20.0,
+        "predicted": 18.71856715804971,
+        "residual": 1.2814328419502914
+      }
+    ]
+  },
+  "bootstrap_half_life_days": {
+    "mean": 3.580630324792818,
+    "median": 3.147807359491123,
+    "pct_2_5": 2.432095370385774,
+    "pct_5": 2.432095370385774,
+    "pct_25": 2.6991712638627168,
+    "pct_75": 3.629042830156781,
+    "pct_95": 9.168613499470172,
+    "pct_97_5": 9.49516685698555,
+    "n_samples": 5000
+  },
+  "bound_1uM": {
+    "note": "Forcing a two-point exponential through the 1 \u03bcM series is underdetermined; this is not a fit and not recommended.",
+    "I0_forced": 59.12611425246526,
+    "k_forced": 0.14736217753859693,
+    "half_life_forced_days": 4.703698005401671
+  },
+  "qualitative_bounds": {
+    "10uM_day11": "recovery reported (normal levels); treated as upper bound on remaining inhibition, not a 0% data point",
+    "1uM_day7": "recovery reported (baseline); treated as upper bound, not a 0% data point"
+  },
+  "rationale_1uM_not_fitted": "Two quantitative points cannot determine two parameters (I0, k) independently. Any pair (I0, k) satisfying I0*exp(-k*3)=38.0 and I0*exp(-k*5)=28.3 is consistent; the forced two-point single exponential above is descriptive, not inferential.",
+  "caveats": [
+    "The endpoint is accumulated pigment content, not synthesis flux.",
+    "Day-7 to day-9 plateau (21.3% -> 20.0%) violates strict exponential decay.",
+    "n=4 quantitative points yields large bootstrap CIs.",
+    "No replicate-level data; mean values only.",
+    "MNT-1 melanoma rates do not transfer to iris tissue."
+  ]
+}

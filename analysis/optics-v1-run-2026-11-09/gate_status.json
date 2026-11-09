@@ -1,0 +1,11 @@
+{
+  "status": "unevaluated \u2014 no published iris reflectance spectra obtained for calibration",
+  "delta_E_tolerance": 5.0,
+  "reflectance_rmse_tolerance_percent": 10,
+  "self_consistency_checks": {
+    "pigment_free_nonnegative_reflectance": true,
+    "pigment_free_reflectance_leq_one": true,
+    "monotonic_L_star_with_eu": true
+  },
+  "calibration_data_access": "Attempted programmatic fetch \u2014 see MODEL_REPORT.md for result."
+}

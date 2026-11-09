@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "status": "Fitted to published mean values; no replicate-level data used",
+  "source_paper": {
+    "title": "KT-939: A Next-Generation Human Tyrosinase Inhibitor With Superior Efficacy for the Safe Management of Hyperpigmentation",
+    "authors": "Hou et al.",
+    "year": 2025,
+    "doi": "10.1111/jocd.70510",
+    "pmc": "PMC12569736",
+    "pmid": "41159291",
+    "section": "Results 3.3 and Figure 4",
+    "verification": {
+      "method": "web fetch of PMC full-text HTML",
+      "date": "2026-11-09",
+      "verified_against_paper": true,
+      "paper_quote_10uM": "Following the washout of 10 μM KT-939, melanin inhibition rates were 66.6% and 52.7% on days 3 and 5, and 21.3% and 20% on days 7 and 9, respectively. Melanin content fully returned to normal levels after 11 days of drug withdrawal.",
+      "paper_quote_1uM": "After the washout of 1 μM KT-939, the melanin inhibition rate was 38% on day 3 and 28.3% on day 5, returning to baseline after seven days.",
+      "transcription_notes": "Percentages transcribed from publisher text fetched via PMC; values match those previously recorded in research/pigment-evidence-register.md line 120."
+    }
+  },
+  "source_values": {
+    "concentration_10_uM": {
+      "condition": "10 μM KT-939 for 6 days, then washout with standard medium",
+      "endpoint": "bulk melanin content absorbance at 405 nm, normalized to protein (μg melanin / mg protein)",
+      "inhibition_denominator": "not explicit in paper; assumed percent of matched vehicle control",
+      "population": "human MNT-1 melanoma cells",
+      "replicates": "three independent experiments (mean ± SD shown in Figure 4; exact SD per timepoint not reported in text)",
+      "values": [
+        {"day_after_withdrawal": 3, "inhibition_percent": 66.6, "flag": "verified-against-paper", "transcription_source": "PMC HTML paragraph under Results 3.3"},
+        {"day_after_withdrawal": 5, "inhibition_percent": 52.7, "flag": "verified-against-paper", "transcription_source": "PMC HTML paragraph under Results 3.3"},
+        {"day_after_withdrawal": 7, "inhibition_percent": 21.3, "flag": "verified-against-paper", "transcription_source": "PMC HTML paragraph under Results 3.3"},
+        {"day_after_withdrawal": 9, "inhibition_percent": 20.0, "flag": "verified-against-paper", "transcription_source": "PMC HTML paragraph under Results 3.3"},
+        {"day_after_withdrawal": 11, "inhibition_percent": null, "qualitative_bound": "recovery reported (normal levels)", "flag": "verified-against-paper", "transcription_source": "PMC HTML paragraph under Results 3.3"}
+      ]
+    },
+    "concentration_1_uM": {
+      "condition": "1 μM KT-939 for 6 days, then washout with standard medium",
+      "endpoint": "same as 10 μM",
+      "inhibition_denominator": "same as 10 μM",
+      "population": "same as 10 μM",
+      "replicates": "same as 10 μM",
+      "values": [
+        {"day_after_withdrawal": 3, "inhibition_percent": 38.0, "flag": "verified-against-paper", "transcription_source": "PMC HTML paragraph under Results 3.3"},
+        {"day_after_withdrawal": 5, "inhibition_percent": 28.3, "flag": "verified-against-paper", "transcription_source": "PMC HTML paragraph under Results 3.3"},
+        {"day_after_withdrawal": 7, "inhibition_percent": null, "qualitative_bound": "recovery reported (baseline)", "flag": "verified-against-paper", "transcription_source": "PMC HTML paragraph under Results 3.3"}
+      ]
+    }
+  },
+  "model": {
+    "equation": "inhibition(t) = I0 * exp(-k * t)",
+    "parameter_I0": {
+      "description": "extrapolated inhibition at t = 0 (immediately after washout, not measured)",
+      "units": "percent",
+      "rationale": "Single-exponential washout model; I0 is a fitted scaling parameter, not constrained to the 6-day exposure inhibition (~86.7% at 10 μM from Figure 3) because recovery may begin during the 6-day exposure or the first unmeasured post-washout interval."
+    },
+    "parameter_k": {
+      "description": "first-order washout rate constant",
+      "units": "per day",
+      "rationale": "Simplest kinetic model consistent with reversible suppression; assumes immediate switch to normal medium and no residual intracellular compound effect."
+    },
+    "derived_half_time": {
+      "description": "washout half-time",
+      "units": "days",
+      "formula": "ln(2) / k",
+      "caveat": "This is a fitted parameter describing decay of accumulated-pigment-content inhibition, not a drug pharmacokinetic half-life, not a synthesis-flux recovery time, and not an iris cell turnover rate."
+    },
+    "fit_series": "10 μM only; 1 μM is underdetermined (2 quantitative points for 2 parameters)",
+    "qualitative_recovery_bounds": {
+      "description": "day-11 (10 μM) and day-7 (1 μM) recovery statements are qualitative bounds, not 0% data points",
+      "treatment_in_fit": "excluded from least-squares objective; reported as bounds in MODEL_REPORT.md"
+    },
+    "underdetermined_series_treatment": {
+      "concentration_1_uM": "Two quantitative points cannot determine both I0 and k. The 1 μM series is reported as a bounding comparison only; no rate is fitted."
+    }
+  },
+  "limitations_and_qualifications": [
+    "The endpoint is accumulated pigment content (A405 per protein), not a direct synthesis-flux measurement. New synthesis, old-pigment turnover, cell division, and protein changes are confounded in this single readout.",
+    "The day-7 to day-9 plateau in the 10 μM series (21.3% -> 20.0% over 2 days) is inconsistent with a strict single exponential and must be flagged as a source inconsistency or experimental variability.",
+    "Exact SEM/SD per timepoint are not reported in the paper text; error bars visible in Figure 4 are not digitized here. The fit assumes equal weighting.",
+    "No replicate-level values are used; the fitted curve passes through means of three independent experiments.",
+    "Day 0 (immediately post-washout) and day 1 are not sampled; the fitted I0 is an extrapolation.",
+    "The model assumes no persistent non-zero inhibition floor. The qualitative day-11 recovery suggests the floor is near zero, but the model does not include it.",
+    "n=4 quantitative points for a 2-parameter nonlinear fit yields large uncertainty. Confidence intervals must be interpreted with this small-sample caveat.",
+    "MNT-1 melanoma cells are a transformed line, not normal human melanocytes or iris tissue. Rates do not transfer across cell types or tissues."
+  ]
+}

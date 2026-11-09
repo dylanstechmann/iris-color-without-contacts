@@ -1,0 +1,41 @@
+{
+  "computed_B_550nm": 0.1111348342196351,
+  "computed_Qsca_550nm": 4.0,
+  "computed_mus_550nm_cm1": 78.53981633974482,
+  "computed_mus_back_550nm_cm1": 5.8904862254808625,
+  "hue_window_blue_settings": [
+    {
+      "backscatter_550nm": 0.1,
+      "exponent": 4,
+      "blue_calibrated": true
+    },
+    {
+      "backscatter_550nm": 0.1,
+      "exponent": 6,
+      "blue_calibrated": true
+    },
+    {
+      "backscatter_550nm": 0.25,
+      "exponent": 4,
+      "blue_calibrated": true
+    },
+    {
+      "backscatter_550nm": 0.25,
+      "exponent": 6,
+      "blue_calibrated": true
+    },
+    {
+      "backscatter_550nm": 0.4,
+      "exponent": 4,
+      "blue_calibrated": true
+    }
+  ],
+  "comparison_note": "B_550 is a single nominal value; hue-window explored a grid. The model should be compared to the calibrated stroma settings that read blue when pigment-free.",
+  "pigment_free_CIELAB": {
+    "L_star": 44.19555365232077,
+    "a_star": 5.720114442690328,
+    "b_star": 7.054840856334432,
+    "chroma": 9.08242746988271,
+    "hue_degrees": 50.96461838566058
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "model_status": "published-data fit",
+  "python": "3.12.16",
+  "assumptions_sha256": "a088b5f1e8eccbd2a8876b1b4a7fa7e0fd2d186e993153f567ffb1f9593ac97a",
+  "script_sha256": "b7178c558eb13ac8f118522d88a499677417934f6fe07ef768fdf2b5e79b4153",
+  "outputs": {
+    "MODEL_REPORT.md": {
+      "sha256": "c65bb33ed99a838b72f227f8ab7d307c037692aa020ea55fecfe8c79fa465669",
+      "bytes": 7293
+    },
+    "assumptions.json": {
+      "sha256": "a088b5f1e8eccbd2a8876b1b4a7fa7e0fd2d186e993153f567ffb1f9593ac97a",
+      "bytes": 6507
+    },
+    "fit_kt939_washout.py": {
+      "sha256": "b7178c558eb13ac8f118522d88a499677417934f6fe07ef768fdf2b5e79b4153",
+      "bytes": 18390
+    },
+    "summary.json": {
+      "sha256": "37903ddbcdbc53f14488990986148454206431ea49cd61cceba13d7a62426401",
+      "bytes": 2338
+    }
+  }
+}

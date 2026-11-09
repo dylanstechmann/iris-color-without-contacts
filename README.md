@@ -34,6 +34,7 @@ The primary cosmetic objective is repeatable living-eye appearance change with p
 ## Research map
 
 - [Expansion plan](research/expansion-plan.md) — goals, phases, resources, budget ranges and milestones from evidence gaps to a bidirectional feasibility verdict.
+- [Feasibility verdict v2 (skeleton)](research/feasibility-verdict-v2.md) — predeclared G7 re-ranking structure and go/no-go criteria; no verdicts recorded.
 - [Milestone and budget ledger](research/milestone-budget-ledger.md) — living milestone tracker, quote-and-spend log, and go/no-go review record.
 - [Mechanism shortlist](research/mechanism-shortlist.md) — current prioritization, completed computation and next discriminating questions.
 - [Computational analysis](analysis/README.md) — reproducible models, human iris data checks and workbench runs.
@@ -47,6 +48,7 @@ The primary cosmetic objective is repeatable living-eye appearance change with p
 - [Tissue pigment atlas](research/tissue-pigment-atlas.md) — broader background for eyes, skin, gums, hair, and other compartments.
 - [Selective-clearance framework](research/selective-clearance-framework.md) — pigment-fate concepts across tissues.
 - [Donor-eye measurement proposal](research/iris-measurement-validation-proposal.md) — optional optical/chemical calibration study.
+- [Iris-cell sourcing note](research/iris-cell-sourcing-note.md) — G5 literature-first outcome: seven registered iris-melanocyte studies and the finding that no commercial iris stromal melanocyte line exists.
 - [Automated lab concept](research/automated-lab-operating-model.md) — optional logistics and cost planning for tissue work.
 - [Hair scope](research/hair-scope.md) — separate question for follicle pigmentation.
 - [Sidequest: purple or orange human irises](research/sidequest-purple-orange-eyes.md) — hue question beyond the light-to-dark axis, with a toy CIELAB calculation; in that model melanin over a dark back reaches at best a dark orange-brown and never purple.
