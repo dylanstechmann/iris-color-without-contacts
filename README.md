@@ -33,6 +33,7 @@ The primary cosmetic objective is repeatable living-eye appearance change with p
 
 ## Research map
 
+- [Expansion plan](research/expansion-plan.md) — goals, phases, resources, budget ranges and milestones from evidence gaps to a bidirectional feasibility verdict.
 - [Mechanism shortlist](research/mechanism-shortlist.md) — current prioritization, completed computation and next discriminating questions.
 - [Computational analysis](analysis/README.md) — reproducible models, human iris data checks and workbench runs.
 - [Chronic drug modulation](research/chronic-pharmacologic-modulation.md) — lead track: foundations, hypothetical combinations, sensitivity models, and targeted questions.
