@@ -34,12 +34,15 @@ The primary cosmetic objective is repeatable living-eye appearance change with p
 ## Research map
 
 - [Expansion plan](research/expansion-plan.md) — goals, phases, resources, budget ranges and milestones from evidence gaps to a bidirectional feasibility verdict.
+- [Milestone and budget ledger](research/milestone-budget-ledger.md) — living milestone tracker, quote-and-spend log, and go/no-go review record.
 - [Mechanism shortlist](research/mechanism-shortlist.md) — current prioritization, completed computation and next discriminating questions.
 - [Computational analysis](analysis/README.md) — reproducible models, human iris data checks and workbench runs.
 - [Chronic drug modulation](research/chronic-pharmacologic-modulation.md) — lead track: foundations, hypothetical combinations, sensitivity models, and targeted questions.
 - [Bidirectional iris reversibility](research/bidirectional-reversibility.md) — blue-to-brown-to-baseline goal and evidence requirements.
 - [Paired exposure/withdrawal protocol](research/paired-exposure-withdrawal-protocol.md) — proposed discriminating cell study across the named candidates.
+- [Optics-model specification](research/optics-model-specification.md) — inventory→appearance model architecture, calibration data requirements, and tolerances.
 - [Pigment evidence register](research/pigment-evidence-register.md) — study models, outcomes, and limits.
+- [Core-facility quote-request package](research/core-facility-quote-request.md) — RFQ package for the paired exposure/withdrawal study, with separately quoted feasibility gates.
 - [Tissue pigment atlas](research/tissue-pigment-atlas.md) — broader background for eyes, skin, gums, hair, and other compartments.
 - [Selective-clearance framework](research/selective-clearance-framework.md) — pigment-fate concepts across tissues.
 - [Donor-eye measurement proposal](research/iris-measurement-validation-proposal.md) — optional optical/chemical calibration study.
