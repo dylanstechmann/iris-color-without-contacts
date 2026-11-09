@@ -43,6 +43,7 @@ The primary cosmetic objective is repeatable living-eye appearance change with p
 - [Optics-model specification](research/optics-model-specification.md) — inventory→appearance model architecture, calibration data requirements, and tolerances.
 - [Pigment evidence register](research/pigment-evidence-register.md) — study models, outcomes, and limits.
 - [Core-facility quote-request package](research/core-facility-quote-request.md) — RFQ package for the paired exposure/withdrawal study, with separately quoted feasibility gates.
+- [Core-facility shortlist](research/core-facility-shortlist.md) — researched candidate facilities with confirmed/VERIFY capability markers, pending owner verification and contact.
 - [Tissue pigment atlas](research/tissue-pigment-atlas.md) — broader background for eyes, skin, gums, hair, and other compartments.
 - [Selective-clearance framework](research/selective-clearance-framework.md) — pigment-fate concepts across tissues.
 - [Donor-eye measurement proposal](research/iris-measurement-validation-proposal.md) — optional optical/chemical calibration study.

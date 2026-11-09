@@ -10,7 +10,7 @@
 
 | Milestone | Target date range | Criteria (measured, not felt) | Status | Notes / actual dates | Decision outcome |
 | --- | --- | --- | --- | --- | --- |
-| **M0 — Groundwork complete** | Weeks 0–3 | Quote packages sent to ≥2 facilities; S0.1 register rows added and verified; optics spec committed; ledger live | Not started | — | — |
+| **M0 — Groundwork complete** | Weeks 0–3 | Quote packages sent to ≥2 facilities; S0.1 register rows added and verified; optics spec committed; ledger live | In progress (owner actions pending) | 2026-11-09: S0.1 register rows added and verified (Gerndt et al., 2020 eLife TPC2-A1-P active range registered; heavy-tyrosine labeling precedents verified already present); core-facility quote-request package committed (`research/core-facility-quote-request.md`, commit 4aa88ce); optics-model specification committed (same commit); this ledger created (same commit); core-facility shortlist drafted (`research/core-facility-shortlist.md`); protocol TPC2-A1-P concentration ladder set from the registered Gerndt active range | — |
 | **M1 — Gates decided** | Month 2–3 | Each feasibility gate documented with numbers; protocol v1.1 committed; facility contract signed or program formally paused | Not started | — | — |
 | **M2 — Primary comparison landed** | Month 5 | Six-day-arm data ingested; KT-939 vs thiamidol washout fits with CIs from ≥3 lines; scaffold-retention gate outcome recorded | Not started | — | — |
 | **M3 — Production-up cycle measured** | Month 8 | 21-day arm plus at least one production-up on/off cycle (ampyrone or SIK) with free-compound accounting | Not started | — | — |
@@ -72,7 +72,7 @@
 
 | Action | Owner | Status | Target date | Notes |
 | --- | --- | --- | --- | --- |
-| Send quote requests to ≥2 academic core facilities | Owner | Pending owner action | This week | Use draft packages from paired-exposure-withdrawal-protocol.md |
+| Send quote requests to ≥2 academic core facilities | Owner | Pending owner action | This week | Shortlist: `research/core-facility-shortlist.md`. RFQ package (`research/core-facility-quote-request.md`, commit 4aa88ce) ready to attach. Quote requests NOT yet sent. |
 | Open budget ledger (this document) | Owner | Pending owner action | This week | — |
 | Set milestone review cadence | Owner | Pending owner action | This week | Roughly weekly during active phases; monthly between phases |
 | Decide Phase-1 budget ceiling and record it here | Owner | Pending owner action | This month | Ceiling limits committed spend; quotes may reveal a narrower feasible band |
@@ -84,3 +84,4 @@
 | Date | Change | Author |
 | --- | --- | --- |
 | November 9, 2026 | Initial draft created from expansion-plan.md Feature F6 | AI-assisted, owner-reviewed |
+| 2026-11-09 | M0 agent-side groundwork recorded as complete; shortlist and protocol ladder updates noted | AI agent (owner review pending) |
