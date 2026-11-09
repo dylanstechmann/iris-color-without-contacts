@@ -8,6 +8,8 @@ The earlier bidirectional goal remains: **blue → dark brown → the same perso
 
 The [KT-939 and thiamidol comparison](analysis/kt939-thiamidol-comparison.md) now extracts paired measurements from one study and checks the compounds' related structures. KT-939 has a lower reported IC50 in both the lysate and six-day cell-pigment assays. Its withdrawal study has no thiamidol arm, so comparative recovery remains unresolved. The comparison adds reproducible tables, a figure and source hashes. The earlier [withdrawal analysis](analysis/withdrawal-and-recovery.md) explains why pigment recovery alone cannot identify drug washout or old-pigment loss; the [mechanism shortlist](research/mechanism-shortlist.md) connects these findings to the reversible-color goal.
 
+The November 9, 2026 mechanism-shortlist refresh swept all five prioritized branches for new or missed evidence, verified every added citation against publisher or PubMed records, and appended twenty rows to the [pigment evidence register](research/pigment-evidence-register.md). The sweep confirms the paired KT-939/thiamidol exposure-and-withdrawal study does not exist in the accessible literature, and elevates melanosomal pH (OCA2–TPC2) as the strongest alternative production controller after new digenic-genetics, small-molecule, human-cell, and ocular-phenotype evidence.
+
 ## Current research direction
 
 Start with **pigment production, pigment persistence, and optics**. Build explicit hypotheses, calculate their consequences, and use targeted searches to check the assumptions that matter most. Slow change and maintenance over years are within scope.
@@ -25,7 +27,7 @@ The models do not predict a seven-year biological renewal interval or a compulso
 
 ## Next
 
-Seek paired KT-939/thiamidol exposure and withdrawal observations in one human pigment-cell system, with free active compound, target activity and cell-population accounting. Their structural difference motivates measuring retention; calculated properties do not establish it. Pair new synthesis with stored-pigment tracking before fitting recovery rates. For ampyrone, retain the enzyme-product identity question. The [identifiability calculation](analysis/withdrawal-and-recovery.md#which-added-observations-answer-which-question) explains which added observations are informative; the [analysis methods](analysis/README.md) document completed runs.
+Seek paired KT-939/thiamidol exposure and withdrawal observations in one human pigment-cell system, with free active compound, target activity and cell-population accounting. The November 9, 2026 sweep confirms no such study exists yet; new 2024–2026 analog work adds potency, not withdrawal data. Ampyrone still has no washout experiment anywhere, and its enzyme-product identity question stands, while SIK inhibitors and forskolin supply measured reversible production-up precedent in mice. The OCA2–TPC2 branch gained bidirectional small-molecule control and a human ocular phenotype, making TPC2 modulators named candidates for the same paired exposure/withdrawal design. Their structural difference motivates measuring retention; calculated properties do not establish it. Pair new synthesis with stored-pigment tracking before fitting recovery rates. The [identifiability calculation](analysis/withdrawal-and-recovery.md#which-added-observations-answer-which-question) explains which added observations are informative; the [analysis methods](analysis/README.md) document completed runs.
 
 The primary cosmetic objective is repeatable living-eye appearance change with preserved function and recovery. A noninvasive color measure can track appearance; chemistry addresses pigment mechanisms. Archived records, cell models, donor-eye calibration, and automation are supporting options chosen for a defined question.
 
@@ -47,4 +49,4 @@ The primary cosmetic objective is repeatable living-eye appearance change with p
 
 Literature review and conceptual analysis for cosmetic pharmacology. The repository does not provide a treatment regimen or establish clinical suitability. Evidence from existing medicines, cell culture, animal studies, and patents is labeled by type.
 
-*Latest focused comparison: October 22, 2026. Personal hobby and learning project; AI-assisted synthesis.*
+*Latest focused comparison: October 22, 2026. Latest mechanism-shortlist refresh: November 9, 2026. Personal hobby and learning project; AI-assisted synthesis.*
