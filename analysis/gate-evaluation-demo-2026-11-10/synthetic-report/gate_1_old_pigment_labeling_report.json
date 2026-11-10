@@ -1,0 +1,12 @@
+{
+  "report_version": "1.0",
+  "gate_id": "gate_1_old_pigment_labeling",
+  "facility_id": "SYNTHETIC-DEMO",
+  "run_id": "demo-g1-2026-11-10",
+  "data_kind": "synthetic",
+  "observations": {
+    "c1_baseline_separation": {"value": true, "unit": "boolean"},
+    "c2_old_pool_fraction_lod": {"value": 0.05, "unit": "fraction_of_total"},
+    "c3_chemical_melanin_agreement": {"value": 8.5, "unit": "%"}
+  }
+}

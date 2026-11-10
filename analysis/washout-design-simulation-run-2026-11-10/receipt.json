@@ -1,0 +1,24 @@
+{
+  "python": "3.12.16",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "assumptions_sha256": "4d113675b142772c4ff8c1046c480066665ad8a51c189545dd7049497b09f3b7",
+  "script_sha256": "962e7acf93170f8533570c3e39b05ebb7e3047987125012f3e0e36b462454a25",
+  "outputs": {
+    "MODEL_REPORT.md": {
+      "sha256": "99d71c2bd4651b09fbff4631178e74041e5aac4e452abc39841968c874cf548d",
+      "bytes": 6678
+    },
+    "results.json": {
+      "sha256": "7dc4b8171aa463d41aa4187940da2bcab077118d00355676d46747f2578b08fd",
+      "bytes": 58838
+    },
+    "run_design_simulations.py": {
+      "sha256": "962e7acf93170f8533570c3e39b05ebb7e3047987125012f3e0e36b462454a25",
+      "bytes": 25321
+    }
+  },
+  "n_sim_per_design": 200,
+  "synthetic_only": true,
+  "command": "/workspace/iris-color-without-contacts/.venv/bin/python3 washout-design-simulation-run-2026-11-10/run_design_simulations.py"
+}

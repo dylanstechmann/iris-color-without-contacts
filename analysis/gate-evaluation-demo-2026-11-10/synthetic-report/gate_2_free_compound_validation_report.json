@@ -1,0 +1,27 @@
+{
+  "report_version": "1.0",
+  "gate_id": "gate_2_free_compound_validation",
+  "facility_id": "SYNTHETIC-DEMO",
+  "run_id": "demo-g2-2026-11-10",
+  "data_kind": "synthetic",
+  "compounds": {
+    "KT-939": {
+      "c1_spike_recovery": {"value": 95.0, "unit": "%"},
+      "c2_calibration_r2": {"value": 0.995, "unit": "unitless"},
+      "c3_intra_day_cv": {"value": 8.0, "unit": "%"},
+      "c4_freeze_thaw_stability": {"value": true, "unit": "boolean"}
+    },
+    "Thiamidol": {
+      "c1_spike_recovery": {"value": 92.0, "unit": "%"},
+      "c2_calibration_r2": {"value": 0.992, "unit": "unitless"},
+      "c3_intra_day_cv": {"value": 12.0, "unit": "%"},
+      "c4_freeze_thaw_stability": {"value": true, "unit": "boolean"}
+    },
+    "Ampyrone": {
+      "c1_spike_recovery": {"value": 110.0, "unit": "%"},
+      "c2_calibration_r2": {"value": 0.998, "unit": "unitless"},
+      "c3_intra_day_cv": {"value": 6.0, "unit": "%"},
+      "c4_freeze_thaw_stability": {"value": true, "unit": "boolean"}
+    }
+  }
+}

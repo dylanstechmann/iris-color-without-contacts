@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "source": "research/core-facility-quote-request.md §5 and research/feasibility-verdict-v2.md",
+  "data_kind": "predeclared_criteria",
+  "notes": "All numerical thresholds are predeclared before any facility delivers data. Thresholds marked PROPOSED may be adjusted by the owner without code changes by editing this file.",
+  "gates": {
+    "gate_1_old_pigment_labeling": {
+      "name": "Gate 1 — Old-pigment pre-labeling",
+      "fallback": "Replace old/new separation with melanosome counting via electron-microscopy pulse-chase. The old-pool term is then recorded as unidentified in the washout model.",
+      "per_compound": false,
+      "criteria": {
+        "c1_baseline_separation": {
+          "description": "Quantifiable separation of heavy- and light-melanin fractions at baseline",
+          "comparator": "==",
+          "target": true,
+          "unit": "boolean",
+          "provenance": "RFQ §5 Gate 1",
+          "status": "CONFIRMED"
+        },
+        "c2_old_pool_fraction_lod": {
+          "description": "Old-pool fraction detectable above LOD after a 7-day chase; detection limit ≤ 10 % of total melanin signal",
+          "comparator": "<=",
+          "target": 0.10,
+          "unit": "fraction_of_total",
+          "provenance": "RFQ §5 Gate 1; feasibility-verdict-v2.md §Old-pigment detection",
+          "status": "PROPOSED"
+        },
+        "c3_chemical_melanin_agreement": {
+          "description": "Agreement with total chemical melanin within stated tolerance on a validation subset",
+          "comparator": "<=",
+          "target": 15.0,
+          "unit": "%",
+          "provenance": "RFQ §5 Gate 1",
+          "status": "CONFIRMED"
+        }
+      }
+    },
+    "gate_2_free_compound_validation": {
+      "name": "Gate 2 — Intracellular free-compound assay validation (per compound)",
+      "fallback": "A compound that fails its validation is excluded from free-compound-corrected washout fitting for that arm.",
+      "per_compound": true,
+      "criteria": {
+        "c1_spike_recovery": {
+          "description": "Spike recovery in cell-lysate matrix",
+          "comparator": "range",
+          "target_lo": 80.0,
+          "target_hi": 120.0,
+          "unit": "%",
+          "provenance": "RFQ §5 Gate 2",
+          "status": "CONFIRMED"
+        },
+        "c2_calibration_r2": {
+          "description": "Calibration linearity R²",
+          "comparator": ">=",
+          "target": 0.99,
+          "unit": "unitless",
+          "provenance": "RFQ §5 Gate 2",
+          "status": "CONFIRMED"
+        },
+        "c3_intra_day_cv": {
+          "description": "Intra-day CV at the LOQ",
+          "comparator": "<",
+          "target": 15.0,
+          "unit": "%",
+          "provenance": "RFQ §5 Gate 2",
+          "status": "CONFIRMED"
+        },
+        "c4_freeze_thaw_stability": {
+          "description": "Stability through at least one freeze-thaw cycle",
+          "comparator": "==",
+          "target": true,
+          "unit": "boolean",
+          "provenance": "RFQ §5 Gate 2",
+          "status": "CONFIRMED"
+        }
+      }
+    },
+    "gate_3_ampyrone_solubility": {
+      "name": "Gate 3 — Ampyrone solubility window",
+      "fallback": "Run at highest soluble concentration with limitation declared; defer 21-day mature-pigment arm until formulation route found.",
+      "per_compound": false,
+      "criteria": {
+        "c1_no_visible_precipitate": {
+          "description": "No visible precipitate",
+          "comparator": "==",
+          "target": false,
+          "unit": "boolean",
+          "provenance": "RFQ §5 Gate 3",
+          "status": "CONFIRMED"
+        },
+        "c2_concentration_drop": {
+          "description": "Drop in nominal concentration at 6 days by LC-MS/MS",
+          "comparator": "<=",
+          "target": 10.0,
+          "unit": "%",
+          "provenance": "RFQ §5 Gate 3",
+          "status": "CONFIRMED"
+        },
+        "c3_cell_viability": {
+          "description": "Cell viability at highest soluble concentration relative to vehicle",
+          "comparator": ">=",
+          "target": 70.0,
+          "unit": "%",
+          "provenance": "RFQ §5 Gate 3; feasibility-verdict-v2.md §Cell viability",
+          "status": "PROPOSED"
+        }
+      }
+    }
+  }
+}

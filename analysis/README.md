@@ -22,6 +22,7 @@ These are AI-run research calculations on hypothetical balances and existing pub
 - [Optics v1 measured-melanin run](optics-v1-measured-melanin-run-2026-11-09/): the same layered forward model with the assumed power-law melanin spectra replaced by pinned measured Sarna & Swartz 1988 extinction coefficients (550-normalized shapes); 550 nm magnitudes remain order-of-magnitude assumptions; calibration gate still unevaluated.
 - [Hue-window measured-melanin exploration](hue-window-measured-melanin-run-2026-11-09/MODEL_REPORT.md): the hue-window exploration re-run with the same measured melanin spectral shapes instead of the swept pheomelanin exponent; the qualitative finding is unchanged — orange and purple windows stay unreachable over a dark back and still require a strong reddish back return.
 - [F5 washout-kinetics pipeline](washout-fit-pipeline-validation-2026-11-10/MODEL_REPORT.md): multi-readout washout fitter separating synthesis flux, old-pigment pool, and free-compound inhibition, validated on synthetic/hypothetical data only; ready to consume Phase-2 paired-washout data when a facility delivers it.
+- [Phase-1 feasibility-gate evaluator](gate-evaluation-demo-2026-11-10/run/EVALUATION_REPORT.md): mechanical pass/fail on predeclared criteria from `research/core-facility-quote-request.md` §5, exercised on clearly labeled synthetic facility reports; ready for real Phase-1 gate data.
 - [Workbench status](WORKBENCH_STATUS.md): actual runtime and check outcomes.
 
 ## Reproduce the hue-window exploration
@@ -179,3 +180,12 @@ The existing CLI fetched:
     regen afdb P14679
 
 7RK7 is an immune complex containing a nine-residue TYR peptide. AF-P14679-F1 is a predicted scaffold. Neither was used to generate docking or affinity scores. Complete coordinates and original fetch receipts remain in local workbench data; the target assessment records IDs and file hashes.
+
+## Reproduce the Phase-1 feasibility-gate evaluator
+
+Run from this repository with Python 3.11 or later; only the standard library is used:
+
+    python3 analysis/evaluate_gates.py --report analysis/gate-evaluation-demo-2026-11-10/synthetic-report --criteria analysis/gate_criteria.json --out analysis/new-gate-evaluation-run
+    python3 -m unittest analysis/test_evaluate_gates.py -v
+
+The output directory must be new. The evaluator reads JSON gate reports from the report directory and applies thresholds declared in `analysis/gate_criteria.json`. The criteria file includes provenance citations to the RFQ and marks PROPOSED thresholds awaiting owner confirmation. Unknown or missing fields are reported as "not evaluable", never silently passed. The evaluator writes `gate_evaluation.json` (per-criterion observed value, threshold, pass/fail), `EVALUATION_REPORT.md`, and `receipt.json` with SHA-256 of inputs and outputs. See `analysis/README_gates_input_format.md` for the report schema, which maps 1:1 to the deliverable table in `research/core-facility-quote-request.md` §4. Today the tool is validated only on clearly labeled synthetic data; no facility data are claimed.

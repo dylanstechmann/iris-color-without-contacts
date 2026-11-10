@@ -1,0 +1,181 @@
+{
+  "evaluator_version": "1.0.0",
+  "data_kind": "synthetic",
+  "criteria_sha256": "ab0d99c169fae930051c8ea257d88a173da8d4e00af17666671d1b7d7aa80191",
+  "gate_evaluations": {
+    "gate_1_old_pigment_labeling": {
+      "name": "Gate 1 \u2014 Old-pigment pre-labeling",
+      "fallback": "Replace old/new separation with melanosome counting via electron-microscopy pulse-chase. The old-pool term is then recorded as unidentified in the washout model.",
+      "results": {
+        "c1_baseline_separation": {
+          "criterion": "c1_baseline_separation",
+          "observed": true,
+          "result": "pass",
+          "detail": null,
+          "threshold": "== True boolean",
+          "status": "CONFIRMED"
+        },
+        "c2_old_pool_fraction_lod": {
+          "criterion": "c2_old_pool_fraction_lod",
+          "observed": 0.05,
+          "result": "pass",
+          "detail": null,
+          "threshold": "<= 0.1 fraction_of_total",
+          "status": "PROPOSED"
+        },
+        "c3_chemical_melanin_agreement": {
+          "criterion": "c3_chemical_melanin_agreement",
+          "observed": 8.5,
+          "result": "pass",
+          "detail": null,
+          "threshold": "<= 15.0 %",
+          "status": "CONFIRMED"
+        }
+      }
+    },
+    "gate_2_free_compound_validation": {
+      "name": "Gate 2 \u2014 Intracellular free-compound assay validation (per compound)",
+      "fallback": "A compound that fails its validation is excluded from free-compound-corrected washout fitting for that arm.",
+      "results": {
+        "KT-939:c1_spike_recovery": {
+          "criterion": "c1_spike_recovery",
+          "compound": "KT-939",
+          "observed": 95.0,
+          "result": "pass",
+          "detail": null,
+          "threshold": "range [80.0, 120.0] %",
+          "status": "CONFIRMED"
+        },
+        "Thiamidol:c1_spike_recovery": {
+          "criterion": "c1_spike_recovery",
+          "compound": "Thiamidol",
+          "observed": 92.0,
+          "result": "pass",
+          "detail": null,
+          "threshold": "range [80.0, 120.0] %",
+          "status": "CONFIRMED"
+        },
+        "Ampyrone:c1_spike_recovery": {
+          "criterion": "c1_spike_recovery",
+          "compound": "Ampyrone",
+          "observed": 110.0,
+          "result": "pass",
+          "detail": null,
+          "threshold": "range [80.0, 120.0] %",
+          "status": "CONFIRMED"
+        },
+        "KT-939:c2_calibration_r2": {
+          "criterion": "c2_calibration_r2",
+          "compound": "KT-939",
+          "observed": 0.995,
+          "result": "pass",
+          "detail": null,
+          "threshold": ">= 0.99 unitless",
+          "status": "CONFIRMED"
+        },
+        "Thiamidol:c2_calibration_r2": {
+          "criterion": "c2_calibration_r2",
+          "compound": "Thiamidol",
+          "observed": 0.992,
+          "result": "pass",
+          "detail": null,
+          "threshold": ">= 0.99 unitless",
+          "status": "CONFIRMED"
+        },
+        "Ampyrone:c2_calibration_r2": {
+          "criterion": "c2_calibration_r2",
+          "compound": "Ampyrone",
+          "observed": 0.998,
+          "result": "pass",
+          "detail": null,
+          "threshold": ">= 0.99 unitless",
+          "status": "CONFIRMED"
+        },
+        "KT-939:c3_intra_day_cv": {
+          "criterion": "c3_intra_day_cv",
+          "compound": "KT-939",
+          "observed": 8.0,
+          "result": "pass",
+          "detail": null,
+          "threshold": "< 15.0 %",
+          "status": "CONFIRMED"
+        },
+        "Thiamidol:c3_intra_day_cv": {
+          "criterion": "c3_intra_day_cv",
+          "compound": "Thiamidol",
+          "observed": 12.0,
+          "result": "pass",
+          "detail": null,
+          "threshold": "< 15.0 %",
+          "status": "CONFIRMED"
+        },
+        "Ampyrone:c3_intra_day_cv": {
+          "criterion": "c3_intra_day_cv",
+          "compound": "Ampyrone",
+          "observed": 6.0,
+          "result": "pass",
+          "detail": null,
+          "threshold": "< 15.0 %",
+          "status": "CONFIRMED"
+        },
+        "KT-939:c4_freeze_thaw_stability": {
+          "criterion": "c4_freeze_thaw_stability",
+          "compound": "KT-939",
+          "observed": true,
+          "result": "pass",
+          "detail": null,
+          "threshold": "== True boolean",
+          "status": "CONFIRMED"
+        },
+        "Thiamidol:c4_freeze_thaw_stability": {
+          "criterion": "c4_freeze_thaw_stability",
+          "compound": "Thiamidol",
+          "observed": true,
+          "result": "pass",
+          "detail": null,
+          "threshold": "== True boolean",
+          "status": "CONFIRMED"
+        },
+        "Ampyrone:c4_freeze_thaw_stability": {
+          "criterion": "c4_freeze_thaw_stability",
+          "compound": "Ampyrone",
+          "observed": true,
+          "result": "pass",
+          "detail": null,
+          "threshold": "== True boolean",
+          "status": "CONFIRMED"
+        }
+      }
+    },
+    "gate_3_ampyrone_solubility": {
+      "name": "Gate 3 \u2014 Ampyrone solubility window",
+      "fallback": "Run at highest soluble concentration with limitation declared; defer 21-day mature-pigment arm until formulation route found.",
+      "results": {
+        "c1_no_visible_precipitate": {
+          "criterion": "c1_no_visible_precipitate",
+          "observed": false,
+          "result": "pass",
+          "detail": null,
+          "threshold": "== False boolean",
+          "status": "CONFIRMED"
+        },
+        "c2_concentration_drop": {
+          "criterion": "c2_concentration_drop",
+          "observed": 5.0,
+          "result": "pass",
+          "detail": null,
+          "threshold": "<= 10.0 %",
+          "status": "CONFIRMED"
+        },
+        "c3_cell_viability": {
+          "criterion": "c3_cell_viability",
+          "observed": 85.0,
+          "result": "pass",
+          "detail": null,
+          "threshold": ">= 70.0 %",
+          "status": "PROPOSED"
+        }
+      }
+    }
+  }
+}

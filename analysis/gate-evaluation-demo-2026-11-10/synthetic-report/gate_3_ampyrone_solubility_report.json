@@ -1,0 +1,12 @@
+{
+  "report_version": "1.0",
+  "gate_id": "gate_3_ampyrone_solubility",
+  "facility_id": "SYNTHETIC-DEMO",
+  "run_id": "demo-g3-2026-11-10",
+  "data_kind": "synthetic",
+  "observations": {
+    "c1_no_visible_precipitate": {"value": false, "unit": "boolean"},
+    "c2_concentration_drop": {"value": 5.0, "unit": "%"},
+    "c3_cell_viability": {"value": 85.0, "unit": "%"}
+  }
+}

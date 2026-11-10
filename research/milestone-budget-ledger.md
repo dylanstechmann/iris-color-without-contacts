@@ -87,3 +87,4 @@
 | 2026-11-09 | M0 agent-side groundwork recorded as complete; shortlist and protocol ladder updates noted | AI agent (owner review pending) |
 | 2026-11-10 | G7 feasibility-verdict-v2.md thresholds pre-proposed by agent; owner confirmation pending before M6 review | AI-assisted (thresholds) |
 | 2026-11-09 | M5 notes: G5 literature sweep and sourcing options recorded; KT-939 washout fit and optics v1 runs added to analysis | AI agent (owner review pending) |
+| 2026-11-10 | Reduced-matrix option prepared by agent (`research/rfq-reduced-matrix-option.md`) citing simulation run `analysis/washout-design-simulation-run-2026-11-10`; owner decision pending before any contract or spend | AI agent (owner review pending) |

@@ -1,0 +1,23 @@
+{
+  "python": "3.12.16",
+  "evaluator_version": "1.0.0",
+  "criteria_sha256": "ab0d99c169fae930051c8ea257d88a173da8d4e00af17666671d1b7d7aa80191",
+  "inputs": {
+    "gate_criteria.json": "ab0d99c169fae930051c8ea257d88a173da8d4e00af17666671d1b7d7aa80191",
+    "gate_1_old_pigment_labeling_report.json": "06e9c78ba1ef6a401a032a7da7ddf46966f81fa717b045253d4e383cdee4a8d5",
+    "gate_2_free_compound_validation_report.json": "f25280fdc52d459b3848a57f4b4e9813df92d7e6cb4135b599bad7a9afd0d155",
+    "gate_3_ampyrone_solubility_report.json": "d299e7be7ee54b191ff9cea269609e42ae2365213e7687d7d9ffe4c52b5e7cb4"
+  },
+  "outputs": {
+    "gate_evaluation.json": {
+      "sha256": "c4db97cdd98d3d5f90b42921b74758296e9e126b20e0b3124281f4b63c5e464c",
+      "bytes": 6013
+    },
+    "EVALUATION_REPORT.md": {
+      "sha256": "17f4d8f470ebd61a99a903061763a29faec5a4e183a98bb095e3e8dc5e0e5d3e",
+      "bytes": 1486
+    }
+  },
+  "command": "python3 analysis/evaluate_gates.py --report analysis/gate-evaluation-demo-2026-11-10/synthetic-report --criteria analysis/gate_criteria.json --out analysis/gate-evaluation-demo-2026-11-10/run",
+  "data_kind": "synthetic"
+}
