@@ -1,0 +1,116 @@
+{
+  "schema_version": 2,
+  "status": "Phase 3 optics model v1 — layered Beer–Lambert with first-scattering correction. Reuses hue-window colorimetry machinery. Mie-scattering parameterisation is approximate. Melanin spectral shapes now use measured Sarna & Swartz 1988 extinction coefficients.",
+  "wavelengths_nm": {
+    "start": 400,
+    "stop": 700,
+    "step": 10
+  },
+  "colorimetry": {
+    "observer": "CIE 1931 2 degree standard colorimetric observer",
+    "observer_csv": "../cie-tables/CIE_xyz_1931_2deg.csv",
+    "observer_sha256": "fa663e3535a7e0763a745993a1f0a192eb0275ac46ad2d1befd7626841e713c1",
+    "illuminant": "CIE standard illuminant D65",
+    "illuminant_csv": "../cie-tables/CIE_std_illum_D65.csv",
+    "illuminant_sha256": "e76f210bffff3d552ef7113025da5f325d5dfec200dd4b878b1a2f3a507032cb",
+    "colour_space": "CIE 1976 L*a*b*; white is a perfect reflector under the same sampled tables"
+  },
+  "melanin_absorption": {
+    "eumelanin_specific_absorbance_550_cm2_per_ug": 0.5,
+    "eumelanin_specific_absorbance_range": [
+      0.2,
+      1.0
+    ],
+    "eumelanin_specific_absorbance_provenance": "Order-of-magnitude calibration to hue-window absorbance scale (0-8 double-pass at 200 um). Jacques OMLC melanosome interior absorption (1998) gives 500 cm^-1 at 550 nm for pure melanosome; dividing by a plausible internal concentration ~1000 ug/cm^3 yields ~0.5 cm^2/ug. Ten-fold variation is expected per Jacques.",
+    "eumelanin_spectral_exponent": 3.48,
+    "eumelanin_spectral_exponent_provenance": "UNUSED in this run — retained for provenance only. The spectral shape is now from measured Sarna & Swartz 1988 data (see melanin_spectra). Previously: Jacques OMLC https://omlc.org/spectra/melanin/mua.html (retrieved 2026-10-26).",
+    "pheomelanin_specific_absorbance_550_cm2_per_ug": 0.3,
+    "pheomelanin_specific_absorbance_range": [
+      0.1,
+      0.6
+    ],
+    "pheomelanin_specific_absorbance_provenance": "Order-of-magnitude calibration; the 550 nm magnitude remains assumed. The spectral SHAPE is now measured (see melanin_spectra).",
+    "pheomelanin_spectral_exponent": 10,
+    "pheomelanin_spectral_exponent_range": [
+      4.5,
+      25
+    ],
+    "pheomelanin_spectral_exponent_provenance": "UNUSED in this run — retained for provenance only. The spectral shape is now from measured Sarna & Swartz 1988 data (see melanin_spectra). Previously: assumed; no visible-range pheomelanin spectrum found in open sources."
+  },
+  "melanin_spectra": {
+    "eumelanin_csv": "../melanin-spectra/sarna_swartz_1988_eumelanin.csv",
+    "eumelanin_sha256": "103a08947ae68d86fd013abbe5e7d443f2ab3fc45d8953110c340ddaec110e63",
+    "pheomelanin_csv": "../melanin-spectra/sarna_swartz_1988_pheomelanin.csv",
+    "pheomelanin_sha256": "7cbd64699fef8e319d1503fd8651f954ba6886ffe6e4d7d8623ab37726488df5",
+    "source": "Sarna T., Swartz H.M., The physical properties of melanins, in The Pigmentary System, ed. J.J. Nordlund et al., Oxford University Press, 1988",
+    "host": "Natural Phenomena Simulation Group, University of Waterloo / Oregon Medical Laser Center",
+    "url_base": "https://www.npsg.uwaterloo.ca/data/skin/",
+    "retrieval_date": "2026-11-09",
+    "normalization": "Each spectrum is divided by its extinction at 550 nm so that the shape equals 1.0 at 550 nm. Eumelanin 550 = 5.79; pheomelanin 550 = 2.994 (units: decadic extinction coefficient, cm^-1 (mg/ml)^-1).",
+    "provenance_note": "The spectral SHAPE is now measured, replacing the previously assumed power-law exponents. The 550 nm specific-absorbance MAGNITUDES remain order-of-magnitude calibrations because no iris-specific mass-absorption calibration was found."
+  },
+  "melanosome_optics": {
+    "melanosome_diameter_nm": 500,
+    "melanosome_diameter_nm_range": [
+      300,
+      1000
+    ],
+    "melanosome_diameter_provenance": "Representative human iris stromal melanosome diameter; electron-microscopy reports 0.3-1.2 um (Prota et al. 1998; Wielgus and Sarna 2005, PMID 16280011).",
+    "melanosome_refractive_index_real": 1.7,
+    "melanosome_refractive_index_imag": 0.3,
+    "melanosome_refractive_index_provenance": "Representative visible-range values for eumelanin; literature reports n = 1.6-1.8, kappa = 0.2-0.5 (Nofsinger et al. and others). Strong dispersion acknowledged. This is a model assumption, not a measured value for iris melanosomes.",
+    "stromal_medium_refractive_index": 1.35,
+    "stromal_medium_refractive_index_provenance": "Typical collagen stroma value; Bashkatov et al. 2006 report 1.38 for sclera, lower for hydrated collagen matrix.",
+    "scattering_anisotropy_g": 0.85,
+    "scattering_anisotropy_g_range": [
+      0.75,
+      0.95
+    ],
+    "scattering_anisotropy_g_provenance": "Assumed forward-peaked scattering for melanin granules in tissue; typical tissue-optics range for similar particles. Not computed from exact Mie g in v1 to avoid numerical instability at complex refractive indices."
+  },
+  "melanosome_density": {
+    "number_density_cm3": 10000000000.0,
+    "number_density_cm3_range": [
+      1000000000.0,
+      1000000000000.0
+    ],
+    "number_density_provenance": "Calibrated to yield backscatter fraction in the hue-window range (0.1-0.4 at 550 nm) for the stated size and Qsca. This corresponds to a melanosome volume fraction of ~0.3-3% in the stroma. No direct human-iris stromal melanosome count was found in open sources."
+  },
+  "ipe_background": {
+    "ipe_eumelanin_mass_ug_per_cm2": 3.0,
+    "ipe_eumelanin_mass_range": [
+      1.0,
+      10.0
+    ],
+    "ipe_eumelanin_mass_provenance": "Assumed to reproduce a dark IPE background reflectance comparable to the hue-window dark_pigment_epithelium mode (rho ~ 0.02). Prota 1998 (PMID 9778410) reports IPE fractions but purity and exact compartment mass are uncertain.",
+    "ipe_base_reflectance": 0.5,
+    "ipe_base_reflectance_provenance": "Representative scleral/choroidal reflectance behind a non-pigmented IPE (albino path). Dark IPE with 3 ug/cm^2 gives rho = 0.5 * exp(-2 * 3 * 0.5) = 0.028, close to the hue-window 0.02."
+  },
+  "path_fraction": 0.5,
+  "path_fraction_provenance": "Uniform pigment distribution: half of the stromal absorbance lies above the effective scattering plane, half below.",
+  "monte_carlo": {
+    "samples": 200,
+    "random_seed": 42,
+    "perturbation_mode": "multiplicative_lognormal_for_positive_params"
+  },
+  "model_limits": {
+    "reflectance_rmse_tolerance_percent": 10,
+    "delta_E_tolerance": 5.0,
+    "gate_status": "Unevaluated until calibration dataset is obtained"
+  },
+  "tolerances_provenance": "Phase 3 v1 planning thresholds; Delta E <= 5 is a conventional just-noticeable-difference bound, 10 percent spectral RMSE is comparable to inter-study ex-vivo variability (specification Section 4.1).",
+  "layer_geometry": {
+    "stromal_thickness_cm": 0.02,
+    "stromal_thickness_cm_range": [
+      0.01,
+      0.04
+    ],
+    "stromal_thickness_provenance": "Assumed 200 um anterior stromal thickness; 100-400 um range covers reported histological variation (Bashkatov et al. 2006 uses a 150 um iris stroma layer).",
+    "ipe_thickness_cm": 0.001,
+    "ipe_thickness_cm_range": [
+      0.0005,
+      0.002
+    ],
+    "ipe_thickness_provenance": "Assumed 10 um IPE thickness; 5-20 um range from standard ocular histology."
+  }
+}

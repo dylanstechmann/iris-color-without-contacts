@@ -1,0 +1,64 @@
+{
+  "model_status": "Phase 3 optics v1 forward model with measured melanin spectra",
+  "python": "3.12.16",
+  "numpy": "2.5.4",
+  "assumptions_sha256": "eb820aa2e059169c557928a9990983fbae4e201b5aebf48632a7f06b09dd4633",
+  "script_sha256": "4d2cf8a30044308e5a998e599d9a652d772616c5ed0b57550b568f830133e326",
+  "inputs": {
+    "../cie-tables/CIE_xyz_1931_2deg.csv": {
+      "sha256": "fa663e3535a7e0763a745993a1f0a192eb0275ac46ad2d1befd7626841e713c1",
+      "bytes": 24021
+    },
+    "../cie-tables/CIE_std_illum_D65.csv": {
+      "sha256": "e76f210bffff3d552ef7113025da5f325d5dfec200dd4b878b1a2f3a507032cb",
+      "bytes": 6820
+    },
+    "../melanin-spectra/sarna_swartz_1988_eumelanin.csv": {
+      "sha256": "103a08947ae68d86fd013abbe5e7d443f2ab3fc45d8953110c340ddaec110e63",
+      "bytes": 1244
+    },
+    "../melanin-spectra/sarna_swartz_1988_pheomelanin.csv": {
+      "sha256": "7cbd64699fef8e319d1503fd8651f954ba6886ffe6e4d7d8623ab37726488df5",
+      "bytes": 1276
+    }
+  },
+  "scenario_count": 32,
+  "outputs": {
+    "MODEL_REPORT.md": {
+      "sha256": "d415f308b7d4e385f88d6fa993ead90f41c5775e9ba4fec1787a8955f655a919",
+      "bytes": 12343
+    },
+    "assumptions.json": {
+      "sha256": "eb820aa2e059169c557928a9990983fbae4e201b5aebf48632a7f06b09dd4633",
+      "bytes": 7309
+    },
+    "calibration_comparison.json": {
+      "sha256": "49294a65ac098f92c6dc721a618248379ffe957dba95ec5f75ce95098cd87d20",
+      "bytes": 1077
+    },
+    "gate_status.json": {
+      "sha256": "ec7c77b66cd5ea073c1c79883b0f5da58832250ad1dcc7595f6e87de66600580",
+      "bytes": 441
+    },
+    "receipt.json": {
+      "sha256": "d531c6938657d86df37b8327e78b2e1ff2f24875ee64eeb44bc19a2a3026663a",
+      "bytes": 1600
+    },
+    "representative_spectrum.json": {
+      "sha256": "275cf8bf88932ec728369075a087c86ad34adfb433f49e1016c7d137011d218f",
+      "bytes": 4667
+    },
+    "scenario_sweep.json": {
+      "sha256": "25e764f3ac3b829fc36c775eaafbf412710829a99af5126ef6a8ed853ec6da5f",
+      "bytes": 19185
+    },
+    "simulate_optics_v1.py": {
+      "sha256": "4d2cf8a30044308e5a998e599d9a652d772616c5ed0b57550b568f830133e326",
+      "bytes": 24389
+    },
+    "test_optics_v1.py": {
+      "sha256": "b29338f444da7f30addb76720b01241641878198198f2ba0e47d527413724fc9",
+      "bytes": 7574
+    }
+  }
+}

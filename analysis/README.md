@@ -19,6 +19,8 @@ These are AI-run research calculations on hypothetical balances and existing pub
 - [Target snapshots](target-snapshots-2026-10-17): human TYR/OCA2 sequence and annotation snapshots.
 - [KT-939 washout fit](kt939-washout-fit-run-2026-11-09/): published Hou et al. 2025 KT-939 washout series fitted to a washout half-time with bootstrap CI, accumulated-pigment endpoint, and minimum raw-data request for the authors listed.
 - [Optics v1 run](optics-v1-run-2026-11-09/): layered forward model per the optics spec, CIELAB with uncertainty, self-consistency checks passing; calibration gate unevaluated pending accessible published iris spectra.
+- [Optics v1 measured-melanin run](optics-v1-measured-melanin-run-2026-11-09/): the same layered forward model with the assumed power-law melanin spectra replaced by pinned measured Sarna & Swartz 1988 extinction coefficients (550-normalized shapes); 550 nm magnitudes remain order-of-magnitude assumptions; calibration gate still unevaluated.
+- [Hue-window measured-melanin exploration](hue-window-measured-melanin-run-2026-11-09/MODEL_REPORT.md): the hue-window exploration re-run with the same measured melanin spectral shapes instead of the swept pheomelanin exponent; the qualitative finding is unchanged — orange and purple windows stay unreachable over a dark back and still require a strong reddish back return.
 - [Workbench status](WORKBENCH_STATUS.md): actual runtime and check outcomes.
 
 ## Reproduce the hue-window exploration
@@ -29,6 +31,17 @@ Run from this repository with Python 3.11 or later; only the standard library is
     python -m unittest discover -s analysis -p test_hue_window.py -v
 
 The output folder must be new. The model is analytical: bounded stromal backscatter, power-law eumelanin and pheomelanin absorbance, and a constant or red-edge return from behind the stroma. Color is CIE 1976 L\*a\*b\* for the CIE 1931 2° observer under illuminant D65, read from [unmodified CIE tables](cie-tables/README.md) whose SHA-256 values are pinned in the assumptions; the script refuses a changed table. Hue windows are ±20° hue-angle ranges centred on declared reference spectra, with chroma and luminance floors applied separately. Stroma scattering is swept and then calibrated: only settings whose pigment-free stroma over a dark back reads as blue are used to interpret pigmented cases. The eumelanin wavelength exponent (3.48) comes from a published melanosome absorption law; every other iris input is an assumption, and [the assumptions file](hue_window_assumptions.json) records the provenance and limits of each. No measured iris spectrum is used, and scenario counts are not probabilities. The first changes that could alter the results are a measured pheomelanin visible spectrum and a measured back return.
+
+## Reproduce the measured-melanin runs
+
+Run from this repository with the project virtual environment (Python 3.12.16, NumPy 2.5.4 for the optics model; the hue-window model uses only the standard library):
+
+    .venv/bin/python3 analysis/optics-v1-measured-melanin-run-2026-11-09/simulate_optics_v1.py --assumptions analysis/optics-v1-measured-melanin-run-2026-11-09/assumptions.json --out analysis/new-optics-measured-run
+    cd analysis/optics-v1-measured-melanin-run-2026-11-09 && ../../.venv/bin/python3 -m unittest test_optics_v1 -v
+    .venv/bin/python3 analysis/simulate_hue_window_measured.py --assumptions analysis/hue_window_assumptions_measured.json --out analysis/new-hue-window-measured-run
+    python -m unittest discover -s analysis -p test_hue_window_measured.py -v
+
+Output folders must be new. Both runs replace the previously assumed power-law melanin spectra with the measured Sarna & Swartz 1988 extinction coefficients in [melanin-spectra/](melanin-spectra/README.md), whose SHA-256 values are pinned in the assumptions; the scripts refuse a changed table. The shapes are linearly interpolated and normalized to 1.0 at 550 nm. The 550 nm magnitudes and every other iris input remain order-of-magnitude assumptions; these are hypothetical models, not measured iris color. The optics script, its assumptions and its tests live inside the run directory and read the CIE tables and melanin CSVs through relative paths, mirroring the original optics v1 run. A measured pheomelanin visible spectrum is no longer an outstanding input for these models; a measured back return still is.
 
 ## Reproduce the KT-939 comparison
 
