@@ -21,6 +21,7 @@ These are AI-run research calculations on hypothetical balances and existing pub
 - [Optics v1 run](optics-v1-run-2026-11-09/): layered forward model per the optics spec, CIELAB with uncertainty, self-consistency checks passing; calibration gate unevaluated pending accessible published iris spectra.
 - [Optics v1 measured-melanin run](optics-v1-measured-melanin-run-2026-11-09/): the same layered forward model with the assumed power-law melanin spectra replaced by pinned measured Sarna & Swartz 1988 extinction coefficients (550-normalized shapes); 550 nm magnitudes remain order-of-magnitude assumptions; calibration gate still unevaluated.
 - [Hue-window measured-melanin exploration](hue-window-measured-melanin-run-2026-11-09/MODEL_REPORT.md): the hue-window exploration re-run with the same measured melanin spectral shapes instead of the swept pheomelanin exponent; the qualitative finding is unchanged — orange and purple windows stay unreachable over a dark back and still require a strong reddish back return.
+- [F5 washout-kinetics pipeline](washout-fit-pipeline-validation-2026-11-10/MODEL_REPORT.md): multi-readout washout fitter separating synthesis flux, old-pigment pool, and free-compound inhibition, validated on synthetic/hypothetical data only; ready to consume Phase-2 paired-washout data when a facility delivers it.
 - [Workbench status](WORKBENCH_STATUS.md): actual runtime and check outcomes.
 
 ## Reproduce the hue-window exploration
@@ -153,6 +154,20 @@ The prespecified panel is TYR, OCA2, SLC45A2, TPCN2, OPTN, RCHY1, TBK1, MLANA, P
 Checks cover finite nonnegative integer values in the selected panel, annotation totals, per-gene denominators, and co-detection bounds. The entire transcriptome was not count-audited. Counts were not depth-normalized; ambient RNA, nuclear capture and dropout may affect detection. No differential-expression test, protein activity, pigmentation response, age/color comparison or turnover estimate is produced.
 
 The iris subset has four individually named donor labels and two overlapping pooled labels. Its six labels must not be presented as six independent donors. Public institutional donor codes are retained only in source-group aggregate summaries.
+
+
+## Reproduce the F5 washout-kinetics pipeline
+
+Run from this repository with the project virtual environment (NumPy and SciPy required):
+
+    .venv/bin/python3 analysis/fit_washout.py --assumptions analysis/washout_assumptions.json --out analysis/new-washout-fit-run
+    .venv/bin/python3 -m unittest discover -s analysis -p test_washout.py -v
+
+The output directory must be new. The assumptions JSON (`analysis/washout_assumptions.json`) declares the synthetic ground-truth parameters, noise levels, and readout flags. The CLI generates synthetic data from those parameters, fits the model, and writes fitted parameters, confidence intervals, per-timepoint residuals, `receipt.json`, and `MODEL_REPORT.md`. Supply `--input PATH.tsv` to fit real data instead of generating synthetic data.
+
+The pipeline is deliberately built to consume Phase-2 paired-washout data the moment a facility delivers it; today it is validated only on clearly labeled synthetic data. The identifiability calculation in `analysis/withdrawal-and-recovery.md` shows that total pigment alone cannot separate a fixed persistent pool, partial production suppression, and added loss — three mechanisms that share one total-inventory curve. The requested readouts in `research/core-facility-quote-request.md` section 3 (heavy/light melanin isotope-ratio, free-compound LC-MS/MS, total melanin, and cell-count normalization) are the minimal set this pipeline needs to break that symmetry. No real washout data are claimed as fitted.
+
+Developed by AI assistant; owner-reviewed before interpretation.
 
 ## Targets and structures
 

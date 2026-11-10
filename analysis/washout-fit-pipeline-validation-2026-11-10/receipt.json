@@ -1,0 +1,32 @@
+{
+  "python": "3.12.16",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "assumptions_sha256": "4d113675b142772c4ff8c1046c480066665ad8a51c189545dd7049497b09f3b7",
+  "script_sha256": "0d3b1f076c0a99fa7b639a2e366a7eeeb8a3320180b48d1ba3a09abb81fb1de9",
+  "outputs": {
+    "MODEL_REPORT.md": {
+      "sha256": "4713700d4289af575907ee0a862a963c43c247891c057b6fdce9607fb1119285",
+      "bytes": 2054
+    },
+    "fitted_params.json": {
+      "sha256": "516be3865eb4f4c4452ef0097bfaf88aef9920b4fe960f902cb1f25ea0b2b4a6",
+      "bytes": 2033
+    },
+    "residuals.tsv": {
+      "sha256": "d24c45f36c09135567e3bffb092f38a583ad148c5571fae7480e55e4f203e849",
+      "bytes": 987
+    },
+    "synthetic_data.tsv": {
+      "sha256": "b8cc2e780b8a4f41207c3e0adb230185e852f7c81bb40bfc4f704e306b777190",
+      "bytes": 449
+    }
+  },
+  "data_kind": "synthetic",
+  "readout_flags": {
+    "total": true,
+    "old_fraction": true,
+    "compound": true
+  },
+  "fit_success": true
+}

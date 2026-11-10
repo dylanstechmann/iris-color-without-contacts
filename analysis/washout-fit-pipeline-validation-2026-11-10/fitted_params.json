@@ -1,0 +1,67 @@
+{
+  "activity": "F5 washout-kinetics fit",
+  "data_kind": "synthetic",
+  "readout_flags": {
+    "total": true,
+    "old_fraction": true,
+    "compound": true
+  },
+  "parameters": {
+    "c0": 501.5981690749552,
+    "k_c": 0.5025382984005432,
+    "m_old0": 0.5979267338572102,
+    "m_new0": 0.20057808939840333,
+    "k_old": 0.050090360026751685,
+    "k_new": 0.16182112691062883,
+    "s_max": 0.3149180723112421,
+    "ic50": 46.898948439658305
+  },
+  "confidence_intervals": {
+    "c0_95_lower": 500.640765953134,
+    "c0_95_upper": 502.5555721967764,
+    "k_c_95_lower": 0.5002910525362294,
+    "k_c_95_upper": 0.504785544264857,
+    "m_old0_95_lower": -0.1283622587363118,
+    "m_old0_95_upper": 1.3242157264507322,
+    "m_new0_95_lower": -0.4296480413114751,
+    "m_new0_95_upper": 0.8308042201082817,
+    "k_old_95_lower": -0.18049381446098767,
+    "k_old_95_upper": 0.28067453451449104,
+    "k_new_95_lower": -0.6220876472042387,
+    "k_new_95_upper": 0.9457299010254963,
+    "s_max_95_lower": -0.8696627228048985,
+    "s_max_95_upper": 1.4994988674273828,
+    "ic50_95_lower": -191.7728857959024,
+    "ic50_95_upper": 285.570782675219
+  },
+  "fit_summary": {
+    "cost": 5.096798252045401,
+    "nfev": 7,
+    "njev": 7,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "success": true,
+    "n_obs": 27,
+    "n_param_free": 8,
+    "dof": 19
+  },
+  "identifiability_notes": [
+    "All declared readouts present: old/new pool separation, compound clearance, and synthesis recovery are jointly identifiable in principle.",
+    "Maximum absolute parameter correlation \u2248 0.982.",
+    "High correlation suggests practical non-identifiability even if the Jacobian is invertible."
+  ],
+  "residuals_rmse": {
+    "total": {
+      "sse": 0.0006346925641607455,
+      "rmse": 0.008397701829540069
+    },
+    "old_fraction": {
+      "sse": 0.00010599680285285719,
+      "rmse": 0.0034318249575417386
+    },
+    "compound": {
+      "sse": 10.192855814723789,
+      "rmse": 1.0642084076764804
+    }
+  }
+}
