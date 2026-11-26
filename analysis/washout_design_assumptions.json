@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-15",
+  "description": "Frozen paired generic synthetic G1 design-simulation assumptions; no compound-specific calibration or biological measurements.",
+  "data_kind": "synthetic",
+  "calibration_status": "generic_non_calibrated",
+  "ground_truth_semantics": {
+    "arms_are_generic_labels_not_calibrated_compounds": true,
+    "ic50": "free_compound_synthesis_inhibition_generic",
+    "accumulated_pigment_ic50_substitution": false,
+    "ocular_or_clinical_claims": false
+  },
+  "synthetic_ground_truths": {
+    "KT-939_synthetic": {
+      "c0": 400.0,
+      "k_c": 0.45,
+      "m_old0": 0.6,
+      "m_new0": 0.2,
+      "k_old": 0.05,
+      "k_new": 0.15,
+      "s_max": 0.3,
+      "ic50": 40.0
+    },
+    "thiamidol_synthetic": {
+      "c0": 350.0,
+      "k_c": 0.45,
+      "m_old0": 0.6,
+      "m_new0": 0.2,
+      "k_old": 0.05,
+      "k_new": 0.15,
+      "s_max": 0.3,
+      "ic50": 60.0
+    }
+  },
+  "scenario_ratio_definition": "Thiamidol half-time divided by KT-939 half-time; thiamidol k_c is KT-939 k_c divided by the scenario ratio before shared effects.",
+  "scenarios": [
+    {"name": "ratio_1_00", "half_time_ratio": 1.0},
+    {"name": "ratio_1_25", "half_time_ratio": 1.25},
+    {"name": "ratio_1_50", "half_time_ratio": 1.5},
+    {"name": "ratio_2_00", "half_time_ratio": 2.0}
+  ],
+  "designs": {
+    "full": {
+      "timepoints_days": [0, 1, 3, 5, 7, 9, 11, 14, 21],
+      "replicates": 3,
+      "systems": ["MNT-1", "synthetic_donor_1", "synthetic_donor_2"],
+      "system_accounting": {
+        "system_count": 3,
+        "donor_count": 2,
+        "reference_cell_line_count": 1,
+        "mnt1_represented": true,
+        "mnt1_count": 1
+      },
+      "readout_flags": {"total": true, "old_fraction": true, "compound": true}
+    },
+    "reduced": {
+      "timepoints_days": [0, 3, 7, 14, 21],
+      "replicates": 2,
+      "systems": ["MNT-1", "synthetic_donor_1"],
+      "system_accounting": {
+        "system_count": 2,
+        "donor_count": 1,
+        "reference_cell_line_count": 1,
+        "mnt1_represented": true,
+        "mnt1_count": 1
+      },
+      "readout_flags": {"total": true, "old_fraction": true, "compound": true}
+    },
+    "minimal": {
+      "timepoints_days": [0, 3, 7, 14],
+      "replicates": 2,
+      "systems": ["MNT-1", "synthetic_donor_1"],
+      "system_accounting": {
+        "system_count": 2,
+        "donor_count": 1,
+        "reference_cell_line_count": 1,
+        "mnt1_represented": true,
+        "mnt1_count": 1
+      },
+      "readout_flags": {"total": true, "old_fraction": true, "compound": true}
+    }
+  },
+  "system_kinds": {
+    "MNT-1": "reference_cell_line_not_a_donor",
+    "synthetic_donor_1": "generic_synthetic_donor",
+    "synthetic_donor_2": "generic_synthetic_donor"
+  },
+  "isotope_readout": {
+    "required": true,
+    "fit_field": "old_fraction",
+    "interpretation": "old_new_pool_identifiability_only_not_an_assay_lod_measurement"
+  },
+  "negative_controls": {
+    "no_isotope": true,
+    "diagnostic_only": true,
+    "designs": ["full", "reduced", "minimal"]
+  },
+  "seeds": {
+    "master": 20261115,
+    "hierarchy": "SeedSequence([master, stream, system_index, replicate_index]); scenarios omitted for common random numbers; stream IDs: system=10, pair=20, shared_noise=30, KT-939=40, thiamidol=41"
+  },
+  "noise_levels": {
+    "total_sd": 0.015,
+    "old_fraction_sd": 0.008,
+    "compound_sd": 3.0,
+    "cell_count_sd": 0.01,
+    "pair_correlation": 0.65,
+    "system_log_sd": {"m_old0": 0.10, "m_new0": 0.10, "s_max": 0.08},
+    "pair_log_sd": {"m_old0": 0.04, "m_new0": 0.04, "s_max": 0.03}
+  },
+  "fit_weights": {"total": 1.0, "old_fraction": 1.0, "compound": 1.0},
+  "initial_guess": {
+    "c0": 350.0,
+    "k_c": 0.4,
+    "m_old0": 0.5,
+    "m_new0": 0.25,
+    "k_old": 0.08,
+    "k_new": 0.12,
+    "s_max": 0.35,
+    "ic50": 50.0
+  },
+  "fit_bounds": {
+    "c0": [0.0, 10000.0],
+    "k_c": [0.001, 5.0],
+    "m_old0": [0.0, 2.0],
+    "m_new0": [0.0, 2.0],
+    "k_old": [0.0, 2.0],
+    "k_new": [0.0, 2.0],
+    "s_max": [0.001, 2.0],
+    "ic50": [1.0, 10000.0]
+  },
+  "proposed_decision_metadata": {
+    "approval_status": "proposed_not_owner_approved_not_go_no_go",
+    "symmetric_half_time_ratio": {"operator": "<", "threshold": 1.5},
+    "both_arms_day14_synthesis_recovery": {"operator": ">=", "threshold": 0.8},
+    "formal_equivalence": false
+  }
+}
