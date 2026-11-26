@@ -2,11 +2,13 @@
 
 *2026-11-10. AI-assisted drafting; owner-reviewed.*
 
-This document defines the JSON schema that `analysis/evaluate_gates.py` expects in a `--report` directory. It maps 1:1 to the deliverable formats and gate criteria in `research/core-facility-quote-request.md` §4–5 so that a facility handoff translates directly into files the evaluator can consume.
+*Schema 1.1 update, 2026-11-26: AI-assisted drafting; owner review pending before interpretation.*
+
+This document defines the strict JSON contract that `analysis/evaluate_gates.py` accepts in a `--report` directory. It maps to the existing deliverable formats and gate criteria in `research/core-facility-quote-request.md` §4–5; it does not add a wet-lab protocol, select a washout design, or issue a feasibility verdict.
 
 ## Files in the report directory
 
-The evaluator looks for one JSON file per gate, named either `{gate_id}.json` or `{gate_id}_report.json`. All other files are ignored. Unknown or missing fields are reported as **"not evaluable"**, never silently passed.
+Provide one JSON file per available gate, named either `{gate_id}.json` or `{gate_id}_report.json`. Do not supply both names for the same gate. Unrecognized `*.json` files are rejected so a misspelled gate filename cannot be ignored silently; non-JSON sidecar files are not consumed.
 
 | Gate ID (file stem) | RFQ section | Content |
 | --- | --- | --- |
@@ -14,62 +16,91 @@ The evaluator looks for one JSON file per gate, named either `{gate_id}.json` or
 | `gate_2_free_compound_validation` | §5 Gate 2 | Per-compound LC-MS/MS assay validation |
 | `gate_3_ampyrone_solubility` | §5 Gate 3 | Ampyrone solubility and viability |
 
+The three files in `analysis/gate-evaluator-fixtures/valid-synthetic/` are complete valid synthetic examples. The November 10 demo under `analysis/gate-evaluation-demo-2026-11-10/` is an archived schema-1.0 artifact and is not accepted as schema-1.1 input.
+
 ## Common top-level fields
 
-Every report file must contain:
+Every report must declare the following fields, with no additional top-level fields except the Gate 3 `compound` declaration described below:
 
 ```json
 {
-  "report_version": "1.0",
+  "report_version": "1.1",
   "gate_id": "gate_1_old_pigment_labeling",
-  "facility_id": "string",
-  "run_id": "string",
+  "facility_id": "SYNTHETIC-FIXTURE",
+  "run_id": "synthetic-phase1-fixture-2026-11-26",
   "data_kind": "synthetic",
-  "observations": { ... }
+  "provenance": {
+    "source_kind": "synthetic_fixture",
+    "source_reference": "analysis/test_evaluate_gates.py synthetic gate-1 fixture"
+  },
+  "observations": {}
 }
 ```
 
-- `report_version` — must be `"1.0"` (future versions may extend).
-- `gate_id` — must match the file stem.
-- `facility_id` — identifier of the reporting facility.
-- `run_id` — facility-internal run or batch identifier.
-- `data_kind` — `"synthetic"` for test/validation data; `"measured"` for real facility data.
-- `observations` — mapping from criterion ID to observed value (see per-gate tables below).
+- `report_version` — exactly `"1.1"`.
+- `gate_id` — exactly the gate ID represented by the filename.
+- `facility_id` — non-empty reporting-facility or explicit synthetic-fixture identifier, without surrounding whitespace.
+- `run_id` — non-empty identifier for this coordinated Phase-1 evaluation run. All supplied gate reports must use the same value. Per-gate batch details belong in `source_reference`, not in a conflicting `run_id`.
+- `data_kind` — `"synthetic"` or `"measured"`; all supplied gate reports must agree.
+- `provenance` — exact origin declaration described below.
+- `observations` — required for Gates 1 and 3. Gate 2 uses `compounds` instead.
 
-For `gate_2_free_compound_validation`, the top-level key is `compounds` instead of `observations` (see below).
+An empty report directory is rejected because there is no validated `data_kind` to propagate. A missing individual gate file is different: that gate's criteria are reported as **not evaluable**, while the other validated reports determine the run metadata.
+
+## Provenance and data kind
+
+`data_kind` is not accepted as a stand-alone label. Its exact provenance requirements are:
+
+| `data_kind` | Required `provenance.source_kind` | Required references |
+| --- | --- | --- |
+| `synthetic` | `synthetic_fixture` | non-empty `source_reference` |
+| `measured` | `facility_measurement` | non-empty `source_reference` and `raw_data_reference` |
+
+No other provenance fields are accepted. In particular, changing only `data_kind` from `synthetic` to `measured` is rejected, as is mixed synthetic/measured metadata within one run.
+
+These checks establish internal schema consistency only. The evaluator does not open or authenticate the referenced facility records, verify that raw files exist, or establish biological or clinical validity. A `measured` value in `gate_evaluation.json` and `receipt.json` means that the supplied reports consistently declared the measured-data provenance contract; it is not independent evidence authentication.
+
+## Observation objects
+
+Every criterion must be present and must be an object with exactly `value` and `unit`:
+
+```json
+"c2_old_pool_fraction_lod": {
+  "value": 0.05,
+  "unit": "fraction_of_total"
+}
+```
+
+The direct-value shorthand accepted by the archived evaluator is not valid report input. Units must exactly equal the unit declared for that criterion in `analysis/gate_criteria.json`; missing units, substituted percent/fraction units, and extra wrapper fields are rejected.
+
+Boolean observations must be JSON `true` or `false`. Strings such as `"true"`, numbers `0`/`1`, and other truthy/falsy values are not coerced. Numeric observations must be finite JSON numbers, not numeric strings or booleans. `NaN`, `Infinity`, `-Infinity`, and numbers overflowing to infinity are rejected. An explicit `null` value with the correct unit remains allowed and evaluates as **not evaluable**; an absent readout is a malformed report.
 
 ## Gate 1 — Old-pigment pre-labeling (`gate_1_old_pigment_labeling`)
 
-Maps to RFQ §5 Gate 1 and deliverable "Isotope-ratio validation report".
+Maps to RFQ §5 Gate 1 and deliverable "Isotope-ratio validation report". The isotope old/new separation readouts remain mandatory in this gate evaluator.
 
-| Criterion ID | RFQ criterion | Expected observation type | Unit |
-| --- | --- | --- | --- |
-| `c1_baseline_separation` | Quantifiable heavy/light separation at baseline | boolean | boolean |
-| `c2_old_pool_fraction_lod` | Old-pool fraction detectable above LOD after 7-day chase | number (fraction of total) | fraction_of_total |
-| `c3_chemical_melanin_agreement` | Agreement with total chemical melanin within tolerance | number | % |
+| Criterion ID | Expected observation type | Exact unit |
+| --- | --- | --- |
+| `c1_baseline_separation` | boolean | `boolean` |
+| `c2_old_pool_fraction_lod` | finite number or null | `fraction_of_total` |
+| `c3_chemical_melanin_agreement` | finite number or null | `%` |
 
-Example `observations`:
-
-```json
-"observations": {
-  "c1_baseline_separation": {"value": true, "unit": "boolean"},
-  "c2_old_pool_fraction_lod": {"value": 0.05, "unit": "fraction_of_total"},
-  "c3_chemical_melanin_agreement": {"value": 8.5, "unit": "%"}
-}
-```
+All three declarations are required in a supplied Gate 1 report.
 
 ## Gate 2 — Intracellular free-compound assay validation (`gate_2_free_compound_validation`)
 
-Maps to RFQ §5 Gate 2 and deliverable "LC-MS/MS method documentation". Criteria are evaluated **per compound**; each compound gets its own sub-object.
+Maps to RFQ §5 Gate 2 and deliverable "LC-MS/MS method documentation". `gate_criteria.json` predeclares `required_compounds` as `KT-939`, `Thiamidol`, and `Ampyrone`. The `compounds` object must contain exactly those names; a missing or unknown compound is rejected.
 
-| Criterion ID | RFQ criterion | Expected observation type | Unit |
-| --- | --- | --- | --- |
-| `c1_spike_recovery` | Spike recovery 80–120 % in cell-lysate matrix | number | % |
-| `c2_calibration_r2` | Calibration linearity R² ≥ 0.99 | number | unitless |
-| `c3_intra_day_cv` | Intra-day CV < 15 % at the LOQ | number | % |
-| `c4_freeze_thaw_stability` | Stability through ≥ 1 freeze-thaw cycle | boolean | boolean |
+Each compound block must declare every criterion:
 
-Example `compounds`:
+| Criterion ID | Expected observation type | Exact unit |
+| --- | --- | --- |
+| `c1_spike_recovery` | finite number or null | `%` |
+| `c2_calibration_r2` | finite number or null | `unitless` |
+| `c3_intra_day_cv` | finite number or null | `%` |
+| `c4_freeze_thaw_stability` | boolean or null | `boolean` |
+
+Abbreviated example (the real input must also include Thiamidol and Ampyrone):
 
 ```json
 "compounds": {
@@ -78,59 +109,43 @@ Example `compounds`:
     "c2_calibration_r2": {"value": 0.995, "unit": "unitless"},
     "c3_intra_day_cv": {"value": 8.0, "unit": "%"},
     "c4_freeze_thaw_stability": {"value": true, "unit": "boolean"}
-  },
-  "Thiamidol": { ... }
+  }
 }
 ```
-
-The criterion IDs inside each compound block must exactly match the criteria declared in `gate_criteria.json`.
 
 ## Gate 3 — Ampyrone solubility window (`gate_3_ampyrone_solubility`)
 
-Maps to RFQ §5 Gate 3 and deliverable "Feasibility-gate pass/fail outcomes".
+Maps to RFQ §5 Gate 3 and deliverable "Feasibility-gate pass/fail outcomes". The top-level field `"compound": "Ampyrone"` is required so observations cannot be attached implicitly to another compound.
 
-| Criterion ID | RFQ criterion | Expected observation type | Unit |
-| --- | --- | --- | --- |
-| `c1_no_visible_precipitate` | No visible precipitate | boolean | boolean |
-| `c2_concentration_drop` | ≤ 10 % drop in nominal concentration at 6 days | number | % |
-| `c3_cell_viability` | Cell viability ≥ 70 % of vehicle | number | % |
+| Criterion ID | Expected observation type | Exact unit |
+| --- | --- | --- |
+| `c1_no_visible_precipitate` | boolean or null | `boolean` |
+| `c2_concentration_drop` | finite number or null | `%` |
+| `c3_cell_viability` | finite number or null | `%` |
 
-Example `observations`:
+## Fail-closed validation rules
 
-```json
-"observations": {
-  "c1_no_visible_precipitate": {"value": false, "unit": "boolean"},
-  "c2_concentration_drop": {"value": 5.0, "unit": "%"},
-  "c3_cell_viability": {"value": 85.0, "unit": "%"}
-}
-```
+Before creating the output directory, the evaluator rejects:
 
-## Value shorthand
+1. Invalid JSON, duplicate object keys, non-object roots, unsupported schema versions, and non-finite numbers anywhere in the JSON input.
+2. Missing or unknown top-level, provenance, observation-wrapper, criterion, or compound fields.
+3. Missing required compounds or readouts, direct-value shorthand, wrong or missing units, ambiguous booleans, and wrong numeric types.
+4. A Gate 3 compound other than `Ampyrone`, or Gate 2 compound sets that differ from `required_compounds`.
+5. `data_kind`/provenance mismatches and inconsistent `facility_id`, `run_id`, or `data_kind` across supplied gate reports.
+6. Unknown report JSON filenames and simultaneous use of both accepted filenames for one gate.
+7. Malformed criteria, including unsupported comparators, non-finite thresholds, missing provenance, and absent per-compound declarations.
 
-For brevity, the `"value"` may be supplied directly without the wrapper dict:
+The predeclared numerical and boolean gate thresholds are unchanged. Criteria provenance and `CONFIRMED`/`PROPOSED` status remain part of the output.
 
-```json
-"observations": {
-  "c1_baseline_separation": true
-}
-```
-
-The evaluator accepts either form.
-
-## Validation rules
-
-1. **Missing criterion**: if an expected criterion ID is absent from the observations (or from a compound block), the result is `"not_evaluable"`.
-2. **Missing gate report**: if no JSON file matches a gate ID in the criteria file, all criteria for that gate are `"not evaluable"`.
-3. **Unknown extra fields**: ignored; only declared criteria are evaluated.
-4. **Unit mismatch**: not checked mechanically; the evaluator trusts the reported unit and compares the numeric value against the threshold. Facilities are expected to declare units explicitly.
+After validation, a completely missing gate file or an explicit null observation is **not evaluable**, never silently passed. Exit status is `0` when all evaluated criteria pass, `1` when a criterion fails or is not evaluable, and `2` for invocation or malformed-input errors. Per-gate mechanical results are not an overall feasibility verdict.
 
 ## Receipt discipline
 
-The evaluator writes a `receipt.json` in the output directory that records:
-- SHA-256 of the criteria JSON
-- SHA-256 of every report JSON consumed
-- SHA-256 and byte size of `gate_evaluation.json` and `EVALUATION_REPORT.md`
-- Exact command line used
+The evaluator writes:
+
+- `gate_evaluation.json` with the validated `data_kind`, shared `facility_id`/`run_id`, and per-criterion results;
+- `EVALUATION_REPORT.md` with mechanical per-gate results and limitations;
+- `receipt.json` with the same data/run metadata, SHA-256 of the criteria and each consumed report, output SHA-256/byte sizes, and a normalized command record.
 
 This matches the receipt convention established in `analysis/kt939-washout-fit-run-2026-11-09/` and `analysis/washout-fit-pipeline-validation-2026-11-10/`.
 
@@ -138,8 +153,8 @@ This matches the receipt convention established in `analysis/kt939-washout-fit-r
 
 | RFQ §4 deliverable | How it feeds the evaluator |
 | --- | --- |
-| Raw data (.raw, .wiff, etc.) | Not consumed by evaluator; kept for audit trail |
-| Processed data files (TSV) | Facility may convert to the JSON schema above, or the evaluator may be extended to read TSV directly |
+| Raw data (.raw, .wiff, etc.) | Not consumed or authenticated by the evaluator; identify its manifest in `raw_data_reference` for measured input and retain it for audit |
+| Processed data files (TSV) | Convert to the strict JSON contract above; identify the processed source in `source_reference` |
 | LC-MS/MS method documentation | Reference only; pass/fail targets are predeclared in `gate_criteria.json` |
 | Isotope-ratio validation report | Becomes `gate_1_old_pigment_labeling_report.json` |
-| Feasibility-gate pass/fail outcomes | **Output** of the evaluator, not input; the evaluator produces this from the report JSON |
+| Feasibility-gate pass/fail outcomes | **Output** of the evaluator, not input; no overall feasibility verdict is generated |

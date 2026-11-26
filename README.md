@@ -54,6 +54,7 @@ The primary cosmetic objective is repeatable living-eye appearance change with p
 - [Milestone and budget ledger](research/milestone-budget-ledger.md) — living milestone tracker, quote-and-spend log, and go/no-go review record.
 - [Mechanism shortlist](research/mechanism-shortlist.md) — current prioritization, completed computation and next discriminating questions.
 - [Computational analysis](analysis/README.md) — reproducible models, human iris data checks and workbench runs.
+- [Phase-1 gate evaluator input contract](analysis/README_gates_input_format.md) — strict software checks for units, compound/readout declarations, provenance and shared run metadata; only synthetic fixtures are included, with no facility result or feasibility verdict recorded.
 - [Chronic drug modulation](research/chronic-pharmacologic-modulation.md) — lead track: foundations, hypothetical combinations, sensitivity models, and targeted questions.
 - [Bidirectional iris reversibility](research/bidirectional-reversibility.md) — blue-to-brown-to-baseline goal and evidence requirements.
 - [Paired exposure/withdrawal protocol](research/paired-exposure-withdrawal-protocol.md) — proposed discriminating cell study across the named candidates.
