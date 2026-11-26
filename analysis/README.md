@@ -170,6 +170,14 @@ The pipeline is deliberately built to consume Phase-2 paired-washout data the mo
 
 Developed by AI assistant; owner-reviewed before interpretation.
 
+## Replay the paired synthetic washout archive
+
+Use Python 3.12 with NumPy 2.5.4 and SciPy 1.18.1, as in the [GitHub Actions workflow](../.github/workflows/paired-washout.yml). Run from the repository root:
+
+    python -B -m unittest discover -s analysis -p test_replay_paired_washout.py -v
+
+The check verifies the archived receipt, generates a fresh run in a temporary directory and verifies its receipt. It checks the status, three proposed conditions and fitted half-time ratio for each of the 68 archived primary synthetic fits. Conditions must agree exactly and ratios may differ by up to 0.00001 to allow numerical drift across SciPy builds. This checks whether the synthetic result reproduces in software.
+
 ## Targets and structures
 
 The existing CLI fetched:
