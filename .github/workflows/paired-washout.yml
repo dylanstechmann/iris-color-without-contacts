@@ -1,0 +1,23 @@
+name: Paired synthetic washout
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    container: python:3.12-bookworm
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Install the versions used for the archived fit
+        run: python -m pip install --only-binary=:all: numpy==2.5.4 scipy==1.18.1
+      - name: Test the washout model, paired comparison and archived receipt
+        run: python -B -m unittest discover -s analysis -p 'test_*washout*.py' -v
