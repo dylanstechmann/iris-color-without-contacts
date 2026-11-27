@@ -8,7 +8,14 @@ biological or clinical evidence.
 
 ## Established within that limited scope
 
-- The full top-level analysis suite passed **124 tests** on 2026-11-27.
+- **Pre-merge checkpoint:** the full top-level analysis suite passed
+  **124/124 tests** on 2026-11-27.
+- **Final post-merge checkpoint:** at commit
+  `c60aed3a17e70af7a080bf62b1dd0be07af02f7c`, the full top-level analysis
+  suite passed **126/126 tests**. The incoming remote CLI archive and replay
+  regressions, `test_cli_reproduces_archive_cutoff_example` and
+  `test_cli_reproduces_archived_primary_decisions`, account for the expanded
+  suite.
 - The read-only paired archived verifier passed: it verified the receipted
   results and report, frozen assumptions, and four runtime sources before
   computing the nested-design comparison.
