@@ -62,7 +62,12 @@ def verify_paired_washout(folder, assumptions, *, source_root=ROOT):
 def _paired_decisions(records):
     decisions = {}
     for record in records:
-        key = (record["system"], record["replicate"])
+        system, replicate = record["system"], record["replicate"]
+        if not isinstance(system, str) or not system or system.strip() != system:
+            raise ValueError("Synthetic pair system must be a nonempty, unpadded string")
+        if type(replicate) is not int or replicate < 0:
+            raise ValueError("Synthetic pair replicate must be a nonnegative integer")
+        key = (system, replicate)
         if key in decisions:
             raise ValueError(f"Duplicate synthetic pair: {key}")
         decision = record["decision"]

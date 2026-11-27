@@ -106,6 +106,23 @@ class PairedReceiptTest(unittest.TestCase):
                           for row in report["counts"]],
                          [(1.4, 0, 1, 0), (1.49, 0, 0, 1), (1.50, 0, 0, 1), (1.51, 1, 0, 0)])
 
+    def test_nested_comparisons_require_exact_synthetic_pair_identifiers(self):
+        decision = dict.fromkeys(DECISION_FIELDS, True)
+        decision.update(status="evaluable", symmetric_half_time_ratio=1.0)
+        row = {"system": "fixture", "replicate": 0, "decision": decision}
+        designs = {name: {"records": [row]} for name in ("full", "reduced", "minimal")}
+        inputs = {
+            "schema_version": "washout-paired-design-simulation/2", "data_kind": "synthetic",
+            "proposed_decision_metadata": {"symmetric_half_time_ratio": {"threshold": 1.5}},
+            "scenarios": [{"name": "fixture", "half_time_ratio": 1.5, "designs": designs}],
+        }
+        for field, value in (("replicate", False), ("replicate", 0.0), ("replicate", -1),
+                             ("system", " fixture"), ("system", "")):
+            with self.subTest(field=field, value=value):
+                designs["minimal"] = {"records": [{**row, field: value}]}
+                with self.assertRaisesRegex(ValueError, f"Synthetic pair {field}"):
+                    compare_nested_designs(inputs)
+
     def test_verifies_complete_receipt_and_rejects_missing_or_tampered_output(self):
         with TemporaryDirectory() as tmp:
             source = Path(tmp)
