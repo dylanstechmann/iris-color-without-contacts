@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+import shutil
 import subprocess
 import sys
 from tempfile import TemporaryDirectory
@@ -9,6 +10,23 @@ from verify_artifacts import DECISION_FIELDS, compare_nested_designs, digest, ve
 
 
 class PairedReceiptTest(unittest.TestCase):
+    def test_duplicate_result_fields_fail_even_when_output_hash_matches(self):
+        root = Path(__file__).resolve().parent
+        with TemporaryDirectory() as tmp:
+            run = Path(tmp) / "archive"
+            shutil.copytree(root / "washout-paired-design-simulation-run-2026-11-15", run)
+            result = run / "results.json"
+            result.write_bytes(result.read_bytes().replace(b'"replicate":', b'"replicate": 99, "replicate":', 1))
+            receipt_path = run / "receipt.json"
+            receipt = json.loads(receipt_path.read_bytes())
+            receipt["outputs"]["results.json"] = {"sha256": digest(result), "bytes": result.stat().st_size}
+            receipt_path.write_text(json.dumps(receipt), encoding="utf-8")
+            outcome = subprocess.run([sys.executable, str(root / "verify_artifacts.py"),
+                                      "--paired-washout", str(run), "--compare-nested"],
+                                     capture_output=True, text=True)
+            self.assertEqual(outcome.returncode, 2)
+            self.assertIn("Duplicate archive JSON field: replicate", outcome.stderr)
+
     def test_cli_reproduces_archive_cutoff_example(self):
         root = Path(__file__).resolve().parent
         output = subprocess.check_output([
@@ -67,9 +85,61 @@ class PairedReceiptTest(unittest.TestCase):
             "baseline_ratio": 1.25, "nested_ratio": 1.50,
             "lower_exclusive": 1.25, "upper_inclusive": 1.50,
         }])
+        for invalid in (float("nan"), float("inf"), True, 0.9):
+            results["scenarios"][0]["designs"]["minimal"]["records"] = [fit(0, invalid)]
+            with self.subTest(invalid=invalid), self.assertRaisesRegex(ValueError, "finite symmetric"):
+                compare_nested_designs(results)
         results["scenarios"][0]["designs"]["minimal"]["records"] = [fit(2, 1.25)]
         with self.assertRaisesRegex(ValueError, "minimal pairs nested in reduced"):
             compare_nested_designs(results)
+
+    def test_three_design_agreement_uses_only_common_pairs_and_preserves_missing_fits(self):
+        def record(rep, ratio):
+            decision = dict.fromkeys(DECISION_FIELDS, False)
+            decision["status"] = "not_evaluable" if ratio is None else "evaluable"
+            decision["symmetric_half_time_ratio"] = ratio
+            return {"system": "fixture", "replicate": rep, "decision": decision}
+
+        designs = {
+            "full": [record(3, None), record(2, 1.4), record(1, 1.6), record(0, 1.4)],
+            "reduced": [record(0, 1.4), record(1, None), record(2, 1.4)],
+            "minimal": [record(1, 1.6), record(0, 1.5)],
+        }
+        result = compare_nested_designs({
+            "schema_version": "washout-paired-design-simulation/2", "data_kind": "synthetic",
+            "proposed_decision_metadata": {"symmetric_half_time_ratio": {"threshold": 1.5}},
+            "scenarios": [{"name": "fixture", "half_time_ratio": 1.5,
+                           "designs": {key: {"records": rows} for key, rows in designs.items()}}],
+        }, additional_cutoffs=[1.4])
+        report, = result["three_design_ratio_agreement"]
+        self.assertEqual(report["pairs_in_any_design"], 4)
+        self.assertEqual(report["coverage_by_design"], {
+            "full": {"observed_pairs": 4, "absent_pairs": 0, "observed_outside_match": 2},
+            "reduced": {"observed_pairs": 3, "absent_pairs": 1, "observed_outside_match": 1},
+            "minimal": {"observed_pairs": 2, "absent_pairs": 2, "observed_outside_match": 0},
+        })
+        self.assertEqual((report["matched_pairs"], report["evaluable_in_all_three"],
+                          report["unevaluable_in_one_or_more"]), (2, 1, 1))
+        self.assertEqual([(row["cutoff"], row["all_below"], row["all_at_or_above"], row["designs_disagree"])
+                          for row in report["counts"]],
+                         [(1.4, 0, 1, 0), (1.49, 0, 0, 1), (1.50, 0, 0, 1), (1.51, 1, 0, 0)])
+
+    def test_nested_comparisons_require_exact_synthetic_pair_identifiers(self):
+        decision = dict.fromkeys(DECISION_FIELDS, True)
+        decision.update(status="evaluable", symmetric_half_time_ratio=1.0)
+        row = {"system": "fixture", "replicate": 0, "decision": decision}
+        designs = {name: {"records": [row]} for name in ("full", "reduced", "minimal")}
+        inputs = {
+            "schema_version": "washout-paired-design-simulation/2", "data_kind": "synthetic",
+            "proposed_decision_metadata": {"symmetric_half_time_ratio": {"threshold": 1.5}},
+            "scenarios": [{"name": "fixture", "half_time_ratio": 1.5, "designs": designs}],
+        }
+        for field, value in (("replicate", False), ("replicate", 0.0), ("replicate", -1),
+                             ("system", " fixture"), ("system", "")):
+            with self.subTest(field=field, value=value):
+                designs["minimal"] = {"records": [{**row, field: value}]}
+                with self.assertRaisesRegex(ValueError, f"Synthetic pair {field}"):
+                    compare_nested_designs(inputs)
 
     def test_verifies_complete_receipt_and_rejects_missing_or_tampered_output(self):
         with TemporaryDirectory() as tmp:
@@ -99,6 +169,12 @@ class PairedReceiptTest(unittest.TestCase):
             receipt_path.write_text(json.dumps(receipt), encoding="utf-8")
             report = verify_paired_washout(run, assumptions, source_root=source)
             self.assertEqual((report["outputs_verified"], report["sources_verified"]), (2, 4))
+
+            ambiguous = json.dumps(receipt).replace('"bytes":', '"bytes": 999, "bytes":', 1)
+            receipt_path.write_text(ambiguous, encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "Duplicate archive JSON field: bytes"):
+                verify_paired_washout(run, assumptions, source_root=source)
+            receipt_path.write_text(json.dumps(receipt), encoding="utf-8")
 
             (run / "results.json").write_text("tamper!", encoding="utf-8")
             with self.assertRaisesRegex(ValueError, "output differs.*results.json"):
