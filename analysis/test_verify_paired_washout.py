@@ -1,5 +1,6 @@
 import json
 from pathlib import Path
+import shutil
 import subprocess
 import sys
 from tempfile import TemporaryDirectory
@@ -9,6 +10,23 @@ from verify_artifacts import DECISION_FIELDS, compare_nested_designs, digest, ve
 
 
 class PairedReceiptTest(unittest.TestCase):
+    def test_duplicate_result_fields_fail_even_when_output_hash_matches(self):
+        root = Path(__file__).resolve().parent
+        with TemporaryDirectory() as tmp:
+            run = Path(tmp) / "archive"
+            shutil.copytree(root / "washout-paired-design-simulation-run-2026-11-15", run)
+            result = run / "results.json"
+            result.write_bytes(result.read_bytes().replace(b'"replicate":', b'"replicate": 99, "replicate":', 1))
+            receipt_path = run / "receipt.json"
+            receipt = json.loads(receipt_path.read_bytes())
+            receipt["outputs"]["results.json"] = {"sha256": digest(result), "bytes": result.stat().st_size}
+            receipt_path.write_text(json.dumps(receipt), encoding="utf-8")
+            outcome = subprocess.run([sys.executable, str(root / "verify_artifacts.py"),
+                                      "--paired-washout", str(run), "--compare-nested"],
+                                     capture_output=True, text=True)
+            self.assertEqual(outcome.returncode, 2)
+            self.assertIn("Duplicate archive JSON field: replicate", outcome.stderr)
+
     def test_cli_reproduces_archive_cutoff_example(self):
         root = Path(__file__).resolve().parent
         output = subprocess.check_output([
@@ -151,6 +169,12 @@ class PairedReceiptTest(unittest.TestCase):
             receipt_path.write_text(json.dumps(receipt), encoding="utf-8")
             report = verify_paired_washout(run, assumptions, source_root=source)
             self.assertEqual((report["outputs_verified"], report["sources_verified"]), (2, 4))
+
+            ambiguous = json.dumps(receipt).replace('"bytes":', '"bytes": 999, "bytes":', 1)
+            receipt_path.write_text(ambiguous, encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "Duplicate archive JSON field: bytes"):
+                verify_paired_washout(run, assumptions, source_root=source)
+            receipt_path.write_text(json.dumps(receipt), encoding="utf-8")
 
             (run / "results.json").write_text("tamper!", encoding="utf-8")
             with self.assertRaisesRegex(ValueError, "output differs.*results.json"):

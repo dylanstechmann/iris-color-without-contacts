@@ -23,9 +23,18 @@ def digest(path):
         return hashlib.file_digest(handle, "sha256").hexdigest()
 
 
+def _unique_archive_fields(pairs):
+    fields = {}
+    for name, value in pairs:
+        if name in fields:
+            raise ValueError(f"Duplicate archive JSON field: {name}")
+        fields[name] = value
+    return fields
+
+
 def verify_paired_washout(folder, assumptions, *, source_root=ROOT):
     """Check the paired run's two outputs, frozen assumptions and four sources."""
-    receipt = json.loads((folder / "receipt.json").read_text(encoding="utf-8-sig"))
+    receipt = json.loads((folder / "receipt.json").read_bytes(), object_pairs_hook=_unique_archive_fields)
     if not isinstance(receipt, dict) or receipt.get("schema_version") != PAIRED_RECEIPT_SCHEMA:
         raise ValueError("Expected a version 2 paired washout receipt.")
     sources = receipt.get("analysis_scripts")
@@ -320,7 +329,8 @@ def main(argv=None):
             if hashlib.sha256(result_bytes).hexdigest() != verified["results_sha256"]:
                 raise ValueError("Paired washout results changed after verification.")
             verified["nested_design_comparison"] = compare_nested_designs(
-                json.loads(result_bytes), additional_cutoffs=args.ratio_cutoff,
+                json.loads(result_bytes, object_pairs_hook=_unique_archive_fields),
+                additional_cutoffs=args.ratio_cutoff,
             )
     except (KeyError, OSError, TypeError, ValueError) as error:
         parser.exit(2, f"error: {error}\n")
