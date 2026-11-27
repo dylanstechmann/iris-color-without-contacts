@@ -67,9 +67,44 @@ class PairedReceiptTest(unittest.TestCase):
             "baseline_ratio": 1.25, "nested_ratio": 1.50,
             "lower_exclusive": 1.25, "upper_inclusive": 1.50,
         }])
+        for invalid in (float("nan"), float("inf"), True, 0.9):
+            results["scenarios"][0]["designs"]["minimal"]["records"] = [fit(0, invalid)]
+            with self.subTest(invalid=invalid), self.assertRaisesRegex(ValueError, "finite symmetric"):
+                compare_nested_designs(results)
         results["scenarios"][0]["designs"]["minimal"]["records"] = [fit(2, 1.25)]
         with self.assertRaisesRegex(ValueError, "minimal pairs nested in reduced"):
             compare_nested_designs(results)
+
+    def test_three_design_agreement_uses_only_common_pairs_and_preserves_missing_fits(self):
+        def record(rep, ratio):
+            decision = dict.fromkeys(DECISION_FIELDS, False)
+            decision["status"] = "not_evaluable" if ratio is None else "evaluable"
+            decision["symmetric_half_time_ratio"] = ratio
+            return {"system": "fixture", "replicate": rep, "decision": decision}
+
+        designs = {
+            "full": [record(3, None), record(2, 1.4), record(1, 1.6), record(0, 1.4)],
+            "reduced": [record(0, 1.4), record(1, None), record(2, 1.4)],
+            "minimal": [record(1, 1.6), record(0, 1.5)],
+        }
+        result = compare_nested_designs({
+            "schema_version": "washout-paired-design-simulation/2", "data_kind": "synthetic",
+            "proposed_decision_metadata": {"symmetric_half_time_ratio": {"threshold": 1.5}},
+            "scenarios": [{"name": "fixture", "half_time_ratio": 1.5,
+                           "designs": {key: {"records": rows} for key, rows in designs.items()}}],
+        }, additional_cutoffs=[1.4])
+        report, = result["three_design_ratio_agreement"]
+        self.assertEqual(report["pairs_in_any_design"], 4)
+        self.assertEqual(report["coverage_by_design"], {
+            "full": {"observed_pairs": 4, "absent_pairs": 0, "observed_outside_match": 2},
+            "reduced": {"observed_pairs": 3, "absent_pairs": 1, "observed_outside_match": 1},
+            "minimal": {"observed_pairs": 2, "absent_pairs": 2, "observed_outside_match": 0},
+        })
+        self.assertEqual((report["matched_pairs"], report["evaluable_in_all_three"],
+                          report["unevaluable_in_one_or_more"]), (2, 1, 1))
+        self.assertEqual([(row["cutoff"], row["all_below"], row["all_at_or_above"], row["designs_disagree"])
+                          for row in report["counts"]],
+                         [(1.4, 0, 1, 0), (1.49, 0, 0, 1), (1.50, 0, 0, 1), (1.51, 1, 0, 0)])
 
     def test_verifies_complete_receipt_and_rejects_missing_or_tampered_output(self):
         with TemporaryDirectory() as tmp:

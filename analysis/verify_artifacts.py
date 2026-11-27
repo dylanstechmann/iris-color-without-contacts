@@ -65,7 +65,12 @@ def _paired_decisions(records):
         key = (record["system"], record["replicate"])
         if key in decisions:
             raise ValueError(f"Duplicate synthetic pair: {key}")
-        decisions[key] = record["decision"]
+        decision = record["decision"]
+        if decision["status"] == "evaluable":
+            ratio = decision.get("symmetric_half_time_ratio")
+            if type(ratio) not in (int, float) or ratio < 1 or not isfinite(ratio):
+                raise ValueError("Evaluable fits require a finite symmetric half-time ratio of at least one")
+        decisions[key] = decision
     return decisions
 
 
@@ -104,6 +109,33 @@ def _ratio_cutoff_sensitivity(ratios, cutoffs):
     return {"operator": "<", "counts": counts, "disagreement_windows": windows}
 
 
+def _three_design_agreement(decisions, cutoffs):
+    common = set.intersection(*(set(pairs) for pairs in decisions.values()))
+    total_distinct_pairs = len(set().union(*decisions.values()))
+    coverage = {
+        design: {
+            "observed_pairs": len(pairs),
+            "absent_pairs": total_distinct_pairs - len(pairs),
+            "observed_outside_match": len(pairs) - len(common),
+        }
+        for design, pairs in decisions.items()
+    }
+    ratios = []
+    for key in sorted(common):
+        fits = [pairs[key] for pairs in decisions.values()]
+        if all(fit["status"] == "evaluable" for fit in fits):
+            ratios.append([fit["symmetric_half_time_ratio"] for fit in fits])
+    counts = []
+    for cutoff in cutoffs:
+        all_below = sum(max(values) < cutoff for values in ratios)
+        all_at_or_above = sum(min(values) >= cutoff for values in ratios)
+        counts.append({"cutoff": cutoff, "all_below": all_below, "all_at_or_above": all_at_or_above,
+                       "designs_disagree": len(ratios) - all_below - all_at_or_above})
+    return {"pairs_in_any_design": total_distinct_pairs, "coverage_by_design": coverage,
+            "matched_pairs": len(common), "evaluable_in_all_three": len(ratios),
+            "unevaluable_in_one_or_more": len(common) - len(ratios), "operator": "<", "counts": counts}
+
+
 def compare_nested_designs(results, *, additional_cutoffs=()):
     """Compare proposed conditions over exact system/replicate matches per scenario."""
     if (results.get("schema_version") != "washout-paired-design-simulation/2"
@@ -112,6 +144,7 @@ def compare_nested_designs(results, *, additional_cutoffs=()):
     proposed_cutoff = results["proposed_decision_metadata"]["symmetric_half_time_ratio"]["threshold"]
     cutoffs = sorted({proposed_cutoff - 0.01, proposed_cutoff, proposed_cutoff + 0.01, *additional_cutoffs})
     comparisons = []
+    three_design_agreement = []
     for scenario in results["scenarios"]:
         decisions = {
             name: _paired_decisions(scenario["designs"][name]["records"])
@@ -148,8 +181,11 @@ def compare_nested_designs(results, *, additional_cutoffs=()):
                 "conditions": condition_counts,
                 "ratio_only_cutoff_sensitivity": _ratio_cutoff_sensitivity(ratios, cutoffs),
             })
+        three_design_agreement.append({"scenario": scenario["name"],
+                                       **_three_design_agreement(decisions, cutoffs)})
     return {
         "interpretation": "descriptive matched synthetic fits per scenario",
+        "three_design_ratio_agreement": three_design_agreement,
         "proposed_ratio_cutoff": proposed_cutoff,
         "comparisons": comparisons,
     }

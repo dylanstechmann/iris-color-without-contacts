@@ -18,6 +18,16 @@ The comparison matches records by synthetic system and replicate within each sce
 
 The ratio-only sensitivity compares the saved fits at the proposed cutoff and 0.01 on either side. It also reports the exact cutoff range for each disagreement. Because the comparison is strict (`ratio < cutoff`), the lower edge is excluded and the upper edge is included. In the synthetic 1.50 scenario, the example cutoff of 1.497 splits the full and minimal fits for one pair. Its full-design estimate is about 1.49506 and its minimal-design estimate about 1.49951. `--ratio-cutoff` can be repeated to inspect other illustrative cutoffs using the same fitted data.
 
+The `three_design_ratio_agreement` section compares full, reduced and minimal
+fits on one common denominator per scenario. For each cutoff it counts pairs
+with all three ratios below it, all three at or above it, or disagreement.
+`pairs_in_any_design` counts distinct system/replicate pairs observed at least
+once. For each design, `coverage_by_design` counts pairs observed and absent
+among that total. Its `observed_outside_match` counts pairs present in this
+design and missing from at least one other design. Matched pairs with an
+unevaluable fit are counted separately. The counts describe the stored
+synthetic fits and use the strict `ratio < cutoff` comparison.
+
 Omit `--compare-nested` for the receipt check alone. Use `--assumptions PATH` if the run used a different input file.
 
 The optics model melanin spectral shapes now use pinned measured Sarna & Swartz 1988 extinction coefficients (see [analysis/optics-v1-measured-melanin-run-2026-11-09/](analysis/optics-v1-measured-melanin-run-2026-11-09/) and [analysis/hue-window-measured-melanin-run-2026-11-09/](analysis/hue-window-measured-melanin-run-2026-11-09/)). The qualitative finding from the hue-window re-run is unchanged versus the earlier power-law assumption: orange and purple CIELAB windows remain unreachable over a dark pigment-epithelium back, and a strong translucent-red back return is still required.
