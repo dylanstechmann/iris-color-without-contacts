@@ -1,5 +1,7 @@
 import json
 from pathlib import Path
+import subprocess
+import sys
 from tempfile import TemporaryDirectory
 import unittest
 
@@ -7,6 +9,25 @@ from verify_artifacts import DECISION_FIELDS, compare_nested_designs, digest, ve
 
 
 class PairedReceiptTest(unittest.TestCase):
+    def test_cli_reproduces_archive_cutoff_example(self):
+        root = Path(__file__).resolve().parent
+        output = subprocess.check_output([
+            sys.executable, str(root / "verify_artifacts.py"),
+            "--paired-washout", str(root / "washout-paired-design-simulation-run-2026-11-15"),
+            "--compare-nested", "--ratio-cutoff", "1.497",
+        ])
+        report = json.loads(output)
+        self.assertEqual((report["outputs_verified"], report["sources_verified"]), (2, 4))
+        comparisons = report["nested_design_comparison"]["comparisons"]
+        self.assertEqual(len(comparisons), 12)
+        boundary = next(row for row in comparisons
+                        if row["scenario"] == "ratio_1_50" and row["baseline_design"] == "full"
+                        and row["nested_design"] == "minimal")
+        self.assertEqual(boundary["matched_pairs"], 4)
+        counts = {row["cutoff"]: row["disagreements"]
+                  for row in boundary["ratio_only_cutoff_sensitivity"]["counts"]}
+        self.assertEqual(counts, {1.49: 0, 1.497: 1, 1.5: 0, 1.51: 0})
+
     def test_nested_comparison_matches_pair_identity_and_preserves_not_evaluable(self):
         def fit(replicate, ratio):
             if ratio is None:

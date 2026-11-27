@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "source": "research/core-facility-quote-request.md §5 and research/feasibility-verdict-v2.md",
   "data_kind": "predeclared_criteria",
   "notes": "All numerical thresholds are predeclared before any facility delivers data. Thresholds marked PROPOSED may be adjusted by the owner without code changes by editing this file.",
@@ -39,6 +39,7 @@
       "name": "Gate 2 — Intracellular free-compound assay validation (per compound)",
       "fallback": "A compound that fails its validation is excluded from free-compound-corrected washout fitting for that arm.",
       "per_compound": true,
+      "required_compounds": ["KT-939", "Thiamidol", "Ampyrone"],
       "criteria": {
         "c1_spike_recovery": {
           "description": "Spike recovery in cell-lysate matrix",
@@ -79,6 +80,7 @@
       "name": "Gate 3 — Ampyrone solubility window",
       "fallback": "Run at highest soluble concentration with limitation declared; defer 21-day mature-pigment arm until formulation route found.",
       "per_compound": false,
+      "compound": "Ampyrone",
       "criteria": {
         "c1_no_visible_precipitate": {
           "description": "No visible precipitate",

@@ -1,0 +1,171 @@
+{
+  "python": "3.12.16",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "assumptions_sha256": "c16af9c21afaea313eb5bead6d229f67eb7c3e42b98c1e69378d19c81dc9ef3f",
+  "script_sha256": "bef998a2a25075c6ae3392cda4d208f9b723b5ce6aaa2891aaa085e62ce9ce34",
+  "outputs": {
+    "MODEL_REPORT.md": {
+      "sha256": "62c5b6c28afcb0fff1310a7edbeaee77bfc4579e05d58e7918eac60c38dfa67d",
+      "bytes": 13864
+    },
+    "results.json": {
+      "sha256": "15b93eb9598093d710c57f0074604968c39dd5fecc1f778e75523a8d2ad3a11d",
+      "bytes": 1442961
+    }
+  },
+  "schema_version": "washout-paired-design-simulation-receipt/2",
+  "record_summary_semantics": "descriptive_per_scenario_per_design_only_no_record_level_inference_no_scenario_pooling",
+  "review_correction": "record_level_Wilson_intervals_and_scenario_mixed_aggregates_removed_superseded_output_not_valid_evidence",
+  "data_kind": "synthetic",
+  "calibration_status": "generic_non_calibrated",
+  "analysis_scripts": {
+    "simulate_washout_design.py": "bef998a2a25075c6ae3392cda4d208f9b723b5ce6aaa2891aaa085e62ce9ce34",
+    "washout_design.py": "43bf3d394f0e1306ba477619963c08a4fae2b4ba5b4d06e7eeb83db08b83f898",
+    "washout_model.py": "6a58ea3a760715ce66d3108d66420ae0568bfb9ee53815ee380cf77779989af2",
+    "fit_washout.py": "0d3b1f076c0a99fa7b639a2e366a7eeeb8a3320180b48d1ba3a09abb81fb1de9"
+  },
+  "fit_primitive": "washout_model.fit_washout",
+  "seeds": {
+    "master": 20261115,
+    "hierarchy": "SeedSequence([master, stream, system_index, replicate_index]); scenarios omitted for common random numbers; stream IDs: system=10, pair=20, shared_noise=30, KT-939=40, thiamidol=41"
+  },
+  "scenarios": [
+    {
+      "name": "ratio_1_00",
+      "half_time_ratio": 1.0
+    },
+    {
+      "name": "ratio_1_25",
+      "half_time_ratio": 1.25
+    },
+    {
+      "name": "ratio_1_50",
+      "half_time_ratio": 1.5
+    },
+    {
+      "name": "ratio_2_00",
+      "half_time_ratio": 2.0
+    }
+  ],
+  "designs": {
+    "full": {
+      "timepoints_days": [
+        0,
+        1,
+        3,
+        5,
+        7,
+        9,
+        11,
+        14,
+        21
+      ],
+      "replicates": 3,
+      "systems": [
+        "MNT-1",
+        "synthetic_donor_1",
+        "synthetic_donor_2"
+      ],
+      "system_accounting": {
+        "system_count": 3,
+        "donor_count": 2,
+        "reference_cell_line_count": 1,
+        "mnt1_represented": true,
+        "mnt1_count": 1
+      },
+      "readout_flags": {
+        "total": true,
+        "old_fraction": true,
+        "compound": true
+      }
+    },
+    "reduced": {
+      "timepoints_days": [
+        0,
+        3,
+        7,
+        14,
+        21
+      ],
+      "replicates": 2,
+      "systems": [
+        "MNT-1",
+        "synthetic_donor_1"
+      ],
+      "system_accounting": {
+        "system_count": 2,
+        "donor_count": 1,
+        "reference_cell_line_count": 1,
+        "mnt1_represented": true,
+        "mnt1_count": 1
+      },
+      "readout_flags": {
+        "total": true,
+        "old_fraction": true,
+        "compound": true
+      }
+    },
+    "minimal": {
+      "timepoints_days": [
+        0,
+        3,
+        7,
+        14
+      ],
+      "replicates": 2,
+      "systems": [
+        "MNT-1",
+        "synthetic_donor_1"
+      ],
+      "system_accounting": {
+        "system_count": 2,
+        "donor_count": 1,
+        "reference_cell_line_count": 1,
+        "mnt1_represented": true,
+        "mnt1_count": 1
+      },
+      "readout_flags": {
+        "total": true,
+        "old_fraction": true,
+        "compound": true
+      }
+    }
+  },
+  "proposed_decision_metadata": {
+    "approval_status": "proposed_not_owner_approved_not_go_no_go",
+    "symmetric_half_time_ratio": {
+      "operator": "<",
+      "threshold": 1.5
+    },
+    "both_arms_day14_synthesis_recovery": {
+      "operator": ">=",
+      "threshold": 0.8
+    },
+    "formal_equivalence": false
+  },
+  "isotope_readout": {
+    "required": true,
+    "fit_field": "old_fraction",
+    "interpretation": "old_new_pool_identifiability_only_not_an_assay_lod_measurement"
+  },
+  "limitations": [
+    "All ground truths, system effects, pair effects, readouts, and noise are generic synthetic assumptions; neither arm is compound-calibrated.",
+    "The ic50 inputs represent generic free-compound synthesis inhibition, never accumulated-pigment IC50 substitutions.",
+    "The isotope old_fraction readout is mandatory for old/new pool identifiability; its recoverability is not an assay LOD measurement.",
+    "MNT-1 is one represented reference cell-line system, not a donor and not evidence of donor or tissue generalizability.",
+    "Synthetic donor/system multipliers are shared across arms but are not fitted with a donor mixed-effects model; fits are separate arm-level fits.",
+    "Confidence intervals are legacy Jacobian-linearized parameter intervals and delta-method derived intervals; coverage is a descriptive synthetic diagnostic, not a guarantee.",
+    "Within-system replicates are correlated and ratio scenarios/nested designs reuse random streams and observations. Record summaries are descriptive counts/fractions within one scenario/design only, with no independent-Bernoulli assumption, Wilson or other record-level inferential interval, decision probability, or scenario-pooled primary/control aggregate.",
+    "The proposed ratio <1.5 and both-arm day-14 recovery >=0.80 metadata are unapproved simulation conditions, not go/no-go criteria or formal equivalence.",
+    "No-isotope controls diagnose loss of old/new identifiability and never authorize dropping isotope from a candidate design.",
+    "Nested reduced/minimal results share full-design observations; they do not establish biological sufficiency, cost effectiveness, owner adoption, or a preferred design.",
+    "No ocular, clinical, safety, efficacy, procurement, facility-contact, spending, or gate-passage conclusion follows from this run."
+  ],
+  "facility_contact": false,
+  "spending": false,
+  "wet_lab_work": false,
+  "ocular_or_clinical_claims": false,
+  "owner_design_adoption": false,
+  "gate_passage": false
+}

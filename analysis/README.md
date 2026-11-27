@@ -202,6 +202,14 @@ The ratio `<1.5` and both-arm day-14 recovery `>=0.80` conditions remain propose
 
 Validation observed after the review correction: focused `test_washout*.py` passed 39/39; full top-level analysis `test_*.py` passed 99/99; measured-melanin optics passed 16/16 with `PYTHONDONTWRITEBYTECODE=1 ../../.venv/bin/python3 -m unittest test_optics_v1 -v` from `analysis/optics-v1-measured-melanin-run-2026-11-09`; no skips were reported. New regressions independently check noiseless forward truths, realized shared arm multipliers, configured true ratios, one-arm failure decisions, every runtime source and assumptions hash, and the saved November 15 receipt/artifacts read-only. The artifact verifier passed 120 selected artifacts with the project `.venv`. The earlier `/usr/bin/python3` 3.12.3 artifact-verifier attempt failed before script execution with `ModuleNotFoundError: No module named 'json'`; the existing `.venv` invocation succeeded. The corrected run was regenerated once after preserving `/tmp/iris-washout-paired-design-simulation-run-2026-11-15-pre-review-backup`; its two output hashes, four runtime-source hashes plus CLI receipt hash, and assumptions hash passed independent read-only verification. An output collision returned exit 2 with unchanged `results.json`. The November 10 archive and legacy washout files remained unchanged.
 
+## Replay the paired synthetic washout archive
+
+Use Python 3.12 with NumPy 2.5.4 and SciPy 1.18.1, as in the [GitHub Actions workflow](../.github/workflows/paired-washout.yml). Run from the repository root:
+
+    python -B -m unittest discover -s analysis -p test_replay_paired_washout.py -v
+
+The check verifies the archived receipt, generates a fresh run in a temporary directory and verifies its receipt. It checks the status, three proposed conditions and fitted half-time ratio for each of the 68 archived primary synthetic fits. Conditions must agree exactly and ratios may differ by up to 0.00001 to allow numerical drift across SciPy builds. This checks whether the synthetic result reproduces in software.
+
 ## Targets and structures
 
 The existing CLI fetched:
