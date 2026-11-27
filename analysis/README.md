@@ -22,7 +22,8 @@ These are AI-run research calculations on hypothetical balances and existing pub
 - [Optics v1 measured-melanin run](optics-v1-measured-melanin-run-2026-11-09/): the same layered forward model with the assumed power-law melanin spectra replaced by pinned measured Sarna & Swartz 1988 extinction coefficients (550-normalized shapes); 550 nm magnitudes remain order-of-magnitude assumptions; calibration gate still unevaluated.
 - [Hue-window measured-melanin exploration](hue-window-measured-melanin-run-2026-11-09/MODEL_REPORT.md): the hue-window exploration re-run with the same measured melanin spectral shapes instead of the swept pheomelanin exponent; the qualitative finding is unchanged — orange and purple windows stay unreachable over a dark back and still require a strong reddish back return.
 - [F5 washout-kinetics pipeline](washout-fit-pipeline-validation-2026-11-10/MODEL_REPORT.md): multi-readout washout fitter separating synthesis flux, old-pigment pool, and free-compound inhibition, validated on synthetic/hypothetical data only; ready to consume Phase-2 paired-washout data when a facility delivers it.
-- [Phase-1 feasibility-gate evaluator](gate-evaluation-demo-2026-11-10/run/EVALUATION_REPORT.md): mechanical pass/fail on predeclared criteria from `research/core-facility-quote-request.md` §5, exercised on clearly labeled synthetic facility reports; ready for real Phase-1 gate data.
+- [Paired generic synthetic G1 design simulation](washout-paired-design-simulation-run-2026-11-15/MODEL_REPORT.md): KT-939/thiamidol-labelled generic arms across four half-time-ratio scenarios and nested full/reduced/minimal designs; mandatory isotope, shared effects/common random numbers, descriptive per-scenario/per-design matched-fit counts and fractions, linearized-CI diagnostics, separately matched no-isotope controls, explicit MNT-1 accounting, and receipted hashes.
+- [Phase-1 feasibility-gate evaluator](gate-evaluation-demo-2026-11-10/run/EVALUATION_REPORT.md): mechanical per-gate results on unchanged predeclared criteria, now with fail-closed schema/type/unit/provenance and run-metadata checks plus valid synthetic facility-style fixtures; the linked November 10 output is an archived schema-1.0 artifact, not measured facility evidence.
 - [Workbench status](WORKBENCH_STATUS.md): actual runtime and check outcomes.
 
 ## Reproduce the hue-window exploration
@@ -170,6 +171,37 @@ The pipeline is deliberately built to consume Phase-2 paired-washout data the mo
 
 Developed by AI assistant; owner-reviewed before interpretation.
 
+
+## Reproduce the paired generic synthetic G1 design simulation
+
+Run from this repository with the existing project virtual environment (Python 3.12.16, NumPy 2.5.4, SciPy 1.18.1); no additional dependency is used:
+
+    PYTHONDONTWRITEBYTECODE=1 .venv/bin/python3 -m unittest discover -s analysis -p 'test_washout*.py' -v
+    PYTHONDONTWRITEBYTECODE=1 .venv/bin/python3 analysis/simulate_washout_design.py --assumptions analysis/washout_design_assumptions.json --out analysis/new-paired-washout-design-run
+    PYTHONDONTWRITEBYTECODE=1 .venv/bin/python3 -m unittest discover -s analysis -p 'test_*.py' -v
+    PYTHONDONTWRITEBYTECODE=1 .venv/bin/python3 analysis/verify_artifacts.py
+
+The output path must be new; an existing path exits with an error without changing its contents. The receipted November 15 run used `analysis/washout-paired-design-simulation-run-2026-11-15` as the output path. `washout_design_assumptions.json` is the frozen generic/non-calibrated input. Its `ic50` values describe only assumed free-compound synthesis inhibition, not accumulated-pigment IC50. `washout_design.py` reuses the unchanged `simulate_washout`, `fit_washout`, `PARAM_NAMES`, `write_json`, and `build_receipt` primitives.
+
+Full uses nine timepoints, three replicates, and three systems (two generic synthetic donors plus one MNT-1 reference cell-line system). Reduced uses five timepoints, two replicates, one synthetic donor, and MNT-1; minimal uses four timepoints with the same two systems and two replicates. Reduced/minimal records are exact nested subsets of the full observations. System/pair effects are shared across arms and random streams are common across ratios; no donor mixed-effects model is fitted. Every candidate design retains total melanin, free compound, and isotope `old_fraction` readouts. No-isotope fits are labelled diagnostic negative controls only.
+
+**Independent-review correction:** the superseded development output incorrectly used record-level Wilson intervals and scenario-mixed no-isotope aggregates. Those outputs are not valid evidence. Within-system replicates are correlated, scenario copies use common random numbers, and scenario-mixed records have no single probability meaning. The corrected run removes the Wilson utility and every record-level inferential probability interval. Decisions, failures, and CI coverage now contain only descriptive matched-fit counts/fractions within one scenario/design. No primary or control result is pooled across scenarios; each no-isotope comparison is matched on scenario, design, system, replicate, and observations.
+
+The actual run contains 68 primary paired records (136 separate arm fits) as operational run-size accounting, not pooled-scenario evidence, with no primary fit or covariance failures. Descriptive counts of both proposed conditions, reported separately for each scenario/design, were:
+
+| True half-time ratio | Full | Reduced | Minimal |
+| ---: | ---: | ---: | ---: |
+| 1.00 | 9/9 | 4/4 | 4/4 |
+| 1.25 | 9/9 | 4/4 | 4/4 |
+| 1.50 | 4/9 | 2/4 | 2/4 |
+| 2.00 | 0/9 | 0/4 | 0/4 |
+
+At true ratio 2.00, descriptive both-arm recovery >=0.80 counts were 3/9 full, 1/4 reduced, and 1/4 minimal; mean fitted thiamidol-labelled recovery was 0.792, 0.784, and 0.775 respectively. Separately within each scenario, full-design KT-939-labelled no-isotope old/new median-CI width ratios were 264.85/297.63 with covariance failures 3/9; these common-random-number repetitions are not independent confirmations. Full thiamidol-labelled width ratios and covariance-failure counts were 15.54/16.96 and 1/9 at ratio 1.00, 22.31/24.46 and 7/9 at 1.25, 2.96/2.65 and 5/9 at 1.50, and 4.91/6.07 and 8/9 at 2.00. In every reduced/minimal scenario, no-isotope covariance failed for 4/4 fits per arm and old/new CI width ratios were not evaluable. These are correlated descriptive records, not independent Bernoulli samples, probabilities, or pooled-scenario evidence; they do not select a preferred design.
+
+The ratio `<1.5` and both-arm day-14 recovery `>=0.80` conditions remain proposed, configurable, owner-unapproved metadata, not go/no-go criteria or formal equivalence. Isotope recoverability is an identifiability diagnostic, not an assay LOD measurement. MNT-1 is not a donor. Linearized/delta-method CIs showed imperfect descriptive coverage counts and sometimes large recovery widths in this synthetic run; they are not guaranteed uncertainty intervals. No variance estimator, mixed-effects population model, independence correction, or formal decision probability is supplied. No ocular, clinical, facility-contact, spending, adoption, or gate-passage conclusion follows.
+
+Validation observed after the review correction: focused `test_washout*.py` passed 39/39; full top-level analysis `test_*.py` passed 99/99; measured-melanin optics passed 16/16 with `PYTHONDONTWRITEBYTECODE=1 ../../.venv/bin/python3 -m unittest test_optics_v1 -v` from `analysis/optics-v1-measured-melanin-run-2026-11-09`; no skips were reported. New regressions independently check noiseless forward truths, realized shared arm multipliers, configured true ratios, one-arm failure decisions, every runtime source and assumptions hash, and the saved November 15 receipt/artifacts read-only. The artifact verifier passed 120 selected artifacts with the project `.venv`. The earlier `/usr/bin/python3` 3.12.3 artifact-verifier attempt failed before script execution with `ModuleNotFoundError: No module named 'json'`; the existing `.venv` invocation succeeded. The corrected run was regenerated once after preserving `/tmp/iris-washout-paired-design-simulation-run-2026-11-15-pre-review-backup`; its two output hashes, four runtime-source hashes plus CLI receipt hash, and assumptions hash passed independent read-only verification. An output collision returned exit 2 with unchanged `results.json`. The November 10 archive and legacy washout files remained unchanged.
+
 ## Targets and structures
 
 The existing CLI fetched:
@@ -185,7 +217,7 @@ The existing CLI fetched:
 
 Run from this repository with Python 3.11 or later; only the standard library is used:
 
-    python3 analysis/evaluate_gates.py --report analysis/gate-evaluation-demo-2026-11-10/synthetic-report --criteria analysis/gate_criteria.json --out analysis/new-gate-evaluation-run
-    python3 -m unittest analysis/test_evaluate_gates.py -v
+    PYTHONDONTWRITEBYTECODE=1 python3 analysis/evaluate_gates.py --report analysis/gate-evaluator-fixtures/valid-synthetic --criteria analysis/gate_criteria.json --out analysis/new-gate-evaluation-run
+    PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s analysis -p 'test_evaluate_gates.py' -v
 
-The output directory must be new. The evaluator reads JSON gate reports from the report directory and applies thresholds declared in `analysis/gate_criteria.json`. The criteria file includes provenance citations to the RFQ and marks PROPOSED thresholds awaiting owner confirmation. Unknown or missing fields are reported as "not evaluable", never silently passed. The evaluator writes `gate_evaluation.json` (per-criterion observed value, threshold, pass/fail), `EVALUATION_REPORT.md`, and `receipt.json` with SHA-256 of inputs and outputs. See `analysis/README_gates_input_format.md` for the report schema, which maps 1:1 to the deliverable table in `research/core-facility-quote-request.md` §4. Today the tool is validated only on clearly labeled synthetic data; no facility data are claimed.
+The output directory must be new. Schema 1.1 rejects malformed JSON, duplicate keys, unknown fields/files, missing compound or readout declarations, wrong/missing units, ambiguous booleans, non-finite numbers, inconsistent provenance, and mismatched gate/run metadata before creating output. A completely missing gate or an explicit null readout is "not evaluable", never silently passed. The evaluator writes `gate_evaluation.json`, `EVALUATION_REPORT.md`, and `receipt.json` with input/output SHA-256 values and the validated shared `data_kind`, `facility_id`, and `run_id`; it does not hardcode synthetic output or accept a measured label without the measured provenance declarations. Provenance references are checked for schema consistency, not authenticated as real facility evidence. See `analysis/README_gates_input_format.md` for the strict contract and `analysis/gate-evaluator-fixtures/valid-synthetic/` for complete fixtures. The archived November 10 schema-1.0 demo is preserved unchanged and is not accepted as new input. Thresholds remain predeclared and unchanged, including PROPOSED status awaiting owner confirmation. Tests exercise synthetic fixtures and hypothetical metadata paths only; no measured facility data, design adoption, feasibility verdict, or biological/clinical validation is claimed.

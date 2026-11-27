@@ -1,10 +1,34 @@
 # Reversible cosmetic iris pigmentation through drugs
 
-A theoretical research project about cosmetic iris-color change without contacts or surgery. The lead question is whether sustained, reversible drug modulation of melanin production could gradually lighten an iris over months or years, and permit repigmentation after stopping.
+A theoretical research project about cosmetic iris-color change without contacts or surgery. The lead question is whether sustained, reversible drug modulation of melanin production could gradually lighten an iris over months or years, and permit repigmentation after stopping. This is a personal hobby and learning project with AI-assisted synthesis.
 
 The earlier bidirectional goal remains: **blue → dark brown → the same person's original blue**. Lightening a naturally brown iris and reversing a drug-induced darkening are related questions with potentially different kinetics.
 
 ## Latest completed exploration
+
+In the [AI-run paired G1 washout simulation](analysis/washout-paired-design-simulation-run-2026-11-15/MODEL_REPORT.md), the full design produced estimates on both sides of the proposed cutoff when the true synthetic half-time ratio was 1.50. Four of nine fitted pairs fell below 1.50. The fits share modeled system effects, so the count describes this synthetic scenario only.
+
+The artifact verifier checks the two outputs, frozen assumptions and four runtime sources. From the repository root, use the saved run or a fresh version 2 run.
+
+```bash
+python3 analysis/verify_artifacts.py --paired-washout analysis/washout-paired-design-simulation-run-2026-11-15 --compare-nested --ratio-cutoff 1.497
+```
+
+The comparison matches records by synthetic system and replicate within each scenario. At the 1.50 boundary, each smaller design retained four full-design pairs. Two of the retained pairs stayed below the cutoff and two stayed at or above it in all three fits. The other five full-design fits were outside that matched comparison. Across the four scenarios, the median absolute ratio change from full to minimal ranged from 0.0078 to 0.0109 on the retained pairs. These descriptive results use one saved set of shared synthetic observations.
+
+The ratio-only sensitivity compares the saved fits at the proposed cutoff and 0.01 on either side. It also reports the exact cutoff range for each disagreement. Because the comparison is strict (`ratio < cutoff`), the lower edge is excluded and the upper edge is included. In the synthetic 1.50 scenario, the example cutoff of 1.497 splits the full and minimal fits for one pair. Its full-design estimate is about 1.49506 and its minimal-design estimate about 1.49951. `--ratio-cutoff` can be repeated to inspect other illustrative cutoffs using the same fitted data.
+
+The `three_design_ratio_agreement` section compares full, reduced and minimal
+fits on one common denominator per scenario. For each cutoff it counts pairs
+with all three ratios below it, all three at or above it, or disagreement.
+`pairs_in_any_design` counts distinct system/replicate pairs observed at least
+once. For each design, `coverage_by_design` counts pairs observed and absent
+among that total. Its `observed_outside_match` counts pairs present in this
+design and missing from at least one other design. Matched pairs with an
+unevaluable fit are counted separately. The counts describe the stored
+synthetic fits and use the strict `ratio < cutoff` comparison.
+
+Omit `--compare-nested` for the receipt check alone. Use `--assumptions PATH` if the run used a different input file.
 
 The optics model melanin spectral shapes now use pinned measured Sarna & Swartz 1988 extinction coefficients (see [analysis/optics-v1-measured-melanin-run-2026-11-09/](analysis/optics-v1-measured-melanin-run-2026-11-09/) and [analysis/hue-window-measured-melanin-run-2026-11-09/](analysis/hue-window-measured-melanin-run-2026-11-09/)). The qualitative finding from the hue-window re-run is unchanged versus the earlier power-law assumption: orange and purple CIELAB windows remain unreachable over a dark pigment-epithelium back, and a strong translucent-red back return is still required.
 
@@ -40,6 +64,7 @@ The primary cosmetic objective is repeatable living-eye appearance change with p
 - [Milestone and budget ledger](research/milestone-budget-ledger.md) — living milestone tracker, quote-and-spend log, and go/no-go review record.
 - [Mechanism shortlist](research/mechanism-shortlist.md) — current prioritization, completed computation and next discriminating questions.
 - [Computational analysis](analysis/README.md) — reproducible models, human iris data checks and workbench runs.
+- [Phase-1 gate evaluator input contract](analysis/README_gates_input_format.md) — strict software checks for units, compound/readout declarations, provenance and shared run metadata; only synthetic fixtures are included, with no facility result or feasibility verdict recorded.
 - [Chronic drug modulation](research/chronic-pharmacologic-modulation.md) — lead track: foundations, hypothetical combinations, sensitivity models, and targeted questions.
 - [Bidirectional iris reversibility](research/bidirectional-reversibility.md) — blue-to-brown-to-baseline goal and evidence requirements.
 - [Paired exposure/withdrawal protocol](research/paired-exposure-withdrawal-protocol.md) — proposed discriminating cell study across the named candidates.
